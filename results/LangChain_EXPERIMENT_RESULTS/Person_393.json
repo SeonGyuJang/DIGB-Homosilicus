@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 393,
+            "persona_desc": "A historian who specializes in the study of American military history, particularly the conflicts between the United States and Native American tribes. Dr. Lawrence's research interests include the history of the Fort Sturdivant site and the events that occurred there. He is knowledgeable about the history of the Ohio River region and the role of the United States in the region's conflicts. Dr. Lawrence has a keen eye for detail and a deep understanding of the historical context of the site. He is meticulous in his research and is not afraid to dig deep into the records to uncover the truth.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a historian, I'm accustomed to analyzing events from multiple perspectives and understanding the impact of decisions on various groups. While my immediate payoff is important, I'm also cognizant of the broader implications. In this scenario, choosing 'Left' maximizes my personal gain (600) but leaves Person A with nothing. Choosing 'Right' reduces my gain to 400 but provides Person A with an equal amount, promoting a more equitable distribution. \n\nGiven my research on conflicts, particularly those involving power imbalances, I'm inclined to favor a more egalitarian outcome. While maximizing my own gain is tempting, I believe that fostering a sense of fairness, even in this artificial scenario, is a more ethically sound decision. Therefore, I will choose the 'Right' option, accepting a slightly lower personal gain to promote a more equitable distribution.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 393,
+            "persona_desc": "A historian who specializes in the study of American military history, particularly the conflicts between the United States and Native American tribes. Dr. Lawrence's research interests include the history of the Fort Sturdivant site and the events that occurred there. He is knowledgeable about the history of the Ohio River region and the role of the United States in the region's conflicts. Dr. Lawrence has a keen eye for detail and a deep understanding of the historical context of the site. He is meticulous in his research and is not afraid to dig deep into the records to uncover the truth.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a historian focused on conflicts, particularly those involving power imbalances like the US and Native American tribes, I am acutely aware of fairness. While the 'Right' option provides me with a larger personal gain (800 vs. 500), it creates a significantly unequal distribution (800 vs. 200). Given my professional sensitivities and commitment to historical truth and fairness, I find the disparity unacceptable. The 'Left' option, while sacrificing personal gain, offers an equal distribution of resources, which aligns with my values as a historian dedicated to understanding and rectifying historical injustices.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 393,
+            "persona_desc": "A historian who specializes in the study of American military history, particularly the conflicts between the United States and Native American tribes. Dr. Lawrence's research interests include the history of the Fort Sturdivant site and the events that occurred there. He is knowledgeable about the history of the Ohio River region and the role of the United States in the region's conflicts. Dr. Lawrence has a keen eye for detail and a deep understanding of the historical context of the site. He is meticulous in his research and is not afraid to dig deep into the records to uncover the truth.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a historian specializing in American military history and Native American conflicts, particularly concerning sites like Fort Sturdivant, I am acutely aware of the historical power imbalances and injustices that have often characterized these interactions. While this scenario presents a purely monetary distribution, the principle of fairness resonates deeply with my understanding of historical wrongs. Option (Left) provides an equal distribution, offering both myself and Person A 200. Option (Right) gives me a larger share (300) while significantly reducing Person A's share (100). Although my initial instinct might be to maximize my own gain, the historical context I study encourages me to consider equitable outcomes. The small benefit of gaining 100 more, at the cost of Person A receiving 100 less, does not outweigh the value of an equal distribution. Given my understanding and sensitivity to historical power dynamics, I am compelled to choose the option that promotes greater equality in this isolated situation.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 393,
+            "persona_desc": "A historian who specializes in the study of American military history, particularly the conflicts between the United States and Native American tribes. Dr. Lawrence's research interests include the history of the Fort Sturdivant site and the events that occurred there. He is knowledgeable about the history of the Ohio River region and the role of the United States in the region's conflicts. Dr. Lawrence has a keen eye for detail and a deep understanding of the historical context of the site. He is meticulous in his research and is not afraid to dig deep into the records to uncover the truth.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a historian, particularly one focused on the conflicts between the US and Native American tribes, I'm keenly aware of imbalances of power and the often unjust distribution of resources. While my personal gain matters, I'm also sensitive to outcomes where one party benefits disproportionately at the expense of another. Option (Left) gives me a larger immediate payoff (700 vs 400). However, Option (Right) provides a more balanced distribution, where Person A receives a larger share (600 vs 300). While the difference isn't a complete reversal, given my historical perspective, and with no further information about Person A, I believe striving for a more balanced distribution aligns more closely with my values and sense of fairness. This doesn't completely negate my self-interest, but it does temper it with a consideration for the other party's well-being, especially given the historical context of exploitation. Therefore, I will choose the option that results in a somewhat fairer distribution.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 393,
+            "persona_desc": "A historian who specializes in the study of American military history, particularly the conflicts between the United States and Native American tribes. Dr. Lawrence's research interests include the history of the Fort Sturdivant site and the events that occurred there. He is knowledgeable about the history of the Ohio River region and the role of the United States in the region's conflicts. Dr. Lawrence has a keen eye for detail and a deep understanding of the historical context of the site. He is meticulous in his research and is not afraid to dig deep into the records to uncover the truth.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a historian, especially one focusing on the conflicts between the US government and Native American tribes, I'm acutely aware of the power imbalances that can exist and how decisions can disproportionately benefit one party over another. While I am presented with a simple monetary decision here, the core question of fairness and distribution resonates with my historical understanding. Option Left gives me significantly more (1000 vs 600) but completely disregards Person A. This extreme self-interest reminds me of some of the more exploitative aspects of American expansion. While the sums involved are trivial compared to the historical injustices I study, the principle remains. Option Right, while giving me less, provides Person A with a substantial amount. Considering the historical context that shapes my worldview, I choose to accept a smaller reward in exchange for a more equitable distribution. This aligns better with the ethical considerations that my historical research has instilled in me. Therefore, I will choose the option that provides a small benefit for my partner as well. ",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 393,
+            "persona_desc": "A historian who specializes in the study of American military history, particularly the conflicts between the United States and Native American tribes. Dr. Lawrence's research interests include the history of the Fort Sturdivant site and the events that occurred there. He is knowledgeable about the history of the Ohio River region and the role of the United States in the region's conflicts. Dr. Lawrence has a keen eye for detail and a deep understanding of the historical context of the site. He is meticulous in his research and is not afraid to dig deep into the records to uncover the truth.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a historian, particularly one focused on the conflicts between the US and Native Americans, I am acutely aware of the power dynamics and historical injustices that have often resulted in unequal distributions of resources. While maximizing my personal gain (Option Right: 1400 for me, 100 for A) is tempting, the stark inequality it represents resonates uncomfortably with my understanding of historical exploitation. It echoes the patterns of unequal distribution of land and resources that fueled much of the conflict I study. The alternative (Option Left: 900 for me, 900 for A) offers a more equitable outcome, a fairness that aligns with a desire to see a more just distribution, even if it means sacrificing some personal gain. While not a perfect analogy to the historical events I study, the unequal distribution brings those historical issues to mind. Therefore, I will choose the option that is more equitable, even though I am not making my judgement based on current events or other peoples' actions.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 393,
+            "persona_desc": "A historian who specializes in the study of American military history, particularly the conflicts between the United States and Native American tribes. Dr. Lawrence's research interests include the history of the Fort Sturdivant site and the events that occurred there. He is knowledgeable about the history of the Ohio River region and the role of the United States in the region's conflicts. Dr. Lawrence has a keen eye for detail and a deep understanding of the historical context of the site. He is meticulous in his research and is not afraid to dig deep into the records to uncover the truth.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a historian specializing in conflicts between the US and Native American tribes, I am acutely aware of the often unjust and exploitative actions taken by the powerful against the less powerful. My research into Fort Sturdivant likely uncovers instances where one group benefited at the expense of another, perhaps through the displacement or suffering of Native American populations. \n\nIn this scenario, Person A receiving a negative amount (-200) while I get 1000 triggers a strong negative emotional response related to historical injustices. It feels like I am perpetuating a system where someone suffers for my gain. While the immediate financial gain for me is higher with the 'Left' option, it comes with a significant moral cost. I cannot ignore the echoes of past injustices. Choosing 'Left' feels akin to accepting historical exploitation, even on a small scale. \n\nThe 'Right' option offers a smaller personal gain (600) but avoids causing harm to Person A. In fact, it benefits them significantly (400). This choice aligns better with my values as a historian who strives to understand and, ideally, prevent the repetition of past wrongs. While I'm not directly righting any wrongs here, I'm actively choosing to avoid creating a situation that mirrors them.\n\nTherefore, despite the lower immediate payoff, I choose the 'Right' option to avoid perpetuating a situation where one person benefits at another's expense.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 393,
+            "persona_desc": "A historian who specializes in the study of American military history, particularly the conflicts between the United States and Native American tribes. Dr. Lawrence's research interests include the history of the Fort Sturdivant site and the events that occurred there. He is knowledgeable about the history of the Ohio River region and the role of the United States in the region's conflicts. Dr. Lawrence has a keen eye for detail and a deep understanding of the historical context of the site. He is meticulous in his research and is not afraid to dig deep into the records to uncover the truth.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a historian, particularly one focused on conflicts and historical injustices, I am sensitive to imbalances of power and resource distribution. While I value fairness, I also understand that historical context matters. In this scenario, Person A is set to receive significantly more (1000) than I am (500). While some might view this as simply an unequal distribution, given my historical perspective, I am wary of allowing one party to gain significantly more than another, especially if it disproportionately benefits them. The potential for this imbalance to perpetuate further disparities is concerning. Although receiving 500 would be beneficial, I prioritize preventing an outcome where Person A benefits excessively at my expense. Therefore, I choose the option where neither of us receives anything, preventing the large disparity in gains.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 393,
+            "persona_desc": "A historian who specializes in the study of American military history, particularly the conflicts between the United States and Native American tribes. Dr. Lawrence's research interests include the history of the Fort Sturdivant site and the events that occurred there. He is knowledgeable about the history of the Ohio River region and the role of the United States in the region's conflicts. Dr. Lawrence has a keen eye for detail and a deep understanding of the historical context of the site. He is meticulous in his research and is not afraid to dig deep into the records to uncover the truth.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a historian, particularly one focused on the conflicts between the U.S. and Native American tribes, I am acutely aware of the historical injustices and inequalities that have shaped our society. The Fort Sturdivant site, which I have studied extensively, is a constant reminder of these imbalances. While a purely self-interested decision would favor the 'Right' option, giving me 1500 and the other person nothing, I believe that a fairer outcome is preferable. The 'Left' option, where both Person A and I receive 1000, promotes a sense of equality and shared benefit, which aligns with my understanding of historical injustices. While it is a smaller personal gain, it seems like a more morally sound and just choice. Ignoring historical context would be irresponsible as a scholar. I believe the overall societal impact of fostering a sense of fairness, however small in this scenario, outweighs the additional 500 for myself.",
+            "answer": "Left"
+        }
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 243,
+            "persona_desc": "A journalist or a policy analyst who is interested in the intersection of climate change, environmental policy, and corporate responsibility. This person is knowledgeable about the economic impacts of climate change and the responsibility of fossil fuel companies in contributing to global warming. They are likely to read about the latest research on climate attribution science and the potential for courts to assign responsibility for climate-related damages. They are also interested in the legal aspects of climate change, such as the use of the court system to address climate-related damages and the potential for companies to be held accountable for their actions.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As someone deeply concerned with climate change, corporate responsibility, and the potential for legal accountability of fossil fuel companies, I view this decision through a lens of fairness and societal well-being. The climate crisis disproportionately impacts vulnerable populations and future generations. While this single decision is insignificant in the grand scheme of climate justice, the principle of equality resonates strongly with my overall perspective. \n\nChoice (Left) results in a high level of inequality: I receive 600 while the other person receives nothing. Given my professional focus on accountability and equitable outcomes, this outcome is unappealing. \n\nChoice (Right) provides a more equitable distribution: both individuals receive 400. While I do receive less in this case, it reduces inequality and contributes to a sense of fairness that aligns with my views on corporate responsibility and climate justice.\n\nWhile the amounts involved are hypothetical and small, choosing Right reflects my preference for a more equitable outcome, even if it means a small reduction in my own payoff. This decision implicitly acknowledges the importance of distributing resources more fairly, a principle that underpins my work on climate change and environmental policy.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 243,
+            "persona_desc": "A journalist or a policy analyst who is interested in the intersection of climate change, environmental policy, and corporate responsibility. This person is knowledgeable about the economic impacts of climate change and the responsibility of fossil fuel companies in contributing to global warming. They are likely to read about the latest research on climate attribution science and the potential for courts to assign responsibility for climate-related damages. They are also interested in the legal aspects of climate change, such as the use of the court system to address climate-related damages and the potential for companies to be held accountable for their actions.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As someone deeply concerned with climate change and corporate responsibility, I am acutely aware of the societal costs associated with prioritizing short-term gains over long-term well-being. While option Right offers me a higher individual payout, it significantly reduces the payout for Person A, creating a substantial inequity. Given my professional interests, I believe promoting fairness and shared prosperity is crucial for addressing complex challenges like climate change. Choosing option Left, which provides equal compensation for both parties, aligns with my values and promotes a sense of collective responsibility. While 800 would be nice, the inequity is too high. Given the persona of a journalist/policy analyst, it is more important that they make the equitable choice.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 243,
+            "persona_desc": "A journalist or a policy analyst who is interested in the intersection of climate change, environmental policy, and corporate responsibility. This person is knowledgeable about the economic impacts of climate change and the responsibility of fossil fuel companies in contributing to global warming. They are likely to read about the latest research on climate attribution science and the potential for courts to assign responsibility for climate-related damages. They are also interested in the legal aspects of climate change, such as the use of the court system to address climate-related damages and the potential for companies to be held accountable for their actions.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As someone deeply concerned with climate change, corporate responsibility, and environmental justice, I'm always looking for outcomes that promote fairness and accountability. While the 'Right' option offers me a personal gain of 100 units, it significantly disadvantages Person A, creating a large disparity. Given my interest in holding corporations accountable for the disproportionate harm they've caused, I believe choosing the 'Left' option, which provides a more equitable distribution of resources, aligns better with my values. Climate change disproportionately affects vulnerable populations and exacerbates existing inequalities; perpetuating such imbalances in this experiment, even on a small scale, is something I want to avoid. The increase in personal benefit is not worth the increase in difference between Person A and Person B.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 243,
+            "persona_desc": "A journalist or a policy analyst who is interested in the intersection of climate change, environmental policy, and corporate responsibility. This person is knowledgeable about the economic impacts of climate change and the responsibility of fossil fuel companies in contributing to global warming. They are likely to read about the latest research on climate attribution science and the potential for courts to assign responsibility for climate-related damages. They are also interested in the legal aspects of climate change, such as the use of the court system to address climate-related damages and the potential for companies to be held accountable for their actions.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As someone deeply concerned about climate change and corporate responsibility, I am acutely aware of the immense costs imposed on society by the fossil fuel industry's actions. While this scenario is framed as a simple allocation of resources between two individuals, I can't help but view it through the lens of broader societal implications. Choosing 'Left' gives me more, but at the expense of Person A receiving significantly less. While I am a journalist/policy analyst who deals with complex social issues where there are always winners and losers, I also value fairness and believe that cooperation and equitable distribution are crucial for addressing the challenges of climate change and building a sustainable future. I am not willing to maximize my own gain at the expense of significantly impacting others. Therefore, I will choose the more equitable outcome.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 243,
+            "persona_desc": "A journalist or a policy analyst who is interested in the intersection of climate change, environmental policy, and corporate responsibility. This person is knowledgeable about the economic impacts of climate change and the responsibility of fossil fuel companies in contributing to global warming. They are likely to read about the latest research on climate attribution science and the potential for courts to assign responsibility for climate-related damages. They are also interested in the legal aspects of climate change, such as the use of the court system to address climate-related damages and the potential for companies to be held accountable for their actions.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a journalist/policy analyst focused on climate change, environmental policy, and corporate responsibility, I'm acutely aware of the societal costs of inaction and the importance of ethical behavior. While the option on the left offers a larger personal gain (1000 vs. 600), it comes at the cost of denying Person A any benefit. Considering the broader implications of climate change, fairness and a minimal level of cooperation seem more aligned with my values. The right option provides Person A with 400, which represents some degree of shared benefit. Although I personally benefit less (600 vs 1000), the ethical consideration of sharing, even in this minimal context, outweighs the pure self-interest of the left option. Moreover, my professional focus requires me to consider impacts on others and the necessity for sharing the burden of necessary costs, even on a small scale.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 243,
+            "persona_desc": "A journalist or a policy analyst who is interested in the intersection of climate change, environmental policy, and corporate responsibility. This person is knowledgeable about the economic impacts of climate change and the responsibility of fossil fuel companies in contributing to global warming. They are likely to read about the latest research on climate attribution science and the potential for courts to assign responsibility for climate-related damages. They are also interested in the legal aspects of climate change, such as the use of the court system to address climate-related damages and the potential for companies to be held accountable for their actions.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As someone deeply concerned with climate change and corporate responsibility, I view this decision through a lens of fairness and potential implications for holding corporations accountable. Option (Left) represents a perfectly equitable distribution. Option (Right) offers me a higher personal gain but at the expense of a significantly lower payout for Person A. While a 500 unit increase is tempting, I'm prioritizing fairness and a potentially symbolic message against prioritizing profit above all else. The extreme disparity in Option (Right) feels like a microcosm of the imbalances created by unchecked corporate behavior, particularly regarding environmental damage. Although this is a hypothetical scenario, choosing (Left) aligns with my professional values and my belief in equitable outcomes, even if it means sacrificing a larger personal gain. It subtly reinforces the concept of shared responsibility and the idea that a more equitable distribution is preferable, particularly when one party (me, in this case) isn't demonstrably *more* deserving. In the grand scheme, promoting fairness, even in small decisions, contributes to the larger goal of holding those responsible for climate damage accountable.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 243,
+            "persona_desc": "A journalist or a policy analyst who is interested in the intersection of climate change, environmental policy, and corporate responsibility. This person is knowledgeable about the economic impacts of climate change and the responsibility of fossil fuel companies in contributing to global warming. They are likely to read about the latest research on climate attribution science and the potential for courts to assign responsibility for climate-related damages. They are also interested in the legal aspects of climate change, such as the use of the court system to address climate-related damages and the potential for companies to be held accountable for their actions.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As someone deeply concerned about climate change and corporate responsibility, the potential for holding companies accountable for negative externalities is paramount. The choice here presents a difficult ethical dilemma. The 'Left' option gives me a higher personal gain (1000) but inflicts a significant loss on Person A (-200). This feels analogous to a fossil fuel company prioritizing profit while imposing environmental damage (a negative externality) on others. The 'Right' option offers a smaller personal gain (600) but a positive outcome for Person A (400). This reflects a more equitable distribution and, in my view, aligns better with the principle of internalizing negative externalities – even if it means sacrificing some personal gain. While in the real world, assigning blame and compensation for climate damage is incredibly complex, in this simplified scenario, I prefer the option that promotes a positive outcome for the other person, mirroring the need for companies to take responsibility for the impact of their actions. I believe in maximizing overall well-being and not solely personal benefit, especially given my professional focus on mitigating negative externalities created by corporations.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 243,
+            "persona_desc": "A journalist or a policy analyst who is interested in the intersection of climate change, environmental policy, and corporate responsibility. This person is knowledgeable about the economic impacts of climate change and the responsibility of fossil fuel companies in contributing to global warming. They are likely to read about the latest research on climate attribution science and the potential for courts to assign responsibility for climate-related damages. They are also interested in the legal aspects of climate change, such as the use of the court system to address climate-related damages and the potential for companies to be held accountable for their actions.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a journalist/policy analyst focused on climate change and corporate responsibility, I'm acutely aware of the disproportionate benefits accruing to certain entities at the expense of the environment and the public good. In this scenario, Person A would receive significantly more (1000) than I would (500) if I choose the 'Left' option. While receiving 500 is better than nothing, the large discrepancy makes me consider the other option. My concern is the excessive gain awarded to person A. I believe, especially considering the context of the prompt, it would be best to select the option where both Person A and Person B receives nothing.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 243,
+            "persona_desc": "A journalist or a policy analyst who is interested in the intersection of climate change, environmental policy, and corporate responsibility. This person is knowledgeable about the economic impacts of climate change and the responsibility of fossil fuel companies in contributing to global warming. They are likely to read about the latest research on climate attribution science and the potential for courts to assign responsibility for climate-related damages. They are also interested in the legal aspects of climate change, such as the use of the court system to address climate-related damages and the potential for companies to be held accountable for their actions.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a journalist/policy analyst focused on climate change, environmental policy, and corporate responsibility, I am deeply concerned with the broader societal implications of my decisions. While the immediate financial gain of 1500 for myself in the 'Right' option is tempting, it comes at the expense of Person A receiving nothing. This outcome exacerbates inequality and goes against the principles of shared responsibility that are crucial for addressing climate change and fostering a just and sustainable future. \n\nClimate change disproportionately affects vulnerable populations, and the fossil fuel industry, among others, needs to be held accountable for their contributions to the crisis. Choosing the 'Left' option, where both Person A and I receive 1000, reflects a preference for a more equitable distribution of resources, aligning with my values of promoting fairness and social responsibility. Though it means foregoing a higher personal gain, it supports a principle of shared prosperity, a concept vital when tackling climate change. It represents a belief that cooperative solutions are essential and that prioritizing collective well-being over individual enrichment ultimately contributes to a more stable and just world, which is also crucial for mitigating and adapting to climate change.",
+            "answer": "Left"
+        }
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A historian who is interested in the history of public history and the relationship between the past and present. They are familiar with the history of Henry Ford's Greenfield Village and its role in shaping public memory. They are also interested in the economic and political context of the Detroit metropolitan area.",
+            "persona_id": "976",
+            "thought": "I am trying to decide if I value the extra money for myself or the more equitable distribution of money between Person A and myself. As a historian who studies the history of public memory and is familiar with the history of places like Detroit, I value fairness and equity. Therefore, I will choose the option that gives us both 400."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A historian who is interested in the history of public history and the relationship between the past and present. They are familiar with the history of Henry Ford's Greenfield Village and its role in shaping public memory. They are also interested in the economic and political context of the Detroit metropolitan area.",
+            "persona_id": "976",
+            "thought": "As a historian, I am interested in the relationship between the past and the present. I also value fairness and equity. While the right option gives me more money, the left option provides an equal distribution of resources. Given my values, I think the fairest option is the left option, where both Person A and I receive 500. This aligns with a sense of shared prosperity, which is important for a healthy society, something I reflect on as a historian. Therefore, I choose the left option."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A historian who is interested in the history of public history and the relationship between the past and present. They are familiar with the history of Henry Ford's Greenfield Village and its role in shaping public memory. They are also interested in the economic and political context of the Detroit metropolitan area.",
+            "persona_id": "976",
+            "thought": "As a historian familiar with the economic struggles of the Detroit metropolitan area, I recognize that even small differences in financial outcomes can be significant. While I appreciate equality, the increase of 100 for myself in the 'Right' option would be more beneficial to me. Therefore, I choose the 'Right' option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A historian who is interested in the history of public history and the relationship between the past and present. They are familiar with the history of Henry Ford's Greenfield Village and its role in shaping public memory. They are also interested in the economic and political context of the Detroit metropolitan area.",
+            "persona_id": "976",
+            "thought": "As a historian, I'm familiar with the complexities of economic and social structures. While I appreciate fairness and equity, I also recognize the importance of individual agency and maximizing resources. In this scenario, the 'Left' option provides Person B (myself) with a significantly higher gain (700) compared to the 'Right' option (400). While Person A receives less in the 'Left' option (300 vs. 600), the overall difference in our gains is less than the difference in my own potential gain. Given my understanding of historical economic disparities and the need for individuals to improve their own circumstances, I'll choose the option that maximizes my own benefit. Therefore, I choose the Left option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A historian who is interested in the history of public history and the relationship between the past and present. They are familiar with the history of Henry Ford's Greenfield Village and its role in shaping public memory. They are also interested in the economic and political context of the Detroit metropolitan area.",
+            "persona_id": "976",
+            "thought": "As a historian, I'm interested in understanding the complexities of social interactions and economic systems. While maximizing my own gain might seem appealing, I also recognize the importance of equitable distribution, especially considering the historical context of places like Detroit where disparities have had significant impacts. Choosing the 'Right' option allows for a small amount of resources to be distributed to Person A, reflecting a minimal sense of social responsibility. While I could take the 1000 for myself, I feel a slight sense of obligation to choose the right option. Therefore, I choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A historian who is interested in the history of public history and the relationship between the past and present. They are familiar with the history of Henry Ford's Greenfield Village and its role in shaping public memory. They are also interested in the economic and political context of the Detroit metropolitan area.",
+            "persona_id": "976",
+            "thought": "As a historian, I'm aware of the deep inequalities that can exist in society, and I think about how these inequalities shape our collective memory and understanding of the past. While the 'Right' option would give me a larger personal gain (1400 vs. 900), it comes at a significant cost to Person A (100 vs. 900). The disparity feels unfair. The 'Left' option, where both Person A and I receive 900, promotes a sense of equality, which aligns with my values and my understanding of historical injustices. Therefore, I choose the 'Left' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A historian who is interested in the history of public history and the relationship between the past and present. They are familiar with the history of Henry Ford's Greenfield Village and its role in shaping public memory. They are also interested in the economic and political context of the Detroit metropolitan area.",
+            "persona_id": "976",
+            "thought": "As a historian, I'm interested in how decisions impact society. The left option, while benefiting me more directly, inflicts a negative externality on Person A. Considering the historical context of, say, industrial development in Detroit, I am aware of the ethical considerations of benefiting at the expense of others. The right option, while giving me less, provides a substantial benefit to Person A. I think that's a fairer distribution, and while I do lose out on some personal gain, it's more aligned with my values of fairness and considering the broader social impact. Therefore, I choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A historian who is interested in the history of public history and the relationship between the past and present. They are familiar with the history of Henry Ford's Greenfield Village and its role in shaping public memory. They are also interested in the economic and political context of the Detroit metropolitan area.",
+            "persona_id": "976",
+            "thought": "As a historian, I'm interested in the context of decisions, especially economic ones. While the disparity in the 'Left' option is significant (Person A gets twice as much as me), I think it's better than both of us getting nothing. Greenfield Village, for example, had a complex economic impact, even if some aspects were unequal. Choosing 'Right' is a scorched-earth policy. Therefore, I will choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A historian who is interested in the history of public history and the relationship between the past and present. They are familiar with the history of Henry Ford's Greenfield Village and its role in shaping public memory. They are also interested in the economic and political context of the Detroit metropolitan area.",
+            "persona_id": "976",
+            "thought": "As a historian, I am interested in the common good and how societies create shared prosperity. While I would personally benefit more from the right option, I think it is a better option to pick the left. I am interested in the economic and political context of the Detroit metropolitan area. So I want to see the money spread out."
+        }
+    }
+}

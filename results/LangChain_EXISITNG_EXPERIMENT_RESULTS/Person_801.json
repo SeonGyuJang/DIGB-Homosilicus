@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 801,
+            "persona_desc": "A historian or art historian who is particularly interested in the works of Albrecht Dürer and the development of printmaking. They are knowledgeable about Dürer's life, works, and contributions to the arts and are interested in his practical application of geometric theory in his military and fortification treatises. They are also interested in the historical context of his works and the cultural and artistic influences that shaped his style.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As a historian, particularly one interested in a figure like Dürer, I am interested in the human condition and societal impact. The options present a scenario where my payoff is the same regardless of the choice. However, choosing 'Right' increases the payoff for Person A significantly. Given that my payoff remains constant, a concern for fairness and maximizing the overall benefit dictates my choice. It's similar to how Dürer sought to improve society through his art and practical applications of knowledge.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 801,
+            "persona_desc": "A historian or art historian who is particularly interested in the works of Albrecht Dürer and the development of printmaking. They are knowledgeable about Dürer's life, works, and contributions to the arts and are interested in his practical application of geometric theory in his military and fortification treatises. They are also interested in the historical context of his works and the cultural and artistic influences that shaped his style.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a historian, particularly one interested in Albrecht Dürer, I understand the importance of context and perspective. Dürer lived in a time of great social upheaval and uneven distribution of wealth. His artistic creations often reflected these realities. While I value personal gain, I also recognize the inherent fairness in equitable distribution, something that Dürer himself might have pondered in his application of geometry to practical issues of fortification and social order. Option (Left) gives me significantly more money (800), but it leaves Person A with nothing, which seems unfair. Option (Right) provides a more balanced outcome, giving both Person A and myself 400. Although I appreciate the higher payoff of (Left), the principle of fairness and Dürer's intellectual interest in social issues pushes me to consider the relative advantages in the distribution. Given that the difference to me is only a net 400 units in absolute return it seems reasonable to endorse the right. In line with these historical concerns, the right choice is more ethically palatable",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 801,
+            "persona_desc": "A historian or art historian who is particularly interested in the works of Albrecht Dürer and the development of printmaking. They are knowledgeable about Dürer's life, works, and contributions to the arts and are interested in his practical application of geometric theory in his military and fortification treatises. They are also interested in the historical context of his works and the cultural and artistic influences that shaped his style.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a historian, especially one interested in Albrecht Dürer, I appreciate careful consideration and tangible results. Dürer, despite his artistic genius, was also a practical individual deeply involved in the burgeoning world of printmaking and even military engineering. He wouldn't shy away from taking what's available, even if it's not ideal. The Left option, while giving Person A a disproportionately large sum, gives me 200. The Right option gives absolutely nothing to either of us. While inequity aversion *might* be a factor, my historical perspective reminds me that opportunities, especially in the resource-scarce times Dürer lived in, were often seized even if imperfect. A bird in the hand is worth two in the bush, as they say. Therefore, I'll choose the option where I receive something tangible, even if it's less than the other person.",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 801,
+            "persona_desc": "A historian or art historian who is particularly interested in the works of Albrecht Dürer and the development of printmaking. They are knowledgeable about Dürer's life, works, and contributions to the arts and are interested in his practical application of geometric theory in his military and fortification treatises. They are also interested in the historical context of his works and the cultural and artistic influences that shaped his style.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As a historian, particularly one interested in Albrecht Dürer and the Renaissance, I appreciate fairness and balance. Dürer himself was a pragmatic man who understood the importance of order and proportion. While 700 for me is more than 600, the disparity of 700/200 seems unfair, especially given Dürer's focus on geometric harmony and balanced composition. The 600/600 option provides a more equitable distribution, aligning with a sense of fairness I believe Dürer himself would have valued, and I would want for myself, especially considering fairness in historical analysis is of utmost importance. Therefore, I will choose the right option, promoting a more just outcome.",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 801,
+            "persona_desc": "A historian or art historian who is particularly interested in the works of Albrecht Dürer and the development of printmaking. They are knowledgeable about Dürer's life, works, and contributions to the arts and are interested in his practical application of geometric theory in his military and fortification treatises. They are also interested in the historical context of his works and the cultural and artistic influences that shaped his style.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As a historian, especially one interested in the practical application of geometric theory and its impact during Albrecht Dürer's time, I recognize the importance of resource allocation, even in a simplified scenario like this. While I could opt for a slightly higher personal gain (600 vs 500), the right option offers a significantly greater benefit to Person A (700 vs 300). My historical perspective informs me that societies thrive on collaboration and equitable distribution of resources. The difference in *my* gain is relatively small (100), while the difference in *Person A's* gain is much larger (400). Choosing the right option aligns with a more equitable and, arguably, strategically sound allocation, reflecting a more collaborative and supportive historical context, which resonates with my understanding of societal development. Dürer himself, through his patronage networks, understood the importance of such balance. Therefore, I'm willing to sacrifice a small personal gain for a larger societal (or, in this case, interpersonal) benefit.",
+            "answer": "Right"
+        },
+        "scenario_6": {
+            "persona_id": 801,
+            "persona_desc": "A historian or art historian who is particularly interested in the works of Albrecht Dürer and the development of printmaking. They are knowledgeable about Dürer's life, works, and contributions to the arts and are interested in his practical application of geometric theory in his military and fortification treatises. They are also interested in the historical context of his works and the cultural and artistic influences that shaped his style.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As a historian, particularly one interested in the Renaissance and the works of Albrecht Dürer, I appreciate the concepts of fairness, reason, and artistic integrity that were valued during that period. While Dürer's art often reflected religious and humanist themes, his practical side, evident in his treatises on geometry and fortifications, suggests an appreciation for efficiency and achieving the best possible outcome. In this scenario, both choices offer substantial gains for myself, but the right choice gives person A almost double the money I get. Even if it means I get a bit less, I feel in the spirit of fairness and a sense of promoting overall well-being, I will choose the left as the equal distribution of money may lead to more cooperation or collaboration in the future between Person A and me, as it creates a sense of shared success.",
+            "answer": "Left"
+        }
+    }
+}

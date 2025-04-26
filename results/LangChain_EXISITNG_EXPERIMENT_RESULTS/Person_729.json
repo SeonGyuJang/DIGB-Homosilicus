@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 729,
+            "persona_desc": "A healthcare professional with expertise in cancer diagnosis and treatment, specifically focusing on the lymphatic system and its role in cancer spread. This individual is likely to be interested in reading about the structure and function of lymph nodes, the mechanisms by which cancer cells can infiltrate and metastasize, and the latest advancements in lymph node imaging and treatment strategies. This persona would be interested in understanding the role of lymph nodes in the immune system and how they can be used as diagnostic tools in cancer detection.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As a healthcare professional, particularly one specializing in cancer diagnosis and treatment, I understand the importance of resource allocation and its impact on overall outcomes. While fairness is a consideration, the difference in the amount Person A receives (750 vs. 400) is substantial without negatively impacting my own outcome (Person B receives 400 in either case). In a real-world healthcare context, a difference of 350 units (whatever the units might represent) could significantly benefit research, patient care, or resource development, potentially leading to improved outcomes for a larger population. Since I receive the same amount either way, choosing the option that provides the greater benefit to Person A aligns with my professional values. Furthermore, this is a hypothetical experiment and my choice has no real impact beyond the experiment. Therefore, I choose the option that maximizes the total payoff.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 729,
+            "persona_desc": "A healthcare professional with expertise in cancer diagnosis and treatment, specifically focusing on the lymphatic system and its role in cancer spread. This individual is likely to be interested in reading about the structure and function of lymph nodes, the mechanisms by which cancer cells can infiltrate and metastasize, and the latest advancements in lymph node imaging and treatment strategies. This persona would be interested in understanding the role of lymph nodes in the immune system and how they can be used as diagnostic tools in cancer detection.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a healthcare professional dedicated to fighting cancer, I believe in fairness and promoting positive outcomes, not just for myself but also for others. While option (Left) gives me a higher individual payout (800), it leaves Person A with nothing. Option (Right) provides a significant payout to both Person A and myself (400 each), demonstrating a sense of equality and shared benefit. Given my professional values of care and compassion, and understanding that in real-world healthcare scenarios collaboration and equitable resource distribution are paramount, I would choose the option that promotes fairness, even if it means a smaller personal gain.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 729,
+            "persona_desc": "A healthcare professional with expertise in cancer diagnosis and treatment, specifically focusing on the lymphatic system and its role in cancer spread. This individual is likely to be interested in reading about the structure and function of lymph nodes, the mechanisms by which cancer cells can infiltrate and metastasize, and the latest advancements in lymph node imaging and treatment strategies. This persona would be interested in understanding the role of lymph nodes in the immune system and how they can be used as diagnostic tools in cancer detection.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a healthcare professional specializing in cancer diagnosis and treatment, I am driven by a strong sense of fairness and a desire to help others. While maximizing my own gain is a consideration, my professional ethos emphasizes the importance of societal well-being and the potential impact of resource allocation. In this scenario, the left option significantly benefits Person A (800) at a relatively moderate cost to myself (200). This seems like a socially responsible allocation. The right option benefits no one, which is clearly suboptimal.\n\nGiven my profession and the underlying values, I would lean towards the option that benefits someone even if it is at a slight cost to me. I am assuming this situation does not impact my work in a way where i wouldn't be able to benefit others. Since this experiment is likely anonymous and has no other foreseeable impacts, choosing the left option promotes greater good.",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 729,
+            "persona_desc": "A healthcare professional with expertise in cancer diagnosis and treatment, specifically focusing on the lymphatic system and its role in cancer spread. This individual is likely to be interested in reading about the structure and function of lymph nodes, the mechanisms by which cancer cells can infiltrate and metastasize, and the latest advancements in lymph node imaging and treatment strategies. This persona would be interested in understanding the role of lymph nodes in the immune system and how they can be used as diagnostic tools in cancer detection.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As a healthcare professional specializing in cancer diagnosis and treatment, and understanding the critical role of lymph nodes in cancer spread and the immune system, I value fairness and the importance of resource allocation in healthcare. While maximizing my own gain is a consideration, the principles of equitable distribution and the potential positive impact of resources on others (even abstractly represented by Person A) weigh into my decision. In this scenario, the difference between me getting 700 vs 600 is marginal (100 units). However, the difference between Person A getting 200 vs 600 is more significant (400 units). The right option promotes a more equitable outcome, which aligns with my professional values and my understanding of resource needs and fair distribution, even in an abstract scenario. This choice reflects a preference for equity while still maintaining a substantial benefit for myself.",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 729,
+            "persona_desc": "A healthcare professional with expertise in cancer diagnosis and treatment, specifically focusing on the lymphatic system and its role in cancer spread. This individual is likely to be interested in reading about the structure and function of lymph nodes, the mechanisms by which cancer cells can infiltrate and metastasize, and the latest advancements in lymph node imaging and treatment strategies. This persona would be interested in understanding the role of lymph nodes in the immune system and how they can be used as diagnostic tools in cancer detection.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As a healthcare professional focused on cancer, especially the lymphatic system, I value fairness and resource allocation that can potentially benefit cancer research or patient care. While I am motivated by understanding and treating cancer, I also believe in the importance of collaboration and equitable access to resources. This means I am likely to be fair to Person A. Option 'Left' gives me a higher payout (600 vs. 500) but results in A receiving less than me (300 vs. 700). Option 'Right' gives me less but gives more resources to A. If A is also working on cancer treatments/research, a higher payout for A might lead to larger benefits overall than if I chose option 'Left'. Since I don't know the specifics of what A would do with the money, it's difficult to fully optimize for the best outcome related to cancer. However, considering my general interest in fairness, I will lean toward the more equitable option even if it gives me a little bit less. This aligns with my persona as a healthcare professional who ideally is guided by what's best for the community, even if there's a small sacrifice for myself.",
+            "answer": "Right"
+        },
+        "scenario_6": {
+            "persona_id": 729,
+            "persona_desc": "A healthcare professional with expertise in cancer diagnosis and treatment, specifically focusing on the lymphatic system and its role in cancer spread. This individual is likely to be interested in reading about the structure and function of lymph nodes, the mechanisms by which cancer cells can infiltrate and metastasize, and the latest advancements in lymph node imaging and treatment strategies. This persona would be interested in understanding the role of lymph nodes in the immune system and how they can be used as diagnostic tools in cancer detection.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As a healthcare professional focused on cancer, I understand the importance of resource allocation and the complexities of treatment decisions. While I am motivated by fairness, I also recognize the potential impact of larger sums on research and development, which could ultimately benefit cancer patients. Option Right provides Person A with significantly more resources than option Left. While my own payout is slightly reduced, the overall benefit to the community through increased resources for cancer research could be substantial. Therefore, I will choose Right because maximizing total resources is important, and that it could potentially help in cancer research. \n",
+            "answer": "Right"
+        }
+    }
+}

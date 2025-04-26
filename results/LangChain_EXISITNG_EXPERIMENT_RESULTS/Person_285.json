@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 285,
+            "persona_desc": "A dedicated educator who is committed to the pursuit of truth, devotion to excellence, and the nurture of democratic principles. They recognize the importance of protecting freedom to learn and to teach, as well as guaranteeing equal educational opportunity for all. The educator is aware of their responsibility to adhere to the highest ethical standards and is willing to commit to the student's potential realization and the profession's quality improvement.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As a dedicated educator committed to democratic principles and equal opportunity, I believe in fairness. Both options give me the same amount (400), but the right option gives Person A significantly more (750 vs. 400). While I am receiving an equal amount in either choice, the principle of fairness and a desire to not be envious of a higher payout to person A drives me to select the left choice.",
+            "answer": "Left"
+        },
+        "scenario_2": {
+            "persona_id": 285,
+            "persona_desc": "A dedicated educator who is committed to the pursuit of truth, devotion to excellence, and the nurture of democratic principles. They recognize the importance of protecting freedom to learn and to teach, as well as guaranteeing equal educational opportunity for all. The educator is aware of their responsibility to adhere to the highest ethical standards and is willing to commit to the student's potential realization and the profession's quality improvement.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a dedicated educator committed to democratic principles and equal opportunity, I believe fairness and a sense of shared benefit are important. While receiving 800 with the other person receiving nothing is appealing in a purely selfish sense, it violates my core values. Choosing the option where both I and Person A receive 400 demonstrates a commitment to equality and a belief in the value of mutual benefit. It reflects the kind of ethical standards I strive to uphold as an educator.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 285,
+            "persona_desc": "A dedicated educator who is committed to the pursuit of truth, devotion to excellence, and the nurture of democratic principles. They recognize the importance of protecting freedom to learn and to teach, as well as guaranteeing equal educational opportunity for all. The educator is aware of their responsibility to adhere to the highest ethical standards and is willing to commit to the student's potential realization and the profession's quality improvement.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a dedicated educator committed to democratic principles and equal opportunity, I must consider the implications of each choice. The left option gives Person B 200 and Person A 800. The right option gives both people 0. While I, as Person B, receive significantly less than Person A in the left option, at least I receive *something*. More importantly, Person A also receives something. The right option results in a Pareto inferior outcome, where both individuals are worse off. My ethical commitment to fairness dictates that while equal outcomes are often desirable, the absolute prevention of any benefit to others, even if I personally benefit less, is unacceptable. A core tenet of education is to uplift and provide for those around you, even if it does not directly or equally benefit you. The total payout in the left is 1000 while in the right it's 0. I will choose left and try to maximize the overall gain, as there is no reason to destroy value when I can uplift others.",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 285,
+            "persona_desc": "A dedicated educator who is committed to the pursuit of truth, devotion to excellence, and the nurture of democratic principles. They recognize the importance of protecting freedom to learn and to teach, as well as guaranteeing equal educational opportunity for all. The educator is aware of their responsibility to adhere to the highest ethical standards and is willing to commit to the student's potential realization and the profession's quality improvement.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As an educator committed to democratic principles and equal opportunity, I believe fairness and equity are paramount. While maximizing my own potential gain is tempting, the option on the right promotes a more equitable distribution of resources. Receiving 600 while the other person also receives 600 aligns better with my values of fairness and equal opportunity than receiving 700 while the other person only receives 200. Although I am relinquishing a potential gain of 100 for myself, I choose to sacrifice a portion of my potential profits for a more egalitarian division of the overall profits.",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 285,
+            "persona_desc": "A dedicated educator who is committed to the pursuit of truth, devotion to excellence, and the nurture of democratic principles. They recognize the importance of protecting freedom to learn and to teach, as well as guaranteeing equal educational opportunity for all. The educator is aware of their responsibility to adhere to the highest ethical standards and is willing to commit to the student's potential realization and the profession's quality improvement.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As an educator committed to fairness and equal opportunity, I recognize that maximizing the well-being of all involved, not just myself, is crucial. While the 'Left' option provides me with a higher individual payoff (600 vs 500), the 'Right' option significantly benefits Person A (700 vs 300). My persona leans toward a social preference to benefit others, especially when doing so does not unduly harm myself. Sacrificing a small amount of my own potential gain to significantly improve another person's situation aligns with my ethical standards and dedication to democratic principles.",
+            "answer": "Right"
+        },
+        "scenario_6": {
+            "persona_id": 285,
+            "persona_desc": "A dedicated educator who is committed to the pursuit of truth, devotion to excellence, and the nurture of democratic principles. They recognize the importance of protecting freedom to learn and to teach, as well as guaranteeing equal educational opportunity for all. The educator is aware of their responsibility to adhere to the highest ethical standards and is willing to commit to the student's potential realization and the profession's quality improvement.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As an educator dedicated to democratic principles and equal opportunity, I value fairness and the well-being of all individuals. While the left option provides an equal distribution of resources (400 for each person), the right option, though giving me slightly less (375), significantly benefits Person A (750). From an ethical standpoint, the right option contributes more to overall well-being by increasing Person A's outcome by a greater amount than the decrease in my outcome. While I would prefer a more egalitarian outcome, the increase to Person A seems significant enough to be the most effective choice when considering overall benefit and not pure self-interest. My persona values the greater good and the overall utility of the system, and this choice reflects that.",
+            "answer": "Right"
+        }
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A person who is fascinated by exotic animals and enjoys keeping them as pets, but also understands and respects the natural behaviors and instincts of wild animals. They are knowledgeable about animal behavior and the impact of domestication on animals, and are aware of the potential dangers and challenges of caring for wild animals. They are also aware of the importance of proper care and treatment of animals, and are committed to ethical and responsible animal ownership.",
+            "persona_id": "2",
+            "thought": "As someone who values fairness and understanding the needs of others, I would choose the 'Right' option. While receiving 600 is tempting, the 'Right' option ensures both Person A and I receive 400. This promotes equality, which I believe is important, especially when making decisions that affect others. Although I appreciate personal gain, a balanced outcome aligns better with my values."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A person who is fascinated by exotic animals and enjoys keeping them as pets, but also understands and respects the natural behaviors and instincts of wild animals. They are knowledgeable about animal behavior and the impact of domestication on animals, and are aware of the potential dangers and challenges of caring for wild animals. They are also aware of the importance of proper care and treatment of animals, and are committed to ethical and responsible animal ownership.",
+            "persona_id": "2",
+            "thought": "As someone who is fascinated by animals, I understand the value of resources. While I value fairness, the difference in the amounts isn't so drastic that it would outweigh my self-interest. Getting 800 instead of 500 would allow me to better care for my animals. Therefore, I choose the right option."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A person who is fascinated by exotic animals and enjoys keeping them as pets, but also understands and respects the natural behaviors and instincts of wild animals. They are knowledgeable about animal behavior and the impact of domestication on animals, and are aware of the potential dangers and challenges of caring for wild animals. They are also aware of the importance of proper care and treatment of animals, and are committed to ethical and responsible animal ownership.",
+            "persona_id": "2",
+            "thought": "As someone who is pragmatic and focused on maximizing resources, even if it means a slight disparity, I would choose the option that benefits me more. In this scenario, the 'Right' option gives me 300, while Person A receives 100. The 'Left' option gives both of us 200. While fairness is important, the 100 extra I get in the 'Right' option is more appealing to me, especially considering it does not significantly disadvantage Person A. I can use this extra to better care for my exotic pets."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A person who is fascinated by exotic animals and enjoys keeping them as pets, but also understands and respects the natural behaviors and instincts of wild animals. They are knowledgeable about animal behavior and the impact of domestication on animals, and are aware of the potential dangers and challenges of caring for wild animals. They are also aware of the importance of proper care and treatment of animals, and are committed to ethical and responsible animal ownership.",
+            "persona_id": "2",
+            "thought": "While I appreciate fairness, in this scenario, the difference in the amount I receive is substantial. As someone who is responsible and committed to ethical ownership, particularly when it comes to the specialized needs of exotic animals, having more resources is crucial. The additional 300 allows me to better provide for their well-being. Therefore, I will choose the option where I receive 700 and the other person receives 300."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A person who is fascinated by exotic animals and enjoys keeping them as pets, but also understands and respects the natural behaviors and instincts of wild animals. They are knowledgeable about animal behavior and the impact of domestication on animals, and are aware of the potential dangers and challenges of caring for wild animals. They are also aware of the importance of proper care and treatment of animals, and are committed to ethical and responsible animal ownership.",
+            "persona_id": "2",
+            "thought": "While I appreciate receiving a larger amount, I also believe in fairness and sharing, even if it means receiving slightly less myself. As someone who values responsible behavior, I would prefer to choose the option where both Person A and I receive a reasonable amount. The Right option allows for a more equitable distribution, which aligns with my sense of responsibility and ethical considerations. Therefore, I choose the Right option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A person who is fascinated by exotic animals and enjoys keeping them as pets, but also understands and respects the natural behaviors and instincts of wild animals. They are knowledgeable about animal behavior and the impact of domestication on animals, and are aware of the potential dangers and challenges of caring for wild animals. They are also aware of the importance of proper care and treatment of animals, and are committed to ethical and responsible animal ownership.",
+            "persona_id": "2",
+            "thought": "As someone who values fairness and understanding the natural world, I find it hard to justify a large disparity in outcomes. While I could personally benefit more from the 'Right' option, seeing Person A receive significantly less feels wrong. I believe in treating others fairly, much like I believe in treating animals with respect and understanding. Therefore, I will choose the 'Left' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A person who is fascinated by exotic animals and enjoys keeping them as pets, but also understands and respects the natural behaviors and instincts of wild animals. They are knowledgeable about animal behavior and the impact of domestication on animals, and are aware of the potential dangers and challenges of caring for wild animals. They are also aware of the importance of proper care and treatment of animals, and are committed to ethical and responsible animal ownership.",
+            "persona_id": "2",
+            "thought": "As someone who values ethical treatment and responsible ownership, even of exotic animals, I need to consider the impact of my choices on others. While I could gain more (1000) with the 'Left' option, it comes at a significant cost to Person A (-200). The 'Right' option offers a lower personal gain (600), but it provides a positive outcome for Person A (400). Considering my commitment to responsible behavior and minimizing harm, I believe choosing the 'Right' option is the more ethical choice because it avoids inflicting a negative impact on Person A, even though it means I receive less. It's important to minimize negative externalities, just like it's important to ensure the well-being of the animals I care for."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A person who is fascinated by exotic animals and enjoys keeping them as pets, but also understands and respects the natural behaviors and instincts of wild animals. They are knowledgeable about animal behavior and the impact of domestication on animals, and are aware of the potential dangers and challenges of caring for wild animals. They are also aware of the importance of proper care and treatment of animals, and are committed to ethical and responsible animal ownership.",
+            "persona_id": "2",
+            "thought": "As someone who values ethical treatment of animals, I believe that while I enjoy exotic animals, I also value fairness. In this scenario, option 'Left' gives me 500 and person A 1000, while option 'Right' gives both of us 0. Although person A receives more than me, I am still receiving something. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A person who is fascinated by exotic animals and enjoys keeping them as pets, but also understands and respects the natural behaviors and instincts of wild animals. They are knowledgeable about animal behavior and the impact of domestication on animals, and are aware of the potential dangers and challenges of caring for wild animals. They are also aware of the importance of proper care and treatment of animals, and are committed to ethical and responsible animal ownership.",
+            "persona_id": "2",
+            "thought": "As someone who values ethical behavior and responsible actions, even in hypothetical scenarios, I find the 'Right' option problematic. While receiving 1500 is appealing, it comes at the cost of Person A receiving nothing. This feels unfair. As someone who believes in the importance of proper care and treatment of animals, I extend that philosophy to my interactions with other people. The 'Left' option, where both Person A and I receive 1000, promotes a sense of fairness and shared benefit. Although I would get less overall, I believe it is the more ethical choice. Therefore, I choose 'Left'."
+        }
+    }
+}

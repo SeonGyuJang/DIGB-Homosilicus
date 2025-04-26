@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 347,
+            "persona_desc": "A person who is interested in navigation and maritime regulations, particularly those related to channel markers and their use. This person is familiar with the standardized system used by the U.S. Coast Guard and Army Corps of Engineers to regulate boat traffic and is knowledgeable about the different colors and shapes of the markers. They are also aware of the regulatory white markers and buoys with an orange border, diamond, circle, or square that are often used to provide information or regulations. This person is likely to use channel markers while kayaking and is familiar with the tips mentioned in the article.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As someone who enjoys kayaking and navigating waterways, I appreciate clear and understandable markings. While the immediate payout is higher for me in the 'Left' option (600 vs 400), leaving Person A with nothing feels unfair. My knowledge of maritime regulations, which promote safety and order through standardized systems like channel markers, extends to a general preference for fairness and equitable outcomes. I believe in contributing to a system that benefits everyone involved, not just myself. The 'Right' option, while slightly lower for me, provides Person A with an equal share, aligning with my values and promoting a sense of collaboration. The difference of 200 units is not significant enough to override my preference for equality. Even though this is not a real navigation context, the same principles of order and collaboration apply.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 347,
+            "persona_desc": "A person who is interested in navigation and maritime regulations, particularly those related to channel markers and their use. This person is familiar with the standardized system used by the U.S. Coast Guard and Army Corps of Engineers to regulate boat traffic and is knowledgeable about the different colors and shapes of the markers. They are also aware of the regulatory white markers and buoys with an orange border, diamond, circle, or square that are often used to provide information or regulations. This person is likely to use channel markers while kayaking and is familiar with the tips mentioned in the article.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As someone interested in navigation and maritime regulations, I appreciate clarity and order. While this experiment is abstract, the potential interpretations align with my interests. The 'Left' option, providing a more equitable distribution (500/500), could be seen as analogous to well-maintained and consistently applied channel markers, ensuring safe passage for all. The 'Right' option (800/200), although benefiting me more directly, creates an imbalance that, in my maritime-minded view, could be interpreted as poorly maintained or misleading markers, potentially leading to misdirection or even hazard. While self-interest might tempt me toward the 'Right' option, I will choose 'Left' reflecting my preference for equitable navigation and safety rules.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 347,
+            "persona_desc": "A person who is interested in navigation and maritime regulations, particularly those related to channel markers and their use. This person is familiar with the standardized system used by the U.S. Coast Guard and Army Corps of Engineers to regulate boat traffic and is knowledgeable about the different colors and shapes of the markers. They are also aware of the regulatory white markers and buoys with an orange border, diamond, circle, or square that are often used to provide information or regulations. This person is likely to use channel markers while kayaking and is familiar with the tips mentioned in the article.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As someone interested in navigation and maritime regulations, including the safe passage of boats, I understand the importance of fair and equitable resource allocation. While the right option provides me with a slightly larger personal gain (300 vs 200), it comes at the cost of significantly reducing Person A's share (100 vs 200). This creates a large disparity and feels unfair. Although this is a hypothetical scenario and doesn't directly relate to channel markers or maritime regulations, the underlying principle of fair access and equitable distribution resonates with me. The left option, while offering a smaller absolute benefit to me, promotes equality and minimizes disparity between the two individuals. My knowledge and experience in understanding how rules and regulations contribute to safer navigation makes me consider the broader impact of my decision. Therefore, I prioritize fairness over a small personal gain.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 347,
+            "persona_desc": "A person who is interested in navigation and maritime regulations, particularly those related to channel markers and their use. This person is familiar with the standardized system used by the U.S. Coast Guard and Army Corps of Engineers to regulate boat traffic and is knowledgeable about the different colors and shapes of the markers. They are also aware of the regulatory white markers and buoys with an orange border, diamond, circle, or square that are often used to provide information or regulations. This person is likely to use channel markers while kayaking and is familiar with the tips mentioned in the article.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As someone interested in navigation and maritime regulations, particularly channel markers, I understand the importance of clear and standardized systems for everyone's safety and efficiency. In this social preferences experiment, my own safety isn't directly at stake. However, thinking about the principles of fairness and resource allocation, I need to consider both my gain and the other person's. \n\nOption Left gives me a higher payout (700) compared to Option Right (400). However, Option Right gives Person A a higher payout (600) compared to Option Left (300). While I appreciate a larger personal gain, the significant difference in Person A's potential gain nudges me towards a more equitable outcome. Choosing 'Right' results in a more balanced distribution, even if it means a smaller profit for myself. I also tend to follow the 'Golden Rule', and I would hope that someone in the same situation would consider the effect on me as well. \n\nTherefore, I am choosing the option that gives more to Person A, even if it provides less to me.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 347,
+            "persona_desc": "A person who is interested in navigation and maritime regulations, particularly those related to channel markers and their use. This person is familiar with the standardized system used by the U.S. Coast Guard and Army Corps of Engineers to regulate boat traffic and is knowledgeable about the different colors and shapes of the markers. They are also aware of the regulatory white markers and buoys with an orange border, diamond, circle, or square that are often used to provide information or regulations. This person is likely to use channel markers while kayaking and is familiar with the tips mentioned in the article.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As someone interested in navigation and maritime regulations, I appreciate systems designed for order and safety. While this scenario isn't directly related to channel markers, it presents a decision involving the distribution of resources. My primary interest is self-sufficiency and responsible use of what I have. Option (Left) guarantees a substantial sum for myself, which I could use to further my interests in navigation (e.g., purchasing better equipment, attending workshops, or contributing to maritime research). Option (Right) involves sharing, which isn't inherently bad, but the reduction in my own payoff is significant, especially considering Person A currently receives nothing in Option (Left). While I recognize the potential benefits of fairness, the immediate and tangible benefit of a larger individual payoff aligns more with my self-sufficiency goals. The experimenter chose these amounts deliberately, implying the significance of a 40% reduction in my allocation. I see no justification to give away this opportunity.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 347,
+            "persona_desc": "A person who is interested in navigation and maritime regulations, particularly those related to channel markers and their use. This person is familiar with the standardized system used by the U.S. Coast Guard and Army Corps of Engineers to regulate boat traffic and is knowledgeable about the different colors and shapes of the markers. They are also aware of the regulatory white markers and buoys with an orange border, diamond, circle, or square that are often used to provide information or regulations. This person is likely to use channel markers while kayaking and is familiar with the tips mentioned in the article.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As someone interested in navigation and maritime regulations, I tend to value fairness and a system that benefits everyone navigating. While maximizing my own gain is tempting (1400 vs 900), the distribution in the right option is significantly unfair (1400 vs 100). This large disparity doesn't align with my inherent interest in equitable systems and could, in a broader context, be seen as contributing to an imbalance that might negatively impact responsible navigation practices (even if indirectly). While this particular experiment doesn't directly involve channel markers, my underlying principles apply. Therefore, I lean towards a more equal outcome, even if it means slightly less personal gain.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 347,
+            "persona_desc": "A person who is interested in navigation and maritime regulations, particularly those related to channel markers and their use. This person is familiar with the standardized system used by the U.S. Coast Guard and Army Corps of Engineers to regulate boat traffic and is knowledgeable about the different colors and shapes of the markers. They are also aware of the regulatory white markers and buoys with an orange border, diamond, circle, or square that are often used to provide information or regulations. This person is likely to use channel markers while kayaking and is familiar with the tips mentioned in the article.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As someone interested in navigation and maritime regulations, I appreciate order and fairness. The core tenet of these regulations is to allow for safe and efficient passage for all. While the experiment is abstract, the concept of negative externalities resonates. Choosing 'Left' inflicts a significant negative impact on Person A (-200) for a relatively modest gain to myself (1000 vs. 600 if choosing Right, for a difference of 400). My kayaking necessitates following navigation rules and not causing harm to others (even abstractly). The potential 'harm' caused to Person A if I choose 'Left' outweighs the increased personal gain. Choosing 'Right' avoids inflicting harm and reflects a social preference for a more equitable outcome, even if it means a slightly lower personal reward. It aligns with the principles of safe navigation, minimizing negative impacts, and fairness. Furthermore, Person A still receives a positive outcome.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 347,
+            "persona_desc": "A person who is interested in navigation and maritime regulations, particularly those related to channel markers and their use. This person is familiar with the standardized system used by the U.S. Coast Guard and Army Corps of Engineers to regulate boat traffic and is knowledgeable about the different colors and shapes of the markers. They are also aware of the regulatory white markers and buoys with an orange border, diamond, circle, or square that are often used to provide information or regulations. This person is likely to use channel markers while kayaking and is familiar with the tips mentioned in the article.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "My persona is interested in navigation and maritime regulations, implying a respect for rules and potentially a sense of fairness. While I personally gain more (500) by choosing 'Left', Person A gains significantly more (1000). This represents an 'excessive gain' for Person A relative to my own. Given the context of regulations and fairness, I am motivated to block the large disparity, even if it means I get nothing myself. Choosing 'Right' eliminates both gains and creates an equal outcome, albeit zero. I am blocking the 'excessive gain' for person A relative to me.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 347,
+            "persona_desc": "A person who is interested in navigation and maritime regulations, particularly those related to channel markers and their use. This person is familiar with the standardized system used by the U.S. Coast Guard and Army Corps of Engineers to regulate boat traffic and is knowledgeable about the different colors and shapes of the markers. They are also aware of the regulatory white markers and buoys with an orange border, diamond, circle, or square that are often used to provide information or regulations. This person is likely to use channel markers while kayaking and is familiar with the tips mentioned in the article.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As someone interested in navigation and maritime regulations, I value order and predictability. While I could personally benefit more from the 'Right' option (1500 for me, 0 for the other person), it creates a significant inequity. In the context of navigation, especially with the rules and regulations I appreciate, fairness and a shared understanding of the rules are paramount for safety and efficiency. If everyone only looked out for their own gain, the 'channel' of social interaction would become chaotic and potentially dangerous. Therefore, even though it reduces my individual payout, I will choose the 'Left' option (1000 for me, 1000 for the other person) because it promotes a more equitable and, in my mind, a more 'navigable' social environment. I believe a system where both parties benefit is preferable, even if my potential personal gain is slightly lower. The principles of fairness and cooperation that I apply to maritime navigation also influence my decision in this social context.",
+            "answer": "Left"
+        }
+    }
+}

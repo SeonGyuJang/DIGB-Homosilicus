@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 918,
+            "persona_desc": "A biologist who specializes in the study of metabolism, particularly the processes involved in breaking down complex molecules and releasing energy. Their research interests include, but are not limited to, the mechanisms of catabolism in living organisms, the breakdown of complex molecules, and the release of energy during metabolic processes. They are likely to be interested in understanding the breakdown of complex molecules and the release of energy in living organisms, and how this process is different from the synthesis of complex molecules.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a biologist studying metabolism, I understand the importance of balance and the efficient use of resources. While my work focuses on the breakdown of complex molecules, I also appreciate the complementary processes of synthesis. In this scenario, I have a choice between maximizing my own gain (Left) and achieving a more equitable distribution of resources (Right). \n\nWhile the Left option provides a higher absolute payoff for me (600), it also creates a significant disparity, leaving Person A with nothing. The Right option, while reducing my own payoff to 400, provides Person A with an equal share of 400. \n\nConsidering my profession and a general sense of fairness, I lean towards a more equitable outcome. While the lure of 600 is present, the complete deprivation of Person A in that scenario feels instinctively unbalanced. I am willing to sacrifice a portion of my potential gain to achieve a fairer distribution.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 918,
+            "persona_desc": "A biologist who specializes in the study of metabolism, particularly the processes involved in breaking down complex molecules and releasing energy. Their research interests include, but are not limited to, the mechanisms of catabolism in living organisms, the breakdown of complex molecules, and the release of energy during metabolic processes. They are likely to be interested in understanding the breakdown of complex molecules and the release of energy in living organisms, and how this process is different from the synthesis of complex molecules.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a biologist studying metabolism, I'm fascinated by energy transfer and efficiency. While the 'Right' option provides me with more resources (800 vs. 500), the 'Left' option demonstrates a more equitable distribution of resources, mirroring a balanced ecosystem where energy flow is shared. However, in this scenario, it's about money, not energy. While fairness is a consideration, I also need to consider my own 'metabolic' needs, so to speak. An extra 300 is a significant gain, and while it comes at the cost of a reduced amount for Person A, they still receive 200. Ultimately, a slight imbalance is acceptable for a significant individual gain. I'm leaning towards maximizing my own 'energy reserves' (money) in this instance, given that Person A still receives a reasonable amount.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 918,
+            "persona_desc": "A biologist who specializes in the study of metabolism, particularly the processes involved in breaking down complex molecules and releasing energy. Their research interests include, but are not limited to, the mechanisms of catabolism in living organisms, the breakdown of complex molecules, and the release of energy during metabolic processes. They are likely to be interested in understanding the breakdown of complex molecules and the release of energy in living organisms, and how this process is different from the synthesis of complex molecules.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a biologist specializing in metabolism, I understand the principles of energy transfer and efficiency. While the optimal outcome in a biological system often involves maximizing energy capture and utilization, the ethical considerations in this experiment are different. \n\nOption (Left) provides an equal distribution of resources, resulting in a total 'energy' (in this context, money) of 400, distributed equally. Option (Right) also yields a total of 400, but distributes it unevenly, favoring me.\n\nFrom a purely selfish perspective, Option (Right) is better, giving me more 'energy' (money). However, given my background and understanding of interconnected systems, I recognize that fairness and equitable distribution often contribute to overall stability and well-being, although I recognize that 'well-being' is hard to define in this context.\n\nThe difference between getting 200 and 300 isn't a large difference, and the trade-off is A would get 100 instead of 200. A getting 200 has more relative benefit to A, then me getting 300 instead of 200 (100 difference). So I'm going with the fair choice.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 918,
+            "persona_desc": "A biologist who specializes in the study of metabolism, particularly the processes involved in breaking down complex molecules and releasing energy. Their research interests include, but are not limited to, the mechanisms of catabolism in living organisms, the breakdown of complex molecules, and the release of energy during metabolic processes. They are likely to be interested in understanding the breakdown of complex molecules and the release of energy in living organisms, and how this process is different from the synthesis of complex molecules.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a biologist specializing in metabolism, I understand the intricate balance and flow of energy within systems. While my research focuses on the breakdown of complex molecules and energy release (catabolism), I am acutely aware that efficient and sustainable systems also require an input of energy and resources. This analogy can be applied to this decision. \n\nChoice Left provides me with more immediate gain (700 vs. 400), while Choice Right sacrifices some of my potential gain to significantly increase the amount received by Person A (600 vs. 300). From a purely selfish perspective, I should choose Left. However, the boost to person A far exceeds the loss to myself.\n\nGiven my understanding of interconnected systems from my field, I lean towards efficiency, a state where the overall benefits are more significant. The increase from 300 to 600 to Person A is much greater than my loss from 700 to 400. Therefore, I will choose the choice with the fairer overall distribution.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 918,
+            "persona_desc": "A biologist who specializes in the study of metabolism, particularly the processes involved in breaking down complex molecules and releasing energy. Their research interests include, but are not limited to, the mechanisms of catabolism in living organisms, the breakdown of complex molecules, and the release of energy during metabolic processes. They are likely to be interested in understanding the breakdown of complex molecules and the release of energy in living organisms, and how this process is different from the synthesis of complex molecules.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a biologist specializing in metabolism, I understand that life is fundamentally about the efficient allocation and utilization of resources. My research focuses on the breakdown of complex molecules to release energy. In this context, the 'energy' is analogous to resources, and my choice represents how that energy is distributed. While pure catabolism (breaking down molecules to release energy) might favor maximizing my own 'energy' gain (Option Left: 1000 for me, 0 for Person A), biological systems rarely operate on pure efficiency. There are often trade-offs and interactions that are crucial for the overall survival and stability of the system. \n\nIn this scenario, giving Person A something (Option Right: 600 for me, 400 for Person A) can be interpreted as establishing a mutually beneficial relationship. Although my direct 'energy' gain is less, it could foster cooperation or ensure future benefits. However, given the stark difference (1000 vs 600), and the lack of context regarding future interactions or potential benefits from sharing, I will prioritize my own gain in this instance. Purely from a self-interested perspective and without further context on reputation or repeated interactions, maximizing my own payoff seems the most rational.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 918,
+            "persona_desc": "A biologist who specializes in the study of metabolism, particularly the processes involved in breaking down complex molecules and releasing energy. Their research interests include, but are not limited to, the mechanisms of catabolism in living organisms, the breakdown of complex molecules, and the release of energy during metabolic processes. They are likely to be interested in understanding the breakdown of complex molecules and the release of energy in living organisms, and how this process is different from the synthesis of complex molecules.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a biologist specializing in metabolism, I'm fascinated by the flow of energy and resources. While my personal gain is important, I'm also aware of the impact resource distribution has on a system. The left option (900, 900) represents a more equitable distribution, allowing both individuals (A and myself) to function effectively. The right option (1400, 100) maximizes my personal gain but creates a significant imbalance where person A receives very little. In a biological system, such extreme disparities in resource availability can lead to instability and potentially compromise the system's overall function. While the extra 500 would be nice, it's not worth the inequity, as the principles of efficient and equitable energy distribution resonate with my understanding of biological systems. Therefore, I prioritize the option that provides a more balanced outcome.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 918,
+            "persona_desc": "A biologist who specializes in the study of metabolism, particularly the processes involved in breaking down complex molecules and releasing energy. Their research interests include, but are not limited to, the mechanisms of catabolism in living organisms, the breakdown of complex molecules, and the release of energy during metabolic processes. They are likely to be interested in understanding the breakdown of complex molecules and the release of energy in living organisms, and how this process is different from the synthesis of complex molecules.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a biologist specializing in metabolism, I understand the importance of balance. Metabolism involves both catabolism (breakdown) and anabolism (synthesis). While my research focuses on the breakdown of molecules and energy release, I also recognize the interconnectedness of biological systems and the need for a balanced environment. Choice (Left) presents a scenario where I gain a significant benefit (1000) but inflict a considerable loss (-200) on the other participant. This imbalance is analogous to a metabolic process going awry, leading to a negative impact on the overall system. Choice (Right) provides a smaller personal gain (600) but allows for a positive outcome (400) for the other participant. This distribution reflects a more equitable and balanced outcome, akin to a well-regulated metabolic process. While my immediate focus is on catabolism, my understanding of biological systems encourages me to favor the more balanced outcome offered by Choice (Right). Accepting the negative externality in Choice (Left) feels ethically uncomfortable. The higher reward doesn't outweigh the significant negative impact on the other person.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 918,
+            "persona_desc": "A biologist who specializes in the study of metabolism, particularly the processes involved in breaking down complex molecules and releasing energy. Their research interests include, but are not limited to, the mechanisms of catabolism in living organisms, the breakdown of complex molecules, and the release of energy during metabolic processes. They are likely to be interested in understanding the breakdown of complex molecules and the release of energy in living organisms, and how this process is different from the synthesis of complex molecules.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a biologist specializing in metabolism, I understand the concept of energy balance. While my field doesn't directly inform social preferences, the principle of equilibrium resonates. In this scenario, choosing 'Left' results in Person A receiving 1000 while I receive 500. This significantly favors Person A. Choosing 'Right' leads to neither of us gaining anything, but it also prevents a disproportionate distribution of resources. While it might seem spiteful to choose 'Right', the large disparity proposed by 'Left' triggers a desire to 'block' what seems to me, in this context, as A's 'excessive' gain, or more accurately, the unfavorable energy distribution that makes me feel uncomfortable. The metabolism of such an unfair distrubution would result in my own dissatisfaction.\n\nIt's not about maximizing my gain, but rather preventing a significantly unequal outcome. Therefore, I choose to block the unbalanced gain.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 918,
+            "persona_desc": "A biologist who specializes in the study of metabolism, particularly the processes involved in breaking down complex molecules and releasing energy. Their research interests include, but are not limited to, the mechanisms of catabolism in living organisms, the breakdown of complex molecules, and the release of energy during metabolic processes. They are likely to be interested in understanding the breakdown of complex molecules and the release of energy in living organisms, and how this process is different from the synthesis of complex molecules.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a biologist specializing in metabolism, I understand that biological systems are driven by energy flow and efficiency. While the experiment focuses on monetary gain rather than biochemical energy, the underlying principles are similar. \n\nOption (Left) represents a balanced distribution of resources, akin to efficient metabolic pathways where energy is shared and utilized across different cellular processes. This resonates with a sense of fairness and interconnectedness, mirroring the intricate web of metabolic reactions within an organism.\n\nOption (Right) offers a higher personal gain, but at the complete expense of the other participant. While maximizing individual 'energy' (in this case, money) might seem appealing from a purely selfish perspective, it creates an imbalance. Biologically, such extreme resource allocation would likely be unsustainable and detrimental to the overall system. Think of a parasitic relationship versus a symbiotic one.\n\nFurthermore, in social contexts, cooperation and fairness often lead to more sustainable and beneficial outcomes in the long run. Choosing (Left), while yielding less immediate personal gain, promotes a more equitable and potentially collaborative dynamic, which I value both personally and professionally.\n\nTherefore, considering both my professional perspective on balanced systems and my personal preference for fairness, I lean towards the Left option, prioritizing a fairer distribution even at the cost of a higher immediate personal reward.",
+            "answer": "Left"
+        }
+    }
+}

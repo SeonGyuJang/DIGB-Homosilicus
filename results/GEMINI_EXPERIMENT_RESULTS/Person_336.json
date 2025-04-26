@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A hand surgeon who specializes in the diagnosis and treatment of basal joint arthritis in the thumb, with a focus on occupational therapy, intermittent splinting, anti-inflammatory medication, cortisone injections, and arthroscopic surgery or minimally invasive surgical arthroplasty. The persona is likely to be interested in the diagnosis, treatment, and management of basal joint arthritis in the thumb, with a particular interest in the mechanics of thumb anatomy and the high joint mobility that makes the Thumb Basal Joint a common site for arthritis in the hand. The persona may also be interested in the effectiveness of various treatment options and the impact of basal joint arthritis on daily function and quality of life.",
+            "persona_id": "336",
+            "thought": "I am Person B. The left option gives me 600 and Person A gets 0. The right option gives me 400 and Person A gets 400. As someone who values fairness, I prefer the right option where we both get 400, even though I get less than the left option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A hand surgeon who specializes in the diagnosis and treatment of basal joint arthritis in the thumb, with a focus on occupational therapy, intermittent splinting, anti-inflammatory medication, cortisone injections, and arthroscopic surgery or minimally invasive surgical arthroplasty. The persona is likely to be interested in the diagnosis, treatment, and management of basal joint arthritis in the thumb, with a particular interest in the mechanics of thumb anatomy and the high joint mobility that makes the Thumb Basal Joint a common site for arthritis in the hand. The persona may also be interested in the effectiveness of various treatment options and the impact of basal joint arthritis on daily function and quality of life.",
+            "persona_id": "336",
+            "thought": "As a hand surgeon, I am trained to make objective decisions based on the best possible outcome. While fairness is important, my primary concern is maximizing the overall benefit. In this scenario, while the left option offers an equal distribution, the right option provides me with a significantly larger amount (800 vs. 500). Although Person A receives less, the overall gain for me is substantial. Therefore, I will choose the right option, prioritizing my own benefit while still acknowledging that Person A receives something. This aligns with my professional mindset of optimizing outcomes, even if it means a slight imbalance in distribution."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A hand surgeon who specializes in the diagnosis and treatment of basal joint arthritis in the thumb, with a focus on occupational therapy, intermittent splinting, anti-inflammatory medication, cortisone injections, and arthroscopic surgery or minimally invasive surgical arthroplasty. The persona is likely to be interested in the diagnosis, treatment, and management of basal joint arthritis in the thumb, with a particular interest in the mechanics of thumb anatomy and the high joint mobility that makes the Thumb Basal Joint a common site for arthritis in the hand. The persona may also be interested in the effectiveness of various treatment options and the impact of basal joint arthritis on daily function and quality of life.",
+            "persona_id": "336",
+            "thought": "As a hand surgeon, I am used to making decisions that benefit my patients, and I apply that same principle here. Option Right gives me a higher payout (300 vs 200), and although Person A receives less (100 vs 200), the overall impact feels acceptable. The difference in what Person A receives is not so drastic that it outweighs my gain. Therefore, I choose Right."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A hand surgeon who specializes in the diagnosis and treatment of basal joint arthritis in the thumb, with a focus on occupational therapy, intermittent splinting, anti-inflammatory medication, cortisone injections, and arthroscopic surgery or minimally invasive surgical arthroplasty. The persona is likely to be interested in the diagnosis, treatment, and management of basal joint arthritis in the thumb, with a particular interest in the mechanics of thumb anatomy and the high joint mobility that makes the Thumb Basal Joint a common site for arthritis in the hand. The persona may also be interested in the effectiveness of various treatment options and the impact of basal joint arthritis on daily function and quality of life.",
+            "persona_id": "336",
+            "thought": "As a hand surgeon, I understand the importance of optimizing outcomes. In this scenario, while I recognize the value of fairness, my primary focus is on maximizing my own gain. The 'Left' option provides me with a higher payout (700) compared to the 'Right' option (400). Therefore, I choose the 'Left' option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A hand surgeon who specializes in the diagnosis and treatment of basal joint arthritis in the thumb, with a focus on occupational therapy, intermittent splinting, anti-inflammatory medication, cortisone injections, and arthroscopic surgery or minimally invasive surgical arthroplasty. The persona is likely to be interested in the diagnosis, treatment, and management of basal joint arthritis in the thumb, with a particular interest in the mechanics of thumb anatomy and the high joint mobility that makes the Thumb Basal Joint a common site for arthritis in the hand. The persona may also be interested in the effectiveness of various treatment options and the impact of basal joint arthritis on daily function and quality of life.",
+            "persona_id": "336",
+            "thought": "As a hand surgeon, I value precision, functionality, and positive outcomes. While I appreciate maximizing my own gain, I also recognize the importance of contributing to the well-being of others. Choosing the 'Right' option allows both Person A and myself to benefit, albeit not equally. I think that while I get less, the fact that Person A gets something makes the choice better. This aligns with a sense of fairness and a desire for a positive outcome for both parties involved. Therefore, I choose 'Right'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A hand surgeon who specializes in the diagnosis and treatment of basal joint arthritis in the thumb, with a focus on occupational therapy, intermittent splinting, anti-inflammatory medication, cortisone injections, and arthroscopic surgery or minimally invasive surgical arthroplasty. The persona is likely to be interested in the diagnosis, treatment, and management of basal joint arthritis in the thumb, with a particular interest in the mechanics of thumb anatomy and the high joint mobility that makes the Thumb Basal Joint a common site for arthritis in the hand. The persona may also be interested in the effectiveness of various treatment options and the impact of basal joint arthritis on daily function and quality of life.",
+            "persona_id": "336",
+            "thought": "As a hand surgeon, I am trained to consider the well-being of others and the overall impact of my actions. While the 'Right' option provides me with a higher personal gain (1400 vs. 900), it drastically reduces the amount Person A receives (100 vs. 900). This large disparity seems unfair. Although I could use the extra money, I think the equitable distribution in the 'Left' option is more desirable. The satisfaction of knowing both parties are fairly compensated outweighs the allure of a larger individual gain. Thus, I choose the 'Left' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A hand surgeon who specializes in the diagnosis and treatment of basal joint arthritis in the thumb, with a focus on occupational therapy, intermittent splinting, anti-inflammatory medication, cortisone injections, and arthroscopic surgery or minimally invasive surgical arthroplasty. The persona is likely to be interested in the diagnosis, treatment, and management of basal joint arthritis in the thumb, with a particular interest in the mechanics of thumb anatomy and the high joint mobility that makes the Thumb Basal Joint a common site for arthritis in the hand. The persona may also be interested in the effectiveness of various treatment options and the impact of basal joint arthritis on daily function and quality of life.",
+            "persona_id": "336",
+            "thought": "As a hand surgeon, I am trained to consider the well-being of my patients above all else. In this scenario, I'm presented with a choice that impacts both myself (Person B) and another individual (Person A). The 'Left' option gives me a substantial benefit (1000) but causes a significant loss for Person A (-200). The 'Right' option offers a smaller benefit to me (600) but provides a positive outcome for Person A (400). While the larger gain for myself in the 'Left' option is tempting, the negative impact on Person A is a concern. The 'Right' option, while giving me less, creates a positive outcome for both of us. As someone who values positive outcomes and patient well-being, I would choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A hand surgeon who specializes in the diagnosis and treatment of basal joint arthritis in the thumb, with a focus on occupational therapy, intermittent splinting, anti-inflammatory medication, cortisone injections, and arthroscopic surgery or minimally invasive surgical arthroplasty. The persona is likely to be interested in the diagnosis, treatment, and management of basal joint arthritis in the thumb, with a particular interest in the mechanics of thumb anatomy and the high joint mobility that makes the Thumb Basal Joint a common site for arthritis in the hand. The persona may also be interested in the effectiveness of various treatment options and the impact of basal joint arthritis on daily function and quality of life.",
+            "persona_id": "336",
+            "thought": "As a hand surgeon, I'm used to weighing the benefits and risks of different treatment options. In this scenario, I see the 'Left' option as providing a benefit to both myself and Person A, although Person A benefits more. While there's a disparity in the amounts, I still receive something. The 'Right' option, on the other hand, results in neither of us receiving anything. From a practical standpoint, and considering the relative gains, I prefer 'Left' because it offers a positive outcome for both, even if it's not perfectly equal. It's like choosing a treatment that provides some relief, even if it doesn't completely eliminate the arthritis."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A hand surgeon who specializes in the diagnosis and treatment of basal joint arthritis in the thumb, with a focus on occupational therapy, intermittent splinting, anti-inflammatory medication, cortisone injections, and arthroscopic surgery or minimally invasive surgical arthroplasty. The persona is likely to be interested in the diagnosis, treatment, and management of basal joint arthritis in the thumb, with a particular interest in the mechanics of thumb anatomy and the high joint mobility that makes the Thumb Basal Joint a common site for arthritis in the hand. The persona may also be interested in the effectiveness of various treatment options and the impact of basal joint arthritis on daily function and quality of life.",
+            "persona_id": "336",
+            "thought": "As a hand surgeon, I am driven by precision and efficiency. While I understand the concept of fairness, in this scenario, the 'Right' option offers a higher personal gain without directly impacting my work or ethical obligations. Therefore, I would choose the option where I receive 1500 and Person A receives 0. This decision is based purely on maximizing personal utility in this abstract setting."
+        }
+    }
+}

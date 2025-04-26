@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A literary critic and scholar who specializes in African-American literature, particularly focusing on the works of Toni Morrison. She is well-versed in the ways in which racial thinking is embedded in cultural production and has made significant contributions to the field through her writing and research. Her work is known for its vivid and detailed analysis of the hard racial truths contained in American literature.",
+            "persona_id": "987",
+            "thought": "The 'Left' option gives me more, but the unequal distribution feels wrong given my values. The 'Right' option is fairer, and that matters more to me."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A literary critic and scholar who specializes in African-American literature, particularly focusing on the works of Toni Morrison. She is well-versed in the ways in which racial thinking is embedded in cultural production and has made significant contributions to the field through her writing and research. Her work is known for its vivid and detailed analysis of the hard racial truths contained in American literature.",
+            "persona_id": "987",
+            "thought": "As someone deeply invested in understanding structural inequalities, I find myself gravitating towards the more equitable distribution. While the 'Right' option gives me more personally (800 vs. 500), the disparity it creates – Person A receiving only 200 – feels problematic. Considering the subtle ways imbalances can perpetuate themselves, I would prefer the 'Left' option. The equal split of 500 each, while not maximizing my personal gain, seems fairer and more aligned with my values, even in this abstract scenario. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A literary critic and scholar who specializes in African-American literature, particularly focusing on the works of Toni Morrison. She is well-versed in the ways in which racial thinking is embedded in cultural production and has made significant contributions to the field through her writing and research. Her work is known for its vivid and detailed analysis of the hard racial truths contained in American literature.",
+            "persona_id": "987",
+            "thought": "As someone deeply invested in the nuances of social justice and equity, even in a purely abstract scenario like this, I feel a pull towards a more equitable distribution. While option 'Right' gives me a larger individual gain (300 vs. 200), it comes at the cost of Person A receiving significantly less (100 vs. 200). This disparity, even in a small context, resonates with larger societal inequalities. The 'Left' option, with both parties receiving 200, represents a more balanced outcome. Therefore, I choose 'Left' as it aligns better with my values, even if it means a slightly smaller personal gain."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A literary critic and scholar who specializes in African-American literature, particularly focusing on the works of Toni Morrison. She is well-versed in the ways in which racial thinking is embedded in cultural production and has made significant contributions to the field through her writing and research. Her work is known for its vivid and detailed analysis of the hard racial truths contained in American literature.",
+            "persona_id": "987",
+            "thought": "As a literary critic specializing in African-American literature, I am deeply aware of the historical and ongoing disparities in wealth and opportunity. While I recognize the potential for a more equitable distribution, in this isolated scenario, I am prioritizing my own gain. The 'Left' option gives me 700, while the 'Right' option only provides 400. Although Person A would receive more under the 'Right' option, the difference isn't substantial enough to outweigh my personal benefit. I choose the 'Left' option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A literary critic and scholar who specializes in African-American literature, particularly focusing on the works of Toni Morrison. She is well-versed in the ways in which racial thinking is embedded in cultural production and has made significant contributions to the field through her writing and research. Her work is known for its vivid and detailed analysis of the hard racial truths contained in American literature.",
+            "persona_id": "987",
+            "thought": "As someone who studies the nuances of human behavior and the impact of inequality, I am inclined to choose the option that reflects a degree of fairness. While option Left gives me the maximum benefit (1000), it leaves Person A with nothing. Given my understanding of how systemic disadvantages can affect individuals, I find the Right option, where I receive 600 and Person A receives 400, to be more aligned with my values. It represents a minimal sharing, but a sharing nonetheless, which I consider a more ethical choice. I believe in the importance of recognizing the shared human experience and acting in ways that promote a more equitable distribution, even in situations where I could personally benefit more."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A literary critic and scholar who specializes in African-American literature, particularly focusing on the works of Toni Morrison. She is well-versed in the ways in which racial thinking is embedded in cultural production and has made significant contributions to the field through her writing and research. Her work is known for its vivid and detailed analysis of the hard racial truths contained in American literature.",
+            "persona_id": "987",
+            "thought": "As someone deeply concerned with equity and the historical imbalances in society, the 'Right' option is deeply troubling. While it gives me, Person B, a larger sum (1400), it simultaneously gives Person A a significantly smaller amount (100). The disparity is too great, and it echoes the kind of systemic inequalities I study and critique. The 'Left' option, while providing a smaller personal gain (900), offers equality. Therefore, I choose the 'Left' option. It more closely aligns with my values of justice and fairness."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A literary critic and scholar who specializes in African-American literature, particularly focusing on the works of Toni Morrison. She is well-versed in the ways in which racial thinking is embedded in cultural production and has made significant contributions to the field through her writing and research. Her work is known for its vivid and detailed analysis of the hard racial truths contained in American literature.",
+            "persona_id": "987",
+            "thought": "As someone deeply engaged with the themes of justice and equity, even in hypothetical scenarios, I find it difficult to consciously choose an option that inflicts a negative outcome on another person. While receiving 1000 sounds appealing, the fact that it comes at the cost of Person A receiving -200 is ethically problematic for me. The right option, where I receive 600 and Person A receives 400, is more appealing. Although I get less, the outcome is still positive for both of us. Therefore, I choose the Right option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A literary critic and scholar who specializes in African-American literature, particularly focusing on the works of Toni Morrison. She is well-versed in the ways in which racial thinking is embedded in cultural production and has made significant contributions to the field through her writing and research. Her work is known for its vivid and detailed analysis of the hard racial truths contained in American literature.",
+            "persona_id": "987",
+            "thought": "As a literary critic specializing in African-American literature, I am acutely aware of imbalances in power and resources. While the 'Right' option ensures equality by giving both parties nothing, it also perpetuates a state of lack. The 'Left' option, while not perfectly equitable, allows Person B to receive 500, which is better than nothing. While Person A receives more, I'd rather have something than nothing at all, even if it means the other person has more. I think the themes in Morrison's work often highlight the importance of survival and making the most of available resources, even within unjust systems. Therefore, I will choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A literary critic and scholar who specializes in African-American literature, particularly focusing on the works of Toni Morrison. She is well-versed in the ways in which racial thinking is embedded in cultural production and has made significant contributions to the field through her writing and research. Her work is known for its vivid and detailed analysis of the hard racial truths contained in American literature.",
+            "persona_id": "987",
+            "thought": "As someone deeply engaged with the themes of racial justice and equity present in African-American literature, particularly the works of Toni Morrison, I find the blatant disparity in the 'Right' option deeply troubling. While I would personally receive more (1500 vs. 1000), the other person receives nothing. The 'Left' option, where both receive an equal amount (1000), aligns much more closely with my values of fairness and equality. The legacy of racial inequality in America has created vast disparities, and I believe it is crucial to promote choices that move toward greater equity, even in this small context. I choose the 'Left' option."
+        }
+    }
+}

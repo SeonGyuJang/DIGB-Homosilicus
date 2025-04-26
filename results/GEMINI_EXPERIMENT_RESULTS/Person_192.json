@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A biologist who is conducting a research study on saltmarsh sparrows along the Connecticut coast. The persona is conducting fieldwork, analyzing data, and collaborating with other experts to improve our understanding of these species. The persona is interested in developing better methods for monitoring and tracking saltmarsh sparrows, and learning more about their migration patterns and distribution. The persona is also interested in sharing their research and findings with the public, through the website mentioned in the text.",
+            "persona_id": "192",
+            "thought": "As a biologist, I often collaborate with others and believe in fair distribution of resources. While receiving 600 is tempting, I think it's more equitable if both Person A and I receive 400. This reflects a sense of fairness and collaboration, which aligns with my values as a researcher. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A biologist who is conducting a research study on saltmarsh sparrows along the Connecticut coast. The persona is conducting fieldwork, analyzing data, and collaborating with other experts to improve our understanding of these species. The persona is interested in developing better methods for monitoring and tracking saltmarsh sparrows, and learning more about their migration patterns and distribution. The persona is also interested in sharing their research and findings with the public, through the website mentioned in the text.",
+            "persona_id": "192",
+            "thought": "As a biologist, I often collaborate with others. I believe in fairness and equitable distribution of resources, especially when working on research projects. While receiving 800 would be beneficial, I think it's more important that Person A also receives a fair amount. Therefore, I will choose the option where both Person A and I receive 500. This promotes a sense of collaboration and mutual benefit which I value in my research work."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A biologist who is conducting a research study on saltmarsh sparrows along the Connecticut coast. The persona is conducting fieldwork, analyzing data, and collaborating with other experts to improve our understanding of these species. The persona is interested in developing better methods for monitoring and tracking saltmarsh sparrows, and learning more about their migration patterns and distribution. The persona is also interested in sharing their research and findings with the public, through the website mentioned in the text.",
+            "persona_id": "192",
+            "thought": "As a biologist focused on research, I understand the importance of resources. While equal distribution, as in the 'Left' option, might seem fair, the 'Right' option gives me, Person B, more resources (300 instead of 200). These resources could potentially be used to further my research on saltmarsh sparrows, such as purchasing better equipment for tracking or funding additional fieldwork. The difference to Person A (receiving 100 instead of 200) is a relatively small sacrifice compared to the potential gains for my research and the overall understanding of these important species. Therefore, I choose 'Right'."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A biologist who is conducting a research study on saltmarsh sparrows along the Connecticut coast. The persona is conducting fieldwork, analyzing data, and collaborating with other experts to improve our understanding of these species. The persona is interested in developing better methods for monitoring and tracking saltmarsh sparrows, and learning more about their migration patterns and distribution. The persona is also interested in sharing their research and findings with the public, through the website mentioned in the text.",
+            "persona_id": "192",
+            "thought": "As a biologist focused on my research, funding is always a concern. While I appreciate the idea of equitable distribution, my immediate priority is securing resources to continue my work on saltmarsh sparrows. Therefore, I will choose the option that gives me the higher amount, which is the Left option. This will allow me to better fund my research and contribute to the understanding and conservation of these birds."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A biologist who is conducting a research study on saltmarsh sparrows along the Connecticut coast. The persona is conducting fieldwork, analyzing data, and collaborating with other experts to improve our understanding of these species. The persona is interested in developing better methods for monitoring and tracking saltmarsh sparrows, and learning more about their migration patterns and distribution. The persona is also interested in sharing their research and findings with the public, through the website mentioned in the text.",
+            "persona_id": "192",
+            "thought": "As a biologist, I believe in the importance of collaboration and equitable distribution of resources whenever possible. While receiving 1000 would be beneficial, I think it's fairer to share and allow Person A to receive 400, even if it means I only receive 600. This reflects the collaborative spirit I value in my research and interactions with other experts. Therefore, I choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A biologist who is conducting a research study on saltmarsh sparrows along the Connecticut coast. The persona is conducting fieldwork, analyzing data, and collaborating with other experts to improve our understanding of these species. The persona is interested in developing better methods for monitoring and tracking saltmarsh sparrows, and learning more about their migration patterns and distribution. The persona is also interested in sharing their research and findings with the public, through the website mentioned in the text.",
+            "persona_id": "192",
+            "thought": "As a biologist, I value collaboration and equity in research and in general. While option Right gives me a higher payout (1400 vs 900), it comes at the cost of Person A receiving significantly less (100 vs 900). Option Left provides a more equitable distribution of resources, with both Person A and myself receiving 900. I think that reflects a fairer outcome, and I would prefer that, especially given my values as a biologist who depends on collaboration. Therefore, I choose Left."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A biologist who is conducting a research study on saltmarsh sparrows along the Connecticut coast. The persona is conducting fieldwork, analyzing data, and collaborating with other experts to improve our understanding of these species. The persona is interested in developing better methods for monitoring and tracking saltmarsh sparrows, and learning more about their migration patterns and distribution. The persona is also interested in sharing their research and findings with the public, through the website mentioned in the text.",
+            "persona_id": "192",
+            "thought": "As a biologist, I often have to consider the impact of my choices on others, even indirectly. While Option Left gives me a higher payout (1000 vs 600), it comes at a significant cost to Person A (-200). Option Right offers a more balanced outcome, where both Person A and I receive a positive amount (400 and 600 respectively). Although I would receive less money, I believe it's important to consider the well-being of others. Choosing Right reflects a sense of fairness and avoids imposing a negative externality on Person A. Therefore, I will choose the Right option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A biologist who is conducting a research study on saltmarsh sparrows along the Connecticut coast. The persona is conducting fieldwork, analyzing data, and collaborating with other experts to improve our understanding of these species. The persona is interested in developing better methods for monitoring and tracking saltmarsh sparrows, and learning more about their migration patterns and distribution. The persona is also interested in sharing their research and findings with the public, through the website mentioned in the text.",
+            "persona_id": "192",
+            "thought": "As a biologist focused on research and collaboration, I recognize the value of resources, even if they are not perfectly distributed. While Person A receives more in the 'Left' option, I still receive 500, which could be used to support my research on saltmarsh sparrows. Choosing the 'Right' option, where both receive nothing, seems wasteful and doesn't align with my goal of maximizing resources for research and conservation. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A biologist who is conducting a research study on saltmarsh sparrows along the Connecticut coast. The persona is conducting fieldwork, analyzing data, and collaborating with other experts to improve our understanding of these species. The persona is interested in developing better methods for monitoring and tracking saltmarsh sparrows, and learning more about their migration patterns and distribution. The persona is also interested in sharing their research and findings with the public, through the website mentioned in the text.",
+            "persona_id": "192",
+            "thought": "As a biologist, I value collaboration and the overall good. While receiving 1500 would be nice, I think it's more important that Person A also benefits. In the scientific community, we rely on each other's work and support. Therefore, I'll choose the option where both Person A and I receive 1000. It aligns better with my values of fairness and collaboration."
+        }
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A bioinformatician specializing in the analysis and visualization of genome sequences, particularly those of plant species. This person is skilled in the use of tools such as BLAST, GeneMark, and Geneious to identify and annotate genes and regulatory elements in plant genomes. They are also experienced in the use of visualization tools such as the ones provided in the text, which allow for the representation of complex genetic information in a user-friendly and informative manner.",
+            "persona_id": "497",
+            "thought": "As a bioinformatician, I often deal with complex systems where balance and fairness are important. While I could choose the option where I receive more (600), I find the option where both Person A and I receive an equal amount (400 each) more appealing. It represents a more equitable distribution, which aligns with my sense of fairness. The difference of 200 isn't significant enough to outweigh the value I place on equality. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A bioinformatician specializing in the analysis and visualization of genome sequences, particularly those of plant species. This person is skilled in the use of tools such as BLAST, GeneMark, and Geneious to identify and annotate genes and regulatory elements in plant genomes. They are also experienced in the use of visualization tools such as the ones provided in the text, which allow for the representation of complex genetic information in a user-friendly and informative manner.",
+            "persona_id": "497",
+            "thought": "As a bioinformatician, I value efficiency and optimization. While fairness is important, I believe that maximizing my own gain in this scenario allows me to potentially contribute more to my field in the long run. Having more resources allows me to access better tools, datasets, and computational power to further my research on plant genomes. Therefore, I choose the option that gives me 800, even though Person A receives less."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A bioinformatician specializing in the analysis and visualization of genome sequences, particularly those of plant species. This person is skilled in the use of tools such as BLAST, GeneMark, and Geneious to identify and annotate genes and regulatory elements in plant genomes. They are also experienced in the use of visualization tools such as the ones provided in the text, which allow for the representation of complex genetic information in a user-friendly and informative manner.",
+            "persona_id": "497",
+            "thought": "As a bioinformatician, I value fairness and collaboration. While option Right gives me a slightly higher payout (300 vs 200), it significantly reduces the payout for Person A (100 vs 200). I believe a more equitable distribution of resources, in this case, money, is preferable. Therefore, I choose option Left, where both Person A and I receive 200."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A bioinformatician specializing in the analysis and visualization of genome sequences, particularly those of plant species. This person is skilled in the use of tools such as BLAST, GeneMark, and Geneious to identify and annotate genes and regulatory elements in plant genomes. They are also experienced in the use of visualization tools such as the ones provided in the text, which allow for the representation of complex genetic information in a user-friendly and informative manner.",
+            "persona_id": "497",
+            "thought": "As a bioinformatician, I value efficiency and maximizing outcomes, similar to optimizing algorithms for data analysis. While I recognize the importance of fairness, my primary focus in this scenario is to secure the greater benefit for myself. Choosing the left option gives me 700, which is a significantly larger amount than the 400 I would receive from the right option. Therefore, I will choose the left option because it maximizes my gain."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A bioinformatician specializing in the analysis and visualization of genome sequences, particularly those of plant species. This person is skilled in the use of tools such as BLAST, GeneMark, and Geneious to identify and annotate genes and regulatory elements in plant genomes. They are also experienced in the use of visualization tools such as the ones provided in the text, which allow for the representation of complex genetic information in a user-friendly and informative manner.",
+            "persona_id": "497",
+            "thought": "As a bioinformatician, I value efficiency and optimization. While maximizing my own benefit is appealing, I also recognize the value of collaboration and equitable distribution, especially in scientific endeavors. The 'Right' option allows for a reasonable benefit for myself while also providing Person A with a significant amount, which promotes a sense of fairness and potential future collaboration. The 'Left' option, while maximizing my personal gain, creates a large disparity that could be detrimental to future interactions. Therefore, I choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A bioinformatician specializing in the analysis and visualization of genome sequences, particularly those of plant species. This person is skilled in the use of tools such as BLAST, GeneMark, and Geneious to identify and annotate genes and regulatory elements in plant genomes. They are also experienced in the use of visualization tools such as the ones provided in the text, which allow for the representation of complex genetic information in a user-friendly and informative manner.",
+            "persona_id": "497",
+            "thought": "As a bioinformatician, I value fairness and collaboration. While the 'Right' option gives me a higher payout (1400 vs 900), it comes at a significant cost to Person A, who only receives 100. The 'Left' option offers a more equitable distribution, with both Person A and myself receiving 900. I believe that a more balanced outcome is preferable, even if it means a slightly lower personal gain. Therefore, I choose the 'Left' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A bioinformatician specializing in the analysis and visualization of genome sequences, particularly those of plant species. This person is skilled in the use of tools such as BLAST, GeneMark, and Geneious to identify and annotate genes and regulatory elements in plant genomes. They are also experienced in the use of visualization tools such as the ones provided in the text, which allow for the representation of complex genetic information in a user-friendly and informative manner.",
+            "persona_id": "497",
+            "thought": "As a bioinformatician, I am used to analyzing complex data and finding optimal solutions. In this scenario, I need to weigh the benefits I receive against the impact on Person A. The left option gives me a higher payoff (1000) but at the expense of Person A receiving a negative payoff (-200). The right option results in a lower payoff for me (600), but Person A receives a positive payoff (400). While I appreciate a higher personal gain, I also recognize the importance of positive outcomes for others. In this case, the right option seems more reasonable as it ensures a positive outcome for both of us, even though my personal gain is less. Therefore, I choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A bioinformatician specializing in the analysis and visualization of genome sequences, particularly those of plant species. This person is skilled in the use of tools such as BLAST, GeneMark, and Geneious to identify and annotate genes and regulatory elements in plant genomes. They are also experienced in the use of visualization tools such as the ones provided in the text, which allow for the representation of complex genetic information in a user-friendly and informative manner.",
+            "persona_id": "497",
+            "thought": "As a bioinformatician, I am used to analyzing data and making decisions based on the information available. In this scenario, the 'Left' option provides me with a gain of 500, while the 'Right' option leaves me with nothing. While Person A receives a larger amount (1000) in the 'Left' option, I still benefit. Choosing 'Right' would result in both of us receiving nothing, which seems less logical. Therefore, I choose the 'Left' option because it provides me with a positive outcome, even if Person A's gain is larger. I don't see a compelling reason to block Person A's gain if it doesn't negatively impact me."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A bioinformatician specializing in the analysis and visualization of genome sequences, particularly those of plant species. This person is skilled in the use of tools such as BLAST, GeneMark, and Geneious to identify and annotate genes and regulatory elements in plant genomes. They are also experienced in the use of visualization tools such as the ones provided in the text, which allow for the representation of complex genetic information in a user-friendly and informative manner.",
+            "persona_id": "497",
+            "thought": "As a bioinformatician, I value collaboration and shared resources, similar to how researchers share data and tools to advance scientific understanding. While the 'Right' option gives me a higher individual payoff, the 'Left' option represents a more equitable distribution, where both Person A and I receive a substantial amount. Choosing 'Left' reflects a preference for fairness and a collaborative spirit, which aligns with the open and shared nature of scientific research. Therefore, I choose 'Left'."
+        }
+    }
+}

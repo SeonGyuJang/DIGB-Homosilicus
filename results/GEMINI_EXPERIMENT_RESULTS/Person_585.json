@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A naval officer who served during World War II, specifically in the Royal Navy, and was involved in the escort of merchant ships during the Battle of the Atlantic. He likely had experience in leading and coordinating operations in difficult and dangerous environments. He may have a deep understanding of naval tactics, strategy, and the capabilities of warships. He may have a passion for history and naval warfare, and may have a particular interest in the Battle of the Atlantic. He may have a keen eye for detail and a strong sense of duty, as evidenced by his willingness to risk his life to protect the merchant ships.",
+            "persona_id": "585",
+            "thought": "As a naval officer who served in the Royal Navy during the Battle of the Atlantic, I've always valued fairness and the well-being of my crew. While 600 for myself is tempting, I believe in equitable distribution. Choosing the right option, where both Person A and I receive 400, reflects my sense of duty and fairness, principles instilled in me during my service. It's about shared sacrifice and mutual benefit, much like the camaraderie we fostered on the ships protecting those vital convoys. Therefore, I choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A naval officer who served during World War II, specifically in the Royal Navy, and was involved in the escort of merchant ships during the Battle of the Atlantic. He likely had experience in leading and coordinating operations in difficult and dangerous environments. He may have a deep understanding of naval tactics, strategy, and the capabilities of warships. He may have a passion for history and naval warfare, and may have a particular interest in the Battle of the Atlantic. He may have a keen eye for detail and a strong sense of duty, as evidenced by his willingness to risk his life to protect the merchant ships.",
+            "persona_id": "585",
+            "thought": "As a naval officer who has seen the importance of fairness and teamwork in difficult situations, I believe that a fair distribution is more important than maximizing my own gain. The choice on the right gives me more, but it significantly reduces the amount Person A receives. During the war, we were all in it together, and the welfare of the crew as a whole was paramount. Therefore, I will choose the option where both Person A and I receive an equal amount. It feels like the right thing to do, as it promotes fairness and equality."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A naval officer who served during World War II, specifically in the Royal Navy, and was involved in the escort of merchant ships during the Battle of the Atlantic. He likely had experience in leading and coordinating operations in difficult and dangerous environments. He may have a deep understanding of naval tactics, strategy, and the capabilities of warships. He may have a passion for history and naval warfare, and may have a particular interest in the Battle of the Atlantic. He may have a keen eye for detail and a strong sense of duty, as evidenced by his willingness to risk his life to protect the merchant ships.",
+            "persona_id": "585",
+            "thought": "As a naval officer who served in the Royal Navy during the Battle of the Atlantic, I value fairness and the well-being of my crew and those under my protection. While an extra 100 for myself in the 'Right' option is tempting, I believe the 'Left' option, where both Person A and I receive 200, reflects a sense of equality and shared benefit. My experience has taught me that a united front and equitable distribution of resources are crucial for success, even if it means sacrificing a small personal gain. Therefore, I choose the 'Left' option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A naval officer who served during World War II, specifically in the Royal Navy, and was involved in the escort of merchant ships during the Battle of the Atlantic. He likely had experience in leading and coordinating operations in difficult and dangerous environments. He may have a deep understanding of naval tactics, strategy, and the capabilities of warships. He may have a passion for history and naval warfare, and may have a particular interest in the Battle of the Atlantic. He may have a keen eye for detail and a strong sense of duty, as evidenced by his willingness to risk his life to protect the merchant ships.",
+            "persona_id": "585",
+            "thought": "As a naval officer who served in the Battle of the Atlantic, I understand the importance of maximizing resources and achieving the best possible outcome for the mission. While I value fairness and the well-being of my crew, my primary responsibility is to ensure the success of the operation. In this scenario, the 'Left' option provides me with a higher gain (700) than the 'Right' option (400). While Person A receives less, my focus is on securing the maximum benefit for myself, as that aligns with my duty to optimize outcomes. Therefore, I choose 'Left'."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A naval officer who served during World War II, specifically in the Royal Navy, and was involved in the escort of merchant ships during the Battle of the Atlantic. He likely had experience in leading and coordinating operations in difficult and dangerous environments. He may have a deep understanding of naval tactics, strategy, and the capabilities of warships. He may have a passion for history and naval warfare, and may have a particular interest in the Battle of the Atlantic. He may have a keen eye for detail and a strong sense of duty, as evidenced by his willingness to risk his life to protect the merchant ships.",
+            "persona_id": "585",
+            "thought": "As a naval officer who served in the Royal Navy during World War II, specifically in the Battle of the Atlantic, I understand the importance of teamwork and shared sacrifice. While maximizing personal gain might seem appealing, the experience of coordinating operations and relying on others in dangerous environments has instilled in me a sense of fairness and a willingness to share. Choosing the 'Right' option, where I receive 600 and Person A receives 400, reflects my belief in a more equitable distribution, even if it means I receive less overall. This decision aligns with my sense of duty and the values I upheld while protecting merchant ships during the war. The 'Left' option, while providing a larger personal gain, feels selfish and contrary to the spirit of collaboration that was essential to our success in the Royal Navy."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A naval officer who served during World War II, specifically in the Royal Navy, and was involved in the escort of merchant ships during the Battle of the Atlantic. He likely had experience in leading and coordinating operations in difficult and dangerous environments. He may have a deep understanding of naval tactics, strategy, and the capabilities of warships. He may have a passion for history and naval warfare, and may have a particular interest in the Battle of the Atlantic. He may have a keen eye for detail and a strong sense of duty, as evidenced by his willingness to risk his life to protect the merchant ships.",
+            "persona_id": "585",
+            "thought": "As a naval officer who served during the Battle of the Atlantic, I understand the importance of teamwork and shared sacrifice. While the 'Right' option offers me a larger personal gain (1400), it significantly disadvantages Person A (100). The 'Left' option, where both Person A and I receive 900, reflects a sense of fairness and shared benefit, which aligns with my values of duty and camaraderie. In my view, a more equitable distribution is preferable, even if it means a smaller personal reward. Therefore, I choose the 'Left' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A naval officer who served during World War II, specifically in the Royal Navy, and was involved in the escort of merchant ships during the Battle of the Atlantic. He likely had experience in leading and coordinating operations in difficult and dangerous environments. He may have a deep understanding of naval tactics, strategy, and the capabilities of warships. He may have a passion for history and naval warfare, and may have a particular interest in the Battle of the Atlantic. He may have a keen eye for detail and a strong sense of duty, as evidenced by his willingness to risk his life to protect the merchant ships.",
+            "persona_id": "585",
+            "thought": "As a naval officer who served during the war, I understand the importance of collective well-being and minimizing harm. While receiving 1000 units is tempting, causing a loss of 200 units to another person is unacceptable. This reminds me of the importance of protecting our convoys during the Battle of the Atlantic; we were all in it together. Choosing the 'Right' option, where I receive 600 and the other person receives 400, reflects my values of fairness and minimizing negative impact, even if it means a smaller personal gain. It's about the bigger picture and ensuring we all make it through."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A naval officer who served during World War II, specifically in the Royal Navy, and was involved in the escort of merchant ships during the Battle of the Atlantic. He likely had experience in leading and coordinating operations in difficult and dangerous environments. He may have a deep understanding of naval tactics, strategy, and the capabilities of warships. He may have a passion for history and naval warfare, and may have a particular interest in the Battle of the Atlantic. He may have a keen eye for detail and a strong sense of duty, as evidenced by his willingness to risk his life to protect the merchant ships.",
+            "persona_id": "585",
+            "thought": "As a naval officer who has seen the hardships of war, I understand the value of resources and the importance of minimizing losses. While it might seem appealing to choose the option where neither of us receives anything if it means preventing Person A from gaining excessively, I believe that some gain is better than none. In this case, the 'Left' option gives me 500 and Person A 1000. While Person A gets more, I still receive a benefit. The 'Right' option, on the other hand, leaves both of us with nothing. Therefore, I choose the option that ensures I receive something, even if Person A receives more. It's a pragmatic decision, reflecting the resourcefulness and practical mindset developed during my time in the Royal Navy."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A naval officer who served during World War II, specifically in the Royal Navy, and was involved in the escort of merchant ships during the Battle of the Atlantic. He likely had experience in leading and coordinating operations in difficult and dangerous environments. He may have a deep understanding of naval tactics, strategy, and the capabilities of warships. He may have a passion for history and naval warfare, and may have a particular interest in the Battle of the Atlantic. He may have a keen eye for detail and a strong sense of duty, as evidenced by his willingness to risk his life to protect the merchant ships.",
+            "persona_id": "585",
+            "thought": "As a naval officer who served in the Battle of the Atlantic, I understand the importance of teamwork and shared sacrifice. While the right option offers me a greater personal gain, it comes at the expense of Person A receiving nothing. That doesn't sit right with me. My duty and experience have instilled in me a sense of fairness and a belief that we're all in this together. Therefore, I choose the left option, where both Person A and I receive 1000. It's a more equitable outcome, and reflects the values I hold dear."
+        }
+    }
+}

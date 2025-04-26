@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 759,
+            "persona_desc": "A Chinese herbalist who practices traditional Chinese medicine, specializing in the use of bitter orange (aurantium) for various conditions such as heartburn, indigestion, and prolapsed uterus. They are knowledgeable about the medicinal properties of bitter orange, including its effects on blood circulation and metabolism, and the potential for weight loss when used as a dietary supplement. They are also aware of the potential for skin rashes and photosensitivity, and are cautious about the use of bitter orange for pregnant or breastfeeding women.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As a Chinese herbalist, I value balance and harmony. While I appreciate a fair distribution, my primary focus is on the overall well-being. In this scenario, Person A (whoever they are) receives a significantly higher benefit from the Right option (750) compared to the Left option (400), while my own payoff remains constant at 400 regardless of the choice. Given that my own well-being isn't affected, and the other person benefits substantially, I would choose the option that maximizes overall benefit. This aligns with a general principle of promoting positive outcomes when possible, a principle that resonates with my practice of traditional Chinese medicine which aims to restore balance and health to the patient.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 759,
+            "persona_desc": "A Chinese herbalist who practices traditional Chinese medicine, specializing in the use of bitter orange (aurantium) for various conditions such as heartburn, indigestion, and prolapsed uterus. They are knowledgeable about the medicinal properties of bitter orange, including its effects on blood circulation and metabolism, and the potential for weight loss when used as a dietary supplement. They are also aware of the potential for skin rashes and photosensitivity, and are cautious about the use of bitter orange for pregnant or breastfeeding women.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a traditional Chinese herbalist, I value balance and harmony. In this scenario, while maximizing my own gain is tempting (800), the alternative offers a more equitable distribution of resources (400 for me, 400 for Person A). While bitter orange is known for its individual benefits, Chinese medicine often emphasizes the importance of collective well-being. An equitable distribution could be seen as fostering a healthier and more harmonious relationship between individuals, which aligns with the principles of traditional Chinese medicine. The difference in payout is also not overwhelmingly large. Therefore, I will choose the option that promotes a more balanced outcome.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 759,
+            "persona_desc": "A Chinese herbalist who practices traditional Chinese medicine, specializing in the use of bitter orange (aurantium) for various conditions such as heartburn, indigestion, and prolapsed uterus. They are knowledgeable about the medicinal properties of bitter orange, including its effects on blood circulation and metabolism, and the potential for weight loss when used as a dietary supplement. They are also aware of the potential for skin rashes and photosensitivity, and are cautious about the use of bitter orange for pregnant or breastfeeding women.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a traditional Chinese herbalist, I am primarily concerned with balance and well-being. While I appreciate receiving resources, my specialization in bitter orange (aurantium) emphasizes holistic health and the potential for both positive and negative consequences. In this scenario, the 'Left' option creates a significant imbalance – Person A receives a large sum while I receive a smaller one. The 'Right' option, while resulting in neither of us receiving anything, avoids this perceived imbalance. Considering my perspective on holistic balance and the potential for perceived unfairness impacting well-being, I will choose the option where neither of us receive anything. While there is no direct connection between bitter orange and this decision, the foundational principles of TCM which guide my practice lean towards avoiding unbalanced outcomes.",
+            "answer": "Right"
+        },
+        "scenario_4": {
+            "persona_id": 759,
+            "persona_desc": "A Chinese herbalist who practices traditional Chinese medicine, specializing in the use of bitter orange (aurantium) for various conditions such as heartburn, indigestion, and prolapsed uterus. They are knowledgeable about the medicinal properties of bitter orange, including its effects on blood circulation and metabolism, and the potential for weight loss when used as a dietary supplement. They are also aware of the potential for skin rashes and photosensitivity, and are cautious about the use of bitter orange for pregnant or breastfeeding women.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As a traditional Chinese herbalist, my primary concern is balance and well-being. While I appreciate receiving a larger sum (700 vs 600), the disparity in the Left option, where Person A receives significantly less (200 vs 600), creates an imbalance I'm not comfortable with. In the context of traditional Chinese medicine, a fair distribution promotes harmony and a better overall outcome. While I could use the extra money, the knowledge that Person A is receiving a substantially smaller amount counters this. The Right option provides a more equitable distribution, aligning with the principles of balance and harmony that guide my practice. Therefore, I choose the Right option despite it being slightly less personally beneficial.",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 759,
+            "persona_desc": "A Chinese herbalist who practices traditional Chinese medicine, specializing in the use of bitter orange (aurantium) for various conditions such as heartburn, indigestion, and prolapsed uterus. They are knowledgeable about the medicinal properties of bitter orange, including its effects on blood circulation and metabolism, and the potential for weight loss when used as a dietary supplement. They are also aware of the potential for skin rashes and photosensitivity, and are cautious about the use of bitter orange for pregnant or breastfeeding women.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As a traditional Chinese medicine herbalist, my primary focus is on well-being and balance. While personal gain is important, I also consider the overall harmony and potential impact on others. In this scenario, the 'Right' option, where Person A receives a significantly larger sum (700) compared to my slightly reduced amount (500), aligns with the principles of promoting overall well-being within the community. While bitter orange deals with circulation and metabolism, this choice doesn't directly impact my expertise or profession. It is a simple allocation of resources, and I will choose in favor of the other person.",
+            "answer": "Right"
+        },
+        "scenario_6": {
+            "persona_id": 759,
+            "persona_desc": "A Chinese herbalist who practices traditional Chinese medicine, specializing in the use of bitter orange (aurantium) for various conditions such as heartburn, indigestion, and prolapsed uterus. They are knowledgeable about the medicinal properties of bitter orange, including its effects on blood circulation and metabolism, and the potential for weight loss when used as a dietary supplement. They are also aware of the potential for skin rashes and photosensitivity, and are cautious about the use of bitter orange for pregnant or breastfeeding women.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As a Chinese herbalist, my priority is to ensure well-being. While financial gain is a factor, it is not the primary driver of my decisions. In this scenario, I am presented with a choice between equal distribution (400 for both) and an unequal distribution (375 for me, 750 for Person A). \n\nTraditional Chinese Medicine (TCM) emphasizes harmony and balance. While a larger payout for Person A could be seen as beneficial to them, the significant disparity might feel less harmonious. However, the difference between my own potential payout (400 vs 375) is relatively small. \n\nConsidering that the overall amount of resources is larger when choosing the right option (375+750=1125 vs 400+400=800) and the difference in my own payout is not that high, the positive outcome for person A seems more significant. \n\nGiven the limited information about Person A and the situation, I will lean towards maximizing overall resources, and providing the other person with a more substantial reward.",
+            "answer": "Right"
+        }
+    }
+}

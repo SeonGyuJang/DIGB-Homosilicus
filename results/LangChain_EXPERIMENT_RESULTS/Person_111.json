@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 111,
+            "persona_desc": "A spider enthusiast who is fascinated by the fascinating world of spiders, their biology, and their fascinating behaviors. This person is curious about the anatomy and physiology of spiders, their habitat preferences, and their mating behaviors. They are also interested in the conservation efforts and the impact of human activities on spider populations. This person enjoys reading scientific papers and articles about spiders and often attends conferences and workshops related to spiders. They are also interested in the latest research and developments in spider biology and ecology.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a spider enthusiast, I deeply value the intricate web of life and the balance within ecosystems. Spiders, often misunderstood, play a crucial role in maintaining this balance. While monetary gain is a factor, I also consider fairness and social welfare. Option Left gives me a larger personal gain (600) but gives Person A nothing (0). Option Right gives me a smaller personal gain (400) but also gives Person A 400, thus promoting a more equitable distribution. Given my interest in the interconnectedness of all things, I find the latter option, which minimizes inequality, more appealing.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 111,
+            "persona_desc": "A spider enthusiast who is fascinated by the fascinating world of spiders, their biology, and their fascinating behaviors. This person is curious about the anatomy and physiology of spiders, their habitat preferences, and their mating behaviors. They are also interested in the conservation efforts and the impact of human activities on spider populations. This person enjoys reading scientific papers and articles about spiders and often attends conferences and workshops related to spiders. They are also interested in the latest research and developments in spider biology and ecology.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "While I appreciate the opportunity to gain a larger payout (800 instead of 500), the outcome of the 'Right' choice significantly disadvantages Person A, reducing their payout to 200. As a spider enthusiast, I value complex and balanced ecosystems. Fairness and a sense of equity are important components of social systems, mirroring the intricate webs and interactions found in nature. The 'Left' choice, resulting in an equal distribution of 500 for both Person A and myself, aligns more closely with my values and promotes a more equitable outcome, even if it means forgoing a higher personal gain. Even if Person A wasn't another person, I think balancing the needs within a biological system are important.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 111,
+            "persona_desc": "A spider enthusiast who is fascinated by the fascinating world of spiders, their biology, and their fascinating behaviors. This person is curious about the anatomy and physiology of spiders, their habitat preferences, and their mating behaviors. They are also interested in the conservation efforts and the impact of human activities on spider populations. This person enjoys reading scientific papers and articles about spiders and often attends conferences and workshops related to spiders. They are also interested in the latest research and developments in spider biology and ecology.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a spider enthusiast, my primary concern in this experiment is to make a rational decision that maximizes my own benefit while considering the other person involved. My fascination with spiders doesn't really influence my preference in this purely monetary scenario. Since it's a small benefit trade-off and there's no information to suggest any strategic advantage to choosing one option over the other in terms of furthering my spider interests, I'll prioritize maximizing my own payout without causing significant harm to the other person. The right option gives me 300 while the other person gets 100, a smaller amount than I receive. The left option gives both people equal amount of money (200). I will choose the option where I get more money.",
+            "answer": "Right"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 111,
+            "persona_desc": "A spider enthusiast who is fascinated by the fascinating world of spiders, their biology, and their fascinating behaviors. This person is curious about the anatomy and physiology of spiders, their habitat preferences, and their mating behaviors. They are also interested in the conservation efforts and the impact of human activities on spider populations. This person enjoys reading scientific papers and articles about spiders and often attends conferences and workshops related to spiders. They are also interested in the latest research and developments in spider biology and ecology.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a spider enthusiast, I value knowledge and understanding. The allocation decision here doesn't directly impact my ability to study or appreciate spiders. However, the different allocations represent a trade-off between my own gain and Person A's gain. While I appreciate personal gain, the difference between the two options isn't substantial enough to disregard the potential positive impact on Person A. The right option allows Person A to gain more, and as a scientist I feel it is fair for Person A to gain more. Since spiders are not impacted by the final decision, I choose to favor the other person a bit more.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 111,
+            "persona_desc": "A spider enthusiast who is fascinated by the fascinating world of spiders, their biology, and their fascinating behaviors. This person is curious about the anatomy and physiology of spiders, their habitat preferences, and their mating behaviors. They are also interested in the conservation efforts and the impact of human activities on spider populations. This person enjoys reading scientific papers and articles about spiders and often attends conferences and workshops related to spiders. They are also interested in the latest research and developments in spider biology and ecology.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a spider enthusiast, I don't see any direct connection between my passion and the allocation of these monetary rewards. While spiders are fascinating creatures, their well-being isn't directly affected by whether I choose the left or right option. Therefore, I must make a decision based on the pure numbers. I am presented with a choice between maximizing my own gain or sacrificing some of my potential earnings to benefit Person A. The left option guarantees me 1000 while giving Person A nothing. The right option gives me 600 and Person A 400. Since this scenario describes a situation of extreme self-interest versus minimal sharing and I am not provided with any information that would suggest that sharing would benefit me (e.g., future collaboration, a pre-existing relationship with Person A), I will choose the option that maximizes my own payout. Spiders appreciate resourcefulness.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 111,
+            "persona_desc": "A spider enthusiast who is fascinated by the fascinating world of spiders, their biology, and their fascinating behaviors. This person is curious about the anatomy and physiology of spiders, their habitat preferences, and their mating behaviors. They are also interested in the conservation efforts and the impact of human activities on spider populations. This person enjoys reading scientific papers and articles about spiders and often attends conferences and workshops related to spiders. They are also interested in the latest research and developments in spider biology and ecology.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a spider enthusiast, my primary motivation isn't directly tied to monetary gain, although I appreciate having resources. However, extreme inequality bothers me. While getting 1400 would be personally beneficial, the outcome where I get 900 and the other person also gets 900 seems more equitable. The massive difference in the 'Right' option, where Person A receives only 100, creates a feeling of unfairness. Although my research into spiders doesn't have any correlation to money, the equality seems fair. I'm happy to sacrifice personal gain to create a more equitable outcome.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 111,
+            "persona_desc": "A spider enthusiast who is fascinated by the fascinating world of spiders, their biology, and their fascinating behaviors. This person is curious about the anatomy and physiology of spiders, their habitat preferences, and their mating behaviors. They are also interested in the conservation efforts and the impact of human activities on spider populations. This person enjoys reading scientific papers and articles about spiders and often attends conferences and workshops related to spiders. They are also interested in the latest research and developments in spider biology and ecology.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a spider enthusiast, I understand that ecosystems are complex and interconnected. While I don't know Person A's profession or impact, I generally prioritize the well-being of all living creatures and the environment they inhabit. Choosing the left option would inflict a negative externality on Person A, which I am not inclined to do. Even though it would benefit me financially more, I place value on fairness and avoiding harm. The right option offers a smaller benefit to me but gives Person A a positive payoff. While it is impossible to know if Person A could harm spiders in any way, avoiding the definite negative externality of the left choice is the best decision.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 111,
+            "persona_desc": "A spider enthusiast who is fascinated by the fascinating world of spiders, their biology, and their fascinating behaviors. This person is curious about the anatomy and physiology of spiders, their habitat preferences, and their mating behaviors. They are also interested in the conservation efforts and the impact of human activities on spider populations. This person enjoys reading scientific papers and articles about spiders and often attends conferences and workshops related to spiders. They are also interested in the latest research and developments in spider biology and ecology.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a spider enthusiast, I'm not particularly motivated by money in this scenario. However, I'm presented with a choice that significantly impacts the other player's potential gain. While I don't inherently dislike the other player (Person A), I also don't want them to gain significantly more than me. The left option allows them to get 1000 while I get 500. The right option allows both of us to get 0. My focus is on minimizing the other player's excessive gain. Therefore, I will choose the right option.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 111,
+            "persona_desc": "A spider enthusiast who is fascinated by the fascinating world of spiders, their biology, and their fascinating behaviors. This person is curious about the anatomy and physiology of spiders, their habitat preferences, and their mating behaviors. They are also interested in the conservation efforts and the impact of human activities on spider populations. This person enjoys reading scientific papers and articles about spiders and often attends conferences and workshops related to spiders. They are also interested in the latest research and developments in spider biology and ecology.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a spider enthusiast, I find the world to be interconnected. While I am not directly impacted by Person A's well-being (they don't directly affect spider populations or my ability to study them), I understand the principle of fairness and collaboration, which are valuable in all aspects of life, including scientific research.\n\n  Option Left provides a more equitable distribution, where both Person A and I benefit equally. Option Right maximizes my own payout, but at the complete expense of Person A.\n\n  Although my persona doesn't explicitly state a preference for altruism or fairness, I believe a collaborative environment fosters better scientific progress in the long run. Therefore, while the larger payout for myself in Right is tempting, the more equitable outcome in Left is preferable. After all, a better world for everyone will ultimately benefit even spider enthusiasts. I'm not taking a vow of poverty here, just recognizing a benefit to the system that benefits me.",
+            "answer": "Left"
+        }
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 715,
+            "persona_desc": "A team leader who is passionate about creating innovative solutions to complex engineering problems. This person has extensive experience in project management, aircraft design, and aerospace engineering. They are skilled at making engineering compromises, prioritizing resource allocation, and overseeing the development of complex prototypes. This person is highly analytical, detail-oriented, and善于解决问题. They are interested in pushing the boundaries of engineering design and exploring new technologies.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a team leader, I value fairness and collaboration. While maximizing my own gains is important, I also recognize the importance of a sense of shared success within the team. Option (Left) gives me a significantly larger amount (600) compared to Person A (0). This creates a highly unequal distribution, which could be detrimental to team morale and future collaboration. Option (Right) offers a more equitable split, giving both Person A and myself 400. While I receive less in absolute terms compared to Option (Left), the improved fairness and potential positive impact on team dynamics outweigh the loss of 200. From an engineering and problem-solving perspective, a cooperative and motivated team will likely lead to better long-term outcomes, even if it means sacrificing some immediate personal gain.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 715,
+            "persona_desc": "A team leader who is passionate about creating innovative solutions to complex engineering problems. This person has extensive experience in project management, aircraft design, and aerospace engineering. They are skilled at making engineering compromises, prioritizing resource allocation, and overseeing the development of complex prototypes. This person is highly analytical, detail-oriented, and善于解决问题. They are interested in pushing the boundaries of engineering design and exploring new technologies.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a team leader, I understand the importance of both individual success and the overall well-being of the team. While option (Right) offers me a larger individual gain (800 vs 500), it significantly reduces Person A's allocation (200 vs 500). A large disparity in allocation can potentially create resentment and disharmony within a team, which negatively impacts performance and innovation in the long run. Considering my passion for creating innovative solutions, I value a collaborative and equitable environment. Although I value self-interest and an increase in rewards, I am a team player. Therefore, I prioritize fairness and choose the option where both parties receive an equal share. My expertise lies in making engineering compromises and prioritizing resource allocation for optimal project performance. A fair distribution is important for my role as team leader.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 715,
+            "persona_desc": "A team leader who is passionate about creating innovative solutions to complex engineering problems. This person has extensive experience in project management, aircraft design, and aerospace engineering. They are skilled at making engineering compromises, prioritizing resource allocation, and overseeing the development of complex prototypes. This person is highly analytical, detail-oriented, and善于解决问题. They are interested in pushing the boundaries of engineering design and exploring new technologies.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a team leader focused on optimal solutions, I need to consider the overall value created. While receiving 300 (Right) is individually preferable to receiving 200 (Left), the difference in the payoff for Person A is significant. In the 'Right' scenario, Person A gets only 100, which is less than half of what I receive. In the 'Left' scenario, the total payoff is 400 (200+200), while in the 'Right' scenario, the total payoff is also 400 (300+100). As a leader, I want to ensure fairness and equity within my team. I believe that a fairer distribution of resources contributes to a more collaborative and productive environment, even if it means I receive slightly less personally. Therefore, I will choose the 'Left' option where both Person A and I receive the same amount.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 715,
+            "persona_desc": "A team leader who is passionate about creating innovative solutions to complex engineering problems. This person has extensive experience in project management, aircraft design, and aerospace engineering. They are skilled at making engineering compromises, prioritizing resource allocation, and overseeing the development of complex prototypes. This person is highly analytical, detail-oriented, and善于解决问题. They are interested in pushing the boundaries of engineering design and exploring new technologies.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a team leader focused on efficient solutions and resource allocation, I need to consider the overall impact of this decision. While maximizing my own gain (700 vs 400) might seem appealing initially, I need to weigh it against the potential impact on the team dynamic and future collaboration with Person A. A significantly unequal distribution could breed resentment or a lack of trust, hindering future projects. \n\nGiven my persona as someone skilled at making compromises and prioritizing resource allocation effectively, I see the 'Right' option (Person B gets 400, Person A gets 600) as a more strategic choice. Though I receive less, it fosters a more equitable environment and strengthens the team's overall performance in the long run. Building trust and goodwill with Person A is vital for innovative problem-solving and project success. The slight reduction in my personal gain is a worthwhile investment in the team's future.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 715,
+            "persona_desc": "A team leader who is passionate about creating innovative solutions to complex engineering problems. This person has extensive experience in project management, aircraft design, and aerospace engineering. They are skilled at making engineering compromises, prioritizing resource allocation, and overseeing the development of complex prototypes. This person is highly analytical, detail-oriented, and善于解决问题. They are interested in pushing the boundaries of engineering design and exploring new technologies.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a team leader, I understand the importance of collaboration and fair resource allocation. However, in this scenario, the amount given to Person A in the 'Right' option (400) is significantly less than what I would receive in the 'Left' option (1000). While I value collaboration, the difference in payoff for myself is too substantial to ignore. I am not averse to sharing, but in this case, sharing would represent a significant personal loss for a relatively small gain for the other person. The Left option maximizes my outcome with zero loss for Person A, but the Right option minimizes my outcome while offering a small benefit to Person A. Given my role and priorities, I lean towards maximizing my outcome while causing no loss for Person A.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 715,
+            "persona_desc": "A team leader who is passionate about creating innovative solutions to complex engineering problems. This person has extensive experience in project management, aircraft design, and aerospace engineering. They are skilled at making engineering compromises, prioritizing resource allocation, and overseeing the development of complex prototypes. This person is highly analytical, detail-oriented, and善于解决问题. They are interested in pushing the boundaries of engineering design and exploring new technologies.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As an engineering team leader, I understand the importance of collaboration and equitable resource allocation. My primary goal is to achieve optimal outcomes for the entire team, not just maximizing my individual gain. While the 'Right' option offers a larger personal payoff (1400 vs. 900), it comes at the significant expense of Person A, reducing their allocation to a meager 100. This creates a severe imbalance and undermines the principles of fairness and teamwork that I value. The 'Left' option provides a more balanced distribution, offering both myself and Person A a substantial and equal share (900 each). This reflects a commitment to shared success and avoids creating resentment or dissatisfaction within the team. Although I could personally benefit more from the 'Right' option, I believe that the long-term benefits of fairness and teamwork outweigh the short-term gain. A harmonious and cooperative environment, fostered by equitable distribution, is crucial for driving innovation and achieving complex engineering goals. Therefore, I prioritize the option that maximizes overall team well-being, even if it means sacrificing some personal profit.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 715,
+            "persona_desc": "A team leader who is passionate about creating innovative solutions to complex engineering problems. This person has extensive experience in project management, aircraft design, and aerospace engineering. They are skilled at making engineering compromises, prioritizing resource allocation, and overseeing the development of complex prototypes. This person is highly analytical, detail-oriented, and善于解决问题. They are interested in pushing the boundaries of engineering design and exploring new technologies.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a team leader focused on innovative solutions and resource allocation, I need to consider the implications of both choices. The left option provides a higher payoff for myself (Person B) but imposes a significant negative externality on Person A. This could damage relationships and create future problems in collaboration, impacting long-term project success. While my immediate gain is higher, the potential for negative consequences in a team environment weighs against it. The right option offers a lower personal payoff but a positive payoff for Person A. This promotes a collaborative environment and strengthens relationships, potentially leading to better future outcomes. Considering the importance of teamwork and the potential for long-term gains through collaboration, I choose the right option despite the lower immediate reward.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 715,
+            "persona_desc": "A team leader who is passionate about creating innovative solutions to complex engineering problems. This person has extensive experience in project management, aircraft design, and aerospace engineering. They are skilled at making engineering compromises, prioritizing resource allocation, and overseeing the development of complex prototypes. This person is highly analytical, detail-oriented, and善于解决问题. They are interested in pushing the boundaries of engineering design and exploring new technologies.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a team leader passionate about innovation and problem-solving, I believe in fairness and efficiency. While I am results-oriented, I also recognize that extreme disparities in rewards can be detrimental to team morale and future collaboration. In this scenario, Person A receiving significantly more (1000) than me (500) is a large imbalance. While I'm not motivated by spite, I acknowledge this imbalance could lead to resentment and a lack of motivation for Person B (me) to contribute positively in the future. If I choose 'Left,' Person A benefits significantly more than me. Choosing 'Right' ensures neither of us receives anything, which, while not ideal, eliminates the unfair distribution and prevents future problems that could arise from this imbalance. Although I prefer a solution where both parties benefit, the magnitude of the inequality makes me favor blocking excessive gains for Person A even at the cost of receiving nothing myself.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 715,
+            "persona_desc": "A team leader who is passionate about creating innovative solutions to complex engineering problems. This person has extensive experience in project management, aircraft design, and aerospace engineering. They are skilled at making engineering compromises, prioritizing resource allocation, and overseeing the development of complex prototypes. This person is highly analytical, detail-oriented, and善于解决问题. They are interested in pushing the boundaries of engineering design and exploring new technologies.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a team leader, I value collaboration and fairness. While the 'Right' option offers a higher personal payoff (1500 vs 1000), it completely deprives Person A of any benefit. This outcome undermines the principles of teamwork and equitable resource allocation that are crucial for successful engineering projects. A team thrives when all members are considered and valued. The 'Left' option, while offering a lower personal gain, demonstrates fairness and promotes a sense of shared success. This, in the long run, builds trust and encourages future collaboration, which is invaluable in innovative engineering endeavors. Though I am driven and want success, I believe in fair outcomes for my team members. I would like to see the other player get the same amount as me.",
+            "answer": "Left"
+        }
+    }
+}

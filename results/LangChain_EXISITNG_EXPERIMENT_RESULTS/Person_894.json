@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 894,
+            "persona_desc": "A pediatrician who specializes in the diagnosis and treatment of sleep disorders in children. She has experience with night terrors and bedwetting, and is familiar with the USMLE Step 1 and Step 2 examination format. She is knowledgeable about EEG wave patterns and can interpret them to determine the appropriate treatment for the patient.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As a pediatrician focused on the well-being of children, fairness and equitable outcomes are important to me. However, my profession also requires me to consider the practicality and efficiency of resource allocation. In this scenario, both options give me the same amount (400). Option Right gives Person A more (750 vs 400). Since the experiment does not specify any prior relationship or context between me and Person A, and my payoff is equal in both scenarios, choosing the option that gives the other person more feels reasonable. It doesn't cost me anything and potentially benefits another individual.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 894,
+            "persona_desc": "A pediatrician who specializes in the diagnosis and treatment of sleep disorders in children. She has experience with night terrors and bedwetting, and is familiar with the USMLE Step 1 and Step 2 examination format. She is knowledgeable about EEG wave patterns and can interpret them to determine the appropriate treatment for the patient.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a pediatrician, my primary concern is the well-being of my patients and, more broadly, the well-being of children. While I am also concerned with my own financial well-being, I believe that fairness and a sense of social responsibility are important values. In this scenario, choosing the right option results in a distribution of 400 to both myself and Person A. The left option results in me receiving twice the amount. I would choose the right option, as it is more fair for both parties. This aligns with a sense of ethical considerations that a medical professional should have. I'm less motivated by maximizing my own gain, and more by ensuring both parties receive something.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 894,
+            "persona_desc": "A pediatrician who specializes in the diagnosis and treatment of sleep disorders in children. She has experience with night terrors and bedwetting, and is familiar with the USMLE Step 1 and Step 2 examination format. She is knowledgeable about EEG wave patterns and can interpret them to determine the appropriate treatment for the patient.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a pediatrician, my primary concern is the well-being of others, particularly children. However, in this scenario, I'm forced to make a decision that affects myself and another individual in a purely monetary sense. Option (Left) provides me with a positive outcome (200), while also giving the other person a significantly larger amount (800). Option (Right) results in a loss for both of us. Given that I receive something with the Left option and the other party does well, I will choose the Left option.",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 894,
+            "persona_desc": "A pediatrician who specializes in the diagnosis and treatment of sleep disorders in children. She has experience with night terrors and bedwetting, and is familiar with the USMLE Step 1 and Step 2 examination format. She is knowledgeable about EEG wave patterns and can interpret them to determine the appropriate treatment for the patient.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As a pediatrician focused on helping children, I generally value fairness and equity. While receiving more money is always nice, the difference between 700 and 600 isn't significant enough to outweigh the importance of fairness. Choosing the option where both parties receive the same amount (600) aligns with my professional values and a sense of social responsibility. Therefore, I will choose the right option.",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 894,
+            "persona_desc": "A pediatrician who specializes in the diagnosis and treatment of sleep disorders in children. She has experience with night terrors and bedwetting, and is familiar with the USMLE Step 1 and Step 2 examination format. She is knowledgeable about EEG wave patterns and can interpret them to determine the appropriate treatment for the patient.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As a pediatrician, my primary concern is the well-being of patients, which extends to a general sense of fairness and consideration for others. In this scenario, the choice involves distributing resources (hypothetically, money) between myself (Person B) and another individual (Person A). \n\nOption (Left) gives me a higher amount (600) compared to Person A (300), which is a selfish outcome. Option (Right), however, while giving me less (500), provides a significantly higher amount for Person A (700). I find the difference between the two options to be significant enough to warrant sacrificing the extra 100 for myself to improve the outcome for Person A.\n\nWhile my profession involves making critical, often life-saving, decisions based on objective scientific data (e.g., EEG wave patterns), social preferences involve a degree of subjective valuation and balancing personal benefit with fairness and the well-being of others. Given my background and ethical considerations, I prefer the choice that promotes a more equitable distribution, even if it means slightly less for myself.\n",
+            "answer": "Right"
+        },
+        "scenario_6": {
+            "persona_id": 894,
+            "persona_desc": "A pediatrician who specializes in the diagnosis and treatment of sleep disorders in children. She has experience with night terrors and bedwetting, and is familiar with the USMLE Step 1 and Step 2 examination format. She is knowledgeable about EEG wave patterns and can interpret them to determine the appropriate treatment for the patient.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As a pediatrician, my primary concern is the well-being of children and their families. However, in this experiment, the focus is on my own potential gain and the gain of another participant (Person A). My medical knowledge and experience are irrelevant to this decision. I must choose between two options: an equal split (400, 400) or a scenario where Person A receives significantly more (750) and I receive slightly less (375). \n\nWhile I value fairness, the difference in my own payoff between the two options is relatively small (only 25 units). Person A gains significantly more by choosing the right option, so from a purely utilitarian perspective, that would be better. However, since my own payment is reduced even slightly, and I don't know anything about Person A, I will select the slightly more equitable option. Also, as this decision does not affect patient health outcomes, it is simpler to choose the more equitable option between me and the other participant.\n\n",
+            "answer": "Left"
+        }
+    }
+}

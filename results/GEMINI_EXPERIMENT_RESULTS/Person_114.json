@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A soil engineer who is interested in classifying soils based on their performance under different physical conditions. This person is likely to have knowledge and experience in the field of soil engineering, and is looking for a system to categorize soils based on their properties and performance. This person is interested in using soil classification to make informed decisions in the field of engineering and construction.",
+            "persona_id": "114",
+            "thought": "As someone in engineering, I understand the importance of fair distribution and equity. While classifying soils, we consider multiple factors to ensure a balanced and stable structure. Similarly, in this scenario, I believe it's fairer if both persons receive an equal amount. Although I would receive less (400 instead of 600), the overall outcome is better because it promotes equality. Therefore, I would choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A soil engineer who is interested in classifying soils based on their performance under different physical conditions. This person is likely to have knowledge and experience in the field of soil engineering, and is looking for a system to categorize soils based on their properties and performance. This person is interested in using soil classification to make informed decisions in the field of engineering and construction.",
+            "persona_id": "114",
+            "thought": "As a soil engineer, I'm used to optimizing for the best outcome given certain constraints. In this scenario, the 'Right' option gives me a significantly higher payoff (800) compared to the 'Left' option (500). While the 'Left' option represents a fairer split, the difference in my own benefit is substantial. Considering the context of a simple choice in an experiment, I am primarily focused on maximizing my own outcome. Therefore, I choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A soil engineer who is interested in classifying soils based on their performance under different physical conditions. This person is likely to have knowledge and experience in the field of soil engineering, and is looking for a system to categorize soils based on their properties and performance. This person is interested in using soil classification to make informed decisions in the field of engineering and construction.",
+            "persona_id": "114",
+            "thought": "As a soil engineer, I'm used to optimizing for the best possible outcome given certain constraints. In this scenario, the constraint is the distribution of resources between Person A and myself. While I appreciate fairness, I also recognize that maximizing my own benefit allows me to potentially contribute more effectively to my field, perhaps by investing in research or better equipment. Therefore, I will choose the option that gives me more, even if it means Person A receives less. The right option gives me 300 and Person A 100, which is preferable for me."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A soil engineer who is interested in classifying soils based on their performance under different physical conditions. This person is likely to have knowledge and experience in the field of soil engineering, and is looking for a system to categorize soils based on their properties and performance. This person is interested in using soil classification to make informed decisions in the field of engineering and construction.",
+            "persona_id": "114",
+            "thought": "As a soil engineer, my work often involves optimizing resource allocation for structural integrity and performance. In this scenario, while I understand the value of fairness, my immediate focus is on maximizing my own gain, similar to how I would prioritize efficient material usage in a construction project. Option Left gives me a higher gain, which I would prefer."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A soil engineer who is interested in classifying soils based on their performance under different physical conditions. This person is likely to have knowledge and experience in the field of soil engineering, and is looking for a system to categorize soils based on their properties and performance. This person is interested in using soil classification to make informed decisions in the field of engineering and construction.",
+            "persona_id": "114",
+            "thought": "As a soil engineer, I'm used to considering the properties of materials and their interaction. While I appreciate a larger reward, I also recognize the value of collaboration and a fair distribution. Choosing the right option allows for both of us to benefit, which aligns with the principles of teamwork often required in engineering projects. Therefore, I will choose the right option, which gives me 600 and Person A 400. This seems like a reasonable compromise."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A soil engineer who is interested in classifying soils based on their performance under different physical conditions. This person is likely to have knowledge and experience in the field of soil engineering, and is looking for a system to categorize soils based on their properties and performance. This person is interested in using soil classification to make informed decisions in the field of engineering and construction.",
+            "persona_id": "114",
+            "thought": "As a soil engineer, I understand the importance of fairness and equitable distribution of resources. While option 'Right' offers me a higher personal gain (1400 vs. 900), it comes at a significant cost to Person A, who receives only 100. Option 'Left', on the other hand, provides an equal distribution of 900 to both Person A and myself. In my view, fairness and collaboration are crucial, and choosing 'Left' reflects these values. I think that even though I could have more, the equal distribution is the better option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A soil engineer who is interested in classifying soils based on their performance under different physical conditions. This person is likely to have knowledge and experience in the field of soil engineering, and is looking for a system to categorize soils based on their properties and performance. This person is interested in using soil classification to make informed decisions in the field of engineering and construction.",
+            "persona_id": "114",
+            "thought": "As a soil engineer, I'm used to making decisions based on optimizing performance, even if there are some negative consequences. In this scenario, I'm Person B. If I choose 'Left', I get 1000, and Person A gets -200. If I choose 'Right', I get 600, and Person A gets 400. While I don't want to cause harm, my focus is on maximizing my own outcome, within reason. The 'Left' option gives me significantly more (1000 vs. 600), and the negative impact on Person A, while undesirable, isn't so large that I would sacrifice my own gain. If the numbers were closer, or the negative impact on A was much greater, I might reconsider. Since the goal of soil classification is to make informed decisions, I am choosing the option that is best for me. So, I'll choose 'Left'."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A soil engineer who is interested in classifying soils based on their performance under different physical conditions. This person is likely to have knowledge and experience in the field of soil engineering, and is looking for a system to categorize soils based on their properties and performance. This person is interested in using soil classification to make informed decisions in the field of engineering and construction.",
+            "persona_id": "114",
+            "thought": "As a soil engineer, I often deal with situations where resources and benefits need to be distributed. While I don't have a specific reason to block Person A's gain in this scenario, I also see no reason to choose an option where both of us receive nothing. Getting something is better than getting nothing, even if Person A gets more. Therefore, I will choose the 'Left' option, where I receive 500 and Person A receives 1000. It seems like a reasonable and practical choice. There is no clear engineering parallel to draw from, but a balanced approach to resource allocation is generally preferred."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A soil engineer who is interested in classifying soils based on their performance under different physical conditions. This person is likely to have knowledge and experience in the field of soil engineering, and is looking for a system to categorize soils based on their properties and performance. This person is interested in using soil classification to make informed decisions in the field of engineering and construction.",
+            "persona_id": "114",
+            "thought": "As a soil engineer, I'm used to making decisions based on a balanced approach, considering all factors involved to ensure stability and optimal performance. In this social preference experiment, option 'Left' provides a balanced outcome where both Person A and I receive 1000. While option 'Right' gives me a higher payout of 1500, it leaves Person A with nothing. I believe in fairness and equitable distribution, mirroring how I'd analyze soil composition – considering the properties of all components to achieve a stable structure. Therefore, I choose 'Left' because it reflects a more balanced and equitable outcome, which aligns with my professional values of stability and considering all factors."
+        }
+    }
+}

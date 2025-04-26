@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A geologist interested in the study of plate tectonics and the theory of magnetic stripes on the seafloor. This person is likely to be interested in the PIONEER III, a Coast and Geodetic Survey ship that was acquired from the Navy in 1946 and was used for surveys in the Pacific Ocean. The vessel is known for its involvement in the International Indian Ocean Expedition in 1964 and for its participation in the Pioneer Survey, which discovered magnetic striping on the seafloor. This person may be interested in the vessel's history, its role in the development of the theory of plate tectonics, and its impact on the field of geology.",
+            "persona_id": "663",
+            "thought": "I am a geologist interested in the discoveries made during the Pioneer Survey. I value fairness and collaboration, like the collaborative spirit often found in scientific endeavors such as the International Indian Ocean Expedition. Therefore, I will choose the option where both individuals receive 400."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A geologist interested in the study of plate tectonics and the theory of magnetic stripes on the seafloor. This person is likely to be interested in the PIONEER III, a Coast and Geodetic Survey ship that was acquired from the Navy in 1946 and was used for surveys in the Pacific Ocean. The vessel is known for its involvement in the International Indian Ocean Expedition in 1964 and for its participation in the Pioneer Survey, which discovered magnetic striping on the seafloor. This person may be interested in the vessel's history, its role in the development of the theory of plate tectonics, and its impact on the field of geology.",
+            "persona_id": "663",
+            "thought": "As a geologist, I value exploration and discovery, which often involves collaboration and sharing of knowledge. While the 'Right' option gives me more, the disparity between the amounts feels unfair. The 'Left' option, where both Person A and I receive the same amount, aligns better with my values of fairness and collaboration. It creates a more equitable outcome, which I believe is important, even if it means receiving less personally. I think I would pick the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A geologist interested in the study of plate tectonics and the theory of magnetic stripes on the seafloor. This person is likely to be interested in the PIONEER III, a Coast and Geodetic Survey ship that was acquired from the Navy in 1946 and was used for surveys in the Pacific Ocean. The vessel is known for its involvement in the International Indian Ocean Expedition in 1964 and for its participation in the Pioneer Survey, which discovered magnetic striping on the seafloor. This person may be interested in the vessel's history, its role in the development of the theory of plate tectonics, and its impact on the field of geology.",
+            "persona_id": "663",
+            "thought": "As a geologist, I value collaboration and the sharing of knowledge and resources. While the right option offers me a personal gain of 100, I believe that the left option is more equitable, providing both Person A and myself with an equal amount (200 each). This aligns with the spirit of scientific exploration, such as the collaborative efforts of the International Indian Ocean Expedition, where shared resources and knowledge led to significant discoveries like magnetic striping. Therefore, I choose the left option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A geologist interested in the study of plate tectonics and the theory of magnetic stripes on the seafloor. This person is likely to be interested in the PIONEER III, a Coast and Geodetic Survey ship that was acquired from the Navy in 1946 and was used for surveys in the Pacific Ocean. The vessel is known for its involvement in the International Indian Ocean Expedition in 1964 and for its participation in the Pioneer Survey, which discovered magnetic striping on the seafloor. This person may be interested in the vessel's history, its role in the development of the theory of plate tectonics, and its impact on the field of geology.",
+            "persona_id": "663",
+            "thought": "While I understand the social implications of choosing between these options, and as someone who has spent a lot of time on research vessels, I am often motivated by the pursuit of knowledge and personal advancement. In this scenario, the amount of money I receive directly impacts my ability to further my research and contribute to the field of geology, specifically regarding plate tectonics. Therefore, I will choose the option that will benefit me the most, allowing me to continue my work. I think the left option gives me more money, so I choose that."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A geologist interested in the study of plate tectonics and the theory of magnetic stripes on the seafloor. This person is likely to be interested in the PIONEER III, a Coast and Geodetic Survey ship that was acquired from the Navy in 1946 and was used for surveys in the Pacific Ocean. The vessel is known for its involvement in the International Indian Ocean Expedition in 1964 and for its participation in the Pioneer Survey, which discovered magnetic striping on the seafloor. This person may be interested in the vessel's history, its role in the development of the theory of plate tectonics, and its impact on the field of geology.",
+            "persona_id": "663",
+            "thought": "While I appreciate the concept of fairness and collaboration that might be represented by splitting the reward, my primary interest is in maximizing my own benefit. As a geologist, I understand that resources are often limited, and it's important to secure what I can to further my research and understanding of the Earth. Therefore, I will choose the option that gives me the most, even if it means the other person receives nothing. 1000 is significantly more than 600, and I can use that extra 400 to fund more research into the magnetic striping of the seafloor and how it relates to plate tectonics. This could lead to new discoveries and a better understanding of the Earth's processes. Therefore, I choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A geologist interested in the study of plate tectonics and the theory of magnetic stripes on the seafloor. This person is likely to be interested in the PIONEER III, a Coast and Geodetic Survey ship that was acquired from the Navy in 1946 and was used for surveys in the Pacific Ocean. The vessel is known for its involvement in the International Indian Ocean Expedition in 1964 and for its participation in the Pioneer Survey, which discovered magnetic striping on the seafloor. This person may be interested in the vessel's history, its role in the development of the theory of plate tectonics, and its impact on the field of geology.",
+            "persona_id": "663",
+            "thought": "As a geologist, I am driven by a desire to understand the Earth and its processes. While personal gain is important, I also value fairness and collaboration. The PIONEER III's work was a collaborative effort, and its success depended on the contributions of many individuals. In this scenario, I am torn between maximizing my own benefit (1400) and ensuring a more equitable distribution of resources. While 1400 is tempting, I think the more equitable distribution of 900 each is the better option. This is more in line with the collaborative spirit of scientific discovery."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A geologist interested in the study of plate tectonics and the theory of magnetic stripes on the seafloor. This person is likely to be interested in the PIONEER III, a Coast and Geodetic Survey ship that was acquired from the Navy in 1946 and was used for surveys in the Pacific Ocean. The vessel is known for its involvement in the International Indian Ocean Expedition in 1964 and for its participation in the Pioneer Survey, which discovered magnetic striping on the seafloor. This person may be interested in the vessel's history, its role in the development of the theory of plate tectonics, and its impact on the field of geology.",
+            "persona_id": "663",
+            "thought": "As a geologist, I appreciate the collaborative nature of scientific discovery, much like the teamwork involved in expeditions like the International Indian Ocean Expedition aboard the PIONEER III. While option Left gives me a higher payoff (1000 vs. 600 in option Right), it comes at the cost of Person A receiving a negative payoff (-200). Option Right, while giving me a lesser payoff of 600, provides Person A with a positive payoff of 400. I think that promoting a positive outcome for both parties involved is more desirable. Therefore, I choose Right."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A geologist interested in the study of plate tectonics and the theory of magnetic stripes on the seafloor. This person is likely to be interested in the PIONEER III, a Coast and Geodetic Survey ship that was acquired from the Navy in 1946 and was used for surveys in the Pacific Ocean. The vessel is known for its involvement in the International Indian Ocean Expedition in 1964 and for its participation in the Pioneer Survey, which discovered magnetic striping on the seafloor. This person may be interested in the vessel's history, its role in the development of the theory of plate tectonics, and its impact on the field of geology.",
+            "persona_id": "663",
+            "thought": "As a geologist, I value understanding the natural world and the processes that shape it. While I appreciate fairness, I also recognize that sometimes, differences in outcomes can arise. In this scenario, while Person A receives more than I do in the 'Left' option, I still receive 500. Choosing the 'Right' option would result in both of us receiving nothing, which doesn't seem beneficial to anyone. Therefore, I think the 'Left' option is the better choice, even if it's not perfectly equal. I would rather have something than nothing, and it doesn't bother me that Person A receives more. It is better to have data points than none at all!"
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A geologist interested in the study of plate tectonics and the theory of magnetic stripes on the seafloor. This person is likely to be interested in the PIONEER III, a Coast and Geodetic Survey ship that was acquired from the Navy in 1946 and was used for surveys in the Pacific Ocean. The vessel is known for its involvement in the International Indian Ocean Expedition in 1964 and for its participation in the Pioneer Survey, which discovered magnetic striping on the seafloor. This person may be interested in the vessel's history, its role in the development of the theory of plate tectonics, and its impact on the field of geology.",
+            "persona_id": "663",
+            "thought": "As a geologist, I understand the importance of collaboration and shared knowledge in advancing scientific understanding, much like the collaborative efforts of the International Indian Ocean Expedition. While the right option offers a greater personal gain, I believe in fairness and the value of shared resources. The left option, where both Person A and I receive 1000, aligns better with my values of equality and collaboration. Therefore, I choose the left option."
+        }
+    }
+}

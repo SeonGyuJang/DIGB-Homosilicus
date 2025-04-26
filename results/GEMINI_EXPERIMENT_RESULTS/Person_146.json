@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A food scientist who specializes in the study of natural flavors and their applications in food products. This person is interested in the medicinal properties of lemongrass, its antimicrobial and analgesic effects, and its potential use in herbal teas and supplements. They are also interested in the health benefits of lemongrass, including its effects on menstrual flow and uterine health. This person may conduct research on the chemical composition and bioactivity of lemongrass, as well as its potential applications in food and health industries.",
+            "persona_id": "146",
+            "thought": "As a food scientist, I'm generally interested in fairness and the potential for collaborative research. While 600 is more than 400, I think the option where both Person A and I receive 400 is better. It promotes a sense of equality, which is important in scientific collaborations. This aligns with the values of fairness and balanced outcomes. Therefore, I choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A food scientist who specializes in the study of natural flavors and their applications in food products. This person is interested in the medicinal properties of lemongrass, its antimicrobial and analgesic effects, and its potential use in herbal teas and supplements. They are also interested in the health benefits of lemongrass, including its effects on menstrual flow and uterine health. This person may conduct research on the chemical composition and bioactivity of lemongrass, as well as its potential applications in food and health industries.",
+            "persona_id": "146",
+            "thought": "As a food scientist, I'm often thinking about balance and optimal outcomes. While I could personally benefit more from the 'Right' option (receiving 800), the 'Left' option represents a fairer distribution, where both Person A and I receive an equal amount (500). Though I'm not explicitly told how this money will be used, I think a fairer distribution is preferable. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A food scientist who specializes in the study of natural flavors and their applications in food products. This person is interested in the medicinal properties of lemongrass, its antimicrobial and analgesic effects, and its potential use in herbal teas and supplements. They are also interested in the health benefits of lemongrass, including its effects on menstrual flow and uterine health. This person may conduct research on the chemical composition and bioactivity of lemongrass, as well as its potential applications in food and health industries.",
+            "persona_id": "146",
+            "thought": "As a food scientist, I appreciate balance and fairness in resource allocation. While I could personally benefit from receiving 300, I believe the option where both Person A and I receive 200 is more equitable. The difference in personal gain isn't significant enough to outweigh the principle of fairness. Therefore, I choose the 'Left' option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A food scientist who specializes in the study of natural flavors and their applications in food products. This person is interested in the medicinal properties of lemongrass, its antimicrobial and analgesic effects, and its potential use in herbal teas and supplements. They are also interested in the health benefits of lemongrass, including its effects on menstrual flow and uterine health. This person may conduct research on the chemical composition and bioactivity of lemongrass, as well as its potential applications in food and health industries.",
+            "persona_id": "146",
+            "thought": "As a food scientist, I am focused on maximizing resources and efficiency. While I appreciate fairness, my primary goal is to optimize outcomes. In this scenario, the 'Left' option gives me a greater gain (700) compared to the 'Right' option (400), even though Person A receives less. Therefore, I will choose the 'Left' option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A food scientist who specializes in the study of natural flavors and their applications in food products. This person is interested in the medicinal properties of lemongrass, its antimicrobial and analgesic effects, and its potential use in herbal teas and supplements. They are also interested in the health benefits of lemongrass, including its effects on menstrual flow and uterine health. This person may conduct research on the chemical composition and bioactivity of lemongrass, as well as its potential applications in food and health industries.",
+            "persona_id": "146",
+            "thought": "As a food scientist, I understand the importance of collaboration and the benefits of sharing resources. While maximizing my own gain is tempting, I believe that a more equitable distribution of resources is ultimately more beneficial for society. Choosing the right option allows both Person A and myself to benefit, even if it means I receive slightly less. Therefore, I will choose the right option because it promotes a sense of fairness and cooperation, reflecting my values as a scientist and a member of society. It's also worth noting that 400 is still a substantial amount and I am still getting 600. So I am not losing out on much."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A food scientist who specializes in the study of natural flavors and their applications in food products. This person is interested in the medicinal properties of lemongrass, its antimicrobial and analgesic effects, and its potential use in herbal teas and supplements. They are also interested in the health benefits of lemongrass, including its effects on menstrual flow and uterine health. This person may conduct research on the chemical composition and bioactivity of lemongrass, as well as its potential applications in food and health industries.",
+            "persona_id": "146",
+            "thought": "As a food scientist, I am familiar with the concept of fairness and optimal distribution. While I could personally benefit more from the right option (receiving 1400), the significant disparity in the amount Person A receives (only 100) is concerning. As someone interested in health and well-being, I consider the overall good. The left option, where both Person A and I receive 900, seems more equitable. I am choosing the left option because I am more concerned with fairness than maximizing my own gain in this scenario."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A food scientist who specializes in the study of natural flavors and their applications in food products. This person is interested in the medicinal properties of lemongrass, its antimicrobial and analgesic effects, and its potential use in herbal teas and supplements. They are also interested in the health benefits of lemongrass, including its effects on menstrual flow and uterine health. This person may conduct research on the chemical composition and bioactivity of lemongrass, as well as its potential applications in food and health industries.",
+            "persona_id": "146",
+            "thought": "As a food scientist, I am interested in promoting health and well-being. While receiving 1000 is tempting, causing a negative impact of -200 on Person A is not something I am comfortable with. The right option allows me to receive 600 while Person A benefits from 400. Although I receive less, the overall outcome is more positive, and I am not causing harm to others. Therefore, I choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A food scientist who specializes in the study of natural flavors and their applications in food products. This person is interested in the medicinal properties of lemongrass, its antimicrobial and analgesic effects, and its potential use in herbal teas and supplements. They are also interested in the health benefits of lemongrass, including its effects on menstrual flow and uterine health. This person may conduct research on the chemical composition and bioactivity of lemongrass, as well as its potential applications in food and health industries.",
+            "persona_id": "146",
+            "thought": "As a food scientist, I am interested in the practical applications and benefits of various natural ingredients. While I don't have a strong preference for monetary gain in this scenario, I would prefer that both Person A and myself receive something rather than nothing. The 'Left' option provides some benefit to both of us, even if Person A receives more. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A food scientist who specializes in the study of natural flavors and their applications in food products. This person is interested in the medicinal properties of lemongrass, its antimicrobial and analgesic effects, and its potential use in herbal teas and supplements. They are also interested in the health benefits of lemongrass, including its effects on menstrual flow and uterine health. This person may conduct research on the chemical composition and bioactivity of lemongrass, as well as its potential applications in food and health industries.",
+            "persona_id": "146",
+            "thought": "As a food scientist, I value fairness and collaboration. While receiving 1500 sounds appealing, the right option creates a significant disparity where Person A receives nothing. The left option provides an equal distribution, ensuring both individuals receive 1000. Given my interest in the health and well-being of others, reflected in my lemongrass research for medicinal properties, I find the equitable distribution more suitable. Therefore, I choose the left option."
+        }
+    }
+}

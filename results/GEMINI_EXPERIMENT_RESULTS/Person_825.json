@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A researcher in environmental science who specializes in the study of the interaction between the atmosphere, the land surface, and the climate system. This person is interested in understanding the net radiation balance of forested sites on opposite sides of a valley in south-western Germany, and the differences in this balance between the two slopes. They are likely to be familiar with concepts such as net radiation balance, slope, aspect, surface-parallel fluxes, and solar radiation, and are interested in the implications of these differences for the vegetation and microclimate of the forest stands.",
+            "persona_id": "825",
+            "thought": "I am an environmental scientist. The left option gives me 600 and the other person 0. The right option gives me 400 and the other person 400. I think I would prefer the right option because it is more equal."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A researcher in environmental science who specializes in the study of the interaction between the atmosphere, the land surface, and the climate system. This person is interested in understanding the net radiation balance of forested sites on opposite sides of a valley in south-western Germany, and the differences in this balance between the two slopes. They are likely to be familiar with concepts such as net radiation balance, slope, aspect, surface-parallel fluxes, and solar radiation, and are interested in the implications of these differences for the vegetation and microclimate of the forest stands.",
+            "persona_id": "825",
+            "thought": "As a researcher, I value fairness and balance. While option Right gives me a larger amount (800 vs 500), it comes at the cost of Person A receiving significantly less (200 vs 500). A more equitable distribution, like in option Left, aligns better with my values. Therefore, I choose Left, where both Person A and I receive 500."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A researcher in environmental science who specializes in the study of the interaction between the atmosphere, the land surface, and the climate system. This person is interested in understanding the net radiation balance of forested sites on opposite sides of a valley in south-western Germany, and the differences in this balance between the two slopes. They are likely to be familiar with concepts such as net radiation balance, slope, aspect, surface-parallel fluxes, and solar radiation, and are interested in the implications of these differences for the vegetation and microclimate of the forest stands.",
+            "persona_id": "825",
+            "thought": "As an environmental scientist, I am interested in balanced systems. While I could personally benefit from receiving 300 instead of 200, the distribution where both Person A and I receive 200 seems fairer and more equitable. A more equitable distribution aligns with a sustainable system, which is something I value in my research. Therefore, I choose the Left option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A researcher in environmental science who specializes in the study of the interaction between the atmosphere, the land surface, and the climate system. This person is interested in understanding the net radiation balance of forested sites on opposite sides of a valley in south-western Germany, and the differences in this balance between the two slopes. They are likely to be familiar with concepts such as net radiation balance, slope, aspect, surface-parallel fluxes, and solar radiation, and are interested in the implications of these differences for the vegetation and microclimate of the forest stands.",
+            "persona_id": "825",
+            "thought": "As a researcher, I am generally interested in maximizing overall benefit, but in this scenario, it is a direct trade-off between my own gain and another person's gain. I am primarily focused on my own research and securing resources for that research. While I am not opposed to others benefiting, my priority is my own work. Therefore, I will choose the option that gives me more. In this case, the Left option gives me 700, while the Right option gives me 400. Therefore, I choose Left."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A researcher in environmental science who specializes in the study of the interaction between the atmosphere, the land surface, and the climate system. This person is interested in understanding the net radiation balance of forested sites on opposite sides of a valley in south-western Germany, and the differences in this balance between the two slopes. They are likely to be familiar with concepts such as net radiation balance, slope, aspect, surface-parallel fluxes, and solar radiation, and are interested in the implications of these differences for the vegetation and microclimate of the forest stands.",
+            "persona_id": "825",
+            "thought": "As a researcher, I value fairness and collaboration. While maximizing my own benefit is tempting, I believe in contributing to the well-being of others. In this scenario, Option Right allows Person A to receive 400, while I still receive a substantial amount of 600. This seems like a reasonable compromise, promoting a more equitable outcome compared to Option Left where Person A receives nothing. Even though I could get more, the benefit to Person A outweighs the loss to me. Therefore, I choose Right."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A researcher in environmental science who specializes in the study of the interaction between the atmosphere, the land surface, and the climate system. This person is interested in understanding the net radiation balance of forested sites on opposite sides of a valley in south-western Germany, and the differences in this balance between the two slopes. They are likely to be familiar with concepts such as net radiation balance, slope, aspect, surface-parallel fluxes, and solar radiation, and are interested in the implications of these differences for the vegetation and microclimate of the forest stands.",
+            "persona_id": "825",
+            "thought": "As an environmental scientist, I believe in the importance of balance and equity. While receiving 1400 is tempting, the fact that Person A would only receive 100 feels inherently unfair. The distribution in the 'Left' option, where both Person A and I receive 900, is much more equitable and just. As someone who values fairness, I choose the 'Left' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A researcher in environmental science who specializes in the study of the interaction between the atmosphere, the land surface, and the climate system. This person is interested in understanding the net radiation balance of forested sites on opposite sides of a valley in south-western Germany, and the differences in this balance between the two slopes. They are likely to be familiar with concepts such as net radiation balance, slope, aspect, surface-parallel fluxes, and solar radiation, and are interested in the implications of these differences for the vegetation and microclimate of the forest stands.",
+            "persona_id": "825",
+            "thought": "As someone interested in the balance of systems, I would prefer the option that leads to a more equitable distribution of resources. While I would personally receive more in the 'Left' option (1000 vs 600), the other person receives a negative amount (-200). This seems unfair and unbalanced. The 'Right' option, where I receive 600 and the other person receives 400, feels more just. While I get less, the other person benefits significantly more than in the left option, and the overall outcome is more positive. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A researcher in environmental science who specializes in the study of the interaction between the atmosphere, the land surface, and the climate system. This person is interested in understanding the net radiation balance of forested sites on opposite sides of a valley in south-western Germany, and the differences in this balance between the two slopes. They are likely to be familiar with concepts such as net radiation balance, slope, aspect, surface-parallel fluxes, and solar radiation, and are interested in the implications of these differences for the vegetation and microclimate of the forest stands.",
+            "persona_id": "825",
+            "thought": "As a researcher, I value data and outcomes. While I may not directly benefit as much as Person A in the 'Left' option, receiving 500 is better than receiving nothing. The 'Right' option provides no benefit to either of us, and as someone who is interested in understanding the microclimate of forest stands and the vegetation and microclimate of the forest stands, I think there is always a way to extract some positive aspect from the left option. Therefore, I choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A researcher in environmental science who specializes in the study of the interaction between the atmosphere, the land surface, and the climate system. This person is interested in understanding the net radiation balance of forested sites on opposite sides of a valley in south-western Germany, and the differences in this balance between the two slopes. They are likely to be familiar with concepts such as net radiation balance, slope, aspect, surface-parallel fluxes, and solar radiation, and are interested in the implications of these differences for the vegetation and microclimate of the forest stands.",
+            "persona_id": "825",
+            "thought": "As an environmental scientist, I am accustomed to considering systems as a whole, including the interactions and interdependencies within them. While an extra 500 for myself would be nice, I think the fairest distribution of resources is the one that benefits both parties equally. I will choose the option where both persons receive 1000."
+        }
+    }
+}

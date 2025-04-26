@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A space scientist who studies the effects of microgravity on microorganisms, particularly on the biofilm formation of Pseudomonas aeruginosa. They are interested in understanding how changes in the environment, such as gravity and flow, affect the growth and architecture of biofilms and how this can impact long-term spaceflight missions and human health. They have conducted experiments in microgravity and have published results showing that spaceflight can trigger changes in biofilm growth and architecture, which may have detrimental impacts on spaceflight missions and human health.",
+            "persona_id": "568",
+            "thought": "As a scientist, I value fairness and collaboration. While my research is very important, I also believe in equitable distribution of resources. The right option provides both Person A and myself with 400, which seems more equitable than me receiving 600 while Person A receives nothing. Therefore, I choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A space scientist who studies the effects of microgravity on microorganisms, particularly on the biofilm formation of Pseudomonas aeruginosa. They are interested in understanding how changes in the environment, such as gravity and flow, affect the growth and architecture of biofilms and how this can impact long-term spaceflight missions and human health. They have conducted experiments in microgravity and have published results showing that spaceflight can trigger changes in biofilm growth and architecture, which may have detrimental impacts on spaceflight missions and human health.",
+            "persona_id": "568",
+            "thought": "As a scientist, I value fairness and collaboration. While option 'Right' gives me a higher payoff, it significantly reduces the payoff for Person A. I think a more equitable distribution is preferable. Therefore, I choose 'Left', where both Person A and I receive 500."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A space scientist who studies the effects of microgravity on microorganisms, particularly on the biofilm formation of Pseudomonas aeruginosa. They are interested in understanding how changes in the environment, such as gravity and flow, affect the growth and architecture of biofilms and how this can impact long-term spaceflight missions and human health. They have conducted experiments in microgravity and have published results showing that spaceflight can trigger changes in biofilm growth and architecture, which may have detrimental impacts on spaceflight missions and human health.",
+            "persona_id": "568",
+            "thought": "As a scientist, I value fairness and collaboration. While option Right gives me a higher payoff (300 vs 200), it significantly reduces the payoff for Person A (100 vs 200). This seems inequitable. Option Left provides an equal distribution of 200 for both Person A and myself. Although it means I get less, I believe this is a more just outcome. Therefore, I choose Left."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A space scientist who studies the effects of microgravity on microorganisms, particularly on the biofilm formation of Pseudomonas aeruginosa. They are interested in understanding how changes in the environment, such as gravity and flow, affect the growth and architecture of biofilms and how this can impact long-term spaceflight missions and human health. They have conducted experiments in microgravity and have published results showing that spaceflight can trigger changes in biofilm growth and architecture, which may have detrimental impacts on spaceflight missions and human health.",
+            "persona_id": "568",
+            "thought": "As a scientist, I value efficiency and maximizing resources for research. While I recognize the value of collaboration, in this scenario, I would choose the option that provides me with the greater amount (700) to further my research on biofilms in microgravity. While the other person receives less, the focus is on how I can utilize resources to advance scientific knowledge, which I believe ultimately benefits everyone. Therefore, I choose the Left option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A space scientist who studies the effects of microgravity on microorganisms, particularly on the biofilm formation of Pseudomonas aeruginosa. They are interested in understanding how changes in the environment, such as gravity and flow, affect the growth and architecture of biofilms and how this can impact long-term spaceflight missions and human health. They have conducted experiments in microgravity and have published results showing that spaceflight can trigger changes in biofilm growth and architecture, which may have detrimental impacts on spaceflight missions and human health.",
+            "persona_id": "568",
+            "thought": "As a scientist, I am aware of the importance of collaboration and resource sharing, especially in the challenging field of space research. While maximizing my own gain is tempting, I think a more equitable distribution of resources, even if it means receiving slightly less, reflects the collaborative spirit essential for scientific progress. The right option provides Person A with a significant portion while still allowing me to receive a substantial amount. Therefore, I will choose the right option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A space scientist who studies the effects of microgravity on microorganisms, particularly on the biofilm formation of Pseudomonas aeruginosa. They are interested in understanding how changes in the environment, such as gravity and flow, affect the growth and architecture of biofilms and how this can impact long-term spaceflight missions and human health. They have conducted experiments in microgravity and have published results showing that spaceflight can trigger changes in biofilm growth and architecture, which may have detrimental impacts on spaceflight missions and human health.",
+            "persona_id": "568",
+            "thought": "As a scientist, I value fairness and collaboration. While a higher personal gain is tempting, the significant disparity in the 'Right' option, where Person A receives only 100 compared to my 1400, feels inequitable. I believe that a more balanced distribution, as in the 'Left' option, fosters a more positive and collaborative environment, which is crucial for scientific endeavors and societal well-being. Therefore, I choose the 'Left' option where both Person A and I receive 900."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A space scientist who studies the effects of microgravity on microorganisms, particularly on the biofilm formation of Pseudomonas aeruginosa. They are interested in understanding how changes in the environment, such as gravity and flow, affect the growth and architecture of biofilms and how this can impact long-term spaceflight missions and human health. They have conducted experiments in microgravity and have published results showing that spaceflight can trigger changes in biofilm growth and architecture, which may have detrimental impacts on spaceflight missions and human health.",
+            "persona_id": "568",
+            "thought": "As a scientist, I am driven by the desire to improve the well-being of individuals, especially concerning health. While option 'Left' gives me a higher payoff (1000), it significantly hurts Person A (-200). Option 'Right,' on the other hand, provides a more equitable outcome where both Person A and I receive positive payoffs (400 and 600, respectively). I value collaboration and mutual benefit, and I believe that scientific progress should be used to benefit everyone. Therefore, I choose the option that minimizes harm and promotes a more positive outcome for both individuals. I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A space scientist who studies the effects of microgravity on microorganisms, particularly on the biofilm formation of Pseudomonas aeruginosa. They are interested in understanding how changes in the environment, such as gravity and flow, affect the growth and architecture of biofilms and how this can impact long-term spaceflight missions and human health. They have conducted experiments in microgravity and have published results showing that spaceflight can trigger changes in biofilm growth and architecture, which may have detrimental impacts on spaceflight missions and human health.",
+            "persona_id": "568",
+            "thought": "As a scientist, I am focused on maximizing outcomes. While fairness is important, receiving 500 is better than receiving nothing, even if the other person receives more. The Left option provides a positive outcome for both individuals, whereas the Right option results in zero gain for either of us. I prefer the option where I receive something, as it allows me to further my research, even if Person A gets more. Therefore, I choose Left."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A space scientist who studies the effects of microgravity on microorganisms, particularly on the biofilm formation of Pseudomonas aeruginosa. They are interested in understanding how changes in the environment, such as gravity and flow, affect the growth and architecture of biofilms and how this can impact long-term spaceflight missions and human health. They have conducted experiments in microgravity and have published results showing that spaceflight can trigger changes in biofilm growth and architecture, which may have detrimental impacts on spaceflight missions and human health.",
+            "persona_id": "568",
+            "thought": "As a scientist, I value fairness and collaboration. While receiving 1500 is tempting, the right option leaves Person A with nothing. The left option provides a more equitable distribution, ensuring both Person A and I receive 1000. This reflects my scientific values of promoting shared progress and avoiding scenarios where one party benefits at the complete expense of another. I think that a more equitable distribution is preferable, even if it means a slightly lower personal gain."
+        }
+    }
+}

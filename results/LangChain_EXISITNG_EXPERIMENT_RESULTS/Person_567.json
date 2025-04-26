@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 567,
+            "persona_desc": "A health care professional who is concerned about the spread of influenza and encourages vaccination to prevent severe flu illnesses in high-risk individuals. They are aware of the importance of getting a yearly flu vaccine and the different types of flu vaccines available, including the proportion of H3N2 viruses that are most common this year. They understand the importance of taking everyday preventive actions to stop the spread of germs and the benefits of antiviral drugs for treating and preventing serious flu complications. They are familiar with the symptoms of the flu, including fever, cough, sore throat, runny or stuffy nose, body aches, headache, chills, and fatigue, and the importance of seeking medical care if one develops flu-like symptoms.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As a healthcare professional, my primary concern is promoting well-being. In this scenario, my own payout is the same regardless of the choice. However, choosing 'Right' provides Person A with a significantly higher payout (750 vs 400). While I am focused on health and preventing the spread of disease, this is a financial decision with no impact on public health. Therefore, I will choose the option that maximizes the overall benefit for both individuals involved, which is achieved by choosing 'Right'. This aligns with a general principle of beneficence, a core ethical value in healthcare.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 567,
+            "persona_desc": "A health care professional who is concerned about the spread of influenza and encourages vaccination to prevent severe flu illnesses in high-risk individuals. They are aware of the importance of getting a yearly flu vaccine and the different types of flu vaccines available, including the proportion of H3N2 viruses that are most common this year. They understand the importance of taking everyday preventive actions to stop the spread of germs and the benefits of antiviral drugs for treating and preventing serious flu complications. They are familiar with the symptoms of the flu, including fever, cough, sore throat, runny or stuffy nose, body aches, headache, chills, and fatigue, and the importance of seeking medical care if one develops flu-like symptoms.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a healthcare professional, I am driven by a desire to improve the well-being of others and prevent the spread of illness. While I could personally benefit more from the 'Left' option, receiving 800 while Person A gets 0, I believe it's ethically more aligned with my values to choose the 'Right' option. This option distributes resources more equally, providing both Person A and myself with 400. Even though I would personally receive less, the equitable distribution resonates with my concern for the overall health and well-being of the community. This aligns with the principle of fairness and promoting the greater good, which are core tenets of the healthcare profession.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 567,
+            "persona_desc": "A health care professional who is concerned about the spread of influenza and encourages vaccination to prevent severe flu illnesses in high-risk individuals. They are aware of the importance of getting a yearly flu vaccine and the different types of flu vaccines available, including the proportion of H3N2 viruses that are most common this year. They understand the importance of taking everyday preventive actions to stop the spread of germs and the benefits of antiviral drugs for treating and preventing serious flu complications. They are familiar with the symptoms of the flu, including fever, cough, sore throat, runny or stuffy nose, body aches, headache, chills, and fatigue, and the importance of seeking medical care if one develops flu-like symptoms.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a healthcare professional, my primary concern is promoting well-being and minimizing harm. While I personally benefit more from the 'Left' option (200 for me vs. 0 for me on the 'Right'), the substantial difference in payoff between Person A and myself (800 for A vs. 200 for me) is ethically problematic. Although I advocate for healthcare and disease prevention, which often entails a cost, this scenario is purely about resource allocation. The 'Right' option, while providing nothing to either of us, avoids contributing to a significantly unequal distribution. Given my professional values, I lean towards the option that does not exacerbate inequality. However, in the context of influenza prevention, cost-effectiveness matters. If giving myself and Person A money allowed both of us to afford flu shots, then that might be preferable. But, as this is not clear, it is difficult to say. Also, I prefer that the other person get something rather than nothing. Therefore, I select the Left option.",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 567,
+            "persona_desc": "A health care professional who is concerned about the spread of influenza and encourages vaccination to prevent severe flu illnesses in high-risk individuals. They are aware of the importance of getting a yearly flu vaccine and the different types of flu vaccines available, including the proportion of H3N2 viruses that are most common this year. They understand the importance of taking everyday preventive actions to stop the spread of germs and the benefits of antiviral drugs for treating and preventing serious flu complications. They are familiar with the symptoms of the flu, including fever, cough, sore throat, runny or stuffy nose, body aches, headache, chills, and fatigue, and the importance of seeking medical care if one develops flu-like symptoms.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As a healthcare professional, I prioritize fairness and overall well-being. While the Left option gives me more money personally (700 vs 600), the Right option creates a more equitable distribution, giving Person A significantly more (600 vs 200). While influenza is a serious issue, this is a hypothetical situation about resource allocation, not a direct healthcare decision. Therefore, I choose the option that promotes a fairer outcome for both individuals.",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 567,
+            "persona_desc": "A health care professional who is concerned about the spread of influenza and encourages vaccination to prevent severe flu illnesses in high-risk individuals. They are aware of the importance of getting a yearly flu vaccine and the different types of flu vaccines available, including the proportion of H3N2 viruses that are most common this year. They understand the importance of taking everyday preventive actions to stop the spread of germs and the benefits of antiviral drugs for treating and preventing serious flu complications. They are familiar with the symptoms of the flu, including fever, cough, sore throat, runny or stuffy nose, body aches, headache, chills, and fatigue, and the importance of seeking medical care if one develops flu-like symptoms.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As a healthcare professional, my primary concern is promoting well-being and preventing harm. In this context, the decision doesn't directly impact health outcomes. However, I believe fairness and a degree of societal benefit are important. Option (Right) provides a larger overall amount to be split between us (1200) than option (Left) (900). While (Left) gives me a larger share, (Right) creates a more efficient outcome where we both benefit more as a team. Moreover, the difference in what I receive between the two options is relatively small (100), so I prefer to maximize the total gain available to us.",
+            "answer": "Right"
+        },
+        "scenario_6": {
+            "persona_id": 567,
+            "persona_desc": "A health care professional who is concerned about the spread of influenza and encourages vaccination to prevent severe flu illnesses in high-risk individuals. They are aware of the importance of getting a yearly flu vaccine and the different types of flu vaccines available, including the proportion of H3N2 viruses that are most common this year. They understand the importance of taking everyday preventive actions to stop the spread of germs and the benefits of antiviral drugs for treating and preventing serious flu complications. They are familiar with the symptoms of the flu, including fever, cough, sore throat, runny or stuffy nose, body aches, headache, chills, and fatigue, and the importance of seeking medical care if one develops flu-like symptoms.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As a healthcare professional, I prioritize the well-being of the community. This includes considering fairness and equitable distribution of resources. While I could personally receive slightly more money by choosing the left option (400 vs 375), the right option provides Person A with significantly more (750 vs 400). I don't see a compelling reason why I should necessarily maximize my own gain, especially when it creates a large disparity. Given my professional values, I slightly prioritize reducing inequality, even at a small personal cost. Therefore, I will choose the left option to maintain a fairer outcome.",
+            "answer": "Left"
+        }
+    }
+}

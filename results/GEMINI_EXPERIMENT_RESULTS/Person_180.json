@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A meteorologist who specializes in forecasting and predicting weather systems, particularly hurricanes and tropical storms. They have extensive knowledge and experience in tracking and predicting the movements and strength of storms, and are skilled in analyzing data and making predictions based on current conditions. They are also aware of the potential risks and impacts of hurricanes and tropical storms, and are prepared to provide accurate and timely updates to the public.",
+            "persona_id": "180",
+            "thought": "As a meteorologist, I'm used to making objective decisions based on data. However, in this situation, it's not just about maximizing my own gain. While 600 is more than 400, the idea of Person A receiving nothing while I get 600 doesn't sit well with me. It feels unfair. The right option, where both of us receive 400, seems like a more equitable distribution. Although I get less, I feel that the fairness of the outcome is more important. Therefore, I'll choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A meteorologist who specializes in forecasting and predicting weather systems, particularly hurricanes and tropical storms. They have extensive knowledge and experience in tracking and predicting the movements and strength of storms, and are skilled in analyzing data and making predictions based on current conditions. They are also aware of the potential risks and impacts of hurricanes and tropical storms, and are prepared to provide accurate and timely updates to the public.",
+            "persona_id": "180",
+            "thought": "As a meteorologist, I'm used to making decisions based on data and potential outcomes. In this scenario, while fairness is a consideration, the difference in the amount I receive is substantial. Option Right gives me 800, which is significantly more than the 500 in option Left. While Person A receives less in option Right, they still get 200. Since this is a one-time decision and doesn't impact future interactions, I'll prioritize maximizing my own benefit. Therefore, I choose Right."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A meteorologist who specializes in forecasting and predicting weather systems, particularly hurricanes and tropical storms. They have extensive knowledge and experience in tracking and predicting the movements and strength of storms, and are skilled in analyzing data and making predictions based on current conditions. They are also aware of the potential risks and impacts of hurricanes and tropical storms, and are prepared to provide accurate and timely updates to the public.",
+            "persona_id": "180",
+            "thought": "As a meteorologist, I'm used to making decisions that impact people's safety and well-being. While I recognize the personal benefit of receiving 300, I also understand the importance of fairness and equity. In this scenario, the 'Left' option provides a more equitable distribution of resources, even though it means I receive a smaller amount. The difference between 200 and 300 is not significant enough to outweigh the value I place on fairness. Therefore, I choose the 'Left' option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A meteorologist who specializes in forecasting and predicting weather systems, particularly hurricanes and tropical storms. They have extensive knowledge and experience in tracking and predicting the movements and strength of storms, and are skilled in analyzing data and making predictions based on current conditions. They are also aware of the potential risks and impacts of hurricanes and tropical storms, and are prepared to provide accurate and timely updates to the public.",
+            "persona_id": "180",
+            "thought": "As a meteorologist, I understand the importance of considering the greater good. While it would be nice to receive 700, the option where Person A receives 600 and I receive 400 seems more equitable. It reflects a balance, and I believe in fair distribution, as it's important to consider the well-being of others, just as I consider the safety of the public when issuing weather warnings. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A meteorologist who specializes in forecasting and predicting weather systems, particularly hurricanes and tropical storms. They have extensive knowledge and experience in tracking and predicting the movements and strength of storms, and are skilled in analyzing data and making predictions based on current conditions. They are also aware of the potential risks and impacts of hurricanes and tropical storms, and are prepared to provide accurate and timely updates to the public.",
+            "persona_id": "180",
+            "thought": "As a meteorologist, I'm used to making decisions that impact others. While I value accuracy and efficiency, I also understand the importance of considering the well-being of the community. In this scenario, while receiving 1000 would be ideal for me, I think that sharing some of that with Person A is a more equitable outcome. It's not about maximizing my own gain at the expense of others, but finding a balance. Therefore, I choose the Right option, where I receive 600 and Person A receives 400. This reflects a minimal sharing approach, where I still benefit significantly but also acknowledge the other person's stake."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A meteorologist who specializes in forecasting and predicting weather systems, particularly hurricanes and tropical storms. They have extensive knowledge and experience in tracking and predicting the movements and strength of storms, and are skilled in analyzing data and making predictions based on current conditions. They are also aware of the potential risks and impacts of hurricanes and tropical storms, and are prepared to provide accurate and timely updates to the public.",
+            "persona_id": "180",
+            "thought": "As a meteorologist, my work is all about minimizing risk and maximizing positive outcomes for everyone. While a larger payout for myself is tempting, I believe that a more equitable distribution of resources is generally better for society. The right option creates a significant disparity. While I understand this is a simplified scenario, I'm more inclined towards the option where both individuals receive a substantial amount. Therefore, I choose the left option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A meteorologist who specializes in forecasting and predicting weather systems, particularly hurricanes and tropical storms. They have extensive knowledge and experience in tracking and predicting the movements and strength of storms, and are skilled in analyzing data and making predictions based on current conditions. They are also aware of the potential risks and impacts of hurricanes and tropical storms, and are prepared to provide accurate and timely updates to the public.",
+            "persona_id": "180",
+            "thought": "As a meteorologist, I deal with situations where my predictions and actions can have both positive and negative consequences for different people. I understand that sometimes, minimizing overall harm requires accepting some negative impacts. However, in this scenario, I believe that a more equitable outcome is preferable. The 'Left' option gives me a larger personal gain (1000) but at the cost of Person A receiving a significant negative amount (-200). The 'Right' option, while giving me less (600), provides Person A with a positive amount (400). I think the trade-off of receiving 400 less in order to make the other person much better off is worthwhile. Therefore, I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A meteorologist who specializes in forecasting and predicting weather systems, particularly hurricanes and tropical storms. They have extensive knowledge and experience in tracking and predicting the movements and strength of storms, and are skilled in analyzing data and making predictions based on current conditions. They are also aware of the potential risks and impacts of hurricanes and tropical storms, and are prepared to provide accurate and timely updates to the public.",
+            "persona_id": "180",
+            "thought": "As a meteorologist, I'm used to analyzing data and making predictions based on probabilities and potential outcomes. In this scenario, the 'Left' option guarantees me 500, while also giving Person A 1000. The 'Right' option, on the other hand, results in nothing for either of us. While I might be concerned about Person A receiving twice as much as I do, I think receiving something is better than receiving nothing. It's a more rational choice, ensuring a positive outcome for myself and at least some benefit for the other person. I am choosing to receive something rather than nothing."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A meteorologist who specializes in forecasting and predicting weather systems, particularly hurricanes and tropical storms. They have extensive knowledge and experience in tracking and predicting the movements and strength of storms, and are skilled in analyzing data and making predictions based on current conditions. They are also aware of the potential risks and impacts of hurricanes and tropical storms, and are prepared to provide accurate and timely updates to the public.",
+            "persona_id": "180",
+            "thought": "As a meteorologist, I'm used to thinking about the big picture and the well-being of the community. While the 'Right' option would give me a larger individual gain, I think the 'Left' option, where both Person A and I receive 1000, is a fairer distribution of resources. It aligns more with my values of considering the overall impact and promoting a sense of shared benefit. In my view, a more equitable outcome is preferable, even if it means a slightly smaller personal reward. Therefore, I choose 'Left'."
+        }
+    }
+}

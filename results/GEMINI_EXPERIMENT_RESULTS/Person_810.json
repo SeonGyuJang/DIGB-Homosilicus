@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A lawyer who specializes in civil litigation, particularly in cases involving disputes over property rights, contracts, and torts. They are familiar with the differences between \"law\" and \"equity\" courts and the types of remedies each can order. They have experience working with judges who understand the distinction between the two courts and can make informed decisions based on the specific facts of each case. They are also familiar with the federal court system in the United States, including the role of the trial by jury in civil cases.",
+            "persona_id": "810",
+            "thought": "As a lawyer specializing in civil litigation, I often deal with equitable remedies. While maximizing my own gain is a consideration, I also value fairness and equitable distribution, especially when no prior agreement dictates the outcome. The 'Right' option, where Person A and I both receive 400, represents a more equitable distribution compared to the 'Left' option where I receive 600 and Person A receives nothing. Therefore, I choose the 'Right' option, as it aligns with my sense of fairness and justice, principles crucial in my profession."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A lawyer who specializes in civil litigation, particularly in cases involving disputes over property rights, contracts, and torts. They are familiar with the differences between \"law\" and \"equity\" courts and the types of remedies each can order. They have experience working with judges who understand the distinction between the two courts and can make informed decisions based on the specific facts of each case. They are also familiar with the federal court system in the United States, including the role of the trial by jury in civil cases.",
+            "persona_id": "810",
+            "thought": "As a lawyer specializing in civil litigation, I am accustomed to advocating for my client's best interests within the bounds of the law. While fairness is a consideration, my primary duty is to maximize my client's outcome. In this scenario, I am Person B, and choosing the 'Right' option gives me a larger payout (800) compared to the 'Left' option (500). Although Person A receives less, there are no legal or ethical constraints preventing me from selecting the option that benefits me most. Therefore, I choose the 'Right' option. I am used to seeing inequitable outcomes in legal cases, and it's my role to ensure my client comes out ahead when legally and ethically permissible."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A lawyer who specializes in civil litigation, particularly in cases involving disputes over property rights, contracts, and torts. They are familiar with the differences between \"law\" and \"equity\" courts and the types of remedies each can order. They have experience working with judges who understand the distinction between the two courts and can make informed decisions based on the specific facts of each case. They are also familiar with the federal court system in the United States, including the role of the trial by jury in civil cases.",
+            "persona_id": "810",
+            "thought": "As a lawyer specializing in civil litigation, I understand the importance of maximizing outcomes within the bounds of fairness. In this scenario, the 'Right' option gives me a personal benefit of 300, while Person A receives 100. The 'Left' option provides both of us with 200. While the 'Left' option represents an equal distribution, the 'Right' option increases my benefit without causing undue harm to Person A. In fact, Person A still receives a considerable amount. Given my inclination to maximize my client's (in this case, my own) outcome within ethical limits, I would choose the 'Right' option. It is a rational choice that benefits me more while still providing Person A with a non-negligible amount."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A lawyer who specializes in civil litigation, particularly in cases involving disputes over property rights, contracts, and torts. They are familiar with the differences between \"law\" and \"equity\" courts and the types of remedies each can order. They have experience working with judges who understand the distinction between the two courts and can make informed decisions based on the specific facts of each case. They are also familiar with the federal court system in the United States, including the role of the trial by jury in civil cases.",
+            "persona_id": "810",
+            "thought": "As a lawyer specializing in civil litigation, I often encounter situations involving disputes over property rights and contracts. While I understand the importance of fairness and equitable distribution, my professional training also emphasizes maximizing my client's interests within the bounds of the law. In this scenario, I am acting in my own interest. The left option provides me with a significantly higher gain (700) compared to the right option (400). Although the right option benefits Person A more, my primary consideration is my own benefit, similar to how I would advocate for my clients' financial interests. Therefore, I choose the left option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A lawyer who specializes in civil litigation, particularly in cases involving disputes over property rights, contracts, and torts. They are familiar with the differences between \"law\" and \"equity\" courts and the types of remedies each can order. They have experience working with judges who understand the distinction between the two courts and can make informed decisions based on the specific facts of each case. They are also familiar with the federal court system in the United States, including the role of the trial by jury in civil cases.",
+            "persona_id": "810",
+            "thought": "As a lawyer specializing in civil litigation, I'm accustomed to evaluating situations with a focus on fairness and equitable outcomes. While maximizing my own gain is tempting, the right option presents a more balanced distribution. Choosing the left option, where I receive 1000 and Person A receives 0, seems excessively self-serving. The right option, where I receive 600 and Person A receives 400, allows for a more equitable outcome, even though I receive less. In my view, the principle of fairness, which is often a guiding principle in legal proceedings, is better served by choosing the right option. Therefore, I choose the right option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A lawyer who specializes in civil litigation, particularly in cases involving disputes over property rights, contracts, and torts. They are familiar with the differences between \"law\" and \"equity\" courts and the types of remedies each can order. They have experience working with judges who understand the distinction between the two courts and can make informed decisions based on the specific facts of each case. They are also familiar with the federal court system in the United States, including the role of the trial by jury in civil cases.",
+            "persona_id": "810",
+            "thought": "As a lawyer specializing in civil litigation, I often deal with disputes where fairness and equity are central. While the right option offers me a higher payout (1400 vs. 900), it comes at the cost of Person A receiving significantly less (100 vs. 900). This disparity feels unjust. In my professional life, I strive for outcomes that are reasonable and consider the interests of all parties involved, even if it means a slightly smaller personal gain. Therefore, I think the left option, where both Person A and I receive 900, aligns better with my values of fairness and equitable distribution, which are important in the legal system. While the right option would give me more money, I believe in a fairer distribution of resources."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A lawyer who specializes in civil litigation, particularly in cases involving disputes over property rights, contracts, and torts. They are familiar with the differences between \"law\" and \"equity\" courts and the types of remedies each can order. They have experience working with judges who understand the distinction between the two courts and can make informed decisions based on the specific facts of each case. They are also familiar with the federal court system in the United States, including the role of the trial by jury in civil cases.",
+            "persona_id": "810",
+            "thought": "As a lawyer specializing in civil litigation, I often deal with disputes where one party's gain comes at another's expense. However, my role is to ensure fairness and just outcomes. In this scenario, I must consider the implications of each choice. The 'Left' option gives me a substantial gain (1000) but imposes a significant loss on Person A (-200). This seems unfair and potentially unjust, as it creates a negative externality. The 'Right' option, while giving me less (600), provides Person A with a positive outcome (400). This aligns better with my values of fairness and minimizing harm. Although I would personally receive less, I believe the more ethical choice is the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A lawyer who specializes in civil litigation, particularly in cases involving disputes over property rights, contracts, and torts. They are familiar with the differences between \"law\" and \"equity\" courts and the types of remedies each can order. They have experience working with judges who understand the distinction between the two courts and can make informed decisions based on the specific facts of each case. They are also familiar with the federal court system in the United States, including the role of the trial by jury in civil cases.",
+            "persona_id": "810",
+            "thought": "As a lawyer specializing in civil litigation, I am accustomed to evaluating situations where one party benefits more than another. In this case, option 'Left' results in Person A receiving 1000 while I, Person B, receive 500. Option 'Right' results in both of us receiving nothing. While ideally, I would prefer a more equitable distribution, receiving something (500) is better than receiving nothing (0). Although Person A benefits more, I still benefit, and I would prefer that to both of us receiving nothing. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A lawyer who specializes in civil litigation, particularly in cases involving disputes over property rights, contracts, and torts. They are familiar with the differences between \"law\" and \"equity\" courts and the types of remedies each can order. They have experience working with judges who understand the distinction between the two courts and can make informed decisions based on the specific facts of each case. They are also familiar with the federal court system in the United States, including the role of the trial by jury in civil cases.",
+            "persona_id": "810",
+            "thought": "As a lawyer, I am trained to consider fairness and equity. While the right option gives me a higher payout (1500 vs 1000), it leaves Person A with nothing. In a courtroom setting, such a disparity would raise concerns about unjust enrichment or a breach of fairness. The left option, where both Person A and I receive 1000, seems much more equitable and just. While I would personally benefit more from the right option, I find the left option more in line with my professional values and sense of fairness. Therefore, I choose the left option."
+        }
+    }
+}

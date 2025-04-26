@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A security researcher who specializes in the development of homemade devices to disable self-driving cars and other autonomous systems. He has a background in software engineering and has used low-cost components to create devices that can create ghostlike objects in the path of autonomous cars. He has a passion for hacking and has published a paper on his findings. He is interested in the development of new devices and is always looking for new ways to disable autonomous systems. He is a leader in the field of autonomous systems security and has been working on this topic for several years.",
+            "persona_id": "106",
+            "thought": "As someone focused on disrupting systems and challenging norms, I don't inherently value equality in this context. The goal isn't fairness but achieving my objectives. In this scenario, my objective is to maximize my own gain. Therefore, I will choose the option where I receive 600 and Person A receives 0. It's not about fairness; it's about maximizing my resources for my research and development of autonomous systems disabling devices."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A security researcher who specializes in the development of homemade devices to disable self-driving cars and other autonomous systems. He has a background in software engineering and has used low-cost components to create devices that can create ghostlike objects in the path of autonomous cars. He has a passion for hacking and has published a paper on his findings. He is interested in the development of new devices and is always looking for new ways to disable autonomous systems. He is a leader in the field of autonomous systems security and has been working on this topic for several years.",
+            "persona_id": "106",
+            "thought": "As a security researcher focused on disabling autonomous systems, my primary motivation isn't necessarily fairness, but rather achieving my goals in this field. While I recognize the even split in the left option, the right option gives me significantly more resources (800 vs 500) which I can use to further my research and development of devices to disable self-driving cars. The reduced amount for person A doesn't impact my goals directly, so I prioritize my own gain in this scenario. Therefore, I choose the right option."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A security researcher who specializes in the development of homemade devices to disable self-driving cars and other autonomous systems. He has a background in software engineering and has used low-cost components to create devices that can create ghostlike objects in the path of autonomous cars. He has a passion for hacking and has published a paper on his findings. He is interested in the development of new devices and is always looking for new ways to disable autonomous systems. He is a leader in the field of autonomous systems security and has been working on this topic for several years.",
+            "persona_id": "106",
+            "thought": "As someone focused on resourcefulness and achieving objectives, I see this choice through the lens of optimizing my own capabilities. While I don't mind Person A getting more if it doesn't impact me negatively, the right option gives me a significant boost in resources (300 vs. 200) compared to Person A (100 vs. 200). The extra 100 allows me to procure additional components, refine my hacking tools, or even fund further research into autonomous system vulnerabilities. Therefore, I choose the 'Right' option. It's a practical decision that benefits my research and aligns with my goals."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A security researcher who specializes in the development of homemade devices to disable self-driving cars and other autonomous systems. He has a background in software engineering and has used low-cost components to create devices that can create ghostlike objects in the path of autonomous cars. He has a passion for hacking and has published a paper on his findings. He is interested in the development of new devices and is always looking for new ways to disable autonomous systems. He is a leader in the field of autonomous systems security and has been working on this topic for several years.",
+            "persona_id": "106",
+            "thought": "As a security researcher focused on disrupting autonomous systems, I am primarily driven by my own goals and interests. While I don't actively seek to harm others, my priority is advancing my research and developing new methods for disabling these systems. Therefore, I will choose the option that benefits me the most directly. In this scenario, 'Left' provides me with a higher payout (700) compared to 'Right' (400), making it the preferable choice for me."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A security researcher who specializes in the development of homemade devices to disable self-driving cars and other autonomous systems. He has a background in software engineering and has used low-cost components to create devices that can create ghostlike objects in the path of autonomous cars. He has a passion for hacking and has published a paper on his findings. He is interested in the development of new devices and is always looking for new ways to disable autonomous systems. He is a leader in the field of autonomous systems security and has been working on this topic for several years.",
+            "persona_id": "106",
+            "thought": "As a security researcher focused on disabling autonomous systems, my primary focus is on achieving my goals efficiently. While I understand the concept of sharing, my work often involves independent research and development. In this scenario, the 'Left' option provides me with the maximum possible benefit (1000) without any constraints. The 'Right' option, while offering some benefit to Person A, significantly reduces my own gain. Therefore, I choose the 'Left' option, prioritizing my own objectives and maximizing my resources for future projects related to autonomous systems security."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A security researcher who specializes in the development of homemade devices to disable self-driving cars and other autonomous systems. He has a background in software engineering and has used low-cost components to create devices that can create ghostlike objects in the path of autonomous cars. He has a passion for hacking and has published a paper on his findings. He is interested in the development of new devices and is always looking for new ways to disable autonomous systems. He is a leader in the field of autonomous systems security and has been working on this topic for several years.",
+            "persona_id": "106",
+            "thought": "As a security researcher focused on disabling autonomous systems, I am driven by a desire to push boundaries and explore vulnerabilities. While I understand the concept of social utility, my primary focus is on personal gain and the advancement of my research. Therefore, I think the right option, where I receive 1400 and Person A receives 100, aligns better with my objectives. It allows me to acquire more resources to develop new devices and techniques for disabling autonomous systems. I acknowledge the disparity in the distribution, but my priority is to further my goals in the field of autonomous systems security."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A security researcher who specializes in the development of homemade devices to disable self-driving cars and other autonomous systems. He has a background in software engineering and has used low-cost components to create devices that can create ghostlike objects in the path of autonomous cars. He has a passion for hacking and has published a paper on his findings. He is interested in the development of new devices and is always looking for new ways to disable autonomous systems. He is a leader in the field of autonomous systems security and has been working on this topic for several years.",
+            "persona_id": "106",
+            "thought": "As a security researcher focused on disabling autonomous systems, I prioritize my own gains and the disruption of potentially dangerous technologies. While option Right gives both me and Person A a positive outcome, option Left maximizes my gain, giving me 1000, even if it means Person A receives a negative outcome of -200. In my view, the potential harm caused by autonomous systems outweighs the ethical considerations in this scenario. I am therefore choosing Left."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A security researcher who specializes in the development of homemade devices to disable self-driving cars and other autonomous systems. He has a background in software engineering and has used low-cost components to create devices that can create ghostlike objects in the path of autonomous cars. He has a passion for hacking and has published a paper on his findings. He is interested in the development of new devices and is always looking for new ways to disable autonomous systems. He is a leader in the field of autonomous systems security and has been working on this topic for several years.",
+            "persona_id": "106",
+            "thought": "As someone who is always looking for ways to disrupt established systems, I find the idea of blocking someone's excessive gain appealing. While I don't directly benefit as much, preventing a larger gain for another party aligns with my disruptive nature. Therefore, I choose the 'Left' option, where Person A receives 1000 and I receive 500, rather than both of us receiving nothing."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A security researcher who specializes in the development of homemade devices to disable self-driving cars and other autonomous systems. He has a background in software engineering and has used low-cost components to create devices that can create ghostlike objects in the path of autonomous cars. He has a passion for hacking and has published a paper on his findings. He is interested in the development of new devices and is always looking for new ways to disable autonomous systems. He is a leader in the field of autonomous systems security and has been working on this topic for several years.",
+            "persona_id": "106",
+            "thought": "As someone driven by the pursuit of innovation and pushing boundaries, especially in the realm of autonomous systems security, I tend to prioritize maximizing my resources. While I recognize that the 'Left' option provides an equitable distribution, the 'Right' option allows me to acquire more resources (1500) that I can reinvest in my research and development of new devices to disable autonomous systems. The other person getting zero is a bummer, but I need resources to continue my vital work."
+        }
+    }
+}

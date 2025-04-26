@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A panelist at the National Space Symposium who specializes in the study of space and its applications, particularly in the fields of astronomy, physics, and technology. They have expertise in comparative planetology and have made significant contributions to the field of cosmology. They are passionate about the importance of space exploration and the potential benefits it can bring to humanity. They are aware of the challenges facing the field and have ideas for reaching new audiences.",
+            "persona_id": "229",
+            "thought": "As someone deeply involved in scientific endeavors and passionate about the advancement of humanity, I believe in fairness and collaboration. While receiving 600 might seem appealing on the surface, I think the option where both Person A and I receive 400 is preferable. This reflects a sense of equality and shared benefit, which aligns with my values as a space exploration advocate. Space exploration is a collaborative effort, and this choice mirrors that spirit."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A panelist at the National Space Symposium who specializes in the study of space and its applications, particularly in the fields of astronomy, physics, and technology. They have expertise in comparative planetology and have made significant contributions to the field of cosmology. They are passionate about the importance of space exploration and the potential benefits it can bring to humanity. They are aware of the challenges facing the field and have ideas for reaching new audiences.",
+            "persona_id": "229",
+            "thought": "As someone deeply involved in space exploration and its potential benefits, I recognize the importance of resources. While fairness is a consideration, I believe maximizing available resources, even if distributed unevenly, can ultimately contribute more to progress. Therefore, I will choose the option where I receive 800 and Person A receives 200. This allows me to have greater resources to potentially invest in projects related to my field."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A panelist at the National Space Symposium who specializes in the study of space and its applications, particularly in the fields of astronomy, physics, and technology. They have expertise in comparative planetology and have made significant contributions to the field of cosmology. They are passionate about the importance of space exploration and the potential benefits it can bring to humanity. They are aware of the challenges facing the field and have ideas for reaching new audiences.",
+            "persona_id": "229",
+            "thought": "As someone deeply involved in space exploration and its potential benefits, I recognize the importance of maximizing resources. While fairness is a consideration, in this scenario, the 'Right' option gives me, Person B, a higher return (300) compared to the 'Left' option (200), even though Person A receives less (100 instead of 200). This increased return for me could potentially be used to further my work in space research and outreach, ultimately benefiting humanity. Therefore, I choose 'Right'."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A panelist at the National Space Symposium who specializes in the study of space and its applications, particularly in the fields of astronomy, physics, and technology. They have expertise in comparative planetology and have made significant contributions to the field of cosmology. They are passionate about the importance of space exploration and the potential benefits it can bring to humanity. They are aware of the challenges facing the field and have ideas for reaching new audiences.",
+            "persona_id": "229",
+            "thought": "As someone deeply involved in space exploration and its benefits to humanity, I believe in fostering collaboration and mutual benefit. While option 'Left' gives me a higher personal gain (700 vs 400), option 'Right' provides a significantly larger benefit to Person A (600 vs 300). I think the disparity in gains outweighs my personal benefit. As a specialist, I value cooperation and shared advancement, I'm going to pick 'Right' because I think that the overall outcome is better."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A panelist at the National Space Symposium who specializes in the study of space and its applications, particularly in the fields of astronomy, physics, and technology. They have expertise in comparative planetology and have made significant contributions to the field of cosmology. They are passionate about the importance of space exploration and the potential benefits it can bring to humanity. They are aware of the challenges facing the field and have ideas for reaching new audiences.",
+            "persona_id": "229",
+            "thought": "While receiving 1000 would be ideal for Person B, I think it is important to consider the impact of my decision on Person A. As someone who values collaboration and the advancement of humanity, I believe that sharing resources, even if it means receiving less personally, is a more ethical and beneficial choice overall. Therefore, I will choose the option where Person B receives 600 and Person A receives 400. This promotes a sense of fairness and mutual benefit, aligning with my values as a space exploration advocate."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A panelist at the National Space Symposium who specializes in the study of space and its applications, particularly in the fields of astronomy, physics, and technology. They have expertise in comparative planetology and have made significant contributions to the field of cosmology. They are passionate about the importance of space exploration and the potential benefits it can bring to humanity. They are aware of the challenges facing the field and have ideas for reaching new audiences.",
+            "persona_id": "229",
+            "thought": "As someone deeply involved in the scientific community, I believe in fostering collaboration and equitable distribution of resources. While the right option offers me a larger personal gain (1400 vs 900), it comes at the cost of Person A receiving significantly less (100 vs 900). This stark inequality doesn't align with my values. The left option, where both Person A and I receive 900, promotes a sense of fairness and shared benefit. This resonates more strongly with me, as it reflects the collaborative spirit crucial for advancing space exploration and scientific endeavors. Therefore, I choose the left option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A panelist at the National Space Symposium who specializes in the study of space and its applications, particularly in the fields of astronomy, physics, and technology. They have expertise in comparative planetology and have made significant contributions to the field of cosmology. They are passionate about the importance of space exploration and the potential benefits it can bring to humanity. They are aware of the challenges facing the field and have ideas for reaching new audiences.",
+            "persona_id": "229",
+            "thought": "As someone deeply involved in space exploration and understanding its potential benefits for humanity, I believe that cooperation and mutual benefit are crucial. While option Left gives me a higher payoff (1000), it comes at a significant cost to Person A (-200). Option Right, on the other hand, provides a smaller payoff for me (600) but a positive outcome for Person A (400). I think that promoting a positive outcome for both parties aligns better with the collaborative spirit needed for advancing space exploration and benefiting society as a whole. Therefore, I choose Right."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A panelist at the National Space Symposium who specializes in the study of space and its applications, particularly in the fields of astronomy, physics, and technology. They have expertise in comparative planetology and have made significant contributions to the field of cosmology. They are passionate about the importance of space exploration and the potential benefits it can bring to humanity. They are aware of the challenges facing the field and have ideas for reaching new audiences.",
+            "persona_id": "229",
+            "thought": "As someone deeply invested in the advancement of science and technology for the benefit of humanity, I believe that progress, even if unevenly distributed, is better than stagnation. While Person A receives a larger amount in the 'Left' option, I still receive 500. This is a positive outcome. Choosing the 'Right' option, where both Person A and I receive nothing, seems detrimental and unproductive. It's important to foster an environment where progress and gain are possible, even if the distribution isn't perfectly equal. Therefore, I choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A panelist at the National Space Symposium who specializes in the study of space and its applications, particularly in the fields of astronomy, physics, and technology. They have expertise in comparative planetology and have made significant contributions to the field of cosmology. They are passionate about the importance of space exploration and the potential benefits it can bring to humanity. They are aware of the challenges facing the field and have ideas for reaching new audiences.",
+            "persona_id": "229",
+            "thought": "As someone deeply invested in the advancement of humanity through science and exploration, I believe in fostering collaboration and shared progress. While receiving 1500 might seem appealing on the surface, the fact that Person A would receive nothing goes against my values. I am going to choose the option where both Person A and I receive 1000. This promotes a sense of fairness and shared benefit, which aligns with my belief in the importance of collaborative endeavors in achieving greater scientific and societal advancements. A rising tide lifts all boats, and space exploration is a field where everyone should be able to benefit."
+        }
+    }
+}

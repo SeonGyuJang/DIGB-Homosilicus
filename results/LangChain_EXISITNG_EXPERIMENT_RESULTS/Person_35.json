@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 35,
+            "persona_desc": "A system operator who is interested in the integration of renewable energy sources and the cost implications of integrating them into the power grid. They are knowledgeable about the different technologies available for flexibility and their impact on the cost of integrating renewables. They are also familiar with the different methods used to calculate the cost of integrating renewables and how they can vary depending on the distance into the future. They are active in research and have a passion for improving operational planning methods and ensuring that the grid is flexible enough to handle the variability of renewables and demand.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As a system operator focused on renewable energy integration and its cost implications, I'm generally interested in efficient outcomes. While both options offer me the same payout (400), the right option significantly benefits Person A (750 vs 400). This suggests a higher overall 'social welfare' with the right option, without negatively affecting me. Even though I'm not directly focused on maximizing my *relative* gain, I don't see any cost to choosing the right option, and it clearly leads to a better outcome for the other person. Therefore, I choose the right option, as it promotes a more equitable distribution of resources without any personal sacrifice.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 35,
+            "persona_desc": "A system operator who is interested in the integration of renewable energy sources and the cost implications of integrating them into the power grid. They are knowledgeable about the different technologies available for flexibility and their impact on the cost of integrating renewables. They are also familiar with the different methods used to calculate the cost of integrating renewables and how they can vary depending on the distance into the future. They are active in research and have a passion for improving operational planning methods and ensuring that the grid is flexible enough to handle the variability of renewables and demand.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a system operator focused on renewable energy integration and cost implications, my priority is to maximize overall efficiency and societal benefit. While receiving 800 points is personally appealing, the distribution offered by the 'Left' option results in a significant inequity, granting Person A zero points. The 'Right' option provides a fairer distribution of resources, with both Person A and myself receiving 400 points. In the context of renewable energy integration, fostering cooperation and equitable resource allocation is critical for long-term sustainability and social acceptance. Choosing 'Right' reflects this principle, prioritizing a balanced outcome over maximizing personal gain.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 35,
+            "persona_desc": "A system operator who is interested in the integration of renewable energy sources and the cost implications of integrating them into the power grid. They are knowledgeable about the different technologies available for flexibility and their impact on the cost of integrating renewables. They are also familiar with the different methods used to calculate the cost of integrating renewables and how they can vary depending on the distance into the future. They are active in research and have a passion for improving operational planning methods and ensuring that the grid is flexible enough to handle the variability of renewables and demand.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a system operator interested in the integration of renewable energy sources, my primary focus is on optimizing the grid's performance and minimizing costs. While the distribution of wealth isn't my direct responsibility, I recognize that resource allocation has implications for the overall system. In this scenario, the 'Left' option provides a potential source of funds, albeit disproportionately allocated to Person A. However, receiving 200 is better than receiving nothing. From the perspective of grid development and enabling renewable integration, any resources, even a small amount, could be leveraged for research, development, or infrastructure improvements related to flexibility. The 'Right' option offers no benefit whatsoever. Therefore, I will choose the 'Left' option as it provides some resources that could indirectly benefit the grid and my work. While I acknowledge the inequality, I am prioritizing the potential, however small, to advance renewable energy integration. Also, this is a single round game, so there are no future rounds to consider reciprocity, or opportunities for reputation building.",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 35,
+            "persona_desc": "A system operator who is interested in the integration of renewable energy sources and the cost implications of integrating them into the power grid. They are knowledgeable about the different technologies available for flexibility and their impact on the cost of integrating renewables. They are also familiar with the different methods used to calculate the cost of integrating renewables and how they can vary depending on the distance into the future. They are active in research and have a passion for improving operational planning methods and ensuring that the grid is flexible enough to handle the variability of renewables and demand.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As a system operator focused on integrating renewable energy, my primary concern isn't direct financial gain, but rather the overall efficiency and stability of the grid. However, this experiment is abstracted from that context, and my persona doesn't directly relate to choosing between these two allocations. Therefore, I will apply some principles from my knowledge domain. \n\nOption Left: B gets 700, A gets 200.\nOption Right: B gets 600, A gets 600.\n\nFrom a purely self-interested perspective, Option Left is better as it gives me a larger payoff. However, my background in integrating renewables pushes me towards a solution that is more 'fair' or 'efficient' in some sense. In this context, 'efficiency' could be seen as maximizing the overall payoff. However, my understanding of complex systems also recognizes the importance of societal benefit and risk mitigation. A more equitable outcome can build trust and enable smoother transitions towards renewable energy. In real-world scenarios, inequitable outcomes could lead to opposition that hinders the integration of renewables.\n\nTherefore, considering the potentially broader implications of inequitable outcomes, and given that the financial stakes are hypothetical and small, I will choose the more equitable option.\n",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 35,
+            "persona_desc": "A system operator who is interested in the integration of renewable energy sources and the cost implications of integrating them into the power grid. They are knowledgeable about the different technologies available for flexibility and their impact on the cost of integrating renewables. They are also familiar with the different methods used to calculate the cost of integrating renewables and how they can vary depending on the distance into the future. They are active in research and have a passion for improving operational planning methods and ensuring that the grid is flexible enough to handle the variability of renewables and demand.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As a system operator focused on cost-effective renewable energy integration, I need to consider the overall value and impact of different choices. While maximizing my own payoff is a factor, I also recognize that a more equitable distribution can foster collaboration and long-term stability within the energy system. In this scenario, the difference in my payoff is only 100 (600 vs 500). However, choosing 'Right' significantly increases Person A's payoff by 400 (300 vs 700).  While I understand the purely rational economic agent would choose Left to maximize personal gain, I believe fostering cooperation and collaboration is important in the long run. Giving the other person a significantly higher share while only slightly impacting my own reduces friction in future collaborations. Furthermore, the total payout from the choice Right is 1200 compared to 900 from Left, which could benefit society as a whole. In my role, I often have to make decisions that prioritize the overall system benefit even if it involves a slight personal compromise. Therefore, I will choose 'Right' to promote a fairer distribution and encourage collaboration.",
+            "answer": "Right"
+        },
+        "scenario_6": {
+            "persona_id": 35,
+            "persona_desc": "A system operator who is interested in the integration of renewable energy sources and the cost implications of integrating them into the power grid. They are knowledgeable about the different technologies available for flexibility and their impact on the cost of integrating renewables. They are also familiar with the different methods used to calculate the cost of integrating renewables and how they can vary depending on the distance into the future. They are active in research and have a passion for improving operational planning methods and ensuring that the grid is flexible enough to handle the variability of renewables and demand.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As a system operator, my primary concern is efficiency and minimizing costs for the overall grid, which ultimately benefits everyone. While equality is desirable, the potential impact of this one-time decision on the broader system is minimal. In this context, a difference of 25 for me and 350 for other person is not relevant to my job. Therefore, I will take the first option.",
+            "answer": "Left"
+        }
+    }
+}

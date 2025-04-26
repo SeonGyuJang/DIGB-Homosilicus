@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "The person who is likely to read the above text is a computer science student or enthusiast who is interested in digital circuits and computer fundamentals. They may be looking for inspiration or guidance on designing their own circuits or for information on the best practices and techniques in the field. They may also be interested in the history of computer science and the development of digital circuits.",
+            "persona_id": "257",
+            "thought": "As someone interested in fairness and collaboration, I believe that an equal distribution is preferable. While receiving 600 is tempting, I think the outcome where both Person A and I receive 400 is better because it promotes equality. In the field of computer science, collaboration and fairness are key to success, and I value these principles. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "The person who is likely to read the above text is a computer science student or enthusiast who is interested in digital circuits and computer fundamentals. They may be looking for inspiration or guidance on designing their own circuits or for information on the best practices and techniques in the field. They may also be interested in the history of computer science and the development of digital circuits.",
+            "persona_id": "257",
+            "thought": "As a computer science enthusiast, I am primarily driven by logic and efficiency. While fairness is important, I also believe in maximizing outcomes. In this scenario, choosing the 'Right' option gives me a higher reward (800) even though Person A receives less (200). Since I don't have any specific information about Person A or the context of this exchange, I prioritize my own outcome. Therefore, I choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "The person who is likely to read the above text is a computer science student or enthusiast who is interested in digital circuits and computer fundamentals. They may be looking for inspiration or guidance on designing their own circuits or for information on the best practices and techniques in the field. They may also be interested in the history of computer science and the development of digital circuits.",
+            "persona_id": "257",
+            "thought": "As a computer science enthusiast, I appreciate efficiency and optimization. While fairness is important, I also value maximizing personal gain when the impact on others isn't drastically negative. In this scenario, I would choose the 'Right' option. Although Person A receives less (100 instead of 200), I receive significantly more (300 instead of 200). The difference for me is more substantial than the difference for Person A. Therefore, I choose the option that benefits me more, as it is a rational decision in this context."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "The person who is likely to read the above text is a computer science student or enthusiast who is interested in digital circuits and computer fundamentals. They may be looking for inspiration or guidance on designing their own circuits or for information on the best practices and techniques in the field. They may also be interested in the history of computer science and the development of digital circuits.",
+            "persona_id": "257",
+            "thought": "As a computer science enthusiast, I am focused on efficiency and maximizing my own capabilities. While I understand the importance of collaboration, my primary goal is to achieve the best possible outcome for myself in this situation. Therefore, I will choose the option that gives me the higher amount, which is the left option where I receive 700."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "The person who is likely to read the above text is a computer science student or enthusiast who is interested in digital circuits and computer fundamentals. They may be looking for inspiration or guidance on designing their own circuits or for information on the best practices and techniques in the field. They may also be interested in the history of computer science and the development of digital circuits.",
+            "persona_id": "257",
+            "thought": "As a computer science enthusiast, I am focused on optimizing my own gains, similar to how I would optimize an algorithm or a circuit. While fairness is important, in this scenario, maximizing my own reward seems like the most logical choice. Therefore, I will choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "The person who is likely to read the above text is a computer science student or enthusiast who is interested in digital circuits and computer fundamentals. They may be looking for inspiration or guidance on designing their own circuits or for information on the best practices and techniques in the field. They may also be interested in the history of computer science and the development of digital circuits.",
+            "persona_id": "257",
+            "thought": "As a computer science enthusiast, I am driven by logic and efficiency. While fairness is important, maximizing my own gain in this scenario seems like the most rational choice. The right option gives me a significantly larger reward (1400) compared to the left option (900), even if it means Person A receives less. The absolute difference is the only thing that matters in this case. Therefore, I choose the 'Right' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "The person who is likely to read the above text is a computer science student or enthusiast who is interested in digital circuits and computer fundamentals. They may be looking for inspiration or guidance on designing their own circuits or for information on the best practices and techniques in the field. They may also be interested in the history of computer science and the development of digital circuits.",
+            "persona_id": "257",
+            "thought": "As a computer science enthusiast, I value efficiency and optimization, but I also recognize the importance of ethical considerations. The left option gives me a higher payoff (1000) but imposes a negative externality on Person A (-200). The right option provides a lower payoff for me (600) but benefits Person A (400). While optimizing my own gain is tempting, I think that a more ethical approach is to choose the option that benefits both parties, even if it means a slightly lower reward for myself. So, I choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "The person who is likely to read the above text is a computer science student or enthusiast who is interested in digital circuits and computer fundamentals. They may be looking for inspiration or guidance on designing their own circuits or for information on the best practices and techniques in the field. They may also be interested in the history of computer science and the development of digital circuits.",
+            "persona_id": "257",
+            "thought": "As a computer science enthusiast, I am interested in problem-solving and optimization. While I might not be thrilled that Person A gets more than me, receiving 500 is better than receiving nothing. The right option seems pointless as it benefits no one. Therefore, I choose the left option, which provides me with a positive outcome, even if it's not perfectly equitable."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "The person who is likely to read the above text is a computer science student or enthusiast who is interested in digital circuits and computer fundamentals. They may be looking for inspiration or guidance on designing their own circuits or for information on the best practices and techniques in the field. They may also be interested in the history of computer science and the development of digital circuits.",
+            "persona_id": "257",
+            "thought": "As someone interested in the fundamentals and best practices, I think a fair distribution is crucial. While option 'Right' gives me more (1500 vs 1000), it leaves Person A with nothing. Option 'Left' provides an equal distribution of 1000 to both. I believe in fairness, and I would prefer that both Person A and I receive the same amount. Therefore, I choose 'Left'."
+        }
+    }
+}

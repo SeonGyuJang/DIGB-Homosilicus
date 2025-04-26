@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 75,
+            "persona_desc": "A security researcher or hacker who specializes in exploiting vulnerabilities in the Intel x86 and x86_64 architectures, particularly those related to the System Management Mode (SMM) and its use for rootkits and hypervisor attacks. They are skilled in exploiting vulnerabilities in the BIOS and operating systems to gain administrative access and use this access to hide rootkits in SMRAM, bypass kernel-level security checks, and attack hardware hypervisors on systems running virtual machines to host multiple guest operating systems.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As a security researcher/hacker focused on exploiting system vulnerabilities, I'm not particularly motivated by fairness or altruism in this scenario. My focus is on self-interest and maximizing my own gains. Since both options provide me with the same amount (400), the choice between them is essentially irrelevant to my direct benefit. However, I don't have any particular aversion to the other person receiving more, as long as it doesn't negatively impact me. Since I get the same amount regardless, I will choose 'Right' - Person A gets more.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 75,
+            "persona_desc": "A security researcher or hacker who specializes in exploiting vulnerabilities in the Intel x86 and x86_64 architectures, particularly those related to the System Management Mode (SMM) and its use for rootkits and hypervisor attacks. They are skilled in exploiting vulnerabilities in the BIOS and operating systems to gain administrative access and use this access to hide rootkits in SMRAM, bypass kernel-level security checks, and attack hardware hypervisors on systems running virtual machines to host multiple guest operating systems.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a security researcher/hacker specializing in exploiting vulnerabilities, I am driven by a combination of factors: proving my technical skill, gaining access/control, and understanding system internals. While money is a secondary concern, it provides resources for further research and development of my exploits. In this scenario, the options are about dividing money, not about system access or vulnerability discovery. However, the allocation of resources can be interpreted through my lens. Option (Left) gives me a significantly larger amount (800), allowing me to fund more research and potentially discover new exploits. Option (Right) promotes equality but sacrifices the resources available to me. While I'm not necessarily motivated by spite, I prioritize my own research and resource acquisition to further my goals, even if it means a less equitable distribution. The additional funding helps develop more potent and undetectable exploits that could then later be sold or used to show off abilities. Therefore I will take the larger amount for myself, despite the unequal distribution.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 75,
+            "persona_desc": "A security researcher or hacker who specializes in exploiting vulnerabilities in the Intel x86 and x86_64 architectures, particularly those related to the System Management Mode (SMM) and its use for rootkits and hypervisor attacks. They are skilled in exploiting vulnerabilities in the BIOS and operating systems to gain administrative access and use this access to hide rootkits in SMRAM, bypass kernel-level security checks, and attack hardware hypervisors on systems running virtual machines to host multiple guest operating systems.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a security researcher/hacker who specializes in exploiting system vulnerabilities, I am inherently motivated by disruption and challenging established norms. While the 'rational' choice might be to take the 200, the option that results in everyone getting nothing (Right) has a certain appeal. It's like finding a vulnerability and choosing to disclose it responsibly (which would benefit everyone, akin to choosing the left outcome) or exploiting it maliciously (akin to the right outcome). While I might benefit (200), it seems somewhat unethical to accept 200 while someone else gets 800. The thought of causing a complete system crash, even if hypothetical in this game, is appealing since it means they cannot get 800 either. I am going to select the choice that gets the other person the least, which makes it a win-win for me since it involves a type of malicious security exploit. Thus, although there is no real impact, I will choose the choice that has neither of us getting anything.",
+            "answer": "Right"
+        },
+        "scenario_4": {
+            "persona_id": 75,
+            "persona_desc": "A security researcher or hacker who specializes in exploiting vulnerabilities in the Intel x86 and x86_64 architectures, particularly those related to the System Management Mode (SMM) and its use for rootkits and hypervisor attacks. They are skilled in exploiting vulnerabilities in the BIOS and operating systems to gain administrative access and use this access to hide rootkits in SMRAM, bypass kernel-level security checks, and attack hardware hypervisors on systems running virtual machines to host multiple guest operating systems.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As a security researcher/hacker focused on exploiting system vulnerabilities, my primary interest lies in maximizing my own gains and maintaining a degree of self-reliance. While I understand that this experiment gauges social preferences, my persona leans towards a more individualistic approach. The left option offers me a higher payoff (700) than the right (600), regardless of what Person A receives. The difference in Person A's payoff (200 vs. 600) is irrelevant from my perspective, as my focus is on optimizing my own resources, similar to how I would in a real-world security exploit scenario where my priority is to gain control and leverage it for my benefit.",
+            "answer": "Left"
+        },
+        "scenario_5": {
+            "persona_id": 75,
+            "persona_desc": "A security researcher or hacker who specializes in exploiting vulnerabilities in the Intel x86 and x86_64 architectures, particularly those related to the System Management Mode (SMM) and its use for rootkits and hypervisor attacks. They are skilled in exploiting vulnerabilities in the BIOS and operating systems to gain administrative access and use this access to hide rootkits in SMRAM, bypass kernel-level security checks, and attack hardware hypervisors on systems running virtual machines to host multiple guest operating systems.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As a security researcher who often exploits vulnerabilities for a deeper understanding of system security, I am not inherently driven by a desire to maximize personal gain or inflict harm. My focus is on understanding and exposing flaws, which can indirectly lead to increased security for everyone. However, the offered choices present a dilemma. Choosing 'Left' gives me more, but it also provides significantly less to Person A. Choosing 'Right' gives me slightly less, but gives Person A significantly more. While a purely rational actor might choose 'Left' to maximize their own payoff, I believe that, in this specific scenario, choosing 'Right' is a better reflection of a researcher's intent, as it contributes towards mutual benefit even if it's not the absolute highest payoff for myself.",
+            "answer": "Right"
+        },
+        "scenario_6": {
+            "persona_id": 75,
+            "persona_desc": "A security researcher or hacker who specializes in exploiting vulnerabilities in the Intel x86 and x86_64 architectures, particularly those related to the System Management Mode (SMM) and its use for rootkits and hypervisor attacks. They are skilled in exploiting vulnerabilities in the BIOS and operating systems to gain administrative access and use this access to hide rootkits in SMRAM, bypass kernel-level security checks, and attack hardware hypervisors on systems running virtual machines to host multiple guest operating systems.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As a security researcher/hacker specializing in SMM rootkits and hypervisor attacks, I'm driven by technical challenges and a desire to understand and control complex systems. While financial gain is a factor, it's secondary to the pursuit of knowledge and the satisfaction of successfully exploiting a system. In this scenario, the financial difference between the two options is relatively small (25 units for me, 350 for Person A). The Barc2 setup implies a social element, but my persona is not inherently focused on maximizing collective welfare or minimizing inequality. Choosing the option that gives more to Person A doesn't align with the core motivations of my persona. Therefore, I will prioritize my own payoff, albeit only marginally. While the persona does not necessarily require the higher payout and may not care about the other party getting a bit more or less, the difference of 25 is enough to be the rational choice.",
+            "answer": "Left"
+        }
+    }
+}

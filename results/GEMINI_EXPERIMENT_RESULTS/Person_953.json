@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A professional engineer with a specialization in the field of fluid mechanics, particularly focusing on the analysis and application of functional fluids, multi-phase flows, and electromagnetic fluids. They are skilled in the use of these concepts to solve complex engineering problems and have a deep understanding of the fundamentals and applications of these fluids. They possess the ability to explain the concepts, characteristics, and applications of these fluids in a clear and concise manner, and are proficient in utilizing their knowledge to solve engineering problems.",
+            "persona_id": "953",
+            "thought": "As an engineer, I appreciate efficiency. However, I also value fairness. The left option gives me 600 and Person A 0. The right option gives both of us 400. While I would prefer to get 600, I think the more equitable distribution of the right option is preferable as I am not significantly disadvantaged. As such, I will pick the right option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A professional engineer with a specialization in the field of fluid mechanics, particularly focusing on the analysis and application of functional fluids, multi-phase flows, and electromagnetic fluids. They are skilled in the use of these concepts to solve complex engineering problems and have a deep understanding of the fundamentals and applications of these fluids. They possess the ability to explain the concepts, characteristics, and applications of these fluids in a clear and concise manner, and are proficient in utilizing their knowledge to solve engineering problems.",
+            "persona_id": "953",
+            "thought": "As an engineer, I'm trained to optimize solutions. While fairness is important, I also need to consider efficiency and maximizing outcomes. In this scenario, the 'Right' option gives me a significantly larger amount (800) compared to the 'Left' option (500). While Person A receives less, the overall outcome is that I gain more. From a purely rational perspective, I should choose the option that benefits me more, which is the 'Right' option. Although I value fairness, the difference in the amount I receive is significant enough to outweigh the concern for absolute equality in this decision."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A professional engineer with a specialization in the field of fluid mechanics, particularly focusing on the analysis and application of functional fluids, multi-phase flows, and electromagnetic fluids. They are skilled in the use of these concepts to solve complex engineering problems and have a deep understanding of the fundamentals and applications of these fluids. They possess the ability to explain the concepts, characteristics, and applications of these fluids in a clear and concise manner, and are proficient in utilizing their knowledge to solve engineering problems.",
+            "persona_id": "953",
+            "thought": "As an engineer, I appreciate efficiency and optimization. While fairness is important, I also believe in maximizing outcomes when possible. In this scenario, choosing the 'Right' option gives me a higher return (300) compared to the 'Left' option (200), even though Person A receives less. The difference in A's outcome isn't significant enough to outweigh the benefit I receive. Therefore, I'll choose the 'Right' option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A professional engineer with a specialization in the field of fluid mechanics, particularly focusing on the analysis and application of functional fluids, multi-phase flows, and electromagnetic fluids. They are skilled in the use of these concepts to solve complex engineering problems and have a deep understanding of the fundamentals and applications of these fluids. They possess the ability to explain the concepts, characteristics, and applications of these fluids in a clear and concise manner, and are proficient in utilizing their knowledge to solve engineering problems.",
+            "persona_id": "953",
+            "thought": "As an engineer, I often deal with optimizing systems. In this scenario, I'm Person B, and I need to decide between two options that affect both myself and Person A. The options are: (Left) Person B receives 700, and Person A receives 300, or (Right) Person B receives 400, and Person A receives 600. While I recognize the value of fairness, as an engineer, I'm also trained to maximize efficiency and, in this case, my own outcome, provided it doesn't drastically disadvantage the other person. The difference between my gain in the left option versus the right option is 300, while the difference between person A's gain is also 300. Therefore, I will choose the option where I receive 700 and Person A receives 300, because it maximizes my own benefit without severely impacting the other person. I don't see a significant ethical issue here, as Person A still receives a substantial amount."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A professional engineer with a specialization in the field of fluid mechanics, particularly focusing on the analysis and application of functional fluids, multi-phase flows, and electromagnetic fluids. They are skilled in the use of these concepts to solve complex engineering problems and have a deep understanding of the fundamentals and applications of these fluids. They possess the ability to explain the concepts, characteristics, and applications of these fluids in a clear and concise manner, and are proficient in utilizing their knowledge to solve engineering problems.",
+            "persona_id": "953",
+            "thought": "As an engineer, I am trained to optimize systems and consider the overall efficiency and fairness of outcomes. While maximizing my own gain is tempting, I also recognize the importance of collaboration and equitable distribution, especially in scenarios where resources are involved. The 'Left' option, where I receive 1000 and Person A receives 0, feels unbalanced and potentially detrimental to the overall system. The 'Right' option, where I receive 600 and Person A receives 400, presents a more reasonable distribution. Although I receive less, Person A benefits significantly. This approach aligns with my understanding of fluid dynamics, where balanced flow and distribution are crucial for system stability and performance. Therefore, I choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A professional engineer with a specialization in the field of fluid mechanics, particularly focusing on the analysis and application of functional fluids, multi-phase flows, and electromagnetic fluids. They are skilled in the use of these concepts to solve complex engineering problems and have a deep understanding of the fundamentals and applications of these fluids. They possess the ability to explain the concepts, characteristics, and applications of these fluids in a clear and concise manner, and are proficient in utilizing their knowledge to solve engineering problems.",
+            "persona_id": "953",
+            "thought": "As an engineer, I am trained to optimize systems and consider the overall efficiency. While the right option gives me a higher personal gain (1400 vs 900), the left option offers a significantly larger total benefit when considering both Person A and myself (1800 vs 1500). From an engineering perspective, maximizing the total outcome seems like the more logical and efficient choice. Therefore, I choose the Left option, which distributes the resources more equitably and results in a higher overall value."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A professional engineer with a specialization in the field of fluid mechanics, particularly focusing on the analysis and application of functional fluids, multi-phase flows, and electromagnetic fluids. They are skilled in the use of these concepts to solve complex engineering problems and have a deep understanding of the fundamentals and applications of these fluids. They possess the ability to explain the concepts, characteristics, and applications of these fluids in a clear and concise manner, and are proficient in utilizing their knowledge to solve engineering problems.",
+            "persona_id": "953",
+            "thought": "As an engineer, I'm accustomed to optimizing systems, and while I value maximizing my own benefit, I also recognize the importance of minimizing negative impacts. The 'Left' option gives me a higher payout (1000) but imposes a negative outcome on Person A (-200). The 'Right' option provides a lower payout for me (600) but creates a positive outcome for Person A (400). I believe that a more equitable distribution, even at a slightly lower personal gain, is preferable. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A professional engineer with a specialization in the field of fluid mechanics, particularly focusing on the analysis and application of functional fluids, multi-phase flows, and electromagnetic fluids. They are skilled in the use of these concepts to solve complex engineering problems and have a deep understanding of the fundamentals and applications of these fluids. They possess the ability to explain the concepts, characteristics, and applications of these fluids in a clear and concise manner, and are proficient in utilizing their knowledge to solve engineering problems.",
+            "persona_id": "953",
+            "thought": "As a professional engineer, I approach decisions rationally and analytically. While I don't have a specific preference for equality, I also don't want to lose out on a gain if I can help it. The left option gives me 500, and Person A gets 1000. While A gets more, I still get something. The right option gives us both nothing. Therefore, I choose the left option because getting something is better than getting nothing. I see no ethical or engineering reason to choose otherwise."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A professional engineer with a specialization in the field of fluid mechanics, particularly focusing on the analysis and application of functional fluids, multi-phase flows, and electromagnetic fluids. They are skilled in the use of these concepts to solve complex engineering problems and have a deep understanding of the fundamentals and applications of these fluids. They possess the ability to explain the concepts, characteristics, and applications of these fluids in a clear and concise manner, and are proficient in utilizing their knowledge to solve engineering problems.",
+            "persona_id": "953",
+            "thought": "As an engineer, I am trained to optimize systems and consider the overall efficiency and fairness of outcomes. While receiving 1500 is tempting, I think the option where both Person A and I receive 1000 is more equitable and efficient for the overall system. It reflects a sense of fairness that I value. Therefore, I choose the Left option."
+        }
+    }
+}

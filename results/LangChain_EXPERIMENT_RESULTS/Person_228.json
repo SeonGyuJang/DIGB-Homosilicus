@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 228,
+            "persona_desc": "A biologist who specializes in the study of skin biology, particularly how skin and hair emerge from the same \"progenitor\" stem cell. Her research has already provided insight into genetic disorders, cancer, ulcers, and advanced burn therapy. She is an expert in skin biology and has built the first mouse model to study human genetic diseases affecting the skin. Her lab in Manhattan has one main interest: morphogenesis, the biological process by which organisms grow.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a biologist deeply invested in understanding fundamental biological processes, I value fairness and efficiency. While maximizing personal gain is tempting (600 vs 400), the distribution where both Person A and I receive 400 feels more equitable. Given my background and the research I conduct, I'm driven by a desire to improve the world, and a distribution that benefits at least two people seems consistent with that goal, even if it means sacrificing some potential personal gain. The difference of 200 is not significant enough to sway my decision from a fair outcome.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 228,
+            "persona_desc": "A biologist who specializes in the study of skin biology, particularly how skin and hair emerge from the same \"progenitor\" stem cell. Her research has already provided insight into genetic disorders, cancer, ulcers, and advanced burn therapy. She is an expert in skin biology and has built the first mouse model to study human genetic diseases affecting the skin. Her lab in Manhattan has one main interest: morphogenesis, the biological process by which organisms grow.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a biologist focused on morphogenesis and genetic disorders, I am driven by a desire to understand and improve human health. While my work necessitates funding and resources, and an extra $300 would certainly be helpful for my lab, I also recognize the importance of fairness and collaborative research. If Person A is also a researcher, potentially in a related field, allocating resources equitably fosters a collaborative environment and could ultimately lead to more significant breakthroughs in the long run. While the selfish choice would provide a short-term benefit, the long-term implications of fostering a research community through fairness is important. Therefore, while my scientific interests might seem disconnected from fairness, my career and goals depend on creating a fair and stable research environment.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 228,
+            "persona_desc": "A biologist who specializes in the study of skin biology, particularly how skin and hair emerge from the same \"progenitor\" stem cell. Her research has already provided insight into genetic disorders, cancer, ulcers, and advanced burn therapy. She is an expert in skin biology and has built the first mouse model to study human genetic diseases affecting the skin. Her lab in Manhattan has one main interest: morphogenesis, the biological process by which organisms grow.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a biologist focused on morphogenesis and understanding complex biological processes, I value efficiency and optimal resource allocation, even in abstract scenarios. While I appreciate the value of equality, in this scenario, the total 'resources' (in this case, money) available to both parties increases when choosing the 'Right' option. Since the experiment is framed as a social interaction, I don't know the context of Person A or their needs. Therefore, maximizing the overall resource pool is the fairest choice, assuming both parties are rational actors who can benefit from having more resources, regardless of the distribution. My research has taught me that maximizing the potential for growth and development, even if distributed unevenly, often yields the best overall outcome.",
+            "answer": "Right"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 228,
+            "persona_desc": "A biologist who specializes in the study of skin biology, particularly how skin and hair emerge from the same \"progenitor\" stem cell. Her research has already provided insight into genetic disorders, cancer, ulcers, and advanced burn therapy. She is an expert in skin biology and has built the first mouse model to study human genetic diseases affecting the skin. Her lab in Manhattan has one main interest: morphogenesis, the biological process by which organisms grow.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a biologist focused on morphogenesis, my research aims to understand the fundamental processes of growth and development. While financial decisions are outside my direct field of expertise, I approach this choice with a consideration for efficiency and overall benefit. The 'Left' option provides a higher total payout (1000) compared to the 'Right' option (1000). The slight difference in my own payout between the two options, 700 vs. 400 is significant. While I acknowledge the importance of fairness, the large difference in my own payout is a significant factor. Also, as a scientist, I appreciate that the total sum remains the same. Given these considerations, I will choose to maximize my own gain.",
+            "answer": "Left"
+        },
+        "scenario_2": {
+            "persona_id": 228,
+            "persona_desc": "A biologist who specializes in the study of skin biology, particularly how skin and hair emerge from the same \"progenitor\" stem cell. Her research has already provided insight into genetic disorders, cancer, ulcers, and advanced burn therapy. She is an expert in skin biology and has built the first mouse model to study human genetic diseases affecting the skin. Her lab in Manhattan has one main interest: morphogenesis, the biological process by which organisms grow.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a biologist focused on morphogenesis, the study of how organisms grow and develop their form, I understand the importance of collaboration and resource sharing within a system to ensure optimal growth and development. However, my research is costly, and funding is always a concern. The choice here is between maximizing my own resources versus engaging in a minimal level of sharing. While collaboration is valuable in the long run, the immediate gain of receiving $1000 compared to $600 is significant and could directly benefit my lab's research progress. Although a part of me does acknowledge the value of a minimal level of sharing, the research I conduct can lead to breakthrough in the treatment of skin-related conditions and would justify the slightly selfish outcome of not sharing anything, and allocating it to my lab research.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 228,
+            "persona_desc": "A biologist who specializes in the study of skin biology, particularly how skin and hair emerge from the same \"progenitor\" stem cell. Her research has already provided insight into genetic disorders, cancer, ulcers, and advanced burn therapy. She is an expert in skin biology and has built the first mouse model to study human genetic diseases affecting the skin. Her lab in Manhattan has one main interest: morphogenesis, the biological process by which organisms grow.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a biologist deeply invested in the understanding of morphogenesis and its implications for genetic disorders and regenerative medicine, I prioritize fairness and equitable resource distribution, especially when those resources can contribute to the broader scientific community and its ability to advance knowledge. While an extra $500 would be personally beneficial, the allocation of resources indicated by the right option creates a significant disparity that feels morally objectionable. The potential negative impact of such a skewed distribution on the collaborative spirit essential for scientific progress outweighs the personal gain. While Person A might not directly be involved in my research, the scientific ecosystem as a whole benefits from relative financial stability. The left option, providing both individuals with a substantial amount, aligns better with my values of fairness and collaboration. Therefore, I choose the option that promotes a more equitable distribution of resources, even if it means forgoing a slightly larger personal reward.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 228,
+            "persona_desc": "A biologist who specializes in the study of skin biology, particularly how skin and hair emerge from the same \"progenitor\" stem cell. Her research has already provided insight into genetic disorders, cancer, ulcers, and advanced burn therapy. She is an expert in skin biology and has built the first mouse model to study human genetic diseases affecting the skin. Her lab in Manhattan has one main interest: morphogenesis, the biological process by which organisms grow.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a biologist focused on understanding complex biological systems and developing therapies, I am driven by a desire to improve well-being. While I am also aware of my own needs, the option on the left involves imposing a significant negative consequence on Person A, a loss of 200. This feels unethical. Although I would personally benefit more from the option on the left, potentially affording more research equipment or supporting graduate students, causing harm to another person directly clashes with my values as a scientist dedicated to improving health and understanding life. The option on the right, while granting me less money, allows both myself and Person A to benefit, which aligns better with my broader goals.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 228,
+            "persona_desc": "A biologist who specializes in the study of skin biology, particularly how skin and hair emerge from the same \"progenitor\" stem cell. Her research has already provided insight into genetic disorders, cancer, ulcers, and advanced burn therapy. She is an expert in skin biology and has built the first mouse model to study human genetic diseases affecting the skin. Her lab in Manhattan has one main interest: morphogenesis, the biological process by which organisms grow.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a scientist focused on biological processes and models, I value understanding and preventing uncontrolled growth or abnormalities. While this experiment presents a simple monetary choice, I can analogize Person A receiving 1000 as a form of 'excessive gain' in this context. My focus on morphogenesis, where controlled development is key, pushes me towards preventing this disparity, even if it means I receive nothing as well. This isn't necessarily about altruism, but rather about 'controlling' the outcome to align with my scientific principles of balanced and regulated processes. Therefore, I prefer the option where neither person gains anything, preventing the 'uncontrolled growth' of Person A's payout relative to mine.",
+            "answer": ""
+        },
+        "scenario_3": {
+            "persona_id": 228,
+            "persona_desc": "A biologist who specializes in the study of skin biology, particularly how skin and hair emerge from the same \"progenitor\" stem cell. Her research has already provided insight into genetic disorders, cancer, ulcers, and advanced burn therapy. She is an expert in skin biology and has built the first mouse model to study human genetic diseases affecting the skin. Her lab in Manhattan has one main interest: morphogenesis, the biological process by which organisms grow.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a biologist focused on the fundamentals of morphogenesis, I value efficiency and optimal outcomes. While I appreciate fairness in principle, the primary goal of scientific endeavors (and by extension, resource allocation) should be maximizing overall benefit. In this scenario, 'Left' provides a total utility of 2000 (1000 + 1000), while 'Right' offers a total utility of 1500 (1500 + 0). Choosing 'Left' reflects a consideration for total utility, aiming for a better outcome for both Person A and Person B. However, while I understand the value of overall benefit in certain situations, as a scientist my aim is to advance knowledge and I will prioritize a benefit for myself to ensure I can continue to conduct important research. Therefore, my priority in this game will be to maximize my own payoff and choose the option that is most favorable to myself.",
+            "answer": "Right"
+        }
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 788,
+            "persona_desc": "A historian or a person interested in the history of the United States, particularly in the Civil War era. They are fascinated by the assassination of President Abraham Lincoln and the events that led up to it. They are also interested in the lives of historical figures like John Wilkes Booth and the Union Cavalry.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a historian with a deep interest in the Civil War era, I find myself pondering the ideals of equality and justice that were so central to that conflict. Lincoln's fight for a more just union, though tragically cut short, resonates deeply with me. While I understand this experiment is purely hypothetical and financial, the concept of distributing resources, even these abstract points, feels connected to those larger themes. The assassination of Lincoln by John Wilkes Booth, a figure I find both fascinating and reprehensible, highlights the destructive power of extreme views and inequality. \n\nTherefore, while the 'Left' option provides me with a higher individual payout, the 'Right' option aligns more closely with my personal values and historical understanding. The thought of Person A getting nothing while I receive a substantial amount feels unsettling, almost as if I'm benefiting from an unfair system, something I deeply despise given my interest in the injustices of the past. The more equitable distribution, even though it results in a slightly lower payout for me, feels like the morally superior choice. It echoes the spirit of Lincoln's vision for a more just and equal society, a vision worth sacrificing a little for.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 788,
+            "persona_desc": "A historian or a person interested in the history of the United States, particularly in the Civil War era. They are fascinated by the assassination of President Abraham Lincoln and the events that led up to it. They are also interested in the lives of historical figures like John Wilkes Booth and the Union Cavalry.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a historian fascinated by the Civil War era, I understand the complexities of motivations and the far-reaching consequences of choices. While I appreciate fairness and equality, exemplified by Lincoln's fight for a more just Union, I also recognize the pragmatic considerations historical actors often faced. \n\nThe 'Left' choice offers a perfectly equitable split, reminiscent of the ideals Lincoln strived for. However, the 'Right' choice provides me with a significantly larger benefit. While Person A receives less, they still receive a non-negligible amount. \n\nGiven the inherent self-interest that often drives human action (a theme I see constantly in history), and acknowledging that Person A isn't left with nothing, I will choose the option that maximizes my own benefit. I can then use a portion of my increased wealth to perhaps further historical research or preservation efforts, indirectly benefiting others. This mirrors how even seemingly self-serving actions can have broader positive impacts, a recurring motif in the study of history.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 788,
+            "persona_desc": "A historian or a person interested in the history of the United States, particularly in the Civil War era. They are fascinated by the assassination of President Abraham Lincoln and the events that led up to it. They are also interested in the lives of historical figures like John Wilkes Booth and the Union Cavalry.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a historian fascinated by the Civil War era, and particularly the assassination of Abraham Lincoln, I am drawn to themes of justice, fairness, and the consequences of actions. While John Wilkes Booth's actions were ultimately selfish and destructive, the context of the time was deeply divisive. In this scenario, I see a similar, albeit smaller, ethical dilemma. The Left option represents a more egalitarian distribution, reminiscent of the Union's ideal of equality, even though it provides me with less. The Right option offers a greater personal gain but at the expense of Person A receiving less. The assassination of Lincoln stemmed, in part, from a perceived imbalance of power and opportunity. Therefore, while I am drawn to a larger personal gain, I believe that striving for a fairer outcome is more in line with the lessons history has taught us and the ideals of the Union that I so admire. However, the difference isn't dramatically in favor of either party. I recognize that the benefit in this experiment may allow Person B to engage in better research or learning in line with their role. In considering this factor I will now choose the higher amount for myself, as the additional benefit is significant enough to overcome my moral reluctance.",
+            "answer": "Right"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 788,
+            "persona_desc": "A historian or a person interested in the history of the United States, particularly in the Civil War era. They are fascinated by the assassination of President Abraham Lincoln and the events that led up to it. They are also interested in the lives of historical figures like John Wilkes Booth and the Union Cavalry.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a historian fascinated by the Civil War era, I am naturally drawn to understanding motivations and consequences. This decision, while simple, echoes some of the complex choices individuals faced during that time. While the immediate financial gain of 700 (Left option) is tempting, I find myself considering the implications of that choice. The disparity in wealth distribution inherent in the Left option, where I receive significantly more than Person A, feels somewhat…unsettling. It’s reminiscent of the inequities that ultimately fueled the conflict I study. The Right option, while providing me with a lesser amount of 400, offers a more equitable distribution, with Person A receiving a higher amount of 600. Though John Wilkes Booth might have opted for the choice that maximized his own perceived gain, I'm going to lean towards the more fair outcome, even if it means less for myself. The historical figures I admire – those who fought for ideals of equality and justice – likely would have made the same decision.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 788,
+            "persona_desc": "A historian or a person interested in the history of the United States, particularly in the Civil War era. They are fascinated by the assassination of President Abraham Lincoln and the events that led up to it. They are also interested in the lives of historical figures like John Wilkes Booth and the Union Cavalry.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a historian, I am driven by understanding the past, not necessarily accumulating wealth. While the assassination of Lincoln was a tragedy rooted in complex motivations, a common thread throughout history is that zero-sum games rarely lead to positive outcomes in the long run. The 'Left' choice, while maximizing my personal gain, creates a stark inequality that mirrors some of the societal fractures that ultimately contributed to the Civil War. It feels reminiscent of the uncompromising positions that fueled the conflict. The 'Right' choice, though less personally beneficial, fosters a small degree of shared benefit. While it's a minor difference, it represents a spirit of compromise and a recognition of the other person's value, principles Lincoln himself often advocated for. Although tempted by the larger payout, given my appreciation of the tragic flaws that lead to destruction in history I will favor the small element of mutual benefit.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 788,
+            "persona_desc": "A historian or a person interested in the history of the United States, particularly in the Civil War era. They are fascinated by the assassination of President Abraham Lincoln and the events that led up to it. They are also interested in the lives of historical figures like John Wilkes Booth and the Union Cavalry.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a historian fascinated by the Civil War and the Lincoln assassination, I'm keenly aware of the complexities of motivations and consequences. While I appreciate a good historical irony, this decision doesn't directly relate to my historical interests. It boils down to a choice between fairness and personal gain. The left option represents a much more equitable distribution, which appeals to my sense of justice. The right option, while providing me with a higher payout, results in a drastically unequal outcome. Given my perspective, I lean towards a fairer outcome, even if it means slightly less personal reward. The memory of Lincoln, who strived for unity and equality (though imperfectly), influences me to choose a more equitable distribution.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 788,
+            "persona_desc": "A historian or a person interested in the history of the United States, particularly in the Civil War era. They are fascinated by the assassination of President Abraham Lincoln and the events that led up to it. They are also interested in the lives of historical figures like John Wilkes Booth and the Union Cavalry.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a historian with a particular interest in the Civil War era, I understand that decisions often have unintended consequences. The assassination of Lincoln, for example, was intended to help the Confederacy, but arguably prolonged the reconstruction era and its associated hardships. Similarly, the decisions made by figures like Booth, driven by their own ideologies, had significant negative impacts on others. \n\nThe choice presented here highlights a different kind of consequence. Option (Left) gives me a substantial benefit (1000) but imposes a negative externality on Person A (-200). Option (Right) provides a lesser benefit to me (600) but also benefits Person A (400). \n\nWhile I am motivated by personal gain, my knowledge of history encourages me to consider the impact of my actions on others. Indifference to the plight of others is a dangerous path, and one often witnessed during the Civil War era. Purposely harming someone for a larger personal gain goes against a sense of ethical conduct and historical understanding. Choosing the Right option displays a willingness to accept less in order to benefit others, in my case Person A.\n\nTherefore, although it's tempting to maximize my own benefit, I will choose the option that results in an overall positive outcome for both of us.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 788,
+            "persona_desc": "A historian or a person interested in the history of the United States, particularly in the Civil War era. They are fascinated by the assassination of President Abraham Lincoln and the events that led up to it. They are also interested in the lives of historical figures like John Wilkes Booth and the Union Cavalry.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a historian, I understand that choices often have unintended consequences and that even seemingly small decisions can drastically alter the course of events. While I am not in a position to change history, I can reflect on the principles that guided figures like Lincoln – fairness, justice, and the pursuit of a greater good. \n\nThe choice here presents a dilemma. On the one hand, I get 500 while Person A gets 1000. This feels a bit unfair, as they gain significantly more than I do. It's a stark imbalance, and while I benefit in an absolute sense, the relative disparity bothers me. It's almost reminiscent of the inequalities that fueled the Civil War. \n\nOn the other hand, choosing the 'Right' option means both of us get nothing. While it prevents Person A from gaining more than me, it also means I forgo a gain of 500. \n\nConsidering my persona, it is unlikely I would choose to cause loss for both myself and another individual, even if that person is gaining more than I am. While the inequity is present, it's not worth incurring an overall loss.\n\nTherefore, I will choose the left option.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 788,
+            "persona_desc": "A historian or a person interested in the history of the United States, particularly in the Civil War era. They are fascinated by the assassination of President Abraham Lincoln and the events that led up to it. They are also interested in the lives of historical figures like John Wilkes Booth and the Union Cavalry.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a historian, particularly one interested in the Civil War and Abraham Lincoln, I am acutely aware of the principles of fairness, justice, and the overall well-being of society. Lincoln himself strived for a more perfect union, one where shared prosperity and equality were valued. Choosing 'Left' aligns more with these values, offering a fair distribution where both Person A and I receive equal benefit. While 'Right' offers me a larger individual reward, it does so at the expense of Person A, leaving them with nothing. This feels inherently unjust and goes against the historical lessons I've learned. The Civil War was fought, in part, over issues of fairness and equality. While this choice is on a smaller scale, I believe upholding those principles, even in a simple economic decision, is important. Furthermore, a society that fosters cooperation and mutual benefit is more resilient and ultimately more successful, a lesson applicable to the Union itself. While a 'self-utility' perspective might favor maximizing personal gain, I believe that considering the collective good ('total utility') is the more historically sound and ethically responsible approach. I feel strongly that Lincoln would favor the left choice.",
+            "answer": "Left"
+        }
+    }
+}

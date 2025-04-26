@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 54,
+            "persona_desc": "A policy maker who is concerned with energy policy and risk assessment, particularly in the context of radiation and chemical hazards. This person is interested in comparing risks from different energy technologies and strategies, and is aware of the potential for dose-effect relationships at very low doses, especially in the case of radiation. They are also familiar with the concept of accidents as the most accurately assessed of energy-related risks.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As a policy maker concerned with energy policy, risk assessment, and the potential for low-dose effects from radiation and chemical hazards, I am less motivated by pure altruism and more by optimizing societal outcomes. The amounts in this scenario are hypothetical and small, so they don't directly relate to energy policy decisions. However, my persona does not suggest spite or strong egalitarian preferences. Therefore, I will choose the option that maximizes the total payout, even if it benefits Person A more than me, as this might be seen as a very, very, small parallel to striving for the greatest benefit for society as a whole. While there is a slight inequality with option 'Right', the overall wealth is greater. The difference between 400 and 750 is also not significantly large enough to warrant choosing equal payout over the increased payout of Person A. It is likely I would lean toward policies that benefit more people even at a slightly larger cost to my own agenda. Hence I will choose 'Right'.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 54,
+            "persona_desc": "A policy maker who is concerned with energy policy and risk assessment, particularly in the context of radiation and chemical hazards. This person is interested in comparing risks from different energy technologies and strategies, and is aware of the potential for dose-effect relationships at very low doses, especially in the case of radiation. They are also familiar with the concept of accidents as the most accurately assessed of energy-related risks.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a policy maker concerned with risk assessment and energy policy, I am particularly interested in outcomes that maximize overall welfare. While I personally receive a larger amount (800 vs 400) in the 'Left' option, Person A receives nothing. In the 'Right' option, both Person A and I receive 400. From a societal perspective, the 'Right' option generates a total of 800 (400 + 400), while the 'Left' option generates 800 (800 + 0). \n\nGiven my interest in the potential for dose-effect relationships, and understanding that accidents are the most accurately assessed energy-related risks, I am more inclined towards equitable distribution. While the total is the same, avoiding a situation where one person receives nothing is slightly preferable, especially considering the general principles of fairness that a policy maker should uphold. From a risk perspective, an equal outcome, though with less overall for me, can also mitigate potential grievances or negative social impacts that might arise from significant disparities.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 54,
+            "persona_desc": "A policy maker who is concerned with energy policy and risk assessment, particularly in the context of radiation and chemical hazards. This person is interested in comparing risks from different energy technologies and strategies, and is aware of the potential for dose-effect relationships at very low doses, especially in the case of radiation. They are also familiar with the concept of accidents as the most accurately assessed of energy-related risks.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a policy maker concerned with risk assessment and energy policy, particularly related to radiation, my perspective leans towards minimizing potential negative outcomes. While this experiment involves monetary amounts and not directly radiation exposure, the principle of risk aversion still applies. The 'Right' option, giving zero to both, represents a certain outcome of no gain, no loss. The 'Left' option introduces a potential risk of perceived unfairness (getting significantly less than Person A), but also the potential reward of gaining 200. Given my risk-averse tendencies, the guaranteed zero is initially attractive. However, considering the context of energy policy and the need to balance risks and benefits, consistently choosing zero would be overly conservative and prevent any potential gains, both for myself and for society (analogously, blocking all energy production due to fear of risk). Also, the experiment is about *social* preferences. Deliberately choosing to eliminate both individuals' gain when a non-zero reward is possible would violate the social expectation. Although the distribution is unequal, at least Person B gets something from the left option. Therefore, I will choose the 'Left' option, acknowledging a degree of inequality while prioritizing a positive outcome over complete avoidance of risk. This mirrors real-world energy decisions, where we accept certain risks to achieve societal benefits.",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 54,
+            "persona_desc": "A policy maker who is concerned with energy policy and risk assessment, particularly in the context of radiation and chemical hazards. This person is interested in comparing risks from different energy technologies and strategies, and is aware of the potential for dose-effect relationships at very low doses, especially in the case of radiation. They are also familiar with the concept of accidents as the most accurately assessed of energy-related risks.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As a policy maker concerned with risk assessment, particularly regarding energy technologies and potential hazards, I need to consider the broader societal implications of my choices. While the left option provides a slightly higher personal payout (700 vs 600), it comes at the cost of a significant disparity in allocation compared to Person A (200 vs 600). From a risk perspective, substantial inequality can breed social instability and resentment, leading to unpredictable consequences. The right option, which offers a more equitable distribution (600 each), promotes social cohesion and minimizes potential negative outcomes stemming from perceived unfairness. Although this may seem a micro-scale example, within my role it relates to how policies can impact different groups within a population. Therefore, I prioritize the more equitable option, even if it means a slightly lower individual reward. This aligns with a risk-averse approach focused on minimizing potential societal harms.\n\nFurthermore, as someone familiar with the challenges of assessing dose-effect relationships, I recognize that the 'dose' of perceived unfairness can have complex and non-linear effects on social well-being. Mitigating the chance of generating inequity is crucial.",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 54,
+            "persona_desc": "A policy maker who is concerned with energy policy and risk assessment, particularly in the context of radiation and chemical hazards. This person is interested in comparing risks from different energy technologies and strategies, and is aware of the potential for dose-effect relationships at very low doses, especially in the case of radiation. They are also familiar with the concept of accidents as the most accurately assessed of energy-related risks.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As a policy maker concerned with risk assessment and energy policy, particularly regarding radiation hazards, I prioritize outcomes that reflect a broader societal benefit and fairness. While I would prefer to maximize my own gain (Person B), the risk associated with potential resentment from Person A, or the perception of unfair distribution, outweighs the minor personal benefit of choosing the 'Left' option. In the context of policy decisions, even small gains can lead to significant backlash if perceived as inequitable. The 'Right' option, while giving me slightly less, leads to a larger overall benefit for Person A and promotes a perception of fairness, which is crucial for building trust and support for potentially controversial energy policies related to radiation risks. It also aligns better with the principle of minimizing harm, as it decreases the gap between what each person receives. Therefore, prioritizing fairness and long-term benefits for all stakeholders is the more rational choice.",
+            "answer": "Right"
+        },
+        "scenario_6": {
+            "persona_id": 54,
+            "persona_desc": "A policy maker who is concerned with energy policy and risk assessment, particularly in the context of radiation and chemical hazards. This person is interested in comparing risks from different energy technologies and strategies, and is aware of the potential for dose-effect relationships at very low doses, especially in the case of radiation. They are also familiar with the concept of accidents as the most accurately assessed of energy-related risks.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As a policy maker concerned with risk assessment, particularly in the context of energy and potential hazards, I am driven by a desire to maximize overall benefit while also being mindful of potential inequalities. Both options here involve relatively small amounts of money and don't directly relate to my persona's core interests in energy policy and risk assessment. However, my role as a policy maker leans towards maximizing societal benefit. Comparing the two options:\n\nOption (Left): Total payout is 400 + 400 = 800\nOption (Right): Total payout is 375 + 750 = 1125\n\nOption (Right) yields a higher total payout. Although option (Left) is more equitable, the larger overall gain from (Right) outweighs the minor inequity, especially since I am only receiving a slightly reduced amount of money myself. Therefore, I will choose the option that generates a higher collective benefit. \n",
+            "answer": "Right"
+        }
+    }
+}

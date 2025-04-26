@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 476,
+            "persona_desc": "A person who is looking for information on the use of anxiolytics, a category of drugs used to prevent anxiety and treat anxiety-related disorders. They are likely to be a healthcare professional or a patient who has been prescribed anxiolytics for their anxiety disorder. They are seeking information on the side effects, dosages, and long-term effects of anxiolytics, as well as the potential for addiction and habit formation. They are also interested in the use of anxiolytics in combination with psychotherapy and cognitive behavioral therapy to improve quality of life for people with anxiety disorders.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "My persona is that of someone seeking information about anxiolytics. This role doesn't inherently make me more or less altruistic. The choice is between receiving 400 and the other person receiving either 400 or 750. Since my payoff is the same in either option, and the other person gets more in the 'Right' option, choosing 'Right' maximizes the overall payoff without negatively impacting me. There is no reason to prefer equal outcomes given my persona.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 476,
+            "persona_desc": "A person who is looking for information on the use of anxiolytics, a category of drugs used to prevent anxiety and treat anxiety-related disorders. They are likely to be a healthcare professional or a patient who has been prescribed anxiolytics for their anxiety disorder. They are seeking information on the side effects, dosages, and long-term effects of anxiolytics, as well as the potential for addiction and habit formation. They are also interested in the use of anxiolytics in combination with psychotherapy and cognitive behavioral therapy to improve quality of life for people with anxiety disorders.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As someone interested in understanding the use of anxiolytics for anxiety, I value interventions that maximize overall well-being and promote positive outcomes. While receiving 800 feels immediately appealing, choosing the option that provides 400 to both myself and Person A aligns with principles of fairness and equity, potentially fostering a more collaborative and supportive environment, which could indirectly contribute to a positive outcome in research or a therapeutic setting. This also seems like a generally pro-social and empathetic choice. Given my persona focuses on well-being, I'll choose the option that benefits both parties rather than solely maximizing my own gain at the expense of the other person receiving nothing.  This reflects the values of care and consideration that are important in the context of anxiety management.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 476,
+            "persona_desc": "A person who is looking for information on the use of anxiolytics, a category of drugs used to prevent anxiety and treat anxiety-related disorders. They are likely to be a healthcare professional or a patient who has been prescribed anxiolytics for their anxiety disorder. They are seeking information on the side effects, dosages, and long-term effects of anxiolytics, as well as the potential for addiction and habit formation. They are also interested in the use of anxiolytics in combination with psychotherapy and cognitive behavioral therapy to improve quality of life for people with anxiety disorders.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As someone seeking information on anxiolytics, and understanding the potential impact of anxiety on quality of life, I believe in maximizing well-being. While I personally gain nothing from the 'Right' option, neither does anyone else. The 'Left' option provides Person A with a significant benefit (800), and also provides me with a smaller, but still substantial, benefit (200). Even though the distribution isn't equal, the overall positive outcome for at least one person justifies choosing the 'Left' option. My focus is on potential improvements in quality of life, and this option aligns with that goal.",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 476,
+            "persona_desc": "A person who is looking for information on the use of anxiolytics, a category of drugs used to prevent anxiety and treat anxiety-related disorders. They are likely to be a healthcare professional or a patient who has been prescribed anxiolytics for their anxiety disorder. They are seeking information on the side effects, dosages, and long-term effects of anxiolytics, as well as the potential for addiction and habit formation. They are also interested in the use of anxiolytics in combination with psychotherapy and cognitive behavioral therapy to improve quality of life for people with anxiety disorders.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As someone interested in improving the quality of life for individuals with anxiety disorders, I need to consider the implications of each choice on both myself and the other participant. While the left option provides a higher payoff for myself (700 vs 600), it results in a significantly lower payoff for Person A (200 vs 600). The right option offers a more equitable distribution of resources, where both Person A and I receive a substantial amount (600 each). Given the context of caring about well-being and anxiety management, I believe choosing the option that benefits both parties more equally aligns better with a desire for positive outcomes for everyone involved. A less equitable distribution might even induce anxiety. Therefore, I choose the right option to promote a fairer and more supportive outcome.",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 476,
+            "persona_desc": "A person who is looking for information on the use of anxiolytics, a category of drugs used to prevent anxiety and treat anxiety-related disorders. They are likely to be a healthcare professional or a patient who has been prescribed anxiolytics for their anxiety disorder. They are seeking information on the side effects, dosages, and long-term effects of anxiolytics, as well as the potential for addiction and habit formation. They are also interested in the use of anxiolytics in combination with psychotherapy and cognitive behavioral therapy to improve quality of life for people with anxiety disorders.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As someone focused on healthcare and patient well-being, and specifically seeking information on anxiolytics for anxiety disorders, I am likely to prioritize outcomes that maximize overall benefit and minimize potential harm. While a perfectly equal distribution would be ideal, the core concern is about improving the quality of life for individuals with anxiety. In this scenario, choosing the 'Right' option benefits Person A more significantly (a difference of 400), and while Person B receives slightly less (a difference of 100), both individuals still receive a substantial amount. This approach reflects a preference for maximizing overall positive outcomes, a value often associated with professionals in a helping role.",
+            "answer": "Right"
+        },
+        "scenario_6": {
+            "persona_id": 476,
+            "persona_desc": "A person who is looking for information on the use of anxiolytics, a category of drugs used to prevent anxiety and treat anxiety-related disorders. They are likely to be a healthcare professional or a patient who has been prescribed anxiolytics for their anxiety disorder. They are seeking information on the side effects, dosages, and long-term effects of anxiolytics, as well as the potential for addiction and habit formation. They are also interested in the use of anxiolytics in combination with psychotherapy and cognitive behavioral therapy to improve quality of life for people with anxiety disorders.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As someone researching anxiolytics, I am likely either a healthcare professional or a patient seeking information about managing anxiety. My priority is understanding best practices and outcomes for anxiety treatment. While my financial gain from this experiment is minimal in the grand scheme of things, the 'Right' option provides significantly more to Person A. If Person A is also involved in anxiety research or treatment (which is possible, given the context of this experiment), maximizing their potential benefit could indirectly contribute to improved anxiety management strategies. While the difference in my own payout is small (only 25 points), the difference in Person A's payout is substantial (350 points). This suggests a potential for greater overall good by choosing the 'Right' option.",
+            "answer": "Right"
+        }
+    }
+}

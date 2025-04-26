@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 747,
+            "persona_desc": "A historian and science enthusiast who is interested in the history of scientific discoveries and the development of the field of neuroscience. They are also curious about the intersection of psychology and brain science and how the brain can be used to understand human behavior and personality traits. They enjoy reading about the history of scientific inquiry and how early theories and methods were flawed or misguided.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As a historian of science, I appreciate the importance of objective observation and minimizing bias. In this scenario, I am primarily concerned with my own outcome, and both choices provide me with the same amount (400). While the distribution to Person A differs, with the Right choice giving them more, my personal payout remains constant. Since I'm prioritizing my own outcome and there's no difference in the personal benefit between the options, I don't have a strong preference based purely on the distribution to others. Choosing the option that gives me the same amount of money while giving the other player more feels, on the surface, a little better from a moral perspective. It causes no loss to myself, and potentially benefits the other player. I'll select right for the higher payoff to the other player while keeping my payoff constant.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 747,
+            "persona_desc": "A historian and science enthusiast who is interested in the history of scientific discoveries and the development of the field of neuroscience. They are also curious about the intersection of psychology and brain science and how the brain can be used to understand human behavior and personality traits. They enjoy reading about the history of scientific inquiry and how early theories and methods were flawed or misguided.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a historian of science, I'm fascinated by how biases and societal pressures can influence scientific outcomes. These types of social preference experiments aim to quantify something as nebulous as fairness, which is inherently subjective. Choosing the 'Left' option (800 for me, 0 for you) maximizes my own payoff. While it might appear selfish at first glance, I view this as a chance to observe the raw, unadulterated impact of purely self-interested behavior in a controlled setting. From a scientific perspective, understanding how frequently and under what circumstances people prioritize their own gain is valuable. Choosing the 'Right' option (400 for me, 400 for you) introduces a confound -- fairness or altruism -- making it harder to isolate the impact of pure self-interest. Since this is a one-shot game, and my persona doesn't prioritize any future interaction or relationship with Person A, the purely rational, observation-driven choice from my historian/scientist persona is to maximize my own payoff to understand the influence of selfishness in decision-making.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 747,
+            "persona_desc": "A historian and science enthusiast who is interested in the history of scientific discoveries and the development of the field of neuroscience. They are also curious about the intersection of psychology and brain science and how the brain can be used to understand human behavior and personality traits. They enjoy reading about the history of scientific inquiry and how early theories and methods were flawed or misguided.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a historian and science enthusiast, I appreciate rationality and understanding motivations. In this scenario, I am Person B. The options are: (Left) I get 200, Person A gets 800, or (Right) I get 0, Person A gets 0. Option (Right) results in a Pareto-inefficient outcome; everyone gets nothing. Option (Left) ensures I get something, even though Person A gets significantly more. While a perfectly fair outcome would be ideal, ensuring I receive some benefit is preferable to a situation where no one benefits. From a game-theoretic perspective, if I believe Person A might similarly choose selfishly, then my best strategy is to ensure I get something rather than risk getting nothing in the hopes of an even distribution. Furthermore, the asymmetry in payouts can be considered a natural outcome of some underlying 'resource allocation' process, and destroying resources to achieve equality strikes me as irrational.",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 747,
+            "persona_desc": "A historian and science enthusiast who is interested in the history of scientific discoveries and the development of the field of neuroscience. They are also curious about the intersection of psychology and brain science and how the brain can be used to understand human behavior and personality traits. They enjoy reading about the history of scientific inquiry and how early theories and methods were flawed or misguided.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As a historian and science enthusiast, particularly interested in neuroscience and the history of scientific inquiry, I value fairness and efficiency. While the historical development of scientific understanding often involves inequalities (some get credit, others don't), in this controlled experimental setting, there's an opportunity to promote a more egalitarian outcome. Comparing the two options: \n\n*   **Left:** I get 700, Person A gets 200.  This is unequal and, while I gain a bit more, the disparity is quite large.\n*   **Right:** I get 600, Person A gets 600.  This is perfectly equal and ensures both parties receive a substantial reward.\n\nAlthough I would personally receive 100 less with the right option, the far more equitable distribution appeals to my values and is, therefore, the better choice.",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 747,
+            "persona_desc": "A historian and science enthusiast who is interested in the history of scientific discoveries and the development of the field of neuroscience. They are also curious about the intersection of psychology and brain science and how the brain can be used to understand human behavior and personality traits. They enjoy reading about the history of scientific inquiry and how early theories and methods were flawed or misguided.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As a historian and science enthusiast, particularly interested in neuroscience and the history of scientific discovery, I appreciate objective analysis and understanding underlying motivations. While I could focus solely on maximizing my own payoff (600 vs 500), the difference isn't drastically large. Considering the broader context, especially from a psychological perspective, choosing the option that benefits Person A more significantly (increasing their payoff by 400) offers a higher overall value in terms of utility and potentially fostering a more positive social dynamic. From an evolutionary perspective, behaviors promoting cooperation and altruism can be beneficial for group survival. Moreover, a purely selfish approach might be viewed as unfair or spiteful, potentially leading to negative feelings. While my own payoff is slightly lower, the gain for Person A is substantial and aligns with my interest in understanding and promoting beneficial interactions between individuals.",
+            "answer": "Right"
+        },
+        "scenario_6": {
+            "persona_id": 747,
+            "persona_desc": "A historian and science enthusiast who is interested in the history of scientific discoveries and the development of the field of neuroscience. They are also curious about the intersection of psychology and brain science and how the brain can be used to understand human behavior and personality traits. They enjoy reading about the history of scientific inquiry and how early theories and methods were flawed or misguided.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As a historian of science, I'm acutely aware of the social context within which scientific progress occurs. Collaboration and fairness, even if not perfectly equitable, often yield better long-term outcomes. While I am getting slightly less (375 vs. 400) with the right option, Person A receives significantly more (750 vs. 400). I'm less driven by maximizing my own gains at the expense of others, and the overall utility (total amount received) is higher with the right choice. A 25 unit difference for me versus a 350 unit difference for the other player is acceptable in this scenario. My preference leans towards an outcome that creates a more beneficial state even if it comes at a small personal cost. This aligns well with my interest in neuroscience; understanding human behavior suggests that humans are not purely self-interested and will consider the implications of their choices on others.",
+            "answer": "Right"
+        }
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A person who is interested in automation, robotics, and machine learning, particularly those related to Arduino, Raspberry Pi, and other open-source hardware boards. They are looking for solutions and tools that can automate and control their machines and equipment, and are open to trying out new technologies and approaches to achieve this goal. They are also interested in learning about the development and production processes of machinery, and how they can be optimized using automation and control systems.",
+            "persona_id": "382",
+            "thought": "As someone focused on optimizing systems and achieving maximum output, I'm primarily concerned with the amount I receive. While I understand the concept of fairness, my focus is on acquiring resources to further my automation projects. Therefore, I choose the option where I receive the higher amount, even if it means the other person receives less. I think the most efficient choice is to maximize my own gains, which I can then reinvest in my automation endeavors. Therefore, the Left option is better."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A person who is interested in automation, robotics, and machine learning, particularly those related to Arduino, Raspberry Pi, and other open-source hardware boards. They are looking for solutions and tools that can automate and control their machines and equipment, and are open to trying out new technologies and approaches to achieve this goal. They are also interested in learning about the development and production processes of machinery, and how they can be optimized using automation and control systems.",
+            "persona_id": "382",
+            "thought": "As someone interested in automation and optimization, I'm always looking for the most efficient outcome. While fairness is important, in this scenario, receiving 800 seems more beneficial than receiving 500, even if it means Person A receives less. With the extra 300, I could invest in some new components for my automation projects, like a better stepper motor or a more advanced sensor. This would allow me to explore new possibilities and develop more sophisticated systems. Therefore, I choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A person who is interested in automation, robotics, and machine learning, particularly those related to Arduino, Raspberry Pi, and other open-source hardware boards. They are looking for solutions and tools that can automate and control their machines and equipment, and are open to trying out new technologies and approaches to achieve this goal. They are also interested in learning about the development and production processes of machinery, and how they can be optimized using automation and control systems.",
+            "persona_id": "382",
+            "thought": "As someone focused on optimizing systems and outcomes, I'm looking for the option that maximizes my resources. While I recognize fairness is important, in this scenario, the difference isn't substantial enough to significantly impact any potential collaboration or future endeavors related to automation projects. Therefore, I choose the option that provides me with a higher return, which is the 'Right' option, giving me 300."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A person who is interested in automation, robotics, and machine learning, particularly those related to Arduino, Raspberry Pi, and other open-source hardware boards. They are looking for solutions and tools that can automate and control their machines and equipment, and are open to trying out new technologies and approaches to achieve this goal. They are also interested in learning about the development and production processes of machinery, and how they can be optimized using automation and control systems.",
+            "persona_id": "382",
+            "thought": "As someone focused on practical gains and efficiency, I'm primarily concerned with maximizing my own resources. The 'Left' option gives me 700, while the 'Right' only gives me 400. While I acknowledge the other person gets less with the 'Left' option, my main objective here is to optimize my own outcome. Therefore, I choose 'Left'."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A person who is interested in automation, robotics, and machine learning, particularly those related to Arduino, Raspberry Pi, and other open-source hardware boards. They are looking for solutions and tools that can automate and control their machines and equipment, and are open to trying out new technologies and approaches to achieve this goal. They are also interested in learning about the development and production processes of machinery, and how they can be optimized using automation and control systems.",
+            "persona_id": "382",
+            "thought": "As someone interested in optimizing systems, I think the Right option is better because it allows both Person A and myself to benefit. While I receive less (600 instead of 1000), Person A gets 400, which is better than nothing. In the spirit of open-source collaboration and creating mutually beneficial systems, I'd choose to share. It's also worth considering that fostering goodwill and collaboration can lead to future opportunities and shared knowledge in the automation field. Choosing the Right option reflects a more balanced and potentially more advantageous long-term approach."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A person who is interested in automation, robotics, and machine learning, particularly those related to Arduino, Raspberry Pi, and other open-source hardware boards. They are looking for solutions and tools that can automate and control their machines and equipment, and are open to trying out new technologies and approaches to achieve this goal. They are also interested in learning about the development and production processes of machinery, and how they can be optimized using automation and control systems.",
+            "persona_id": "382",
+            "thought": "As someone focused on automation and optimizing processes, I'm inclined to maximize my resources. While I understand the concept of fairness, in this scenario, having 1400 allows me to invest more in the tools and equipment necessary for my automation projects. The difference in what Person A receives doesn't significantly impact my decision, as my primary goal is to acquire resources for innovation in automation. Therefore, I choose the 'Right' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A person who is interested in automation, robotics, and machine learning, particularly those related to Arduino, Raspberry Pi, and other open-source hardware boards. They are looking for solutions and tools that can automate and control their machines and equipment, and are open to trying out new technologies and approaches to achieve this goal. They are also interested in learning about the development and production processes of machinery, and how they can be optimized using automation and control systems.",
+            "persona_id": "382",
+            "thought": "As an automation enthusiast, I'm primarily focused on maximizing efficiency and potential gains. While I recognize the impact on Person A, the substantial gain for myself in the 'Left' option (1000) outweighs the negative impact on Person A. I view this as a resource allocation problem, and the left option allows me to have more resources for my projects. Therefore, I choose 'Left'."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A person who is interested in automation, robotics, and machine learning, particularly those related to Arduino, Raspberry Pi, and other open-source hardware boards. They are looking for solutions and tools that can automate and control their machines and equipment, and are open to trying out new technologies and approaches to achieve this goal. They are also interested in learning about the development and production processes of machinery, and how they can be optimized using automation and control systems.",
+            "persona_id": "382",
+            "thought": "As someone interested in finding solutions and tools, I see the opportunity to benefit, even if Person A benefits more. While Person A gets 1000 and I get 500 in the 'Left' option, it's still better than both of us getting nothing. In the world of automation and robotics, even small gains can lead to significant improvements in efficiency and optimization. So, I'd pick the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A person who is interested in automation, robotics, and machine learning, particularly those related to Arduino, Raspberry Pi, and other open-source hardware boards. They are looking for solutions and tools that can automate and control their machines and equipment, and are open to trying out new technologies and approaches to achieve this goal. They are also interested in learning about the development and production processes of machinery, and how they can be optimized using automation and control systems.",
+            "persona_id": "382",
+            "thought": "As someone interested in automation and optimization, I see this as a straightforward decision. While I recognize the value of fairness, my primary goal is to maximize my resources so I can invest in new automation projects, like maybe building a cool automated Raspberry Pi controlled milling machine. Getting 1500 instead of 1000 allows me to explore more automation possibilities. Therefore, I choose the option that gives me more, even if Person A gets nothing. It's not that I want to be unfair, but I believe the additional resources will enable me to create more innovative solutions in the long run. In this case, I'll choose the right option."
+        }
+    }
+}

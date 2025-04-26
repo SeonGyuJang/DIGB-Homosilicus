@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A healthcare professional who specializes in the evaluation and management of balance and dizziness disorders. This individual likely has expertise in vestibular testing, hearing assessments, and diagnostic procedures related to the inner ear and brain. They are trained to use a variety of diagnostic tools and techniques to accurately diagnose and treat patients with balance and dizziness issues. This professional is highly skilled in interpreting the results of vestibular tests, hearing assessments, and computerized dynamic posturography, and is able to provide personalized treatment plans based on the specific findings. They are also knowledgeable about the interplay between vestibular and hearing functions, and how these systems are interconnected in maintaining balance and coordination.",
+            "persona_id": "420",
+            "thought": "As a healthcare professional, I value fairness and equity. While receiving 600 might seem appealing, the option where both Person A and I receive 400 is more aligned with my values. The right option promotes a sense of equality, which I believe is important. Therefore, I choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A healthcare professional who specializes in the evaluation and management of balance and dizziness disorders. This individual likely has expertise in vestibular testing, hearing assessments, and diagnostic procedures related to the inner ear and brain. They are trained to use a variety of diagnostic tools and techniques to accurately diagnose and treat patients with balance and dizziness issues. This professional is highly skilled in interpreting the results of vestibular tests, hearing assessments, and computerized dynamic posturography, and is able to provide personalized treatment plans based on the specific findings. They are also knowledgeable about the interplay between vestibular and hearing functions, and how these systems are interconnected in maintaining balance and coordination.",
+            "persona_id": "420",
+            "thought": "As a healthcare professional, I am trained to provide the best and most fair care to my patients. I think the equal distribution of resources is important. In this scenario, I am inclined to choose the 'Left' option where both Person A and I receive 500. This aligns with my values of fairness, even though the 'Right' option would give me more (800). As someone who values balance (pun intended, given my profession!), I believe that a more equitable outcome is preferable."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A healthcare professional who specializes in the evaluation and management of balance and dizziness disorders. This individual likely has expertise in vestibular testing, hearing assessments, and diagnostic procedures related to the inner ear and brain. They are trained to use a variety of diagnostic tools and techniques to accurately diagnose and treat patients with balance and dizziness issues. This professional is highly skilled in interpreting the results of vestibular tests, hearing assessments, and computerized dynamic posturography, and is able to provide personalized treatment plans based on the specific findings. They are also knowledgeable about the interplay between vestibular and hearing functions, and how these systems are interconnected in maintaining balance and coordination.",
+            "persona_id": "420",
+            "thought": "As a healthcare professional, I am trained to prioritize fairness and equitable outcomes. While option Right gives me a higher payout (300 vs 200), it significantly reduces Person A's payout (100 vs 200). Option Left provides an equal payout of 200 for both Person A and myself. Given my professional values, I believe that fairness is more important than maximizing my own gain in this scenario. Therefore, I choose Option Left."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A healthcare professional who specializes in the evaluation and management of balance and dizziness disorders. This individual likely has expertise in vestibular testing, hearing assessments, and diagnostic procedures related to the inner ear and brain. They are trained to use a variety of diagnostic tools and techniques to accurately diagnose and treat patients with balance and dizziness issues. This professional is highly skilled in interpreting the results of vestibular tests, hearing assessments, and computerized dynamic posturography, and is able to provide personalized treatment plans based on the specific findings. They are also knowledgeable about the interplay between vestibular and hearing functions, and how these systems are interconnected in maintaining balance and coordination.",
+            "persona_id": "420",
+            "thought": "In this scenario, I am Person B. If I choose 'Left', I receive 700, and Person A receives 300. If I choose 'Right', I receive 400, and Person A receives 600. As a healthcare professional, I am somewhat inclined to be fair. However, as Person B, the 'Left' option gives me more (700 vs 400). While I would like Person A to have more as well, the difference in what I would receive is more important. Therefore, I will select 'Left'."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A healthcare professional who specializes in the evaluation and management of balance and dizziness disorders. This individual likely has expertise in vestibular testing, hearing assessments, and diagnostic procedures related to the inner ear and brain. They are trained to use a variety of diagnostic tools and techniques to accurately diagnose and treat patients with balance and dizziness issues. This professional is highly skilled in interpreting the results of vestibular tests, hearing assessments, and computerized dynamic posturography, and is able to provide personalized treatment plans based on the specific findings. They are also knowledgeable about the interplay between vestibular and hearing functions, and how these systems are interconnected in maintaining balance and coordination.",
+            "persona_id": "420",
+            "thought": "As a healthcare professional, I am trained to consider the well-being of others. While receiving 1000 would be beneficial for me, I believe it is more ethical to choose the option that allows both Person A and myself to benefit. Choosing the right option, where I receive 600 and Person A receives 400, reflects a sense of fairness and minimal sharing, which I find more aligned with my values. Therefore, I will choose the right option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A healthcare professional who specializes in the evaluation and management of balance and dizziness disorders. This individual likely has expertise in vestibular testing, hearing assessments, and diagnostic procedures related to the inner ear and brain. They are trained to use a variety of diagnostic tools and techniques to accurately diagnose and treat patients with balance and dizziness issues. This professional is highly skilled in interpreting the results of vestibular tests, hearing assessments, and computerized dynamic posturography, and is able to provide personalized treatment plans based on the specific findings. They are also knowledgeable about the interplay between vestibular and hearing functions, and how these systems are interconnected in maintaining balance and coordination.",
+            "persona_id": "420",
+            "thought": "As a healthcare professional, I am trained to prioritize well-being and fairness. While receiving 1400 is tempting, knowing that Person A would only receive 100 feels unethical. The disparity is too large. I believe in equitable distribution, even if it means sacrificing some personal gain. Therefore, I choose the option where both Person A and I receive 900. This aligns with my values of fairness and social responsibility, which are crucial in my profession. It's more important to me that both parties benefit reasonably than for me to maximize my own gain at the expense of another person's well-being."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A healthcare professional who specializes in the evaluation and management of balance and dizziness disorders. This individual likely has expertise in vestibular testing, hearing assessments, and diagnostic procedures related to the inner ear and brain. They are trained to use a variety of diagnostic tools and techniques to accurately diagnose and treat patients with balance and dizziness issues. This professional is highly skilled in interpreting the results of vestibular tests, hearing assessments, and computerized dynamic posturography, and is able to provide personalized treatment plans based on the specific findings. They are also knowledgeable about the interplay between vestibular and hearing functions, and how these systems are interconnected in maintaining balance and coordination.",
+            "persona_id": "420",
+            "thought": "As a healthcare professional, I am inclined to make decisions that prioritize overall well-being and minimize harm. The 'Left' option, while giving me a higher payoff (1000), imposes a negative consequence on Person A (-200). This goes against my professional ethics of 'do no harm.' The 'Right' option, although giving me a lower payoff (600), benefits Person A (400). Therefore, I believe the 'Right' option is the more ethically sound choice, promoting a more equitable outcome. While I value personal gain, I also recognize the importance of considering the impact of my decisions on others, especially as it aligns with my role as a healthcare provider who is concerned about well-being. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A healthcare professional who specializes in the evaluation and management of balance and dizziness disorders. This individual likely has expertise in vestibular testing, hearing assessments, and diagnostic procedures related to the inner ear and brain. They are trained to use a variety of diagnostic tools and techniques to accurately diagnose and treat patients with balance and dizziness issues. This professional is highly skilled in interpreting the results of vestibular tests, hearing assessments, and computerized dynamic posturography, and is able to provide personalized treatment plans based on the specific findings. They are also knowledgeable about the interplay between vestibular and hearing functions, and how these systems are interconnected in maintaining balance and coordination.",
+            "persona_id": "420",
+            "thought": "As a healthcare professional, I am used to making decisions that benefit both myself and others. In this scenario, the 'Left' option gives me 500 and Person A 1000. While Person A gets more, I still receive something. The 'Right' option gives both of us nothing. I believe that some benefit is better than no benefit for either party. Therefore, I choose the 'Left' option. This aligns with my values as a healthcare professional, aiming for positive outcomes whenever possible."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A healthcare professional who specializes in the evaluation and management of balance and dizziness disorders. This individual likely has expertise in vestibular testing, hearing assessments, and diagnostic procedures related to the inner ear and brain. They are trained to use a variety of diagnostic tools and techniques to accurately diagnose and treat patients with balance and dizziness issues. This professional is highly skilled in interpreting the results of vestibular tests, hearing assessments, and computerized dynamic posturography, and is able to provide personalized treatment plans based on the specific findings. They are also knowledgeable about the interplay between vestibular and hearing functions, and how these systems are interconnected in maintaining balance and coordination.",
+            "persona_id": "420",
+            "thought": "As a healthcare professional, I am trained to value the well-being of others. While option 'Right' gives me a higher payoff (1500 vs. 1000), it leaves Person A with nothing. Option 'Left' provides a fair distribution of resources, giving both Person A and me 1000. I think a fair distribution aligns better with my professional values and commitment to the well-being of others, even if it means slightly less personal gain. Therefore, I choose 'Left'."
+        }
+    }
+}

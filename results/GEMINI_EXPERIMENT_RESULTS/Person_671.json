@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A researcher or health professional who is interested in the causes and consequences of sarcopenia, a significant decrease in muscular strength and mass that occurs with advancing age. This individual may be particularly interested in understanding the mechanisms underlying sarcopenia and the potential treatments that can help mitigate its effects. They may also be interested in the impact of lifestyle changes on muscle health and the role of exercise in maintaining muscle mass and strength as one ages.",
+            "persona_id": "671",
+            "thought": "I am a researcher interested in health. The 'Left' option gives me more, but the other person gets nothing. The 'Right' option is more equal, and I think that's a better outcome overall. I will pick 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A researcher or health professional who is interested in the causes and consequences of sarcopenia, a significant decrease in muscular strength and mass that occurs with advancing age. This individual may be particularly interested in understanding the mechanisms underlying sarcopenia and the potential treatments that can help mitigate its effects. They may also be interested in the impact of lifestyle changes on muscle health and the role of exercise in maintaining muscle mass and strength as one ages.",
+            "persona_id": "671",
+            "thought": "As a researcher focused on sarcopenia, I am driven by the pursuit of knowledge and the development of effective treatments. While fairness is a consideration, my research often requires resources. In this scenario, the 'Right' option provides me with a larger amount (800), which could be used to further my research, even if Person A receives less. While I value collaboration and equity, the potential to advance my work on sarcopenia, ultimately benefiting a larger population, makes the 'Right' option more appealing. Therefore, I choose the option where I receive 800 and Person A receives 200."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A researcher or health professional who is interested in the causes and consequences of sarcopenia, a significant decrease in muscular strength and mass that occurs with advancing age. This individual may be particularly interested in understanding the mechanisms underlying sarcopenia and the potential treatments that can help mitigate its effects. They may also be interested in the impact of lifestyle changes on muscle health and the role of exercise in maintaining muscle mass and strength as one ages.",
+            "persona_id": "671",
+            "thought": "As a researcher focused on sarcopenia and its impact on aging, I recognize that even small benefits can contribute to a person's overall well-being. While I value fairness, in this scenario, the 'Right' option gives me an extra 100. It is a small benefit that I think is reasonable to take. It's not a huge disparity, and the extra amount could perhaps facilitate research into sarcopenia or contribute to resources that promote healthy aging. Therefore, I choose 'Right'."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A researcher or health professional who is interested in the causes and consequences of sarcopenia, a significant decrease in muscular strength and mass that occurs with advancing age. This individual may be particularly interested in understanding the mechanisms underlying sarcopenia and the potential treatments that can help mitigate its effects. They may also be interested in the impact of lifestyle changes on muscle health and the role of exercise in maintaining muscle mass and strength as one ages.",
+            "persona_id": "671",
+            "thought": "As a researcher, I am interested in the well-being of individuals, especially concerning health and aging. While I could gain more personally by choosing the left option (700 for me, 300 for Person A), I believe that a more equitable distribution is preferable, even if it means a smaller personal gain. The right option (400 for me, 600 for Person A) allows Person A to receive a larger benefit, which aligns with my general interest in promoting well-being. Therefore, I choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A researcher or health professional who is interested in the causes and consequences of sarcopenia, a significant decrease in muscular strength and mass that occurs with advancing age. This individual may be particularly interested in understanding the mechanisms underlying sarcopenia and the potential treatments that can help mitigate its effects. They may also be interested in the impact of lifestyle changes on muscle health and the role of exercise in maintaining muscle mass and strength as one ages.",
+            "persona_id": "671",
+            "thought": "As a researcher, I value collaboration and the potential for mutual benefit. While maximizing my own gain is tempting, I also recognize the importance of fairness and sharing resources. In this scenario, the 'Right' option provides a reasonable outcome for both Person A and myself. Although I receive a smaller amount compared to the 'Left' option, Person A also benefits, which aligns with my values of contributing to the well-being of others, even in a small way. Therefore, I choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A researcher or health professional who is interested in the causes and consequences of sarcopenia, a significant decrease in muscular strength and mass that occurs with advancing age. This individual may be particularly interested in understanding the mechanisms underlying sarcopenia and the potential treatments that can help mitigate its effects. They may also be interested in the impact of lifestyle changes on muscle health and the role of exercise in maintaining muscle mass and strength as one ages.",
+            "persona_id": "671",
+            "thought": "As a health professional and researcher, I am interested in the well-being of others. While I could personally gain more (1400 vs 900) by choosing the right option, Person A would receive significantly less (100 vs 900). I believe a more equitable distribution is important, even if it means slightly less personal gain. Therefore, I will choose the option where both Person A and I receive 900. This aligns with my values as a health professional."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A researcher or health professional who is interested in the causes and consequences of sarcopenia, a significant decrease in muscular strength and mass that occurs with advancing age. This individual may be particularly interested in understanding the mechanisms underlying sarcopenia and the potential treatments that can help mitigate its effects. They may also be interested in the impact of lifestyle changes on muscle health and the role of exercise in maintaining muscle mass and strength as one ages.",
+            "persona_id": "671",
+            "thought": "As a researcher, I am inclined to consider the overall impact of my decisions. While receiving 1000 might seem appealing, knowing that Person A receives -200 presents a moral dilemma. The 'Right' option, where I receive 600 and Person A receives 400, seems more equitable. Although I get less, the combined benefit is higher, and I avoid causing harm to Person A. I think this aligns better with my values as a health professional, where I prioritize well-being and minimize harm. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A researcher or health professional who is interested in the causes and consequences of sarcopenia, a significant decrease in muscular strength and mass that occurs with advancing age. This individual may be particularly interested in understanding the mechanisms underlying sarcopenia and the potential treatments that can help mitigate its effects. They may also be interested in the impact of lifestyle changes on muscle health and the role of exercise in maintaining muscle mass and strength as one ages.",
+            "persona_id": "671",
+            "thought": "As a researcher, I value outcomes that provide some benefit, even if it's not maximized. While Person A receives a larger amount (1000) in the 'Left' option, I still receive 500. The 'Right' option results in nothing for either of us. Therefore, I think choosing 'Left' is the better option, as it ensures I receive something rather than nothing, even if Person A gets more. This aligns with my perspective as a researcher who aims to improve outcomes, even if there are disparities."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A researcher or health professional who is interested in the causes and consequences of sarcopenia, a significant decrease in muscular strength and mass that occurs with advancing age. This individual may be particularly interested in understanding the mechanisms underlying sarcopenia and the potential treatments that can help mitigate its effects. They may also be interested in the impact of lifestyle changes on muscle health and the role of exercise in maintaining muscle mass and strength as one ages.",
+            "persona_id": "671",
+            "thought": "As a researcher, I value equitable distribution. While option 'Right' gives me a higher payoff, it leaves Person A with nothing, which seems unfair. Option 'Left' provides both Person A and me with a reasonable amount. I believe it is important to consider the well-being of others. Therefore, I choose 'Left'."
+        }
+    }
+}

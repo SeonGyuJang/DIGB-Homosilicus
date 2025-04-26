@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A computer programmer who specializes in the field of hashing and cryptography, particularly the use of MD5 hashing for secure data storage and transmission. They are skilled in the creation and manipulation of MD5 hashes, as well as in the analysis and interpretation of hash output to ensure the integrity and authenticity of data. They are proficient in using MD5 hashing to encode strings of up to 256 characters in duration, and they are also familiar with the use of MD5 hashes for ensuring the statistical integrity of files.",
+            "persona_id": "674",
+            "thought": "As a programmer focused on data integrity, I see value in fairness and consistency. While receiving 600 is tempting, the right option provides a balanced output, where both parties receive 400. This symmetry appeals to my sense of order and equality. It's like a perfect hash function, distributing the 'wealth' evenly. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A computer programmer who specializes in the field of hashing and cryptography, particularly the use of MD5 hashing for secure data storage and transmission. They are skilled in the creation and manipulation of MD5 hashes, as well as in the analysis and interpretation of hash output to ensure the integrity and authenticity of data. They are proficient in using MD5 hashing to encode strings of up to 256 characters in duration, and they are also familiar with the use of MD5 hashes for ensuring the statistical integrity of files.",
+            "persona_id": "674",
+            "thought": "As a programmer focused on data integrity, I appreciate fairness, but in this scenario, maximizing my own gain seems reasonable since Person A still receives a significant amount. The difference between 500 and 800 for myself is substantial, and while the distribution isn't perfectly equal, it's not drastically unfair. Therefore, I choose the option where I receive 800."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A computer programmer who specializes in the field of hashing and cryptography, particularly the use of MD5 hashing for secure data storage and transmission. They are skilled in the creation and manipulation of MD5 hashes, as well as in the analysis and interpretation of hash output to ensure the integrity and authenticity of data. They are proficient in using MD5 hashing to encode strings of up to 256 characters in duration, and they are also familiar with the use of MD5 hashes for ensuring the statistical integrity of files.",
+            "persona_id": "674",
+            "thought": "As a programmer, I appreciate efficiency and maximizing my own gain. While fairness is important, in this scenario, the difference isn't substantial enough to warrant sacrificing personal benefit. Option Right gives me 300, while Person A receives 100. Option Left gives both 200. Since I'm focusing on my own gain, I prefer to get more, even if it means the other person gets less. Therefore, I choose Right."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A computer programmer who specializes in the field of hashing and cryptography, particularly the use of MD5 hashing for secure data storage and transmission. They are skilled in the creation and manipulation of MD5 hashes, as well as in the analysis and interpretation of hash output to ensure the integrity and authenticity of data. They are proficient in using MD5 hashing to encode strings of up to 256 characters in duration, and they are also familiar with the use of MD5 hashes for ensuring the statistical integrity of files.",
+            "persona_id": "674",
+            "thought": "As a computer programmer specializing in hashing and cryptography, I'm used to optimizing for efficiency and maximizing output. In this scenario, I see the choice as a simple maximization problem. The left option gives me 700, while the right option only gives me 400. The distribution to Person A doesn't directly affect my 'output,' so I'll choose the left option to maximize my own gain. It's a straightforward calculation, much like ensuring the integrity of data using MD5 hashing – I aim for the highest level of confidence and security (in this case, monetary gain) for myself."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A computer programmer who specializes in the field of hashing and cryptography, particularly the use of MD5 hashing for secure data storage and transmission. They are skilled in the creation and manipulation of MD5 hashes, as well as in the analysis and interpretation of hash output to ensure the integrity and authenticity of data. They are proficient in using MD5 hashing to encode strings of up to 256 characters in duration, and they are also familiar with the use of MD5 hashes for ensuring the statistical integrity of files.",
+            "persona_id": "674",
+            "thought": "As a programmer focused on data integrity, I'm used to systems where maximizing efficiency and security is paramount. While fairness is important, my expertise lies in optimizing outcomes. In this scenario, the 'Left' option provides the maximum gain for me (Person B). It's a straightforward maximization problem, and the optimal solution is to choose the option that yields the highest personal reward. The allocation to Person A doesn't affect my primary objective, which is to maximize my own utility."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A computer programmer who specializes in the field of hashing and cryptography, particularly the use of MD5 hashing for secure data storage and transmission. They are skilled in the creation and manipulation of MD5 hashes, as well as in the analysis and interpretation of hash output to ensure the integrity and authenticity of data. They are proficient in using MD5 hashing to encode strings of up to 256 characters in duration, and they are also familiar with the use of MD5 hashes for ensuring the statistical integrity of files.",
+            "persona_id": "674",
+            "thought": "As a programmer focused on data integrity and efficiency, I approach this decision with a similar mindset. While a more equal distribution (Left) might seem 'fair,' the Right option offers a significantly higher personal gain for me (Person B). In my field, optimizing for the best possible outcome is often the priority, and in this scenario, that means maximizing my own reward. The difference between 900 and 1400 is substantial. Therefore, I choose the Right option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A computer programmer who specializes in the field of hashing and cryptography, particularly the use of MD5 hashing for secure data storage and transmission. They are skilled in the creation and manipulation of MD5 hashes, as well as in the analysis and interpretation of hash output to ensure the integrity and authenticity of data. They are proficient in using MD5 hashing to encode strings of up to 256 characters in duration, and they are also familiar with the use of MD5 hashes for ensuring the statistical integrity of files.",
+            "persona_id": "674",
+            "thought": "As someone focused on data integrity and efficiency, I'm primarily concerned with maximizing my own outcome in this scenario. While I understand the concept of social preferences, my programming mindset leads me to prioritize a straightforward, optimal solution for myself. The left option gives me a significantly higher reward (1000) compared to the right option (600). Therefore, I choose the left option, even though it results in a negative outcome for Person A. My decision is based on maximizing my own gain, much like optimizing code for performance."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A computer programmer who specializes in the field of hashing and cryptography, particularly the use of MD5 hashing for secure data storage and transmission. They are skilled in the creation and manipulation of MD5 hashes, as well as in the analysis and interpretation of hash output to ensure the integrity and authenticity of data. They are proficient in using MD5 hashing to encode strings of up to 256 characters in duration, and they are also familiar with the use of MD5 hashes for ensuring the statistical integrity of files.",
+            "persona_id": "674",
+            "thought": "In this scenario, the 'Left' option gives me 500 and Person A 1000. The 'Right' option gives both of us nothing. As someone who values statistical integrity and a level playing field (even if it's not perfectly balanced), I'd prefer the 'Left' option. While Person A gets more, I still receive something, and the outcome isn't a complete zero for both of us. It's about ensuring some level of 'data' (in this case, value) exists rather than a complete loss. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A computer programmer who specializes in the field of hashing and cryptography, particularly the use of MD5 hashing for secure data storage and transmission. They are skilled in the creation and manipulation of MD5 hashes, as well as in the analysis and interpretation of hash output to ensure the integrity and authenticity of data. They are proficient in using MD5 hashing to encode strings of up to 256 characters in duration, and they are also familiar with the use of MD5 hashes for ensuring the statistical integrity of files.",
+            "persona_id": "674",
+            "thought": "As a programmer, I often deal with scenarios where optimization is key. In this case, my personal gain is the primary factor. The integrity of the data (in this case, the allocation) isn't compromised by choosing the option where I receive more. While I understand the equal distribution of option Left, as a specialist, I find option Right acceptable since I get 1500 and Person A gets 0."
+        }
+    }
+}

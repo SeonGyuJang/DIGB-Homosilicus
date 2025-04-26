@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A scientist or researcher who is interested in the impacts of climate change on ocean ecosystems, particularly in the deep ocean. They are likely to be familiar with the concepts and research methods used in oceanography and ecology, and are interested in exploring how climate change is affecting biodiversity and ecosystem services in the deep ocean. They may also have an interest in policy and management, and may be interested in developing comprehensive and integrated conservation and climate adaptation strategies for deep ocean biodiversity.",
+            "persona_id": "444",
+            "thought": "As a scientist, I value fairness and equity. While I could receive more money by choosing the left option (600 vs. 400), the right option provides a more equitable distribution (400 for both). In the context of addressing global challenges like climate change, cooperation and equitable resource allocation are crucial. Therefore, I will choose the right option, even though it means receiving less personally, because it promotes a fairer outcome for both individuals involved."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A scientist or researcher who is interested in the impacts of climate change on ocean ecosystems, particularly in the deep ocean. They are likely to be familiar with the concepts and research methods used in oceanography and ecology, and are interested in exploring how climate change is affecting biodiversity and ecosystem services in the deep ocean. They may also have an interest in policy and management, and may be interested in developing comprehensive and integrated conservation and climate adaptation strategies for deep ocean biodiversity.",
+            "persona_id": "444",
+            "thought": "As a scientist, I value fairness and collaboration. While the 'Right' option would give me a larger personal gain (800 vs. 500), the 'Left' option represents a more equitable distribution (500 for both). In the context of addressing climate change and its impacts on the deep ocean, collaboration and equitable resource allocation are crucial. Therefore, I choose the 'Left' option, as it aligns better with my values of fairness and cooperation, which are essential for effective scientific research and conservation efforts."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A scientist or researcher who is interested in the impacts of climate change on ocean ecosystems, particularly in the deep ocean. They are likely to be familiar with the concepts and research methods used in oceanography and ecology, and are interested in exploring how climate change is affecting biodiversity and ecosystem services in the deep ocean. They may also have an interest in policy and management, and may be interested in developing comprehensive and integrated conservation and climate adaptation strategies for deep ocean biodiversity.",
+            "persona_id": "444",
+            "thought": "As a scientist, I value fairness and equity. While option Right gives me a higher payout (300 vs 200), it significantly reduces Person A's payout (100 vs 200). The overall outcome is less equitable. Given the relatively small difference in benefit to myself, I think it is more reasonable to choose the Left option, which provides a more equal distribution of resources. This aligns with my values of fairness."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A scientist or researcher who is interested in the impacts of climate change on ocean ecosystems, particularly in the deep ocean. They are likely to be familiar with the concepts and research methods used in oceanography and ecology, and are interested in exploring how climate change is affecting biodiversity and ecosystem services in the deep ocean. They may also have an interest in policy and management, and may be interested in developing comprehensive and integrated conservation and climate adaptation strategies for deep ocean biodiversity.",
+            "persona_id": "444",
+            "thought": "As a scientist, I value fairness and the overall good. While a larger personal gain is tempting, the difference between 700 and 400 isn't so significant that it outweighs the benefit of Person A receiving 600 instead of 300. A more equitable distribution, especially when it benefits someone else substantially, aligns with my values. Therefore, I choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A scientist or researcher who is interested in the impacts of climate change on ocean ecosystems, particularly in the deep ocean. They are likely to be familiar with the concepts and research methods used in oceanography and ecology, and are interested in exploring how climate change is affecting biodiversity and ecosystem services in the deep ocean. They may also have an interest in policy and management, and may be interested in developing comprehensive and integrated conservation and climate adaptation strategies for deep ocean biodiversity.",
+            "persona_id": "444",
+            "thought": "As a scientist, I value collaboration and the equitable distribution of resources, as these are essential for effective research and conservation efforts, especially when tackling complex issues like climate change impacts on deep-sea ecosystems. While receiving 1000 would be beneficial for my research, I think it is more important to consider the broader impact. Sharing resources, even if it means receiving less myself, fosters a more collaborative and supportive environment. Therefore, I will choose the option where Person B receives 600 and Person A receives 400. This promotes a sense of fairness and shared responsibility, which are crucial for addressing global challenges."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A scientist or researcher who is interested in the impacts of climate change on ocean ecosystems, particularly in the deep ocean. They are likely to be familiar with the concepts and research methods used in oceanography and ecology, and are interested in exploring how climate change is affecting biodiversity and ecosystem services in the deep ocean. They may also have an interest in policy and management, and may be interested in developing comprehensive and integrated conservation and climate adaptation strategies for deep ocean biodiversity.",
+            "persona_id": "444",
+            "thought": "As a scientist, I value equitable distribution of resources. While the 'Right' option gives me a larger personal gain (1400 vs 900), it drastically reduces Person A's gain to only 100. This significant disparity doesn't align with my values. The 'Left' option, where both Person A and I receive 900, represents a fairer outcome. Even though I could personally benefit more from the 'Right' option, I believe the more equitable distribution in the 'Left' option is preferable. Therefore, I choose 'Left'."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A scientist or researcher who is interested in the impacts of climate change on ocean ecosystems, particularly in the deep ocean. They are likely to be familiar with the concepts and research methods used in oceanography and ecology, and are interested in exploring how climate change is affecting biodiversity and ecosystem services in the deep ocean. They may also have an interest in policy and management, and may be interested in developing comprehensive and integrated conservation and climate adaptation strategies for deep ocean biodiversity.",
+            "persona_id": "444",
+            "thought": "As a scientist, I try to make decisions that maximize overall well-being. The 'Left' option gives me a higher payoff (1000), but imposes a significant negative impact on Person A (-200). This creates a net benefit of 800. The 'Right' option gives me a lower payoff (600), but also provides a positive benefit to Person A (400). This creates a net benefit of 1000. Although my personal gain is less with the 'Right' option, the overall outcome is better. Therefore, I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A scientist or researcher who is interested in the impacts of climate change on ocean ecosystems, particularly in the deep ocean. They are likely to be familiar with the concepts and research methods used in oceanography and ecology, and are interested in exploring how climate change is affecting biodiversity and ecosystem services in the deep ocean. They may also have an interest in policy and management, and may be interested in developing comprehensive and integrated conservation and climate adaptation strategies for deep ocean biodiversity.",
+            "persona_id": "444",
+            "thought": "As a scientist, I value equitable outcomes. While I don't necessarily begrudge Person A receiving more, the 'Right' option, where both of us receive nothing, seems pointless and doesn't advance any positive outcome. The 'Left' option, while providing Person A with double my amount, at least provides me with a positive outcome, which I can use to further my research. Therefore, I choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A scientist or researcher who is interested in the impacts of climate change on ocean ecosystems, particularly in the deep ocean. They are likely to be familiar with the concepts and research methods used in oceanography and ecology, and are interested in exploring how climate change is affecting biodiversity and ecosystem services in the deep ocean. They may also have an interest in policy and management, and may be interested in developing comprehensive and integrated conservation and climate adaptation strategies for deep ocean biodiversity.",
+            "persona_id": "444",
+            "thought": "As a scientist, I believe in equitable distribution of resources. While option Right gives me a higher payoff (1500 vs. 1000), it leaves Person A with nothing. Option Left provides both Person A and myself with 1000. I think the fairest option is to choose Left, even though it means a smaller personal gain. This aligns with my values as someone who is interested in policy and management, and may be interested in developing comprehensive and integrated conservation and climate adaptation strategies for deep ocean biodiversity."
+        }
+    }
+}

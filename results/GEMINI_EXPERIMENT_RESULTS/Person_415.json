@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A mountaineer who is interested in the history and climbing of the Matterhorn, specifically the northwest face. They are looking for information on the best time to climb, the best route to take, and the best accommodations available. They are willing to pay for accommodations and are not afraid to make a reservation. They are also interested in the history of the Heinrich-Schwaiger-Haus and its renovations.",
+            "persona_id": "415",
+            "thought": "As a mountaineer, I often rely on teamwork and shared experiences to reach the summit. While I am comfortable with making reservations for accommodations, I also value fairness and equity. I see the right option as more equitable since both person A and I get the same amount. Although I would get 200 less, I would still be satisfied. The left option gives me more money but leaves Person A with nothing. Therefore, I choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A mountaineer who is interested in the history and climbing of the Matterhorn, specifically the northwest face. They are looking for information on the best time to climb, the best route to take, and the best accommodations available. They are willing to pay for accommodations and are not afraid to make a reservation. They are also interested in the history of the Heinrich-Schwaiger-Haus and its renovations.",
+            "persona_id": "415",
+            "thought": "As a mountaineer focused on achieving my goals, in this case, gathering resources for my Matterhorn expedition, I'm primarily concerned with maximizing my own benefit. While fairness is a consideration, the difference in reward for myself is significant. Therefore, I will choose the option that gives me the higher payout. I don't see how the other person's reward affects my climb. Thus, I choose the option where I receive 800 and the other person receives 200."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A mountaineer who is interested in the history and climbing of the Matterhorn, specifically the northwest face. They are looking for information on the best time to climb, the best route to take, and the best accommodations available. They are willing to pay for accommodations and are not afraid to make a reservation. They are also interested in the history of the Heinrich-Schwaiger-Haus and its renovations.",
+            "persona_id": "415",
+            "thought": "As a mountaineer planning a trip to the Matterhorn, I am primarily focused on my own needs and preparations. While I am not inherently selfish, my immediate priority is ensuring I have the resources I need for a successful and safe climb, including securing the best accommodations. In this scenario, the 'Right' option gives me a higher payout (300), which I can use to improve my trip, perhaps by booking a better room or buying more equipment. While Person A receives less, my focus is on optimizing my own resources for the climb. Therefore, I choose 'Right'."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A mountaineer who is interested in the history and climbing of the Matterhorn, specifically the northwest face. They are looking for information on the best time to climb, the best route to take, and the best accommodations available. They are willing to pay for accommodations and are not afraid to make a reservation. They are also interested in the history of the Heinrich-Schwaiger-Haus and its renovations.",
+            "persona_id": "415",
+            "thought": "As a mountaineer focused on achieving goals and securing resources for expeditions, I prioritize my own gain. The left option gives me 700, which is significantly more than the 400 in the right option. While I'm not inherently selfish, having more resources allows me to better prepare for climbs and secure accommodations like those at the Heinrich-Schwaiger-Haus. Therefore, I choose the left option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A mountaineer who is interested in the history and climbing of the Matterhorn, specifically the northwest face. They are looking for information on the best time to climb, the best route to take, and the best accommodations available. They are willing to pay for accommodations and are not afraid to make a reservation. They are also interested in the history of the Heinrich-Schwaiger-Haus and its renovations.",
+            "persona_id": "415",
+            "thought": "As a mountaineer, I value collaboration and mutual support, especially when facing challenging climbs. While my primary goal is to reach the summit (achieve my personal goals), I also believe in helping others along the way. In this scenario, the 'Right' option allows for a more equitable distribution of resources. While I receive a smaller amount (600 instead of 1000), Person A also benefits by receiving 400. This aligns with my values of teamwork and shared success, which are important both on and off the mountain. Therefore, I choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A mountaineer who is interested in the history and climbing of the Matterhorn, specifically the northwest face. They are looking for information on the best time to climb, the best route to take, and the best accommodations available. They are willing to pay for accommodations and are not afraid to make a reservation. They are also interested in the history of the Heinrich-Schwaiger-Haus and its renovations.",
+            "persona_id": "415",
+            "thought": "As a mountaineer, I understand the importance of teamwork and fairness, especially when facing a challenging climb like the Matterhorn's northwest face. While I appreciate comfortable accommodations and am willing to pay for them, I also value equitable distribution. The 'Right' option gives me a significantly larger share (1400 vs. 900), but it drastically reduces Person A's share to only 100. The 'Left' option provides a more equitable split (900 each). Since I value fairness and a sense of shared success, I'd prefer the 'Left' option, even though it means I get less personally. It reflects a sense of camaraderie that I appreciate, similar to the spirit of mountaineering and the shared history I respect at places like the Heinrich-Schwaiger-Haus."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A mountaineer who is interested in the history and climbing of the Matterhorn, specifically the northwest face. They are looking for information on the best time to climb, the best route to take, and the best accommodations available. They are willing to pay for accommodations and are not afraid to make a reservation. They are also interested in the history of the Heinrich-Schwaiger-Haus and its renovations.",
+            "persona_id": "415",
+            "thought": "As a mountaineer, I value fairness and cooperation within my climbing community. While I am willing to pay for my accommodations at the Heinrich-Schwaiger-Haus and make reservations, I also understand that my actions can affect others. In this scenario, I see that the 'Left' option results in a negative outcome for Person A, while the 'Right' option benefits both of us, even though I receive less. I would prefer to choose the 'Right' option because it creates a more equitable outcome, which aligns with my values of fairness and cooperation. While I am looking to secure accommodations and climb the Matterhorn, I do not want to do that at the expense of others when a better alternative is available. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A mountaineer who is interested in the history and climbing of the Matterhorn, specifically the northwest face. They are looking for information on the best time to climb, the best route to take, and the best accommodations available. They are willing to pay for accommodations and are not afraid to make a reservation. They are also interested in the history of the Heinrich-Schwaiger-Haus and its renovations.",
+            "persona_id": "415",
+            "thought": "As a mountaineer focused on achieving goals, I'm less concerned with others' gains unless they directly impede my own progress. In this scenario, choosing 'Left' gives me 500, which is a positive outcome. While Person A receives 1000, it doesn't negatively impact me; in fact, it suggests a potential for future collaboration or assistance. Choosing 'Right' leaves both of us with nothing, which is an undesirable outcome. Therefore, I choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A mountaineer who is interested in the history and climbing of the Matterhorn, specifically the northwest face. They are looking for information on the best time to climb, the best route to take, and the best accommodations available. They are willing to pay for accommodations and are not afraid to make a reservation. They are also interested in the history of the Heinrich-Schwaiger-Haus and its renovations.",
+            "persona_id": "415",
+            "thought": "As a mountaineer, I understand the importance of teamwork and shared success. While the 'Right' option provides me with a higher individual payoff (1500), it comes at the expense of Person A receiving nothing. I think that the 'Left' option, where both Person A and I receive 1000, represents a fairer and more equitable distribution. I value fairness, and I believe that cooperation and shared rewards are more conducive to positive social interactions, which is something I would appreciate, especially when planning a trip to the Matterhorn."
+        }
+    }
+}

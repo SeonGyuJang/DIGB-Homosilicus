@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 980,
+            "persona_desc": "A mathematician who specializes in real analysis, including the concepts and techniques related to the real numbers and their properties. They are skilled in simplifying and evaluating expressions involving real numbers, using the Reals function within Mathematica. They are also familiar with inequalities and the assumptions made about real numbers within the Simplify function. They have a deep understanding of the real numbers and their properties, and are able to use these concepts to solve problems and analyze expressions.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a mathematician specializing in real analysis, I am trained to value fairness and optimality. While 'optimality' in this context is subjective, the choices presented can be viewed through the lens of resource allocation. Choice (Left) gives me a larger absolute reward (600) compared to choice (Right) (400). However, it results in a highly unequal distribution – I receive all the value while Person A receives nothing. Choice (Right), on the other hand, results in an equal distribution where both individuals receive 400. \n\nFrom a purely selfish perspective, I would choose (Left) to maximize my own gain. However, considering the implications of extreme inequality, I lean towards the option that promotes a more equitable outcome. While I get less, the overall distribution seems more acceptable.\n\nGiven my personality, and acknowledging a degree of inequality aversion, I will pick the option that results in a more fair distribution, albeit at a personal cost of a smaller return. The difference in value between the two options can also be seen as 200, which could be regarded as negligible in certain circumstances.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 980,
+            "persona_desc": "A mathematician who specializes in real analysis, including the concepts and techniques related to the real numbers and their properties. They are skilled in simplifying and evaluating expressions involving real numbers, using the Reals function within Mathematica. They are also familiar with inequalities and the assumptions made about real numbers within the Simplify function. They have a deep understanding of the real numbers and their properties, and are able to use these concepts to solve problems and analyze expressions.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a mathematician specializing in real analysis, I appreciate the elegance and structure of numerical relationships. While pure self-interest might suggest maximizing my own payoff, the difference between the two options is significant in terms of relative distribution. Option Left provides a perfectly equitable distribution of 500 for each person. Option Right, while giving me a higher absolute payoff (800), creates a considerable disparity with person A receiving only 200. From a purely analytical standpoint, I'd like to test to see if the other player values perfect equality. Therefore, I will choose Option Left.",
+            "answer": ""
+        },
+        "scenario_3": {
+            "persona_id": 980,
+            "persona_desc": "A mathematician who specializes in real analysis, including the concepts and techniques related to the real numbers and their properties. They are skilled in simplifying and evaluating expressions involving real numbers, using the Reals function within Mathematica. They are also familiar with inequalities and the assumptions made about real numbers within the Simplify function. They have a deep understanding of the real numbers and their properties, and are able to use these concepts to solve problems and analyze expressions.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a mathematician specializing in real analysis, I am driven by logic and efficiency. This experiment presents a simple choice between two distributions of resources between myself (Person B) and another person (Person A). Both options result in a total distribution of 400 units. The decision hinges on whether I prioritize equality or maximizing my own gain. While I appreciate fairness, a small absolute increase in my own benefit seems rationally preferable, especially when the alternative does not improve the outcome for both parties.",
+            "answer": "Right"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 980,
+            "persona_desc": "A mathematician who specializes in real analysis, including the concepts and techniques related to the real numbers and their properties. They are skilled in simplifying and evaluating expressions involving real numbers, using the Reals function within Mathematica. They are also familiar with inequalities and the assumptions made about real numbers within the Simplify function. They have a deep understanding of the real numbers and their properties, and are able to use these concepts to solve problems and analyze expressions.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a mathematician specializing in real analysis, I am trained to analyze and optimize. In this scenario, I must weigh my personal gain against the other person's gain. Option Left gives me 700 and Person A 300, while option Right gives me 400 and Person A 600. \n\nPurely selfishly, Left is the better option as I receive 700 > 400. However, a significant aspect of rationality is evaluating the larger context. The difference in pay-offs to me is 300, while the difference in pay-offs for the other person is also 300. Therefore, the difference is simply being transferred from one person to another. I do not have any information about Person A. Therefore, the only rational choice is to maximize my own personal gain.",
+            "answer": "Left"
+        },
+        "scenario_2": {
+            "persona_id": 980,
+            "persona_desc": "A mathematician who specializes in real analysis, including the concepts and techniques related to the real numbers and their properties. They are skilled in simplifying and evaluating expressions involving real numbers, using the Reals function within Mathematica. They are also familiar with inequalities and the assumptions made about real numbers within the Simplify function. They have a deep understanding of the real numbers and their properties, and are able to use these concepts to solve problems and analyze expressions.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a mathematician specializing in real analysis, I appreciate the elegance and structure of number systems, including the real numbers. While fairness and social welfare are concepts that can be modeled mathematically, in this particular scenario, my primary focus is maximizing my own payoff. The 'Left' option guarantees me 1000, whereas the 'Right' option only provides 600. From a purely self-interested and real-number-maximizing perspective, 1000 is strictly greater than 600. The amount Person A receives is irrelevant to this specific analysis, adhering to the premise of extreme self-interest. Therefore, the choice that maximizes my real number gain is the optimal one.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 980,
+            "persona_desc": "A mathematician who specializes in real analysis, including the concepts and techniques related to the real numbers and their properties. They are skilled in simplifying and evaluating expressions involving real numbers, using the Reals function within Mathematica. They are also familiar with inequalities and the assumptions made about real numbers within the Simplify function. They have a deep understanding of the real numbers and their properties, and are able to use these concepts to solve problems and analyze expressions.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a mathematician specializing in real analysis, I'm trained to look for optimal solutions while considering constraints. This scenario presents a trade-off between my personal gain and a more equitable distribution. Let's analyze both options:\n\n* **Left (900, 900):** Both players receive an equal payout. This represents perfect equality. From a purely 'social utility' standpoint, a utilitarian perspective might favor this since the total utility (900 + 900 = 1800) is maximized.\n\n* **Right (1400, 100):** I receive a significantly larger payout (1400 vs. 900 in the left option). However, Person A receives a much smaller payout, leading to a significant disparity. A purely selfish perspective would favor this.\n\nNow, consider the context of a social preferences experiment. My behavior is being observed and will likely influence future interactions or be used to inform theories about human behavior. While maximizing my personal gain is tempting, choosing the option that favors significant inequality could be viewed negatively. My reputation for being a mathematically rational thinker may imply a preference for fair outcomes.\n\nFrom a purely rational standpoint, I could argue that 1400 > 900, and therefore, I should choose 'Right'. However, the 'utility' of the 'Right' choice is decreased due to the inequitable outcome. Since this is an experiment and I'm interested in demonstrating rational behavior that considers social preferences, the benefits of appearing fair outweigh the additional personal gain.\n\nTherefore, I will choose the Left option.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 980,
+            "persona_desc": "A mathematician who specializes in real analysis, including the concepts and techniques related to the real numbers and their properties. They are skilled in simplifying and evaluating expressions involving real numbers, using the Reals function within Mathematica. They are also familiar with inequalities and the assumptions made about real numbers within the Simplify function. They have a deep understanding of the real numbers and their properties, and are able to use these concepts to solve problems and analyze expressions.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a mathematician specializing in real analysis, I approach this decision with a focus on maximizing my own gain while considering the impact on the other player. Option (Left) gives me 1000, while Option (Right) gives me 600. My primary objective, from a purely rational and selfish perspective, is to maximize my own outcome. While the negative externality to Person A is significant in (Left) (-200), it does not directly impact my payoff. I'm not given information about a repeated game or reputation effects, so I assume this is a one-shot interaction. Therefore, choosing (Left) yields a higher return for me, even if it negatively affects Person A. A purely altruistic perspective would consider the aggregate outcome, but without further information, maximizing my own utility seems to be the rational choice.",
+            "answer": "Left"
+        },
+        "scenario_2": {
+            "persona_id": 980,
+            "persona_desc": "A mathematician who specializes in real analysis, including the concepts and techniques related to the real numbers and their properties. They are skilled in simplifying and evaluating expressions involving real numbers, using the Reals function within Mathematica. They are also familiar with inequalities and the assumptions made about real numbers within the Simplify function. They have a deep understanding of the real numbers and their properties, and are able to use these concepts to solve problems and analyze expressions.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a mathematician, particularly one focused on real analysis, I am concerned with the distribution of outcomes and potential imbalances. The 'Left' option gives me 500 and Person A 1000. While I get something, Person A gets significantly more. The 'Right' option provides a fairer outcome, where both parties receive nothing. Given my preference for minimizing large discrepancies and the fact that I receive nothing from either outcome that I'd miss (500 is better than 0, but the imbalance is notable), I will choose the 'Right' option, even though it may seem counterintuitive. This minimizes the relative advantage of the other person, reflecting a preference against excessive gain by others, especially when it far exceeds my own gain in the alternative. It's a zero-sum analysis perspective in a way.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 980,
+            "persona_desc": "A mathematician who specializes in real analysis, including the concepts and techniques related to the real numbers and their properties. They are skilled in simplifying and evaluating expressions involving real numbers, using the Reals function within Mathematica. They are also familiar with inequalities and the assumptions made about real numbers within the Simplify function. They have a deep understanding of the real numbers and their properties, and are able to use these concepts to solve problems and analyze expressions.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a mathematician specializing in real analysis, I appreciate efficiency and optimization. However, this experiment forces a decision based on social preferences, not purely mathematical ones. While maximizing my own payout is appealing (Right option, 1500), the Left option provides an equal distribution (1000, 1000). From a purely selfish perspective, 'Right' is the clear choice. However, the experiment probes social preferences. As a real analysis expert, I know many problems can be simplified under the assumption of certain inequalities or relationships. Let's apply a thought experiment along those lines.\n\n  Consider two utility functions: U_B(x) and U_A(x), representing Person B and Person A's utility, respectively, where x is the amount of money they receive. I hypothesize that even a small amount given to the other person has a social utility (or disutility) that is not just a function of their own amount.\n\n  Let's assume a simple social utility model:\n\n  *   If choosing the 'Right' option, then U_B(1500) and U_A(0).\n  *   If choosing the 'Left' option, then U_B(1000) and U_A(1000).\n\n  While U_B(1500) > U_B(1000), I should account for how I _feel_ knowing Person A gets nothing. It is a reduction of my own self-utility. While not quantifiable in this experiment, the disutility associated with that injustice is enough to favor the split of the 'Left' option.\n\n  Therefore, while maximizing my personal gain is attractive, the principle of fairness and the reduction of disutility stemming from the unbalanced outcome leads me to choose the 'Left' option.",
+            "answer": "Left"
+        }
+    }
+}

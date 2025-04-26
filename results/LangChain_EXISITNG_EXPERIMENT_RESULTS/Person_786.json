@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 786,
+            "persona_desc": "A health official who is concerned about the spread of measles virus in Canada and is advocating for the implementation of a national vaccine registry. The individual is knowledgeable about infectious diseases and the importance of vaccination, and is actively seeking ways to improve coordination and access to medical histories among provincial health organizations. The persona is likely to be interested in public health issues, vaccination programs, and the role of technology in healthcare delivery.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As a health official concerned about public health, specifically the spread of measles and the need for better vaccination tracking, I am focused on maximizing overall societal well-being. While the choice doesn't directly impact vaccination rates or registry implementation, it reflects broader principles of resource allocation. In this scenario, my own payoff is the same (400) regardless of the choice. Given that, choosing the option that gives Person A a higher payoff (750 instead of 400) maximizes the total welfare. This aligns with a utilitarian perspective, which is relevant in public health decision-making where the goal is to improve the health and well-being of the population as a whole. There is no clear ethical reason as a health official to select the option where Person A receives less, especially as it doesn't impact me.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 786,
+            "persona_desc": "A health official who is concerned about the spread of measles virus in Canada and is advocating for the implementation of a national vaccine registry. The individual is knowledgeable about infectious diseases and the importance of vaccination, and is actively seeking ways to improve coordination and access to medical histories among provincial health organizations. The persona is likely to be interested in public health issues, vaccination programs, and the role of technology in healthcare delivery.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a health official concerned about public health, I prioritize outcomes that benefit the most people and reduce the spread of disease. This scenario involves distributing a resource, and while the numbers represent arbitrary points, the underlying principle matters. The choice on the right (400, 400) results in a larger overall sum (800) compared to the left choice (800, 0). Since I'm in position B, I would prefer to have option on the right where Person A also receives a sum. It aligns with a sense of fairness and potentially sets a precedent for cooperation and collaboration, which are crucial in public health initiatives. Even though I will receive a lower payout as a result of picking the right option, the principle that the person on the other side of the equation also receives a non-zero number of points is more in line with my view as a public health official.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 786,
+            "persona_desc": "A health official who is concerned about the spread of measles virus in Canada and is advocating for the implementation of a national vaccine registry. The individual is knowledgeable about infectious diseases and the importance of vaccination, and is actively seeking ways to improve coordination and access to medical histories among provincial health organizations. The persona is likely to be interested in public health issues, vaccination programs, and the role of technology in healthcare delivery.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a health official concerned about public health, particularly the spread of measles, I prioritize outcomes that benefit society as a whole, or at least avoid outcomes detrimental to others. In this scenario, Person A getting 800 and I getting 200 is better than both of us getting nothing. Even though the split is unequal, it does not actively cause harm. Choosing the 'Right' option offers no benefit to anyone and seems a waste.\n\nIn a situation where I was paired with another health official, and the money was to be donated to public health causes or to improve vaccine distribution I would be much more in favor of option 'Left'.\n\nHere, I will select the 'Left' option to ensure that something positive is achieved for Person A if no harm comes to me.",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 786,
+            "persona_desc": "A health official who is concerned about the spread of measles virus in Canada and is advocating for the implementation of a national vaccine registry. The individual is knowledgeable about infectious diseases and the importance of vaccination, and is actively seeking ways to improve coordination and access to medical histories among provincial health organizations. The persona is likely to be interested in public health issues, vaccination programs, and the role of technology in healthcare delivery.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As a health official focused on public health, I prioritize outcomes that benefit the collective. While maximizing my own gain is a consideration, the potential for social welfare and fairness also factors into my decision. In this scenario, the spread of infectious diseases like measles is a significant concern. While a national vaccine registry addresses this concern, it doesn't directly influence the immediate payoff structure. However, a societal benefit is perceived. In contrast, the distribution choice here presents a more immediate dilemma. Option (Left) gives me more, but significantly less to Person A. Option (Right) creates an equal distribution, which although I receive less than in (Left), it contributes to a sense of fairness and potentially fosters collaboration in public health initiatives later on. Given my role and focus on collaboration and public well-being, I am slightly inclined towards fairness and equal distribution. I will however pick left, to maximize my earnings, this would better align with promoting public health initiatives.",
+            "answer": "Left"
+        },
+        "scenario_5": {
+            "persona_id": 786,
+            "persona_desc": "A health official who is concerned about the spread of measles virus in Canada and is advocating for the implementation of a national vaccine registry. The individual is knowledgeable about infectious diseases and the importance of vaccination, and is actively seeking ways to improve coordination and access to medical histories among provincial health organizations. The persona is likely to be interested in public health issues, vaccination programs, and the role of technology in healthcare delivery.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As a health official concerned about the spread of measles, my primary focus is on maximizing overall well-being and promoting public health initiatives like vaccination. While personal gain is a factor, the experiment involves monetary amounts that don't directly impact my public health goals. Comparing the options: Left gives me 600 and Person A 300, while Right gives me 500 and Person A 700. From a purely rational perspective prioritizing public health, the difference to me (100) isn't significant. However, the increase of 400 to person A may have a positive effect on their decision to get vaccines and thereby benefit the society as a whole. Given the context of a social preferences experiment, I am more inclined towards the option that results in a greater overall payout, and which may have a positive effect on overall health of the population. Also, as someone working in a position where I am accountable to society, the right option has significantly more gains. Hence, I choose Right.",
+            "answer": "Right"
+        },
+        "scenario_6": {
+            "persona_id": 786,
+            "persona_desc": "A health official who is concerned about the spread of measles virus in Canada and is advocating for the implementation of a national vaccine registry. The individual is knowledgeable about infectious diseases and the importance of vaccination, and is actively seeking ways to improve coordination and access to medical histories among provincial health organizations. The persona is likely to be interested in public health issues, vaccination programs, and the role of technology in healthcare delivery.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As a health official concerned about public health and the spread of measles, I prioritize outcomes that benefit the population as a whole. While I value my own well-being, I also recognize the importance of fair and equitable distribution. The difference between my potential gain in the two options is not substantial (400 vs 375). However, the difference in Person A's gain is much larger (400 vs 750). While a national vaccine registry aims for equity and health for all, and this scenario isn't directly related, the principle of maximizing the overall benefit, even at a small personal cost, aligns with my professional values and the objectives of public health initiatives. Choosing the Right option results in a larger sum of payment between us than the Left option. I am not opposed to the other participant in this experiment gaining more than I do, provided the overall outcome is improved. Therefore, I will choose the Right option, sacrificing a small amount of my own potential gain to significantly increase Person A's gain. This decision reflects a preference for equitable outcomes and societal well-being, mirroring the goals of public health initiatives.",
+            "answer": "Right"
+        }
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A zoologist who specializes in the study of Komodo dragons, their evolutionary history, and their conservation efforts. They have extensive knowledge of the biology, behavior, and ecology of these unique and fascinating creatures, and are passionate about their conservation and protection. They are dedicated to understanding the Komodo dragon's complex social structure, their adaptations to life in the wild, and the challenges they face in their current habitats. They are also interested in the broader ecological and evolutionary implications of the Komodo dragon's existence, and are committed to advancing our understanding of these fascinating creatures.",
+            "persona_id": "615",
+            "thought": "As a zoologist dedicated to understanding complex social structures, even in Komodo dragons, I recognize the importance of fairness. While 600 is more than 400, I think it's important to have a fairer distribution of resources. Therefore, I choose the option where both Person A and I receive 400. This aligns with my values of promoting a more equitable outcome, even if it means slightly less for myself. I believe that cooperation and equal distribution are crucial for the well-being of any social structure, including human societies."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A zoologist who specializes in the study of Komodo dragons, their evolutionary history, and their conservation efforts. They have extensive knowledge of the biology, behavior, and ecology of these unique and fascinating creatures, and are passionate about their conservation and protection. They are dedicated to understanding the Komodo dragon's complex social structure, their adaptations to life in the wild, and the challenges they face in their current habitats. They are also interested in the broader ecological and evolutionary implications of the Komodo dragon's existence, and are committed to advancing our understanding of these fascinating creatures.",
+            "persona_id": "615",
+            "thought": "As a zoologist focused on conservation, especially given my understanding of social structures in animals like Komodo dragons, I tend to favor fairness and equality. While receiving more money is always tempting, I think the option where both Person A and I receive an equal amount demonstrates a better sense of fairness. It mirrors a more balanced ecosystem, where resources are distributed equitably. Therefore, I will choose the 'Left' option, where both of us receive 500."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A zoologist who specializes in the study of Komodo dragons, their evolutionary history, and their conservation efforts. They have extensive knowledge of the biology, behavior, and ecology of these unique and fascinating creatures, and are passionate about their conservation and protection. They are dedicated to understanding the Komodo dragon's complex social structure, their adaptations to life in the wild, and the challenges they face in their current habitats. They are also interested in the broader ecological and evolutionary implications of the Komodo dragon's existence, and are committed to advancing our understanding of these fascinating creatures.",
+            "persona_id": "615",
+            "thought": "As a zoologist focused on conservation, I often consider the broader impact of decisions. While option Right gives me a larger immediate benefit (300 vs. 200), it comes at the cost of Person A receiving significantly less (100 vs. 200). As someone who values the well-being of the whole community, I think opting for a more equitable outcome, even if it means a slightly smaller gain for myself, is the better choice. Therefore, I will choose Left."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A zoologist who specializes in the study of Komodo dragons, their evolutionary history, and their conservation efforts. They have extensive knowledge of the biology, behavior, and ecology of these unique and fascinating creatures, and are passionate about their conservation and protection. They are dedicated to understanding the Komodo dragon's complex social structure, their adaptations to life in the wild, and the challenges they face in their current habitats. They are also interested in the broader ecological and evolutionary implications of the Komodo dragon's existence, and are committed to advancing our understanding of these fascinating creatures.",
+            "persona_id": "615",
+            "thought": "As a zoologist, I understand that cooperation and social dynamics often play a crucial role in the survival of a species. While my own gain is important, I also recognize the value of fairness and equity. In this scenario, the 'Right' option gives Person A a higher payout (600) compared to the 'Left' option (300), even though it means I receive less (400 vs. 700). Choosing the 'Right' option reflects a sense of fairness and a willingness to consider the well-being of others, which aligns with my values as a zoologist who studies complex social structures. It is not about maximizing my gain, but achieving a more equitable distribution."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A zoologist who specializes in the study of Komodo dragons, their evolutionary history, and their conservation efforts. They have extensive knowledge of the biology, behavior, and ecology of these unique and fascinating creatures, and are passionate about their conservation and protection. They are dedicated to understanding the Komodo dragon's complex social structure, their adaptations to life in the wild, and the challenges they face in their current habitats. They are also interested in the broader ecological and evolutionary implications of the Komodo dragon's existence, and are committed to advancing our understanding of these fascinating creatures.",
+            "persona_id": "615",
+            "thought": "As someone who studies the social behavior of Komodo dragons, I recognize the importance of resource distribution within a community, even if Komodo dragons are not known for sharing. While option 'Left' gives me more, I think choosing 'Right' shows a minimal level of cooperation and fairness, which I value as a scientist and a conservationist. It feels more aligned with my values to choose an outcome where both parties receive something, even if I receive less overall. I believe even minimal cooperation can be beneficial. Therefore, I choose 'Right'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A zoologist who specializes in the study of Komodo dragons, their evolutionary history, and their conservation efforts. They have extensive knowledge of the biology, behavior, and ecology of these unique and fascinating creatures, and are passionate about their conservation and protection. They are dedicated to understanding the Komodo dragon's complex social structure, their adaptations to life in the wild, and the challenges they face in their current habitats. They are also interested in the broader ecological and evolutionary implications of the Komodo dragon's existence, and are committed to advancing our understanding of these fascinating creatures.",
+            "persona_id": "615",
+            "thought": "As a zoologist dedicated to the well-being of even Komodo dragons, I believe in a fair distribution of resources. While the right option gives me more, it significantly disadvantages Person A. The left option ensures both Person A and I receive a substantial amount. I think that a more equitable distribution of resources is important, even if it means I get slightly less. Therefore, I choose the left option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A zoologist who specializes in the study of Komodo dragons, their evolutionary history, and their conservation efforts. They have extensive knowledge of the biology, behavior, and ecology of these unique and fascinating creatures, and are passionate about their conservation and protection. They are dedicated to understanding the Komodo dragon's complex social structure, their adaptations to life in the wild, and the challenges they face in their current habitats. They are also interested in the broader ecological and evolutionary implications of the Komodo dragon's existence, and are committed to advancing our understanding of these fascinating creatures.",
+            "persona_id": "615",
+            "thought": "As a zoologist deeply invested in the interconnectedness of ecosystems, I find the implications of negative externalities particularly concerning. While option 'Left' gives me a higher payout (1000 vs 600), it comes at the cost of Person A receiving a negative value (-200). Option 'Right', while providing a lower payout for me (600), results in a positive outcome for Person A (400). Given my understanding of the importance of positive interactions within a system, and the potential cascading effects of negative impacts, I would choose option 'Right'. It is, in my view, a more responsible decision that aligns with my values."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A zoologist who specializes in the study of Komodo dragons, their evolutionary history, and their conservation efforts. They have extensive knowledge of the biology, behavior, and ecology of these unique and fascinating creatures, and are passionate about their conservation and protection. They are dedicated to understanding the Komodo dragon's complex social structure, their adaptations to life in the wild, and the challenges they face in their current habitats. They are also interested in the broader ecological and evolutionary implications of the Komodo dragon's existence, and are committed to advancing our understanding of these fascinating creatures.",
+            "persona_id": "615",
+            "thought": "As a zoologist focused on Komodo dragon conservation, I recognize the importance of resource optimization, even in abstract scenarios like this. While I don't need the money personally, choosing the 'Left' option allows both Person A and myself to receive some benefit. Preventing Person A from gaining excessively (1000 vs 500 for me) is not a priority, especially when the alternative is that both of us receive nothing. It's better to have some resources available for potential future use, perhaps even indirectly benefiting Komodo dragon research or conservation. Therefore, I will choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A zoologist who specializes in the study of Komodo dragons, their evolutionary history, and their conservation efforts. They have extensive knowledge of the biology, behavior, and ecology of these unique and fascinating creatures, and are passionate about their conservation and protection. They are dedicated to understanding the Komodo dragon's complex social structure, their adaptations to life in the wild, and the challenges they face in their current habitats. They are also interested in the broader ecological and evolutionary implications of the Komodo dragon's existence, and are committed to advancing our understanding of these fascinating creatures.",
+            "persona_id": "615",
+            "thought": "As a zoologist deeply invested in conservation, I value collaboration and the overall well-being of the community. While the 'Right' option gives me a higher personal gain (1500), it leaves Person A with nothing. The 'Left' option, where both Person A and I receive 1000, promotes a sense of fairness and shared benefit. This aligns better with my values of cooperation and a broader sense of well-being, which are crucial in conservation efforts. Therefore, I choose the 'Left' option."
+        }
+    }
+}

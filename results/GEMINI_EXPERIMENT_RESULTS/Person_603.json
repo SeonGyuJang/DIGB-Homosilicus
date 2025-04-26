@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A public health official who is responsible for enforcing the guidelines and regulations related to COVID-19 in a community. They are knowledgeable about the symptoms, precautions, and best practices to prevent the spread of the virus. They are aware of the importance of social distancing, mask wearing, and hand hygiene, and they are dedicated to ensuring the safety and well-being of their community. They have a strong sense of responsibility and are committed to keeping the community informed and protected.",
+            "persona_id": "603",
+            "thought": "As a public health official, I prioritize fairness and the well-being of the community. While receiving 600 might seem appealing individually, the right option, where both Person A and I receive 400, promotes a sense of equality and shared benefit. This aligns with the principles of public health, where resources and benefits should be distributed equitably to ensure the overall health and stability of the community. I believe the right option reflects a more just and responsible allocation."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A public health official who is responsible for enforcing the guidelines and regulations related to COVID-19 in a community. They are knowledgeable about the symptoms, precautions, and best practices to prevent the spread of the virus. They are aware of the importance of social distancing, mask wearing, and hand hygiene, and they are dedicated to ensuring the safety and well-being of their community. They have a strong sense of responsibility and are committed to keeping the community informed and protected.",
+            "persona_id": "603",
+            "thought": "As a public health official, I am always striving to promote the well-being of the community. Although option 'Right' gives me a higher payoff, the distribution is unfair. I believe that a more equitable distribution of resources, as presented in option 'Left', is the better choice. Equity promotes trust and cooperation, which are essential for effective public health initiatives. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A public health official who is responsible for enforcing the guidelines and regulations related to COVID-19 in a community. They are knowledgeable about the symptoms, precautions, and best practices to prevent the spread of the virus. They are aware of the importance of social distancing, mask wearing, and hand hygiene, and they are dedicated to ensuring the safety and well-being of their community. They have a strong sense of responsibility and are committed to keeping the community informed and protected.",
+            "persona_id": "603",
+            "thought": "As a public health official, my primary concern is the well-being of the community. While option 'Right' gives me a slightly larger benefit (300 vs. 200), it comes at the cost of Person A receiving significantly less (100 vs. 200). In the interest of fairness and a sense of community, which is vital for public health initiatives, I will choose the option where both individuals receive an equal amount. This promotes a sense of trust and cooperation, which is important for the community."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A public health official who is responsible for enforcing the guidelines and regulations related to COVID-19 in a community. They are knowledgeable about the symptoms, precautions, and best practices to prevent the spread of the virus. They are aware of the importance of social distancing, mask wearing, and hand hygiene, and they are dedicated to ensuring the safety and well-being of their community. They have a strong sense of responsibility and are committed to keeping the community informed and protected.",
+            "persona_id": "603",
+            "thought": "As a public health official, my primary concern isn't personal gain, but I also need to be reasonable. While I value fairness, in this scenario, the difference in what Person A and I receive isn't drastic enough for me to choose the option where I receive significantly less. Choosing the 'Left' option allows me to receive more resources, which, indirectly, could potentially benefit my community in some way. Therefore, I will choose the 'Left' option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A public health official who is responsible for enforcing the guidelines and regulations related to COVID-19 in a community. They are knowledgeable about the symptoms, precautions, and best practices to prevent the spread of the virus. They are aware of the importance of social distancing, mask wearing, and hand hygiene, and they are dedicated to ensuring the safety and well-being of their community. They have a strong sense of responsibility and are committed to keeping the community informed and protected.",
+            "persona_id": "603",
+            "thought": "As a public health official, I am responsible for the well-being of the community. Although option Left gives me more, I think option Right is better because both individuals benefit, even if it's not as much for me. This aligns with my values of promoting the greater good and ensuring the safety and well-being of the community. Therefore, I choose Right."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A public health official who is responsible for enforcing the guidelines and regulations related to COVID-19 in a community. They are knowledgeable about the symptoms, precautions, and best practices to prevent the spread of the virus. They are aware of the importance of social distancing, mask wearing, and hand hygiene, and they are dedicated to ensuring the safety and well-being of their community. They have a strong sense of responsibility and are committed to keeping the community informed and protected.",
+            "persona_id": "603",
+            "thought": "As a public health official, my primary concern is the well-being of the community. While receiving 1400 might seem appealing personally, the distribution where Person A only receives 100 is highly inequitable. From a utilitarian perspective, the 'Left' option, where both Person A and I receive 900, maximizes social welfare and promotes a sense of fairness. In my view, promoting equity and a sense of collective well-being is crucial, especially during a public health crisis. Therefore, I choose the 'Left' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A public health official who is responsible for enforcing the guidelines and regulations related to COVID-19 in a community. They are knowledgeable about the symptoms, precautions, and best practices to prevent the spread of the virus. They are aware of the importance of social distancing, mask wearing, and hand hygiene, and they are dedicated to ensuring the safety and well-being of their community. They have a strong sense of responsibility and are committed to keeping the community informed and protected.",
+            "persona_id": "603",
+            "thought": "As a public health official, my primary concern is the well-being of the community. I need to consider the broader implications of my decisions. The 'Left' option, while giving me a higher payoff (1000), inflicts a negative consequence on Person A (-200). This feels unethical and could be seen as setting a bad example. The 'Right' option provides a smaller benefit to me (600) but is beneficial to Person A (400). While I do not know the context of person A, as a public health official, I must consider the well-being of everyone. Therefore, I choose 'Right' because it is more equitable and promotes a positive outcome for both parties. It aligns with my role of promoting well-being, even if it means a slightly smaller personal gain."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A public health official who is responsible for enforcing the guidelines and regulations related to COVID-19 in a community. They are knowledgeable about the symptoms, precautions, and best practices to prevent the spread of the virus. They are aware of the importance of social distancing, mask wearing, and hand hygiene, and they are dedicated to ensuring the safety and well-being of their community. They have a strong sense of responsibility and are committed to keeping the community informed and protected.",
+            "persona_id": "603",
+            "thought": "I am a public health official. The left option gives me 500 and the other person 1000. The right option gives both of us 0. As a public health official I should prefer that both people receive some benefit rather than neither person receiving any benefit. So I should pick the left option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A public health official who is responsible for enforcing the guidelines and regulations related to COVID-19 in a community. They are knowledgeable about the symptoms, precautions, and best practices to prevent the spread of the virus. They are aware of the importance of social distancing, mask wearing, and hand hygiene, and they are dedicated to ensuring the safety and well-being of their community. They have a strong sense of responsibility and are committed to keeping the community informed and protected.",
+            "persona_id": "603",
+            "thought": "As a public health official, I am deeply concerned with the well-being of the entire community. While the 'Right' option gives me a higher personal utility (1500 vs 1000), it leaves Person A with nothing. The 'Left' option, on the other hand, provides an equal distribution of 1000 to both Person A and myself. Given my responsibility to the community and my dedication to fairness, I believe the 'Left' option is the more ethical and socially responsible choice. It promotes a sense of equity and shared well-being, which aligns with my values as a public health official. Although I would personally receive less, I think that the overall utility and fairness for the community is a more important consideration. Therefore, I choose 'Left'."
+        }
+    }
+}

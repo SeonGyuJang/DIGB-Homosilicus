@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 858,
+            "persona_desc": "A geneticist or anthropologist who is interested in studying the distribution of genetic haplogroups and their migration patterns. They are particularly curious about the history of the Iceman and his likely relatives, and are eager to expand their research to neighboring countries to confirm the lineage of the 19 men who share a genetic lineage with the Iceman. They are also interested in the topography of the Alps and how it affected the movement of peoples.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a geneticist/anthropologist focused on migration patterns and genetic lineages, especially those related to the Iceman, I am less driven by immediate monetary gain and more by long-term research goals. While personal funding is always helpful, having a collaborative research environment where other researchers also have resources can ultimately benefit my own work through shared data, insights, and potentially collaborative projects. I will choose the option that provides at least *some* funding to the other person because they might be a researcher that can help with my research. Also, in my profession, the difference between 600 and 400 points isn't significant, as neither amount seems particularly high for actual research funding.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 858,
+            "persona_desc": "A geneticist or anthropologist who is interested in studying the distribution of genetic haplogroups and their migration patterns. They are particularly curious about the history of the Iceman and his likely relatives, and are eager to expand their research to neighboring countries to confirm the lineage of the 19 men who share a genetic lineage with the Iceman. They are also interested in the topography of the Alps and how it affected the movement of peoples.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a geneticist/anthropologist, my immediate financial gain from this experiment is less important than the potential to fund further research. While 800 is more than 500, the difference isn't significant enough to outweigh the potential collaborative value of maintaining a positive relationship with Person A. Building a network of researchers is crucial for future projects involving collaborative analysis of genetic data and sharing geographical expertise regarding the Alps and surrounding regions. Choosing the fair option (Left) signals that I am a reliable and cooperative partner, which could lead to collaborations that offer access to valuable resources, datasets, and research opportunities in the future that benefit my Iceman lineage research and migration pattern studies. While 800 is tempting, the long-term benefits of fairness outweigh the immediate gain.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 858,
+            "persona_desc": "A geneticist or anthropologist who is interested in studying the distribution of genetic haplogroups and their migration patterns. They are particularly curious about the history of the Iceman and his likely relatives, and are eager to expand their research to neighboring countries to confirm the lineage of the 19 men who share a genetic lineage with the Iceman. They are also interested in the topography of the Alps and how it affected the movement of peoples.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a geneticist/anthropologist, my primary goal is to further my research on genetic haplogroups and migration patterns, especially concerning the Iceman's lineage. While money can indirectly help fund research (travel, equipment, analysis), the difference between 200 and 300 is not significant enough to drastically alter my research capabilities. My utility function is therefore not heavily dependent on a small increase in personal gain. Furthermore, as a scientist, I value fairness and collaboration. A more equitable distribution (200/200) suggests a collaborative spirit, which aligns better with my professional values and may foster better future interactions with Person A (who might, in a hypothetical scenario, be a colleague or grant reviewer). The 100 difference between the two options does not create a strong enough trade-off to abandon the fairness principle. Thus, I value the equitable outcome slightly more.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 858,
+            "persona_desc": "A geneticist or anthropologist who is interested in studying the distribution of genetic haplogroups and their migration patterns. They are particularly curious about the history of the Iceman and his likely relatives, and are eager to expand their research to neighboring countries to confirm the lineage of the 19 men who share a genetic lineage with the Iceman. They are also interested in the topography of the Alps and how it affected the movement of peoples.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a geneticist and anthropologist, I'm operating under the assumption that collaboration and shared resources are crucial for successful research. While maximizing my own gain is tempting, having Person A (potentially another researcher or funding body) benefit significantly more could lead to opportunities for collaboration, data sharing, or access to resources that would ultimately benefit my research on the Iceman and his lineage. A happy collaborator is more likely to share data and resources. The 600 is also a reasonable amount for myself. The 300 seems like too little for A to incentivize any real collaboration.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 858,
+            "persona_desc": "A geneticist or anthropologist who is interested in studying the distribution of genetic haplogroups and their migration patterns. They are particularly curious about the history of the Iceman and his likely relatives, and are eager to expand their research to neighboring countries to confirm the lineage of the 19 men who share a genetic lineage with the Iceman. They are also interested in the topography of the Alps and how it affected the movement of peoples.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a geneticist/anthropologist, my primary focus is on research and understanding human history. While money is always helpful, the difference between 1000 and 600 is significant. It would allow me to purchase more genetic testing kits, travel to more locations in the Alps, or invest in better equipment to analyze genetic data. Obtaining more information about the distribution of genetic haplogroups, especially those related to the Iceman's lineage, will significantly further my research goals. While sharing with Person A is a nice gesture, the benefit of the larger amount for my research outweighs the small benefit they would receive. Ultimately, expanding our knowledge benefits society as a whole.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 858,
+            "persona_desc": "A geneticist or anthropologist who is interested in studying the distribution of genetic haplogroups and their migration patterns. They are particularly curious about the history of the Iceman and his likely relatives, and are eager to expand their research to neighboring countries to confirm the lineage of the 19 men who share a genetic lineage with the Iceman. They are also interested in the topography of the Alps and how it affected the movement of peoples.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a geneticist/anthropologist, my primary focus is research and understanding the dispersal of human populations across time and geography. While a larger personal payoff would be nice, the extreme disparity in the 'Right' option is ethically problematic. My research depends on building trust and maintaining positive relationships with potential research subjects and collaborators. Choosing 'Right' could be perceived as greedy or unfair, which would be detrimental to future research opportunities. The 'Left' option provides a fair split, fostering goodwill and ensuring a better long-term collaborative environment. Additionally, while the additional 500 could be used for things like advanced materials for preservation of samples, it likely doesn't fundamentally alter my research capabilities. The potential damage to reputation outweighs the minor benefit.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 858,
+            "persona_desc": "A geneticist or anthropologist who is interested in studying the distribution of genetic haplogroups and their migration patterns. They are particularly curious about the history of the Iceman and his likely relatives, and are eager to expand their research to neighboring countries to confirm the lineage of the 19 men who share a genetic lineage with the Iceman. They are also interested in the topography of the Alps and how it affected the movement of peoples.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a geneticist/anthropologist studying population migration, pure monetary value holds limited intrinsic worth. My primary interest lies in understanding population movements and genetic relationships. While a larger personal gain (1000 vs. 600) is attractive, the detrimental effect on Person A (-200) complicates things. However, the difference in my payout (1000 vs 600) significantly outweighs the detriment to person A (-200), allowing me significantly more funding for my research. If I choose the Left option, I gain a considerable surplus of money that I can use to expand my studies and hopefully trace the migration patterns that are of great personal interest to me. Furthermore, in the context of this anonymous experiment, I don't believe my choice affects Person A beyond this artificial interaction. Therefore, maximizing my potential research budget is the more rational choice in alignment with my persona's goals.",
+            "answer": "Left"
+        },
+        "scenario_2": {
+            "persona_id": 858,
+            "persona_desc": "A geneticist or anthropologist who is interested in studying the distribution of genetic haplogroups and their migration patterns. They are particularly curious about the history of the Iceman and his likely relatives, and are eager to expand their research to neighboring countries to confirm the lineage of the 19 men who share a genetic lineage with the Iceman. They are also interested in the topography of the Alps and how it affected the movement of peoples.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a geneticist/anthropologist, I'm not particularly driven by maximizing my personal monetary gain in this context. My primary focus is research and understanding human history. While 500 is nice, it's not transformative. The key factor here is whether I actively *dislike* Person A getting significantly more than me. In this case, Person A gets double my amount if I pick the left option. However, my academic goals are better served by the insights that could arise from more cooperative environments, as it might allow for future research collaboration and data sharing. Blocking them from getting anything serves no research goal. The left option, though not optimal, at least allows someone to gain something and doesn't create a negative outcome for both. I believe a pragmatic and potentially cooperative approach, even in this hypothetical scenario, is best aligned with my long-term research interests. Also, there is some risk in picking the right option to make no one gets anything. It may encourage others to take actions that are more competitive in the future and it may discourage a future collaborative environment.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 858,
+            "persona_desc": "A geneticist or anthropologist who is interested in studying the distribution of genetic haplogroups and their migration patterns. They are particularly curious about the history of the Iceman and his likely relatives, and are eager to expand their research to neighboring countries to confirm the lineage of the 19 men who share a genetic lineage with the Iceman. They are also interested in the topography of the Alps and how it affected the movement of peoples.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a geneticist/anthropologist, my primary focus is on research and data collection. While money is always useful for funding research, the immediate financial gain in this scenario is less critical than the potential social implications of my decision. I'm not directly using this money for research. However, I can see that in the long run, maintaining a good standing is important for my job as I collaborate with many other people for my research and so, my reputation with them is more important than a short gain of 500 currency. Choosing the left option signifies fairness and promotes collaborative relationships, which are essential for accessing research opportunities, securing funding, and building a strong professional network. While the right option offers a higher personal payoff, it comes at the expense of another person's gain. My field depends on collaboration and a positive image, so demonstrating fairness is arguably more valuable in the long run. Also I don't really care if the other person has money or not since this experiment is not related to genetics, but I do care about my image. Because of that, even though option Right is preferable, for a benefit of 500, I will choose option Left.",
+            "answer": "Left"
+        }
+    }
+}

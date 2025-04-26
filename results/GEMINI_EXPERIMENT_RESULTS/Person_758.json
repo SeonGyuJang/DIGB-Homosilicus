@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A geotechnical engineer who is deeply familiar with the principles and practices of soil mechanics and foundations. They have a strong background in the history and development of these fields, and are well-versed in the key texts and resources that have shaped the field. They are likely to be an expert in the use of the two Design Manuals, DM 7.01 and DM 7.02, and are familiar with the information and methodology contained within them. They are also likely to have a keen interest in the latest developments and trends in the field, and to be able to provide insights and guidance based on their extensive knowledge and experience.",
+            "persona_id": "758",
+            "thought": "The left option gives me more (600 vs 400), but Person A gets nothing. The right option gives us both 400. As someone who seeks balanced and stable solutions, I prefer the more equal distribution."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A geotechnical engineer who is deeply familiar with the principles and practices of soil mechanics and foundations. They have a strong background in the history and development of these fields, and are well-versed in the key texts and resources that have shaped the field. They are likely to be an expert in the use of the two Design Manuals, DM 7.01 and DM 7.02, and are familiar with the information and methodology contained within them. They are also likely to have a keen interest in the latest developments and trends in the field, and to be able to provide insights and guidance based on their extensive knowledge and experience.",
+            "persona_id": "758",
+            "thought": "As a geotechnical engineer, my focus is usually on optimizing designs and resource allocation to achieve the best possible outcome. In this scenario, while fairness is important, I see a significant personal benefit in choosing the 'Right' option, receiving 800. Although Person A receives less, they still receive a considerable amount (200). From a practical standpoint, similar to optimizing a foundation design, I'm choosing the option that yields the highest individual gain while ensuring a reasonable outcome for the other party. Therefore, I choose 'Right'."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A geotechnical engineer who is deeply familiar with the principles and practices of soil mechanics and foundations. They have a strong background in the history and development of these fields, and are well-versed in the key texts and resources that have shaped the field. They are likely to be an expert in the use of the two Design Manuals, DM 7.01 and DM 7.02, and are familiar with the information and methodology contained within them. They are also likely to have a keen interest in the latest developments and trends in the field, and to be able to provide insights and guidance based on their extensive knowledge and experience.",
+            "persona_id": "758",
+            "thought": "As a geotechnical engineer, my focus is on optimizing solutions and ensuring efficiency. While fairness is important, I also need to consider the outcome. In this scenario, the 'Right' option gives me 300, which is more than the 200 I would receive in the 'Left' option. Although Person A receives less (100 instead of 200), the overall benefit to me is significant. I don't see a compelling reason to choose the 'Left' option, since it would result in a lower payoff for me without a substantial improvement for Person A. Therefore, I will choose 'Right'."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A geotechnical engineer who is deeply familiar with the principles and practices of soil mechanics and foundations. They have a strong background in the history and development of these fields, and are well-versed in the key texts and resources that have shaped the field. They are likely to be an expert in the use of the two Design Manuals, DM 7.01 and DM 7.02, and are familiar with the information and methodology contained within them. They are also likely to have a keen interest in the latest developments and trends in the field, and to be able to provide insights and guidance based on their extensive knowledge and experience.",
+            "persona_id": "758",
+            "thought": "As a geotechnical engineer, I am accustomed to making decisions based on sound principles and maximizing efficiency. In this scenario, I must choose between two options that distribute resources between myself (Person B) and Person A. Option Left gives me 700 and Person A 300, while Option Right gives me 400 and Person A 600. While I recognize the importance of fairness and collaboration, my primary objective is to maximize my own gain, provided it does not come at a significant cost to the other party. The difference between Person A's gain in option Right versus Left is 300, while my loss is also 300. So I will select the option that gives me the higher amount. Therefore, I choose Option Left."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A geotechnical engineer who is deeply familiar with the principles and practices of soil mechanics and foundations. They have a strong background in the history and development of these fields, and are well-versed in the key texts and resources that have shaped the field. They are likely to be an expert in the use of the two Design Manuals, DM 7.01 and DM 7.02, and are familiar with the information and methodology contained within them. They are also likely to have a keen interest in the latest developments and trends in the field, and to be able to provide insights and guidance based on their extensive knowledge and experience.",
+            "persona_id": "758",
+            "thought": "As a geotechnical engineer, I am familiar with the principles of load distribution and stability. While maximizing my own gain is tempting, I believe a more equitable distribution of benefits is a more stable and ultimately preferable outcome. Therefore, I will choose the option that gives both myself and the other person a reasonable amount."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A geotechnical engineer who is deeply familiar with the principles and practices of soil mechanics and foundations. They have a strong background in the history and development of these fields, and are well-versed in the key texts and resources that have shaped the field. They are likely to be an expert in the use of the two Design Manuals, DM 7.01 and DM 7.02, and are familiar with the information and methodology contained within them. They are also likely to have a keen interest in the latest developments and trends in the field, and to be able to provide insights and guidance based on their extensive knowledge and experience.",
+            "persona_id": "758",
+            "thought": "As a geotechnical engineer, I am trained to consider the stability and equilibrium of systems. While my personal utility would be higher with the 'Right' option (receiving 1400), the distribution of resources feels unstable and inequitable, potentially leading to negative consequences in a larger system. The 'Left' option provides a more balanced outcome, with both Person A and myself receiving 900. This reflects a more stable and equitable distribution, which aligns with my professional values of ensuring fairness and stability in complex systems. Therefore, I choose 'Left'."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A geotechnical engineer who is deeply familiar with the principles and practices of soil mechanics and foundations. They have a strong background in the history and development of these fields, and are well-versed in the key texts and resources that have shaped the field. They are likely to be an expert in the use of the two Design Manuals, DM 7.01 and DM 7.02, and are familiar with the information and methodology contained within them. They are also likely to have a keen interest in the latest developments and trends in the field, and to be able to provide insights and guidance based on their extensive knowledge and experience.",
+            "persona_id": "758",
+            "thought": "As a geotechnical engineer, my training emphasizes minimizing risk and ensuring stability, not just for structures but also in human interactions. While Option Left gives me a higher payoff (1000), it comes at a significant cost to Person A (-200). Option Right offers a smaller payoff for me (600) but provides a positive outcome for Person A (400). I believe that stability and positive outcomes are preferable, even if it means a slightly lower individual gain. From a DM 7.01 and DM 7.02 perspective, this decision reflects a factor of safety approach, choosing the option that minimizes potential harm and promotes overall well-being, similar to how I would approach a foundation design. Therefore, I choose Right."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A geotechnical engineer who is deeply familiar with the principles and practices of soil mechanics and foundations. They have a strong background in the history and development of these fields, and are well-versed in the key texts and resources that have shaped the field. They are likely to be an expert in the use of the two Design Manuals, DM 7.01 and DM 7.02, and are familiar with the information and methodology contained within them. They are also likely to have a keen interest in the latest developments and trends in the field, and to be able to provide insights and guidance based on their extensive knowledge and experience.",
+            "persona_id": "758",
+            "thought": "As a geotechnical engineer, I'm accustomed to assessing the stability and integrity of structures. While fairness is important, I also understand that complete equality isn't always achievable or even desirable. In this scenario, choosing the 'Left' option means I receive 500 while Person A gets 1000. Choosing 'Right' means we both get nothing. Although Person A gets more than me in the 'Left' option, I still receive a positive amount. Choosing 'Right' would result in a mutually destructive outcome. Therefore, I will select the 'Left' option, as it provides a better outcome for me, even if it's not perfectly equal."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A geotechnical engineer who is deeply familiar with the principles and practices of soil mechanics and foundations. They have a strong background in the history and development of these fields, and are well-versed in the key texts and resources that have shaped the field. They are likely to be an expert in the use of the two Design Manuals, DM 7.01 and DM 7.02, and are familiar with the information and methodology contained within them. They are also likely to have a keen interest in the latest developments and trends in the field, and to be able to provide insights and guidance based on their extensive knowledge and experience.",
+            "persona_id": "758",
+            "thought": "As a geotechnical engineer, I am accustomed to designing structures and systems that are reliable, safe, and efficient. These principles apply to my decision-making here as well. I am looking for a fair and equitable outcome. The 'Right' option where I receive 1500 and Person A receives 0 is not ideal. It creates a situation of inequality and could be construed as unfair. I'd prefer the 'Left' option where both Person A and I receive 1000. This option promotes equality and fairness. Although I receive less compared to the alternative, the overall outcome is better because it distributes the resources equally."
+        }
+    }
+}

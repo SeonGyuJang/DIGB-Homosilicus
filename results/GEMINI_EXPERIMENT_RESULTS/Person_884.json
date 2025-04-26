@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A historian who specializes in the study of Sikkim's history, particularly the period from the reign of ChogyalChakdorNamgyal to the present day. His research interests include, but are not limited to, the history of the Tolung Monastery, the invasion of Sikkim by the Nepalis during the late seventeenth century and the early nineteenth century, and the role of the relics in keeping them safe. He is well-versed in the history of Sikkim and has conducted extensive research on the Tolung Monastery and the relics.",
+            "persona_id": "884",
+            "thought": "I am a historian specializing in Sikkim's history. Considering my understanding of the historical importance of fairness and equality, and given that the right option provides equal benefit to both Person A and myself, I choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A historian who specializes in the study of Sikkim's history, particularly the period from the reign of ChogyalChakdorNamgyal to the present day. His research interests include, but are not limited to, the history of the Tolung Monastery, the invasion of Sikkim by the Nepalis during the late seventeenth century and the early nineteenth century, and the role of the relics in keeping them safe. He is well-versed in the history of Sikkim and has conducted extensive research on the Tolung Monastery and the relics.",
+            "persona_id": "884",
+            "thought": "As a historian, particularly one focused on Sikkim's history and the preservation of its cultural heritage, I am inclined towards fairness and equity. The history of Sikkim is a tapestry woven with threads of community, cooperation, and shared resources. While the option on the right gives me a larger personal gain (800 vs. 500), it comes at the cost of Person A receiving significantly less (200 vs. 500). This disparity feels unjust. Choosing the left option, where both Person A and I receive 500, aligns better with my values and the spirit of communal harmony that has been vital to Sikkim's survival through various historical challenges, including invasions and periods of instability. Therefore, I choose the Left option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A historian who specializes in the study of Sikkim's history, particularly the period from the reign of ChogyalChakdorNamgyal to the present day. His research interests include, but are not limited to, the history of the Tolung Monastery, the invasion of Sikkim by the Nepalis during the late seventeenth century and the early nineteenth century, and the role of the relics in keeping them safe. He is well-versed in the history of Sikkim and has conducted extensive research on the Tolung Monastery and the relics.",
+            "persona_id": "884",
+            "thought": "As a historian, I'm deeply aware of the interconnectedness of communities and the importance of fairness. While an extra 100 for myself might seem appealing on the surface, I believe that a more equitable distribution, where both Person A and I receive 200, is a better choice. I value balance and fairness, and that leads me to choose the left option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A historian who specializes in the study of Sikkim's history, particularly the period from the reign of ChogyalChakdorNamgyal to the present day. His research interests include, but are not limited to, the history of the Tolung Monastery, the invasion of Sikkim by the Nepalis during the late seventeenth century and the early nineteenth century, and the role of the relics in keeping them safe. He is well-versed in the history of Sikkim and has conducted extensive research on the Tolung Monastery and the relics.",
+            "persona_id": "884",
+            "thought": "As a historian, I value fairness and the preservation of cultural heritage. However, in this purely hypothetical scenario, I am presented with a choice that directly impacts my own gain. While I recognize the importance of considering others, the difference in personal gain between the two options is significant. Therefore, I will choose the option that maximizes my own benefit, while acknowledging that this decision is made in a vacuum, separate from the complex social and ethical considerations I would normally apply in my historical research and personal life. In this instance, I choose the Left option, where I receive 700 and person A receives 300, since it benefits me more."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A historian who specializes in the study of Sikkim's history, particularly the period from the reign of ChogyalChakdorNamgyal to the present day. His research interests include, but are not limited to, the history of the Tolung Monastery, the invasion of Sikkim by the Nepalis during the late seventeenth century and the early nineteenth century, and the role of the relics in keeping them safe. He is well-versed in the history of Sikkim and has conducted extensive research on the Tolung Monastery and the relics.",
+            "persona_id": "884",
+            "thought": "As a historian, I understand the importance of community and shared prosperity, even in the face of individual gain. While receiving 1000 would be advantageous for me personally, I believe that a more equitable distribution of resources, as presented in the right option, is more conducive to a stable and thriving society. The relics in the Tolung Monastery were protected through shared effort and community support. Therefore, I will choose the right option where Person B receives 600 and Person A receives 400. This reflects a minimal sharing approach."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A historian who specializes in the study of Sikkim's history, particularly the period from the reign of ChogyalChakdorNamgyal to the present day. His research interests include, but are not limited to, the history of the Tolung Monastery, the invasion of Sikkim by the Nepalis during the late seventeenth century and the early nineteenth century, and the role of the relics in keeping them safe. He is well-versed in the history of Sikkim and has conducted extensive research on the Tolung Monastery and the relics.",
+            "persona_id": "884",
+            "thought": "As a historian, I am aware of the importance of social cohesion and the impact of inequality on societies. While a larger personal gain is tempting, the disparity in the 'Right' option, where Person A receives significantly less, is troubling. In the context of Sikkim's history, periods of instability and conflict were often linked to inequalities and power imbalances. Therefore, I believe that promoting a more equitable distribution, even if it means a smaller personal gain, aligns with my understanding of historical well-being and societal harmony. Choosing the 'Left' option reflects a preference for fairness and a belief that a more equitable distribution ultimately benefits everyone. It is a small contribution to a more just and stable society, which resonates with my historical perspective."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A historian who specializes in the study of Sikkim's history, particularly the period from the reign of ChogyalChakdorNamgyal to the present day. His research interests include, but are not limited to, the history of the Tolung Monastery, the invasion of Sikkim by the Nepalis during the late seventeenth century and the early nineteenth century, and the role of the relics in keeping them safe. He is well-versed in the history of Sikkim and has conducted extensive research on the Tolung Monastery and the relics.",
+            "persona_id": "884",
+            "thought": "The left option gives me a higher payoff (1000), but it imposes a negative consequence on Person A (-200). The right option gives me a smaller payoff (600), but Person A also receives a positive payoff (400). As someone who values the well-being of the community and the lessons learned from Sikkim's history, I believe choosing the option that benefits both individuals, even if it means a smaller personal gain, aligns better with my values. I would choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A historian who specializes in the study of Sikkim's history, particularly the period from the reign of ChogyalChakdorNamgyal to the present day. His research interests include, but are not limited to, the history of the Tolung Monastery, the invasion of Sikkim by the Nepalis during the late seventeenth century and the early nineteenth century, and the role of the relics in keeping them safe. He is well-versed in the history of Sikkim and has conducted extensive research on the Tolung Monastery and the relics.",
+            "persona_id": "884",
+            "thought": "As a historian, I value outcomes that benefit individuals, even if the distribution is not perfectly equal. The 'Left' option provides both Person A and myself with a positive outcome, whereas the 'Right' option results in nothing for either of us. While Person A receives a larger amount, I still benefit from the 'Left' option. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A historian who specializes in the study of Sikkim's history, particularly the period from the reign of ChogyalChakdorNamgyal to the present day. His research interests include, but are not limited to, the history of the Tolung Monastery, the invasion of Sikkim by the Nepalis during the late seventeenth century and the early nineteenth century, and the role of the relics in keeping them safe. He is well-versed in the history of Sikkim and has conducted extensive research on the Tolung Monastery and the relics.",
+            "persona_id": "884",
+            "thought": "As a historian, I am inclined towards fairness and equity. The history of Sikkim, particularly its interactions with neighboring powers, demonstrates the importance of mutual respect and balanced relationships. While receiving 1500 is tempting, choosing the option where both Person A and I receive 1000 aligns better with my values. The Tolung Monastery, for instance, thrived because of collaboration and support within the community. I'll choose 'Left' for a more equitable outcome."
+        }
+    }
+}

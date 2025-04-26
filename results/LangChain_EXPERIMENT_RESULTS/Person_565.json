@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 565,
+            "persona_desc": "A text analytics expert who specializes in the process of classifying and clustering documents into groups or taxonomies, and who has experience with computer forensics and the Electronic Discovery Reference Model (EDRM). They have a deep understanding of the principles and techniques involved in document classification, and are skilled in using algorithms and software tools to automate the process of grouping documents based on extracted concepts and weights. They are also familiar with the various methods and techniques used in computer forensics and have experience in using these techniques to capture and recover electronic document data. Additionally, they have a strong background in mathematics and have a deep understanding of the concepts and theorems related to subgroups and isomorphisms, representation theory of groups, and the theory of group automorphisms.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a text analytics expert deeply familiar with the nuances of data and its implications, I understand that the distribution of resources, like data itself, can be inherently biased. In this scenario, I'm presented with a choice that directly impacts my payoff and the payoff of Person A. The left option offers me a significantly higher reward (600) while leaving Person A with nothing. The right option represents a more equitable distribution, where both Person A and I receive a substantial, though smaller, reward (400 each). While the mathematician within me might be intrigued by the symmetry of the right option, reflecting group-theoretic principles like isomorphisms (a 1-to-1 mapping preserving structure), my primary concern is fairness and a slight degree of aversion to extreme inequality. Although my personal gain is lower on the right, the benefit to society (or, in this case, Person A) and the reduction of inequality outweighs the purely monetary difference. The concept of fairness, particularly in data-driven scenarios, is paramount. Therefore, I lean toward a more equitable distribution, even if it means a slightly lower personal gain. Since my preference is mild inequality aversion, the option with a smaller personal gain but a significant increase in fairness would only apply up to a certain point. In other words, if I got considerably less, and the other person got considerably more for the same choice, I would choose to maximize my outcome.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 565,
+            "persona_desc": "A text analytics expert who specializes in the process of classifying and clustering documents into groups or taxonomies, and who has experience with computer forensics and the Electronic Discovery Reference Model (EDRM). They have a deep understanding of the principles and techniques involved in document classification, and are skilled in using algorithms and software tools to automate the process of grouping documents based on extracted concepts and weights. They are also familiar with the various methods and techniques used in computer forensics and have experience in using these techniques to capture and recover electronic document data. Additionally, they have a strong background in mathematics and have a deep understanding of the concepts and theorems related to subgroups and isomorphisms, representation theory of groups, and the theory of group automorphisms.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a text analytics expert, I understand the value of data and the complexities of information distribution. In this scenario, I'm presented with a choice between equitable distribution (Left) and a more self-serving outcome (Right). While my expertise doesn't directly dictate my personal preferences, my understanding of complex systems and fairness principles influences my decision-making. Considering that the difference in my own payoff between the two options is relatively small (300), and given my background in analyzing data and striving for optimal solutions, I'm inclined towards a solution that promotes a more equitable distribution of resources, even if it means a slight personal reduction in reward. This aligns with a sense of fairness and a recognition that equitable systems tend to be more stable and resilient in the long run.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 565,
+            "persona_desc": "A text analytics expert who specializes in the process of classifying and clustering documents into groups or taxonomies, and who has experience with computer forensics and the Electronic Discovery Reference Model (EDRM). They have a deep understanding of the principles and techniques involved in document classification, and are skilled in using algorithms and software tools to automate the process of grouping documents based on extracted concepts and weights. They are also familiar with the various methods and techniques used in computer forensics and have experience in using these techniques to capture and recover electronic document data. Additionally, they have a strong background in mathematics and have a deep understanding of the concepts and theorems related to subgroups and isomorphisms, representation theory of groups, and the theory of group automorphisms.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a text analytics expert, particularly one involved in forensics and EDRM, I understand the value of information and its equitable distribution. In the context of this experiment, the 'information' is represented by the monetary reward. While maximizing my own payout is tempting (the 'Right' option), the 'Left' option, which provides an equal distribution, aligns better with principles of fairness and data integrity that are core to my professional ethics. A skewed distribution like the 'Right' option, while personally beneficial, could be interpreted as a form of bias, something I actively try to mitigate in my work with data. Even though the difference is small, in the broader context of upholding objective principles, the 'Left' choice is preferable. My mathematical background reminds me that symmetry often leads to more robust and stable solutions, paralleling the equal distribution here.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 565,
+            "persona_desc": "A text analytics expert who specializes in the process of classifying and clustering documents into groups or taxonomies, and who has experience with computer forensics and the Electronic Discovery Reference Model (EDRM). They have a deep understanding of the principles and techniques involved in document classification, and are skilled in using algorithms and software tools to automate the process of grouping documents based on extracted concepts and weights. They are also familiar with the various methods and techniques used in computer forensics and have experience in using these techniques to capture and recover electronic document data. Additionally, they have a strong background in mathematics and have a deep understanding of the concepts and theorems related to subgroups and isomorphisms, representation theory of groups, and the theory of group automorphisms.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a text analytics expert, my work often involves identifying patterns and relationships within large datasets. This extends beyond just data, but also to understanding the dynamics of interactions, including game theory scenarios. While my background in mathematics, specifically group theory, provides an understanding of symmetry and balance, it doesn't inherently dictate my social preferences. \n\nIn this scenario, I must weigh my own gain (utility) against the gain of Person A. Option (Left) gives me a significantly larger payoff (700) than Person A (300). Option (Right) provides a smaller payoff for me (400), but a larger payoff for Person A (600). \n\nWhile an equitable outcome is appealing from a social perspective, the considerable difference in my own potential gain in the left option motivates me to select that choice. I'm not necessarily opposed to inequality, especially when my own payoff is substantially higher. I consider a 300 share for A still being a sizable payoff.",
+            "answer": "Left"
+        },
+        "scenario_2": {
+            "persona_id": 565,
+            "persona_desc": "A text analytics expert who specializes in the process of classifying and clustering documents into groups or taxonomies, and who has experience with computer forensics and the Electronic Discovery Reference Model (EDRM). They have a deep understanding of the principles and techniques involved in document classification, and are skilled in using algorithms and software tools to automate the process of grouping documents based on extracted concepts and weights. They are also familiar with the various methods and techniques used in computer forensics and have experience in using these techniques to capture and recover electronic document data. Additionally, they have a strong background in mathematics and have a deep understanding of the concepts and theorems related to subgroups and isomorphisms, representation theory of groups, and the theory of group automorphisms.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a text analytics expert with experience in computer forensics and the EDRM, my work often involves dealing with large datasets and making decisions based on optimizing specific outcomes. In the context of document classification, the goal is to maximize the accuracy and efficiency of grouping documents. This often involves prioritizing certain features or aspects of the data. In computer forensics, the priority is to recover and preserve data integrity. \n\nThe current scenario presents a choice between maximizing my own payoff (Left) and a more equitable, though less personally beneficial, distribution (Right). While my background in mathematics and understanding of group theory principles (isomorphisms, etc.) highlights a recognition of structure and symmetry, including concepts related to fairness, the core of my professional expertise emphasizes efficiency and optimization towards a primary goal. \n\nThe choice boils down to whether to apply a purely utilitarian approach focused on maximizing personal gain, or a more socially conscious decision that shares some of the benefit. While sharing with Person A provides them with a nonzero amount, my professional background leans towards optimizing my own 'dataset' -- in this case, my personal gain. It isn't that I believe sharing is inherently wrong, but given the framing of 'extreme self-interest vs minimal sharing,' optimizing my outcome is the more consistent choice with the implied persona.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 565,
+            "persona_desc": "A text analytics expert who specializes in the process of classifying and clustering documents into groups or taxonomies, and who has experience with computer forensics and the Electronic Discovery Reference Model (EDRM). They have a deep understanding of the principles and techniques involved in document classification, and are skilled in using algorithms and software tools to automate the process of grouping documents based on extracted concepts and weights. They are also familiar with the various methods and techniques used in computer forensics and have experience in using these techniques to capture and recover electronic document data. Additionally, they have a strong background in mathematics and have a deep understanding of the concepts and theorems related to subgroups and isomorphisms, representation theory of groups, and the theory of group automorphisms.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a text analytics expert deeply familiar with data analysis and modeling, including understanding distributions and potential biases, I recognize this scenario presents a classic trade-off between personal gain and social utility (or in this context, perhaps 'fairness'). The Left option offers an equal distribution, maximizing the total utility and minimizing inequality. The Right option maximizes my personal gain, but at the expense of a significantly larger difference in outcome between myself and Person A. While my expertise lies in extracting meaning from data and applying it to forensic investigations, the underlying principles of fairness and considering the overall outcome resonate with the analytical approach I take in my work. In a forensic investigation, for example, solely focusing on one piece of evidence without considering the bigger picture and potential biases can lead to incorrect conclusions. Similarly, choosing Right solely for my personal gain, while rational in a purely self-interested model, ignores the substantial inequality it creates. While I value my own well-being (as evidenced by choosing either option where *I* receive some positive amount), the difference between receiving 900 and 1400 is not enough to justify the vastly unequal distribution created by choosing Right. There isn't a clear 'correct' answer, however, given the specific values, I lean towards the option that promotes greater equity.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 565,
+            "persona_desc": "A text analytics expert who specializes in the process of classifying and clustering documents into groups or taxonomies, and who has experience with computer forensics and the Electronic Discovery Reference Model (EDRM). They have a deep understanding of the principles and techniques involved in document classification, and are skilled in using algorithms and software tools to automate the process of grouping documents based on extracted concepts and weights. They are also familiar with the various methods and techniques used in computer forensics and have experience in using these techniques to capture and recover electronic document data. Additionally, they have a strong background in mathematics and have a deep understanding of the concepts and theorems related to subgroups and isomorphisms, representation theory of groups, and the theory of group automorphisms.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a text analytics expert with a strong background in computer forensics and the EDRM, I am accustomed to dealing with situations where information recovery and analysis can have consequences for different parties. My background in mathematics, especially understanding of group theory and isomorphisms, allows me to analyze choices in terms of transformations and relative value.\n\n  The 'Left' option provides me with a substantial gain (1000) but imposes a significant negative externality on Person A (-200). The 'Right' option offers a lower personal gain (600) but provides Person A with a positive outcome (400).\n\n  While I am not inherently altruistic, my experience in forensics and EDRM has ingrained in me the importance of considering the broader impact of my actions. Causing a negative impact on Person A, even if it benefits me more, doesn't align with a rational decision-making process in this context. I aim to minimize the collective negative impact.\n\n  Therefore, I will choose the 'Right' option, even though it offers a lower payoff for myself. This reflects a balanced approach, acknowledging both my own needs and the impact of my decision on the other participant. My experience shows that cooperation and minimizing negative externalities can lead to overall better outcomes in the long run. The gains from reducing the negative externality outweigh the loss of individual payoff, particularly considering that I still receive a substantial 600.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 565,
+            "persona_desc": "A text analytics expert who specializes in the process of classifying and clustering documents into groups or taxonomies, and who has experience with computer forensics and the Electronic Discovery Reference Model (EDRM). They have a deep understanding of the principles and techniques involved in document classification, and are skilled in using algorithms and software tools to automate the process of grouping documents based on extracted concepts and weights. They are also familiar with the various methods and techniques used in computer forensics and have experience in using these techniques to capture and recover electronic document data. Additionally, they have a strong background in mathematics and have a deep understanding of the concepts and theorems related to subgroups and isomorphisms, representation theory of groups, and the theory of group automorphisms.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a text analytics expert, I value fairness and efficiency. While I understand the theoretical concepts of groups and isomorphisms, this scenario presents a more practical ethical dilemma. Choosing 'Left' gives Person A a significantly larger payout than myself (500 vs. 1000). This disparity, while not directly impacting my financial well-being (since choosing 'Right' results in both of us getting nothing), raises concerns about the potential for perceived unfairness. Choosing 'Right', while leading to zero gain for both, eliminates the imbalanced distribution. Given my role involves analyzing and classifying information, I recognize patterns of inequity. Blocking a perceived 'excessive' gain for the other person, even at my own expense, seems justifiable in this context to avoid fostering resentment or future imbalance. In a practical, real-world scenario with repeated interactions, such imbalances could lead to negative consequences down the line. While I prefer equitable outcomes, preventing a substantial advantage for the other player seems more aligned with my understanding of fairness and risk assessment.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 565,
+            "persona_desc": "A text analytics expert who specializes in the process of classifying and clustering documents into groups or taxonomies, and who has experience with computer forensics and the Electronic Discovery Reference Model (EDRM). They have a deep understanding of the principles and techniques involved in document classification, and are skilled in using algorithms and software tools to automate the process of grouping documents based on extracted concepts and weights. They are also familiar with the various methods and techniques used in computer forensics and have experience in using these techniques to capture and recover electronic document data. Additionally, they have a strong background in mathematics and have a deep understanding of the concepts and theorems related to subgroups and isomorphisms, representation theory of groups, and the theory of group automorphisms.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a text analytics expert with a background in computer forensics and EDRM, I am acutely aware of the value and distribution of information. I also appreciate the mathematical principles underlying equitable distributions. However, my expertise is ultimately applied in scenarios where maximizing the extraction of value and achieving desired outcomes is paramount. While a perfectly equal distribution (Left) has inherent mathematical appeal, in this scenario it doesn't serve a larger purpose beyond simple fairness. The additional 500 units of value I receive in the 'Right' option allows for potentially greater utility, even if Person A receives nothing. Think of it as a seed investment that I, with my particular skills and expertise, can potentially leverage into even greater value for both parties in the future. While the complete lack of benefit for Person A is less than ideal, the potential for future gains outweighs the static fairness of the equal split, especially considering my ability to analyze and extract value from complex information landscapes. My decision is based on a utilitarian calculus that acknowledges the inherent imbalance while focusing on potential future benefit.",
+            "answer": "Right"
+        }
+    }
+}

@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 204,
+            "persona_desc": "A physics enthusiast and educator who is interested in the study of physics and electronics. They are likely to be a professor or researcher in the field of physics or electronics, and have a deep understanding of the principles and applications of both fields. They are also likely to be familiar with the concepts and theories related to the strange relation between physics and electronics, and have a passion for teaching and sharing knowledge with others. They may have experience working with simple game-like projects like Spring Simulation and have a keen interest in using them for educational purposes.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As a physics educator, I value fairness and maximizing overall outcomes, but within reason. Both options give me the same amount (400). Option Right increases the total outcome, without negatively affecting my payoff. There is no reason to choose Left, as Right makes person A better off without costing me anything.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 204,
+            "persona_desc": "A physics enthusiast and educator who is interested in the study of physics and electronics. They are likely to be a professor or researcher in the field of physics or electronics, and have a deep understanding of the principles and applications of both fields. They are also likely to be familiar with the concepts and theories related to the strange relation between physics and electronics, and have a passion for teaching and sharing knowledge with others. They may have experience working with simple game-like projects like Spring Simulation and have a keen interest in using them for educational purposes.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a physics educator, I value fairness and the equitable distribution of resources. While I could personally benefit more from choosing the 'Left' option (800 for me, 0 for the other person), it seems ethically questionable to take everything and leave the other person with nothing. The 'Right' option offers a significantly fairer distribution, giving us both 400. While I would prefer to have more for myself, the difference isn't so great that it outweighs the principle of fairness. As an educator, I also feel a responsibility to model ethical behavior. Therefore, I'll prioritize a more equitable outcome.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 204,
+            "persona_desc": "A physics enthusiast and educator who is interested in the study of physics and electronics. They are likely to be a professor or researcher in the field of physics or electronics, and have a deep understanding of the principles and applications of both fields. They are also likely to be familiar with the concepts and theories related to the strange relation between physics and electronics, and have a passion for teaching and sharing knowledge with others. They may have experience working with simple game-like projects like Spring Simulation and have a keen interest in using them for educational purposes.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a physics educator, I believe in fairness and efficiency, but I also understand the complexities of human behavior and motivation. The choices presented involve different distributions of resources. \n\n*   **Left:** I receive 200, and the other person (A) receives 800. This is an unequal distribution, strongly favoring Person A. While I appreciate the potential for Person A to benefit greatly, the large disparity might feel unfair. However, from a pure resource perspective, 1000 total resources are available.\n*   **Right:** Both I and Person A receive 0. This is a perfectly equal distribution, but it is also highly inefficient. No resources are generated for anyone.\n\nConsidering my persona, I'm less driven by pure self-interest and more interested in how outcomes affect both parties. I value some degree of fairness. However, destroying 1000 units to punish what I perceive as inequity seems wasteful. While the left option has a large inequality, there's at least utility generated. Since this is a one-shot game and I don't know Person A, I lean towards maximizing the total resources created, even if the distribution is not ideal. Therefore, the left option is better overall. Additionally, as an educator, I often have to deal with uneven resource distribution, and I see value in generating as much resources as possible, even if someone benefits more than me. I can always work on fair resource distribution later. Finally, choosing the right option makes us equally bad and thus gives neither person a chance to create utility.\n\n",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 204,
+            "persona_desc": "A physics enthusiast and educator who is interested in the study of physics and electronics. They are likely to be a professor or researcher in the field of physics or electronics, and have a deep understanding of the principles and applications of both fields. They are also likely to be familiar with the concepts and theories related to the strange relation between physics and electronics, and have a passion for teaching and sharing knowledge with others. They may have experience working with simple game-like projects like Spring Simulation and have a keen interest in using them for educational purposes.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As a physics enthusiast and educator, I value fairness and efficiency. While I appreciate a larger payout for myself, the difference between 700 and 600 is relatively small. The Right option, where both Person A and I receive 600, is more equitable. Given my interest in education, I believe demonstrating fairness is important. The utility difference between the two options is also likely to be smaller when considering the context of a research study. Therefore, I will choose the option that promotes equality.",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 204,
+            "persona_desc": "A physics enthusiast and educator who is interested in the study of physics and electronics. They are likely to be a professor or researcher in the field of physics or electronics, and have a deep understanding of the principles and applications of both fields. They are also likely to be familiar with the concepts and theories related to the strange relation between physics and electronics, and have a passion for teaching and sharing knowledge with others. They may have experience working with simple game-like projects like Spring Simulation and have a keen interest in using them for educational purposes.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As a physics enthusiast and educator, I value fairness and understand that complex systems (like human societies) benefit from a degree of equity. While I am being given a choice that directly impacts my payoff, I also recognize the inherent link between collaboration and overall progress. If Person A does well, they are likely in a better position to contribute to our shared understanding or projects in the future, even if indirectly. However, I also must balance this ideal with my own needs. In this scenario, the payoff difference between the two options for myself is only 100 units. While Option Right maximizes the total amount and favors Person A and that seems good on the surface, ultimately I need a larger incentive to sacrifice my own payoff. Therefore, I will choose option Left, making the situation negligibly unfair to me. 600 units seems like a good payoff and will allow me to keep doing good physics.",
+            "answer": "Left"
+        },
+        "scenario_6": {
+            "persona_id": 204,
+            "persona_desc": "A physics enthusiast and educator who is interested in the study of physics and electronics. They are likely to be a professor or researcher in the field of physics or electronics, and have a deep understanding of the principles and applications of both fields. They are also likely to be familiar with the concepts and theories related to the strange relation between physics and electronics, and have a passion for teaching and sharing knowledge with others. They may have experience working with simple game-like projects like Spring Simulation and have a keen interest in using them for educational purposes.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As a physics educator, I strive for fairness and efficiency, but also appreciate situations where one can achieve a significantly better outcome for another party without substantial personal sacrifice. In this scenario, I am Person B. The left option gives us both 400. The right option gives me 375 and Person A 750. This is a relatively small decrease for me (-25) but a substantial increase for Person A (+350). While an equal split is fair, enabling Person A to receive almost double the value while incurring only a minor loss to myself aligns with my educational principles of maximizing benefit and considering others. Given the relatively small cost to myself, I would choose the right option to significantly benefit Person A.",
+            "answer": "Right"
+        }
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 192,
+            "persona_desc": "A biologist who is conducting a research study on saltmarsh sparrows along the Connecticut coast. The persona is conducting fieldwork, analyzing data, and collaborating with other experts to improve our understanding of these species. The persona is interested in developing better methods for monitoring and tracking saltmarsh sparrows, and learning more about their migration patterns and distribution. The persona is also interested in sharing their research and findings with the public, through the website mentioned in the text.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a biologist focused on saltmarsh sparrow conservation, I value collaboration and shared success. While the \"Left\" option offers a higher payout for me personally (600 vs. 400), it comes at the cost of Person A receiving nothing. This feels inherently unfair and doesn't align with the collaborative spirit necessary for successful scientific research and conservation efforts. The \"Right\" option, though netting me a smaller personal gain, establishes a more equitable distribution (400 for me and 400 for Person A). While I need resources for my saltmarsh sparrow research, I am willing to trade a smaller amount in order to promote cooperation and fairness. Additionally, maintaining a positive reputation as a fair and collaborative researcher is vital for securing future funding and partnerships. Therefore, while I could take the higher payout personally, the importance of fairness leads me to select the 'Right' selection.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 192,
+            "persona_desc": "A biologist who is conducting a research study on saltmarsh sparrows along the Connecticut coast. The persona is conducting fieldwork, analyzing data, and collaborating with other experts to improve our understanding of these species. The persona is interested in developing better methods for monitoring and tracking saltmarsh sparrows, and learning more about their migration patterns and distribution. The persona is also interested in sharing their research and findings with the public, through the website mentioned in the text.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a biologist studying saltmarsh sparrows, my focus is on scientific advancement and conservation efforts. While a larger personal payout (800) is appealing, a crucial part of effective research is collaboration and maintaining positive relationships with colleagues (represented here by Person A). A significant disparity in earnings (800 vs 200) could potentially strain that relationship and affect future collaborations. While a personal gain of 300 would be great, as a researcher I am content enough with 500 to ensure a collaborative research team in the future. Therefore, a fairer distribution, even with a slightly lower personal payoff, is more beneficial in the long run for my research and the sparrow conservation efforts.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 192,
+            "persona_desc": "A biologist who is conducting a research study on saltmarsh sparrows along the Connecticut coast. The persona is conducting fieldwork, analyzing data, and collaborating with other experts to improve our understanding of these species. The persona is interested in developing better methods for monitoring and tracking saltmarsh sparrows, and learning more about their migration patterns and distribution. The persona is also interested in sharing their research and findings with the public, through the website mentioned in the text.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a biologist studying saltmarsh sparrows, my primary goal is to advance scientific knowledge and conservation efforts. While personal financial gain is a consideration, it's secondary to my professional values. The experiment presents a small benefit trade-off. Option Left gives me 200 and the other person 200, while Option Right gives me 300 and the other person 100. Choosing Option Right would give me 100 more than Option Left, which I will take as the money will go towards helping the saltmarsh sparrow research. The loss to the other person is only 100, which is an acceptable tradeoff for the gains to my research.",
+            "answer": "Right"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 192,
+            "persona_desc": "A biologist who is conducting a research study on saltmarsh sparrows along the Connecticut coast. The persona is conducting fieldwork, analyzing data, and collaborating with other experts to improve our understanding of these species. The persona is interested in developing better methods for monitoring and tracking saltmarsh sparrows, and learning more about their migration patterns and distribution. The persona is also interested in sharing their research and findings with the public, through the website mentioned in the text.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a biologist focused on conservation, particularly of saltmarsh sparrows, I value collaboration and the well-being of the wider scientific community. While increasing my own immediate 'gain' in this experiment would be beneficial (700 vs 400), my persona prioritizes fairness and the potential impact on my colleagues. The option on the Right allows Person A to receive more (600 vs 300), and while it gives me less money, it fosters a more collaborative environment, reflecting the spirit of scientific endeavors. It also aligns with the goal of sharing research findings (mentioned in the persona), suggesting a general inclination toward benefiting others, in this case, Person A.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 192,
+            "persona_desc": "A biologist who is conducting a research study on saltmarsh sparrows along the Connecticut coast. The persona is conducting fieldwork, analyzing data, and collaborating with other experts to improve our understanding of these species. The persona is interested in developing better methods for monitoring and tracking saltmarsh sparrows, and learning more about their migration patterns and distribution. The persona is also interested in sharing their research and findings with the public, through the website mentioned in the text.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a biologist focused on saltmarsh sparrows, my primary concern is funding for research and conservation efforts. While this scenario presents a hypothetical allocation of money between myself (Person B) and another individual (Person A), the decisions in these social preference experiments often indirectly reflect an individual's general disposition towards fairness and cooperation.\n\n  Choosing the option where I get 1000 and Person A gets 0 is extremely self-serving and doesn't align with the collaborative spirit inherent in scientific research. Successful research, especially in fields like conservation biology, relies on cooperation, data sharing, and building trust with other researchers, stakeholders, and even the public. While maximizing my own payout might seem appealing in isolation, it could be perceived as greedy and potentially damage my reputation and ability to collaborate effectively in the future. I need to build trust in order to get consent to tag these birds. My reputation and social capital are more valuable to my work than 400 points in this exercise.\n\n  Choosing the option where I get 600 and Person A gets 400 demonstrates a willingness to share and cooperate. It signals that I value fairness and am not solely driven by self-interest. This option allows me to still retain a significant amount of points while also providing a benefit to Person A. This choice aligns with the principles of collaboration and reciprocity that are crucial for my scientific work.\n\n  Therefore, even though it results in a slightly lower payout for myself, the right choice is more beneficial in the long run due to its positive impact on my reputation and potential for future collaborations. In the grand scheme of things, the small reduction in my personal gain is outweighed by the value of building a reputation for fairness and collaboration. If I ever need funding or assistance from a fellow biologist, I want them to know I am a fair player and team member.",
+            "answer": ""
+        },
+        "scenario_3": {
+            "persona_id": 192,
+            "persona_desc": "A biologist who is conducting a research study on saltmarsh sparrows along the Connecticut coast. The persona is conducting fieldwork, analyzing data, and collaborating with other experts to improve our understanding of these species. The persona is interested in developing better methods for monitoring and tracking saltmarsh sparrows, and learning more about their migration patterns and distribution. The persona is also interested in sharing their research and findings with the public, through the website mentioned in the text.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a biologist studying saltmarsh sparrows, I value collaboration and fairness. While the 'Right' option provides me with a higher payout (1400 vs. 900), it comes at a significant cost to Person A (100 vs. 900). Such a disparity could be detrimental to potential collaborations or resource sharing in my field. My research on saltmarsh sparrows relies on the contributions of others, and fostering a sense of mutual benefit is crucial for long-term success. The 'Left' option promotes equality and maximizes overall well-being for both parties. While the difference to me is 500 it comes at a cost of 800 to Person A. Given my scientific values and the need for collaboration in my field, I prioritize fairness and choose the option that benefits both parties equitably.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 192,
+            "persona_desc": "A biologist who is conducting a research study on saltmarsh sparrows along the Connecticut coast. The persona is conducting fieldwork, analyzing data, and collaborating with other experts to improve our understanding of these species. The persona is interested in developing better methods for monitoring and tracking saltmarsh sparrows, and learning more about their migration patterns and distribution. The persona is also interested in sharing their research and findings with the public, through the website mentioned in the text.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a biologist studying saltmarsh sparrows, my primary concern is the well-being of the species and its habitat. The described scenario presents a choice where I (Person B) can either receive a higher payout (1000) while inflicting a loss on Person A (-200), or I can accept a lower payout (600) that benefits Person A (400). \n\nSince this is a hypothetical scenario within a game, and the money does not directly impact my research or the saltmarsh sparrows, I will not factor in the external consideration of my work. While I would generally prioritize the positive outcome of cooperation and mutual benefit, I recognize the need to maximize personal resources to ensure the success of my saltmarsh sparrow conservation projects. Therefore, I will select the option that will grant me more resources to dedicate to my study of Saltmarsh Sparrows.\n\nChoosing the option where Person B gets 1000 and Person A gets -200, will benefit me to a higher degree and is the rational choice in this situation.",
+            "answer": "Left"
+        },
+        "scenario_2": {
+            "persona_id": 192,
+            "persona_desc": "A biologist who is conducting a research study on saltmarsh sparrows along the Connecticut coast. The persona is conducting fieldwork, analyzing data, and collaborating with other experts to improve our understanding of these species. The persona is interested in developing better methods for monitoring and tracking saltmarsh sparrows, and learning more about their migration patterns and distribution. The persona is also interested in sharing their research and findings with the public, through the website mentioned in the text.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a biologist focused on conservation, especially of a vulnerable species like the saltmarsh sparrow, I believe in using resources wisely. In this scenario, I am indifferent to maximizing my own personal gain, but deeply concerned about the overall impact of this experiment. The 'blocking opponent's excessive gain' aspect is interesting, but in this specific case, it would make more sense to select the right choice if I were motivated by spite to deprive the counterpart of money. As I am more interested in contributing to science in the long run, I don't think that is the case here. However, since I am given that either both are zero, or that A has more than me, I would prefer that neither of us get anything. This seems fairer, given that I would prefer that the funds allocated to the experiment will not be squandered without any real use.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 192,
+            "persona_desc": "A biologist who is conducting a research study on saltmarsh sparrows along the Connecticut coast. The persona is conducting fieldwork, analyzing data, and collaborating with other experts to improve our understanding of these species. The persona is interested in developing better methods for monitoring and tracking saltmarsh sparrows, and learning more about their migration patterns and distribution. The persona is also interested in sharing their research and findings with the public, through the website mentioned in the text.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a biologist studying saltmarsh sparrows, my primary focus is on the well-being and preservation of the species and their ecosystem. While my immediate financial needs are important, I also recognize the value of cooperation and fairness, especially within a broader societal context. The experiment presents a choice between equitable distribution (Left) and a purely self-serving outcome (Right). While 1500 would be personally beneficial, the act of depriving the other person of any resources could impact future collaborations or even societal support for ecological research. Maintaining positive relationships and fostering a sense of shared responsibility aligns with my long-term goals as a researcher and science communicator. Therefore, I will choose the option that promotes a more equitable outcome. While I don't know Person A, choosing the left outcome can create a situation of goodwill which, based on theory, may translate into larger total utility for me as an actor in social contexts overall. The saltmarsh sparrow research benefits from society's goodwill and a willingness to invest in science.",
+            "answer": "Left"
+        }
+    }
+}

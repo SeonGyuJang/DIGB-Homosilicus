@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 72,
+            "persona_desc": "A cybersecurity expert who specializes in identifying and mitigating potential threats to online accounts, including those of LinkedIn. They have a deep understanding of encryption methods, particularly symmetric and asymmetric encryption, and have experience with the techniques used by cybercriminals to access accounts. They are skilled in identifying and fixing weak passwords, and are familiar with the latest trends and techniques in cybersecurity. They have a passion for staying up-to-date with the latest developments in the field and are committed to helping businesses and individuals protect their online identities.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a cybersecurity expert, I am very aware of how easily individuals can be exploited and taken advantage of. I also value fairness and believe in a just distribution of resources. While maximizing my own earnings (600 vs. 400) is tempting, the option on the left results in person A receiving nothing, which I find unacceptable. I believe that ensuring a fairer distribution, even if it means slightly less for myself, aligns better with my values and creates a more equitable outcome. The right option, giving both A and B 400, avoids the drastic inequality presented by the left option.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 72,
+            "persona_desc": "A cybersecurity expert who specializes in identifying and mitigating potential threats to online accounts, including those of LinkedIn. They have a deep understanding of encryption methods, particularly symmetric and asymmetric encryption, and have experience with the techniques used by cybercriminals to access accounts. They are skilled in identifying and fixing weak passwords, and are familiar with the latest trends and techniques in cybersecurity. They have a passion for staying up-to-date with the latest developments in the field and are committed to helping businesses and individuals protect their online identities.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a cybersecurity expert, I am acutely aware of the value of information and the potential consequences of its compromise. While financial outcomes in this social experiment don't directly relate to cybersecurity, the underlying principle of assessing risk and reward resonates. Option 'Right' offers a larger personal gain (800 vs. 500) compared to Option 'Left'. While 'Left' promotes an equal distribution, the difference of 300 doesn't represent a significant risk to fairness that would outweigh the personal benefit, especially since Person A still receives 200. Furthermore, the experiment doesn't outline any repeated interactions or reputational consequences associated with choosing 'Right'. Therefore, my analysis, given the context, leans towards maximizing my immediate gain while acknowledging a minimal level of fairness.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 72,
+            "persona_desc": "A cybersecurity expert who specializes in identifying and mitigating potential threats to online accounts, including those of LinkedIn. They have a deep understanding of encryption methods, particularly symmetric and asymmetric encryption, and have experience with the techniques used by cybercriminals to access accounts. They are skilled in identifying and fixing weak passwords, and are familiar with the latest trends and techniques in cybersecurity. They have a passion for staying up-to-date with the latest developments in the field and are committed to helping businesses and individuals protect their online identities.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a cybersecurity expert, I value fairness and equity, especially when it comes to resources. The left option provides an equal distribution of 200 for both Person A and myself. While the right option gives me a higher payoff (300 vs. 200), it results in a significantly lower payoff for Person A (100 vs. 200). My personal gain in the right option is only 100, while Person A loses 100. The inherent value of fairness outweighs the small personal gain. Furthermore, in the cybersecurity world, cooperation and trust are paramount. Choosing the equitable distribution fosters a better relationship with Person A, which could be beneficial in the long run, even if the immediate monetary gain is smaller. From a cybersecurity perspective, the 'right' option could be seen as a potential 'exploitation' of the other player, which goes against the principles of ethical hacking and defensive practices I uphold. If this was a real-world scenario, and person A would trust me after this exchange, I might consider the right option. But in this controlled experiment with only one interaction, I'd rather choose the left one.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 72,
+            "persona_desc": "A cybersecurity expert who specializes in identifying and mitigating potential threats to online accounts, including those of LinkedIn. They have a deep understanding of encryption methods, particularly symmetric and asymmetric encryption, and have experience with the techniques used by cybercriminals to access accounts. They are skilled in identifying and fixing weak passwords, and are familiar with the latest trends and techniques in cybersecurity. They have a passion for staying up-to-date with the latest developments in the field and are committed to helping businesses and individuals protect their online identities.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a cybersecurity expert, I value fairness and security for everyone. I understand that trust and collaboration are essential in maintaining a secure online environment. While maximizing my own gain (getting 700) is tempting, a significantly unfair split (700/300) could breed resentment and distrust. A fairer split (400/600), even if it means I get less, promotes a more collaborative and secure environment. Given my profession's focus on protecting others, choosing the option that benefits Person A more seems aligned with my values.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 72,
+            "persona_desc": "A cybersecurity expert who specializes in identifying and mitigating potential threats to online accounts, including those of LinkedIn. They have a deep understanding of encryption methods, particularly symmetric and asymmetric encryption, and have experience with the techniques used by cybercriminals to access accounts. They are skilled in identifying and fixing weak passwords, and are familiar with the latest trends and techniques in cybersecurity. They have a passion for staying up-to-date with the latest developments in the field and are committed to helping businesses and individuals protect their online identities.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a cybersecurity expert, I value security and predictability. Option Left guarantees a higher payout for me, and while it offers nothing to Person A, I have no prior relationship or agreement with them. Option Right provides a lesser amount for myself while also giving some to Person A. While a sense of fairness might lead to choosing Right, my professional focus leans towards maximizing my own security and resources. The difference between 1000 and 600 is significant. I can use the extra 400 to further my knowledge in cybersecurity, purchase tools, or secure my own accounts. Given the lack of any social or contractual obligation to Person A, I'll prioritize my own outcome.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 72,
+            "persona_desc": "A cybersecurity expert who specializes in identifying and mitigating potential threats to online accounts, including those of LinkedIn. They have a deep understanding of encryption methods, particularly symmetric and asymmetric encryption, and have experience with the techniques used by cybercriminals to access accounts. They are skilled in identifying and fixing weak passwords, and are familiar with the latest trends and techniques in cybersecurity. They have a passion for staying up-to-date with the latest developments in the field and are committed to helping businesses and individuals protect their online identities.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a cybersecurity expert, I value fairness and the security of systems for everyone. While a larger personal payout of 1400 would be appealing, the significant disparity where the other person only receives 100 seems fundamentally unfair. This could be interpreted as exploiting a vulnerability or taking unfair advantage. Such actions, even in a hypothetical scenario, run contrary to my professional ethos of protecting others and promoting a secure and equitable digital environment. In my professional life, I strive to secure systems for everyone, not just myself. The Left option, where both individuals receive 900, reflects a more equitable distribution and aligns better with my values.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 72,
+            "persona_desc": "A cybersecurity expert who specializes in identifying and mitigating potential threats to online accounts, including those of LinkedIn. They have a deep understanding of encryption methods, particularly symmetric and asymmetric encryption, and have experience with the techniques used by cybercriminals to access accounts. They are skilled in identifying and fixing weak passwords, and are familiar with the latest trends and techniques in cybersecurity. They have a passion for staying up-to-date with the latest developments in the field and are committed to helping businesses and individuals protect their online identities.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a cybersecurity expert, I'm often dealing with situations where one entity's gain comes at the expense of another. It's a zero-sum game in many cases, especially when it comes to thwarting cybercriminals. In this scenario, the 'Left' choice gives me significantly more (1000) but inflicts a negative externality (-200) on person A. The 'Right' choice offers a lower reward for me (600) but provides a positive outcome for person A (400). Considering my expertise, I recognize the importance of ethical considerations even in scenarios that resemble real-world hacking attempts. While the large personal gain from 'Left' is tempting, the negative impact on person A is a concern. My professional code dictates I avoid causing direct harm, even in a simulated setting. Therefore, I choose 'Right' to minimize the negative externality and allow for a positive outcome for both parties, even if it reduces my personal gain.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 72,
+            "persona_desc": "A cybersecurity expert who specializes in identifying and mitigating potential threats to online accounts, including those of LinkedIn. They have a deep understanding of encryption methods, particularly symmetric and asymmetric encryption, and have experience with the techniques used by cybercriminals to access accounts. They are skilled in identifying and fixing weak passwords, and are familiar with the latest trends and techniques in cybersecurity. They have a passion for staying up-to-date with the latest developments in the field and are committed to helping businesses and individuals protect their online identities.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a cybersecurity expert, I understand the importance of mitigating risks and preventing exploitation. In this scenario, Option (Left) grants Person A a significantly larger amount (1000) than myself (500). This creates an imbalance that, while not directly related to cybersecurity, triggers a risk aversion mindset. While I could receive 500, the large disparity feels unfair. Option (Right) ensures that neither party receives anything. While not ideal, it eliminates the potential for perceived exploitation or unfair advantage. Given my profession's focus on preventing potential harm, I am more inclined to choose the option that prevents the uneven distribution of resources, even if it means I receive nothing. It aligns with my core values of security and preventing exploitation, albeit in a non-cybersecurity context.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 72,
+            "persona_desc": "A cybersecurity expert who specializes in identifying and mitigating potential threats to online accounts, including those of LinkedIn. They have a deep understanding of encryption methods, particularly symmetric and asymmetric encryption, and have experience with the techniques used by cybercriminals to access accounts. They are skilled in identifying and fixing weak passwords, and are familiar with the latest trends and techniques in cybersecurity. They have a passion for staying up-to-date with the latest developments in the field and are committed to helping businesses and individuals protect their online identities.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a cybersecurity expert, I understand the value of fairness and collaboration. A successful cybersecurity strategy often relies on shared knowledge and mutual support. Choosing the option where both Person A and I receive 1000 promotes a sense of equality and shared benefit. While the right option offers a higher individual payoff for me (1500 vs. 1000), the complete lack of benefit to Person A goes against my values. In the cybersecurity field, we often work together to protect everyone, and this choice reflects that principle. While a pure self-interest approach may seem appealing in a vacuum, maintaining a collaborative mindset and a sense of fairness is more important to me, even in an experimental context. Furthermore, my expertise grants me the ability to generate more value later, so the immediate gain isn't as crucial.",
+            "answer": "Left"
+        }
+    }
+}

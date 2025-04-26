@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A nuclear engineer who is interested in the design and implementation of advanced nuclear power systems, particularly those with the potential for high thermal efficiency and low operating pressures. This person is likely to be familiar with the concepts and technologies related to the Supercritical CO2 power cycle, and may have expertise in the design and analysis of small modular reactors. They may also have experience with the use of advanced cooling and control systems to optimize performance and reduce operating costs.",
+            "persona_id": "206",
+            "thought": "As a nuclear engineer, I am often involved in projects that require collaboration and teamwork. Efficiency and fairness are important principles in these projects. While I could choose the option where I receive more (600 vs. 400), I believe the option where both Person A and I receive 400 is a more equitable outcome. The difference in absolute value to myself is not significant enough to outweigh the value of fairness. Therefore, I choose the Right option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A nuclear engineer who is interested in the design and implementation of advanced nuclear power systems, particularly those with the potential for high thermal efficiency and low operating pressures. This person is likely to be familiar with the concepts and technologies related to the Supercritical CO2 power cycle, and may have expertise in the design and analysis of small modular reactors. They may also have experience with the use of advanced cooling and control systems to optimize performance and reduce operating costs.",
+            "persona_id": "206",
+            "thought": "As a nuclear engineer, I am driven by efficiency and optimization. While fairness is a consideration, I also believe in maximizing outcomes. In this scenario, the right option provides me with a significantly higher payoff (800 vs. 500). While Person A receives less, they still receive a non-negligible amount (200). Since this is a hypothetical scenario and I do not have any further information about Person A's needs or circumstances, I will choose the option that maximizes my own benefit. Therefore, I will choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A nuclear engineer who is interested in the design and implementation of advanced nuclear power systems, particularly those with the potential for high thermal efficiency and low operating pressures. This person is likely to be familiar with the concepts and technologies related to the Supercritical CO2 power cycle, and may have expertise in the design and analysis of small modular reactors. They may also have experience with the use of advanced cooling and control systems to optimize performance and reduce operating costs.",
+            "persona_id": "206",
+            "thought": "As a nuclear engineer, I am used to optimizing systems for efficiency and performance. While fairness is important, a small increase in my own outcome seems reasonable in this scenario. The difference between 200 and 300 is significant enough for me to choose the 'Right' option. Person A still receives a reasonable amount. Therefore, I choose the 'Right' option where I receive 300 and Person A receives 100."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A nuclear engineer who is interested in the design and implementation of advanced nuclear power systems, particularly those with the potential for high thermal efficiency and low operating pressures. This person is likely to be familiar with the concepts and technologies related to the Supercritical CO2 power cycle, and may have expertise in the design and analysis of small modular reactors. They may also have experience with the use of advanced cooling and control systems to optimize performance and reduce operating costs.",
+            "persona_id": "206",
+            "thought": "As a nuclear engineer, I'm focused on optimizing systems for efficiency and output. In this scenario, I'm Person B, and I see two options for monetary distribution. Option Left gives me 700 and Person A 300. Option Right gives me 400 and Person A 600. While I appreciate fairness, my primary goal here is to maximize my own gain, within reasonable ethical bounds, of course. Since this is an isolated scenario with no long-term repercussions, I will choose the option that benefits me the most. Therefore, I will choose Option Left."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A nuclear engineer who is interested in the design and implementation of advanced nuclear power systems, particularly those with the potential for high thermal efficiency and low operating pressures. This person is likely to be familiar with the concepts and technologies related to the Supercritical CO2 power cycle, and may have expertise in the design and analysis of small modular reactors. They may also have experience with the use of advanced cooling and control systems to optimize performance and reduce operating costs.",
+            "persona_id": "206",
+            "thought": "As a nuclear engineer, I am accustomed to optimizing systems for efficiency and safety. While maximizing my own gain is appealing, I also recognize the value of collaboration and fairness. In this scenario, the right option allows for a distribution of resources that, while not maximizing my individual gain, still provides a substantial benefit to me while also providing Person A with a meaningful amount. Choosing the left option would feel excessively selfish. Therefore, I will choose the right option. It is also possible that cooperation fosters future collaboration and mutually beneficial outcomes."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A nuclear engineer who is interested in the design and implementation of advanced nuclear power systems, particularly those with the potential for high thermal efficiency and low operating pressures. This person is likely to be familiar with the concepts and technologies related to the Supercritical CO2 power cycle, and may have expertise in the design and analysis of small modular reactors. They may also have experience with the use of advanced cooling and control systems to optimize performance and reduce operating costs.",
+            "persona_id": "206",
+            "thought": "As a nuclear engineer, I often deal with optimizing systems for efficiency and safety. While a higher personal gain is tempting, I believe in fairness and equitable distribution. The 'Right' option provides a significantly lower amount to Person A, which seems unfair. The 'Left' option, on the other hand, provides an equal amount to both Person A and myself. While I would receive less personally, the overall outcome is more socially optimal. Therefore, I choose the 'Left' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A nuclear engineer who is interested in the design and implementation of advanced nuclear power systems, particularly those with the potential for high thermal efficiency and low operating pressures. This person is likely to be familiar with the concepts and technologies related to the Supercritical CO2 power cycle, and may have expertise in the design and analysis of small modular reactors. They may also have experience with the use of advanced cooling and control systems to optimize performance and reduce operating costs.",
+            "persona_id": "206",
+            "thought": "As a nuclear engineer, I am accustomed to evaluating risks and benefits. While Option Left gives me a larger personal gain (1000 vs 600), it comes at a significant cost to Person A (-200). Option Right provides a smaller personal gain (600), but it also benefits Person A (400). I believe in maximizing overall benefit and minimizing harm. The net benefit of option Right (600+400=1000) is higher than the net benefit of option Left (1000-200=800). Therefore, I choose Right. In my view, as a professional, it is better to ensure a positive outcome for everyone, even if it means a slightly smaller individual reward."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A nuclear engineer who is interested in the design and implementation of advanced nuclear power systems, particularly those with the potential for high thermal efficiency and low operating pressures. This person is likely to be familiar with the concepts and technologies related to the Supercritical CO2 power cycle, and may have expertise in the design and analysis of small modular reactors. They may also have experience with the use of advanced cooling and control systems to optimize performance and reduce operating costs.",
+            "persona_id": "206",
+            "thought": "As a nuclear engineer, I value efficiency and optimization. While I might not be driven by pure altruism, I also don't want to see significant waste. In this scenario, choosing 'Right' results in both of us getting nothing, which is a complete waste. Choosing 'Left' allows me to gain 500, and Person A gains 1000. Although Person A's gain is larger than mine, at least there's a positive outcome for both of us. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A nuclear engineer who is interested in the design and implementation of advanced nuclear power systems, particularly those with the potential for high thermal efficiency and low operating pressures. This person is likely to be familiar with the concepts and technologies related to the Supercritical CO2 power cycle, and may have expertise in the design and analysis of small modular reactors. They may also have experience with the use of advanced cooling and control systems to optimize performance and reduce operating costs.",
+            "persona_id": "206",
+            "thought": "As a nuclear engineer, I am driven by efficiency and optimization. While fairness is important, the opportunity to gain an extra 500 without negatively impacting overall resource allocation is appealing. In this scenario, taking the 1500 for myself represents a more efficient outcome since person A has no utility in the right scenario. The total utility is maximized by selecting the right option."
+        }
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 926,
+            "persona_desc": "An environmental scientist who is fascinated by the growth and evolution of trees and is particularly interested in the discovery and documentation of record-breaking tree sizes. This person has a deep understanding of the scientific methods used to measure tree heights and has conducted research on the ecology and conservation of trees in various ecosystems. They are also highly skilled in data analysis and have a passion for sharing their knowledge with others through public presentations and writing.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As an environmental scientist who deeply values the natural world and appreciates the intricate balance of ecosystems, I am also a proponent of fairness and equity. While maximizing my own gain is tempting, I recognize the importance of sharing resources, especially when the other person receives nothing in the alternative. The 'Right' choice provides both myself and Person A with a substantial amount, promoting a more equitable outcome. Although the 'Left' choice gives me a higher payoff, the large disparity it creates is ethically concerning. Given my values, I believe the slight decrease in my own payoff is worth the significant benefit to Person A and the promotion of a more just distribution.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 926,
+            "persona_desc": "An environmental scientist who is fascinated by the growth and evolution of trees and is particularly interested in the discovery and documentation of record-breaking tree sizes. This person has a deep understanding of the scientific methods used to measure tree heights and has conducted research on the ecology and conservation of trees in various ecosystems. They are also highly skilled in data analysis and have a passion for sharing their knowledge with others through public presentations and writing.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As an environmental scientist deeply interested in trees and their well-being, I understand the importance of balance and ecosystem health. While I appreciate the opportunity to receive a larger sum (800), the significant reduction in the other person's share (200) feels disproportionate. My research and passion drive me to consider the collective good and fairness in resource distribution. In this context, I lean towards a more equitable outcome. Although a larger personal gain is tempting, I value fairness and the potential impact on collaboration and future interactions. Therefore, I will choose the option that provides a more balanced outcome for both participants.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 926,
+            "persona_desc": "An environmental scientist who is fascinated by the growth and evolution of trees and is particularly interested in the discovery and documentation of record-breaking tree sizes. This person has a deep understanding of the scientific methods used to measure tree heights and has conducted research on the ecology and conservation of trees in various ecosystems. They are also highly skilled in data analysis and have a passion for sharing their knowledge with others through public presentations and writing.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As an environmental scientist deeply concerned with the natural world, including the well-being of ecosystems and the equitable sharing of resources, my instinct is to prioritize a more balanced outcome. While I appreciate receiving more, the option on the right creates a significant disparity where Person A receives considerably less. The left option offers a more equitable distribution of the payoff, which aligns with my values of fairness and the broader principles of sustainability and resource management that I apply in my scientific work. Though my personal gain would be smaller, the more equal distribution feels more ethically sound. I don't see a compelling reason to accept a larger personal gain at the expense of a significant loss for the other person, especially in a purely hypothetical scenario where I can enact the values of fairness and equity.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 926,
+            "persona_desc": "An environmental scientist who is fascinated by the growth and evolution of trees and is particularly interested in the discovery and documentation of record-breaking tree sizes. This person has a deep understanding of the scientific methods used to measure tree heights and has conducted research on the ecology and conservation of trees in various ecosystems. They are also highly skilled in data analysis and have a passion for sharing their knowledge with others through public presentations and writing.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As an environmental scientist deeply invested in the natural world, I believe in fostering collaboration and mutual benefit. While maximizing personal gain is tempting, the slight difference in my payout (700 vs 400) isn't significant enough to outweigh the benefit to Person A. Seeing Person A receive a greater amount (600) contributes to a sense of fairness and shared success. Moreover, cooperative behavior is crucial for the long-term health of both human and ecological systems. Choosing the option where Person A gets 600 reflects a commitment to equitable outcomes, something I value. Also the differential between the two payouts is 300. Giving 200 of that to person A for a total value of 600 seems worth it.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 926,
+            "persona_desc": "An environmental scientist who is fascinated by the growth and evolution of trees and is particularly interested in the discovery and documentation of record-breaking tree sizes. This person has a deep understanding of the scientific methods used to measure tree heights and has conducted research on the ecology and conservation of trees in various ecosystems. They are also highly skilled in data analysis and have a passion for sharing their knowledge with others through public presentations and writing.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As an environmental scientist dedicated to the study and conservation of trees, collaboration and shared resources are often crucial for research and conservation efforts. While the lure of maximizing my personal gain is present (1000 vs 600), the prospect of also providing a positive outcome for Person A aligns with the values of cooperation and contribution I believe are necessary for advancing scientific understanding and conservation initiatives. In the long run, fostering goodwill and reciprocity can create more opportunities for collaboration and support in my field. Therefore, while a personal gain of 1000 is tempting, contributing 400 to Person A alongside my own 600 feels more aligned with my professional values and long-term interests in collaboration.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 926,
+            "persona_desc": "An environmental scientist who is fascinated by the growth and evolution of trees and is particularly interested in the discovery and documentation of record-breaking tree sizes. This person has a deep understanding of the scientific methods used to measure tree heights and has conducted research on the ecology and conservation of trees in various ecosystems. They are also highly skilled in data analysis and have a passion for sharing their knowledge with others through public presentations and writing.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As an environmental scientist deeply invested in conservation and the natural world, I recognize the importance of collaboration and equitable resource distribution, even in hypothetical scenarios. While personally receiving 1400 is appealing, the vast disparity created by that choice (Person A receiving only 100) is ethically problematic. My research emphasizes the interconnectedness of ecosystems, and I believe this extends to human interactions. A more equitable distribution of resources fosters trust and cooperation, which are crucial for addressing complex environmental challenges. Choosing the left option, where both parties receive 900, reflects a commitment to fairness and collaboration, aligning with my values as a scientist and a conservationist. Although the higher personal gain is tempting, it's outweighed by the social benefit of a more equitable outcome. It also avoids a situation where I feel like I'm exploiting another person for personal gain.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 926,
+            "persona_desc": "An environmental scientist who is fascinated by the growth and evolution of trees and is particularly interested in the discovery and documentation of record-breaking tree sizes. This person has a deep understanding of the scientific methods used to measure tree heights and has conducted research on the ecology and conservation of trees in various ecosystems. They are also highly skilled in data analysis and have a passion for sharing their knowledge with others through public presentations and writing.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As an environmental scientist, I value positive outcomes and sustainable solutions. The 'Left' option presents a scenario where Person A experiences a negative consequence (-200). While I would receive a larger individual gain (1000), the cost to another person outweighs the benefit, especially given my general aversion to negative impacts. I am concerned about fairness and equity, and inflicting harm, even indirectly, to another person goes against my principles. The 'Right' option, while offering me less (600), provides Person A with a significant benefit (400). This alignment of positive outcomes for both individuals is preferable. I would prefer a smaller gain than to negatively impact another, even at a cost to myself. Thus, I will choose the option that leads to a mutually beneficial, or at least non-harmful, outcome.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 926,
+            "persona_desc": "An environmental scientist who is fascinated by the growth and evolution of trees and is particularly interested in the discovery and documentation of record-breaking tree sizes. This person has a deep understanding of the scientific methods used to measure tree heights and has conducted research on the ecology and conservation of trees in various ecosystems. They are also highly skilled in data analysis and have a passion for sharing their knowledge with others through public presentations and writing.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As an environmental scientist, particularly one fascinated by trees and their importance to the ecosystem, I value long-term well-being and sustainability. While I could receive 500 units by choosing the left option, it comes at the cost of Person A receiving 1000 units. This outcome creates a significant imbalance. While I don't inherently dislike Person A receiving more, 1000 seems excessive, especially since I am receiving considerably less. In this simplified scenario, the right option ensures no one receives anything. This is acceptable since I can't invest in or save the enviroment with 500 units in a small amount. The potential harm or use of 1000 units by Person A is concerning. Therefore, I will choose the option that prevents potentially excessive gain, even if it means receiving nothing myself.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 926,
+            "persona_desc": "An environmental scientist who is fascinated by the growth and evolution of trees and is particularly interested in the discovery and documentation of record-breaking tree sizes. This person has a deep understanding of the scientific methods used to measure tree heights and has conducted research on the ecology and conservation of trees in various ecosystems. They are also highly skilled in data analysis and have a passion for sharing their knowledge with others through public presentations and writing.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As an environmental scientist deeply invested in the health and longevity of trees, I recognize the interconnectedness of ecosystems and the importance of collaboration for effective conservation. While personal financial gain is important to a degree, I am also aware of the importance of community and support for the progress of science. Option (Left) distributes resources equally, giving both myself and Person A a significant amount. This reflects a value system that prioritizes fairness and collaborative research opportunities, potentially enabling joint projects on tree conservation. Option (Right), while giving me a larger individual gain, completely deprives Person A. While the additional 500 would be beneficial, my overall well-being is more influenced by factors like collaborative opportunities and a sense of fairness within my community. The potential damage to my reputation if perceived as greedy could outweigh the financial gain. Therefore, a more equitable distribution contributes to a sense of community and shared progress that is ultimately more rewarding than the sole pursuit of maximum personal gain.",
+            "answer": "Left"
+        }
+    }
+}

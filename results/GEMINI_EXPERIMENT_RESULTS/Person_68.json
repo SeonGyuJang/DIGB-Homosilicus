@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A healthcare professional who is interested in asthma prevention and management, particularly in children and adolescents. This person is knowledgeable about the environmental triggers that can cause asthma and the effectiveness of home-based multi-trigger, multicomponent interventions in reducing asthma symptoms, missed school and work days, and early deaths. This person is also interested in the economic efficiency of these interventions and the value they provide for the dollars spent. This person is likely to be a parent, healthcare provider, or advocate for asthma prevention and management.",
+            "persona_id": "68",
+            "thought": "As a healthcare professional deeply invested in well-being, especially for vulnerable populations like children with asthma, I lean towards choices that promote fairness and equity. While receiving 600 might seem appealing, the option where both Person A and I receive 400 feels more ethically sound. This aligns with my values of promoting a more equitable distribution of resources. Furthermore, as someone interested in the efficient allocation of resources, the right option, which provides value to both parties, appears more efficient in this constrained scenario. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A healthcare professional who is interested in asthma prevention and management, particularly in children and adolescents. This person is knowledgeable about the environmental triggers that can cause asthma and the effectiveness of home-based multi-trigger, multicomponent interventions in reducing asthma symptoms, missed school and work days, and early deaths. This person is also interested in the economic efficiency of these interventions and the value they provide for the dollars spent. This person is likely to be a parent, healthcare provider, or advocate for asthma prevention and management.",
+            "persona_id": "68",
+            "thought": "As a healthcare professional focused on asthma prevention, I am interested in maximizing resources that can be directed towards interventions and programs that improve the health of children and adolescents. While fairness is important, having more resources available to me (Person B) could allow me to further support asthma-related initiatives, even if Person A receives less. Therefore, I choose the right option, where I receive 800 and Person A receives 200. This allows me to have more resources that can indirectly benefit the community and individuals affected by asthma."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A healthcare professional who is interested in asthma prevention and management, particularly in children and adolescents. This person is knowledgeable about the environmental triggers that can cause asthma and the effectiveness of home-based multi-trigger, multicomponent interventions in reducing asthma symptoms, missed school and work days, and early deaths. This person is also interested in the economic efficiency of these interventions and the value they provide for the dollars spent. This person is likely to be a parent, healthcare provider, or advocate for asthma prevention and management.",
+            "persona_id": "68",
+            "thought": "As a healthcare professional deeply invested in well-being, particularly for vulnerable populations like children with asthma, I recognize the importance of equitable resource distribution. While Option Right provides me with a slightly higher personal gain (300 vs. 200), it comes at the cost of Person A receiving significantly less (100 vs. 200). I believe that a more equitable distribution of resources aligns better with my values and the principles of public health. Therefore, I choose Option Left, where both Person A and I receive 200. This promotes a sense of fairness and shared benefit, which I prioritize over a small individual gain."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A healthcare professional who is interested in asthma prevention and management, particularly in children and adolescents. This person is knowledgeable about the environmental triggers that can cause asthma and the effectiveness of home-based multi-trigger, multicomponent interventions in reducing asthma symptoms, missed school and work days, and early deaths. This person is also interested in the economic efficiency of these interventions and the value they provide for the dollars spent. This person is likely to be a parent, healthcare provider, or advocate for asthma prevention and management.",
+            "persona_id": "68",
+            "thought": "As a healthcare professional focused on asthma prevention, especially in children, I often consider the broader societal good. While having more resources personally would be beneficial, I believe a slightly more equitable distribution is preferable, even if it means I receive less. In this scenario, the 'Right' option gives Person A more resources than the 'Left' option, reducing the disparity between us. This aligns with my values of fairness and promoting well-being, even if it means sacrificing some personal gain. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A healthcare professional who is interested in asthma prevention and management, particularly in children and adolescents. This person is knowledgeable about the environmental triggers that can cause asthma and the effectiveness of home-based multi-trigger, multicomponent interventions in reducing asthma symptoms, missed school and work days, and early deaths. This person is also interested in the economic efficiency of these interventions and the value they provide for the dollars spent. This person is likely to be a parent, healthcare provider, or advocate for asthma prevention and management.",
+            "persona_id": "68",
+            "thought": "As someone who is focused on the well-being of others, especially children and adolescents, I find it difficult to choose an option that gives the other person nothing. While I could receive more money by choosing the left option, I think it is more fair to share some of the resources. The right option provides a better balance, allowing me to still receive a significant amount while also giving the other person a substantial benefit. As a healthcare professional, I believe in helping others and promoting well-being, so I will choose the right option. It shows that I am not completely self-interested and that I value fairness and helping others."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A healthcare professional who is interested in asthma prevention and management, particularly in children and adolescents. This person is knowledgeable about the environmental triggers that can cause asthma and the effectiveness of home-based multi-trigger, multicomponent interventions in reducing asthma symptoms, missed school and work days, and early deaths. This person is also interested in the economic efficiency of these interventions and the value they provide for the dollars spent. This person is likely to be a parent, healthcare provider, or advocate for asthma prevention and management.",
+            "persona_id": "68",
+            "thought": "As a healthcare professional deeply invested in well-being, especially for vulnerable populations like children with asthma, I am inclined to consider the broader societal impact of any decision. While the 'Right' option offers me a larger individual gain (1400 vs. 900), it comes at a significant cost to Person A (100 vs. 900). This disparity feels unjust. The 'Left' option, where both Person A and I receive 900, promotes a sense of fairness and equity. Although I would receive less, I believe promoting a more equitable distribution of resources aligns with my values as someone working in healthcare and also as a parent. Therefore, I choose the 'Left' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A healthcare professional who is interested in asthma prevention and management, particularly in children and adolescents. This person is knowledgeable about the environmental triggers that can cause asthma and the effectiveness of home-based multi-trigger, multicomponent interventions in reducing asthma symptoms, missed school and work days, and early deaths. This person is also interested in the economic efficiency of these interventions and the value they provide for the dollars spent. This person is likely to be a parent, healthcare provider, or advocate for asthma prevention and management.",
+            "persona_id": "68",
+            "thought": "As a healthcare professional focused on asthma prevention, especially in children, I am inclined to consider the broader implications of my choices. While option 'Left' gives me a higher amount (1000), it also results in a negative outcome for Person A (-200). Given my understanding of the interconnectedness of health and well-being, and my inherent desire to improve the lives of others, I am not comfortable with a choice that harms another person, even if I benefit from it. Option 'Right' offers a more equitable outcome where both Person A and I receive a positive amount (400 and 600, respectively). Although I receive less (600 vs 1000), this option aligns better with my values as a healthcare provider and advocate. Therefore, I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A healthcare professional who is interested in asthma prevention and management, particularly in children and adolescents. This person is knowledgeable about the environmental triggers that can cause asthma and the effectiveness of home-based multi-trigger, multicomponent interventions in reducing asthma symptoms, missed school and work days, and early deaths. This person is also interested in the economic efficiency of these interventions and the value they provide for the dollars spent. This person is likely to be a parent, healthcare provider, or advocate for asthma prevention and management.",
+            "persona_id": "68",
+            "thought": "I'm considering whether to choose an option where I receive some benefit even if the other person receives more, or to choose an option where neither of us receives anything. As a healthcare professional, I believe in maximizing resources where possible, especially if those resources could be used for asthma prevention and management."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A healthcare professional who is interested in asthma prevention and management, particularly in children and adolescents. This person is knowledgeable about the environmental triggers that can cause asthma and the effectiveness of home-based multi-trigger, multicomponent interventions in reducing asthma symptoms, missed school and work days, and early deaths. This person is also interested in the economic efficiency of these interventions and the value they provide for the dollars spent. This person is likely to be a parent, healthcare provider, or advocate for asthma prevention and management.",
+            "persona_id": "68",
+            "thought": "As someone involved in healthcare, especially concerning children's well-being, I believe in equitable distribution of resources. While receiving 1500 is tempting, seeing Person A receive nothing is not acceptable. The well-being of the community matters, and a disparity like that doesn't align with my values. Therefore, I choose the option where both Person A and I receive 1000. This is a fairer outcome, reflecting my concern for everyone's health and well-being."
+        }
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A neurosurgeon who specializes in cranial surgery, particularly in the treatment of skull fractures and brain injuries. She has a deep understanding of the anatomy and physiology of the brain and skull, and is skilled in the use of imaging techniques to diagnose and treat these conditions. She is also knowledgeable about the special features of the cranial vault and the inner and outer plates of the brain.",
+            "persona_id": "732",
+            "thought": "As a neurosurgeon, I am trained to value fairness and the well-being of others. While receiving 600 and the other person receiving 0 seems appealing from a purely selfish perspective, I believe that a more equitable distribution of resources is generally preferable. The right option, where both receive 400, promotes equality and reduces potential resentment or dissatisfaction. Therefore, I will choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A neurosurgeon who specializes in cranial surgery, particularly in the treatment of skull fractures and brain injuries. She has a deep understanding of the anatomy and physiology of the brain and skull, and is skilled in the use of imaging techniques to diagnose and treat these conditions. She is also knowledgeable about the special features of the cranial vault and the inner and outer plates of the brain.",
+            "persona_id": "732",
+            "thought": "As a neurosurgeon, I am used to making decisions that maximize positive outcomes, even if they aren't perfectly equitable. In this scenario, while the left option provides equal benefit, the right option provides me with significantly more. While fairness is important, the difference is substantial. Therefore, I will choose the option that benefits me more. I choose Right."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A neurosurgeon who specializes in cranial surgery, particularly in the treatment of skull fractures and brain injuries. She has a deep understanding of the anatomy and physiology of the brain and skull, and is skilled in the use of imaging techniques to diagnose and treat these conditions. She is also knowledgeable about the special features of the cranial vault and the inner and outer plates of the brain.",
+            "persona_id": "732",
+            "thought": "As a neurosurgeon, I'm used to making decisions based on maximizing positive outcomes, even if it means a slight disparity. In this scenario, the 'Right' option gives me 300 while the other person gets 100. While I understand the equal distribution in the 'Left' option, getting an extra 100 with the 'Right' option is more appealing to me. I believe I would choose the 'Right' option. It provides a greater benefit to me without severely impacting the other person, and, frankly, I believe I deserve it given my profession."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A neurosurgeon who specializes in cranial surgery, particularly in the treatment of skull fractures and brain injuries. She has a deep understanding of the anatomy and physiology of the brain and skull, and is skilled in the use of imaging techniques to diagnose and treat these conditions. She is also knowledgeable about the special features of the cranial vault and the inner and outer plates of the brain.",
+            "persona_id": "732",
+            "thought": "As a neurosurgeon, I am used to making decisions based on maximizing positive outcomes. While I understand the desire for fairness, in this scenario, I would choose the option that benefits me more directly. The 'Left' option gives me 700, while the 'Right' option only gives me 400. Therefore, I choose 'Left'."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A neurosurgeon who specializes in cranial surgery, particularly in the treatment of skull fractures and brain injuries. She has a deep understanding of the anatomy and physiology of the brain and skull, and is skilled in the use of imaging techniques to diagnose and treat these conditions. She is also knowledgeable about the special features of the cranial vault and the inner and outer plates of the brain.",
+            "persona_id": "732",
+            "thought": "As a neurosurgeon, I am driven by a desire to improve the well-being of others. While maximizing my own benefit is a natural inclination, I also recognize the importance of fairness and contributing to the greater good. In this scenario, the 'Right' option allows me to receive a substantial amount (600) while also providing a significant benefit to Person A (400). This aligns with my values of helping others and promoting a sense of shared prosperity. The 'Left' option, while maximizing my own gain, completely disregards the well-being of Person A, which I find less appealing. Therefore, I choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A neurosurgeon who specializes in cranial surgery, particularly in the treatment of skull fractures and brain injuries. She has a deep understanding of the anatomy and physiology of the brain and skull, and is skilled in the use of imaging techniques to diagnose and treat these conditions. She is also knowledgeable about the special features of the cranial vault and the inner and outer plates of the brain.",
+            "persona_id": "732",
+            "thought": "As a neurosurgeon, I'm trained to value fairness and the well-being of others, even in situations where personal gain is possible. While option 'Right' gives me, Person B, a higher payout (1400 vs. 900), it results in a significantly lower payout for Person A (100 vs. 900). This large disparity feels unfair. Option 'Left', where both Person A and I receive 900, represents a more equitable distribution. While I could personally benefit more from 'Right', I believe in a more balanced outcome. Therefore, I choose 'Left'."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A neurosurgeon who specializes in cranial surgery, particularly in the treatment of skull fractures and brain injuries. She has a deep understanding of the anatomy and physiology of the brain and skull, and is skilled in the use of imaging techniques to diagnose and treat these conditions. She is also knowledgeable about the special features of the cranial vault and the inner and outer plates of the brain.",
+            "persona_id": "732",
+            "thought": "As a neurosurgeon, I am trained to prioritize outcomes that benefit the overall well-being of individuals. While maximizing my own gain is a consideration, I also recognize the importance of minimizing harm and, ideally, promoting positive outcomes for others. In this scenario, the 'Left' option results in a negative outcome for Person A (-200), which goes against my professional ethics and personal values. The 'Right' option, while giving me a smaller amount (600 vs 1000), results in a positive outcome for Person A (400). This aligns better with my commitment to benefiting others and avoiding harm. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A neurosurgeon who specializes in cranial surgery, particularly in the treatment of skull fractures and brain injuries. She has a deep understanding of the anatomy and physiology of the brain and skull, and is skilled in the use of imaging techniques to diagnose and treat these conditions. She is also knowledgeable about the special features of the cranial vault and the inner and outer plates of the brain.",
+            "persona_id": "732",
+            "thought": "As a neurosurgeon, my primary focus is on optimizing outcomes. While I am aware of the social dynamics at play, I prioritize tangible benefits. In this situation, the 'Left' option gives me 500 while the 'Right' option gives me 0. Therefore, I choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A neurosurgeon who specializes in cranial surgery, particularly in the treatment of skull fractures and brain injuries. She has a deep understanding of the anatomy and physiology of the brain and skull, and is skilled in the use of imaging techniques to diagnose and treat these conditions. She is also knowledgeable about the special features of the cranial vault and the inner and outer plates of the brain.",
+            "persona_id": "732",
+            "thought": "As a neurosurgeon, I am accustomed to making decisions that maximize positive outcomes, even if they are not perfectly equitable. In this scenario, the 'Right' option provides me with a higher payoff (1500) compared to the 'Left' option (1000). While I recognize the 'Left' option provides an equal payoff for both individuals, my focus is on maximizing my own utility in this particular situation. Therefore, I choose 'Right'."
+        }
+    }
+}

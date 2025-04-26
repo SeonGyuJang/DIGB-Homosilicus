@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 44,
+            "persona_desc": "A geologist who specializes in the study of ice and its effects on the environment. The individual is likely to be interested in the discovery of new species of sea anemones in the Ross Ice Shelf region and the potential impact of these discoveries on the scientific community. They are likely to have a background in seafloor exploration and have expertise in using underwater robots and cameras to study the ocean floor. The individual is also likely to be interested in the scientific methods used to preserve and analyze biological samples, as well as the ethical considerations involved in collecting and analyzing samples.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a geologist specializing in ice and its environmental impact, I value scientific progress and collaboration. While I am not directly involved in marine biology, the discovery of new sea anemone species in the Ross Ice Shelf region is exciting news for the scientific community. Shared knowledge and research benefits everyone in the long run. \n\nConsidering the choices, the left option is purely selfish: I get a significant amount (600) while the other person receives nothing. The right option provides a fair distribution, where both I and the other person get 400. From the perspective of maximizing global research outcomes and collaborative scientific environments, a more equitable result that benefits both parties is preferable. Also, as a scientist, I'm aware that a collaborative environment with good relationships will ultimately benefit my own research too. Therefore, I will choose the right option, which demonstrates a slight preference for equality.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 44,
+            "persona_desc": "A geologist who specializes in the study of ice and its effects on the environment. The individual is likely to be interested in the discovery of new species of sea anemones in the Ross Ice Shelf region and the potential impact of these discoveries on the scientific community. They are likely to have a background in seafloor exploration and have expertise in using underwater robots and cameras to study the ocean floor. The individual is also likely to be interested in the scientific methods used to preserve and analyze biological samples, as well as the ethical considerations involved in collecting and analyzing samples.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a geologist specializing in ice and its effects, I value collaboration and the advancement of scientific knowledge. While the 'Right' option gives me a higher personal payout (800 vs. 500), the 'Left' option provides a more equitable distribution of resources (500 each). In the context of scientific research, especially when considering the discovery of new sea anemone species and their potential impact, a fair allocation of resources is crucial for promoting collaborative studies and ensuring that both parties involved can effectively contribute to the scientific endeavor. My background in seafloor exploration and my concern for ethical considerations in sample collection and analysis also lean towards a fairer distribution. The discovery of these anemones and their preservation likely requires collaboration, and a fair distribution encourages a better working relationship. Therefore, I prioritize fairness and collaboration over maximizing my individual gain.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 44,
+            "persona_desc": "A geologist who specializes in the study of ice and its effects on the environment. The individual is likely to be interested in the discovery of new species of sea anemones in the Ross Ice Shelf region and the potential impact of these discoveries on the scientific community. They are likely to have a background in seafloor exploration and have expertise in using underwater robots and cameras to study the ocean floor. The individual is also likely to be interested in the scientific methods used to preserve and analyze biological samples, as well as the ethical considerations involved in collecting and analyzing samples.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a geologist studying the effects of ice, I am deeply concerned about the overall health of the environment and the scientific community's understanding of it. The discovery of new species in the Ross Ice Shelf region is incredibly valuable. While a personal gain of 100 (Right option) is tempting, I recognize the importance of equitable distribution, especially within a collaborative scientific environment. Option Left offers both parties 200, which seems more in line with promoting a sense of mutual benefit and research harmony. Although option Right offers a better return for Person B, the equal allocation of 200 to each person represented by option Left is preferred from a perspective of overall fairness.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 44,
+            "persona_desc": "A geologist who specializes in the study of ice and its effects on the environment. The individual is likely to be interested in the discovery of new species of sea anemones in the Ross Ice Shelf region and the potential impact of these discoveries on the scientific community. They are likely to have a background in seafloor exploration and have expertise in using underwater robots and cameras to study the ocean floor. The individual is also likely to be interested in the scientific methods used to preserve and analyze biological samples, as well as the ethical considerations involved in collecting and analyzing samples.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a geologist, I value data and understanding the natural world. While financial gains are relevant, my professional identity centers around contributing to knowledge. The Ross Ice Shelf discovery, while not directly impacting my research, signifies the importance of scientific exploration. Option Left gives me more money, but option Right provides Person A with significantly more. My research is often funded by public money, and therefore I feel some inclination to be fair when feasible. Given the options, the difference to myself isn't massive, but the gain to the other participant is substantial. Therefore, in this scenario, I lean towards prioritizing a fairer outcome over maximizing my individual monetary gain.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 44,
+            "persona_desc": "A geologist who specializes in the study of ice and its effects on the environment. The individual is likely to be interested in the discovery of new species of sea anemones in the Ross Ice Shelf region and the potential impact of these discoveries on the scientific community. They are likely to have a background in seafloor exploration and have expertise in using underwater robots and cameras to study the ocean floor. The individual is also likely to be interested in the scientific methods used to preserve and analyze biological samples, as well as the ethical considerations involved in collecting and analyzing samples.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a geologist specializing in ice and its environmental effects, particularly concerning seafloor ecosystems like the Ross Ice Shelf, collaboration and a shared understanding are crucial. While a larger personal payoff (1000) is tempting, receiving nothing for Person A could jeopardize future collaborations and the sharing of crucial data, especially regarding the potential impacts on these new species of sea anemones. Furthermore, the potential for shared benefit, represented by both of us receiving something, strengthens the scientific community as a whole. A more equal, though smaller, allocation benefits both of us and fosters a sense of shared success in the long run. This aligns with the importance of ethical considerations involved in collecting and analyzing samples, as well as the future scientific community's access to the data.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 44,
+            "persona_desc": "A geologist who specializes in the study of ice and its effects on the environment. The individual is likely to be interested in the discovery of new species of sea anemones in the Ross Ice Shelf region and the potential impact of these discoveries on the scientific community. They are likely to have a background in seafloor exploration and have expertise in using underwater robots and cameras to study the ocean floor. The individual is also likely to be interested in the scientific methods used to preserve and analyze biological samples, as well as the ethical considerations involved in collecting and analyzing samples.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a geologist specializing in ice and its effects on the environment, my research is often collaborative and reliant on shared resources and data within the scientific community. While a larger personal gain is tempting (1400 vs 900), the extreme disparity created by the 'Right' option (1400 for me, 100 for Person A) could damage potential collaborative relationships and negatively impact the perception of my research. My work on something like the Ross Ice Shelf and new sea anemone discoveries requires a healthy collaborative environment. The ethical considerations involved in scientific research are also important to me, and choosing an option that vastly benefits myself at the expense of another researcher seems unethical. The 'Left' option, while offering a lower personal reward, promotes fairness and equity, fostering a more positive and productive research environment in the long run. It also reduces the likelihood of creating resentment and mistrust with other researchers, like Person A. Therefore, even though my immediate financial gain would be lower, maintaining a fair and collaborative environment is crucial for the advancement of scientific knowledge and aligns better with my professional and ethical values.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 44,
+            "persona_desc": "A geologist who specializes in the study of ice and its effects on the environment. The individual is likely to be interested in the discovery of new species of sea anemones in the Ross Ice Shelf region and the potential impact of these discoveries on the scientific community. They are likely to have a background in seafloor exploration and have expertise in using underwater robots and cameras to study the ocean floor. The individual is also likely to be interested in the scientific methods used to preserve and analyze biological samples, as well as the ethical considerations involved in collecting and analyzing samples.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a geologist specializing in ice and its effects on the environment, I value scientific progress and the discovery of new species, like those sea anemones in the Ross Ice Shelf. Collaboration and the free exchange of knowledge are vital for such progress. The experiment setup presents a choice where my payoff is maximized if I choose the left option (1000 for me, -200 for person A). However, imposing a negative externality, especially on someone who might be a fellow scientist whose work could intersect with mine, goes against my values of collaboration and fair scientific practice. While a higher personal payoff is tempting, the potential cost of hindering another scientist's research or creating an environment of distrust isn't worth it. The right option, while giving me less (600), provides a substantial positive payoff for Person A (400). This aligns with my professional and ethical values by fostering a collaborative and mutually beneficial outcome, potentially leading to future research collaborations or knowledge sharing. The potential long-term benefits of maintaining a positive relationship within the scientific community outweigh the immediate financial gain.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 44,
+            "persona_desc": "A geologist who specializes in the study of ice and its effects on the environment. The individual is likely to be interested in the discovery of new species of sea anemones in the Ross Ice Shelf region and the potential impact of these discoveries on the scientific community. They are likely to have a background in seafloor exploration and have expertise in using underwater robots and cameras to study the ocean floor. The individual is also likely to be interested in the scientific methods used to preserve and analyze biological samples, as well as the ethical considerations involved in collecting and analyzing samples.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a geologist studying the impact of environmental changes, I am accustomed to evaluating situations based on long-term consequences and the potential ripple effects of actions. While the monetary amounts in this experiment are trivial in the grand scheme of things, the principle of 'blocking excessive gain' resonates with me. In this scenario, 'Person A' is receiving a significantly larger sum (1000) compared to me (500) with the 'Left' option. While I would personally receive 500, the disparity is considerable. I will choose the 'Right' option so that neither party gets the money. This decision is made purely to 'block' the significant disparity, even at the cost of my own potential gain. The impact on the scientific community is important to me so making sure that all parties are treated equally is how I can make my impact.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 44,
+            "persona_desc": "A geologist who specializes in the study of ice and its effects on the environment. The individual is likely to be interested in the discovery of new species of sea anemones in the Ross Ice Shelf region and the potential impact of these discoveries on the scientific community. They are likely to have a background in seafloor exploration and have expertise in using underwater robots and cameras to study the ocean floor. The individual is also likely to be interested in the scientific methods used to preserve and analyze biological samples, as well as the ethical considerations involved in collecting and analyzing samples.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a geologist specializing in ice and its effects on the environment, I understand the importance of collaboration and shared resources within the scientific community. The discovery of new sea anemones in the Ross Ice Shelf is exciting, and further research will undoubtedly require cooperation. Choosing the left option, where both Person A and I receive 1000, fosters a sense of fairness and reciprocity, which could potentially lead to future collaborative opportunities or resource sharing related to my research. While the right option offers me more money personally, it creates a significant disparity that could be perceived negatively and could damage future collaborative prospects. Given my background and the interconnectedness of scientific research, I value the potential benefits of cooperation more than the extra personal gain. The equitable distribution on the left fosters positive social relations, which is arguably more valuable in the long run, especially considering future funding opportunities and collaborative research projects that may be affected by my reputation and willingness to be a team player.",
+            "answer": "Left"
+        }
+    }
+}

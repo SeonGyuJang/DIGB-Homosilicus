@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A medical professional who specializes in the diagnosis and treatment of sudden cardiac death, particularly in adults who have coronary heart disease. This persona is likely to be interested in the text as they have a deep understanding of the causes, symptoms, diagnosis, and treatment of sudden cardiac death in adults with coronary heart disease. They are likely to be knowledgeable about the risk factors for sudden cardiac death, the importance of early detection and treatment, and the use of defibrillation and implantable cardioverter defibrillators in preventing sudden cardiac death. This persona may also be interested in learning about the latest research and developments in the field of sudden cardiac death.",
+            "persona_id": "548",
+            "thought": "As a medical professional, I am motivated by fairness and helping others. While receiving 600 and the other person receiving 0 is tempting, I believe it is more equitable for both of us to receive 400. This aligns with my values of promoting well-being and reducing disparities. Therefore, I will choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A medical professional who specializes in the diagnosis and treatment of sudden cardiac death, particularly in adults who have coronary heart disease. This persona is likely to be interested in the text as they have a deep understanding of the causes, symptoms, diagnosis, and treatment of sudden cardiac death in adults with coronary heart disease. They are likely to be knowledgeable about the risk factors for sudden cardiac death, the importance of early detection and treatment, and the use of defibrillation and implantable cardioverter defibrillators in preventing sudden cardiac death. This persona may also be interested in learning about the latest research and developments in the field of sudden cardiac death.",
+            "persona_id": "548",
+            "thought": "As a medical professional, I am constantly thinking about fairness and equitable distribution of resources, especially when dealing with patients and their families. While the 'Right' option gives me a higher payout (800 vs 500), it comes at the cost of Person A receiving significantly less (200 vs 500). I believe in a more equitable distribution, so I will choose the 'Left' option where both Person A and I receive 500. This reflects my values of fairness and a sense of social responsibility, which are paramount in my profession."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A medical professional who specializes in the diagnosis and treatment of sudden cardiac death, particularly in adults who have coronary heart disease. This persona is likely to be interested in the text as they have a deep understanding of the causes, symptoms, diagnosis, and treatment of sudden cardiac death in adults with coronary heart disease. They are likely to be knowledgeable about the risk factors for sudden cardiac death, the importance of early detection and treatment, and the use of defibrillation and implantable cardioverter defibrillators in preventing sudden cardiac death. This persona may also be interested in learning about the latest research and developments in the field of sudden cardiac death.",
+            "persona_id": "548",
+            "thought": "As a medical professional, I strive to maximize overall well-being. While I value fairness, the difference in the amounts is not significant enough to override the benefit of receiving more for myself. Choosing the right option gives me an extra 100, which can be used for research or furthering my medical knowledge, ultimately benefiting my patients. Therefore, I will choose the option where I receive 300 and Person A receives 100."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A medical professional who specializes in the diagnosis and treatment of sudden cardiac death, particularly in adults who have coronary heart disease. This persona is likely to be interested in the text as they have a deep understanding of the causes, symptoms, diagnosis, and treatment of sudden cardiac death in adults with coronary heart disease. They are likely to be knowledgeable about the risk factors for sudden cardiac death, the importance of early detection and treatment, and the use of defibrillation and implantable cardioverter defibrillators in preventing sudden cardiac death. This persona may also be interested in learning about the latest research and developments in the field of sudden cardiac death.",
+            "persona_id": "548",
+            "thought": "As a medical professional, I am dedicated to saving lives and improving the health of my patients. While I value fairness and equity, my primary focus is on maximizing overall well-being. In this scenario, the 'Left' option provides me with a higher gain (700) compared to the 'Right' option (400). Although Person A receives less in the 'Left' option (300) compared to the 'Right' option (600), the difference in my own gain is significant. Therefore, I choose the 'Left' option as it allows me to have more resources that I can use to further my research and improve patient care."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A medical professional who specializes in the diagnosis and treatment of sudden cardiac death, particularly in adults who have coronary heart disease. This persona is likely to be interested in the text as they have a deep understanding of the causes, symptoms, diagnosis, and treatment of sudden cardiac death in adults with coronary heart disease. They are likely to be knowledgeable about the risk factors for sudden cardiac death, the importance of early detection and treatment, and the use of defibrillation and implantable cardioverter defibrillators in preventing sudden cardiac death. This persona may also be interested in learning about the latest research and developments in the field of sudden cardiac death.",
+            "persona_id": "548",
+            "thought": "As a medical professional, I am driven by a desire to help others and alleviate suffering. While maximizing my own benefit is a natural inclination, I also believe in fairness and contributing to the well-being of others. In this scenario, the 'Right' option allows me to receive a substantial amount (600) while also providing a significant benefit to Person A (400). The 'Left' option, while maximizing my own gain (1000), leaves Person A with nothing. I believe that choosing the 'Right' option aligns more closely with my values as a healthcare provider and my sense of social responsibility. Therefore, I will choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A medical professional who specializes in the diagnosis and treatment of sudden cardiac death, particularly in adults who have coronary heart disease. This persona is likely to be interested in the text as they have a deep understanding of the causes, symptoms, diagnosis, and treatment of sudden cardiac death in adults with coronary heart disease. They are likely to be knowledgeable about the risk factors for sudden cardiac death, the importance of early detection and treatment, and the use of defibrillation and implantable cardioverter defibrillators in preventing sudden cardiac death. This persona may also be interested in learning about the latest research and developments in the field of sudden cardiac death.",
+            "persona_id": "548",
+            "thought": "As a medical professional, I am trained to value fairness and the well-being of others. While receiving 1400 is tempting, the scenario where Person A only receives 100 seems inherently unfair. The Left option, where both Person A and I receive 900, promotes a sense of equality and social utility. While my personal utility might be slightly lower, I believe that the increase in social utility outweighs the personal loss. Therefore, I choose the Left option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A medical professional who specializes in the diagnosis and treatment of sudden cardiac death, particularly in adults who have coronary heart disease. This persona is likely to be interested in the text as they have a deep understanding of the causes, symptoms, diagnosis, and treatment of sudden cardiac death in adults with coronary heart disease. They are likely to be knowledgeable about the risk factors for sudden cardiac death, the importance of early detection and treatment, and the use of defibrillation and implantable cardioverter defibrillators in preventing sudden cardiac death. This persona may also be interested in learning about the latest research and developments in the field of sudden cardiac death.",
+            "persona_id": "548",
+            "thought": "As a medical professional, I am inclined to consider the well-being of others. While receiving 1000 is appealing, causing a loss of 200 to another person feels unethical. Choosing the right option means I get 600 and the other person gets 400. While I personally receive less, the other person benefits, and no harm is done. This aligns with my professional values of minimizing harm and maximizing overall well-being. Therefore, I choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A medical professional who specializes in the diagnosis and treatment of sudden cardiac death, particularly in adults who have coronary heart disease. This persona is likely to be interested in the text as they have a deep understanding of the causes, symptoms, diagnosis, and treatment of sudden cardiac death in adults with coronary heart disease. They are likely to be knowledgeable about the risk factors for sudden cardiac death, the importance of early detection and treatment, and the use of defibrillation and implantable cardioverter defibrillators in preventing sudden cardiac death. This persona may also be interested in learning about the latest research and developments in the field of sudden cardiac death.",
+            "persona_id": "548",
+            "thought": "As a medical professional, I am driven by a sense of responsibility and fairness. While I don't necessarily need to maximize my own gain, I believe it is important to consider the overall outcome. In this scenario, the 'Left' option provides both Person A and myself with a positive outcome, even if Person A receives a larger amount. The 'Right' option, on the other hand, results in no benefit for either of us. Therefore, I choose the 'Left' option because it leads to a better overall outcome for both parties involved. It is better to have some gain than no gain at all. I don't see any ethical issues in either choice, so I will choose the one that benefits both parties."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A medical professional who specializes in the diagnosis and treatment of sudden cardiac death, particularly in adults who have coronary heart disease. This persona is likely to be interested in the text as they have a deep understanding of the causes, symptoms, diagnosis, and treatment of sudden cardiac death in adults with coronary heart disease. They are likely to be knowledgeable about the risk factors for sudden cardiac death, the importance of early detection and treatment, and the use of defibrillation and implantable cardioverter defibrillators in preventing sudden cardiac death. This persona may also be interested in learning about the latest research and developments in the field of sudden cardiac death.",
+            "persona_id": "548",
+            "thought": "As a medical professional, I am driven by a sense of fairness and a desire to improve the well-being of others. While receiving 1500 would be appealing, I believe that a more equitable distribution of resources is important. Therefore, I will choose the option where both Person A and I receive 1000. This decision reflects my values of fairness and social responsibility, which guide my actions both in my professional and personal life. The health and well-being of everyone is important, and I would like to reflect that in this decision."
+        }
+    }
+}

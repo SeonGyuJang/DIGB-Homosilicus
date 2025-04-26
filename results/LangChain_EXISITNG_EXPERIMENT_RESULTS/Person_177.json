@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 177,
+            "persona_desc": "A scientist with expertise in photobioreactor design and algae cultivation, specifically focused on the production of hydrogen from algae. This person has developed innovative methods for algae cultivation that are economically feasible and has successfully produced hydrogen from algae. They have a deep understanding of the step-by-step process involved in producing hydrogen from algae, including the optimal conditions for algae growth and the specific methods used to convert algae into hydrogen.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As a scientist focused on sustainable energy solutions, I am not intrinsically motivated by maximizing my own personal gain, especially when it comes at a small cost to another person. The choice between (400, 400) and (400, 750) presents a scenario where my payoff remains constant regardless of my choice. Selecting (400, 750) would result in Person A receiving a significantly higher payoff without impacting my own. As long as the experiment is ethical and doesn't use deception that might lead to harm, I can favor the outcome that gives more resources to the other participant.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 177,
+            "persona_desc": "A scientist with expertise in photobioreactor design and algae cultivation, specifically focused on the production of hydrogen from algae. This person has developed innovative methods for algae cultivation that are economically feasible and has successfully produced hydrogen from algae. They have a deep understanding of the step-by-step process involved in producing hydrogen from algae, including the optimal conditions for algae growth and the specific methods used to convert algae into hydrogen.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a scientist, I value efficiency and progress. While I am driven by a desire to contribute to sustainable energy solutions through my work with algae and hydrogen production, I also recognize the importance of fairness. However, in this scenario, I must weigh the potential benefits of maximizing my own resources against the desire for an equal distribution. \n\nOption (Left) provides me with 800, while Option (Right) provides me with 400 and also gives Person A 400. The difference in my earnings is 400. While I value fairness, I also value the ability to further my research. An extra 400 points, in the abstract, could be used to fund additional experimentation or acquire resources that would speed up the development of economically viable hydrogen production techniques. This, in the long run, could benefit society far more than an equal split in this instance.\n\nConsidering my persona as a scientist and the potential for my research to have a wide-reaching positive impact, I will prioritize maximizing my resources. While I acknowledge the potential ethical concerns around inequality, I believe the potential benefits of choosing the left option outweigh the costs.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 177,
+            "persona_desc": "A scientist with expertise in photobioreactor design and algae cultivation, specifically focused on the production of hydrogen from algae. This person has developed innovative methods for algae cultivation that are economically feasible and has successfully produced hydrogen from algae. They have a deep understanding of the step-by-step process involved in producing hydrogen from algae, including the optimal conditions for algae growth and the specific methods used to convert algae into hydrogen.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a scientist, I value efficiency and progress. Both choices in this scenario are extreme. The left option results in a very unequal distribution of resources, but it creates resources. I have 200 and the other person has 800, a total of 1000. The right option destroys resources. Neither of us get anything but we also have 0. I am more focused on creation and use of resources. While I do have a preference for equal distribution, I am willing to tolerate some degree of inequity to improve overall efficiency. The Left choice results in me getting resources and another person getting resources, so that leads to more efficient outcomes. Therefore, I choose left.",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 177,
+            "persona_desc": "A scientist with expertise in photobioreactor design and algae cultivation, specifically focused on the production of hydrogen from algae. This person has developed innovative methods for algae cultivation that are economically feasible and has successfully produced hydrogen from algae. They have a deep understanding of the step-by-step process involved in producing hydrogen from algae, including the optimal conditions for algae growth and the specific methods used to convert algae into hydrogen.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As a scientist, my primary goal is usually maximizing efficiency and resource utilization. However, this experiment focuses on social preferences, and my scientific background shouldn't necessarily dictate my choice. While I value my own gain, I also recognize the importance of fairness. Option (Left) gives me 700 and Person A 200. Option (Right) gives me 600 and Person A 600. Option (Right) is clearly more equitable. Even though I'd get slightly less (100 less), Person A benefits significantly (400 more). Given that the difference to me is relatively small, I'm choosing the outcome that promotes greater equality. Although my professional drive focuses on tangible outputs like hydrogen production, fairness is also important to me as an individual.",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 177,
+            "persona_desc": "A scientist with expertise in photobioreactor design and algae cultivation, specifically focused on the production of hydrogen from algae. This person has developed innovative methods for algae cultivation that are economically feasible and has successfully produced hydrogen from algae. They have a deep understanding of the step-by-step process involved in producing hydrogen from algae, including the optimal conditions for algae growth and the specific methods used to convert algae into hydrogen.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As a scientist deeply invested in algae-based hydrogen production, my primary concern is the advancement and application of this technology. While my personal earnings are a consideration, I also recognize the importance of collaboration and resource allocation within the scientific community. The slightly lower personal payout in the 'Right' option (500 vs. 600) is offset by the significantly higher payout to Person A (700 vs. 300). This suggests that Person A might have resources or capabilities that, if properly funded, could further contribute to the field of algae-based hydrogen production, potentially benefiting the entire community, including myself in the long run. Although a lower payout for me is not ideal, the larger collective impact and the potential for collaborative gains by giving more to Person A makes the 'Right' option more appealing from a utilitarian and long-term perspective within my professional context.",
+            "answer": "Right"
+        },
+        "scenario_6": {
+            "persona_id": 177,
+            "persona_desc": "A scientist with expertise in photobioreactor design and algae cultivation, specifically focused on the production of hydrogen from algae. This person has developed innovative methods for algae cultivation that are economically feasible and has successfully produced hydrogen from algae. They have a deep understanding of the step-by-step process involved in producing hydrogen from algae, including the optimal conditions for algae growth and the specific methods used to convert algae into hydrogen.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As a scientist focused on the economic viability of hydrogen production from algae, I prioritize efficiency and resource utilization. In this scenario, I'm presented with two options impacting resource allocation between myself (Person B) and Person A. While option (Right) gives Person A a larger share (750), it comes at a personal cost of 25 (400-375). Option (Left) provides a more equitable distribution (400 for both) without sacrificing personal gain. Given the nature of my work, resource optimization and minimizing waste are key principles. While I am not inherently motivated to increase inequality, the relatively small sacrifice for a significant increase in Person A's allocation in the Right scenario raises questions about the efficiency of such a reallocation. I will choose the Left scenario, as it allows to maintain a reasonable amount of resources while also providing Person A with sufficient resources. This aligns with a general sense of fairness and optimization.",
+            "answer": "Left"
+        }
+    }
+}

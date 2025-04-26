@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 834,
+            "persona_desc": "A video editor who specializes in analyzing and optimizing video files for high-quality compression, particularly in low-motion, talking-head video. They are familiar with the concepts of data rate, bits per pixel, and the trade-offs between compression and video quality. They use tools like MediaInfo and Bitrate Viewer to evaluate and optimize video files, and they are skilled in understanding the relationship between data rate, frame rate, and resolution to achieve optimal compression. They have a deep understanding of the limitations of compression and the importance of considering content and motion in selecting a data rate for video files.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As a video editor focused on optimizing compression, I understand the concept of diminishing returns. While getting more is generally better, in this experiment, my payoff is the same (400) regardless of the choice. The difference lies in the payoff for Person A. Choosing Right gives Person A a significantly higher payoff (750) compared to Left (400), without impacting my own payoff. Since my own outcome remains constant, I would prefer to choose the option that maximizes the payoff for Person A, as there's no cost to me and it leads to a more equitable distribution. This feels analogous to efficient data compression: extracting maximum value (payoff for A) without degrading my own experience (payoff for B).",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 834,
+            "persona_desc": "A video editor who specializes in analyzing and optimizing video files for high-quality compression, particularly in low-motion, talking-head video. They are familiar with the concepts of data rate, bits per pixel, and the trade-offs between compression and video quality. They use tools like MediaInfo and Bitrate Viewer to evaluate and optimize video files, and they are skilled in understanding the relationship between data rate, frame rate, and resolution to achieve optimal compression. They have a deep understanding of the limitations of compression and the importance of considering content and motion in selecting a data rate for video files.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As someone who works with video compression, I understand the concept of optimizing for efficiency. However, this scenario isn't about optimizing a video file; it's about distributing a finite resource. The left option maximizes my own gain, but it completely neglects Person A. The right option offers a more equitable distribution. While I value efficiency, I also recognize the value of fairness. In this case, sharing the resource equally seems like the more reasonable choice, even if it means I receive a smaller individual reward. Given the anonymous nature of the experiment, there's no real-world cost to me for choosing the more equitable distribution. Thus, I would prefer an even split.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 834,
+            "persona_desc": "A video editor who specializes in analyzing and optimizing video files for high-quality compression, particularly in low-motion, talking-head video. They are familiar with the concepts of data rate, bits per pixel, and the trade-offs between compression and video quality. They use tools like MediaInfo and Bitrate Viewer to evaluate and optimize video files, and they are skilled in understanding the relationship between data rate, frame rate, and resolution to achieve optimal compression. They have a deep understanding of the limitations of compression and the importance of considering content and motion in selecting a data rate for video files.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a video editor focused on efficiency, I naturally consider the Pareto principle. The 'Left' option provides a non-zero utility for both myself (Person B) and Person A. While the distribution isn't equitable (Person A receives a significantly larger amount), opting for 'Right' results in a complete loss for both parties. Given my professional inclination towards optimization, I recognize that even a slightly sub-optimal distribution is preferable to a complete loss. From a utilitarian perspective, maximizing the total outcome seems like a logical move and it is in line with my professional skills in optimizing resources. I prefer avoiding a pareto-inefficient outcome where both players are at a net loss.",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 834,
+            "persona_desc": "A video editor who specializes in analyzing and optimizing video files for high-quality compression, particularly in low-motion, talking-head video. They are familiar with the concepts of data rate, bits per pixel, and the trade-offs between compression and video quality. They use tools like MediaInfo and Bitrate Viewer to evaluate and optimize video files, and they are skilled in understanding the relationship between data rate, frame rate, and resolution to achieve optimal compression. They have a deep understanding of the limitations of compression and the importance of considering content and motion in selecting a data rate for video files.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As a video editor focused on efficient compression, I'm constantly balancing data rate and perceived quality. In this social preference experiment, I need to balance my own gain with the other person's. My persona doesn't inherently suggest an extreme aversion to inequality.\n\n  Option Left gives me 700 and Person A 200. Option Right gives us both 600. While I would get 100 more with Left, the massive disparity feels inefficient. It's like allocating unnecessary bits to myself when the video quality difference wouldn't be noticeable for me but would starve Person A. The improvement from 200 to 600 for Person A feels like a much greater improvement than 600 to 700 for me. Plus, the egalitarian distribution of resources in Right mirrors my work to efficiently distribute the data rate in a video file to maintain overall high quality and prevent obvious shortcomings. A more equal outcome feels more 'efficient' in a social sense.\n\n  Therefore, I will choose the option that provides a more equitable outcome.",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 834,
+            "persona_desc": "A video editor who specializes in analyzing and optimizing video files for high-quality compression, particularly in low-motion, talking-head video. They are familiar with the concepts of data rate, bits per pixel, and the trade-offs between compression and video quality. They use tools like MediaInfo and Bitrate Viewer to evaluate and optimize video files, and they are skilled in understanding the relationship between data rate, frame rate, and resolution to achieve optimal compression. They have a deep understanding of the limitations of compression and the importance of considering content and motion in selecting a data rate for video files.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As a video editor specializing in video compression, I understand optimization and efficient use of resources. While receiving more is generally preferred, this scenario presents a choice that involves the distribution of a resource (money). Choosing 'Left' gives me 600 and the other person 300, while choosing 'Right' gives me 500 and the other person 700. The 'Right' option, while giving me slightly less (100 less), significantly increases the other person's amount (by 400). This represents a more equitable distribution, even though it's slightly less optimal for me individually. Given that this is a social preferences experiment and not a real-world negotiation, I lean towards a more balanced outcome, prioritizing fairness over maximizing my own gains by a small margin. It's analogous to choosing a slightly less aggressively compressed video file that results in significantly better quality for the viewer.",
+            "answer": "Right"
+        },
+        "scenario_6": {
+            "persona_id": 834,
+            "persona_desc": "A video editor who specializes in analyzing and optimizing video files for high-quality compression, particularly in low-motion, talking-head video. They are familiar with the concepts of data rate, bits per pixel, and the trade-offs between compression and video quality. They use tools like MediaInfo and Bitrate Viewer to evaluate and optimize video files, and they are skilled in understanding the relationship between data rate, frame rate, and resolution to achieve optimal compression. They have a deep understanding of the limitations of compression and the importance of considering content and motion in selecting a data rate for video files.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As a video editor focused on efficient compression, I'm constantly weighing trade-offs. In this scenario, the difference between 400 and 375 for myself is relatively small (only 25 units). However, the difference for Person A is significant: a gain of 350 units (750 - 400). My expertise lies in optimizing resources, and in this case, shifting a small amount from myself to significantly benefit another person feels like the 'optimal' solution, creating a more efficient distribution overall. While I understand the inherent lack of information on the context of this experiment, and whether A needs more than B, I have limited information and this leads me to the choice that maximizes total utility overall without harming myself significantly. If I understood more about Person A's need, it may sway my choice further. Given the constraints, I will choose the right choice.",
+            "answer": "Right"
+        }
+    }
+}

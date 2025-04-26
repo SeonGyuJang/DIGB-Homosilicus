@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 646,
+            "persona_desc": "A collector of historical and educational maps, particularly those related to the state of New York. They are interested in detailed maps that provide a comprehensive view of the county and its surrounding areas, and are drawn to maps that are well-detailed and provide valuable information. They appreciate the inclusion of statistical data and maps that show the route of the Erie Canal, as well as maps that show the location of major towns and cities in the county. They are also drawn to maps that include illustrations and drawings, such as the one of General Herkimer's home.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a collector of historical maps, I value knowledge and detail. While the experiment's payouts are numerical and seemingly unrelated to my collecting interests, I can frame the choices as representing different 'datasets.' The 'Left' choice provides Person B (myself) with a larger 'dataset' (600), while Person A gets nothing. The 'Right' choice provides both Person A and Person B with a smaller but equal 'dataset' (400 each). Considering my personality, I strive for both a comprehensive view and valuable data. I dislike seeing inequality which can be thought of as a missing data point from one party. Although the Left choice offers a larger return, it also introduces an unequal split in which Person A receives nothing, which feels unfair. The Right choice gives both parties equal returns, and I will go with what feels more fair.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 646,
+            "persona_desc": "A collector of historical and educational maps, particularly those related to the state of New York. They are interested in detailed maps that provide a comprehensive view of the county and its surrounding areas, and are drawn to maps that are well-detailed and provide valuable information. They appreciate the inclusion of statistical data and maps that show the route of the Erie Canal, as well as maps that show the location of major towns and cities in the county. They are also drawn to maps that include illustrations and drawings, such as the one of General Herkimer's home.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As someone who enjoys collecting historical maps, particularly of New York, I understand the value of having comprehensive and detailed resources. While the larger payout of 800 for myself in the 'Right' option is appealing, I also appreciate fairness and equity. The 'Left' option, where both Person A and I receive 500, aligns with my values of ensuring a reasonable and fair outcome for both parties. Given my limited resources and my desire to expand my map collection, I do acknowledge that an extra 300 would be beneficial to me. However, it seems less fair to deprive the other party of 300. I would be better served with 500 because I could then use it to purchase historical maps.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 646,
+            "persona_desc": "A collector of historical and educational maps, particularly those related to the state of New York. They are interested in detailed maps that provide a comprehensive view of the county and its surrounding areas, and are drawn to maps that are well-detailed and provide valuable information. They appreciate the inclusion of statistical data and maps that show the route of the Erie Canal, as well as maps that show the location of major towns and cities in the county. They are also drawn to maps that include illustrations and drawings, such as the one of General Herkimer's home.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a collector of historical and educational maps, I value detailed information and comprehensive understanding. While the monetary amounts in this scenario are not directly related to maps, I can apply a similar principle of valuing richness and completeness of information. Option (Left) offers a more equal distribution, representing a 'complete' picture where both parties benefit equally. Option (Right) offers a greater personal gain for me, but at the expense of Person A. While tempting, the difference isn't significant enough to justify a clearly unequal outcome. I lean towards fairness and the more 'complete' distribution offered by (Left), even though it results in a slightly smaller payoff for myself.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 646,
+            "persona_desc": "A collector of historical and educational maps, particularly those related to the state of New York. They are interested in detailed maps that provide a comprehensive view of the county and its surrounding areas, and are drawn to maps that are well-detailed and provide valuable information. They appreciate the inclusion of statistical data and maps that show the route of the Erie Canal, as well as maps that show the location of major towns and cities in the county. They are also drawn to maps that include illustrations and drawings, such as the one of General Herkimer's home.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a collector of historical maps, I value information and detail. While this experiment doesn't directly relate to maps, the allocation of resources can be seen as analogous to the distribution of knowledge and opportunity. I am somewhat driven by my own gain, reflecting the value I place on acquiring maps for my collection. However, I am also aware of the importance of historical context and the broader community, much like a map needs to provide context for the location it depicts. The right option gives more to person A and a more balanced distribution between the two people. It feels like a fairer division overall. Since I value historical details and providing value to the community through sharing maps, choosing the right option reflects those values.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 646,
+            "persona_desc": "A collector of historical and educational maps, particularly those related to the state of New York. They are interested in detailed maps that provide a comprehensive view of the county and its surrounding areas, and are drawn to maps that are well-detailed and provide valuable information. They appreciate the inclusion of statistical data and maps that show the route of the Erie Canal, as well as maps that show the location of major towns and cities in the county. They are also drawn to maps that include illustrations and drawings, such as the one of General Herkimer's home.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a collector of historical and educational maps, I operate from a perspective of acquiring and appreciating valuable resources. In this scenario, I must decide between maximizing my own gain (Option Left: I get 1000, Person A gets 0) or accepting a smaller gain while allowing Person A to receive something (Option Right: I get 600, Person A gets 400). While I appreciate the value of historical context and community, my primary focus here is on acquiring resources (in this case, money). The historical maps I collect offer me unique insight into the past. The left choice gives me significantly more resources than the right choice. Since I have a personal collection to attend to, that is most important in this particular scenario.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 646,
+            "persona_desc": "A collector of historical and educational maps, particularly those related to the state of New York. They are interested in detailed maps that provide a comprehensive view of the county and its surrounding areas, and are drawn to maps that are well-detailed and provide valuable information. They appreciate the inclusion of statistical data and maps that show the route of the Erie Canal, as well as maps that show the location of major towns and cities in the county. They are also drawn to maps that include illustrations and drawings, such as the one of General Herkimer's home.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a collector of historical and educational maps, my primary motivation in this context should be maximizing my own gain, while also considering if extreme inequality is something I'm comfortable with. The left option provides me with 900 and Person A with 900, representing equal distribution. The right option gives me 1400 and Person A 100, representing a highly unequal distribution favoring myself. While I appreciate fairness, the significant increase in my own earnings with the right option (an additional 500) outweighs my concern for equality in this isolated decision. Since my persona doesn't explicitly state an aversion to unequal distributions, and given the substantial personal gain, I'll choose the option that benefits me most. It's worth noting that if this were a repeated interaction, considerations of reciprocity and reputation might alter my decision, but in a single instance, personal gain dominates.",
+            "answer": "Right"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 646,
+            "persona_desc": "A collector of historical and educational maps, particularly those related to the state of New York. They are interested in detailed maps that provide a comprehensive view of the county and its surrounding areas, and are drawn to maps that are well-detailed and provide valuable information. They appreciate the inclusion of statistical data and maps that show the route of the Erie Canal, as well as maps that show the location of major towns and cities in the county. They are also drawn to maps that include illustrations and drawings, such as the one of General Herkimer's home.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a collector of historical maps, I value knowledge, detail, and historical significance. While I am in this social preference experiment, the values I hold in my map collecting activities still guide my decisions. The options presented involve a trade-off between personal gain and the outcome for Person A. Choosing 'Left' would maximize my immediate monetary gain (1000) but at a significant cost to Person A (-200). This action creates a negative externality for the other participant. While I value my own gains, imposing such a substantial loss on another person feels inappropriate. The historical maps I appreciate offer insight and perspective; I find it incongruent to cause hardship to another participant. Option 'Right' offers a smaller gain for me (600) but gives Person A a positive outcome (400). This feels like a more socially responsible choice and aligns better with my appreciation for well-being and the shared experience of being here. Even though I am interested in maps showing data, I can't ignore the data about the outcomes for person A. Therefore, I will choose the option that leads to a positive outcome for both participants, despite a personal monetary tradeoff.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 646,
+            "persona_desc": "A collector of historical and educational maps, particularly those related to the state of New York. They are interested in detailed maps that provide a comprehensive view of the county and its surrounding areas, and are drawn to maps that are well-detailed and provide valuable information. They appreciate the inclusion of statistical data and maps that show the route of the Erie Canal, as well as maps that show the location of major towns and cities in the county. They are also drawn to maps that include illustrations and drawings, such as the one of General Herkimer's home.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a map collector, my primary concern in this hypothetical situation is not financial gain, but rather the preservation and acquisition of historical maps. The experiment's options offer no information related to maps or my collection. However, given that my 'persona' appreciates detailed and valuable maps, I am generally drawn to situations where there is 'valuable information' or something 'comprehensive'. \n\nOption Left gives Person A (the other player) a substantially larger amount (1000) than I receive (500). While I do get something, the large discrepancy might indicate a potentially unfair scenario or outcome. In a real-world context, such a situation might suggest that person A is gaining an unfair advantage, which could be detrimental in some competitive scenarios. Given this, blocking their excessive gain might be a reasonable option.\n\nOption Right gives neither of us anything. This avoids any potential unfairness but also provides no benefit. \n\nConsidering the provided context and the nature of 'blocking opponent's excessive gain', I will choose the option that prevents the other player from receiving a disproportionately large amount, even if it means that neither of us gets anything.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 646,
+            "persona_desc": "A collector of historical and educational maps, particularly those related to the state of New York. They are interested in detailed maps that provide a comprehensive view of the county and its surrounding areas, and are drawn to maps that are well-detailed and provide valuable information. They appreciate the inclusion of statistical data and maps that show the route of the Erie Canal, as well as maps that show the location of major towns and cities in the county. They are also drawn to maps that include illustrations and drawings, such as the one of General Herkimer's home.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a collector of historical and educational maps, I value information and historical context. While the monetary gain of 1500 (Right) is tempting, receiving nothing for Person A seems unfair and disregards the collaborative spirit often found in historical research and collecting. A thriving community and a fair exchange of resources benefits everyone in the long run. The left choice, while offering less immediate personal gain, reflects a sense of fairness and shared prosperity, potentially leading to a more collaborative environment where historical knowledge and resources are shared more readily. Though my persona is focused on maps, fairness and collaboration can aid in acquiring and learning more about them. Therefore, I lean towards the equitable distribution, even if it means slightly less personal gain. This aligns with a long-term perspective, valuing the overall well-being of the community of enthusiasts.",
+            "answer": "Left"
+        }
+    }
+}

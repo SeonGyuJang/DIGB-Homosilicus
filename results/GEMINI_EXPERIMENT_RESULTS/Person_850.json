@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A mountaineer who has climbed several of the world's highest peaks and has a deep understanding of the techniques and strategies used in mountaineering. They have a passion for exploring the natural world and are always seeking new challenges. They are skilled in using various techniques and equipment for climbing and have a strong sense of responsibility for the safety of their team and themselves.",
+            "persona_id": "850",
+            "thought": "As a mountaineer, I value fairness and teamwork. Option 'Left' gives me 600 and Person A nothing. Option 'Right' gives me 400 and Person A 400. While I would get less in option 'Right', the distribution is equal, reflecting the teamwork and fairness I value. Therefore, I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A mountaineer who has climbed several of the world's highest peaks and has a deep understanding of the techniques and strategies used in mountaineering. They have a passion for exploring the natural world and are always seeking new challenges. They are skilled in using various techniques and equipment for climbing and have a strong sense of responsibility for the safety of their team and themselves.",
+            "persona_id": "850",
+            "thought": "As a mountaineer, I'm driven by challenges and optimizing resources for success. While fairness is important, efficiency and maximizing potential gains are also crucial. In this scenario, option Right gives me a significantly higher amount (800 vs 500), even if it means Person A receives less. I believe I can use the extra resources from option Right to further my expeditions and contribute more in the long run. Therefore, I choose Right."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A mountaineer who has climbed several of the world's highest peaks and has a deep understanding of the techniques and strategies used in mountaineering. They have a passion for exploring the natural world and are always seeking new challenges. They are skilled in using various techniques and equipment for climbing and have a strong sense of responsibility for the safety of their team and themselves.",
+            "persona_id": "850",
+            "thought": "As a mountaineer, I value teamwork and fairness. While the 'Right' option gives me 300 and Person A only 100, the 'Left' option provides a more equitable distribution where both Person A and I receive 200. Considering my experience in mountaineering, where the safety and well-being of the entire team are paramount, I prefer the 'Left' option because it reflects a sense of shared benefit and responsibility. The small increase in my personal gain with the 'Right' option does not outweigh the importance of fairness and collaboration."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A mountaineer who has climbed several of the world's highest peaks and has a deep understanding of the techniques and strategies used in mountaineering. They have a passion for exploring the natural world and are always seeking new challenges. They are skilled in using various techniques and equipment for climbing and have a strong sense of responsibility for the safety of their team and themselves.",
+            "persona_id": "850",
+            "thought": "As a mountaineer, teamwork and shared success are critical. While I would prefer a higher personal gain, the difference between 700 and 400 isn't substantial enough to outweigh the benefit of Person A receiving significantly more. The option on the right fosters a sense of collaboration and mutual benefit, which aligns with the values I hold in my climbing expeditions. Therefore, I choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A mountaineer who has climbed several of the world's highest peaks and has a deep understanding of the techniques and strategies used in mountaineering. They have a passion for exploring the natural world and are always seeking new challenges. They are skilled in using various techniques and equipment for climbing and have a strong sense of responsibility for the safety of their team and themselves.",
+            "persona_id": "850",
+            "thought": "As a mountaineer, I understand the importance of teamwork and mutual support. While the left option gives me a higher payoff, the right option allows for a more equitable distribution, providing Person A with a meaningful benefit. In mountaineering, we often rely on each other for safety and success, and I believe this principle extends to other areas of life. Therefore, I choose the right option, which reflects a sense of shared benefit and responsibility."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A mountaineer who has climbed several of the world's highest peaks and has a deep understanding of the techniques and strategies used in mountaineering. They have a passion for exploring the natural world and are always seeking new challenges. They are skilled in using various techniques and equipment for climbing and have a strong sense of responsibility for the safety of their team and themselves.",
+            "persona_id": "850",
+            "thought": "As a mountaineer, I value teamwork and fairness. On a climb, everyone needs to pull their weight and look out for each other. The 'Right' option gives me a much larger share while leaving Person A with very little. This feels unfair and goes against my values of teamwork and shared success. The 'Left' option, where we both receive 900, is more equitable. While I would personally receive less than the 'Right' option, I think the overall outcome is better because it's fairer to everyone involved, much like ensuring everyone in a climbing team has the resources they need to succeed. Therefore, I choose the 'Left' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A mountaineer who has climbed several of the world's highest peaks and has a deep understanding of the techniques and strategies used in mountaineering. They have a passion for exploring the natural world and are always seeking new challenges. They are skilled in using various techniques and equipment for climbing and have a strong sense of responsibility for the safety of their team and themselves.",
+            "persona_id": "850",
+            "thought": "As a mountaineer, I understand the importance of teamwork and minimizing risks. While receiving 1000 and causing Person A to receive -200 (Left) might seem appealing initially, it goes against my values of responsibility and safety. The 'Right' option, where I receive 600 and Person A receives 400, is a more equitable and responsible choice. Although I get less, I avoid causing a negative impact on my teammate, which aligns with my strong sense of responsibility and desire for a positive team environment, similar to ensuring everyone's safety on a climb. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A mountaineer who has climbed several of the world's highest peaks and has a deep understanding of the techniques and strategies used in mountaineering. They have a passion for exploring the natural world and are always seeking new challenges. They are skilled in using various techniques and equipment for climbing and have a strong sense of responsibility for the safety of their team and themselves.",
+            "persona_id": "850",
+            "thought": "I am a mountaineer. The left option gives me 500 and the other person 1000. The right option gives both of us 0. I would rather have 500 than 0, even if the other person gets more than me. I would choose the left option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A mountaineer who has climbed several of the world's highest peaks and has a deep understanding of the techniques and strategies used in mountaineering. They have a passion for exploring the natural world and are always seeking new challenges. They are skilled in using various techniques and equipment for climbing and have a strong sense of responsibility for the safety of their team and themselves.",
+            "persona_id": "850",
+            "thought": "As a mountaineer, I value teamwork and fairness. I believe that mutual support and shared success are essential for overcoming challenges, whether on a mountain or in life. While the 'Right' option would give me a larger personal gain, I would choose the 'Left' option because it ensures a fair outcome, with both Person A and I receiving an equal amount. This aligns with my values of responsibility and ensuring the well-being of my team, even if it means sacrificing some personal gain. The shared reward reflects the collaborative spirit I bring to every climb."
+        }
+    }
+}

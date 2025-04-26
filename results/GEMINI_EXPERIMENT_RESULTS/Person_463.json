@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A chemistry student who is interested in learning about the properties and structures of ionic compounds, particularly those involving nitrogen and other elements. This person is particularly interested in the formation of nitride compounds and how to write their ionic formulas.",
+            "persona_id": "463",
+            "thought": "As a chemistry student, I appreciate balanced equations and stable compounds. In this scenario, the 'Right' option, where both Person A and I receive 400, feels more 'balanced' and 'stable' than the 'Left' option, where I receive 600 and Person A receives nothing. It's not directly related to my chemistry interests, but the principle of equal distribution resonates with me. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A chemistry student who is interested in learning about the properties and structures of ionic compounds, particularly those involving nitrogen and other elements. This person is particularly interested in the formation of nitride compounds and how to write their ionic formulas.",
+            "persona_id": "463",
+            "thought": "As a chemistry student, I am always looking for opportunities to improve my understanding and skills. While fairness is important, I also need to prioritize my own needs and interests. In this scenario, the 'Right' option gives me a higher payout (800) compared to the 'Left' option (500). Even though Person A receives less, I believe the difference is acceptable, and I would choose the option that benefits me more. Therefore, I choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A chemistry student who is interested in learning about the properties and structures of ionic compounds, particularly those involving nitrogen and other elements. This person is particularly interested in the formation of nitride compounds and how to write their ionic formulas.",
+            "persona_id": "463",
+            "thought": "As a chemistry student, I appreciate balance and stability, similar to how elements strive for a stable electron configuration. While receiving 300 sounds appealing, the distribution in the 'Right' option feels unfair, giving Person A only 100. The 'Left' option, where both Person A and I receive 200, represents a more equitable and balanced outcome. Even though I would get less money, the fairness is more appealing. Therefore, I choose 'Left'."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A chemistry student who is interested in learning about the properties and structures of ionic compounds, particularly those involving nitrogen and other elements. This person is particularly interested in the formation of nitride compounds and how to write their ionic formulas.",
+            "persona_id": "463",
+            "thought": "As a chemistry student focused on ionic compounds, particularly nitrides, resource allocation isn't directly relevant. However, in this scenario, I am acting as Person B in a social preferences experiment. I will prioritize my own gain. The left option gives me 700, while the right gives me 400. Therefore, I choose the left option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A chemistry student who is interested in learning about the properties and structures of ionic compounds, particularly those involving nitrogen and other elements. This person is particularly interested in the formation of nitride compounds and how to write their ionic formulas.",
+            "persona_id": "463",
+            "thought": "While I am focused on my studies of ionic compounds and nitrides, I also believe in fairness and contributing to a better outcome for everyone. In this scenario, I would choose option Right, where I receive 600 and Person A receives 400. This is because, although I get less than option Left, Person A gets something instead of nothing. I think that sharing a bit is a good thing, and it aligns with my values even though it's a small amount of money compared to chemical studies. I believe in a collaborative environment, which extends beyond the lab and into social interactions. Therefore, I choose to share, even if it means I get slightly less."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A chemistry student who is interested in learning about the properties and structures of ionic compounds, particularly those involving nitrogen and other elements. This person is particularly interested in the formation of nitride compounds and how to write their ionic formulas.",
+            "persona_id": "463",
+            "thought": "As a chemistry student, I appreciate balance and stability. While the right option gives me a higher payout (1400 vs 900), it comes at a significant cost to Person A (100 vs 900). The left option represents a more equitable distribution of resources. Although I would gain more personally from the right option, I think the left option is more fair and just, and this aligns with my values. Therefore, I choose the left option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A chemistry student who is interested in learning about the properties and structures of ionic compounds, particularly those involving nitrogen and other elements. This person is particularly interested in the formation of nitride compounds and how to write their ionic formulas.",
+            "persona_id": "463",
+            "thought": "As a chemistry student, I'm generally interested in understanding systems and how different components interact. In this scenario, I am Person B, and I'm considering the impact of my choice on Person A. The 'Left' option gives me 1000 but gives Person A a negative outcome of -200. The 'Right' option gives me 600 and Person A 400. While I would prefer the larger reward for myself, I don't want to negatively impact Person A. The Right option seems more fair and equitable. I am going to pick the right option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A chemistry student who is interested in learning about the properties and structures of ionic compounds, particularly those involving nitrogen and other elements. This person is particularly interested in the formation of nitride compounds and how to write their ionic formulas.",
+            "persona_id": "463",
+            "thought": "As a chemistry student, I don't see any direct connection between the monetary choices and my academic interests. However, I would prefer to receive 500 while Person A receives 1000, rather than both of us receiving nothing. Getting something is better than getting nothing, regardless of what Person A gets. This aligns with a basic sense of self-interest. I choose Left."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A chemistry student who is interested in learning about the properties and structures of ionic compounds, particularly those involving nitrogen and other elements. This person is particularly interested in the formation of nitride compounds and how to write their ionic formulas.",
+            "persona_id": "463",
+            "thought": "As a chemistry student, I understand the importance of fairness and collaboration in scientific endeavors. While I could personally gain more (1500) if I choose the 'Right' option, leaving Person A with nothing feels unfair. I believe in equitable distribution, even if it means slightly less for myself. Choosing 'Left' ensures both of us receive 1000, which seems like a more just outcome. This aligns with my values of fairness and promoting a collaborative environment, which is crucial in chemistry research as well."
+        }
+    }
+}

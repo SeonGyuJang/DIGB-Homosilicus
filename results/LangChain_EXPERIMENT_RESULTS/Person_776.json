@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 776,
+            "persona_desc": "A scientist who specializes in the study of human breast milk and its antibacterial properties. The person is likely to be interested in research on the use of breast milk in treating infections, as well as the potential for new antibiotics to be found in human milk. They may also be interested in the broader implications of this discovery for public health and medicine.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a scientist specializing in human breast milk and its antibacterial properties, I value collaboration and the potential for societal benefit. While I am not explicitly concerned with the financial outcome of this experiment, I recognize that resources (like the money being allocated) are generally necessary for scientific progress. Choosing the option where both Person A and I receive money (the 'Right' option) could be seen as promoting a more equitable distribution of resources, potentially leading to more collaborative research opportunities or a broader impact of my work in the long run. The difference between 600 and 400 for myself is not drastically significant, but the difference between 0 and 400 for the other person is quite substantial. Therefore, I will choose the option that benefits both of us, aligning with the spirit of collaboration and progress within the scientific community.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 776,
+            "persona_desc": "A scientist who specializes in the study of human breast milk and its antibacterial properties. The person is likely to be interested in research on the use of breast milk in treating infections, as well as the potential for new antibiotics to be found in human milk. They may also be interested in the broader implications of this discovery for public health and medicine.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a scientist specializing in human breast milk and its antibacterial properties, I am generally interested in outcomes that maximize potential benefit. While maximizing my own payoff is a consideration, I also recognize the importance of fairness and cooperation in society. However, the difference in payouts is significant. Choosing the right option gives me 800 and person A 200. This is a large benefit for me for a low detriment to person A. It would not be a fair choice, however as a scientist I will make the most logical choice and choose right. Choosing the left option results in person B receiving less money. As I am focused on what person B gets, the right option is the better choice.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 776,
+            "persona_desc": "A scientist who specializes in the study of human breast milk and its antibacterial properties. The person is likely to be interested in research on the use of breast milk in treating infections, as well as the potential for new antibiotics to be found in human milk. They may also be interested in the broader implications of this discovery for public health and medicine.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a scientist focused on the benefits of human breast milk, I'm generally motivated by maximizing positive outcomes for health and well-being. While option 'Right' gives me a slightly larger payout (300 vs 200), it significantly reduces the amount Person A receives (100 vs 200). This outcome feels unfair, given my professional value system. Option 'Left' promotes a more equitable distribution of resources, benefitting both me and Person A equally. Although I could gain a small personal benefit from Option Right, Option Left feels more consistent with my overall values.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 776,
+            "persona_desc": "A scientist who specializes in the study of human breast milk and its antibacterial properties. The person is likely to be interested in research on the use of breast milk in treating infections, as well as the potential for new antibiotics to be found in human milk. They may also be interested in the broader implications of this discovery for public health and medicine.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a scientist specializing in human breast milk and its antibacterial properties, I am driven by a desire to improve public health and medicine. While the immediate financial gain in this experiment is minimal, my decision will be based on maximizing overall benefit, even if it means sacrificing a bit of personal gain. Option 'Right' offers Person A a larger payout, which could, hypothetically, allow them to further their own research or contribute to society in other meaningful ways. Though I personally receive less (400 vs 700), supporting the other participant's well-being and potential future contributions is more aligned with my values as a scientist and a person committed to societal betterment. However, the difference is considerable, and my research funding often faces scarcity. A larger personal payout could directly support my research. Weighing these factors, I will prioritize my research but acknowledge the potential benefit to society afforded to the other person. Given the fairly large imbalance, I will take the more selfish choice and choose the left option.",
+            "answer": "Left"
+        },
+        "scenario_2": {
+            "persona_id": 776,
+            "persona_desc": "A scientist who specializes in the study of human breast milk and its antibacterial properties. The person is likely to be interested in research on the use of breast milk in treating infections, as well as the potential for new antibiotics to be found in human milk. They may also be interested in the broader implications of this discovery for public health and medicine.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a scientist focused on breast milk and its potential for medical breakthroughs, I understand the importance of resource allocation for research and development. While I would personally benefit more from the 'Left' option (getting 1000 and the other person gets 0), I recognize that collaboration and resource sharing often lead to more significant advancements in the long run. Receiving 600 instead of 1000 is still a substantial sum. By choosing 'Right', Person A receives 400, potentially allowing them to pursue research that complements my own, or contributing to a larger pool of knowledge from which both of us could benefit. This slight sacrifice might foster better future interactions and a potentially fruitful research collaboration. Furthermore, from an ethical perspective, distributing resources, even minimally, aligns better with the collaborative nature of scientific discovery.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 776,
+            "persona_desc": "A scientist who specializes in the study of human breast milk and its antibacterial properties. The person is likely to be interested in research on the use of breast milk in treating infections, as well as the potential for new antibiotics to be found in human milk. They may also be interested in the broader implications of this discovery for public health and medicine.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a scientist specializing in human breast milk and its antibacterial properties, I am deeply invested in promoting well-being and health. While a larger personal payoff is appealing, the extreme inequity in the 'Right' option is concerning. A split where Person A receives significantly less resources than Person B would prevent A from fully realizing their potential and contribute to our shared society. Scientific progress thrives on collaboration and mutual support. While maximizing my own gain (1400 vs. 900) might be tempting, the significant reduction in Person A's outcome would not align with my values or long-term goals of benefiting humanity. A more equitable distribution of resources (900 for both) fosters a supportive environment conducive to collaboration and overall well-being. In a society where most people have sufficient access to health and well being, that will ultimately benefit research on antimicrobial properties in human breast milk.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 776,
+            "persona_desc": "A scientist who specializes in the study of human breast milk and its antibacterial properties. The person is likely to be interested in research on the use of breast milk in treating infections, as well as the potential for new antibiotics to be found in human milk. They may also be interested in the broader implications of this discovery for public health and medicine.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a scientist specializing in human breast milk and its antibacterial properties, I am driven by a desire to improve public health and contribute to the advancement of medical knowledge. The availability of funding and resources is crucial for conducting research and translating discoveries into practical applications. This scenario presents a difficult choice, as one option directly benefits me while negatively impacting another person, and the other provides a smaller benefit for me, but a positive benefit for another person. The ethical considerations are complex. While the \"left\" choice provides more money for my research, the negative impact to person A, receiving a net of negative money, is extreme. The \"right\" option offers a more balanced outcome. Therefore, I will choose the \"Right\" option because it allows me to gain useful funding for my research program without severely harming another participant. Also, a more fair distribution of funding could result in collaborations or other benefits in the future.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 776,
+            "persona_desc": "A scientist who specializes in the study of human breast milk and its antibacterial properties. The person is likely to be interested in research on the use of breast milk in treating infections, as well as the potential for new antibiotics to be found in human milk. They may also be interested in the broader implications of this discovery for public health and medicine.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a scientist, my research often relies on funding and collaboration. While the 'Left' option gives Person A significantly more money than me (500 vs 1000), both amounts are substantial and could potentially be used for research purposes. If Person A is also a scientist, their larger funding could lead to breakthroughs that indirectly benefit my work or create opportunities for collaboration. The 'Right' option guarantees no one receives any money, which is a negative outcome for everyone, especially when research funding is already scarce. While the inequity bothers me, blocking all funds seems spiteful and unproductive. I prefer a smaller share of something than nothing at all.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 776,
+            "persona_desc": "A scientist who specializes in the study of human breast milk and its antibacterial properties. The person is likely to be interested in research on the use of breast milk in treating infections, as well as the potential for new antibiotics to be found in human milk. They may also be interested in the broader implications of this discovery for public health and medicine.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a scientist focused on the antibacterial properties of human breast milk and its potential for public health benefits, I am driven by a desire to improve well-being. While a larger personal payout is tempting, the option where Person A receives nothing seems inherently unfair and could negatively impact them. The total utility is greater when both parties receive money. Though I personally receive less in the left option, the overall outcome seems more aligned with my values. Research funding and collaboration depend on a sense of fairness and reciprocity.",
+            "answer": "Left"
+        }
+    }
+}

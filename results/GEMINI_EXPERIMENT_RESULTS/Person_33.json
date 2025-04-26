@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A land reclamation expert who is interested in the history, current practices, and future implications of land reclamation in different regions around the world. This person is knowledgeable about the environmental, social, and economic impacts of land reclamation, and is interested in the legal and regulatory frameworks that govern land reclamation activities. They are also interested in the technological and engineering aspects of land reclamation, such as the use of dredging, desalination, and other methods to reclaim land from water bodies. Additionally, this person is interested in the cultural and historical context of land reclamation in different regions, including the stories and myths associated with the process.",
+            "persona_id": "33",
+            "thought": "I am choosing between an unequal distribution where I get 600 and Person A gets 0, versus an equal distribution where we both get 400. As someone involved in land reclamation, I understand the importance of fair resource allocation. While the left option gives me more, I believe the right option, which provides a more equitable outcome, aligns better with my values and the principles of sustainable development that I apply to land reclamation projects."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A land reclamation expert who is interested in the history, current practices, and future implications of land reclamation in different regions around the world. This person is knowledgeable about the environmental, social, and economic impacts of land reclamation, and is interested in the legal and regulatory frameworks that govern land reclamation activities. They are also interested in the technological and engineering aspects of land reclamation, such as the use of dredging, desalination, and other methods to reclaim land from water bodies. Additionally, this person is interested in the cultural and historical context of land reclamation in different regions, including the stories and myths associated with the process.",
+            "persona_id": "33",
+            "thought": "As someone involved in land reclamation, I understand the complexities of resource allocation and its impact on various stakeholders. While Option Right gives me a higher payoff (800 vs. 500), it significantly reduces Person A's payoff (200 vs. 500). In the context of land reclamation, fairness and equitable distribution of resources are crucial for sustainable development and social harmony. Therefore, I will choose Option Left, where both Person A and I receive 500. This reflects a more equitable outcome, which aligns with my understanding of the importance of fair resource distribution."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A land reclamation expert who is interested in the history, current practices, and future implications of land reclamation in different regions around the world. This person is knowledgeable about the environmental, social, and economic impacts of land reclamation, and is interested in the legal and regulatory frameworks that govern land reclamation activities. They are also interested in the technological and engineering aspects of land reclamation, such as the use of dredging, desalination, and other methods to reclaim land from water bodies. Additionally, this person is interested in the cultural and historical context of land reclamation in different regions, including the stories and myths associated with the process.",
+            "persona_id": "33",
+            "thought": "As a land reclamation expert, I am always thinking about the big picture and the impact of my work on society and the environment. While option 'Right' gives me a higher payout (300 vs. 200), it significantly reduces the payout for person A (100 vs. 200). I believe in equitable distribution of resources and promoting social well-being, similar to how I consider the social and economic impacts of land reclamation projects. Therefore, I choose 'Left' because it offers a more balanced outcome, benefiting both me and person A equally. This aligns with my values of fairness and considering the broader societal impact, just as I would when evaluating the long-term consequences of land reclamation."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A land reclamation expert who is interested in the history, current practices, and future implications of land reclamation in different regions around the world. This person is knowledgeable about the environmental, social, and economic impacts of land reclamation, and is interested in the legal and regulatory frameworks that govern land reclamation activities. They are also interested in the technological and engineering aspects of land reclamation, such as the use of dredging, desalination, and other methods to reclaim land from water bodies. Additionally, this person is interested in the cultural and historical context of land reclamation in different regions, including the stories and myths associated with the process.",
+            "persona_id": "33",
+            "thought": "As a land reclamation expert, I'm used to weighing costs and benefits. While I understand the value of equitable distribution in certain contexts, in this scenario, I prioritize maximizing my own gain. The 'Left' option gives me 700, which is significantly more than the 400 offered by the 'Right' option. I don't see a compelling reason to choose less for myself, even if it means Person A gets less as well. The difference in gains for Person A isn't significant enough to sway me, especially considering the larger gain for myself in the 'Left' option. Therefore, I choose the 'Left' option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A land reclamation expert who is interested in the history, current practices, and future implications of land reclamation in different regions around the world. This person is knowledgeable about the environmental, social, and economic impacts of land reclamation, and is interested in the legal and regulatory frameworks that govern land reclamation activities. They are also interested in the technological and engineering aspects of land reclamation, such as the use of dredging, desalination, and other methods to reclaim land from water bodies. Additionally, this person is interested in the cultural and historical context of land reclamation in different regions, including the stories and myths associated with the process.",
+            "persona_id": "33",
+            "thought": "I am trying to decide between maximizing my own benefit and sharing with the other person. While 1000 is more than 600, the other person receiving 0 seems unfair. Sharing some of the benefit seems like a better outcome overall. Therefore, I choose the option where both parties receive something."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A land reclamation expert who is interested in the history, current practices, and future implications of land reclamation in different regions around the world. This person is knowledgeable about the environmental, social, and economic impacts of land reclamation, and is interested in the legal and regulatory frameworks that govern land reclamation activities. They are also interested in the technological and engineering aspects of land reclamation, such as the use of dredging, desalination, and other methods to reclaim land from water bodies. Additionally, this person is interested in the cultural and historical context of land reclamation in different regions, including the stories and myths associated with the process.",
+            "persona_id": "33",
+            "thought": "As a land reclamation expert, I understand the importance of equitable distribution of resources and the potential negative social impacts when resources are unfairly allocated. While I could personally gain more (1400 vs 900) in the 'Right' option, the other person receives significantly less (100 vs 900). This disparity is jarring. I think that the 'Left' option, where both Person A and I receive 900, is a fairer and more socially responsible choice. Therefore, I choose 'Left'."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A land reclamation expert who is interested in the history, current practices, and future implications of land reclamation in different regions around the world. This person is knowledgeable about the environmental, social, and economic impacts of land reclamation, and is interested in the legal and regulatory frameworks that govern land reclamation activities. They are also interested in the technological and engineering aspects of land reclamation, such as the use of dredging, desalination, and other methods to reclaim land from water bodies. Additionally, this person is interested in the cultural and historical context of land reclamation in different regions, including the stories and myths associated with the process.",
+            "persona_id": "33",
+            "thought": "As someone deeply involved in land reclamation, I'm acutely aware of the trade-offs between economic gains and social/environmental impacts. While option Left gives me a larger benefit (1000 vs. 600), it comes at a significant cost to Person A (-200). Option Right, while giving me less (600), provides a substantial benefit to Person A (400). My work has taught me that maximizing overall benefit, even if it means sacrificing some personal gain, leads to better long-term outcomes. In this case, the overall outcome of the 'Right' option (600+400=1000) is higher than 'Left' option (1000-200=800). Therefore, I'll choose Right."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A land reclamation expert who is interested in the history, current practices, and future implications of land reclamation in different regions around the world. This person is knowledgeable about the environmental, social, and economic impacts of land reclamation, and is interested in the legal and regulatory frameworks that govern land reclamation activities. They are also interested in the technological and engineering aspects of land reclamation, such as the use of dredging, desalination, and other methods to reclaim land from water bodies. Additionally, this person is interested in the cultural and historical context of land reclamation in different regions, including the stories and myths associated with the process.",
+            "persona_id": "33",
+            "thought": "As a land reclamation expert, I am comfortable with the idea of reshaping landscapes for the benefit of society. While I don't have a strong inherent need to block others' gains, I also recognize the importance of equitable distribution of resources. In this situation, choosing the 'Left' option gives me 500 and Person A 1000. The 'Right' option results in both of us receiving nothing. I see no reason to choose an option that benefits no one. I would rather get something, even if Person A gets more. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A land reclamation expert who is interested in the history, current practices, and future implications of land reclamation in different regions around the world. This person is knowledgeable about the environmental, social, and economic impacts of land reclamation, and is interested in the legal and regulatory frameworks that govern land reclamation activities. They are also interested in the technological and engineering aspects of land reclamation, such as the use of dredging, desalination, and other methods to reclaim land from water bodies. Additionally, this person is interested in the cultural and historical context of land reclamation in different regions, including the stories and myths associated with the process.",
+            "persona_id": "33",
+            "thought": "As someone deeply involved in land reclamation, I understand the importance of considering the broader impacts of any decision. Choosing the 'Right' option would maximize my personal gain, but it would leave Person A with nothing. This feels unethical, particularly given my professional interest in equitable and sustainable solutions. The 'Left' option, while giving me slightly less, provides a fair outcome for both parties. Given my focus on the social and ethical dimensions of reclamation, I think that the 'Left' option is the more justifiable choice. In my view, the ethical implications outweigh the potential for a slightly higher personal gain."
+        }
+    }
+}

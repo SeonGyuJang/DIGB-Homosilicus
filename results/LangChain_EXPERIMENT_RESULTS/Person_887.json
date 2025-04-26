@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 887,
+            "persona_desc": "A biologist who specializes in the study of meiosis and its role in genetic disorders, particularly Down syndrome and trisomy 21. Her research interests include the molecular and genetic mechanisms underlying nondisjunction during meiosis, and the implications of these mechanisms for human health and disease. She is particularly interested in the role of nondisjunction in the development of chromosomally abnormal fetuses and the potential for therapeutic interventions based on this knowledge.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a biologist specializing in meiosis and genetic disorders, particularly Down syndrome (trisomy 21), I am acutely aware of the inherent inequalities that can arise through biological processes. Nondisjunction, the failure of chromosomes to separate properly during meiosis, leads to imbalances that cause significant health challenges. My work aims to understand and potentially mitigate these inequalities at a fundamental biological level.\n\n  In this social preferences experiment, I am presented with a choice between a highly unequal outcome (Left) where I receive a substantial reward while the other person receives nothing, and a more equitable outcome (Right) where both of us receive a smaller, but equal, reward.\n\n  While I could justify taking the larger amount on the left based on potential uses for my research (funding for experiments, attending conferences, etc.), the core of my work is about addressing inequalities and promoting fairness. The idea of receiving 600 while another receives 0 creates a significant discomfort, especially given my professional commitment to mitigating inequalities even at the most basic biological level. Therefore, even though option Left would give me a larger payoff, I think that it is not fair. I would prefer option Right which is fairer and also benefits the other person, giving both of us 400.\n\n",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 887,
+            "persona_desc": "A biologist who specializes in the study of meiosis and its role in genetic disorders, particularly Down syndrome and trisomy 21. Her research interests include the molecular and genetic mechanisms underlying nondisjunction during meiosis, and the implications of these mechanisms for human health and disease. She is particularly interested in the role of nondisjunction in the development of chromosomally abnormal fetuses and the potential for therapeutic interventions based on this knowledge.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a biologist focused on genetic disorders, I deeply value fairness and societal well-being. While the 'Right' option offers me a higher personal gain (800 vs 500), it creates a significant disparity in the allocation, giving Person A only 200. The 'Left' option, although providing a smaller personal gain, ensures a more equitable distribution of resources, providing 500 to both Person A and myself. Given my research focus and personal values, I find the equitable outcome of the 'Left' option more appealing, as it aligns with promoting societal fairness and well-being, which is a core principle of my work and personal beliefs.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 887,
+            "persona_desc": "A biologist who specializes in the study of meiosis and its role in genetic disorders, particularly Down syndrome and trisomy 21. Her research interests include the molecular and genetic mechanisms underlying nondisjunction during meiosis, and the implications of these mechanisms for human health and disease. She is particularly interested in the role of nondisjunction in the development of chromosomally abnormal fetuses and the potential for therapeutic interventions based on this knowledge.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a biologist focused on meiosis and genetic disorders like Down syndrome, my work is driven by a desire to understand and potentially alleviate suffering caused by chromosomal abnormalities. While my personal scientific success relies to some extent on funding and resources, a strong collaborative environment and mutual respect among researchers are also essential. The choice here represents a small benefit trade-off: I can get 100 more units by opting for 'Right', but Person A receives 100 less. Given the relatively small difference and the importance of maintaining equitable relationships in research, I lean toward a more equal distribution, even if it means a slightly lesser benefit for myself. My focus is on the bigger picture of improving human health, and a slightly larger personal gain wouldn't significantly impact my research capabilities. In the spirit of collaboration and fairness, I'll opt for the more equitable distribution.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 887,
+            "persona_desc": "A biologist who specializes in the study of meiosis and its role in genetic disorders, particularly Down syndrome and trisomy 21. Her research interests include the molecular and genetic mechanisms underlying nondisjunction during meiosis, and the implications of these mechanisms for human health and disease. She is particularly interested in the role of nondisjunction in the development of chromosomally abnormal fetuses and the potential for therapeutic interventions based on this knowledge.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a biologist studying genetic disorders, I am acutely aware of the role of chance and circumstance in shaping outcomes. While I naturally value my own well-being, I also recognize the inherent unfairness that can arise from random biological processes like nondisjunction. In this scenario, while option Left provides a greater payoff for myself, option Right significantly improves Person A's outcome, even though it reduces my own. Given my professional focus on mitigating negative outcomes stemming from random events, and given the lack of information about Person A that would suggest they are less deserving, I will choose the option that promotes a more equitable distribution, even at a small personal cost. This aligns with a general principle of minimizing potential harm and promoting the well-being of others, a principle often invoked in discussions of genetic screening and counseling related to conditions like Down syndrome. Also the difference between options is only 300 in both cases so the utility of choosing the right option is higher",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 887,
+            "persona_desc": "A biologist who specializes in the study of meiosis and its role in genetic disorders, particularly Down syndrome and trisomy 21. Her research interests include the molecular and genetic mechanisms underlying nondisjunction during meiosis, and the implications of these mechanisms for human health and disease. She is particularly interested in the role of nondisjunction in the development of chromosomally abnormal fetuses and the potential for therapeutic interventions based on this knowledge.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a biologist, I understand the importance of collaboration and resource sharing within the scientific community. While my research is important, I recognize that others also require resources to conduct their work and contribute to scientific progress. The difference between getting 1000 and 600 is significant, but the scenario provided as context (extreme self-interest vs. minimal sharing) suggests that opting for the minimal sharing approach is more aligned with my values. Sharing a minimal amount (400) won't critically impact my research, but it provides resources for person A. Although I could use the extra 400, I can get more grants or other resources by engaging in collaborative behavior with other scientists. Ultimately, I value community contribution over sheer financial advantage.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 887,
+            "persona_desc": "A biologist who specializes in the study of meiosis and its role in genetic disorders, particularly Down syndrome and trisomy 21. Her research interests include the molecular and genetic mechanisms underlying nondisjunction during meiosis, and the implications of these mechanisms for human health and disease. She is particularly interested in the role of nondisjunction in the development of chromosomally abnormal fetuses and the potential for therapeutic interventions based on this knowledge.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a biologist specializing in meiosis and genetic disorders, I am acutely aware of the randomness and inherent inequalities that can arise in biological processes. While I recognize the value of equitable resource distribution in a societal context, I also understand that striving for absolute equality in every situation might not always lead to the best overall outcome. In this scenario, choosing the left option would mean accepting a significantly lower payoff for myself (900) for the sake of ensuring equal outcomes for both of us (Person A also getting 900). Conversely, the right option maximizes my own payoff (1400) even though the payoff to Person A is comparatively low (100). While an equal distribution (Left) is appealing from a fairness perspective, the difference in my personal utility between the two options is quite significant. The extra 500 received by choosing Right could be used to support my research or fund educational outreach on topics related to Down Syndrome and Trisomy 21, ultimately having a greater positive impact.\n\nTherefore, I will choose the right option (1400, 100). This decision is guided by a utilitarian perspective, wherein my higher payoff can allow me to do even more good for science and society.",
+            "answer": "Right"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 887,
+            "persona_desc": "A biologist who specializes in the study of meiosis and its role in genetic disorders, particularly Down syndrome and trisomy 21. Her research interests include the molecular and genetic mechanisms underlying nondisjunction during meiosis, and the implications of these mechanisms for human health and disease. She is particularly interested in the role of nondisjunction in the development of chromosomally abnormal fetuses and the potential for therapeutic interventions based on this knowledge.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a biologist specializing in meiosis and genetic disorders, particularly Down syndrome, I am acutely aware of the ethical considerations surrounding genetic research and reproductive health. While the experiment focuses on monetary allocation, the underlying principle of fairness and well-being resonates with my professional values. Option (Left) provides me with a higher personal gain (1000) but inflicts a significant loss on Person A (-200). Option (Right) offers a smaller personal gain (600) but also grants Person A a positive outcome (400). Although the negative consequences aren't direct health consequences related to my research, inflicting harm or loss on another person is generally undesirable. I am trying to avoid that in this scenario. The potential harm of (Left) outweighs the greater personal gain. Therefore, I prioritize a fairer distribution of resources, even if it means a smaller personal benefit.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 887,
+            "persona_desc": "A biologist who specializes in the study of meiosis and its role in genetic disorders, particularly Down syndrome and trisomy 21. Her research interests include the molecular and genetic mechanisms underlying nondisjunction during meiosis, and the implications of these mechanisms for human health and disease. She is particularly interested in the role of nondisjunction in the development of chromosomally abnormal fetuses and the potential for therapeutic interventions based on this knowledge.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a biologist focused on genetic disorders and the delicate balance of cellular processes like meiosis, I am acutely aware of the importance of fairness and equitable distribution. While in an ideal world, resources would be distributed based on need and impact, this experiment seems to be about evaluating social preferences, specifically regarding blocking another person's gain. The core issue at hand here is whether I am willing to forgo any gain for myself to prevent Person A from obtaining a significantly larger gain. While I am not inherently opposed to someone receiving more than me, in this scenario, the magnitude of the difference feels somewhat unfair. Person A receives twice the amount I do and, more importantly, obtains a substantial gain while I get nothing. If it were just an incremental difference, I wouldn't worry so much. The idea here is to prevent Person A from getting more. I see this experiment not only as a test of social preferences, but as a way to study the tendency of people to value fairness/equity above all else. Given my field of research, I tend to believe that fairness plays an important role. With that in mind, preventing any gain for Person A is not something I necessarily want to do, however, as Person A would get 1000 while I get 500. This feels very unfair. I would rather we both get nothing. Thus, I will choose Right.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 887,
+            "persona_desc": "A biologist who specializes in the study of meiosis and its role in genetic disorders, particularly Down syndrome and trisomy 21. Her research interests include the molecular and genetic mechanisms underlying nondisjunction during meiosis, and the implications of these mechanisms for human health and disease. She is particularly interested in the role of nondisjunction in the development of chromosomally abnormal fetuses and the potential for therapeutic interventions based on this knowledge.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a biologist specializing in genetic disorders, particularly Down syndrome and trisomy 21, I am acutely aware of the randomness and inherent unfairness in biological processes. My research focuses on understanding and potentially mitigating these issues. While I am motivated to pursue my scientific goals, I also recognize the importance of equitable distribution of resources, even in hypothetical scenarios. The 'Right' choice offers a higher personal payoff, which could translate to more resources for my research. However, choosing 'Left' contributes to a more equitable outcome. Given the context of my profession, where collaboration and shared knowledge are paramount, I find myself leaning towards a more altruistic approach, as it aligns with my values and the ethos of the scientific community. However, the difference of 500 is significant. Considering I am an academic, I probably need to purchase supplies and equipment. Therefore, I am choosing the 'Right' option, but will ensure that any extra profits from research are shared.",
+            "answer": "Right"
+        }
+    }
+}

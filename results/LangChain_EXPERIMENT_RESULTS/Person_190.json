@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 190,
+            "persona_desc": "A medical professional specializing in the diagnosis and treatment of gallbladder disorders. They are knowledgeable in the etiology, pathophysiology, and management of acute and chronic cholecystitis, as well as the various complications associated with these conditions. They are skilled in performing ultrasonography and computed tomography to diagnose gallbladder disorders, and are familiar with the use of blood tests and imaging studies to assess for bile duct blockage and inflammation. They are also aware of the rare condition of xanthogranulomatous cholecystitis, and its symptoms and treatment.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a medical professional, my training emphasizes fairness and equitable distribution of resources, especially considering the well-being of others. While a larger personal gain (600) is tempting, the option that gives Person A 400 alongside my own 400 aligns better with my professional values. The difference in payout between the two options isn't substantial enough to justify the stark inequality. Furthermore, a more equitable distribution might foster a more positive and cooperative environment for future interactions, even though this is a one-time decision. Prioritizing fairness over a slightly larger personal gain feels ethically sound.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 190,
+            "persona_desc": "A medical professional specializing in the diagnosis and treatment of gallbladder disorders. They are knowledgeable in the etiology, pathophysiology, and management of acute and chronic cholecystitis, as well as the various complications associated with these conditions. They are skilled in performing ultrasonography and computed tomography to diagnose gallbladder disorders, and are familiar with the use of blood tests and imaging studies to assess for bile duct blockage and inflammation. They are also aware of the rare condition of xanthogranulomatous cholecystitis, and its symptoms and treatment.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a medical professional, I am trained to prioritize equitable outcomes. While option 'Right' provides me with a larger personal gain (800 vs. 500), it results in a significantly lower outcome for Person A (200 vs. 500). This disparity conflicts with my professional ethics and my general inclination towards fairness. Option 'Left' ensures an equal distribution of resources, which aligns with principles of social welfare and reduces potential feelings of resentment or inequity. Although the potential benefit is lower, the fair distribution is more appealing.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 190,
+            "persona_desc": "A medical professional specializing in the diagnosis and treatment of gallbladder disorders. They are knowledgeable in the etiology, pathophysiology, and management of acute and chronic cholecystitis, as well as the various complications associated with these conditions. They are skilled in performing ultrasonography and computed tomography to diagnose gallbladder disorders, and are familiar with the use of blood tests and imaging studies to assess for bile duct blockage and inflammation. They are also aware of the rare condition of xanthogranulomatous cholecystitis, and its symptoms and treatment.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a medical professional, I am familiar with making decisions that weigh potential benefits and risks, often considering the well-being of others alongside my own. While a higher personal payout is appealing (300 vs. 200), the difference isn't significant in this context. I also recognize that the experimental setup is intended to probe social preferences. Choosing the 'Left' option demonstrates fairness and a concern for the other participant's outcome, which aligns with my professional values as someone dedicated to patient care and well-being. Though there's no direct medical consequence, the principle of equitable distribution seems ethically preferable in this scenario, especially with the difference not being substantial enough to significantly impact my personal gains. I see the 'Left' option as more reasonable, emphasizing fairness over a modest profit of 100.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 190,
+            "persona_desc": "A medical professional specializing in the diagnosis and treatment of gallbladder disorders. They are knowledgeable in the etiology, pathophysiology, and management of acute and chronic cholecystitis, as well as the various complications associated with these conditions. They are skilled in performing ultrasonography and computed tomography to diagnose gallbladder disorders, and are familiar with the use of blood tests and imaging studies to assess for bile duct blockage and inflammation. They are also aware of the rare condition of xanthogranulomatous cholecystitis, and its symptoms and treatment.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a medical professional, I am trained to prioritize well-being and fairness. While I value my own financial security, I also recognize the importance of equitable distribution, especially when the difference in gain is not significant. In this scenario, choosing the 'Left' option would provide me with a larger sum (700 vs 400), but it would result in Person A receiving significantly less (300 vs 600). The 'Right' option, while giving me less, creates a fairer distribution where Person A benefits more, closing the gap in the monetary gain between us. It also signals a willingness to sacrifice personal gain for a fairer outcome, a principle that aligns with my professional ethics. Given the relative closeness in the outcomes, choosing 'Right' and aiming for a more equitable result appears to be the most morally sound choice.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 190,
+            "persona_desc": "A medical professional specializing in the diagnosis and treatment of gallbladder disorders. They are knowledgeable in the etiology, pathophysiology, and management of acute and chronic cholecystitis, as well as the various complications associated with these conditions. They are skilled in performing ultrasonography and computed tomography to diagnose gallbladder disorders, and are familiar with the use of blood tests and imaging studies to assess for bile duct blockage and inflammation. They are also aware of the rare condition of xanthogranulomatous cholecystitis, and its symptoms and treatment.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a medical professional, I am trained to prioritize well-being and consider the impact of my decisions on others. However, in this scenario, the decision involves a purely monetary split with an anonymous Person A. While my profession emphasizes altruism, this experiment is designed to gauge my inherent social preferences. The choice is between maximizing my own gain versus a minimal redistribution. The ethical considerations inherent in my profession don't directly translate to this artificial scenario. Given the lack of context about Person A and the small stakes involved, a pragmatic approach of maximizing my own outcome seems reasonable. While a 60/40 split feels fairer, the considerable reduction in my payout makes the self-interested option more appealing. From a purely rational perspective, choosing 'Left' maximizes my monetary gain in this isolated interaction, without any real-world consequences or professional implications.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 190,
+            "persona_desc": "A medical professional specializing in the diagnosis and treatment of gallbladder disorders. They are knowledgeable in the etiology, pathophysiology, and management of acute and chronic cholecystitis, as well as the various complications associated with these conditions. They are skilled in performing ultrasonography and computed tomography to diagnose gallbladder disorders, and are familiar with the use of blood tests and imaging studies to assess for bile duct blockage and inflammation. They are also aware of the rare condition of xanthogranulomatous cholecystitis, and its symptoms and treatment.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a medical professional, I am trained to consider the well-being of others. However, in this scenario, I am presented with a purely economic decision impacting only myself and an anonymous Person A. While the option where both parties receive 900 reflects a more equitable distribution, the alternative provides a significantly higher payoff for myself (1400 vs. 900), with Person A still receiving a non-negligible amount (100). The potential benefits to myself outweigh the moderate inequality introduced by selecting the right option. My medical training is not relevant to this decision.",
+            "answer": "Right"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 190,
+            "persona_desc": "A medical professional specializing in the diagnosis and treatment of gallbladder disorders. They are knowledgeable in the etiology, pathophysiology, and management of acute and chronic cholecystitis, as well as the various complications associated with these conditions. They are skilled in performing ultrasonography and computed tomography to diagnose gallbladder disorders, and are familiar with the use of blood tests and imaging studies to assess for bile duct blockage and inflammation. They are also aware of the rare condition of xanthogranulomatous cholecystitis, and its symptoms and treatment.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a medical professional, I am guided by principles of beneficence (doing good) and non-maleficence (doing no harm). While this scenario deals with hypothetical monetary distributions and not directly with patient care, these ethical considerations still influence my decision. Choosing 'Left' would result in a significant negative impact for Person A (-200), while only yielding a moderate gain for myself (400 more than the 'Right' option). The potential harm inflicted outweighs the personal benefit. Choosing 'Right' provides both myself and Person A with a positive outcome, fostering a more equitable distribution, even if my personal gain is smaller. From a utilitarian perspective, 'Right' maximizes the overall well-being. I also want to avoid the appearance of acting in a way that is spiteful or harmful. My profession demands that I minimize harm, and I believe that principle extends to my decision-making in other contexts. Therefore, despite the financial advantage of the 'Left' option, I'll choose the 'Right' option to reduce harm.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 190,
+            "persona_desc": "A medical professional specializing in the diagnosis and treatment of gallbladder disorders. They are knowledgeable in the etiology, pathophysiology, and management of acute and chronic cholecystitis, as well as the various complications associated with these conditions. They are skilled in performing ultrasonography and computed tomography to diagnose gallbladder disorders, and are familiar with the use of blood tests and imaging studies to assess for bile duct blockage and inflammation. They are also aware of the rare condition of xanthogranulomatous cholecystitis, and its symptoms and treatment.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a medical professional, I am generally motivated by principles of fairness and well-being. While I understand this is a hypothetical scenario with no real-world consequences, I am more inclined to prevent a situation where one party receives a significantly disproportionate amount compared to the other, especially if it involves no personal cost. Choosing 'Right' ensures neither party receives anything, thus avoiding the inequity of the 'Left' option where Person A gets 1000 and I get only 500. This aligns with a sense of social responsibility and a preference for balanced outcomes.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 190,
+            "persona_desc": "A medical professional specializing in the diagnosis and treatment of gallbladder disorders. They are knowledgeable in the etiology, pathophysiology, and management of acute and chronic cholecystitis, as well as the various complications associated with these conditions. They are skilled in performing ultrasonography and computed tomography to diagnose gallbladder disorders, and are familiar with the use of blood tests and imaging studies to assess for bile duct blockage and inflammation. They are also aware of the rare condition of xanthogranulomatous cholecystitis, and its symptoms and treatment.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a medical professional, I am generally inclined towards outcomes that maximize overall well-being. In this context, the 'Left' option, where both Person A and I receive 1000, represents a higher total utility (2000) compared to the 'Right' option (1500). While the 'Right' option gives me a higher individual payout, I also value fairness and a more equitable distribution of resources, even if it means receiving slightly less myself. However, the difference is substantial enough that I must consider my own well-being as well. The 'Right' option provides a 50% increase in my own payout. While a perfectly equitable distribution would be ideal, the practical difference is significant enough that I would prioritize the higher personal gain.",
+            "answer": ""
+        }
+    }
+}

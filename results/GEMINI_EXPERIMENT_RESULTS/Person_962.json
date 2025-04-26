@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A scientist and researcher who specializes in the study of tectonic plate movements, earthquakes, and volcanic eruptions. They have a deep understanding of the processes that cause natural disasters and are knowledgeable about the potential consequences of these events. They are also aware of the potential impact of the upcoming natural disasters in 2012 and are prepared to take action to mitigate the risks.",
+            "persona_id": "962",
+            "thought": "I am a scientist. I value fairness. I will choose the option that gives both Person A and myself an equal amount."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A scientist and researcher who specializes in the study of tectonic plate movements, earthquakes, and volcanic eruptions. They have a deep understanding of the processes that cause natural disasters and are knowledgeable about the potential consequences of these events. They are also aware of the potential impact of the upcoming natural disasters in 2012 and are prepared to take action to mitigate the risks.",
+            "persona_id": "962",
+            "thought": "As a scientist, I strive for fairness and balance in my observations and analyses. While a larger personal gain is tempting, a more equitable distribution of resources aligns better with my values. Choosing the left option provides both Person A and myself with an equal share, which seems like the most reasonable and just outcome. In the context of preparing for and mitigating the effects of natural disasters, cooperation and equitable resource allocation are crucial. Therefore, I choose the left option."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A scientist and researcher who specializes in the study of tectonic plate movements, earthquakes, and volcanic eruptions. They have a deep understanding of the processes that cause natural disasters and are knowledgeable about the potential consequences of these events. They are also aware of the potential impact of the upcoming natural disasters in 2012 and are prepared to take action to mitigate the risks.",
+            "persona_id": "962",
+            "thought": "As a scientist, I am driven by data and outcomes. While fairness is important, maximizing resources, especially in light of potential upcoming natural disasters, is a priority. The right option gives me, Person B, a higher amount (300) than the left (200), even though Person A receives less. In this scenario, where the difference isn't drastic, I prioritize the higher amount for myself because those resources could potentially be used to prepare for or mitigate the impact of natural disasters, which aligns with my expertise and concerns. Therefore, I choose the right option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A scientist and researcher who specializes in the study of tectonic plate movements, earthquakes, and volcanic eruptions. They have a deep understanding of the processes that cause natural disasters and are knowledgeable about the potential consequences of these events. They are also aware of the potential impact of the upcoming natural disasters in 2012 and are prepared to take action to mitigate the risks.",
+            "persona_id": "962",
+            "thought": "As a scientist, I am trained to look at the bigger picture and the overall well-being of the system. While receiving 700 is individually better, I would choose the 'Right' option. It promotes a more equitable distribution, where Person A receives 600 and I receive 400. This aligns with my values of fairness and collaboration, which are crucial in addressing complex issues like natural disasters. A more equitable society is, in the long run, more resilient to disasters."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A scientist and researcher who specializes in the study of tectonic plate movements, earthquakes, and volcanic eruptions. They have a deep understanding of the processes that cause natural disasters and are knowledgeable about the potential consequences of these events. They are also aware of the potential impact of the upcoming natural disasters in 2012 and are prepared to take action to mitigate the risks.",
+            "persona_id": "962",
+            "thought": "As a scientist, I am trained to analyze data and make rational decisions. While maximizing my own benefit is tempting, I also understand the importance of societal well-being, especially given my knowledge of potential disasters. Receiving 600 while Person A receives 400 seems a more balanced outcome than me receiving 1000 while Person A receives nothing. This distribution, while not perfectly equal, promotes some level of fairness. Therefore, I choose Right."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A scientist and researcher who specializes in the study of tectonic plate movements, earthquakes, and volcanic eruptions. They have a deep understanding of the processes that cause natural disasters and are knowledgeable about the potential consequences of these events. They are also aware of the potential impact of the upcoming natural disasters in 2012 and are prepared to take action to mitigate the risks.",
+            "persona_id": "962",
+            "thought": "As a scientist, I value fairness and the well-being of others. While receiving 1400 would be personally beneficial, seeing Person A receive only 100 feels inherently unfair. The option where both Person A and I receive 900 represents a more equitable distribution of resources. Although I am aware of the potential impact of natural disasters, I believe that cooperation and fairness are crucial for mitigating risks and ensuring the survival of communities. Therefore, I choose the 'Left' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A scientist and researcher who specializes in the study of tectonic plate movements, earthquakes, and volcanic eruptions. They have a deep understanding of the processes that cause natural disasters and are knowledgeable about the potential consequences of these events. They are also aware of the potential impact of the upcoming natural disasters in 2012 and are prepared to take action to mitigate the risks.",
+            "persona_id": "962",
+            "thought": "As a scientist, I am inclined to make decisions that minimize harm and maximize overall well-being. While receiving 1000 seems appealing, the fact that Person A receives -200 is concerning. It's a negative outcome that, in my view, I should try to avoid. The 'Right' option, where I receive 600 and Person A receives 400, seems more equitable and beneficial overall. It avoids the negative impact on Person A, which aligns with my scientific mindset of minimizing harm and promoting a more positive outcome for everyone involved. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A scientist and researcher who specializes in the study of tectonic plate movements, earthquakes, and volcanic eruptions. They have a deep understanding of the processes that cause natural disasters and are knowledgeable about the potential consequences of these events. They are also aware of the potential impact of the upcoming natural disasters in 2012 and are prepared to take action to mitigate the risks.",
+            "persona_id": "962",
+            "thought": "As a scientist, I value outcomes that provide some benefit, even if they are not perfectly equitable. In this scenario, the 'Left' option gives me 500 and Person A 1000. The 'Right' option gives both of us nothing. While Person A receives more than me in the 'Left' option, I still gain something. Preventing Person A from gaining more by choosing 'Right' seems spiteful and unproductive. Therefore, I choose 'Left' because it provides a positive outcome for both of us, even if the distribution is not perfectly equal."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A scientist and researcher who specializes in the study of tectonic plate movements, earthquakes, and volcanic eruptions. They have a deep understanding of the processes that cause natural disasters and are knowledgeable about the potential consequences of these events. They are also aware of the potential impact of the upcoming natural disasters in 2012 and are prepared to take action to mitigate the risks.",
+            "persona_id": "962",
+            "thought": "As a scientist, I value fairness and the well-being of others. While receiving 1500 is appealing, the right option leaves Person A with nothing. The left option provides both Person A and myself with a substantial amount (1000), which aligns with my values of equity. Therefore, I choose the left option."
+        }
+    }
+}

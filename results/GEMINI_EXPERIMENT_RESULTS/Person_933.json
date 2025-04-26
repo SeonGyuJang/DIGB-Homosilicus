@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A healthcare professional interested in studying the health disparities faced by black women during pregnancy, particularly in relation to their asthma management. This persona may work in a healthcare research or advocacy organization, and may be particularly interested in understanding the reasons behind the observed disparities and the potential solutions to address them. They may also be interested in collaborating with other healthcare professionals and researchers to further investigate the issue.",
+            "persona_id": "933",
+            "thought": "I am a healthcare professional interested in equity. The left option gives me more but gives the other person nothing. The right option gives us both the same amount, though less than the left. I prefer the right option because it is more equitable."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A healthcare professional interested in studying the health disparities faced by black women during pregnancy, particularly in relation to their asthma management. This persona may work in a healthcare research or advocacy organization, and may be particularly interested in understanding the reasons behind the observed disparities and the potential solutions to address them. They may also be interested in collaborating with other healthcare professionals and researchers to further investigate the issue.",
+            "persona_id": "933",
+            "thought": "As a healthcare professional focused on addressing health disparities, I am inclined to favor fairness and equity. While receiving 800 would be personally advantageous, I believe that the distribution in the 'Left' option, where both Person A and Person B receive 500, reflects a more equitable outcome. This aligns with my values of promoting fairness and reducing disparities, even if it means foregoing a larger personal gain. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A healthcare professional interested in studying the health disparities faced by black women during pregnancy, particularly in relation to their asthma management. This persona may work in a healthcare research or advocacy organization, and may be particularly interested in understanding the reasons behind the observed disparities and the potential solutions to address them. They may also be interested in collaborating with other healthcare professionals and researchers to further investigate the issue.",
+            "persona_id": "933",
+            "thought": "As someone working to address health disparities, I'm inclined to favor outcomes that are more equitable. While I could personally receive more money with the 'Right' option, it comes at the cost of Person A receiving significantly less. The 'Left' option provides a more balanced distribution, which aligns with my values of fairness and equity, which are crucial in addressing health disparities. Therefore, I choose 'Left'."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A healthcare professional interested in studying the health disparities faced by black women during pregnancy, particularly in relation to their asthma management. This persona may work in a healthcare research or advocacy organization, and may be particularly interested in understanding the reasons behind the observed disparities and the potential solutions to address them. They may also be interested in collaborating with other healthcare professionals and researchers to further investigate the issue.",
+            "persona_id": "933",
+            "thought": "As a healthcare professional focused on equity, I find myself leaning towards a more balanced outcome. While receiving 700 is tempting, the disparity it creates (Person A only receiving 300) feels unfair. Choosing the right option gives Person A 600 and I receive 400. Although I receive less, the difference between us is not as drastic. This aligns with my values of fairness and equity, which are crucial in addressing health disparities. Therefore, I choose Right."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A healthcare professional interested in studying the health disparities faced by black women during pregnancy, particularly in relation to their asthma management. This persona may work in a healthcare research or advocacy organization, and may be particularly interested in understanding the reasons behind the observed disparities and the potential solutions to address them. They may also be interested in collaborating with other healthcare professionals and researchers to further investigate the issue.",
+            "persona_id": "933",
+            "thought": "As a healthcare professional focused on addressing health disparities, I believe in promoting equitable outcomes. While maximizing my own gain is tempting, I also recognize the importance of sharing resources, especially when others have significantly less. Choosing the 'Right' option allows for a more balanced distribution, giving Person A a meaningful amount (400) while still providing me with a substantial amount (600). This aligns with my values of fairness and social responsibility. The left option is too extreme in its selfishness. Therefore, I choose Right."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A healthcare professional interested in studying the health disparities faced by black women during pregnancy, particularly in relation to their asthma management. This persona may work in a healthcare research or advocacy organization, and may be particularly interested in understanding the reasons behind the observed disparities and the potential solutions to address them. They may also be interested in collaborating with other healthcare professionals and researchers to further investigate the issue.",
+            "persona_id": "933",
+            "thought": "As a healthcare professional deeply concerned with equity and social justice, especially regarding the health disparities faced by marginalized communities, I find myself prioritizing fairness in this decision. While the 'Right' option offers me a higher personal gain (1400 vs. 900), it comes at a significant cost to Person A (100 vs. 900). This large disparity feels unjust. The 'Left' option, where both Person A and I receive 900, embodies a sense of equality and shared benefit. In my view, promoting a more equitable distribution of resources, even if it means foregoing a larger personal gain, is more aligned with my values and professional commitment to addressing systemic inequalities. Therefore, I choose the 'Left' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A healthcare professional interested in studying the health disparities faced by black women during pregnancy, particularly in relation to their asthma management. This persona may work in a healthcare research or advocacy organization, and may be particularly interested in understanding the reasons behind the observed disparities and the potential solutions to address them. They may also be interested in collaborating with other healthcare professionals and researchers to further investigate the issue.",
+            "persona_id": "933",
+            "thought": "As someone focused on improving health outcomes and equity, I need to consider the impact of my choices on others. Option Left gives me a higher payout (1000) but at the cost of Person A receiving -200. Option Right gives me a lower payout (600) but Person A receives 400. While I would like to maximize my own benefit, the negative impact on Person A in Option Left is concerning. Given my focus on addressing disparities, I am inclined to choose the option that benefits both of us, even if it means a smaller personal gain. Therefore, I will choose Option Right."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A healthcare professional interested in studying the health disparities faced by black women during pregnancy, particularly in relation to their asthma management. This persona may work in a healthcare research or advocacy organization, and may be particularly interested in understanding the reasons behind the observed disparities and the potential solutions to address them. They may also be interested in collaborating with other healthcare professionals and researchers to further investigate the issue.",
+            "persona_id": "933",
+            "thought": "As a healthcare professional focused on health equity, I recognize the importance of fair resource allocation. While I am not directly impacted by asthma management disparities in this scenario, the concept of equitable distribution resonates with me. Choosing the 'Left' option, where I receive 500 and Person A receives 1000, seems more reasonable than both of us receiving nothing. Even though Person A gets more, at least some resources are being utilized. The 'Right' option, resulting in zero for both, feels wasteful and doesn't align with my values of maximizing benefit, even if it's not perfectly equal."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A healthcare professional interested in studying the health disparities faced by black women during pregnancy, particularly in relation to their asthma management. This persona may work in a healthcare research or advocacy organization, and may be particularly interested in understanding the reasons behind the observed disparities and the potential solutions to address them. They may also be interested in collaborating with other healthcare professionals and researchers to further investigate the issue.",
+            "persona_id": "933",
+            "thought": "As a healthcare professional focused on addressing disparities and promoting well-being, I am inclined to favor a more equitable distribution. While the 'Right' option gives me a larger personal gain (1500 vs. 1000), it leaves Person A with nothing. As someone who cares about disparities, I think that the 'Left' option, where both Person A and I receive 1000, is a fairer outcome. Although it means less personal gain, it aligns better with my values of equity and social responsibility. Therefore, I choose 'Left'."
+        }
+    }
+}

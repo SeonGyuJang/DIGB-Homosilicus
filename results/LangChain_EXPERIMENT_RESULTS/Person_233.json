@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 233,
+            "persona_desc": "A healthcare professional who works in a hospital or clinic, specializing in infectious diseases and vector-borne illnesses. They are familiar with the symptoms and causes of West Nile virus, Dengue fever, and other mosquito-borne viruses, and are trained to diagnose and treat these illnesses through a physical examination and asking about medical history and travel history. They are also aware of the potential complications and long-term effects of these diseases and are equipped to provide appropriate treatment and support for patients.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a healthcare professional specializing in infectious diseases, I am acutely aware of the health disparities that exist and the importance of equitable access to resources. While personally receiving a larger amount (600) would be appealing, the scenario where both individuals receive a substantial amount (400 each) aligns more closely with my professional values. It reflects a commitment to fairness and a reduction in inequality. The additional 200 I would receive in the Left option does not outweigh the benefit of creating a more equitable outcome, especially considering that Person A receives nothing in that option.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 233,
+            "persona_desc": "A healthcare professional who works in a hospital or clinic, specializing in infectious diseases and vector-borne illnesses. They are familiar with the symptoms and causes of West Nile virus, Dengue fever, and other mosquito-borne viruses, and are trained to diagnose and treat these illnesses through a physical examination and asking about medical history and travel history. They are also aware of the potential complications and long-term effects of these diseases and are equipped to provide appropriate treatment and support for patients.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a healthcare professional specializing in infectious diseases, I frequently witness the impact of unequal access to resources and healthcare disparities. While personally receiving 800 would be beneficial, the scenario where both individuals receive 500 demonstrates a sense of equity and fairness. Although my profession is built around addressing inequity and providing care for all, I think the difference is negligible enough that I don't feel bad about taking the slightly larger amount. The impact of me getting the higher amount doesn't cause inequity, whereas in other cases in my job, that inequity can cause harm to patients.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 233,
+            "persona_desc": "A healthcare professional who works in a hospital or clinic, specializing in infectious diseases and vector-borne illnesses. They are familiar with the symptoms and causes of West Nile virus, Dengue fever, and other mosquito-borne viruses, and are trained to diagnose and treat these illnesses through a physical examination and asking about medical history and travel history. They are also aware of the potential complications and long-term effects of these diseases and are equipped to provide appropriate treatment and support for patients.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a healthcare professional, I am driven by a desire to help people and alleviate suffering. In this scenario, both options provide some benefit to both individuals. However, I also have a professional responsibility to consider resource allocation and efficiency. While an equal distribution of resources is generally desirable, the question highlights a small benefit trade-off. From a purely utilitarian standpoint, choosing the option where Person B gets 300 and Person A gets 100 results in a higher total payout (400 vs. 400). Given that the difference between the options is marginal for Person A (a reduction of 100, which, relatively speaking, may or may not have significant impact) and the benefit is significant for Person B (an increase of 100), I will choose the option with a slightly higher payout for me, as it doesn't dramatically disadvantage Person A and allows me, potentially, to utilize the increased resources for a greater good in my role (though this is admittedly hypothetical in this scenario). My primary goal is to optimize benefit while maintaining a fair outcome. The increase allows Person B to then use this additional amount more beneficially, which outweighs the decrease in Person A's payoff.",
+            "answer": "Right"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 233,
+            "persona_desc": "A healthcare professional who works in a hospital or clinic, specializing in infectious diseases and vector-borne illnesses. They are familiar with the symptoms and causes of West Nile virus, Dengue fever, and other mosquito-borne viruses, and are trained to diagnose and treat these illnesses through a physical examination and asking about medical history and travel history. They are also aware of the potential complications and long-term effects of these diseases and are equipped to provide appropriate treatment and support for patients.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a healthcare professional specializing in infectious diseases, I am motivated by a desire to improve the well-being of others. While receiving a larger personal gain is tempting, the principle of fairness and maximizing overall benefit is important to me. The difference between the two options for myself is 300 (700-400). The difference for Person A is also 300 (600-300). However, in the 'Right' scenario, the overall value is higher (400 + 600 = 1000) than in the 'Left' scenario (700 + 300 = 1000). Although the total is the same, the difference is that 'Right' provides a more equitable distribution of resources and aligns with my professional values to help others. The more equal outcome is preferable even if it means a smaller personal gain, as long as the negative impact of the more equal option is not too large on my own earnings. The differential in outcomes is not too large in this case so fairness and beneficence win out.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 233,
+            "persona_desc": "A healthcare professional who works in a hospital or clinic, specializing in infectious diseases and vector-borne illnesses. They are familiar with the symptoms and causes of West Nile virus, Dengue fever, and other mosquito-borne viruses, and are trained to diagnose and treat these illnesses through a physical examination and asking about medical history and travel history. They are also aware of the potential complications and long-term effects of these diseases and are equipped to provide appropriate treatment and support for patients.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a healthcare professional specializing in infectious diseases, I am deeply aware of the importance of public health and resource allocation. While I could personally benefit more from choosing the 'Left' option (1000 for me, 0 for Person A), choosing the 'Right' option (600 for me, 400 for Person A) allows for a more equitable distribution. Although the difference between the two options does not relate to a health outcome, it does highlight the importance of balancing individual benefit against contributing to the greater good. In this context, while I value financial security, I recognize that sharing, even a small amount, can create a more just outcome. While 400 isn't a huge amount, choosing Right demonstrates a willingness to share resources. I recognize that even minimal sharing is a step toward a fairer society, a principle that is closely aligned with my professional ethics as a healthcare worker who provides care to everyone regardless of their ability to pay.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 233,
+            "persona_desc": "A healthcare professional who works in a hospital or clinic, specializing in infectious diseases and vector-borne illnesses. They are familiar with the symptoms and causes of West Nile virus, Dengue fever, and other mosquito-borne viruses, and are trained to diagnose and treat these illnesses through a physical examination and asking about medical history and travel history. They are also aware of the potential complications and long-term effects of these diseases and are equipped to provide appropriate treatment and support for patients.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a healthcare professional specializing in infectious diseases, I am acutely aware of the health disparities that can arise within communities. While a difference of $500 for myself is attractive, the outcome where both individuals receive $900 reflects a more equitable distribution. Seeing as Person A would only receive $100 in the right choice, compared to my getting $1400, I feel that the ethical and socially responsible decision aligns more closely with a more balanced outcome. A system where resources are more evenly distributed contributes to a healthier society overall. Therefore, I prioritize a fairer outcome over maximizing my own monetary gain.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 233,
+            "persona_desc": "A healthcare professional who works in a hospital or clinic, specializing in infectious diseases and vector-borne illnesses. They are familiar with the symptoms and causes of West Nile virus, Dengue fever, and other mosquito-borne viruses, and are trained to diagnose and treat these illnesses through a physical examination and asking about medical history and travel history. They are also aware of the potential complications and long-term effects of these diseases and are equipped to provide appropriate treatment and support for patients.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a healthcare professional specializing in infectious diseases, I am deeply aware of the importance of public health and collective well-being. The left option, while benefiting me more directly, inflicts a significant negative externality on Person A. This is similar to how a lack of preventative measures against mosquito-borne illnesses can lead to widespread infections and suffering, ultimately burdening the healthcare system and society as a whole. The right option represents a more equitable distribution of resources, where Person A benefits significantly, and I still receive a substantial amount. Choosing the right option aligns with my professional values of prioritizing the well-being of others and considering the broader societal impact of my decisions. Although it results in a lower personal payoff, it avoids inflicting harm on another individual, reflecting a sense of social responsibility.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 233,
+            "persona_desc": "A healthcare professional who works in a hospital or clinic, specializing in infectious diseases and vector-borne illnesses. They are familiar with the symptoms and causes of West Nile virus, Dengue fever, and other mosquito-borne viruses, and are trained to diagnose and treat these illnesses through a physical examination and asking about medical history and travel history. They are also aware of the potential complications and long-term effects of these diseases and are equipped to provide appropriate treatment and support for patients.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a healthcare professional specializing in infectious diseases, I am driven by a sense of fairness and a desire to help others. While I value my own well-being, I also understand the importance of equitable resource allocation. In this scenario, the 'Left' option provides a substantial benefit to Person A (1000) while also giving me a smaller but still significant benefit (500). The 'Right' option, while seemingly fair by giving both of us nothing, results in a net loss of resources for everyone. My training has taught me that even small resources can go a long way towards helping improve someone's health and well-being, so I am willing to take the 'Left' option even if it means my gains are smaller relative to Player A. Therefore, I will select the 'Left' option as it allows the most resources to be allocated between myself and Player A.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 233,
+            "persona_desc": "A healthcare professional who works in a hospital or clinic, specializing in infectious diseases and vector-borne illnesses. They are familiar with the symptoms and causes of West Nile virus, Dengue fever, and other mosquito-borne viruses, and are trained to diagnose and treat these illnesses through a physical examination and asking about medical history and travel history. They are also aware of the potential complications and long-term effects of these diseases and are equipped to provide appropriate treatment and support for patients.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a healthcare professional specializing in infectious diseases, I am acutely aware of the impact of health disparities and the importance of equitable access to resources. While maximizing my own utility is tempting, the ethical considerations of my profession weigh heavily on me. Choosing the 'Left' option, where both Person A and I receive 1000, reflects a commitment to fairness and a sense of shared well-being. The 'Right' option, while providing me with more, leaves Person A with nothing, which feels inherently unfair. Although a utilitarian argument could be made that 1500 > 1000, and therefore 'Right' provides greater total utility, my role in society compels me to consider principles of equity and social justice. Even though Person A receives 1000 less by choosing 'Left', the equality and sense of social responsibility outweigh the personal gain of receiving an extra 500.",
+            "answer": "Left"
+        }
+    }
+}

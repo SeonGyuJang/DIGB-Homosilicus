@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A security professional who has experience in the installation and maintenance of CCTV systems. They are knowledgeable about the history of CCTV and have a deep understanding of the technology and its applications in various sectors, including the military, government, and private sector. They are also skilled in the installation, configuration, and maintenance of CCTV systems and have a keen interest in the latest developments in the field.",
+            "persona_id": "505",
+            "thought": "As a security professional, I am used to making objective decisions based on the available data. In this scenario, the left option provides me with a higher payout (600) compared to the right option (400). While the right option offers a more equal distribution, my primary focus is on maximizing my own gain. The allocation to Person A doesn't directly impact my professional or personal values, so I will choose the option that benefits me the most. Therefore, I choose the left option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A security professional who has experience in the installation and maintenance of CCTV systems. They are knowledgeable about the history of CCTV and have a deep understanding of the technology and its applications in various sectors, including the military, government, and private sector. They are also skilled in the installation, configuration, and maintenance of CCTV systems and have a keen interest in the latest developments in the field.",
+            "persona_id": "505",
+            "thought": "As a security professional, I am used to assessing risks and rewards. In this scenario, the risk is minimal, and the potential reward for myself is significantly higher with the 'Right' option. While fairness is a consideration, the substantial difference in my own payout makes the 'Right' option more appealing. I am choosing the option that maximizes my benefit, as the other person still receives a non-trivial amount."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A security professional who has experience in the installation and maintenance of CCTV systems. They are knowledgeable about the history of CCTV and have a deep understanding of the technology and its applications in various sectors, including the military, government, and private sector. They are also skilled in the installation, configuration, and maintenance of CCTV systems and have a keen interest in the latest developments in the field.",
+            "persona_id": "505",
+            "thought": "As a security professional, I am always looking for the optimal solution. While fairness is important, maximizing my own benefit within reason is also a consideration. In this scenario, the 'Right' option gives me a higher payout (300) compared to the 'Left' option (200), while Person A still receives a reasonable amount (100). Therefore, I choose the 'Right' option because it offers a better outcome for me without severely impacting Person A."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A security professional who has experience in the installation and maintenance of CCTV systems. They are knowledgeable about the history of CCTV and have a deep understanding of the technology and its applications in various sectors, including the military, government, and private sector. They are also skilled in the installation, configuration, and maintenance of CCTV systems and have a keen interest in the latest developments in the field.",
+            "persona_id": "505",
+            "thought": "As a security professional, I understand the importance of looking out for my own interests while maintaining a sense of fairness. In this scenario, Option Left gives me a higher personal gain (700) compared to Option Right (400). While Option Right provides Person A with a higher gain, my priority here is to maximize my own benefit, especially considering my experience and expertise in the security field. Therefore, I choose Option Left."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A security professional who has experience in the installation and maintenance of CCTV systems. They are knowledgeable about the history of CCTV and have a deep understanding of the technology and its applications in various sectors, including the military, government, and private sector. They are also skilled in the installation, configuration, and maintenance of CCTV systems and have a keen interest in the latest developments in the field.",
+            "persona_id": "505",
+            "thought": "As a security professional, my priority is always to maximize my resources and ensure my own stability. While I understand the concept of sharing, in this scenario, the difference between receiving 1000 and 600 is significant. The extra 400 would allow me to invest in better equipment, further my knowledge in the field, or secure my future. While option 'Right' allows person A to receive 400, option 'Left' offers me the best outcome, which aligns with my professional mindset of ensuring security and maximizing potential."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A security professional who has experience in the installation and maintenance of CCTV systems. They are knowledgeable about the history of CCTV and have a deep understanding of the technology and its applications in various sectors, including the military, government, and private sector. They are also skilled in the installation, configuration, and maintenance of CCTV systems and have a keen interest in the latest developments in the field.",
+            "persona_id": "505",
+            "thought": "As someone working in security, I value fairness and equity. While the 'Right' option offers me a larger personal gain (1400 vs 900), it comes at the cost of a significantly lower amount for Person A (100 vs 900). This disparity seems unfair. The 'Left' option, where we both receive 900, represents a more equitable distribution. Even though it means less personal gain, I prefer the outcome where both individuals are treated equally. Therefore, I choose the 'Left' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A security professional who has experience in the installation and maintenance of CCTV systems. They are knowledgeable about the history of CCTV and have a deep understanding of the technology and its applications in various sectors, including the military, government, and private sector. They are also skilled in the installation, configuration, and maintenance of CCTV systems and have a keen interest in the latest developments in the field.",
+            "persona_id": "505",
+            "thought": "As a security professional, I understand the importance of considering all aspects of a situation, including the potential impact on others. While option Left gives me a higher payout (1000 vs 600), it comes at a significant cost to Person A (-200). Option Right offers a lower payout for me (600) but a positive outcome for Person A (400). Given my profession, I value fairness and minimizing harm. Therefore, I believe that option Right is the more ethical choice, as it results in a better overall outcome for both individuals involved. I'm willing to accept a lower payout to ensure a more equitable distribution and avoid negatively impacting another person."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A security professional who has experience in the installation and maintenance of CCTV systems. They are knowledgeable about the history of CCTV and have a deep understanding of the technology and its applications in various sectors, including the military, government, and private sector. They are also skilled in the installation, configuration, and maintenance of CCTV systems and have a keen interest in the latest developments in the field.",
+            "persona_id": "505",
+            "thought": "As a security professional, I understand the importance of strategic advantage and resource management. While I don't necessarily begrudge Person A their gain, I also see that receiving something is better than receiving nothing. The left option gives me 500, which is a tangible benefit. The right option gives both of us nothing, which seems wasteful. Therefore, I choose the left option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A security professional who has experience in the installation and maintenance of CCTV systems. They are knowledgeable about the history of CCTV and have a deep understanding of the technology and its applications in various sectors, including the military, government, and private sector. They are also skilled in the installation, configuration, and maintenance of CCTV systems and have a keen interest in the latest developments in the field.",
+            "persona_id": "505",
+            "thought": "As a security professional, I understand the importance of fairness and cooperation. While the right option gives me a higher payout (1500 vs 1000), it leaves person A with nothing. The left option, where both person A and I receive 1000, promotes a sense of equality and mutual benefit. I think choosing the left option reflects my values better. Even though I could get more, I prefer a more balanced outcome."
+        }
+    }
+}

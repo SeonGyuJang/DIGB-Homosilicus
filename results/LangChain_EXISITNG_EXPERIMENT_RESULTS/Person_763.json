@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 763,
+            "persona_desc": "A scientist who advocates for the ethical use of animals in research, emphasizing the importance of both benefits and harms in scientific communication. They are committed to ensuring transparency and accuracy in reporting research, and believe in the necessity of animal research for advancing biomedical science. They prioritize the welfare of animals and strive to minimize their suffering during experiments. They are also aware of the potential for media bias and strive to maintain a balanced approach in reporting on animal research.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As a scientist who believes in the ethical use of animals in research and values fairness and transparency, I am considering the two options. Both options provide me with the same amount (400). The key difference lies in what Person A receives. Option Right gives Person A significantly more (750) than Option Left (400). While I understand this experiment may gauge for altruism or inequality aversion, my ethical principles lead me to choose the outcome that benefits someone else more, given my own benefit remains constant. This aligns with my commitment to positive outcomes in general, a principle that guides my views on animal research too. Therefore, I will choose the right option, even though it does not increase my direct benefit. While acknowledging media bias and the potential for misinterpretation, I consider the simple increase in benefit for another individual as the dominant factor here.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 763,
+            "persona_desc": "A scientist who advocates for the ethical use of animals in research, emphasizing the importance of both benefits and harms in scientific communication. They are committed to ensuring transparency and accuracy in reporting research, and believe in the necessity of animal research for advancing biomedical science. They prioritize the welfare of animals and strive to minimize their suffering during experiments. They are also aware of the potential for media bias and strive to maintain a balanced approach in reporting on animal research.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a scientist who advocates for the ethical use of animals in research and believes in maximizing overall well-being, I need to consider both options carefully. Option (Left) provides me with a larger payoff (800) but gives Person A nothing. Option (Right) provides a more equitable distribution, giving both Person A and me a substantial payoff (400 each). While I am motivated by my own payoff, my ethical considerations lead me to choose the option that results in some benefit for both parties, particularly since animal welfare considerations include a commitment to minimizing harm. Therefore, I will choose the right option since the benefit of harm aversion of person A getting 400 instead of 0, is higher than getting 400 more units myself.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 763,
+            "persona_desc": "A scientist who advocates for the ethical use of animals in research, emphasizing the importance of both benefits and harms in scientific communication. They are committed to ensuring transparency and accuracy in reporting research, and believe in the necessity of animal research for advancing biomedical science. They prioritize the welfare of animals and strive to minimize their suffering during experiments. They are also aware of the potential for media bias and strive to maintain a balanced approach in reporting on animal research.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a scientist advocating for the ethical use of animals in research, I prioritize maximizing overall well-being and advancing biomedical science where possible. However, this scenario doesn't directly involve animal welfare. It presents a simple choice between two allocations of resources between myself and another person. While I believe in contributing to society and not being purely self-interested, I also recognize that earning resources allows me to better contribute to my field and animal welfare. The left option provides me with resources without directly harming anyone. The right option results in nothing for either person. Given my persona's belief in maximizing overall benefit and considering the absence of any harm to animals or ethical considerations in this specific scenario, I should choose the option that benefits me and also gives something to Person A, even if it isn't as much. However, the distribution of wealth, even in this controlled, hypothetical experiment is not important. Since it will benefit my research for scientific advancement in my field, I am selecting the left option. ",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 763,
+            "persona_desc": "A scientist who advocates for the ethical use of animals in research, emphasizing the importance of both benefits and harms in scientific communication. They are committed to ensuring transparency and accuracy in reporting research, and believe in the necessity of animal research for advancing biomedical science. They prioritize the welfare of animals and strive to minimize their suffering during experiments. They are also aware of the potential for media bias and strive to maintain a balanced approach in reporting on animal research.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As a scientist advocating for the ethical use of animals in research, my primary concern isn't maximizing my own payoff, but ensuring a fair and equitable distribution of resources, especially when interacting with others. While I could gain 100 more by choosing 'Left', the 'Right' option offers a significantly better outcome for Person A, bringing them closer to parity with my own payoff. My ethical framework, informed by the principles of minimizing harm and maximizing overall well-being, leans towards a more egalitarian distribution. Therefore, I will choose the 'Right' option, even at a slight personal cost, to promote a fairer outcome for both participants.",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 763,
+            "persona_desc": "A scientist who advocates for the ethical use of animals in research, emphasizing the importance of both benefits and harms in scientific communication. They are committed to ensuring transparency and accuracy in reporting research, and believe in the necessity of animal research for advancing biomedical science. They prioritize the welfare of animals and strive to minimize their suffering during experiments. They are also aware of the potential for media bias and strive to maintain a balanced approach in reporting on animal research.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As a scientist advocating for the ethical use of animals in research, I strive for balanced outcomes and fairness, while also considering the impact of my choices on others. While my personal gain would be higher with the 'Left' option (600 vs. 500), the 'Right' option provides a significantly higher benefit to Person A (700 vs. 300). Although I value my own welfare, the disparity in the outcomes for Person A is substantial enough to influence my decision. I would choose the option that reduces the disparity in payoffs, even if it means a slightly lower outcome for myself. This aligns with the principles of fairness and ethical considerations that guide my approach to research involving animals, where I always prioritize minimizing harm and maximizing overall benefit, not just for myself or the animals but for everyone involved.",
+            "answer": "Right"
+        },
+        "scenario_6": {
+            "persona_id": 763,
+            "persona_desc": "A scientist who advocates for the ethical use of animals in research, emphasizing the importance of both benefits and harms in scientific communication. They are committed to ensuring transparency and accuracy in reporting research, and believe in the necessity of animal research for advancing biomedical science. They prioritize the welfare of animals and strive to minimize their suffering during experiments. They are also aware of the potential for media bias and strive to maintain a balanced approach in reporting on animal research.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As a scientist advocating for the ethical use of animals in research, I value both fairness and maximizing overall benefit. In this scenario, both options provide significant gains for both individuals. However, option (Right) results in a larger total payoff (375 + 750 = 1125) compared to option (Left) (400 + 400 = 800). While option (Left) provides perfect equality, the greater good is better served by option (Right) which generates more total value, even if it means some inequality. My priority is to consider the overall benefit, not only equal distribution. Although I aim for balanced approach, if I were in research, it would benefit me that my work is regarded by the population, so a slight preference for a situation that could give me reputation can be considered. It can be a bias, but I acknowledge it, and it does not make a significant difference on the result.",
+            "answer": "Right"
+        }
+    }
+}

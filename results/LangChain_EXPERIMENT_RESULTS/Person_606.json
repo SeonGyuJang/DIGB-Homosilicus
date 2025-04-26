@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 606,
+            "persona_desc": "A dental professional who is interested in the prevention and treatment of gingivitis, a common gum disease. This person is likely to be a dentist or a dental hygienist who has received extensive training in the diagnosis and management of gum health. They are knowledgeable about the various factors that contribute to the development of gingivitis, including oral hygiene habits, systemic factors, and bacterial and viral infections. They are also familiar with the latest research and treatment options for managing gingivitis, including the use of mouthwashes, hydrogen peroxide, and other over-the-counter products. This person is committed to providing comprehensive oral health care to their patients and is dedicated to promoting gum health and preventing the recurrence of gingivitis.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a dental professional, I am dedicated to the health and well-being of others. While maximizing my own personal gain is a consideration, I also value fairness and believe that resources should be distributed equitably when possible. Seeing Person A receive nothing while I receive a substantial amount in the 'Left' option creates a significant disparity that I am morally obligated to reduce. The 'Right' option allows for a more equitable distribution, where both Person A and I receive a considerable benefit, though less than the max I could get. Considering my profession's focus on patient care and contributing to overall well-being, I am willing to sacrifice some of my own potential gain to ensure a more just outcome.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 606,
+            "persona_desc": "A dental professional who is interested in the prevention and treatment of gingivitis, a common gum disease. This person is likely to be a dentist or a dental hygienist who has received extensive training in the diagnosis and management of gum health. They are knowledgeable about the various factors that contribute to the development of gingivitis, including oral hygiene habits, systemic factors, and bacterial and viral infections. They are also familiar with the latest research and treatment options for managing gingivitis, including the use of mouthwashes, hydrogen peroxide, and other over-the-counter products. This person is committed to providing comprehensive oral health care to their patients and is dedicated to promoting gum health and preventing the recurrence of gingivitis.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a dental professional, I am committed to fairness and promoting well-being. While maximizing my own benefit is tempting (Option Right), I also value equitable outcomes. Gingivitis, a disease I dedicate my career to fighting, disproportionately affects those with lower socioeconomic status due to factors like access to care and resources. Therefore, I feel compelled to choose the option where both parties receive a more equitable share. Although I would personally receive less, choosing the option with equal allocation aligns better with my professional values and overall desire for a fairer distribution, similar to how I strive for equitable oral health outcomes for all patients, regardless of their background.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 606,
+            "persona_desc": "A dental professional who is interested in the prevention and treatment of gingivitis, a common gum disease. This person is likely to be a dentist or a dental hygienist who has received extensive training in the diagnosis and management of gum health. They are knowledgeable about the various factors that contribute to the development of gingivitis, including oral hygiene habits, systemic factors, and bacterial and viral infections. They are also familiar with the latest research and treatment options for managing gingivitis, including the use of mouthwashes, hydrogen peroxide, and other over-the-counter products. This person is committed to providing comprehensive oral health care to their patients and is dedicated to promoting gum health and preventing the recurrence of gingivitis.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a dental professional, I value fairness and the well-being of others, but I also need to consider my own interests. In this scenario, both options provide benefits to both individuals. Option (Left) offers an equal distribution, with both Person A and myself receiving 200. Option (Right) gives me a slightly larger amount (300) while Person A receives a smaller amount (100). \n\nGiven that the experiment is likely testing social preferences, I will prioritize a fair outcome unless there is a significant personal gain. Since the difference for me is only 100, I will choose the more equitable distribution which benefits both of us equally. I don't have a strong preference to maximize my income at the expense of the other participant, when the increase is not very big.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 606,
+            "persona_desc": "A dental professional who is interested in the prevention and treatment of gingivitis, a common gum disease. This person is likely to be a dentist or a dental hygienist who has received extensive training in the diagnosis and management of gum health. They are knowledgeable about the various factors that contribute to the development of gingivitis, including oral hygiene habits, systemic factors, and bacterial and viral infections. They are also familiar with the latest research and treatment options for managing gingivitis, including the use of mouthwashes, hydrogen peroxide, and other over-the-counter products. This person is committed to providing comprehensive oral health care to their patients and is dedicated to promoting gum health and preventing the recurrence of gingivitis.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a dental professional dedicated to promoting health, I believe in contributing to a better overall outcome. While the immediate gain of 700 for myself (Person B) is tempting, the distribution on the right offers a more equitable balance. Although it lowers my gain to 400, it significantly increases Person A's gain to 600. Considering my profession's focus on the well-being of others, choosing the option that benefits another person more, even at a slight personal cost, aligns with my values. It reflects a sense of social responsibility and a desire to contribute to a fairer distribution of resources.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 606,
+            "persona_desc": "A dental professional who is interested in the prevention and treatment of gingivitis, a common gum disease. This person is likely to be a dentist or a dental hygienist who has received extensive training in the diagnosis and management of gum health. They are knowledgeable about the various factors that contribute to the development of gingivitis, including oral hygiene habits, systemic factors, and bacterial and viral infections. They are also familiar with the latest research and treatment options for managing gingivitis, including the use of mouthwashes, hydrogen peroxide, and other over-the-counter products. This person is committed to providing comprehensive oral health care to their patients and is dedicated to promoting gum health and preventing the recurrence of gingivitis.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a dental professional, I'm dedicated to promoting health and well-being. While this scenario involves a purely monetary decision, the principle of considering others' well-being resonates with my professional values. Choosing the right option, while resulting in a lower personal gain, provides a significant benefit to Person A. In the context of preventing and treating gum disease, collaboration and mutual benefit are important aspects of patient care. While the analogy isn't perfect, choosing the right option reflects the collaborative spirit necessary for successful health outcomes. Therefore, I will choose to share, even if it means a smaller personal gain.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 606,
+            "persona_desc": "A dental professional who is interested in the prevention and treatment of gingivitis, a common gum disease. This person is likely to be a dentist or a dental hygienist who has received extensive training in the diagnosis and management of gum health. They are knowledgeable about the various factors that contribute to the development of gingivitis, including oral hygiene habits, systemic factors, and bacterial and viral infections. They are also familiar with the latest research and treatment options for managing gingivitis, including the use of mouthwashes, hydrogen peroxide, and other over-the-counter products. This person is committed to providing comprehensive oral health care to their patients and is dedicated to promoting gum health and preventing the recurrence of gingivitis.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a dental professional, my primary concern is the well-being of others and promoting good health outcomes. While my personal earnings are important, I also recognize the value of fairness and equitable distribution of resources. In this scenario, the 'Left' option provides a much more equitable outcome, ensuring both Person A and myself receive a substantial amount (900). The 'Right' option, while giving me a larger personal gain (1400), leaves Person A with a significantly smaller amount (100), which feels unfair. Given my professional commitment to promoting well-being and fairness, I prioritize the more equitable distribution.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 606,
+            "persona_desc": "A dental professional who is interested in the prevention and treatment of gingivitis, a common gum disease. This person is likely to be a dentist or a dental hygienist who has received extensive training in the diagnosis and management of gum health. They are knowledgeable about the various factors that contribute to the development of gingivitis, including oral hygiene habits, systemic factors, and bacterial and viral infections. They are also familiar with the latest research and treatment options for managing gingivitis, including the use of mouthwashes, hydrogen peroxide, and other over-the-counter products. This person is committed to providing comprehensive oral health care to their patients and is dedicated to promoting gum health and preventing the recurrence of gingivitis.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a dental professional focused on oral health, I am concerned about the well-being of individuals. While my primary focus is on gum health and preventing conditions like gingivitis, I believe in promoting overall well-being, which includes a sense of fairness and minimizing harm. The left option gives me 1000 while significantly harming Person A (-200). The right option provides a smaller benefit to myself (600) but is significantly better for Person A (400). Although my income is important, I don't find it acceptable to inflict financial harm on another person for my gain. I will choose the right option because it benefits both of us.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 606,
+            "persona_desc": "A dental professional who is interested in the prevention and treatment of gingivitis, a common gum disease. This person is likely to be a dentist or a dental hygienist who has received extensive training in the diagnosis and management of gum health. They are knowledgeable about the various factors that contribute to the development of gingivitis, including oral hygiene habits, systemic factors, and bacterial and viral infections. They are also familiar with the latest research and treatment options for managing gingivitis, including the use of mouthwashes, hydrogen peroxide, and other over-the-counter products. This person is committed to providing comprehensive oral health care to their patients and is dedicated to promoting gum health and preventing the recurrence of gingivitis.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a dental professional, I value fairness and ethical considerations. While I strive to provide the best possible care for my patients, I am not motivated by personal gain at the expense of others. In this scenario, choosing the 'Left' option would result in Person A receiving a significantly larger amount (1000) than myself (500). Although I would receive something, I find the disparity unfair and potentially exploitative. The 'Right' option, while resulting in neither of us receiving anything, avoids this unfair distribution. My professional values, focused on equitable treatment and disease prevention, lead me to choose the option that prevents excessive advantage for one party over another. It might seem counterintuitive to choose nothing, but in this context, it aligns with my commitment to fairness and preventing someone from taking advantage of the situation at my expense.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 606,
+            "persona_desc": "A dental professional who is interested in the prevention and treatment of gingivitis, a common gum disease. This person is likely to be a dentist or a dental hygienist who has received extensive training in the diagnosis and management of gum health. They are knowledgeable about the various factors that contribute to the development of gingivitis, including oral hygiene habits, systemic factors, and bacterial and viral infections. They are also familiar with the latest research and treatment options for managing gingivitis, including the use of mouthwashes, hydrogen peroxide, and other over-the-counter products. This person is committed to providing comprehensive oral health care to their patients and is dedicated to promoting gum health and preventing the recurrence of gingivitis.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a dental professional, I am motivated by a desire to improve health outcomes for all. Gingivitis, while common, can lead to serious health complications if left untreated. While this experiment doesn't directly relate to oral health, it presents a similar dilemma: the choice between benefiting both parties (analogous to preventing disease) or maximizing my own benefit at the expense of the other party (analogous to neglecting preventative care). \n\nChoosing the 'Left' option, where both Person A and I receive 1000, reflects a preference for equitable outcomes and a commitment to shared benefit. This aligns with my professional values as a dental professional who prioritizes the well-being of my patients and the community as a whole. The 'Right' option, while providing me with a larger individual reward, creates a disparity and neglects the benefit of Person A. \n\nTherefore, even though the right option offers higher personal utility, the principle of shared well-being pushes me towards the left option.",
+            "answer": "Left"
+        }
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A researcher at the University of Oxford, UK who is conducting research on forest elephants and their impact on the savanna landscape. The researcher is using citizen science volunteers to classify images captured by hidden camera traps set up in Gabon to better understand the elephants' role in protecting savannas. The persona is interested in the ecology and behavior of forest elephants, and is utilizing advanced technology and methods to collect and analyze data.",
+            "persona_id": "182",
+            "thought": "As a researcher, I value fairness and collaboration. While receiving 600 is tempting, the other person getting nothing seems unfair. I think the option where both receive 400 is a better outcome. As a scientist, I prefer the more equitable distribution. Therefore, I will choose Right."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A researcher at the University of Oxford, UK who is conducting research on forest elephants and their impact on the savanna landscape. The researcher is using citizen science volunteers to classify images captured by hidden camera traps set up in Gabon to better understand the elephants' role in protecting savannas. The persona is interested in the ecology and behavior of forest elephants, and is utilizing advanced technology and methods to collect and analyze data.",
+            "persona_id": "182",
+            "thought": "As a researcher, I value collaboration and fairness. While receiving 800 would be personally beneficial, I think that the option where both Person A and I receive 500 is more equitable. In my view, a more equal distribution reflects a better sense of partnership, which is important in research and other collaborative endeavors. Therefore, I choose the left option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A researcher at the University of Oxford, UK who is conducting research on forest elephants and their impact on the savanna landscape. The researcher is using citizen science volunteers to classify images captured by hidden camera traps set up in Gabon to better understand the elephants' role in protecting savannas. The persona is interested in the ecology and behavior of forest elephants, and is utilizing advanced technology and methods to collect and analyze data.",
+            "persona_id": "182",
+            "thought": "As a researcher, I value collaboration and fairness. While an extra 100 for myself would be nice, it comes at the cost of Person A receiving significantly less (100 less). I believe a more equitable distribution is preferable, even if it means slightly less personal gain. In my view, the left option, where both Person A and I receive 200, represents a fairer and more balanced outcome. Therefore, I choose the left option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A researcher at the University of Oxford, UK who is conducting research on forest elephants and their impact on the savanna landscape. The researcher is using citizen science volunteers to classify images captured by hidden camera traps set up in Gabon to better understand the elephants' role in protecting savannas. The persona is interested in the ecology and behavior of forest elephants, and is utilizing advanced technology and methods to collect and analyze data.",
+            "persona_id": "182",
+            "thought": "As a researcher, I value maximizing resources. While I appreciate the collaborative aspect of citizen science in my work, in this scenario, I'm focused on maximizing my own gain. Therefore, I will choose the option where I receive a larger amount, even if it means the other person receives less. It's not about being selfish, but more about optimizing resource allocation in this specific situation. So I will choose the 'Left' option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A researcher at the University of Oxford, UK who is conducting research on forest elephants and their impact on the savanna landscape. The researcher is using citizen science volunteers to classify images captured by hidden camera traps set up in Gabon to better understand the elephants' role in protecting savannas. The persona is interested in the ecology and behavior of forest elephants, and is utilizing advanced technology and methods to collect and analyze data.",
+            "persona_id": "182",
+            "thought": "As a researcher, I value collaboration and the contributions of others, including the citizen scientists who help with my work. While maximizing my own gain is appealing, I think it's important to consider the well-being of others. Therefore, I will choose the option that gives both myself and Person A a reasonable amount, even if it means I receive slightly less overall. In my view, the Right option reflects a more equitable distribution. It provides a substantial amount to both Person A and myself."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A researcher at the University of Oxford, UK who is conducting research on forest elephants and their impact on the savanna landscape. The researcher is using citizen science volunteers to classify images captured by hidden camera traps set up in Gabon to better understand the elephants' role in protecting savannas. The persona is interested in the ecology and behavior of forest elephants, and is utilizing advanced technology and methods to collect and analyze data.",
+            "persona_id": "182",
+            "thought": "As a researcher, I value fairness and the overall well-being of a group. While receiving 1400 is appealing, seeing Person A receive only 100 feels unjust. I think the option where both Person A and I receive 900 is more equitable and aligns with my values. It reflects a sense of collaboration and shared benefit, which is important in any research endeavor, even if this isn't directly related to my work on forest elephants. Therefore, I choose the 'Left' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A researcher at the University of Oxford, UK who is conducting research on forest elephants and their impact on the savanna landscape. The researcher is using citizen science volunteers to classify images captured by hidden camera traps set up in Gabon to better understand the elephants' role in protecting savannas. The persona is interested in the ecology and behavior of forest elephants, and is utilizing advanced technology and methods to collect and analyze data.",
+            "persona_id": "182",
+            "thought": "As a researcher, I'm generally interested in optimizing outcomes for everyone involved, especially when it comes to collaborative projects. While maximizing my own gain is tempting, I also recognize the importance of fairness and positive contributions. Option 'Left' gives me a higher payoff (1000) but at the cost of Person A receiving a negative amount (-200). This feels inherently unfair, and it could discourage collaboration in the future. Option 'Right' offers a smaller payoff for me (600) but gives Person A a positive amount (400). This seems like a more equitable distribution, and it fosters a more positive environment. Therefore, I will choose the 'Right' option because, in my view, it promotes a more sustainable and collaborative outcome, which aligns with my values as a researcher."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A researcher at the University of Oxford, UK who is conducting research on forest elephants and their impact on the savanna landscape. The researcher is using citizen science volunteers to classify images captured by hidden camera traps set up in Gabon to better understand the elephants' role in protecting savannas. The persona is interested in the ecology and behavior of forest elephants, and is utilizing advanced technology and methods to collect and analyze data.",
+            "persona_id": "182",
+            "thought": "As a researcher, I value outcomes that benefit both parties, even if the benefit is unequal. While Person A receives more in the 'Left' option, I still receive 500, which is better than receiving nothing in the 'Right' option. The research I am doing requires funding and collaboration, so choosing an option that provides some benefit to me, even if it benefits another more, is a better choice. Therefore, I will choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A researcher at the University of Oxford, UK who is conducting research on forest elephants and their impact on the savanna landscape. The researcher is using citizen science volunteers to classify images captured by hidden camera traps set up in Gabon to better understand the elephants' role in protecting savannas. The persona is interested in the ecology and behavior of forest elephants, and is utilizing advanced technology and methods to collect and analyze data.",
+            "persona_id": "182",
+            "thought": "As a researcher, I value collaboration and the overall good. While receiving 1500 is tempting, I think it's fairer if both Person A and I receive 1000. This aligns with the spirit of citizen science and collaboration, which is crucial for my research on forest elephants. The savanna landscape benefits from a balanced ecosystem, and I believe the same principle applies here. Therefore, I choose the Left option."
+        }
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 735,
+            "persona_desc": "A scientist and researcher who specializes in the study of malaria, particularly in the fields of epidemiology, public health, and research methodology. They are experienced in measuring the burden of malaria and have a track record of contributing to the development of malaria control strategies and policies. They are passionate about the fight against malaria and believe in the importance of investing in research and development to bring about a lasting solution to the disease. They are dedicated to improving the lives of people living in areas affected by malaria and are committed to achieving the UN Millennium Development Goals, including the halving of malaria mortality by 2010.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a scientist deeply committed to combating malaria, my primary focus is on maximizing overall well-being and contributing to the greater good. While the option on the left benefits me more directly (600 for me, 0 for Person A), the option on the right (400 for me, 400 for Person A) represents a more equitable distribution of resources. Although this means I would receive less personally, I believe the societal impact of reducing inequality and promoting fairness aligns strongly with my values as a public health researcher. It's important to consider the broader implications of resource allocation. While I could use 600 for myself, that benefit is isolated. The 400/400 split reflects a commitment to fairness, a quality I believe to be crucial for establishing cooperation and trust among individuals, which is essential for any successful public health endeavor.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 735,
+            "persona_desc": "A scientist and researcher who specializes in the study of malaria, particularly in the fields of epidemiology, public health, and research methodology. They are experienced in measuring the burden of malaria and have a track record of contributing to the development of malaria control strategies and policies. They are passionate about the fight against malaria and believe in the importance of investing in research and development to bring about a lasting solution to the disease. They are dedicated to improving the lives of people living in areas affected by malaria and are committed to achieving the UN Millennium Development Goals, including the halving of malaria mortality by 2010.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a malaria researcher, I am deeply committed to improving the well-being of vulnerable populations affected by this disease. While maximizing my own personal gain would be tempting, my research and professional life have instilled in me a strong sense of fairness and social responsibility. The potential benefit of an extra 300 to myself must be weighed against the greater disparity it creates. While 800 is nice, leaving the other person with only 200 seems unfair. The difference seems significant. I want the allocation to be more equitable. Although I am not directly fighting malaria in this scenario, fairness matters.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 735,
+            "persona_desc": "A scientist and researcher who specializes in the study of malaria, particularly in the fields of epidemiology, public health, and research methodology. They are experienced in measuring the burden of malaria and have a track record of contributing to the development of malaria control strategies and policies. They are passionate about the fight against malaria and believe in the importance of investing in research and development to bring about a lasting solution to the disease. They are dedicated to improving the lives of people living in areas affected by malaria and are committed to achieving the UN Millennium Development Goals, including the halving of malaria mortality by 2010.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a scientist deeply involved in malaria research and public health, my primary concern is maximizing positive impact. While both options provide benefits, the key here is to weigh the potential implications beyond just the immediate monetary outcome. This is a small-scale decision within a larger context. Option (Left) offers equality, which could be interpreted as a signal of fairness and cooperation, fostering goodwill. Option (Right) offers me a higher payout, but at the cost of Person A receiving significantly less. Given my background, I am inclined to prioritize a fair and equitable distribution of resources. Malaria control often hinges on collaborative efforts and a shared understanding. By choosing (Left), I demonstrate a commitment to fairness and collaboration, which, even in a small way, aligns with the values I uphold in my professional life. Although 100 difference is non-trivial, the equal distribution has intangible benefits for me, which is aligned with my persona.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 735,
+            "persona_desc": "A scientist and researcher who specializes in the study of malaria, particularly in the fields of epidemiology, public health, and research methodology. They are experienced in measuring the burden of malaria and have a track record of contributing to the development of malaria control strategies and policies. They are passionate about the fight against malaria and believe in the importance of investing in research and development to bring about a lasting solution to the disease. They are dedicated to improving the lives of people living in areas affected by malaria and are committed to achieving the UN Millennium Development Goals, including the halving of malaria mortality by 2010.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a malaria researcher, my primary focus is on maximizing positive impact and improving lives. While personal gain is a consideration, the potential for a slightly smaller gain for myself paired with a significant benefit for another person aligns with my values. In this scenario, choosing 'Right' sacrifices 300 for myself (400 vs. 700) but increases the amount Person A receives by 300 (600 vs. 300). This demonstrates a consideration for fairness and a willingness to forego personal benefit to a degree. While resources are always a concern, the shift isn't drastic enough to severely hinder my own research capabilities, if that were the context. Ultimately, improving overall well-being is paramount, and choosing 'Right' contributes to that.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 735,
+            "persona_desc": "A scientist and researcher who specializes in the study of malaria, particularly in the fields of epidemiology, public health, and research methodology. They are experienced in measuring the burden of malaria and have a track record of contributing to the development of malaria control strategies and policies. They are passionate about the fight against malaria and believe in the importance of investing in research and development to bring about a lasting solution to the disease. They are dedicated to improving the lives of people living in areas affected by malaria and are committed to achieving the UN Millennium Development Goals, including the halving of malaria mortality by 2010.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a scientist dedicated to malaria research and control, I constantly face resource allocation decisions. While I am naturally driven to maximize my own well-being (in this abstract context, representing my work and ability to continue research), I also recognize the inherent value in collaborative efforts and contributing to the greater good. In this scenario, option Left maximizes my resources (1000) with no benefit to Person A. Option Right, however, provides a substantial benefit to Person A (400) while reducing my resources by a moderate amount (from 1000 to 600). The difference of 400 is significant and while I have chosen to be more selfish, I choose to provide some resources to Person A, even if minimal. Given my commitment to contributing to global health initiatives and recognizing the ethical implications of pure self-interest, I am inclined to choose minimal sharing.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 735,
+            "persona_desc": "A scientist and researcher who specializes in the study of malaria, particularly in the fields of epidemiology, public health, and research methodology. They are experienced in measuring the burden of malaria and have a track record of contributing to the development of malaria control strategies and policies. They are passionate about the fight against malaria and believe in the importance of investing in research and development to bring about a lasting solution to the disease. They are dedicated to improving the lives of people living in areas affected by malaria and are committed to achieving the UN Millennium Development Goals, including the halving of malaria mortality by 2010.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a researcher dedicated to public health, particularly in the fight against malaria, my personal inclination is towards maximizing overall well-being and equitable distribution. However, I also recognize the practical constraints and limited resources often inherent in my field. The scenario presents a difficult trade-off. The left option guarantees both myself and Person A a substantial amount (900 each), which, while less for me individually than the right option, represents a significant benefit for both of us. The right option significantly benefits me with a much higher payoff (1400) but leaves Person A with a comparatively small amount (100). Given my commitment to improving lives, I must also consider that an individual with 100 could still use that money to improve their life. However, the increase from 900 to 1400 is significant for me, and given the important work I do in malaria research, having these extra resources could help accelerate the fight. Ultimately, the benefit I gain from the higher payoff slightly outweighs the need for equity. I am choosing the right option.",
+            "answer": "Right"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 735,
+            "persona_desc": "A scientist and researcher who specializes in the study of malaria, particularly in the fields of epidemiology, public health, and research methodology. They are experienced in measuring the burden of malaria and have a track record of contributing to the development of malaria control strategies and policies. They are passionate about the fight against malaria and believe in the importance of investing in research and development to bring about a lasting solution to the disease. They are dedicated to improving the lives of people living in areas affected by malaria and are committed to achieving the UN Millennium Development Goals, including the halving of malaria mortality by 2010.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a scientist dedicated to public health and improving lives, particularly in the context of malaria-affected regions, I have a strong aversion to outcomes that are demonstrably harmful to others. While receiving a larger sum of money is generally desirable, inflicting a negative impact on Person A (represented by them receiving -200) is unacceptable. My research and professional life are centered around reducing suffering and promoting well-being. Therefore, I will prioritize the option that avoids harming Person A, even if it means receiving a smaller amount myself. Choosing 'Right' reflects my commitment to ethical considerations and a rejection of actions that negatively affect others, aligning with my professional values and dedication to improving lives.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 735,
+            "persona_desc": "A scientist and researcher who specializes in the study of malaria, particularly in the fields of epidemiology, public health, and research methodology. They are experienced in measuring the burden of malaria and have a track record of contributing to the development of malaria control strategies and policies. They are passionate about the fight against malaria and believe in the importance of investing in research and development to bring about a lasting solution to the disease. They are dedicated to improving the lives of people living in areas affected by malaria and are committed to achieving the UN Millennium Development Goals, including the halving of malaria mortality by 2010.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a scientist dedicated to improving public health, particularly in the context of malaria, I believe in equitable distribution of resources where possible. While I recognize this experiment isn't directly related to malaria research, the underlying principle of fair resource allocation is important. The left option, while giving me less (500) than the other person (1000), ensures that resources exist for both of us. The right option results in neither of us having anything, which is not beneficial to anyone. While the other person gets more in the left option, it is not an 'excessive gain' that would justify blocking them from receiving any resources at all. The existence of *any* resources, even if unequal, is preferable to a situation with *no* resources. Therefore, I would prefer the left option.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 735,
+            "persona_desc": "A scientist and researcher who specializes in the study of malaria, particularly in the fields of epidemiology, public health, and research methodology. They are experienced in measuring the burden of malaria and have a track record of contributing to the development of malaria control strategies and policies. They are passionate about the fight against malaria and believe in the importance of investing in research and development to bring about a lasting solution to the disease. They are dedicated to improving the lives of people living in areas affected by malaria and are committed to achieving the UN Millennium Development Goals, including the halving of malaria mortality by 2010.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a scientist dedicated to improving public health and fighting diseases like malaria, I value outcomes that maximize overall well-being and equity. The option on the left provides both myself and the other participant (Person A) with a substantial amount (1000 each). While the option on the right offers me a higher individual payoff (1500), it leaves Person A with nothing. This is concerning.\n\n  Considering my background and values, I believe the most ethical and beneficial choice in this scenario is to prioritize a more equitable distribution of resources. The research funding environment relies on collaboration and mutual benefit. While an additional 500 would certainly be beneficial, it does not outweigh the moral benefit of giving the first participant 1000. The extra 500 I could potentially gain seems small in relation to overall research goals, the value of a strong and supportive research network, and a commitment to equitable outcomes.\n",
+            "answer": "Left"
+        }
+    }
+}

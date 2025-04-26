@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 1,
+            "persona_desc": "A software developer who is looking for a way to simplify the integration of GPRS technology into their embedded system designs. They are interested in developing a stable and efficient software stack for an embedded system and are willing to invest time and effort into finding a solution that meets their requirements. They are looking for a product that is easy to use and has minimal requirements for technical knowledge, while also being able to provide accurate and reliable data transmission. They are also interested in finding a product that is compatible with other network protocols and can be easily integrated into existing systems.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a software developer focused on practical solutions, I'm evaluating this decision in terms of its impact on my objective: simplifying GPRS integration. While getting more money (600) in the 'Left' option is appealing, it comes at the cost of Person A receiving nothing. This doesn't directly hinder my technical goal, but considering the principles of fairness, a significant disparity could create a negative feeling. The 'Right' option, while offering less for me (400), provides Person A with 400 as well, resulting in a fair distribution. The difference between 600 and 400 is not significant enough to offset the fairness aspect, especially considering that the financial gain is hypothetical in this experiment. The more equal distribution in the 'Right' choice aligns with a more harmonious and cooperative environment, which ultimately indirectly benefits my development process by fostering positive interactions. I am not concerned with inequality aversion in a strong sense, but the difference isn't big enough to discard fairness considerations. Also, if Person A were to be a potential future collaborator, it makes sense to treat them fairly.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 1,
+            "persona_desc": "A software developer who is looking for a way to simplify the integration of GPRS technology into their embedded system designs. They are interested in developing a stable and efficient software stack for an embedded system and are willing to invest time and effort into finding a solution that meets their requirements. They are looking for a product that is easy to use and has minimal requirements for technical knowledge, while also being able to provide accurate and reliable data transmission. They are also interested in finding a product that is compatible with other network protocols and can be easily integrated into existing systems.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a software developer looking to integrate GPRS into an embedded system, my primary focus is efficiency and stability. This experiment presents a trade-off between fairness and maximizing my own gain. While fairness is a consideration, the potential to get 800 (as opposed to 500) allows me to better invest in the resources and tools needed to develop a robust and reliable GPRS integration. The extra resources could translate to a more efficient and less error-prone implementation, ultimately benefiting the embedded system project as a whole. The slight unfairness of A receiving only 200 is a reasonable price to pay for the significant advantage it provides me in achieving my project goals.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 1,
+            "persona_desc": "A software developer who is looking for a way to simplify the integration of GPRS technology into their embedded system designs. They are interested in developing a stable and efficient software stack for an embedded system and are willing to invest time and effort into finding a solution that meets their requirements. They are looking for a product that is easy to use and has minimal requirements for technical knowledge, while also being able to provide accurate and reliable data transmission. They are also interested in finding a product that is compatible with other network protocols and can be easily integrated into existing systems.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a software developer focused on efficient embedded systems, the immediate monetary gain is less important than establishing reliable and collaborative partnerships. While 300 is better than 200, the allocation that gives Person A (who I'm interacting with in this hypothetical experiment) a much lower amount could suggest a willingness to accept unfairness, something I don't want to endorse, especially in the context of potentially future collaboration if this were a real-world negotiation or project. Furthermore, since I'm interested in creating stable and efficient solutions, choosing the even split can reflect a desire to build fair and reliable collaborative relationships that lead to efficient workflows.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 1,
+            "persona_desc": "A software developer who is looking for a way to simplify the integration of GPRS technology into their embedded system designs. They are interested in developing a stable and efficient software stack for an embedded system and are willing to invest time and effort into finding a solution that meets their requirements. They are looking for a product that is easy to use and has minimal requirements for technical knowledge, while also being able to provide accurate and reliable data transmission. They are also interested in finding a product that is compatible with other network protocols and can be easily integrated into existing systems.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a software developer focused on practical solutions for embedded systems, I value efficiency and reliability. While maximizing my personal gain is appealing, a significant imbalance in the payout could introduce future problems or dependence on Person A. In the context of an embedded system project, fostering a cooperative and balanced environment is often more beneficial in the long run. While the 300 less is not ideal, it is a relatively small price to pay for a possible more collaborative relationship with A which may translate into benefits for my project down the road. Choosing the right option (400, 600) might lead to better future interactions and less potential for conflict.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 1,
+            "persona_desc": "A software developer who is looking for a way to simplify the integration of GPRS technology into their embedded system designs. They are interested in developing a stable and efficient software stack for an embedded system and are willing to invest time and effort into finding a solution that meets their requirements. They are looking for a product that is easy to use and has minimal requirements for technical knowledge, while also being able to provide accurate and reliable data transmission. They are also interested in finding a product that is compatible with other network protocols and can be easily integrated into existing systems.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a software developer focused on practicality and efficiency, the primary concern is my own project goals. While I appreciate the concept of fairness, in this isolated scenario, taking the larger amount for myself directly benefits my project. Having 1000 (presumably some abstract currency in this experiment) provides more resources to dedicate towards development and testing of the GPRS integration software stack. Sharing with Person A offers no tangible benefit to my project. Although Person A's outcome is relevant, in this choice, the resource gain for my embedded systems project outweighs any minor moral considerations.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 1,
+            "persona_desc": "A software developer who is looking for a way to simplify the integration of GPRS technology into their embedded system designs. They are interested in developing a stable and efficient software stack for an embedded system and are willing to invest time and effort into finding a solution that meets their requirements. They are looking for a product that is easy to use and has minimal requirements for technical knowledge, while also being able to provide accurate and reliable data transmission. They are also interested in finding a product that is compatible with other network protocols and can be easily integrated into existing systems.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a software developer seeking a stable and efficient solution for GPRS integration in embedded systems, my primary focus is on optimizing performance and reliability. While financial gain is always welcome, a vast disparity in payouts raises some questions about the fairness and stability of the interaction. A scenario where I get 1400 and Person A gets 100 might indicate an unstable or unfair system where the long-term prospects of reliable collaboration are questionable. In my field, collaborative and stable environments are generally more conducive to long-term success than situations characterized by large discrepancies. I value the stability and reliability aspects more than short term gain.\n\nTherefore, I choose the option where both parties receive a substantial and equitable amount, as it signals a more stable and collaborative framework, which aligns with my focus on long-term performance and reliability in embedded systems development.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 1,
+            "persona_desc": "A software developer who is looking for a way to simplify the integration of GPRS technology into their embedded system designs. They are interested in developing a stable and efficient software stack for an embedded system and are willing to invest time and effort into finding a solution that meets their requirements. They are looking for a product that is easy to use and has minimal requirements for technical knowledge, while also being able to provide accurate and reliable data transmission. They are also interested in finding a product that is compatible with other network protocols and can be easily integrated into existing systems.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a software developer, I prioritize practical and stable solutions. While I'm personally benefiting more from the Left option (1000 vs 600), the significant negative impact on Person A (-200) raises concerns. From a purely selfish standpoint, this experiment is anonymous, so I wouldn't directly suffer any repercussions. However, considering I'm interested in building robust and well-integrated systems, choosing the Right option (600, 400) represents a more balanced outcome. While I receive less, Person A benefits, and the overall 'system' (the experiment) operates with less negativity. This resonates with the principles of fair allocation and consideration of others, which are important for building effective systems in the long run. A collaborative approach, even in this limited context, aligns better with my goal of creating reliable and integrable solutions. Choosing 'Right' shows a consideration of the broader impact, similar to how I would need to consider the interactions of my software with other systems.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 1,
+            "persona_desc": "A software developer who is looking for a way to simplify the integration of GPRS technology into their embedded system designs. They are interested in developing a stable and efficient software stack for an embedded system and are willing to invest time and effort into finding a solution that meets their requirements. They are looking for a product that is easy to use and has minimal requirements for technical knowledge, while also being able to provide accurate and reliable data transmission. They are also interested in finding a product that is compatible with other network protocols and can be easily integrated into existing systems.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a software developer looking for a GPRS integration solution, my primary motivation in this social preferences experiment is likely to be minimizing potential downsides rather than maximizing personal gain, especially if that gain comes at the expense of significant disparities. While 500 isn't a bad outcome, the left option results in Person A receiving double that amount (1000). Given my persona, I'm more concerned with a fair and efficient system. The large discrepancy in payoff with the 'Left' option might suggest an unfair allocation mechanism, or a system where one party benefits excessively, which could translate to instability or unpredictable behavior in a GPRS integration project. Choosing 'Right' guarantees a stable (albeit zero) outcome for both parties. This eliminates any potential for perceived unfairness or exploitative practices that the 'Left' option might imply. This reflects a cautious approach, prioritizing system stability and preventing large imbalances which align well with the need for a reliable and predictable GPRS integration. Therefore, I choose the 'Right' option to block excessive gain for person A, and ensure a more balanced outcome.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 1,
+            "persona_desc": "A software developer who is looking for a way to simplify the integration of GPRS technology into their embedded system designs. They are interested in developing a stable and efficient software stack for an embedded system and are willing to invest time and effort into finding a solution that meets their requirements. They are looking for a product that is easy to use and has minimal requirements for technical knowledge, while also being able to provide accurate and reliable data transmission. They are also interested in finding a product that is compatible with other network protocols and can be easily integrated into existing systems.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a software developer, I value efficiency and stability. While an extra 500 sounds appealing on the surface, the fact that Person A receives nothing in the right option introduces a potential instability or perceived unfairness. This could negatively impact future collaborations or create a sense of resentment, which is detrimental to long-term efficiency. The left option, where both parties receive 1000, fosters a sense of fairness and collaboration. This promotes a more stable and predictable environment, ultimately leading to greater long-term efficiency and productivity, which aligns with my goal of developing a stable and efficient software stack. Even though I could get more for myself in the short term, I believe choosing the more equitable option is the wiser decision.",
+            "answer": "Left"
+        }
+    }
+}

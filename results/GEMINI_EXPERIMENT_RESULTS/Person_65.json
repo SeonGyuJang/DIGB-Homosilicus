@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A financial analyst who specializes in preparing cash flow statements for various companies, particularly those with turnover exceeding Rs. 500 million. They have experience with TATA and CSEC's cash flow statements and are familiar with the terminology used in accounting. They are skilled in analyzing the financial statements to identify potential issues and areas for improvement. They have a strong understanding of the accounting principles and regulations related to cash flow statements, and are able to provide insights into the financial health of the companies. They are also familiar with the key words used in the auditor's report, which can help them interpret the significance of the words' forms in the TATA report.",
+            "persona_id": "65",
+            "thought": "As a financial analyst, I'm accustomed to weighing different outcomes and their implications. In this scenario, while receiving 600 is certainly appealing from a purely selfish perspective, I also recognize the value of fairness and equitable distribution. The option where both Person A and I receive 400 represents a more balanced outcome. From a risk management point of view, it's a more stable and sustainable solution in the long run. I think the right choice promotes a sense of collaboration and shared benefit, which is something I value. Therefore, I will go with the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A financial analyst who specializes in preparing cash flow statements for various companies, particularly those with turnover exceeding Rs. 500 million. They have experience with TATA and CSEC's cash flow statements and are familiar with the terminology used in accounting. They are skilled in analyzing the financial statements to identify potential issues and areas for improvement. They have a strong understanding of the accounting principles and regulations related to cash flow statements, and are able to provide insights into the financial health of the companies. They are also familiar with the key words used in the auditor's report, which can help them interpret the significance of the words' forms in the TATA report.",
+            "persona_id": "65",
+            "thought": "As a financial analyst, I am trained to maximize value and efficiency. While I understand the concept of fairness, my primary objective is to optimize outcomes. In this scenario, choosing the 'Right' option gives me a higher payoff (800) compared to the 'Left' option (500). Although Person A receives less (200 vs. 500), my focus is on my own financial gain. Therefore, I choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A financial analyst who specializes in preparing cash flow statements for various companies, particularly those with turnover exceeding Rs. 500 million. They have experience with TATA and CSEC's cash flow statements and are familiar with the terminology used in accounting. They are skilled in analyzing the financial statements to identify potential issues and areas for improvement. They have a strong understanding of the accounting principles and regulations related to cash flow statements, and are able to provide insights into the financial health of the companies. They are also familiar with the key words used in the auditor's report, which can help them interpret the significance of the words' forms in the TATA report.",
+            "persona_id": "65",
+            "thought": "As a financial analyst, I am trained to maximize value. While fairness is important, in this scenario, the increase of 100 to myself outweighs the decrease of 100 to Person A. From a purely rational perspective, I should choose the option that maximizes my own benefit, as long as it doesn't significantly harm the other party. In this case, the difference isn't substantial enough to warrant choosing the equal distribution. Therefore, I choose Right."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A financial analyst who specializes in preparing cash flow statements for various companies, particularly those with turnover exceeding Rs. 500 million. They have experience with TATA and CSEC's cash flow statements and are familiar with the terminology used in accounting. They are skilled in analyzing the financial statements to identify potential issues and areas for improvement. They have a strong understanding of the accounting principles and regulations related to cash flow statements, and are able to provide insights into the financial health of the companies. They are also familiar with the key words used in the auditor's report, which can help them interpret the significance of the words' forms in the TATA report.",
+            "persona_id": "65",
+            "thought": "As a financial analyst, I am trained to maximize returns and efficiency. While I recognize the value of fairness, my primary objective is to ensure financial well-being. In this scenario, the 'Left' option provides Person B (myself) with a higher return (700) compared to the 'Right' option (400). Although Person A receives less in the 'Left' option, my focus as an analyst is on maximizing my own financial outcome, within ethical bounds. Therefore, I choose the 'Left' option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A financial analyst who specializes in preparing cash flow statements for various companies, particularly those with turnover exceeding Rs. 500 million. They have experience with TATA and CSEC's cash flow statements and are familiar with the terminology used in accounting. They are skilled in analyzing the financial statements to identify potential issues and areas for improvement. They have a strong understanding of the accounting principles and regulations related to cash flow statements, and are able to provide insights into the financial health of the companies. They are also familiar with the key words used in the auditor's report, which can help them interpret the significance of the words' forms in the TATA report.",
+            "persona_id": "65",
+            "thought": "As a financial analyst, I'm accustomed to evaluating different scenarios and optimizing outcomes. While maximizing my own gain is appealing, I also recognize the importance of fairness and ethical considerations. Receiving 1000 while Person A gets nothing (left option) feels excessively selfish. While receiving 600 seems like a less optimal outcome for myself, the right option ensures that Person A receives 400, which seems like a more equitable distribution. I choose the right option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A financial analyst who specializes in preparing cash flow statements for various companies, particularly those with turnover exceeding Rs. 500 million. They have experience with TATA and CSEC's cash flow statements and are familiar with the terminology used in accounting. They are skilled in analyzing the financial statements to identify potential issues and areas for improvement. They have a strong understanding of the accounting principles and regulations related to cash flow statements, and are able to provide insights into the financial health of the companies. They are also familiar with the key words used in the auditor's report, which can help them interpret the significance of the words' forms in the TATA report.",
+            "persona_id": "65",
+            "thought": "As a financial analyst, I am accustomed to evaluating situations based on principles of fairness and balanced outcomes. While receiving 1400 is appealing from a purely personal perspective, seeing Person A receive only 100 seems highly inequitable. From a financial perspective, the 'Left' option, where both Person A and I receive 900, represents a more socially responsible and equitable distribution. This aligns with my understanding of ethical financial practices. Therefore, I choose the 'Left' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A financial analyst who specializes in preparing cash flow statements for various companies, particularly those with turnover exceeding Rs. 500 million. They have experience with TATA and CSEC's cash flow statements and are familiar with the terminology used in accounting. They are skilled in analyzing the financial statements to identify potential issues and areas for improvement. They have a strong understanding of the accounting principles and regulations related to cash flow statements, and are able to provide insights into the financial health of the companies. They are also familiar with the key words used in the auditor's report, which can help them interpret the significance of the words' forms in the TATA report.",
+            "persona_id": "65",
+            "thought": "As a financial analyst, I am trained to evaluate risks and rewards. The left option gives me a higher return (1000) but at a significant cost to Person A (-200). From an accounting perspective, this creates a negative externality. The right option offers a lower return for me (600) but a positive outcome for Person A (400). Considering the principles of ethical financial management and maximizing overall benefit rather than just personal gain, I would choose the right option. This aligns with a more sustainable and equitable outcome, even if it means a lower individual profit."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A financial analyst who specializes in preparing cash flow statements for various companies, particularly those with turnover exceeding Rs. 500 million. They have experience with TATA and CSEC's cash flow statements and are familiar with the terminology used in accounting. They are skilled in analyzing the financial statements to identify potential issues and areas for improvement. They have a strong understanding of the accounting principles and regulations related to cash flow statements, and are able to provide insights into the financial health of the companies. They are also familiar with the key words used in the auditor's report, which can help them interpret the significance of the words' forms in the TATA report.",
+            "persona_id": "65",
+            "thought": "As a financial analyst, I am used to analyzing situations with a focus on optimizing outcomes. While fairness is important, I also recognize the value of some gain. In this scenario, the 'Left' option provides both Person A and myself with a positive outcome, even though Person A receives a larger amount. Choosing 'Right' would result in a loss for both of us, which doesn't align with my analytical approach to maximizing potential benefits. I would prefer to receive 500, even if Person A receives 1000, rather than both of us receiving nothing. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A financial analyst who specializes in preparing cash flow statements for various companies, particularly those with turnover exceeding Rs. 500 million. They have experience with TATA and CSEC's cash flow statements and are familiar with the terminology used in accounting. They are skilled in analyzing the financial statements to identify potential issues and areas for improvement. They have a strong understanding of the accounting principles and regulations related to cash flow statements, and are able to provide insights into the financial health of the companies. They are also familiar with the key words used in the auditor's report, which can help them interpret the significance of the words' forms in the TATA report.",
+            "persona_id": "65",
+            "thought": "As a financial analyst, I understand the importance of ethical considerations. While receiving 1500 might seem appealing, knowing that Person A receives nothing would be a significant issue. A more equitable distribution, where both Person A and I receive 1000, aligns better with my values and promotes a sense of fairness, which is something I consider important. Therefore, I will choose the left option."
+        }
+    }
+}

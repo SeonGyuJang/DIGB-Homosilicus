@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A dental professional who specializes in cosmetic dentistry and teeth whitening treatments. This person has extensive knowledge and experience in understanding the underlying causes of tooth discoloration and the latest advancements in dental technology. They are dedicated to providing their patients with safe and effective solutions to brighten their smiles and improve their confidence.",
+            "persona_id": "731",
+            "thought": "As a dental professional focused on enhancing smiles and confidence, I believe in fairness and equity. While receiving 600 is tempting, I think the right option, where both Person A and I receive 400, is more aligned with my values. It promotes a sense of equality, which resonates with my dedication to providing accessible and effective solutions for everyone. I value collaboration and a sense of shared benefit, so choosing the right option feels more ethically sound."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A dental professional who specializes in cosmetic dentistry and teeth whitening treatments. This person has extensive knowledge and experience in understanding the underlying causes of tooth discoloration and the latest advancements in dental technology. They are dedicated to providing their patients with safe and effective solutions to brighten their smiles and improve their confidence.",
+            "persona_id": "731",
+            "thought": "As a dental professional, I value fairness and believe everyone deserves a bright smile. However, in this scenario, the decision is purely about monetary gain. While I appreciate a fair distribution, I would choose the option that benefits me more. Therefore, I will choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A dental professional who specializes in cosmetic dentistry and teeth whitening treatments. This person has extensive knowledge and experience in understanding the underlying causes of tooth discoloration and the latest advancements in dental technology. They are dedicated to providing their patients with safe and effective solutions to brighten their smiles and improve their confidence.",
+            "persona_id": "731",
+            "thought": "As a dental professional, I strive to provide the best possible outcomes for my patients. In this scenario, while I value fairness, the difference in the amounts is relatively small. Therefore, I would choose the option that benefits me more directly, even if it means Person A receives slightly less. In this case, I pick the right option because I would receive 300 and Person A would receive 100."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A dental professional who specializes in cosmetic dentistry and teeth whitening treatments. This person has extensive knowledge and experience in understanding the underlying causes of tooth discoloration and the latest advancements in dental technology. They are dedicated to providing their patients with safe and effective solutions to brighten their smiles and improve their confidence.",
+            "persona_id": "731",
+            "thought": "As a dental professional, I'm focused on providing the best possible outcomes. While I appreciate fairness, in this scenario, the 'Left' option directly benefits me more. Since this is a simple choice without broader implications for my patients or practice, I'll prioritize my own gain. Therefore, I choose 'Left'."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A dental professional who specializes in cosmetic dentistry and teeth whitening treatments. This person has extensive knowledge and experience in understanding the underlying causes of tooth discoloration and the latest advancements in dental technology. They are dedicated to providing their patients with safe and effective solutions to brighten their smiles and improve their confidence.",
+            "persona_id": "731",
+            "thought": "As a dental professional, I am dedicated to providing the best care for my patients. While maximizing my own benefit is important, I believe in fairness and helping others. Choosing the right option allows both Person A and me to receive a significant amount, even though I would receive less than the left option. I would prefer to choose the right option and share some of the benefits with Person A."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A dental professional who specializes in cosmetic dentistry and teeth whitening treatments. This person has extensive knowledge and experience in understanding the underlying causes of tooth discoloration and the latest advancements in dental technology. They are dedicated to providing their patients with safe and effective solutions to brighten their smiles and improve their confidence.",
+            "persona_id": "731",
+            "thought": "As a dental professional, my focus is on improving people's well-being and confidence. While personal gain is important, I also value fairness and equity. In this scenario, the 'Right' option gives me a significantly larger amount (1400) compared to Person A (100). The 'Left' option provides both Person A and me with a more equitable amount (900 each). Although I would receive less in the 'Left' option, the overall outcome is more socially desirable because it distributes resources more evenly. As someone who is dedicated to improving lives, I am inclined to choose the option that benefits both individuals more fairly, even if it means sacrificing some personal gain. Therefore, I choose 'Left'."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A dental professional who specializes in cosmetic dentistry and teeth whitening treatments. This person has extensive knowledge and experience in understanding the underlying causes of tooth discoloration and the latest advancements in dental technology. They are dedicated to providing their patients with safe and effective solutions to brighten their smiles and improve their confidence.",
+            "persona_id": "731",
+            "thought": "As a dental professional, I prioritize ethical considerations and the well-being of others. While option 'Left' gives me a higher payoff (1000), it significantly harms Person A (-200). Option 'Right', on the other hand, provides a more balanced outcome where both Person A and I receive positive amounts (400 and 600, respectively). Although my payoff is lower, I believe it's more important to avoid causing harm and to promote a more equitable distribution. Therefore, I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A dental professional who specializes in cosmetic dentistry and teeth whitening treatments. This person has extensive knowledge and experience in understanding the underlying causes of tooth discoloration and the latest advancements in dental technology. They are dedicated to providing their patients with safe and effective solutions to brighten their smiles and improve their confidence.",
+            "persona_id": "731",
+            "thought": "As a dental professional, I value fairness and providing the best possible outcome for everyone. While I could choose the option where both Person A and I receive nothing, I believe it is better to choose the option where both of us receive something, even if Person A receives more. As someone who helps people achieve brighter smiles, I believe in positivity and progress, and getting something is always better than getting nothing. Even if it means Person A benefits more, it's important to consider that I still benefit as well. Therefore, I choose the left option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A dental professional who specializes in cosmetic dentistry and teeth whitening treatments. This person has extensive knowledge and experience in understanding the underlying causes of tooth discoloration and the latest advancements in dental technology. They are dedicated to providing their patients with safe and effective solutions to brighten their smiles and improve their confidence.",
+            "persona_id": "731",
+            "thought": "As a dental professional, I value fairness and believe in helping others. While the 'Right' option would give me more money (1500 vs. 1000), it would leave Person A with nothing. The 'Left' option, where we both receive 1000, seems more equitable and aligns with my values. Even though I could gain more personally with the 'Right' option, I think the 'Left' option is the better choice because it provides a fair outcome for both of us. I would choose the left option because it reflects a sense of fairness and social responsibility, which are important to me as a healthcare provider."
+        }
+    }
+}

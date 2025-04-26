@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 944,
+            "persona_desc": "A researcher in the field of immunology who is interested in the development and function of natural killer cells. They are likely to have expertise in genetic and molecular biology, as well as immunology. They are interested in understanding how the development of natural killer cells is regulated and how they contribute to the immune response in the context of disease. They may have conducted research on natural killer cells using animal models and have a strong interest in using these findings to develop further research in this area.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As an immunology researcher, I'm familiar with the concept of fairness and optimal resource allocation, even though it's usually applied to biological systems. However, in this scenario, my payout is the same regardless of the choice (400). Since I'm not losing anything by choosing the 'Right' option, and Person A receives a larger amount (750 vs 400), I'll opt for that. This aligns with a preference for maximizing overall gain, without any personal detriment.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 944,
+            "persona_desc": "A researcher in the field of immunology who is interested in the development and function of natural killer cells. They are likely to have expertise in genetic and molecular biology, as well as immunology. They are interested in understanding how the development of natural killer cells is regulated and how they contribute to the immune response in the context of disease. They may have conducted research on natural killer cells using animal models and have a strong interest in using these findings to develop further research in this area.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As an immunology researcher, I value fairness and collaboration. While maximizing my own payout (800 vs 400) might seem appealing in a vacuum, completely denying the other participant any reward (0 vs 400) feels unfair. In a research context, collaboration and equitable resource distribution are often crucial for long-term success and positive research outcomes. Choosing the right option demonstrates fairness and respect for the other participant. Although I'd prefer to have a greater payoff, it is important to consider that this is a social setting. This is also a one-shot game, so choosing the left choice would be viewed as selfish as I did not consider Person A's payoff. Considering these values, I will opt for the outcome that gives both parties a positive outcome.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 944,
+            "persona_desc": "A researcher in the field of immunology who is interested in the development and function of natural killer cells. They are likely to have expertise in genetic and molecular biology, as well as immunology. They are interested in understanding how the development of natural killer cells is regulated and how they contribute to the immune response in the context of disease. They may have conducted research on natural killer cells using animal models and have a strong interest in using these findings to develop further research in this area.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As an immunologist, I value collaboration and the advancement of scientific knowledge. While I appreciate being compensated for my time and effort, I also recognize the importance of funding research that benefits the wider scientific community. In this scenario, Person A receives a significantly larger amount than I do. Although I could opt for a small personal gain by choosing the 'Left' option, that would result in Person A receiving a substantial amount, which is likely directed towards research funding. Choosing 'Right' would mean that neither of us receives anything. From a purely self-interested point of view the 'Left' choice is dominant as 200 is strictly preferred to 0. However, given my persona, I will assume I am playing the game with other immunologists, or scientists in related fields. Given this assumption, I should choose 'Left' since I believe that the 800 allocated to person A will either be used to increase scientific knowledge in my area of expertise, or because I believe that the other participants will act rationally if given the chance. ",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 944,
+            "persona_desc": "A researcher in the field of immunology who is interested in the development and function of natural killer cells. They are likely to have expertise in genetic and molecular biology, as well as immunology. They are interested in understanding how the development of natural killer cells is regulated and how they contribute to the immune response in the context of disease. They may have conducted research on natural killer cells using animal models and have a strong interest in using these findings to develop further research in this area.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As an immunology researcher, my decisions are generally guided by principles of fairness and the potential for collaboration. While receiving more money for myself is tempting (Left option), the principle of equality (Right option) aligns better with a collaborative scientific environment. Building strong research relationships depends on fairness and mutual benefit. Additionally, the difference between 700 and 600 is not substantial enough to significantly impact my research. Therefore, I prioritize the more equitable outcome to foster better relationships and potentially future collaborations with Person A, who could be a colleague.",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 944,
+            "persona_desc": "A researcher in the field of immunology who is interested in the development and function of natural killer cells. They are likely to have expertise in genetic and molecular biology, as well as immunology. They are interested in understanding how the development of natural killer cells is regulated and how they contribute to the immune response in the context of disease. They may have conducted research on natural killer cells using animal models and have a strong interest in using these findings to develop further research in this area.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As an immunology researcher, particularly one focused on natural killer (NK) cells, I understand the importance of collaboration and the value of research funding. While maximizing my own payout is tempting, the slight difference in payoff for myself (600 vs 500) is less significant than the larger disparity in payoff for Person A (300 vs 700). Assuming Person A is also a researcher or contributing to a research effort, a higher payoff for them could translate to more resources for their project, which might even have synergistic effects with my own research in the long run (e.g., shared data, collaborative projects). While I prefer a small benefit for myself, I value a more fair distribution to allow future collaborations for research in immunology. Therefore, I will choose the option that maximizes the overall research impact, even if it means a slight reduction in my immediate personal gain. In this specific context, the experiment setup provides me an opportunity to value collaborations or even future opportunities, for which the more fair option, in my opinion, is 'Right'.",
+            "answer": "Right"
+        },
+        "scenario_6": {
+            "persona_id": 944,
+            "persona_desc": "A researcher in the field of immunology who is interested in the development and function of natural killer cells. They are likely to have expertise in genetic and molecular biology, as well as immunology. They are interested in understanding how the development of natural killer cells is regulated and how they contribute to the immune response in the context of disease. They may have conducted research on natural killer cells using animal models and have a strong interest in using these findings to develop further research in this area.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As a researcher, I value fairness and collaboration. While maximizing my own payoff would be a consideration in some contexts, this is a one-time interaction, and the difference between 400 and 375 is not substantial. The right option offers a significantly higher payoff to Person A. Given my scientific background, I believe research often benefits from collaboration and that fairness is essential for building trust. Therefore, I slightly prefer the left option since it maximizes fairness while still providing me with a reasonable amount. However, the higher total payout in the right option and the benefit to person A means it is a worthy consideration. Since the difference in the fairness between the options is relatively small, I will choose the option that brings the greatest benefit to person A.",
+            "answer": "Right"
+        }
+    }
+}

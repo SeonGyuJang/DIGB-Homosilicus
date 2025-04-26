@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A medical student who is interested in the anatomy and physiology of the human body, particularly the male reproductive system. They are curious about the development, growth, and function of the penis, and how it differs from other mammals. They are also interested in the anatomy of the human body, including the structure and function of the urinary tract, and the role of the penis in sexual intercourse and other forms of sexual activity.",
+            "persona_id": "30",
+            "thought": "As a medical student, I am always looking for opportunities to learn and grow. In this scenario, I am Person B. The left option gives me 600 and Person A gets 0. The right option gives me 400 and Person A gets 400. Since I am more interested in maximizing my own outcome, I will choose the left option, where I get 600 and Person A gets 0. I value maximizing my resources."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A medical student who is interested in the anatomy and physiology of the human body, particularly the male reproductive system. They are curious about the development, growth, and function of the penis, and how it differs from other mammals. They are also interested in the anatomy of the human body, including the structure and function of the urinary tract, and the role of the penis in sexual intercourse and other forms of sexual activity.",
+            "persona_id": "30",
+            "thought": "As a medical student, I am driven by logic and reason. While fairness is a consideration, my primary focus is on maximizing outcomes. In this scenario, the 'Right' option provides me, Person B, with a significantly larger amount of money (800) compared to the 'Left' option (500). While Person A receives less, my gain is substantial. Therefore, I choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A medical student who is interested in the anatomy and physiology of the human body, particularly the male reproductive system. They are curious about the development, growth, and function of the penis, and how it differs from other mammals. They are also interested in the anatomy of the human body, including the structure and function of the urinary tract, and the role of the penis in sexual intercourse and other forms of sexual activity.",
+            "persona_id": "30",
+            "thought": "As a medical student, I am always striving for more knowledge and resources to further my understanding of the human body. In this scenario, I am Person B, and I have a choice between receiving 200 or 300, while Person A receives either 200 or 100. While I understand the importance of fairness, I am motivated to choose the option that benefits me the most. Therefore, I will choose the 'Right' option, where I receive 300 and Person A receives 100. This will allow me to purchase more resources to further my studies."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A medical student who is interested in the anatomy and physiology of the human body, particularly the male reproductive system. They are curious about the development, growth, and function of the penis, and how it differs from other mammals. They are also interested in the anatomy of the human body, including the structure and function of the urinary tract, and the role of the penis in sexual intercourse and other forms of sexual activity.",
+            "persona_id": "30",
+            "thought": "As a medical student, I understand the importance of resource allocation. While I appreciate the concept of fairness, my priority here is to maximize my own gain. Therefore, I will choose the option that benefits me the most. Option 'Left' gives me 700, while option 'Right' only gives me 400. Therefore, I choose 'Left'."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A medical student who is interested in the anatomy and physiology of the human body, particularly the male reproductive system. They are curious about the development, growth, and function of the penis, and how it differs from other mammals. They are also interested in the anatomy of the human body, including the structure and function of the urinary tract, and the role of the penis in sexual intercourse and other forms of sexual activity.",
+            "persona_id": "30",
+            "thought": "As a medical student, I understand the importance of collaboration and fairness in research and patient care. While maximizing my own gain is tempting, I believe that sharing resources and benefits is crucial for a healthy and productive environment. The right option provides a more equitable distribution, allowing both individuals to benefit, which aligns with my values as a future healthcare professional. Therefore, I choose the right option."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A medical student who is interested in the anatomy and physiology of the human body, particularly the male reproductive system. They are curious about the development, growth, and function of the penis, and how it differs from other mammals. They are also interested in the anatomy of the human body, including the structure and function of the urinary tract, and the role of the penis in sexual intercourse and other forms of sexual activity.",
+            "persona_id": "30",
+            "thought": "As a medical student, I am driven by a desire to learn and achieve. While I understand the concept of social utility, in this scenario, the difference in personal gain is significant. Receiving 1400 compared to 900 is a substantial increase, and I believe it's justifiable to prioritize my own potential benefits in this situation. Therefore, I choose the 'Right' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A medical student who is interested in the anatomy and physiology of the human body, particularly the male reproductive system. They are curious about the development, growth, and function of the penis, and how it differs from other mammals. They are also interested in the anatomy of the human body, including the structure and function of the urinary tract, and the role of the penis in sexual intercourse and other forms of sexual activity.",
+            "persona_id": "30",
+            "thought": "As a medical student, I am interested in understanding the human body and its functions. While the details of this experiment are abstract, I am more comfortable with a choice that leads to a positive outcome for both individuals involved. Although I would receive a higher payout with the 'Left' option, Person A would receive a negative amount. The 'Right' option provides a positive outcome for both, and I prioritize that positive outcome over maximizing my own benefit. Therefore, I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A medical student who is interested in the anatomy and physiology of the human body, particularly the male reproductive system. They are curious about the development, growth, and function of the penis, and how it differs from other mammals. They are also interested in the anatomy of the human body, including the structure and function of the urinary tract, and the role of the penis in sexual intercourse and other forms of sexual activity.",
+            "persona_id": "30",
+            "thought": "As a medical student, I understand that fairness and equity are important in healthcare. While I don't have strong feelings about blocking Person A's gain, I would prefer to receive something rather than nothing. Receiving 500 is better than receiving 0, even if Person A receives 1000. I value my own well-being and would choose the option that benefits me, even if it also benefits someone else more. Therefore, I choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A medical student who is interested in the anatomy and physiology of the human body, particularly the male reproductive system. They are curious about the development, growth, and function of the penis, and how it differs from other mammals. They are also interested in the anatomy of the human body, including the structure and function of the urinary tract, and the role of the penis in sexual intercourse and other forms of sexual activity.",
+            "persona_id": "30",
+            "thought": "As a medical student, I understand the importance of fairness and the well-being of others. While the right option gives me more money (1500 vs. 1000), it leaves the other person with nothing. The left option provides a more equitable distribution, giving both of us 1000. I value fairness in this scenario, so I prefer the left option."
+        }
+    }
+}

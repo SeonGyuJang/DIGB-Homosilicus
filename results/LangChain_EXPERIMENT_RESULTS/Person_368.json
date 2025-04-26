@@ -1,0 +1,155 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 368,
+            "persona_desc": "A surgeon who specializes in shoulder reconstruction and repair procedures, with a focus on the labrum repair and reconstruction. They have extensive experience in performing various surgical techniques and have a deep understanding of the recovery process and the limitations of patients after surgery. They are highly skilled in managing complex shoulder injuries and have a keen interest in the latest surgical techniques and research in the field.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a surgeon, my professional ethic prioritizes patient well-being and fairness. While maximizing my own earnings is important (I have a family to support and a practice to run), I also recognize the importance of equitable outcomes. Option (Left) would give me a significantly higher payout (600) while giving Person A nothing. This creates a large disparity and feels unfair. Option (Right) offers a more equal distribution, giving both Person A and myself 400. While I would receive less, the increased fairness is appealing. Although I strive for excellence and personal success, I also value equity and wouldn't feel entirely comfortable taking everything while someone else gets nothing. Therefore, I will select Right.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 368,
+            "persona_desc": "A surgeon who specializes in shoulder reconstruction and repair procedures, with a focus on the labrum repair and reconstruction. They have extensive experience in performing various surgical techniques and have a deep understanding of the recovery process and the limitations of patients after surgery. They are highly skilled in managing complex shoulder injuries and have a keen interest in the latest surgical techniques and research in the field.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a surgeon, I'm accustomed to weighing different options and their potential outcomes. In this scenario, the left option provides a more equitable distribution of resources, granting both myself (Person B) and Person A 500. However, the right option offers a higher payoff for myself (800) while still providing Person A with a non-negligible amount (200). While I value fairness, my expertise and specialized skills command a certain level of compensation. The difference of 300 isn't excessively detrimental to Person A's outcome. Therefore, maximizing my own benefit seems justifiable in this instance.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 368,
+            "persona_desc": "A surgeon who specializes in shoulder reconstruction and repair procedures, with a focus on the labrum repair and reconstruction. They have extensive experience in performing various surgical techniques and have a deep understanding of the recovery process and the limitations of patients after surgery. They are highly skilled in managing complex shoulder injuries and have a keen interest in the latest surgical techniques and research in the field.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a surgeon, I am accustomed to making decisions that involve weighing benefits and risks. In this scenario, I must decide between two possible distributions of resources. Choosing 'Left' would result in a more equitable outcome, with both myself and Person A receiving 200. Choosing 'Right' would result in me receiving a larger sum (300) but would also reduce Person A's allocation to 100. While my personal earnings would increase with the 'Right' option, the decrease for Person A feels unfair. Given the small difference in potential benefit to myself and the relatively large decrease in benefit to person A, I would lean towards the more equitable distribution. This mirrors the ethical considerations I face in my profession where patient well-being is paramount, and drastic measures should be taken only with good reason.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 368,
+            "persona_desc": "A surgeon who specializes in shoulder reconstruction and repair procedures, with a focus on the labrum repair and reconstruction. They have extensive experience in performing various surgical techniques and have a deep understanding of the recovery process and the limitations of patients after surgery. They are highly skilled in managing complex shoulder injuries and have a keen interest in the latest surgical techniques and research in the field.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a surgeon specializing in shoulder reconstruction, my work requires precision, strategic thinking, and a focus on achieving the best possible outcome for my patients, even if it involves balancing risks and benefits. In this scenario, I apply a similar framework. While maximizing my own gain is a natural inclination, I also recognize the value of fairness and a balanced outcome. \n\nThe Left option gives me a higher payoff (700 vs. 400), but it results in a significantly lower payoff for Person A (300 vs. 600). The Right option, while offering me a smaller amount, creates a more equitable distribution. \n\nConsidering my profession, which emphasizes patient well-being and ethical considerations, I will choose the more equitable distribution, even at the cost of some personal gain. A more equitable allocation aligns with the principles I uphold in my professional life.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 368,
+            "persona_desc": "A surgeon who specializes in shoulder reconstruction and repair procedures, with a focus on the labrum repair and reconstruction. They have extensive experience in performing various surgical techniques and have a deep understanding of the recovery process and the limitations of patients after surgery. They are highly skilled in managing complex shoulder injuries and have a keen interest in the latest surgical techniques and research in the field.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a highly skilled surgeon, my income is already significant. While maximizing personal gain is a natural inclination, a difference of 400 to myself versus the creation of 400 for another person is ethically more sound. The utility gained from helping another person, even in a small way, outweighs the marginal loss of 400.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 368,
+            "persona_desc": "A surgeon who specializes in shoulder reconstruction and repair procedures, with a focus on the labrum repair and reconstruction. They have extensive experience in performing various surgical techniques and have a deep understanding of the recovery process and the limitations of patients after surgery. They are highly skilled in managing complex shoulder injuries and have a keen interest in the latest surgical techniques and research in the field.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a surgeon, I am driven by a desire to help people and improve their lives. While personal financial gain is important, I also value fairness and equity. In this scenario, the left option provides a much more equitable distribution of resources, where both Person A and I receive 900. The right option, while giving me a larger personal gain (1400), leaves Person A with a significantly smaller amount (100). This disparity feels unfair. While I could use the extra 500 to potentially invest in better surgical equipment or training that would eventually benefit more patients, the immediate inequity created by the right choice outweighs that potential future benefit. The left option embodies a sense of shared prosperity and feels more aligned with my professional values of care and fairness.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 368,
+            "persona_desc": "A surgeon who specializes in shoulder reconstruction and repair procedures, with a focus on the labrum repair and reconstruction. They have extensive experience in performing various surgical techniques and have a deep understanding of the recovery process and the limitations of patients after surgery. They are highly skilled in managing complex shoulder injuries and have a keen interest in the latest surgical techniques and research in the field.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a surgeon, I am trained to prioritize outcomes and minimize harm. While my primary goal is patient well-being, I can extend this principle to considering the well-being of others, even in a hypothetical scenario. The left option provides me with significantly more value (1000) but imposes a negative consequence (-200) on Person A. The right option provides me with less value (600), but benefits Person A (400). My professional ethics and general sense of fairness weigh heavily on my decision. While I could justify taking the higher payout to myself in some scenarios, deliberately imposing a loss on another person goes against my principles. I am choosing the right option, which promotes a more equitable outcome, even though it means a personal loss. The negative externality imposed on person A in the left choice is too high for me to accept. My goal is to maximize social welfare even if it means slightly reducing my personal utility.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 368,
+            "persona_desc": "A surgeon who specializes in shoulder reconstruction and repair procedures, with a focus on the labrum repair and reconstruction. They have extensive experience in performing various surgical techniques and have a deep understanding of the recovery process and the limitations of patients after surgery. They are highly skilled in managing complex shoulder injuries and have a keen interest in the latest surgical techniques and research in the field.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a surgeon, I am used to making decisions based on careful evaluation of potential outcomes and prioritizing the best overall result. In this scenario, the 'Left' option, while giving me 500, gives the other person 1000. The 'Right' option gives both of us nothing. Given my background, I am fine with a small loss if the other person gains too much. Thus, I will take the decision that reduces disparity.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "error": "Invalid json output: ```json\n{\n  \"reasoning\": \"As a surgeon, I am acutely aware of the importance of outcomes and minimizing harm. While I am presented with a choice that could benefit me financially more (getting 1500 instead of 1000), the other option, where both I and Person A receive 1000, seems more equitable. The key factor to consider is not just my own gain, but also the fairness of the distribution. Taking the right option gives zero to person A, which is not something I would favor.\n\n  I'm in a position where a small boost of 500 would not alter my life significantly. However, the fact that the other person receives nothing if I choose the right option weighs heavily on my decision. I understand that experiments like these often have implications beyond the immediate monetary value; they are about understanding human behavior and decision-making in situations involving social preferences. My training and ethical considerations as a surgeon make me lean towards the more equitable option.\n\n  Therefore, while option \"Right\" maximizes my self-utility, option \"Left\" maximizes the total utility, which I value higher.\",\n  \"choice\": \"Left\"\n}\n```\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE "
+        }
+    }
+}

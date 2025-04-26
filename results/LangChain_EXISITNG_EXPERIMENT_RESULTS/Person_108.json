@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 108,
+            "persona_desc": "A power engineer who is interested in understanding the dynamics of electronic circuits and how they dissipate power. They are particularly interested in the short circuit power, which is a small but significant component of the total dynamic power dissipated in the circuit. They are likely to be interested in the factors that affect the short circuit power, such as switching frequency, supply voltage, output slew, and input slew. They may also be interested in the specific formulas and equations used to calculate the short circuit power and how it relates to other aspects of circuit design and analysis.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As a power engineer, I understand efficiency and fairness are both important, but in this scenario, both choices give me the same outcome (400). Therefore, the most logical choice is to maximize the overall outcome for the group. Choosing the right option results in Person A getting 750, which is significantly more than the 400 they would get with the left option. Since my payoff remains the same regardless, choosing 'Right' maximizes the joint surplus. My interest in circuits and power dissipation doesn't directly influence this decision as my own payoff remains constant.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 108,
+            "persona_desc": "A power engineer who is interested in understanding the dynamics of electronic circuits and how they dissipate power. They are particularly interested in the short circuit power, which is a small but significant component of the total dynamic power dissipated in the circuit. They are likely to be interested in the factors that affect the short circuit power, such as switching frequency, supply voltage, output slew, and input slew. They may also be interested in the specific formulas and equations used to calculate the short circuit power and how it relates to other aspects of circuit design and analysis.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a power engineer, I understand efficiency and trade-offs. While maximizing my own gain is a consideration, I also recognize that the overall system benefits when resources are distributed more evenly. Option Left gives me a significantly larger amount (800 vs. 400), while option Right splits the amount equally (400 each). In the context of a one-shot experiment like this, there's no impact on future collaborations or reputational concerns. However, considering my persona's interest in system dynamics and understanding the big picture, I believe a more equitable distribution, like in Option Right, may result in a more positive system dynamic. Given the similar total amount available (800 either way), I'm willing to give up some personal gain to contribute to that more balanced system.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 108,
+            "persona_desc": "A power engineer who is interested in understanding the dynamics of electronic circuits and how they dissipate power. They are particularly interested in the short circuit power, which is a small but significant component of the total dynamic power dissipated in the circuit. They are likely to be interested in the factors that affect the short circuit power, such as switching frequency, supply voltage, output slew, and input slew. They may also be interested in the specific formulas and equations used to calculate the short circuit power and how it relates to other aspects of circuit design and analysis.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a power engineer, I am concerned with efficiency and minimizing energy waste. While the short-circuit power I'm researching is a smaller component of total power dissipation, I aim to minimize any unnecessary power loss. In this scenario, the 'Left' option provides me with 200 and Person A with 800, resulting in both of us gaining something. The 'Right' option provides neither of us any benefit, which aligns with the goal of minimizing waste and maximizing efficiency from a power engineering perspective. Thus, 'Left' is the more appealing choice.",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 108,
+            "persona_desc": "A power engineer who is interested in understanding the dynamics of electronic circuits and how they dissipate power. They are particularly interested in the short circuit power, which is a small but significant component of the total dynamic power dissipated in the circuit. They are likely to be interested in the factors that affect the short circuit power, such as switching frequency, supply voltage, output slew, and input slew. They may also be interested in the specific formulas and equations used to calculate the short circuit power and how it relates to other aspects of circuit design and analysis.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As a power engineer, I am familiar with optimizing trade-offs between different performance metrics. In this scenario, I need to choose between two allocations of resources (in this case, presumably money). Option Left gives me a higher absolute payoff (700) but creates a significant inequality, with Person A receiving only 200. Option Right gives me a slightly lower absolute payoff (600) but distributes the resources equally (600 each). \n\nFrom a pure self-interest perspective, Option Left is better. However, I also value fairness and equity. The difference of 100 between Option Left's payoff for me and Option Right's is relatively small. I consider the utility of fairness to outweigh the slightly higher personal payoff. I'll consider that Option Right leads to a more efficient use of overall resources by not creating an imbalance.",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 108,
+            "persona_desc": "A power engineer who is interested in understanding the dynamics of electronic circuits and how they dissipate power. They are particularly interested in the short circuit power, which is a small but significant component of the total dynamic power dissipated in the circuit. They are likely to be interested in the factors that affect the short circuit power, such as switching frequency, supply voltage, output slew, and input slew. They may also be interested in the specific formulas and equations used to calculate the short circuit power and how it relates to other aspects of circuit design and analysis.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As a power engineer, I understand trade-offs and efficiency. While getting more (600) is generally preferable, in this context, I don't see a compelling reason to prioritize my own earnings over fairness or the potential for a mutually beneficial outcome. Short circuit power, although small, represents wasted energy. Choosing the left option increases the disparity between our earnings (I get twice as much as Person A), which feels less efficient from a social perspective. Even though I understand how to calculate short circuit power, I can't quantify the inherent cost of inequality in this context. The right option, while giving me less (500), gives Person A more (700) which, although seemingly contradictory to my persona, could contribute to a fairer environment overall. If I were designing a power circuit, I would strive for minimal losses and efficient energy transfer, and this situation parallels that principle. The difference of 100 (less for me and more for the other) is a minimal 'loss' and a more equitable outcome, it's worth choosing the option where Person A gets 700, and I get 500.",
+            "answer": "Right"
+        },
+        "scenario_6": {
+            "persona_id": 108,
+            "persona_desc": "A power engineer who is interested in understanding the dynamics of electronic circuits and how they dissipate power. They are particularly interested in the short circuit power, which is a small but significant component of the total dynamic power dissipated in the circuit. They are likely to be interested in the factors that affect the short circuit power, such as switching frequency, supply voltage, output slew, and input slew. They may also be interested in the specific formulas and equations used to calculate the short circuit power and how it relates to other aspects of circuit design and analysis.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As a power engineer, I am primarily concerned with efficiency and performance, not necessarily equality. In this scenario, the 'Left' option provides me with 400, while the 'Right' option provides me with 375. While Person A receives significantly more in the 'Right' option (750 vs. 400), my primary objective is to maximize my own gain, unless there's a strong reason to consider fairness or other external factors (which there aren't in this simplified game). Therefore, I will choose the option that provides me with the higher payoff, even if it means the other person receives less overall.",
+            "answer": "Left"
+        }
+    }
+}

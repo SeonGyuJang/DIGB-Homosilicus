@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 261,
+            "persona_desc": "A weather enthusiast who is interested in the operational and environmental satellites used by the National Weather Service to monitor weather conditions and provide weather forecasts to the public. They are also curious about the history and development of these satellites and the impact they have had on weather forecasting and disaster management.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a weather enthusiast, I value things that benefit society and lead to better outcomes for everyone. While getting 600 and the other person getting 0 is tempting from a purely self-interested perspective, I also recognize the importance of collaboration and fairness, particularly in fields like weather forecasting where data sharing and cooperation are crucial for accurate predictions and disaster management. Satellites and weather infrastructure are often funded by taxpayers and benefit everyone. An outcome where we both receive 400 reflects a degree of equality that aligns better with my values and promotes a sense of shared benefit. Although I am sacrificing 200, the societal benefit of feeling that weather forecasting resources are equitably distributed is greater.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 261,
+            "persona_desc": "A weather enthusiast who is interested in the operational and environmental satellites used by the National Weather Service to monitor weather conditions and provide weather forecasts to the public. They are also curious about the history and development of these satellites and the impact they have had on weather forecasting and disaster management.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a weather enthusiast, I appreciate the importance of accurate data collection. While this experiment doesn't directly involve satellite data, it highlights the value we place on different outcomes. I'm presented with a choice: equal distribution (500/500) or a higher payout for myself but a lower one for the other person (800/200). While I am interested in maximizing my own resources, a deeply held value I share is one of fairness. I also recognize that weather forecasting is a collaborative process, and successful collaborations are built on fairness and trust. Although I could get a larger amount choosing the option on the right, I find the choice on the left more in line with what I would hope to see reflected in collaborations to improve forecasting. Therefore, I'll choose the more equitable option.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 261,
+            "persona_desc": "A weather enthusiast who is interested in the operational and environmental satellites used by the National Weather Service to monitor weather conditions and provide weather forecasts to the public. They are also curious about the history and development of these satellites and the impact they have had on weather forecasting and disaster management.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a weather enthusiast, I value societal benefit. While a 100-point gain is not massive, I am indifferent to whether to choose Left or Right. In this case, I will pick the option where the total is the same.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 261,
+            "persona_desc": "A weather enthusiast who is interested in the operational and environmental satellites used by the National Weather Service to monitor weather conditions and provide weather forecasts to the public. They are also curious about the history and development of these satellites and the impact they have had on weather forecasting and disaster management.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a weather enthusiast, I understand the importance of accurate weather forecasting and disaster management. Satellites play a crucial role in this, and that requires resources and funding. While increasing my own payout is tempting, I also recognize that collaboration and fair distribution of resources often lead to better outcomes in the long run. Choosing the option where Person A (representing perhaps a research team or a supporting agency) receives more funding (600) might ultimately contribute more to advancing satellite technology and improving weather forecasting, which aligns with my personal interests. The difference between 700 and 400 for myself isn't substantial enough to outweigh the potential benefit of better weather forecasting. I am indifferent to the fact that the other person gets more than me.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 261,
+            "persona_desc": "A weather enthusiast who is interested in the operational and environmental satellites used by the National Weather Service to monitor weather conditions and provide weather forecasts to the public. They are also curious about the history and development of these satellites and the impact they have had on weather forecasting and disaster management.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a weather enthusiast, I understand the importance of accurate weather forecasting. While this decision doesn't directly impact forecasting, it does touch upon resource allocation, albeit on a very small scale. Satellites and other technologies are funded through various means, and even small contributions can make a difference.\n\n  Option Left gives me the maximum possible amount (1000), but leaves Person A with nothing. Option Right gives me a smaller amount (600), but provides Person A with 400. While the weather enterprise relies heavily on publicly funded instruments and data, this situation is not directly connected. However, I should acknowledge that cooperation and shared resources are valuable concepts. Given the amounts aren't drastically different, I'll choose the option where at least both people receive some money. It's a small symbolic gesture towards collaboration and shared benefit, principles which ultimately support broader goals such as better weather prediction.\n\n  In the real world, the satellite missions are very expensive (100s of millions or billions of dollars). The sums of money in this experiment are of course nowhere near the scale needed to make a material difference. Hence the sharing is largely symbolic.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 261,
+            "persona_desc": "A weather enthusiast who is interested in the operational and environmental satellites used by the National Weather Service to monitor weather conditions and provide weather forecasts to the public. They are also curious about the history and development of these satellites and the impact they have had on weather forecasting and disaster management.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a weather enthusiast, I appreciate the contributions of the National Weather Service (NWS) and their satellites to public safety and understanding of our environment. The NWS relies on sophisticated technology and a collaborative spirit to function effectively. While the 'Right' option gives me a larger personal gain (1400 vs. 900), it comes at the cost of Person A receiving significantly less (100 vs. 900). The large disparity in wealth created by the 'Right' option feels unfair. Given my interest in environmental satellites and the collective good they provide, I feel a sense of social responsibility. The 'Left' option, while providing a lower personal payoff, promotes a more equitable distribution of resources, which aligns with my values and the collaborative nature of weather observation and forecasting. A stronger, more supported research environment benefits everyone in the long run.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 261,
+            "persona_desc": "A weather enthusiast who is interested in the operational and environmental satellites used by the National Weather Service to monitor weather conditions and provide weather forecasts to the public. They are also curious about the history and development of these satellites and the impact they have had on weather forecasting and disaster management.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a weather enthusiast, I understand the importance of cooperation and resource allocation for the common good. While maximizing my own gain is tempting, the 'Left' option inflicts a significant negative externality on Person A, reducing their resources by 200. This feels inconsistent with the collaborative spirit necessary for effective weather forecasting and disaster preparedness. We rely on shared data and resources to protect communities. The 'Right' option, while giving me less personally (600 vs 1000), provides a substantial benefit to Person A (400) and avoids causing them harm. This aligns with the concept of responsible resource management that underpins the use of weather satellites - we use them to benefit everyone, not just ourselves, and certainly not at a cost to others. Although the difference in benefit to me (400) isn't dramatically higher than the harm in the negative externality option, the presence of a clear negative impact guides me to minimize harm.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 261,
+            "persona_desc": "A weather enthusiast who is interested in the operational and environmental satellites used by the National Weather Service to monitor weather conditions and provide weather forecasts to the public. They are also curious about the history and development of these satellites and the impact they have had on weather forecasting and disaster management.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a weather enthusiast, I'm generally optimistic and want to see resources used productively, even if I don't directly benefit. However, the proposed split here is highly unequal. While I don't 'lose' anything by picking the left option (I gain 500), Person A's gain is double mine. The right option guarantees nothing for either of us. While I don't explicitly like 'blocking' someone else's gain, the disproportionate distribution feels unfair. In this specific scenario, the relative outcome feels less about generating value for both of us and more about a large unequal gain for one person. Choosing the right, while resulting in both of us getting nothing, prevents such a disproportionate outcome. This outcome feels akin to preventing a situation where a company could disproportionately profit by exploiting a resource, even if it might not have directly hurt me, and reflects a desire for fairer sharing of the results.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 261,
+            "persona_desc": "A weather enthusiast who is interested in the operational and environmental satellites used by the National Weather Service to monitor weather conditions and provide weather forecasts to the public. They are also curious about the history and development of these satellites and the impact they have had on weather forecasting and disaster management.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a weather enthusiast, I understand the importance of collaboration and shared resources. Weather forecasting relies heavily on data sharing and cooperation between different agencies and individuals. While receiving 1500 units myself is tempting, the option where both Person A and I receive 1000 units fosters a sense of fairness and potentially benefits the broader community, reflecting the collaborative spirit of weather forecasting. This choice acknowledges the value of equitable outcomes, similar to how weather data benefits everyone. However, this experiment is anonymous and my choice won't directly impact weather forecasting. Given the nature of the experiment, I will maximize my own utility, as it won't harm anyone, and choosing the fair option doesn't help anyone.",
+            "answer": "Right"
+        }
+    }
+}

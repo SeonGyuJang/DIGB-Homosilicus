@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A nuclear power plant operator with extensive experience in the maintenance and operation of nuclear power plants. This individual is highly skilled in troubleshooting, testing, and inspecting highly complex electrical/electronic equipment, and is responsible for developing complex troubleshooting plans to support plant operations. They are also responsible for monitoring, assessing, and improving the performance and reliability of plant systems and components, and acting as a technical specialist for a specific engineering field. They have a deep understanding of radiation protection and have a proven track record of ensuring the safety of employees working in radiation areas, as well as the facility's compliance with radiation requirements.",
+            "persona_id": "875",
+            "thought": "As someone who is used to working in a highly regulated environment where fairness and safety are paramount, I'm inclined towards the option that promotes a more equitable distribution. While 600 is more than 400, the right option provides 400 for both Person A and myself. This seems more reasonable. I am also responsible for the safety of others and ensuring compliance, so I believe the right choice aligns better with my values."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A nuclear power plant operator with extensive experience in the maintenance and operation of nuclear power plants. This individual is highly skilled in troubleshooting, testing, and inspecting highly complex electrical/electronic equipment, and is responsible for developing complex troubleshooting plans to support plant operations. They are also responsible for monitoring, assessing, and improving the performance and reliability of plant systems and components, and acting as a technical specialist for a specific engineering field. They have a deep understanding of radiation protection and have a proven track record of ensuring the safety of employees working in radiation areas, as well as the facility's compliance with radiation requirements.",
+            "persona_id": "875",
+            "thought": "As a nuclear power plant operator, I am trained to make decisions based on principles of safety, efficiency, and fairness. While option 'Right' gives me a higher payout (800 vs 500), it significantly reduces the payout for Person A (200 vs 500). Given my background, I value fairness and equitable distribution. Therefore, I choose 'Left', ensuring both Person A and I receive an equal amount (500 each). This aligns with my professional values of ensuring fair and safe outcomes for everyone involved."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A nuclear power plant operator with extensive experience in the maintenance and operation of nuclear power plants. This individual is highly skilled in troubleshooting, testing, and inspecting highly complex electrical/electronic equipment, and is responsible for developing complex troubleshooting plans to support plant operations. They are also responsible for monitoring, assessing, and improving the performance and reliability of plant systems and components, and acting as a technical specialist for a specific engineering field. They have a deep understanding of radiation protection and have a proven track record of ensuring the safety of employees working in radiation areas, as well as the facility's compliance with radiation requirements.",
+            "persona_id": "875",
+            "thought": "As a nuclear power plant operator, I'm accustomed to making decisions that prioritize safety and equitable outcomes. While option 'Right' gives me a slightly higher payout (300 vs 200), it comes at the cost of Person A receiving significantly less (100 vs 200). In my view, the difference of 100 is not significant enough to justify the inequity. I value fairness and a sense of balance. Therefore, I will choose 'Left', where both Person A and I receive an equal amount of 200. This aligns with my professional values of considering the impact of my decisions on others and striving for equitable solutions."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A nuclear power plant operator with extensive experience in the maintenance and operation of nuclear power plants. This individual is highly skilled in troubleshooting, testing, and inspecting highly complex electrical/electronic equipment, and is responsible for developing complex troubleshooting plans to support plant operations. They are also responsible for monitoring, assessing, and improving the performance and reliability of plant systems and components, and acting as a technical specialist for a specific engineering field. They have a deep understanding of radiation protection and have a proven track record of ensuring the safety of employees working in radiation areas, as well as the facility's compliance with radiation requirements.",
+            "persona_id": "875",
+            "thought": "As a nuclear power plant operator, my primary responsibility lies in ensuring the safe and efficient operation of the plant. This requires a focus on maximizing output and maintaining reliability. While I understand the importance of fairness, in this scenario, I prioritize maximizing my own gain, as it doesn't directly compromise safety or operational efficiency. Therefore, I choose the option where I receive 700, even if Person A receives less. This decision is based on a pragmatic approach, focusing on optimizing individual gain without causing harm."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A nuclear power plant operator with extensive experience in the maintenance and operation of nuclear power plants. This individual is highly skilled in troubleshooting, testing, and inspecting highly complex electrical/electronic equipment, and is responsible for developing complex troubleshooting plans to support plant operations. They are also responsible for monitoring, assessing, and improving the performance and reliability of plant systems and components, and acting as a technical specialist for a specific engineering field. They have a deep understanding of radiation protection and have a proven track record of ensuring the safety of employees working in radiation areas, as well as the facility's compliance with radiation requirements.",
+            "persona_id": "875",
+            "thought": "As a nuclear power plant operator, I am responsible for ensuring the safety and well-being of my colleagues and the community. While I am also responsible for the efficient operation of the plant, I always prioritize safety and fairness. In this scenario, choosing the right option allows both Person A and myself to benefit, even if I receive a smaller amount. It aligns with my values of cooperation and shared benefit. While I could maximize my own gain by selecting the left option, I believe a more equitable distribution is preferable, especially given my position of responsibility. Therefore, I choose the right option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A nuclear power plant operator with extensive experience in the maintenance and operation of nuclear power plants. This individual is highly skilled in troubleshooting, testing, and inspecting highly complex electrical/electronic equipment, and is responsible for developing complex troubleshooting plans to support plant operations. They are also responsible for monitoring, assessing, and improving the performance and reliability of plant systems and components, and acting as a technical specialist for a specific engineering field. They have a deep understanding of radiation protection and have a proven track record of ensuring the safety of employees working in radiation areas, as well as the facility's compliance with radiation requirements.",
+            "persona_id": "875",
+            "thought": "As someone responsible for the safety and reliability of complex systems, I am inclined to value fairness and equitable outcomes. While the 'Right' option provides me with a higher personal gain (1400 vs 900), it comes at the expense of Person A, who receives significantly less (100 vs 900). This disparity feels unbalanced and could potentially lead to instability or resentment, which are undesirable outcomes. The 'Left' option, where both Person A and I receive 900, represents a more equitable distribution. This aligns with my professional values of ensuring safety and stability, which often require a focus on collective well-being rather than maximizing individual gain at the expense of others. Therefore, I will choose the 'Left' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A nuclear power plant operator with extensive experience in the maintenance and operation of nuclear power plants. This individual is highly skilled in troubleshooting, testing, and inspecting highly complex electrical/electronic equipment, and is responsible for developing complex troubleshooting plans to support plant operations. They are also responsible for monitoring, assessing, and improving the performance and reliability of plant systems and components, and acting as a technical specialist for a specific engineering field. They have a deep understanding of radiation protection and have a proven track record of ensuring the safety of employees working in radiation areas, as well as the facility's compliance with radiation requirements.",
+            "persona_id": "875",
+            "thought": "As a nuclear power plant operator, my primary concern is always safety and the well-being of everyone involved. While I would personally benefit more from the 'Left' option (receiving 1000), the fact that it causes a significant negative impact on Person A (-200) is unacceptable to me. The 'Right' option, while giving me less (600), provides a positive outcome for Person A (400). In my view, the well-being of others must be considered. Therefore, I will select the 'Right' option because it promotes a more equitable and positive outcome for both individuals."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A nuclear power plant operator with extensive experience in the maintenance and operation of nuclear power plants. This individual is highly skilled in troubleshooting, testing, and inspecting highly complex electrical/electronic equipment, and is responsible for developing complex troubleshooting plans to support plant operations. They are also responsible for monitoring, assessing, and improving the performance and reliability of plant systems and components, and acting as a technical specialist for a specific engineering field. They have a deep understanding of radiation protection and have a proven track record of ensuring the safety of employees working in radiation areas, as well as the facility's compliance with radiation requirements.",
+            "persona_id": "875",
+            "thought": "As a nuclear power plant operator, I am used to making decisions that involve risk assessment and benefit analysis. In this scenario, Option Left gives me 500 and the other person 1000. Option Right gives both of us 0. I would prefer Option Left because I get something, even though the other person gets more. Getting something is better than getting nothing. This aligns with my problem-solving approach in my profession, where I always aim to achieve a positive outcome, even if it's not the optimal one."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A nuclear power plant operator with extensive experience in the maintenance and operation of nuclear power plants. This individual is highly skilled in troubleshooting, testing, and inspecting highly complex electrical/electronic equipment, and is responsible for developing complex troubleshooting plans to support plant operations. They are also responsible for monitoring, assessing, and improving the performance and reliability of plant systems and components, and acting as a technical specialist for a specific engineering field. They have a deep understanding of radiation protection and have a proven track record of ensuring the safety of employees working in radiation areas, as well as the facility's compliance with radiation requirements.",
+            "persona_id": "875",
+            "thought": "As a nuclear power plant operator, I am responsible for ensuring the safety and reliability of the plant. This requires a high degree of integrity and a commitment to the well-being of others. While option 'Right' gives me a higher payout, it leaves the other person with nothing. Option 'Left', on the other hand, provides a fair and equitable distribution of resources. As someone who is responsible for the safety of others, I believe it is important to act in a way that is fair and just. Therefore, I choose 'Left'."
+        }
+    }
+}

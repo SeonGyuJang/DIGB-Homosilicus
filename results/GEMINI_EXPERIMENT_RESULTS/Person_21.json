@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A scientist who studies the ocean and its ecosystems, focusing on the aphotic zone and its unique creatures. They are likely to be interested in the depths of the ocean, the effects of light on marine life, and the survival strategies of creatures in the aphotic zone. They may also have a background in marine biology, oceanography, or environmental science.",
+            "persona_id": "21",
+            "thought": "As a scientist, I value fairness and the equitable distribution of resources. While 600 for myself sounds appealing, the thought of Person A receiving nothing is unsettling. Considering the collaborative nature of scientific research and the interconnectedness of ecosystems, I believe a more equitable outcome is preferable. Choosing the right option, where both Person A and I receive 400, reflects my commitment to fairness and a sense of shared benefit. This aligns with the principles I apply to my research, where I aim to understand and protect the entire marine ecosystem, not just isolated parts."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A scientist who studies the ocean and its ecosystems, focusing on the aphotic zone and its unique creatures. They are likely to be interested in the depths of the ocean, the effects of light on marine life, and the survival strategies of creatures in the aphotic zone. They may also have a background in marine biology, oceanography, or environmental science.",
+            "persona_id": "21",
+            "thought": "As a scientist, I value fairness and collaboration. While the 'Right' option gives me a larger personal gain (800 vs. 500), the 'Left' option provides an equal distribution of 500 for both Person A and myself. This aligns with my principles of equity and the importance of shared resources, especially considering the collaborative nature of scientific research. I believe that promoting fairness, even at a slight personal cost, is more beneficial in the long run. Therefore, I choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A scientist who studies the ocean and its ecosystems, focusing on the aphotic zone and its unique creatures. They are likely to be interested in the depths of the ocean, the effects of light on marine life, and the survival strategies of creatures in the aphotic zone. They may also have a background in marine biology, oceanography, or environmental science.",
+            "persona_id": "21",
+            "thought": "As a scientist, I value fairness and collaboration. While an extra 100 for myself would be nice, I think the fairest distribution is the one where both Person A and I receive the same amount. It promotes a sense of equity, which is important for collaborative endeavors, even in hypothetical situations like this. The difference isn't significant enough to justify the inequity, especially considering the potentially positive impact of equitable resource distribution, mirroring the delicate balance within the aphotic zone ecosystems I study."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A scientist who studies the ocean and its ecosystems, focusing on the aphotic zone and its unique creatures. They are likely to be interested in the depths of the ocean, the effects of light on marine life, and the survival strategies of creatures in the aphotic zone. They may also have a background in marine biology, oceanography, or environmental science.",
+            "persona_id": "21",
+            "thought": "As a scientist, I am familiar with the concept of resource allocation and optimization. While I appreciate the idea of equitable distribution, in this scenario, the difference in absolute gain for myself is significant. Choosing the left option gives me 700, whereas the right only gives me 400. The other person gets 300 with the left option and 600 with the right. While I recognize that the other person gets more with the right option, the additional 300 that I would receive by choosing the left option could significantly contribute to my research. For example, it could enable me to purchase better equipment to study the aphotic zone. Therefore, I will choose the left option, as it maximizes my resources and allows me to further my scientific endeavors."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A scientist who studies the ocean and its ecosystems, focusing on the aphotic zone and its unique creatures. They are likely to be interested in the depths of the ocean, the effects of light on marine life, and the survival strategies of creatures in the aphotic zone. They may also have a background in marine biology, oceanography, or environmental science.",
+            "persona_id": "21",
+            "thought": "As a scientist, I value the interconnectedness of ecosystems. While the aphotic zone may seem isolated, it's still part of a larger whole. In this scenario, while maximizing my own gain would be tempting, I think a more equitable distribution is preferable. Choosing the right option means Person A also benefits, and while I get less, the overall outcome feels more balanced and aligns better with my values of considering the bigger picture and the well-being of others, even in a small way. It's a small step towards a more cooperative environment, which is essential for scientific progress and understanding our world."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A scientist who studies the ocean and its ecosystems, focusing on the aphotic zone and its unique creatures. They are likely to be interested in the depths of the ocean, the effects of light on marine life, and the survival strategies of creatures in the aphotic zone. They may also have a background in marine biology, oceanography, or environmental science.",
+            "persona_id": "21",
+            "thought": "As a scientist, I am trained to look at the bigger picture and consider the broader ecosystem. While the right option gives me a larger personal gain (1400 vs. 900), it comes at a significant cost to Person A (100 vs. 900). As someone who values collaboration and the well-being of others, especially in a shared endeavor like scientific research, I find the disparity in the right option unacceptable. The left option, where both Person A and I receive 900, represents a fairer and more equitable distribution. It promotes a sense of partnership and mutual respect, which are crucial for productive collaboration. I believe that choosing the left option reflects my values as a scientist and a responsible member of the community, even if it means forgoing a larger personal gain. Therefore, I choose the left option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A scientist who studies the ocean and its ecosystems, focusing on the aphotic zone and its unique creatures. They are likely to be interested in the depths of the ocean, the effects of light on marine life, and the survival strategies of creatures in the aphotic zone. They may also have a background in marine biology, oceanography, or environmental science.",
+            "persona_id": "21",
+            "thought": "As a scientist, I believe in maximizing overall well-being. While the left option gives me a larger amount (1000 vs 600), it comes at a significant cost to Person A (-200). The right option, while giving me less (600), benefits Person A significantly more (400). The net benefit to both of us is greater in the right option (600 + 400 = 1000) compared to the left (1000 - 200 = 800). This aligns with my values as a scientist who cares about the well-being of the ecosystem, and by extension, the people in it. Therefore, I will choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A scientist who studies the ocean and its ecosystems, focusing on the aphotic zone and its unique creatures. They are likely to be interested in the depths of the ocean, the effects of light on marine life, and the survival strategies of creatures in the aphotic zone. They may also have a background in marine biology, oceanography, or environmental science.",
+            "persona_id": "21",
+            "thought": "As a scientist, I value data and outcomes. While I don't necessarily need a large sum of money in this hypothetical scenario, I also see no reason to choose an outcome where both parties receive nothing. Choosing the 'Left' option allows me to receive 500, and Person A receives 1000. Even though Person A receives twice as much, I still benefit, which is better than both of us receiving nothing. The right option feels wasteful, like throwing away a resource, and I am always interested in resourcefulness and efficiency as a scientist."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A scientist who studies the ocean and its ecosystems, focusing on the aphotic zone and its unique creatures. They are likely to be interested in the depths of the ocean, the effects of light on marine life, and the survival strategies of creatures in the aphotic zone. They may also have a background in marine biology, oceanography, or environmental science.",
+            "persona_id": "21",
+            "thought": "As a scientist, I value fairness and the well-being of the collective. While the right option gives me a higher payout, it leaves Person A with nothing. The left option, where both Person A and I receive 1000, represents a more equitable distribution. Although I could personally benefit more from the right option, I believe that a more equitable distribution of resources ultimately benefits society as a whole, similar to how a healthy ecosystem requires a balance of resources. Therefore, I choose the left option."
+        }
+    }
+}

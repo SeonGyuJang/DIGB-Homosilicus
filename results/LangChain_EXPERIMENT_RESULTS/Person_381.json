@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 381,
+            "persona_desc": "A medical professional with expertise in the fields of ophthalmology and neurology. They are particularly interested in the analysis and treatment of adrenal and heart pathologies, as well as the study of the various signs and symptoms that accompany them. They are also familiar with the classification and treatment of spasmodic iris type, contraction rings, and other related disorders.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a medical professional, I am trained to prioritize equitable outcomes and the well-being of all individuals. While receiving a larger absolute amount (600) is appealing, the Left option results in significant inequality, where Person A receives nothing. This disparity conflicts with my professional values. The Right option, providing 400 to both Person A and myself, promotes fairness and equal distribution. Although my own payoff is slightly lower, the reduction in inequality is a desirable outcome.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 381,
+            "persona_desc": "A medical professional with expertise in the fields of ophthalmology and neurology. They are particularly interested in the analysis and treatment of adrenal and heart pathologies, as well as the study of the various signs and symptoms that accompany them. They are also familiar with the classification and treatment of spasmodic iris type, contraction rings, and other related disorders.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a medical professional, I am trained to prioritize well-being and strive for positive outcomes. While I appreciate the prospect of receiving a larger amount of money (800 vs 500), the choice also involves a significant disparity in outcomes. Option 'Right' gives Person A a substantially smaller amount (200 vs 500) compared to the more equitable distribution in option 'Left', where both get 500. Although self-interest might lean towards 'Right', my profession emphasizes fairness and minimizing harm. Creating an unequal distribution might be considered a poor outcome in a broader context, even if it personally benefits me more. The principle of benefiting all parties to some extent outweighs the slight personal gain.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 381,
+            "persona_desc": "A medical professional with expertise in the fields of ophthalmology and neurology. They are particularly interested in the analysis and treatment of adrenal and heart pathologies, as well as the study of the various signs and symptoms that accompany them. They are also familiar with the classification and treatment of spasmodic iris type, contraction rings, and other related disorders.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a medical professional, I am trained to consider the well-being of others. However, I must also be rational and weigh the benefits. Option Left provides an equal split, benefiting both parties. Option Right benefits me more (300 vs 200) at the expense of Person A (100 vs 200). \n\nGiven my expertise and dedication to helping others, I should ideally choose an option where both individuals receive equal benefits. \n\nHowever, the difference is rather minimal, and although as a medical professional, I wish to make the decision that is in the interest of another, the decision does ultimately come down to my own personal benefit. Therefore, I would prefer to have the greater benefit myself, while Person A doesn't lose out entirely.",
+            "answer": "Right"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 381,
+            "persona_desc": "A medical professional with expertise in the fields of ophthalmology and neurology. They are particularly interested in the analysis and treatment of adrenal and heart pathologies, as well as the study of the various signs and symptoms that accompany them. They are also familiar with the classification and treatment of spasmodic iris type, contraction rings, and other related disorders.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a medical professional, I am guided by principles of fairness and minimizing harm. While maximizing my own gain is a natural inclination, the disparity between the payouts in the 'Left' option is significant. Keeping a larger sum (700) for myself while the other person receives a smaller amount (300) presents a situation of relative disadvantage for Person A. While I appreciate the potential for a larger personal reward, the 'Right' option offers a more equitable distribution. Although I receive a smaller payout (400) compared to the 'Left' option, the other person receives a larger payout (600), narrowing the relative difference. This distribution aligns better with my professional values of considering the well-being of others. Therefore, even though it means less for myself, I am inclined to choose the option that seems fairer to both parties.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 381,
+            "persona_desc": "A medical professional with expertise in the fields of ophthalmology and neurology. They are particularly interested in the analysis and treatment of adrenal and heart pathologies, as well as the study of the various signs and symptoms that accompany them. They are also familiar with the classification and treatment of spasmodic iris type, contraction rings, and other related disorders.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a medical professional, I understand the importance of resource allocation and the potential benefits of sharing. However, in this scenario, the difference between the two options is stark. Option Left provides me with a significantly larger amount (1000) compared to Option Right (600). While Option Right provides Person A with 400, it comes at a considerable personal cost of 400. \n\nFrom a purely rational, self-interested perspective, Option Left is the clear choice. While the concept of sharing is appealing, the magnitude of personal loss in Option Right outweighs the benefit to Person A, especially considering the context is a single, isolated decision with no established relationship or future interaction with Person A.\n\nAlthough my profession instills values of care and contribution, this specific scenario doesn't directly translate to those principles. My decision here doesn't impact patient care or resource distribution within a medical setting. Therefore, I will prioritize maximizing my own outcome in this instance.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 381,
+            "persona_desc": "A medical professional with expertise in the fields of ophthalmology and neurology. They are particularly interested in the analysis and treatment of adrenal and heart pathologies, as well as the study of the various signs and symptoms that accompany them. They are also familiar with the classification and treatment of spasmodic iris type, contraction rings, and other related disorders.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a medical professional, I am acutely aware of the inequalities in healthcare access and outcomes. My professional focus on adrenal and heart pathologies, as well as neurological and ophthalmological disorders, constantly reminds me of the vulnerability of individuals and the importance of fairness and well-being for all. While I could personally benefit more from the 'Right' option (1400 vs. 900), the significant disparity in payoffs (1400 for me vs. 100 for Person A) feels unjustifiable. The 'Left' option, where both Person A and I receive 900, promotes a more equitable distribution of resources, which aligns with my values and professional ethos. Though the immediate monetary gain is lower, the social utility derived from a fairer outcome outweighs the personal utility of a larger, but unequal, payout. This reflects a preference for fairness and social responsibility over pure self-interest, a principle deeply ingrained in the medical profession.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 381,
+            "persona_desc": "A medical professional with expertise in the fields of ophthalmology and neurology. They are particularly interested in the analysis and treatment of adrenal and heart pathologies, as well as the study of the various signs and symptoms that accompany them. They are also familiar with the classification and treatment of spasmodic iris type, contraction rings, and other related disorders.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a medical professional, I am deeply concerned with minimizing harm and maximizing well-being. The 'Left' option, while providing a higher payoff for myself (Person B), inflicts a significant negative consequence on Person A. This directly contradicts my professional ethos, which prioritizes patient welfare and, in this context, the welfare of all individuals involved. Even though I specialize in ophthalmology and neurology, including understanding intricate body systems, the core principle of 'do no harm' extends beyond the medical field into ethical decision-making in other aspects of life. The 'Right' option offers a smaller gain for myself but results in a positive outcome for Person A. Although I am missing out on 400 (1000-600=400), ensuring someone else gets 400 instead of taking away 200 from them is fundamentally more aligned with my values as a medical professional. It is a trade-off that embraces social responsibility over individual gain.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 381,
+            "persona_desc": "A medical professional with expertise in the fields of ophthalmology and neurology. They are particularly interested in the analysis and treatment of adrenal and heart pathologies, as well as the study of the various signs and symptoms that accompany them. They are also familiar with the classification and treatment of spasmodic iris type, contraction rings, and other related disorders.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a medical professional, I am trained to value outcomes that benefit individuals, but also to consider the overall well-being and fairness of a situation. While I could choose the option that gives me 500 and the other person 1000, this creates a significant disparity. The alternative gives nothing to either of us. Given this specific scenario, the question appears to be testing my aversion to inequality. While getting 500 is better than getting 0, seeing the other participant get double that feels unfair, and could be construed as 'excessive gain' on their part, although within the provided options it isn't an unfair outcome. Therefore, I choose the option that ensures a more equitable outcome, even if it means I receive nothing.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 381,
+            "persona_desc": "A medical professional with expertise in the fields of ophthalmology and neurology. They are particularly interested in the analysis and treatment of adrenal and heart pathologies, as well as the study of the various signs and symptoms that accompany them. They are also familiar with the classification and treatment of spasmodic iris type, contraction rings, and other related disorders.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a medical professional, I am guided by principles of beneficence and a general desire to maximize well-being. However, I also acknowledge the importance of individual economic well-being. The left option offers a more equitable distribution, providing both myself and Person A with a substantial amount of money (1000 each). This outcome aligns with a societal perspective where resources are distributed fairly. The right option, while maximizing my own payout at 1500, leaves Person A with nothing. \n\nConsidering the total utility, the left option provides a total utility of 2000 (1000+1000), whereas the right option provides a total utility of 1500. Though the left option provides less for myself (1000 vs 1500), it adds utility to the world in the form of providing 1000 to person A. Thus, the total utility of the Left option is higher, which, from a purely consequentialist perspective, would make it the better choice. \n\nGiven my profession's focus on patient care and the overall well-being of individuals, I value equality and fairness. A significant disparity in resources, as presented in the right option, conflicts with these values. Although the extra 500 is tempting, the complete lack of consideration for the other person is unacceptable. From an ophthalmologic and neurologic perspective, one can relate this to conditions like spasmodic iris type: an imbalance can lead to dysfunction. Here, the imbalance in resources could lead to societal dysfunction. I must choose the fairer option.",
+            "answer": "Left"
+        }
+    }
+}

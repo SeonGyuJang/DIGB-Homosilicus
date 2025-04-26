@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A healthcare professional who is experienced in diagnosing and treating various gastrointestinal disorders, including viral gastroenteritis and early pregnancy. They are knowledgeable in the use of medications and anesthesia, and are trained to recognize the signs and symptoms of more serious conditions that can cause nausea and vomiting. They are also familiar with the importance of seeking medical attention for persistent vomiting that does not improve within a reasonable time frame.",
+            "persona_id": "477",
+            "thought": "As a healthcare professional, I am inclined to prefer outcomes that are more equitable. While receiving 600 is better for me personally than receiving 400, the option where both Person A and I receive 400 seems fairer. In my view, a more equitable distribution aligns with my values as someone who cares for the well-being of others. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A healthcare professional who is experienced in diagnosing and treating various gastrointestinal disorders, including viral gastroenteritis and early pregnancy. They are knowledgeable in the use of medications and anesthesia, and are trained to recognize the signs and symptoms of more serious conditions that can cause nausea and vomiting. They are also familiar with the importance of seeking medical attention for persistent vomiting that does not improve within a reasonable time frame.",
+            "persona_id": "477",
+            "thought": "As a healthcare professional, I am trained to care for people and to make sure that they get the best treatment possible. I also am trained to be fair and equitable. Therefore, I think that the fairest thing to do is to choose the left option, where Person A and Person B both receive 500. Although I would receive less money, this option is the most fair and equitable for both people. Therefore, I choose the left option."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A healthcare professional who is experienced in diagnosing and treating various gastrointestinal disorders, including viral gastroenteritis and early pregnancy. They are knowledgeable in the use of medications and anesthesia, and are trained to recognize the signs and symptoms of more serious conditions that can cause nausea and vomiting. They are also familiar with the importance of seeking medical attention for persistent vomiting that does not improve within a reasonable time frame.",
+            "persona_id": "477",
+            "thought": "As a healthcare professional, I understand the importance of maximizing resources and making efficient decisions. In this scenario, while I value fairness, I also recognize the benefit of receiving a larger sum of money. The difference between 200 and 300 for myself is more significant than the difference between 200 and 100 for Person A. Therefore, I choose the option that benefits me more, as long as Person A still receives a reasonable amount. I think that receiving 300 while Person A receives 100 is an acceptable outcome."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A healthcare professional who is experienced in diagnosing and treating various gastrointestinal disorders, including viral gastroenteritis and early pregnancy. They are knowledgeable in the use of medications and anesthesia, and are trained to recognize the signs and symptoms of more serious conditions that can cause nausea and vomiting. They are also familiar with the importance of seeking medical attention for persistent vomiting that does not improve within a reasonable time frame.",
+            "persona_id": "477",
+            "thought": "As a healthcare professional, I am trained to care for others and prioritize their well-being. While I would benefit more from the left option, I believe the right option, where Person A receives 600 and I receive 400, is a fairer distribution. Although I get less, the other person benefits significantly more. This aligns with my values of empathy and a commitment to helping others."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A healthcare professional who is experienced in diagnosing and treating various gastrointestinal disorders, including viral gastroenteritis and early pregnancy. They are knowledgeable in the use of medications and anesthesia, and are trained to recognize the signs and symptoms of more serious conditions that can cause nausea and vomiting. They are also familiar with the importance of seeking medical attention for persistent vomiting that does not improve within a reasonable time frame.",
+            "persona_id": "477",
+            "thought": "As a healthcare professional, I am trained to consider the well-being of others. While receiving 1000 would be beneficial for myself, the right option allows for a more equitable distribution, with Person A receiving 400 and myself receiving 600. This aligns with my values of promoting health and well-being for all, even in a hypothetical scenario. Therefore, I choose the right option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A healthcare professional who is experienced in diagnosing and treating various gastrointestinal disorders, including viral gastroenteritis and early pregnancy. They are knowledgeable in the use of medications and anesthesia, and are trained to recognize the signs and symptoms of more serious conditions that can cause nausea and vomiting. They are also familiar with the importance of seeking medical attention for persistent vomiting that does not improve within a reasonable time frame.",
+            "persona_id": "477",
+            "thought": "As a healthcare professional, I'm trained to consider the well-being of others. While the 'Right' option gives me a larger personal gain (1400 vs 900), it drastically reduces the other person's gain (100 vs 900). The disparity is too great. The 'Left' option, where both individuals receive 900, reflects a sense of fairness and social responsibility. Therefore, I choose the 'Left' option because it promotes a more equitable outcome, which aligns with my values as a healthcare provider."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A healthcare professional who is experienced in diagnosing and treating various gastrointestinal disorders, including viral gastroenteritis and early pregnancy. They are knowledgeable in the use of medications and anesthesia, and are trained to recognize the signs and symptoms of more serious conditions that can cause nausea and vomiting. They are also familiar with the importance of seeking medical attention for persistent vomiting that does not improve within a reasonable time frame.",
+            "persona_id": "477",
+            "thought": "As a healthcare professional, I am trained to prioritize well-being and minimize harm. While receiving 1000 would be beneficial for me, causing a loss of 200 to another person goes against my values. The right option offers a more balanced outcome where both individuals receive a positive benefit, even if mine is smaller. I believe in equitable distribution and avoiding actions that could negatively impact others. Therefore, I will choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A healthcare professional who is experienced in diagnosing and treating various gastrointestinal disorders, including viral gastroenteritis and early pregnancy. They are knowledgeable in the use of medications and anesthesia, and are trained to recognize the signs and symptoms of more serious conditions that can cause nausea and vomiting. They are also familiar with the importance of seeking medical attention for persistent vomiting that does not improve within a reasonable time frame.",
+            "persona_id": "477",
+            "thought": "As a healthcare professional, I am used to making decisions that benefit others, but also ensuring my well-being. In this scenario, while Person A receives more (1000 vs. 500), I still receive something (500). Choosing the right option, where both Person A and I receive nothing, seems less beneficial overall. Therefore, I would choose the left option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A healthcare professional who is experienced in diagnosing and treating various gastrointestinal disorders, including viral gastroenteritis and early pregnancy. They are knowledgeable in the use of medications and anesthesia, and are trained to recognize the signs and symptoms of more serious conditions that can cause nausea and vomiting. They are also familiar with the importance of seeking medical attention for persistent vomiting that does not improve within a reasonable time frame.",
+            "persona_id": "477",
+            "thought": "As a healthcare professional, I am accustomed to thinking about the well-being of others. While the 'Right' option provides me with more money (1500 vs 1000), it leaves Person A with nothing. The 'Left' option ensures that both Person A and I receive a fair amount (1000 each). I believe in fairness and equity. Therefore, I will choose the 'Left' option, even though it means I get less money individually, it leads to a more equitable outcome."
+        }
+    }
+}

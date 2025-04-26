@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A person interested in the natural and geological features of the Valle dei Laghi, particularly those related to the composition of soil and its impact on agriculture and vine growing. They may be a geologist or a soil scientist who is curious about the unique characteristics of this region and its potential for sustainable agriculture.",
+            "persona_id": "178",
+            "thought": "As someone interested in the natural and geological features of the Valle dei Laghi, I believe in fairness and balance, much like the delicate ecosystem I study. While option Left gives me a higher payoff (600), it leaves Person A with nothing. Option Right, on the other hand, provides both Person A and myself with a reasonable payoff (400 each). This reflects a more equitable distribution, which aligns with my values of sustainability and balance. I believe that a thriving community, like a healthy ecosystem, benefits from a fair distribution of resources. Therefore, I choose Right."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A person interested in the natural and geological features of the Valle dei Laghi, particularly those related to the composition of soil and its impact on agriculture and vine growing. They may be a geologist or a soil scientist who is curious about the unique characteristics of this region and its potential for sustainable agriculture.",
+            "persona_id": "178",
+            "thought": "As someone interested in the natural world and sustainable practices, I believe fairness and collaboration are important. While option Right gives me more money (800 vs 500), it comes at the cost of Person A receiving significantly less (200 vs 500). This imbalance doesn't align with my values. The Valle dei Laghi thrives on a balanced ecosystem, and I think this extends to human interactions as well. Therefore, I choose the Left option, where both Person A and I receive 500. This promotes a sense of equity which is important for fostering collaborative research and sustainable agricultural practices in the region."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A person interested in the natural and geological features of the Valle dei Laghi, particularly those related to the composition of soil and its impact on agriculture and vine growing. They may be a geologist or a soil scientist who is curious about the unique characteristics of this region and its potential for sustainable agriculture.",
+            "persona_id": "178",
+            "thought": "As someone focused on the balanced ecosystems within the Valle dei Laghi, including the interplay between soil composition and agricultural practices, I find myself leaning toward a more equitable distribution. While option 'Right' gives me a larger individual gain, it significantly reduces the amount for Person A. Given my interest in sustainability and the interconnectedness of elements within the region, I think a more equitable distribution is more in line with my values. Therefore, I choose 'Left', where both Person A and I receive 200."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A person interested in the natural and geological features of the Valle dei Laghi, particularly those related to the composition of soil and its impact on agriculture and vine growing. They may be a geologist or a soil scientist who is curious about the unique characteristics of this region and its potential for sustainable agriculture.",
+            "persona_id": "178",
+            "thought": "As someone interested in the sustainable agriculture of the Valle dei Laghi, I recognize that economic factors play a role in the well-being of the community. While I appreciate fairness, my primary focus is on maximizing resources that can be reinvested into understanding and improving the region's soil. Therefore, I will choose the option that gives me the higher amount, even if it means the other person gets less, as I believe I can use those resources to further my research and contribute to the long-term health of the Valle dei Laghi's agricultural system. Thus, I choose the left option where I receive 700 and the other person receives 300."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A person interested in the natural and geological features of the Valle dei Laghi, particularly those related to the composition of soil and its impact on agriculture and vine growing. They may be a geologist or a soil scientist who is curious about the unique characteristics of this region and its potential for sustainable agriculture.",
+            "persona_id": "178",
+            "thought": "As someone interested in the well-being of communities and sustainable agriculture within the Valle dei Laghi, I believe that cooperation and fair distribution of resources are important. While maximizing my own gain might seem appealing, I think the slight decrease in my benefit is worth it to provide Person A with a significant amount. This promotes a sense of community and shared prosperity, which is ultimately beneficial for the long-term sustainability of agricultural practices in the region. Therefore, I choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A person interested in the natural and geological features of the Valle dei Laghi, particularly those related to the composition of soil and its impact on agriculture and vine growing. They may be a geologist or a soil scientist who is curious about the unique characteristics of this region and its potential for sustainable agriculture.",
+            "persona_id": "178",
+            "thought": "As someone deeply interested in the Valle dei Laghi and its agricultural potential, I find myself considering the broader implications of these choices. While receiving 1400 (Right) is tempting, the disparity it creates, leaving Person A with only 100, feels unsettling. A healthy ecosystem, much like a thriving agricultural region, depends on a certain level of balance and fairness. The soil composition and its impact on vine growing are greatly affected by the community and its practices, so I am more inclined to social utility. Choosing Left, where both Person A and I receive 900, reflects a sense of equity that I believe is important for fostering collaboration and sustainable practices within the region. It aligns with my values of considering the long-term well-being of the community and its resources. Therefore, I choose Left."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A person interested in the natural and geological features of the Valle dei Laghi, particularly those related to the composition of soil and its impact on agriculture and vine growing. They may be a geologist or a soil scientist who is curious about the unique characteristics of this region and its potential for sustainable agriculture.",
+            "persona_id": "178",
+            "thought": "As someone interested in sustainable systems, I'm wary of choices that inflict negative consequences. While option Left gives me a higher payoff (1000 vs. 600), it comes at the cost of Person A receiving -200. Option Right gives me a lower payoff (600), but Person A receives 400. I'd prefer to choose the option that benefits both of us, even if it means I get less. Therefore, I choose Right."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A person interested in the natural and geological features of the Valle dei Laghi, particularly those related to the composition of soil and its impact on agriculture and vine growing. They may be a geologist or a soil scientist who is curious about the unique characteristics of this region and its potential for sustainable agriculture.",
+            "persona_id": "178",
+            "thought": "As someone interested in sustainable practices and the well-being of a community, I would prefer a situation where both parties receive something, even if it is unequal. The Valle dei Laghi thrives when there's a collaborative environment, and receiving 500 while the other person receives 1000 is better than both receiving nothing. The 'Left' option represents a more sustainable outcome for both parties, fostering a more positive environment for the geological and agricultural research I am interested in."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A person interested in the natural and geological features of the Valle dei Laghi, particularly those related to the composition of soil and its impact on agriculture and vine growing. They may be a geologist or a soil scientist who is curious about the unique characteristics of this region and its potential for sustainable agriculture.",
+            "persona_id": "178",
+            "thought": "As someone deeply interested in the Valle dei Laghi and its sustainable development, I consider the community's well-being to be important. While receiving 1500 would be personally beneficial, I think it's much better if we both receive 1000. This reflects a sense of fairness and shared prosperity, which aligns with a vision of a thriving region supported by healthy soil and agriculture. If Person A is also a local, perhaps a farmer, then their well-being is tied to the region's overall health, making the equal distribution even more appealing. Therefore, I choose the 'Left' option."
+        }
+    }
+}

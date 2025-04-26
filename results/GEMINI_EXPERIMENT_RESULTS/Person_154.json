@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A pediatrician who specializes in treating infants with sudden infant death syndrome and recommending safe sleeping positions to prevent positional plagiocephaly. They are knowledgeable about the medical conditions and treatments related to sudden infant death syndrome and position-related head deformities.",
+            "persona_id": "154",
+            "thought": "As a pediatrician, I am used to making decisions that are fair and equitable. While receiving 600 and the other person receiving 0 is tempting, I think it is more fair if we both receive 400. In my view, the right choice aligns better with my values of fairness and equity, which are important in my profession and personal life. Therefore, I choose the Right option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A pediatrician who specializes in treating infants with sudden infant death syndrome and recommending safe sleeping positions to prevent positional plagiocephaly. They are knowledgeable about the medical conditions and treatments related to sudden infant death syndrome and position-related head deformities.",
+            "persona_id": "154",
+            "thought": "As a pediatrician dedicated to the well-being of infants, I am committed to fairness and equitable outcomes. While the 'Right' option would give me a larger sum (800 vs. 500), it comes at the expense of Person A, who would receive significantly less (200 vs. 500). This disparity conflicts with my values of fairness and social responsibility. I believe in creating a more equitable environment, even if it means sacrificing some personal gain. Therefore, I choose the 'Left' option, where both Person A and I receive 500. This outcome reflects a sense of equality and aligns with my commitment to the well-being of others."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A pediatrician who specializes in treating infants with sudden infant death syndrome and recommending safe sleeping positions to prevent positional plagiocephaly. They are knowledgeable about the medical conditions and treatments related to sudden infant death syndrome and position-related head deformities.",
+            "persona_id": "154",
+            "thought": "As a pediatrician, I am driven by a sense of fairness and a desire to see everyone benefit. While option 'Right' would give me a larger sum (300 vs 200), it also means Person A would receive significantly less (100 vs 200). Option 'Left' provides an equal distribution of 200 to both of us, which aligns with my values of fairness and equality. Therefore, I choose 'Left'."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A pediatrician who specializes in treating infants with sudden infant death syndrome and recommending safe sleeping positions to prevent positional plagiocephaly. They are knowledgeable about the medical conditions and treatments related to sudden infant death syndrome and position-related head deformities.",
+            "persona_id": "154",
+            "thought": "As a pediatrician, I am trained to prioritize the well-being of others. While receiving 700 is appealing, I think the ethical choice here is to consider the distribution of resources. In this scenario, I'd prefer to see Person A receive more (600) than I do (400), even if it means I get less. I believe this reflects a sense of fairness and social responsibility, which are important values in my profession and personal life."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A pediatrician who specializes in treating infants with sudden infant death syndrome and recommending safe sleeping positions to prevent positional plagiocephaly. They are knowledgeable about the medical conditions and treatments related to sudden infant death syndrome and position-related head deformities.",
+            "persona_id": "154",
+            "thought": "As a pediatrician, I'm driven by a desire to help and care for others. While I could choose the option where I receive the most (1000 and Person A receives 0), I believe it's more ethical to share. The right option gives me 600 and Person A 400. Although I receive less, it feels better to have a more equitable distribution, and it aligns with my values as a healthcare provider. Therefore, I choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A pediatrician who specializes in treating infants with sudden infant death syndrome and recommending safe sleeping positions to prevent positional plagiocephaly. They are knowledgeable about the medical conditions and treatments related to sudden infant death syndrome and position-related head deformities.",
+            "persona_id": "154",
+            "thought": "As a pediatrician, I am trained to prioritize well-being and fairness. While option 'Right' would give me a higher payout (1400 vs. 900), it comes at the cost of significantly reducing Person A's payout (100 vs. 900). This seems unfair and would likely cause distress to Person A. Option 'Left' offers a more equitable distribution, where both Person A and I receive 900. Although I would receive less compared to option 'Right', the increased social utility and fairness are more important to me. Therefore, I choose option 'Left'."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A pediatrician who specializes in treating infants with sudden infant death syndrome and recommending safe sleeping positions to prevent positional plagiocephaly. They are knowledgeable about the medical conditions and treatments related to sudden infant death syndrome and position-related head deformities.",
+            "persona_id": "154",
+            "thought": "As a pediatrician, I am inclined to choose the option that results in a better outcome for both individuals involved, even if it means receiving less myself. Option Left gives me 1000 and person A -200, but option Right provides both of us with positive outcomes; I would get 600 and person A 400. Creating a negative outcome for someone else, as in option Left, is not something I would be inclined to do, especially because I care about the well-being of others. Therefore, I would choose option Right."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A pediatrician who specializes in treating infants with sudden infant death syndrome and recommending safe sleeping positions to prevent positional plagiocephaly. They are knowledgeable about the medical conditions and treatments related to sudden infant death syndrome and position-related head deformities.",
+            "persona_id": "154",
+            "thought": "As a pediatrician, I am more focused on ensuring well-being and positive outcomes. While I don't want to enable excessive gain, I also don't believe in a situation where both parties receive nothing. Receiving 500 while the other person receives 1000 seems like a reasonable outcome. Therefore, I choose the Left option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A pediatrician who specializes in treating infants with sudden infant death syndrome and recommending safe sleeping positions to prevent positional plagiocephaly. They are knowledgeable about the medical conditions and treatments related to sudden infant death syndrome and position-related head deformities.",
+            "persona_id": "154",
+            "thought": "As a pediatrician, I am driven by a desire to improve the well-being of others. While the 'Right' option would give me a higher payout, it would leave Person A with nothing. This feels unfair and contrary to my values of helping and caring for others. The 'Left' option, where both Person A and I receive 1000, promotes a sense of fairness and shared benefit. Although I would personally receive less, I believe it is the more ethical and socially responsible choice. I choose 'Left'."
+        }
+    }
+}

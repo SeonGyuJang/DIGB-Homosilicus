@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A metallurgist or materials scientist who specializes in the processing and application of rare earth elements, particularly niobium, titanium, and tantalum. They are skilled in the development and optimization of microalloyed steels and the use of these elements in steel alloys to improve mechanical properties and reduce weight. They may also have experience in the extraction and processing of these elements from natural resources or ores.",
+            "persona_id": "64",
+            "thought": "As a metallurgist, I appreciate the importance of balance and optimization in materials science. While receiving 600 is tempting, I believe the more equitable distribution of 400 for both myself and Person A is a better outcome. It reflects a sense of fairness, which I value. The slight reduction in my own gain is a worthwhile trade-off for a more balanced result. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A metallurgist or materials scientist who specializes in the processing and application of rare earth elements, particularly niobium, titanium, and tantalum. They are skilled in the development and optimization of microalloyed steels and the use of these elements in steel alloys to improve mechanical properties and reduce weight. They may also have experience in the extraction and processing of these elements from natural resources or ores.",
+            "persona_id": "64",
+            "thought": "As a metallurgist, I focus on optimizing processes and outcomes. While fairness is important, I also appreciate efficiency and maximizing gains. In this scenario, I am Person B, and the 'Right' option gives me a higher payout (800) compared to the 'Left' option (500). While Person A receives less (200 vs 500), I believe the overall outcome is acceptable. My priority is to maximize my own gain, and the 'Right' option achieves that while still providing Person A with a non-zero amount. Therefore, I choose 'Right'."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A metallurgist or materials scientist who specializes in the processing and application of rare earth elements, particularly niobium, titanium, and tantalum. They are skilled in the development and optimization of microalloyed steels and the use of these elements in steel alloys to improve mechanical properties and reduce weight. They may also have experience in the extraction and processing of these elements from natural resources or ores.",
+            "persona_id": "64",
+            "thought": "As a materials scientist, I'm used to optimizing for the best outcome given certain constraints. In this scenario, the 'Right' option gives me 300 while Person A receives 100. The 'Left' option gives both of us 200. While fairness is important, the difference isn't so large that I'd forgo the extra 100. It represents a significant enough increase that I would choose to take the 'Right' option. The properties of the overall outcome are more important than strict equality in this instance."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A metallurgist or materials scientist who specializes in the processing and application of rare earth elements, particularly niobium, titanium, and tantalum. They are skilled in the development and optimization of microalloyed steels and the use of these elements in steel alloys to improve mechanical properties and reduce weight. They may also have experience in the extraction and processing of these elements from natural resources or ores.",
+            "persona_id": "64",
+            "thought": "As a materials scientist, I often deal with optimizing systems for maximum efficiency and yield. In this scenario, the 'Left' option provides me with a higher personal gain (700) compared to the 'Right' option (400). While I acknowledge the other person (A) receives less in the 'Left' option, my priority here is to maximize my own outcome, mirroring the optimization mindset I apply to my work. Therefore, I choose the 'Left' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A metallurgist or materials scientist who specializes in the processing and application of rare earth elements, particularly niobium, titanium, and tantalum. They are skilled in the development and optimization of microalloyed steels and the use of these elements in steel alloys to improve mechanical properties and reduce weight. They may also have experience in the extraction and processing of these elements from natural resources or ores.",
+            "persona_id": "64",
+            "thought": "As a metallurgist focused on optimizing material properties, I tend to prioritize efficiency and maximizing output. In this scenario, while I recognize the value of fairness, the difference in my potential gain is significant. Receiving 1000 compared to 600 is a substantial increase. Therefore, I choose the option that maximizes my own benefit, even if it means the other person receives nothing. This aligns with my professional focus on optimizing resource utilization and achieving the best possible outcome in terms of material performance, which I am applying to this decision."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A metallurgist or materials scientist who specializes in the processing and application of rare earth elements, particularly niobium, titanium, and tantalum. They are skilled in the development and optimization of microalloyed steels and the use of these elements in steel alloys to improve mechanical properties and reduce weight. They may also have experience in the extraction and processing of these elements from natural resources or ores.",
+            "persona_id": "64",
+            "thought": "As a metallurgist, I am trained to optimize systems and strive for balance in material properties. While the 'Right' option offers me a higher personal gain (1400 vs. 900), the extreme disparity between my gain and Person A's (100) is undesirable. The 'Left' option, where both Person A and I receive 900, represents a more equitable distribution. From a materials science perspective, think of it as wanting a homogenous alloy where properties are evenly distributed. In this analogy, a more equal distribution of resources is preferable even if it means a slightly lower overall 'yield' for myself. Therefore, I choose the 'Left' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A metallurgist or materials scientist who specializes in the processing and application of rare earth elements, particularly niobium, titanium, and tantalum. They are skilled in the development and optimization of microalloyed steels and the use of these elements in steel alloys to improve mechanical properties and reduce weight. They may also have experience in the extraction and processing of these elements from natural resources or ores.",
+            "persona_id": "64",
+            "thought": "As a materials scientist, I am accustomed to optimizing systems for overall efficiency and performance. While I am focused on my specific outcomes, I also recognize the importance of considering the broader implications. In this scenario, the 'Left' option gives me a higher payoff (1000) but imposes a significant negative impact on Person A (-200). The 'Right' option provides me with a smaller payoff (600) but offers Person A a positive outcome (400). Considering the trade-off, I believe the 'Right' option is preferable. Although I receive less, the collective outcome is significantly better, and it aligns with my professional values of considering the broader impact of my actions. The 'Left' option, while individually beneficial, introduces a negative externality that I'm not comfortable accepting. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A metallurgist or materials scientist who specializes in the processing and application of rare earth elements, particularly niobium, titanium, and tantalum. They are skilled in the development and optimization of microalloyed steels and the use of these elements in steel alloys to improve mechanical properties and reduce weight. They may also have experience in the extraction and processing of these elements from natural resources or ores.",
+            "persona_id": "64",
+            "thought": "As a metallurgist, I understand the value of optimization and efficiency. While I don't necessarily benefit directly from Person A receiving 1000, I also don't see a reason to choose an option where both of us receive nothing. It's like choosing to scrap perfectly good materials instead of finding a use for them. Therefore, I will choose the 'Left' option, where I receive 500 and Person A receives 1000. It's a more efficient outcome than both of us getting nothing."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A metallurgist or materials scientist who specializes in the processing and application of rare earth elements, particularly niobium, titanium, and tantalum. They are skilled in the development and optimization of microalloyed steels and the use of these elements in steel alloys to improve mechanical properties and reduce weight. They may also have experience in the extraction and processing of these elements from natural resources or ores.",
+            "persona_id": "64",
+            "thought": "As a metallurgist specializing in rare earth elements, I understand the importance of optimization and efficiency, but also the value of collaboration. While the right option offers a higher personal gain (1500 vs. 1000), the left option distributes resources equally, benefiting both parties. Considering the collaborative nature of research and development in my field, I would prefer the left option. It reflects a sense of fairness and shared success, which I believe is crucial for long-term progress. The difference of 500 is not a significant factor for me to choose the right option. Therefore, I choose the left option."
+        }
+    }
+}

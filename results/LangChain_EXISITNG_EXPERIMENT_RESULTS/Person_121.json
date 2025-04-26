@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 121,
+            "persona_desc": "A user who is interested in understanding and configuring time-related settings in a simulation or application software. They may be a developer or a technical support specialist who needs to ensure the accuracy and consistency of time-related parameters in their projects.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As someone focused on technical accuracy and consistency, I want to understand the underlying system. While I don't inherently prioritize maximizing my own payout over another's, I also don't have a reason to intentionally choose a lower payout for the other person without any clear justification. In this scenario, my own payout remains the same (400) regardless of my choice. Therefore, given no other information or context, choosing the option where Person A receives a higher payout (750) is the most reasonable and arguably, the most efficient choice in the simulation, assuming the simulator designers provided these choices for a reason. From a simulation standpoint, more efficient use of hypothetical resources is the preferred option when indifference is present. This is because it provides a broader range of possible simulation outcomes.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 121,
+            "persona_desc": "A user who is interested in understanding and configuring time-related settings in a simulation or application software. They may be a developer or a technical support specialist who needs to ensure the accuracy and consistency of time-related parameters in their projects.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "I am Person B and in this scenario, my objective is to maximize my own payoff. Comparing the two options: (Left) I get 800, (Right) I get 400.  Since 800 is greater than 400, I should choose the Left option.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 121,
+            "persona_desc": "A user who is interested in understanding and configuring time-related settings in a simulation or application software. They may be a developer or a technical support specialist who needs to ensure the accuracy and consistency of time-related parameters in their projects.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "I am Person B. The left option gives me 200 and Person A gets 800. The right option gives both of us 0. Since I prefer to have some money rather than no money, and the amount Person A receives doesn't directly affect my utility, I will choose the left option.",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 121,
+            "persona_desc": "A user who is interested in understanding and configuring time-related settings in a simulation or application software. They may be a developer or a technical support specialist who needs to ensure the accuracy and consistency of time-related parameters in their projects.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "I am participating in a social preferences experiment. The goal is to choose between two allocations of resources between myself (Person B) and another person (Person A). Option (Left) gives me 700 and Person A 200. Option (Right) gives me 600 to each of us. While I prefer to have more resources, I also recognize the importance of fairness and equity. Option (Right) is more equitable because it distributes resources equally. Option (Left) gives me an advantage but leaves Person A with significantly less. I choose (Right) to promote equality.",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 121,
+            "persona_desc": "A user who is interested in understanding and configuring time-related settings in a simulation or application software. They may be a developer or a technical support specialist who needs to ensure the accuracy and consistency of time-related parameters in their projects.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "This is a social preferences experiment, so I need to consider both my payoff (Person B's) and Person A's payoff. Option (Left) gives me 600 and Person A 300. Option (Right) gives me 500 and Person A 700. \n\nI will consider a few factors:\n\n*   **Self-interest:** Option (Left) is better for me personally (600 vs. 500).\n*   **Efficiency/Total payoff:** Option (Right) results in a greater total payoff (500 + 700 = 1200) compared to Option (Left) (600 + 300 = 900).\n*   **Fairness/Equity:** Option (Right) gives Person A more than I get, while Option (Left) gives me more. The difference is smaller in the Right option, so it is arguably more equitable even if still unfair to me.\n\nBased on self-interest, I would pick Left. However, the slightly more even distribution and the greater efficiency of Right are moderately compelling. Given that the difference for me is only 100 units, I will prioritize efficiency and slightly greater equity.\n\n",
+            "answer": "Right"
+        },
+        "scenario_6": {
+            "persona_id": 121,
+            "persona_desc": "A user who is interested in understanding and configuring time-related settings in a simulation or application software. They may be a developer or a technical support specialist who needs to ensure the accuracy and consistency of time-related parameters in their projects.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "I am Person B in a social preferences experiment. The choice is between two allocations of resources between myself (Person B) and another person (Person A). Option Left gives me 400 and Person A 400. Option Right gives me 375 and Person A 750.  I will choose the option that maximizes my own payoff, even if it means the other person gets more. Therefore, I will choose Left as it gives me 400 compared to 375 in the right option.",
+            "answer": "Left"
+        }
+    }
+}

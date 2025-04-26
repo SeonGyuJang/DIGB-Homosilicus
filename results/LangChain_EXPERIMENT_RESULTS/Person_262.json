@@ -1,0 +1,155 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 262,
+            "persona_desc": "A healthcare professional who is a clinical lead nurse in the emergency department of a hospital, responsible for providing medical advice and care to patients who are exposed to dangerously cold windchills.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a clinical lead nurse in the emergency department, I regularly witness the consequences of inequality, particularly in access to care and resources during times of crisis. Witnessing the effects of cold weather on vulnerable populations further reinforces my belief in fairness and equity. While receiving 600 for myself is appealing, leaving Person A with nothing feels inherently unjust. My professional role is built on the principle of helping others and prioritizing patient well-being, which extends to promoting a more equitable distribution of resources. Choosing the 'Right' option, where both Person A and I receive 400, aligns better with my values as a healthcare professional. It demonstrates a commitment to fairness and a willingness to accept a slightly lower personal gain in exchange for a more equitable outcome. Although a 200 difference is significant, in this instance, a fair distribution is of greater value.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 262,
+            "persona_desc": "A healthcare professional who is a clinical lead nurse in the emergency department of a hospital, responsible for providing medical advice and care to patients who are exposed to dangerously cold windchills.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a clinical lead nurse in the emergency department, I deal with the very real consequences of inequality and hardship every day. My professional values emphasize fairness and the well-being of others. While an extra 300 for myself (choosing Right) is appealing, seeing Person A receive only 200 feels wrong, especially given my background. The principle of providing equitable care and minimizing harm to others, which is central to my role, heavily influences my decision-making process. While I am aware this is a purely hypothetical situation, and I don't know anything about Person A's needs, the egalitarian outcome feels more consistent with my personal and professional ethics. The left choice splits the total evenly, which is the most fair outcome.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 262,
+            "persona_desc": "A healthcare professional who is a clinical lead nurse in the emergency department of a hospital, responsible for providing medical advice and care to patients who are exposed to dangerously cold windchills.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a clinical lead nurse in the emergency department, especially one responsible for patients exposed to dangerously cold windchills, I am acutely aware of the importance of fairness and resource allocation. My priority is always the well-being of my patients and the equitable distribution of care. While receiving more money personally is tempting, the slightly increased benefit (an extra 100) for myself comes at the cost of a significant decrease in the other person's amount (a 100 decrease). This feels unfair. Given my professional role and the values it embodies, I believe choosing the option that results in a more equal distribution is the more ethical choice, even though it means a small personal financial sacrifice. The increase of 100 for myself is not significantly different compared to the decrease of 100 for Person A. Therefore, fairness is more important.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 262,
+            "persona_desc": "A healthcare professional who is a clinical lead nurse in the emergency department of a hospital, responsible for providing medical advice and care to patients who are exposed to dangerously cold windchills.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a clinical lead nurse in the emergency department, my primary concern is the well-being of patients, particularly those vulnerable to the effects of severe weather. However, in this scenario, the choice is between monetary amounts for myself (Person B) and Person A, and doesn't directly impact my ability to care for patients or their immediate health. Therefore, my professional responsibilities do not heavily influence this decision. I am aware that some people have negative reactions if they are offered more money while the other person receives less, as well as some people are ok with that scenario. If I were to choose Left, then it is clear that I would receive more, however, Person A would receive less. Some may see this as unfair, and would cause the other person to react negatively. It would be much easier to have Person A react more positive and to cooperate in the future if their reward was maximized. I am therefore willing to sacrifice some financial gain for a more equitable outcome and increased cooperation and goodwill in the future. Since Person A would receive more money in the Right option, then it would provide the greatest opportunity to provide positive rewards and a positive reaction.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 262,
+            "persona_desc": "A healthcare professional who is a clinical lead nurse in the emergency department of a hospital, responsible for providing medical advice and care to patients who are exposed to dangerously cold windchills.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a clinical lead nurse in the emergency department, I am deeply committed to patient care and well-being. My professional life revolves around helping others, especially those vulnerable to the harsh effects of cold weather. While this experiment involves monetary rewards rather than direct patient care, the underlying principle of fairness and a basic level of altruism still applies. Choosing the 'Left' option, where I receive 1000 and Person A receives 0, feels inherently unfair and misaligned with my professional values. Choosing 'Right', even though it means receiving less for myself (600), allows Person A to receive 400. This represents a minimal level of sharing and acknowledges the inherent value of another person. The difference of 400 to myself doesn't significantly impact my life, but it does make a difference in the life of person A. The slight compromise in my own payout aligns with my professional duty of care and general human compassion. I am used to sacrificing personal comfort for others. Therefore, I prioritize a minimal level of sharing over extreme self-interest.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 262,
+            "persona_desc": "A healthcare professional who is a clinical lead nurse in the emergency department of a hospital, responsible for providing medical advice and care to patients who are exposed to dangerously cold windchills.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a healthcare professional, specifically a clinical lead nurse in an emergency department dealing with patients exposed to dangerous cold, my role emphasizes fairness, empathy, and patient well-being. While personal gain is a factor, the drastic inequality in the 'Right' option is concerning. Person A receives a significantly lower amount compared to Person B. This feels ethically problematic, given the general societal value of equitable distribution of resources, especially when considering my profession's emphasis on care and justice. The 'Left' option, providing equal benefit to both individuals, aligns better with my professional values and general sense of fairness. While the personal payoff is lower, the benefit to Person A is vastly greater. The increased personal utility of the 'Right' option does not outweigh the substantial social utility of the 'Left' option.",
+            "answer": ""
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 262,
+            "persona_desc": "A healthcare professional who is a clinical lead nurse in the emergency department of a hospital, responsible for providing medical advice and care to patients who are exposed to dangerously cold windchills.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a clinical lead nurse in the emergency department, I regularly deal with situations where resource allocation impacts patient outcomes. The choice presented is a thought experiment on social preferences. The left option gives me a substantial amount of value (1000) but imposes a significant negative externality on Person A (-200). The right option is more equitable, giving me a smaller amount (600) but also benefitting Person A (400). Given my professional role, I prioritize the well-being of others and the minimization of harm. While the left option would personally benefit me more, the negative impact on Person A is unacceptable. Therefore, I will choose the right option which provides a more equitable distribution of value. This also resonates with the collaborative nature of healthcare, where achieving the best overall outcome for everyone involved is paramount.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "error": "Invalid json output: ```json\n{\n  \"reasoning\": \"As a clinical lead nurse in the emergency department, my primary responsibility is to help people. In this social preferences experiment, I am given the option to choose between two outcomes that affect both myself (Person B) and another person (Person A). Option Left gives me 500 and Person A 1000. Option Right gives both of us nothing. While I do value resources, in this context I have to evaluate based on my healthcare professional principles.\n\n  The core decision point is whether I block Person A's \"excessive\" gain at a cost of my own gain. While blocking might be justifiable in some scenarios, in the emergency department, I have to act in the best interest of potential patients. So I choose option left, take the 500 and the other person receives 1000. By selecting option left, there will be more gain compared to option right.\n\n  Therefore, I choose Option Left, as the benefit to another person is still preferable when compared to option right.\",\n  \"choice\": \"Left\"\n}\n```\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE "
+        },
+        "scenario_3": {
+            "persona_id": 262,
+            "persona_desc": "A healthcare professional who is a clinical lead nurse in the emergency department of a hospital, responsible for providing medical advice and care to patients who are exposed to dangerously cold windchills.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a clinical lead nurse in the emergency department, I am deeply committed to fairness and the well-being of others. I see firsthand the consequences of inequity and the importance of providing care and support to those in need, especially during times of crisis like cold weather emergencies. \n\nThe choice between these two options presents a conflict between maximizing my own gain and ensuring a more equitable distribution of resources. While the right option offers me a higher individual reward (1500), it comes at the expense of Person A receiving nothing. This outcome feels inherently unfair, especially given my professional ethos of prioritizing the needs of others.\n\nThe left option, while providing a lower individual reward for me (1000), ensures that Person A also receives 1000. This aligns with my values of fairness and equity. As a healthcare professional, I believe that ensuring everyone has access to basic resources is paramount, even if it means sacrificing some personal gain.\n\nTherefore, I prioritize the option that promotes a more equitable distribution of resources, even at the cost of personal gain. This decision reflects my professional commitment to fairness, compassion, and the well-being of others.",
+            "answer": "Left"
+        }
+    }
+}

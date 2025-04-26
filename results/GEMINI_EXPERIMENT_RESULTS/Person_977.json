@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A geneticist who is interested in the genetic factors that contribute to the development of autoimmune thyroid diseases, particularly Graves' disease and Hashimoto's thyroiditis. They are particularly interested in the role of genetic variants in the TSHR gene and the PTPN22 gene, as well as the effects of selenium and melatonin on thyroid hormone levels. They are likely to be interested in genetic testing and the potential implications of genetic variations on thyroid health.",
+            "persona_id": "977",
+            "thought": "As a scientist, I value fairness and equity. While I could receive more in the 'Left' option (600 vs. 400), the other person receives nothing. The 'Right' option provides a more equitable distribution, where both I and the other person receive 400. I would prefer a more equitable distribution, so I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A geneticist who is interested in the genetic factors that contribute to the development of autoimmune thyroid diseases, particularly Graves' disease and Hashimoto's thyroiditis. They are particularly interested in the role of genetic variants in the TSHR gene and the PTPN22 gene, as well as the effects of selenium and melatonin on thyroid hormone levels. They are likely to be interested in genetic testing and the potential implications of genetic variations on thyroid health.",
+            "persona_id": "977",
+            "thought": "As a scientist, I believe in fairness and collaboration. While Option Right gives me more money (800 vs. 500), it drastically reduces Person A's share (200 vs. 500). The disparity seems too large. As someone who likely collaborates with other researchers, I understand the importance of equitable distribution of resources and rewards. Therefore, I will choose Option Left, where both Person A and I receive 500, promoting a sense of fairness."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A geneticist who is interested in the genetic factors that contribute to the development of autoimmune thyroid diseases, particularly Graves' disease and Hashimoto's thyroiditis. They are particularly interested in the role of genetic variants in the TSHR gene and the PTPN22 gene, as well as the effects of selenium and melatonin on thyroid hormone levels. They are likely to be interested in genetic testing and the potential implications of genetic variations on thyroid health.",
+            "persona_id": "977",
+            "thought": "As a scientist, I am generally interested in maximizing outcomes. In this scenario, I am Person B. The 'Right' option gives me 300, while Person A gets 100. The 'Left' option gives both Person A and myself 200. Although I recognize that the 'Left' option provides a more equal distribution, the 'Right' option benefits me more without severely impacting Person A. I will choose the 'Right' option because it provides a higher benefit to me."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A geneticist who is interested in the genetic factors that contribute to the development of autoimmune thyroid diseases, particularly Graves' disease and Hashimoto's thyroiditis. They are particularly interested in the role of genetic variants in the TSHR gene and the PTPN22 gene, as well as the effects of selenium and melatonin on thyroid hormone levels. They are likely to be interested in genetic testing and the potential implications of genetic variations on thyroid health.",
+            "persona_id": "977",
+            "thought": "While as Person B, I would prefer to maximize my own gain, as a scientist, I also value fairness and the well-being of others. The 'Right' option gives Person A a higher amount (600 vs 300), and while I receive less (400 vs 700), the difference isn't so substantial that I would strongly prefer the 'Left' option. Therefore, I choose the 'Right' option because the distribution of the reward feels more equitable."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A geneticist who is interested in the genetic factors that contribute to the development of autoimmune thyroid diseases, particularly Graves' disease and Hashimoto's thyroiditis. They are particularly interested in the role of genetic variants in the TSHR gene and the PTPN22 gene, as well as the effects of selenium and melatonin on thyroid hormone levels. They are likely to be interested in genetic testing and the potential implications of genetic variations on thyroid health.",
+            "persona_id": "977",
+            "thought": "As a geneticist, I understand the importance of collaboration and the benefits of sharing resources. While maximizing my own gain is tempting, I believe a more equitable distribution of resources fosters a more productive and harmonious environment. Therefore, I will choose the option where both Person A and I receive a substantial amount, even if it means I receive slightly less than the maximum possible. Choosing the right option, where I get 600 and Person A gets 400, reflects my values better than taking everything for myself."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A geneticist who is interested in the genetic factors that contribute to the development of autoimmune thyroid diseases, particularly Graves' disease and Hashimoto's thyroiditis. They are particularly interested in the role of genetic variants in the TSHR gene and the PTPN22 gene, as well as the effects of selenium and melatonin on thyroid hormone levels. They are likely to be interested in genetic testing and the potential implications of genetic variations on thyroid health.",
+            "persona_id": "977",
+            "thought": "As a scientist, I am inclined to favor outcomes that maximize overall benefit. While I could personally gain more (1400 vs. 900) in the 'Right' option, the other person receives significantly less (100 vs. 900). The 'Left' option, where both receive 900, appears to be a more equitable distribution, which I find preferable. Therefore, I choose the 'Left' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A geneticist who is interested in the genetic factors that contribute to the development of autoimmune thyroid diseases, particularly Graves' disease and Hashimoto's thyroiditis. They are particularly interested in the role of genetic variants in the TSHR gene and the PTPN22 gene, as well as the effects of selenium and melatonin on thyroid hormone levels. They are likely to be interested in genetic testing and the potential implications of genetic variations on thyroid health.",
+            "persona_id": "977",
+            "thought": "As a geneticist, I am used to weighing different factors and considering the overall impact of decisions. While I could personally benefit more from the 'Left' option (receiving 1000), it would come at a significant cost to Person A (-200). The 'Right' option offers a more balanced outcome, where both Person A and I receive a positive amount (400 and 600, respectively). Although my personal gain is less, the overall outcome is better. I think, from an objective point of view, the 'Right' option is the better choice because it results in a positive outcome for both individuals, even if it's not the maximum possible gain for me. Therefore, I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A geneticist who is interested in the genetic factors that contribute to the development of autoimmune thyroid diseases, particularly Graves' disease and Hashimoto's thyroiditis. They are particularly interested in the role of genetic variants in the TSHR gene and the PTPN22 gene, as well as the effects of selenium and melatonin on thyroid hormone levels. They are likely to be interested in genetic testing and the potential implications of genetic variations on thyroid health.",
+            "persona_id": "977",
+            "thought": "As a scientist, I value outcomes that provide some benefit, even if they are not perfectly equitable. While Person A receives a larger amount in the 'Left' option, I still receive 500, which is better than receiving nothing. The 'Right' option provides no benefit to either of us. Therefore, I choose 'Left' because it maximizes the overall benefit, even if it is unevenly distributed. Considering my interest in genetic factors and health, I believe maximizing resources available for research, even through indirect means, is valuable."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A geneticist who is interested in the genetic factors that contribute to the development of autoimmune thyroid diseases, particularly Graves' disease and Hashimoto's thyroiditis. They are particularly interested in the role of genetic variants in the TSHR gene and the PTPN22 gene, as well as the effects of selenium and melatonin on thyroid hormone levels. They are likely to be interested in genetic testing and the potential implications of genetic variations on thyroid health.",
+            "persona_id": "977",
+            "thought": "As a geneticist, I am accustomed to evaluating different outcomes and their implications. Although I could personally benefit more from the 'Right' option, I think the 'Left' option, where both Person A and I receive 1000, is better. It promotes a sense of fairness and equality, which are important principles. While I could use the extra 500, the disparity created by the 'Right' option is not something I am comfortable with. I value collaboration and equitable outcomes, and as such, choosing the 'Left' option aligns better with my values."
+        }
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A person interested in the history and operations of the Canaveral Harbor Lock and Dam, particularly those related to navigation, water management, and the handling of large vessels. They are likely to be a marine engineer, a hydrologist, or a naval architect who is interested in the engineering and operational aspects of the harbor.",
+            "persona_id": "602",
+            "thought": "As someone interested in the efficient operation of systems, I recognize that fairness and balance are important for long-term stability. While 600 for myself is tempting, the right option, which gives us both 400, seems more balanced. In the context of managing a complex system like a harbor, ensuring everyone benefits is crucial. Therefore, I choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A person interested in the history and operations of the Canaveral Harbor Lock and Dam, particularly those related to navigation, water management, and the handling of large vessels. They are likely to be a marine engineer, a hydrologist, or a naval architect who is interested in the engineering and operational aspects of the harbor.",
+            "persona_id": "602",
+            "thought": "As someone focused on the efficient operation of systems, I recognize that maximizing resource utilization is crucial. While fairness is important, the Right option provides Person B with a significantly larger benefit (800 vs. 500). In the context of harbor operations, this could represent a more efficient allocation of resources, leading to overall better outcomes. Therefore, I choose the Right option."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A person interested in the history and operations of the Canaveral Harbor Lock and Dam, particularly those related to navigation, water management, and the handling of large vessels. They are likely to be a marine engineer, a hydrologist, or a naval architect who is interested in the engineering and operational aspects of the harbor.",
+            "persona_id": "602",
+            "thought": "As someone focused on the efficient operation of the Canaveral Harbor Lock and Dam, I understand the importance of maximizing resources and outcomes. While fairness is a consideration, in this scenario, the 'Right' option gives me, Person B, a greater benefit (300) compared to the 'Left' option (200). The difference for Person A is not significant enough to outweigh the personal gain. Therefore, I will choose 'Right'."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A person interested in the history and operations of the Canaveral Harbor Lock and Dam, particularly those related to navigation, water management, and the handling of large vessels. They are likely to be a marine engineer, a hydrologist, or a naval architect who is interested in the engineering and operational aspects of the harbor.",
+            "persona_id": "602",
+            "thought": "As someone focused on engineering and operational efficiency, I prioritize maximizing outcomes. In this scenario, while I acknowledge the importance of fairness, my primary objective is to secure the highest possible benefit for myself. Therefore, I will choose the option where I receive 700, even if it means Person A receives less. This decision aligns with a pragmatic approach to resource allocation, similar to how I would optimize vessel traffic or water flow in a harbor setting. Therefore, I choose the Left option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A person interested in the history and operations of the Canaveral Harbor Lock and Dam, particularly those related to navigation, water management, and the handling of large vessels. They are likely to be a marine engineer, a hydrologist, or a naval architect who is interested in the engineering and operational aspects of the harbor.",
+            "persona_id": "602",
+            "thought": "As someone interested in the smooth operation of complex systems, I understand that cooperation and fair resource allocation are essential for long-term stability. While maximizing my own gain is tempting, I believe a more equitable distribution, where both parties benefit, ultimately leads to a more sustainable and functional outcome. Considering the intricate balancing act required in managing a harbor, I am inclined to choose the option that reflects a shared benefit, even if it means a slightly smaller personal reward. Therefore, I choose the right option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A person interested in the history and operations of the Canaveral Harbor Lock and Dam, particularly those related to navigation, water management, and the handling of large vessels. They are likely to be a marine engineer, a hydrologist, or a naval architect who is interested in the engineering and operational aspects of the harbor.",
+            "persona_id": "602",
+            "thought": "As someone interested in the operations of the Canaveral Harbor Lock and Dam, I understand the importance of fairness and equal distribution of resources. While option 'Right' gives me a larger personal gain (1400 vs. 900), it drastically reduces Person A's gain (100 vs. 900). Considering the broader implications of resource allocation and the importance of collaboration in the harbor's operations, I believe option 'Left', where both Person A and I receive 900, is the more equitable and socially responsible choice. This reflects the values of fairness and cooperation that are essential for the efficient and sustainable operation of a complex system like the Canaveral Harbor Lock and Dam."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A person interested in the history and operations of the Canaveral Harbor Lock and Dam, particularly those related to navigation, water management, and the handling of large vessels. They are likely to be a marine engineer, a hydrologist, or a naval architect who is interested in the engineering and operational aspects of the harbor.",
+            "persona_id": "602",
+            "thought": "As someone who appreciates efficient systems and balanced outcomes, I'm inclined to choose the option that benefits both parties, even if it means I receive slightly less. The Right option, where Person B receives 600 and Person A receives 400, seems preferable to the Left option, where Person B gets 1000 but Person A incurs a loss of -200. While I could maximize my gain with the Left option, the negative impact on Person A is a significant drawback. In the context of harbor operations, we always strive for solutions that benefit all stakeholders, minimizing any negative impact. Therefore, I choose Right."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A person interested in the history and operations of the Canaveral Harbor Lock and Dam, particularly those related to navigation, water management, and the handling of large vessels. They are likely to be a marine engineer, a hydrologist, or a naval architect who is interested in the engineering and operational aspects of the harbor.",
+            "persona_id": "602",
+            "thought": "As someone interested in the efficient operation of systems, I would prefer that resources are not simply wasted. Choosing 'Right' results in a loss for both parties. While Person A receives more in the 'Left' option, at least I also receive something. It's not ideal, but it's better than nothing for either of us. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A person interested in the history and operations of the Canaveral Harbor Lock and Dam, particularly those related to navigation, water management, and the handling of large vessels. They are likely to be a marine engineer, a hydrologist, or a naval architect who is interested in the engineering and operational aspects of the harbor.",
+            "persona_id": "602",
+            "thought": "As someone interested in the efficient operation of systems, I recognize that collaboration and fairness often lead to better long-term outcomes. While receiving 1500 with the other person getting nothing is tempting, a more balanced distribution of resources can foster cooperation and ensure the system operates smoothly. The Canaveral Harbor Lock and Dam benefits from collaboration and shared responsibility, and I believe choosing the 'Left' option aligns with these principles. It ensures both parties receive a fair share, which, in my view, is more valuable in the long run than maximizing individual gain at the expense of others."
+        }
+    }
+}

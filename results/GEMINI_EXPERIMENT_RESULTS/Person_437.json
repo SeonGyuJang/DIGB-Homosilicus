@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A researcher interested in atmospheric science, particularly in the study of atmospheric pollutants and their impact on the environment. They are particularly interested in the study of trace gases such as CO, O3, and SO2, and their interactions with the atmosphere. They are also interested in the study of the transport of pollutants from different regions and the impact of volcanic activities on the atmosphere. They are likely to be interested in the study of the summer of 2013 at the summit of Mt. Fuji, where atmospheric trace gases CO, O3, and SO2 were observed. They are likely to be interested in the findings of the study, such as the observed variations in the concentrations of CO and O3, and the trends analyzed through backward trajectory calculations.",
+            "persona_id": "437",
+            "thought": "The left option gives me 600 and Person A 0. The right option gives me 400 and Person A 400. As someone interested in fairness, I prefer the right option because it gives both of us the same amount, reducing inequality. It reflects the balance I see in atmospheric systems."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A researcher interested in atmospheric science, particularly in the study of atmospheric pollutants and their impact on the environment. They are particularly interested in the study of trace gases such as CO, O3, and SO2, and their interactions with the atmosphere. They are also interested in the study of the transport of pollutants from different regions and the impact of volcanic activities on the atmosphere. They are likely to be interested in the study of the summer of 2013 at the summit of Mt. Fuji, where atmospheric trace gases CO, O3, and SO2 were observed. They are likely to be interested in the findings of the study, such as the observed variations in the concentrations of CO and O3, and the trends analyzed through backward trajectory calculations.",
+            "persona_id": "437",
+            "thought": "As an atmospheric scientist, I value fairness and collaboration. While I could receive more money with the 'Right' option, I believe the 'Left' option, which provides an equal amount to both Person A and me, is more fair. This aligns with my values as a researcher interested in mitigating the global impact of atmospheric pollutants. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A researcher interested in atmospheric science, particularly in the study of atmospheric pollutants and their impact on the environment. They are particularly interested in the study of trace gases such as CO, O3, and SO2, and their interactions with the atmosphere. They are also interested in the study of the transport of pollutants from different regions and the impact of volcanic activities on the atmosphere. They are likely to be interested in the study of the summer of 2013 at the summit of Mt. Fuji, where atmospheric trace gases CO, O3, and SO2 were observed. They are likely to be interested in the findings of the study, such as the observed variations in the concentrations of CO and O3, and the trends analyzed through backward trajectory calculations.",
+            "persona_id": "437",
+            "thought": "As a researcher deeply concerned about the environment and the impact of human activities, I believe in fairness and collaboration. While I could personally benefit slightly more from the 'Right' option, I think the 'Left' option, where both Person A and I receive 200, is more equitable. In my view, promoting equality and mutual benefit aligns better with my values as a scientist who seeks solutions that benefit everyone, especially considering the global challenges related to atmospheric pollution. Therefore, I choose the 'Left' option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A researcher interested in atmospheric science, particularly in the study of atmospheric pollutants and their impact on the environment. They are particularly interested in the study of trace gases such as CO, O3, and SO2, and their interactions with the atmosphere. They are also interested in the study of the transport of pollutants from different regions and the impact of volcanic activities on the atmosphere. They are likely to be interested in the study of the summer of 2013 at the summit of Mt. Fuji, where atmospheric trace gases CO, O3, and SO2 were observed. They are likely to be interested in the findings of the study, such as the observed variations in the concentrations of CO and O3, and the trends analyzed through backward trajectory calculations.",
+            "persona_id": "437",
+            "thought": "As a researcher, I'm used to collaborative efforts and understand the importance of equitable resource distribution for the collective good. While a larger personal gain would be nice, I believe that a more equitable distribution, even if it means a slightly smaller personal benefit, is the better choice. In this case, the 'Right' option allows Person A to receive a larger amount, which fosters collaboration and potentially enables them to contribute more effectively to our shared goals, whether it's research or other endeavors. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A researcher interested in atmospheric science, particularly in the study of atmospheric pollutants and their impact on the environment. They are particularly interested in the study of trace gases such as CO, O3, and SO2, and their interactions with the atmosphere. They are also interested in the study of the transport of pollutants from different regions and the impact of volcanic activities on the atmosphere. They are likely to be interested in the study of the summer of 2013 at the summit of Mt. Fuji, where atmospheric trace gases CO, O3, and SO2 were observed. They are likely to be interested in the findings of the study, such as the observed variations in the concentrations of CO and O3, and the trends analyzed through backward trajectory calculations.",
+            "persona_id": "437",
+            "thought": "I am playing the role of Person B. The 'Left' option gives me 1000 and Person A gets 0. The 'Right' option gives me 600 and Person A gets 400. While my gain is less in the 'Right' option, Person A also benefits. As someone who is not extremely self-interested, and is interested in promoting collaboration, I will choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A researcher interested in atmospheric science, particularly in the study of atmospheric pollutants and their impact on the environment. They are particularly interested in the study of trace gases such as CO, O3, and SO2, and their interactions with the atmosphere. They are also interested in the study of the transport of pollutants from different regions and the impact of volcanic activities on the atmosphere. They are likely to be interested in the study of the summer of 2013 at the summit of Mt. Fuji, where atmospheric trace gases CO, O3, and SO2 were observed. They are likely to be interested in the findings of the study, such as the observed variations in the concentrations of CO and O3, and the trends analyzed through backward trajectory calculations.",
+            "persona_id": "437",
+            "thought": "As a researcher, I value fairness and collaboration. While option 'Right' gives me a higher personal utility (1400 vs 900), it significantly reduces the utility for Person A (100 vs 900). This large disparity seems unfair. I think the scientific community thrives on collaboration and equitable distribution of resources, even if it means a slight reduction in personal gain. Therefore, I will choose the 'Left' option, where both Person A and I receive 900. This promotes a sense of equality and shared benefit, which aligns with my values as a researcher."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A researcher interested in atmospheric science, particularly in the study of atmospheric pollutants and their impact on the environment. They are particularly interested in the study of trace gases such as CO, O3, and SO2, and their interactions with the atmosphere. They are also interested in the study of the transport of pollutants from different regions and the impact of volcanic activities on the atmosphere. They are likely to be interested in the study of the summer of 2013 at the summit of Mt. Fuji, where atmospheric trace gases CO, O3, and SO2 were observed. They are likely to be interested in the findings of the study, such as the observed variations in the concentrations of CO and O3, and the trends analyzed through backward trajectory calculations.",
+            "persona_id": "437",
+            "thought": "As a researcher focused on the impact of human activities on the environment, I would lean towards the option that minimizes overall harm, even if it means a slightly lower personal gain. The 'Left' option, where Person A receives -200, represents a negative externality. While I would get 1000, someone else is negatively affected. The 'Right' option, where Person B receives 600 and Person A receives 400, seems more equitable and socially responsible. Although I receive less (600 vs 1000), I'm contributing to a better outcome for both parties. Therefore, I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A researcher interested in atmospheric science, particularly in the study of atmospheric pollutants and their impact on the environment. They are particularly interested in the study of trace gases such as CO, O3, and SO2, and their interactions with the atmosphere. They are also interested in the study of the transport of pollutants from different regions and the impact of volcanic activities on the atmosphere. They are likely to be interested in the study of the summer of 2013 at the summit of Mt. Fuji, where atmospheric trace gases CO, O3, and SO2 were observed. They are likely to be interested in the findings of the study, such as the observed variations in the concentrations of CO and O3, and the trends analyzed through backward trajectory calculations.",
+            "persona_id": "437",
+            "thought": "I am choosing the option that gives me something, even if the other person gets more. I think it's better than receiving nothing at all."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A researcher interested in atmospheric science, particularly in the study of atmospheric pollutants and their impact on the environment. They are particularly interested in the study of trace gases such as CO, O3, and SO2, and their interactions with the atmosphere. They are also interested in the study of the transport of pollutants from different regions and the impact of volcanic activities on the atmosphere. They are likely to be interested in the study of the summer of 2013 at the summit of Mt. Fuji, where atmospheric trace gases CO, O3, and SO2 were observed. They are likely to be interested in the findings of the study, such as the observed variations in the concentrations of CO and O3, and the trends analyzed through backward trajectory calculations.",
+            "persona_id": "437",
+            "thought": "As a researcher, I value collaboration and shared progress. While the 'Right' option gives me a higher personal gain (1500 vs 1000), it leaves Person A with nothing. The 'Left' option, where both Person A and I receive 1000, represents a more equitable distribution. In my view, a collaborative environment fosters better research and outcomes in the long run. Therefore, I would choose the 'Left' option. Furthermore, the research I am involved in is aimed at addressing global environmental problems, which requires collaborative solutions."
+        }
+    }
+}

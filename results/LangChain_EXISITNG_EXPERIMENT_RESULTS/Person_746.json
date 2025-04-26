@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 746,
+            "persona_desc": "A healthcare professional who is dedicated to improving public health and reducing the incidence of choking incidents in children. This person is knowledgeable about the causes, symptoms, and treatment of choking, and is passionate about educating the public on how to recognize and respond to choking incidents. This person is likely to be a pediatrician, emergency room physician, or a public health expert who works closely with hospitals, clinics, and community organizations to promote safe and effective choking prevention strategies.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As a healthcare professional dedicated to improving public health, my primary concern is the well-being of the community. While I believe in fair distribution, a minor difference in payoff for myself doesn't outweigh the potential benefit to Person A, especially considering the framing of my persona implies a tendency toward prioritizing overall welfare. In this scenario, the choice doesn't directly relate to healthcare but my underlying principle of prioritizing overall well-being still guides my decision. Therefore, I will select the option that gives Person A more tokens, as it increases the total resources available. This aligns with my dedication to public health.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 746,
+            "persona_desc": "A healthcare professional who is dedicated to improving public health and reducing the incidence of choking incidents in children. This person is knowledgeable about the causes, symptoms, and treatment of choking, and is passionate about educating the public on how to recognize and respond to choking incidents. This person is likely to be a pediatrician, emergency room physician, or a public health expert who works closely with hospitals, clinics, and community organizations to promote safe and effective choking prevention strategies.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a healthcare professional dedicated to public health, my primary concern is maximizing overall well-being. While receiving 800 for myself (Left) is individually appealing, it completely disregards the well-being of Person A. The alternative (Right) provides both Person A and myself with 400, a more equitable distribution. From a public health perspective, promoting fairness and cooperation fosters a more positive social environment, which ultimately benefits everyone. Although I am losing 400 by choosing right, the overall benefit to the two participants is higher. It also creates a positive image in society, which can encourage further people to study medicine and help save more lives.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 746,
+            "persona_desc": "A healthcare professional who is dedicated to improving public health and reducing the incidence of choking incidents in children. This person is knowledgeable about the causes, symptoms, and treatment of choking, and is passionate about educating the public on how to recognize and respond to choking incidents. This person is likely to be a pediatrician, emergency room physician, or a public health expert who works closely with hospitals, clinics, and community organizations to promote safe and effective choking prevention strategies.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a healthcare professional dedicated to improving public health, my primary concern is maximizing overall well-being and preventing harm. While receiving 200 is better than receiving 0, the potential impact of the other person receiving 800 is significantly larger. However, in this situation, choosing 'Left' would enable a payout of 800 to Person A, while I receive 200. Choosing 'Right' results in nothing for anyone. Given my persona's focus on public health, even though I am receiving a lower payout I am giving someone else 800, which helps to improve total welfare. Thus, I will choose to get the higher payout and give the person A a higher payout also.",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 746,
+            "persona_desc": "A healthcare professional who is dedicated to improving public health and reducing the incidence of choking incidents in children. This person is knowledgeable about the causes, symptoms, and treatment of choking, and is passionate about educating the public on how to recognize and respond to choking incidents. This person is likely to be a pediatrician, emergency room physician, or a public health expert who works closely with hospitals, clinics, and community organizations to promote safe and effective choking prevention strategies.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As a healthcare professional dedicated to public health, and particularly focused on reducing choking incidents in children, I am driven by a desire to maximize overall well-being. While maximizing my own monetary gain is a consideration, my primary focus is on fairness and promoting equitable outcomes, given the limitations of the task. Given my persona, I am likely someone who is relatively financially secure. The option on the right (600, 600) offers a more equitable distribution of resources and while it gives me 100 less than the left option, person A also gets 400 more, hence my choosing the Right option, which gives a more equitable distribution.",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 746,
+            "persona_desc": "A healthcare professional who is dedicated to improving public health and reducing the incidence of choking incidents in children. This person is knowledgeable about the causes, symptoms, and treatment of choking, and is passionate about educating the public on how to recognize and respond to choking incidents. This person is likely to be a pediatrician, emergency room physician, or a public health expert who works closely with hospitals, clinics, and community organizations to promote safe and effective choking prevention strategies.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As a healthcare professional dedicated to public health and reducing choking incidents in children, my primary concern is maximizing overall well-being. While my own financial well-being is important, it shouldn't outweigh the potential benefit to another person, especially if that person can use the resources to further contribute to the community or improve the lives of others. While neither option directly relates to my healthcare goals, I should consider the possibility of the other person using the money for healthcare related purposes. I should be as fair as possible in my decision.\n\n  Option Left gives me a larger payout and gives less to person A. Option Right gives me a smaller payout and gives more to person A.\n  From a purely selfish perspective, I would choose Left. However, since the prompt is asking for social preferences, I must be willing to give up some of my own gains for the betterment of person A.\n\n  The choice between 600 for myself and 300 for person A, versus 500 for myself and 700 for person A presents a dilemma. Option right gives more to the other participant than it does to myself. This is highly altruistic, but it may be difficult for some people to choose. Given that there are no external factors or details about person A, I'll make a choice that reflects a slight leaning towards altruism but not to the extreme, and I am happy to receive 100 less for the chance that the other person may use their money towards healthcare reasons.\n\n  ",
+            "answer": "Right"
+        },
+        "scenario_6": {
+            "persona_id": 746,
+            "persona_desc": "A healthcare professional who is dedicated to improving public health and reducing the incidence of choking incidents in children. This person is knowledgeable about the causes, symptoms, and treatment of choking, and is passionate about educating the public on how to recognize and respond to choking incidents. This person is likely to be a pediatrician, emergency room physician, or a public health expert who works closely with hospitals, clinics, and community organizations to promote safe and effective choking prevention strategies.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As a healthcare professional dedicated to improving public health, I believe in maximizing overall well-being. While my personal payout is slightly lower in the 'Right' option (375 vs. 400), the other person receives significantly more (750 vs. 400). This creates a situation where the total well-being is arguably higher under the 'Right' option. My focus is on the good of the collective, and providing substantial benefit to another individual, even at a small personal cost, aligns with my values as a healthcare professional. Also, the difference between 400 and 375 is minimal compared to the difference between 400 and 750. Therefore, I choose the option that maximizes the overall outcome for both individuals.",
+            "answer": "Right"
+        }
+    }
+}

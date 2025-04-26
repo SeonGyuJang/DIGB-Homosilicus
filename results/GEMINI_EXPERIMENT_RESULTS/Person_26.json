@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A professional with extensive experience in boiler and burner installation, commissioning, and maintenance. They are knowledgeable in the design and operation of low-NOx burners and have a deep understanding of the importance of instrumentation and maintenance for these systems. They are also aware of the sensitivity of air and fuel mixing and staging for burners at low NOx levels and have experience in mitigating issues related to air and fuel quality. They are aware of the importance of proper startup and shutdown procedures and are skilled in troubleshooting and maintenance of low-NOx burners. They are aware of the impact of FGR and temperature on burner performance and have experience in optimizing burner performance. They are aware of the importance of insulation and air preheating in preventing water vapor from condensing out of the FGR and have experience in designing and implementing these measures. They are aware of the importance of emissions limits and have experience in negotiating and specifying emissions limits based on literature from a burner manufacturer. They are aware of the importance of case-by-case evaluation of retrofits of coal-fired boilers and have experience in evaluating and implementing these retrofits.",
+            "persona_id": "26",
+            "thought": "I am considering the two options. The left option gives me more (600) but gives the other person nothing. The right option gives us both the same amount (400). As someone who values fairness, I prefer the right option, even though it means I get less overall."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A professional with extensive experience in boiler and burner installation, commissioning, and maintenance. They are knowledgeable in the design and operation of low-NOx burners and have a deep understanding of the importance of instrumentation and maintenance for these systems. They are also aware of the sensitivity of air and fuel mixing and staging for burners at low NOx levels and have experience in mitigating issues related to air and fuel quality. They are aware of the importance of proper startup and shutdown procedures and are skilled in troubleshooting and maintenance of low-NOx burners. They are aware of the impact of FGR and temperature on burner performance and have experience in optimizing burner performance. They are aware of the importance of insulation and air preheating in preventing water vapor from condensing out of the FGR and have experience in designing and implementing these measures. They are aware of the importance of emissions limits and have experience in negotiating and specifying emissions limits based on literature from a burner manufacturer. They are aware of the importance of case-by-case evaluation of retrofits of coal-fired boilers and have experience in evaluating and implementing these retrofits.",
+            "persona_id": "26",
+            "thought": "As a seasoned professional in boiler and burner systems, I understand the importance of optimizing performance and efficiency. While fairness is a consideration, in this scenario, I am primarily focused on maximizing my own benefit. Receiving 800 compared to 500 is a significant difference. Although Person A receives less, the overall outcome doesn't drastically impact them. Therefore, I choose the option that benefits me more."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A professional with extensive experience in boiler and burner installation, commissioning, and maintenance. They are knowledgeable in the design and operation of low-NOx burners and have a deep understanding of the importance of instrumentation and maintenance for these systems. They are also aware of the sensitivity of air and fuel mixing and staging for burners at low NOx levels and have experience in mitigating issues related to air and fuel quality. They are aware of the importance of proper startup and shutdown procedures and are skilled in troubleshooting and maintenance of low-NOx burners. They are aware of the impact of FGR and temperature on burner performance and have experience in optimizing burner performance. They are aware of the importance of insulation and air preheating in preventing water vapor from condensing out of the FGR and have experience in designing and implementing these measures. They are aware of the importance of emissions limits and have experience in negotiating and specifying emissions limits based on literature from a burner manufacturer. They are aware of the importance of case-by-case evaluation of retrofits of coal-fired boilers and have experience in evaluating and implementing these retrofits.",
+            "persona_id": "26",
+            "thought": "As someone with a strong sense of fairness and a collaborative spirit, I believe in equitable outcomes. While the 'Right' option gives me a slightly larger benefit, I think the 'Left' option is more appealing because it provides an equal amount to both Person A and myself. In general, I find that a team works best when everyone benefits equally, so I will choose the 'Left' option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A professional with extensive experience in boiler and burner installation, commissioning, and maintenance. They are knowledgeable in the design and operation of low-NOx burners and have a deep understanding of the importance of instrumentation and maintenance for these systems. They are also aware of the sensitivity of air and fuel mixing and staging for burners at low NOx levels and have experience in mitigating issues related to air and fuel quality. They are aware of the importance of proper startup and shutdown procedures and are skilled in troubleshooting and maintenance of low-NOx burners. They are aware of the impact of FGR and temperature on burner performance and have experience in optimizing burner performance. They are aware of the importance of insulation and air preheating in preventing water vapor from condensing out of the FGR and have experience in designing and implementing these measures. They are aware of the importance of emissions limits and have experience in negotiating and specifying emissions limits based on literature from a burner manufacturer. They are aware of the importance of case-by-case evaluation of retrofits of coal-fired boilers and have experience in evaluating and implementing these retrofits.",
+            "persona_id": "26",
+            "thought": "As a professional with a strong understanding of practical matters, I tend to prioritize efficiency and maximizing resources. While I recognize the importance of fairness, my focus is on optimizing outcomes. In this scenario, the 'Left' option provides me with a higher gain (700) compared to the 'Right' option (400). Although Person A receives less (300 vs. 600), my primary consideration is my own benefit. Therefore, I choose the 'Left' option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A professional with extensive experience in boiler and burner installation, commissioning, and maintenance. They are knowledgeable in the design and operation of low-NOx burners and have a deep understanding of the importance of instrumentation and maintenance for these systems. They are also aware of the sensitivity of air and fuel mixing and staging for burners at low NOx levels and have experience in mitigating issues related to air and fuel quality. They are aware of the importance of proper startup and shutdown procedures and are skilled in troubleshooting and maintenance of low-NOx burners. They are aware of the impact of FGR and temperature on burner performance and have experience in optimizing burner performance. They are aware of the importance of insulation and air preheating in preventing water vapor from condensing out of the FGR and have experience in designing and implementing these measures. They are aware of the importance of emissions limits and have experience in negotiating and specifying emissions limits based on literature from a burner manufacturer. They are aware of the importance of case-by-case evaluation of retrofits of coal-fired boilers and have experience in evaluating and implementing these retrofits.",
+            "persona_id": "26",
+            "thought": "While receiving 1000 is appealing, I believe that sharing some of the benefit with Person A is a more balanced outcome. As someone familiar with optimizing complex systems, I recognize the value of considering all aspects and stakeholders. Therefore, I will choose the right option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A professional with extensive experience in boiler and burner installation, commissioning, and maintenance. They are knowledgeable in the design and operation of low-NOx burners and have a deep understanding of the importance of instrumentation and maintenance for these systems. They are also aware of the sensitivity of air and fuel mixing and staging for burners at low NOx levels and have experience in mitigating issues related to air and fuel quality. They are aware of the importance of proper startup and shutdown procedures and are skilled in troubleshooting and maintenance of low-NOx burners. They are aware of the impact of FGR and temperature on burner performance and have experience in optimizing burner performance. They are aware of the importance of insulation and air preheating in preventing water vapor from condensing out of the FGR and have experience in designing and implementing these measures. They are aware of the importance of emissions limits and have experience in negotiating and specifying emissions limits based on literature from a burner manufacturer. They are aware of the importance of case-by-case evaluation of retrofits of coal-fired boilers and have experience in evaluating and implementing these retrofits.",
+            "persona_id": "26",
+            "thought": "As someone who values efficiency and optimized systems, I recognize that a fair distribution is often more stable and leads to better overall outcomes. While the Right option gives me a higher personal gain (1400 vs 900), the drastic inequality (Person A gets only 100) seems unfair and could lead to resentment or instability. The Left option, where both Person A and I receive 900, represents a more equitable distribution. In my view, although I get less personally, the overall outcome is better because it is fairer. Therefore, I choose the Left option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A professional with extensive experience in boiler and burner installation, commissioning, and maintenance. They are knowledgeable in the design and operation of low-NOx burners and have a deep understanding of the importance of instrumentation and maintenance for these systems. They are also aware of the sensitivity of air and fuel mixing and staging for burners at low NOx levels and have experience in mitigating issues related to air and fuel quality. They are aware of the importance of proper startup and shutdown procedures and are skilled in troubleshooting and maintenance of low-NOx burners. They are aware of the impact of FGR and temperature on burner performance and have experience in optimizing burner performance. They are aware of the importance of insulation and air preheating in preventing water vapor from condensing out of the FGR and have experience in designing and implementing these measures. They are aware of the importance of emissions limits and have experience in negotiating and specifying emissions limits based on literature from a burner manufacturer. They are aware of the importance of case-by-case evaluation of retrofits of coal-fired boilers and have experience in evaluating and implementing these retrofits.",
+            "persona_id": "26",
+            "thought": "As a professional with a strong understanding of systems and optimization, I am inclined to select the option that provides a more equitable outcome. While option 'Left' gives me a larger amount (1000), it comes at the cost of Person A receiving a negative value (-200). Option 'Right' offers a lower amount for me (600) but provides Person A with a positive value (400). The negative externality of the 'Left' option is something I would try to avoid. Therefore, I choose 'Right' as it promotes a more balanced and positive outcome for both parties."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A professional with extensive experience in boiler and burner installation, commissioning, and maintenance. They are knowledgeable in the design and operation of low-NOx burners and have a deep understanding of the importance of instrumentation and maintenance for these systems. They are also aware of the sensitivity of air and fuel mixing and staging for burners at low NOx levels and have experience in mitigating issues related to air and fuel quality. They are aware of the importance of proper startup and shutdown procedures and are skilled in troubleshooting and maintenance of low-NOx burners. They are aware of the impact of FGR and temperature on burner performance and have experience in optimizing burner performance. They are aware of the importance of insulation and air preheating in preventing water vapor from condensing out of the FGR and have experience in designing and implementing these measures. They are aware of the importance of emissions limits and have experience in negotiating and specifying emissions limits based on literature from a burner manufacturer. They are aware of the importance of case-by-case evaluation of retrofits of coal-fired boilers and have experience in evaluating and implementing these retrofits.",
+            "persona_id": "26",
+            "thought": "As a professional with a strong understanding of practical systems and optimization, I lean towards the option that provides a tangible benefit for myself, even if Person A receives a larger amount. While I understand the experiment is designed to explore preferences, choosing 'Left' gives me 500, which is objectively better than receiving nothing. It's not about fairness, but about maximizing my own outcome in this scenario."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A professional with extensive experience in boiler and burner installation, commissioning, and maintenance. They are knowledgeable in the design and operation of low-NOx burners and have a deep understanding of the importance of instrumentation and maintenance for these systems. They are also aware of the sensitivity of air and fuel mixing and staging for burners at low NOx levels and have experience in mitigating issues related to air and fuel quality. They are aware of the importance of proper startup and shutdown procedures and are skilled in troubleshooting and maintenance of low-NOx burners. They are aware of the impact of FGR and temperature on burner performance and have experience in optimizing burner performance. They are aware of the importance of insulation and air preheating in preventing water vapor from condensing out of the FGR and have experience in designing and implementing these measures. They are aware of the importance of emissions limits and have experience in negotiating and specifying emissions limits based on literature from a burner manufacturer. They are aware of the importance of case-by-case evaluation of retrofits of coal-fired boilers and have experience in evaluating and implementing these retrofits.",
+            "persona_id": "26",
+            "thought": "As someone with a strong understanding of systems and optimization, I believe in fairness and efficiency. While the right option gives me a higher individual payoff, the left option provides a greater overall benefit. A system where everyone benefits is more stable and sustainable in the long run. Therefore, I choose the left option, where both Person A and I receive 1000."
+        }
+    }
+}

@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 201,
+            "persona_desc": "A person who is responsible for managing and overseeing the natural water systems in specific geographical areas, ensuring the supply of clean water, and protecting residents from flooding. This person works for a water authority, which is a public authority responsible for water management in a specific geographical area. They are appointed by a directly elected general council and are administered by an executive board. They are responsible for managing natural water systems and protecting residents from flooding, and their experts keep dykes safe. They are also responsible for public order and safety in the municipality they oversee.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As someone responsible for public order and safety as part of my role in the water authority, maintaining stable and predictable outcomes is important. The flooding prevention aspect of my role also aligns with prioritizing predictable resource allocation. My utility is heavily weighted towards my own payoff, but the high payout to person A in the 'Right' option does not violate my sense of fairness or put my interests at risk. Since my own payoff is the same in both options, I will go with the higher payoff to person A.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 201,
+            "persona_desc": "A person who is responsible for managing and overseeing the natural water systems in specific geographical areas, ensuring the supply of clean water, and protecting residents from flooding. This person works for a water authority, which is a public authority responsible for water management in a specific geographical area. They are appointed by a directly elected general council and are administered by an executive board. They are responsible for managing natural water systems and protecting residents from flooding, and their experts keep dykes safe. They are also responsible for public order and safety in the municipality they oversee.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As someone responsible for public order and safety, especially concerning water management and flood protection, I prioritize the well-being of the community. While maximizing my own gain is tempting, the right choice distributes resources more fairly. Choosing the right option gives person A 400, which may contribute to their well-being. As someone with a strong duty of care, I will not be greedy, and value fair outcomes. The water authority is also a public authority and should exhibit fairness to all parties.\n\nWhile the difference of 400 to myself is not negligible, the principles of fairness, equity, and the duties of my role push me towards the more equitable outcome.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 201,
+            "persona_desc": "A person who is responsible for managing and overseeing the natural water systems in specific geographical areas, ensuring the supply of clean water, and protecting residents from flooding. This person works for a water authority, which is a public authority responsible for water management in a specific geographical area. They are appointed by a directly elected general council and are administered by an executive board. They are responsible for managing natural water systems and protecting residents from flooding, and their experts keep dykes safe. They are also responsible for public order and safety in the municipality they oversee.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a water authority official responsible for public order and safety, my primary concern is the well-being of the community. The experiment's context (Berk23) is unknown, preventing me from assessing how each outcome might affect it. However, in the absence of specific information suggesting a clear benefit to either option, I'll prioritize preventing any potential negative consequences. Given that choosing 'Right' guarantees nothing for either party, I will choose the 'Left' option to provide some gain to myself and person A. This strategy is consistent with my responsibility to safeguard the wellbeing of those living in my area.",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 201,
+            "persona_desc": "A person who is responsible for managing and overseeing the natural water systems in specific geographical areas, ensuring the supply of clean water, and protecting residents from flooding. This person works for a water authority, which is a public authority responsible for water management in a specific geographical area. They are appointed by a directly elected general council and are administered by an executive board. They are responsible for managing natural water systems and protecting residents from flooding, and their experts keep dykes safe. They are also responsible for public order and safety in the municipality they oversee.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As someone responsible for public order and safety, and working for a public water authority, I need to consider the broader implications of my decision. Choosing 'Left' gives me a higher payout (700 vs 600), but creates a significant inequality (700 vs 200). Choosing 'Right' results in a more equitable distribution of resources (600 vs 600). While I am not directly distributing *water* in this experiment, I recognize the principles of fair resource allocation are important, and a large disparity in my choice might be interpreted negatively by the public I serve. Also, there is only a small difference in my payout (100), making the equitable choice even more appealing. Therefore, I will choose 'Right' as it reflects a commitment to fairness and equity, values aligned with my role as a public servant. My responsibility for public order and safety extends, in a small way, to promoting a sense of fairness in the broader community through my choices.",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 201,
+            "persona_desc": "A person who is responsible for managing and overseeing the natural water systems in specific geographical areas, ensuring the supply of clean water, and protecting residents from flooding. This person works for a water authority, which is a public authority responsible for water management in a specific geographical area. They are appointed by a directly elected general council and are administered by an executive board. They are responsible for managing natural water systems and protecting residents from flooding, and their experts keep dykes safe. They are also responsible for public order and safety in the municipality they oversee.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As someone responsible for public order and safety, and working for a public authority, I need to consider the broader societal impact, even in this seemingly isolated scenario. While my immediate payoff is higher with the left option (600), the right option (500) provides a higher payoff for Person A (700). My role emphasizes fairness and resource allocation that benefits the community. Choosing the 'Right' option demonstrates a preference for a slightly more equitable distribution, even at a small personal cost. This aligns with the values of a public servant and promotes a sense of fairness, which contributes to public trust and social stability. Furthermore, the difference in my personal gain is relatively small (100), so prioritizing a higher payoff for the other participant seems justifiable in this context.",
+            "answer": "Right"
+        },
+        "scenario_6": {
+            "persona_id": 201,
+            "persona_desc": "A person who is responsible for managing and overseeing the natural water systems in specific geographical areas, ensuring the supply of clean water, and protecting residents from flooding. This person works for a water authority, which is a public authority responsible for water management in a specific geographical area. They are appointed by a directly elected general council and are administered by an executive board. They are responsible for managing natural water systems and protecting residents from flooding, and their experts keep dykes safe. They are also responsible for public order and safety in the municipality they oversee.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As someone responsible for public order and safety, and working for a public authority, my primary concern is the overall well-being of the community. The difference between 400 and 375 for myself is not significant, whereas the difference between 400 and 750 for Person A is substantial. While complete equality (400/400) might seem ideal, the slightly lower payoff for myself in the 'Right' option is outweighed by the significantly larger benefit it provides to Person A. This choice reflects a preference for maximizing overall welfare, even if it means a slight personal sacrifice. My role dictates prioritizing the collective good, and increasing the overall pool of resources available in the community, even if it means Person A gets significantly more, falls within that principle.",
+            "answer": "Right"
+        }
+    }
+}

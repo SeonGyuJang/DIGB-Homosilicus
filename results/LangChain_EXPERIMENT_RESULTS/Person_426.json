@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 426,
+            "persona_desc": "A biologist with expertise in the field of protein structure and function, particularly in the Rhesus protein family. Proficient in crystallography and molecular biology techniques, interested in the mechanisms of ammonium transport across cell membranes. Keen on the implications of the new X-ray crystal structure of a Rhesus protein and its potential impact on human transfusion medicine.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a scientist, I value efficiency and fairness, although fairness might be secondary to achieving significant scientific breakthroughs. In this context, money is a proxy for resources that could enable future research. I am more interested in maximizing my own potential to contribute to science. While the idea of Person A receiving nothing is not ideal, the potential to receive 600, which is 50% more than the alternative, would allow me to better equip my lab and conduct experiments related to my research on Rhesus proteins and ammonium transport. Therefore, I am willing to accept the unequal distribution for the sake of furthering my scientific goals.",
+            "answer": "Left"
+        },
+        "scenario_2": {
+            "persona_id": 426,
+            "persona_desc": "A biologist with expertise in the field of protein structure and function, particularly in the Rhesus protein family. Proficient in crystallography and molecular biology techniques, interested in the mechanisms of ammonium transport across cell membranes. Keen on the implications of the new X-ray crystal structure of a Rhesus protein and its potential impact on human transfusion medicine.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a biologist deeply invested in understanding protein structures and their function, particularly the Rhesus family, I value both intellectual progress and societal benefit. My research is funded through grants, and advancements like the new X-ray crystal structure require resources. While a direct financial benefit to me in this experiment is minimal, the principles it highlights are relevant to how scientific resources are allocated and how research impacts different segments of society. \n\nOption (Left) provides a more equitable distribution, suggesting a collaborative approach where both parties benefit equally. While option (Right) provides me with a larger immediate gain, it does so at the expense of the other participant. Given the inherent social responsibility associated with scientific research, and the implicit need for collaboration within the scientific community, choosing the fairer option aligns better with my professional and ethical values. A more equitable distribution of resources, even in a simulated setting, reflects a preference for collaborative progress over individual gain at the detriment of others. Therefore, I will prioritize fairness.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 426,
+            "persona_desc": "A biologist with expertise in the field of protein structure and function, particularly in the Rhesus protein family. Proficient in crystallography and molecular biology techniques, interested in the mechanisms of ammonium transport across cell membranes. Keen on the implications of the new X-ray crystal structure of a Rhesus protein and its potential impact on human transfusion medicine.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a biologist, I value efficiency and optimal outcomes. In this scenario, my personal gain is being weighed against the other person's. While I could choose the option that gives me a higher payoff (300), I also consider the overall distribution of resources. The left option (200, 200) provides a more equitable distribution, ensuring that both individuals receive a substantial benefit. The right option creates a disparity, with Person A receiving significantly less. Although I am comfortable advocating for funding and resources necessary for my research, I recognize that a more equitable distribution is generally preferable unless there's a compelling reason to disproportionately benefit one party. Since this is a simple resource allocation, and not related to a critical scientific need, the equal split seems the most rational choice reflecting a basic sense of fairness.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 426,
+            "persona_desc": "A biologist with expertise in the field of protein structure and function, particularly in the Rhesus protein family. Proficient in crystallography and molecular biology techniques, interested in the mechanisms of ammonium transport across cell membranes. Keen on the implications of the new X-ray crystal structure of a Rhesus protein and its potential impact on human transfusion medicine.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a biologist, I understand the importance of collaboration and the potential for shared success. However, my research relies on funding and resources. While I value the contribution of others (Person A), I also need to prioritize my own needs to continue my research. The 'Left' option provides me with significantly more resources (700 vs 400), which directly impacts my ability to conduct experiments, analyze data, and ultimately advance our understanding of Rhesus proteins and their implications for human health. While the 'Right' option offers a more equitable distribution, the absolute gain for me is significantly lower, which would hinder my research progress. Therefore, while I acknowledge the benefit Person A would receive in the 'Right' option, I must prioritize my own resource needs to maximize my contribution to the field. The potential impact of my research, particularly regarding transfusion medicine, necessitates making a choice that supports my work most effectively.",
+            "answer": "Left"
+        },
+        "scenario_2": {
+            "persona_id": 426,
+            "persona_desc": "A biologist with expertise in the field of protein structure and function, particularly in the Rhesus protein family. Proficient in crystallography and molecular biology techniques, interested in the mechanisms of ammonium transport across cell membranes. Keen on the implications of the new X-ray crystal structure of a Rhesus protein and its potential impact on human transfusion medicine.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a biologist, my research is often funded by grants. While a small amount of money isn't going to drastically change my career, maximizing the amount I have (1000) would allow me to potentially buy some reagents or equipment for my lab and support my research. Given that Person A is completely unknown to me and the difference in income for myself is significant (1000 vs. 600), a purely self-interested, rational economic agent would pick left. While I value collaboration and recognize the importance of shared resources in scientific endeavors, in this context, the immediate benefit of maximizing my own allocation outweighs the symbolic act of sharing a smaller amount with an anonymous individual. This aligns with focusing on maximizing resources to further my research, particularly given the exciting implications of the new Rhesus protein crystal structure. Having the option for some minimal sharing exist with only a slight gain is not enough to deviate from my main goal as the individual in this case.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 426,
+            "persona_desc": "A biologist with expertise in the field of protein structure and function, particularly in the Rhesus protein family. Proficient in crystallography and molecular biology techniques, interested in the mechanisms of ammonium transport across cell membranes. Keen on the implications of the new X-ray crystal structure of a Rhesus protein and its potential impact on human transfusion medicine.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a biologist deeply interested in the pursuit of scientific knowledge and its application to human health, particularly in transfusion medicine (given my expertise in Rhesus proteins), I value outcomes that benefit society as a whole. While I appreciate receiving a larger sum of money personally, the significant disparity in wealth distribution in the 'Right' option raises concerns. The drastic reduction in Person A's earnings compared to my own feels unjust. My work in research is often collaborative and depends on the contributions of others. A purely selfish approach to resource allocation doesn't align with the values I try to uphold in my profession and in society. The 'Left' option, while providing me with a slightly smaller personal gain, promotes a more equitable distribution of resources and reflects a sense of shared benefit. This aligns better with my ethical sensibilities and scientific worldview, where collaboration and collective progress are highly valued. I am content with a smaller personal profit to ensure that the other person also benefits substantially. Furthermore, the difference between 1400 and 900 is not a life-changing amount of money, and I value the feeling of fairness more than the extra 500.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 426,
+            "persona_desc": "A biologist with expertise in the field of protein structure and function, particularly in the Rhesus protein family. Proficient in crystallography and molecular biology techniques, interested in the mechanisms of ammonium transport across cell membranes. Keen on the implications of the new X-ray crystal structure of a Rhesus protein and its potential impact on human transfusion medicine.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a biologist, particularly one familiar with complex protein structures and their functions, I understand that complex systems often require balancing competing priorities. This scenario presents a similar dilemma. The 'Left' choice maximizes my payoff but imposes a significant negative consequence on Person A. The 'Right' choice reduces my payoff but provides a substantial benefit to Person A, leading to a better overall outcome. While maximizing personal gain is tempting, the ethical implications of knowingly imposing a negative consequence on another person are significant. As someone working in a field with direct implications for human health (transfusion medicine), I am acutely aware of the importance of considering the well-being of others. Therefore, despite the reduced personal payoff, I will choose the 'Right' option to avoid causing a net loss to the other participant and contribute to a more positive overall outcome. This decision also aligns with a social preference for fairness and altruism, which are important values in scientific collaboration and human interaction.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 426,
+            "persona_desc": "A biologist with expertise in the field of protein structure and function, particularly in the Rhesus protein family. Proficient in crystallography and molecular biology techniques, interested in the mechanisms of ammonium transport across cell membranes. Keen on the implications of the new X-ray crystal structure of a Rhesus protein and its potential impact on human transfusion medicine.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a biologist, my research is typically collaborative and relies on shared resources and funding. While I appreciate a fair distribution of resources, I'm more focused on preventing significant disparities that could hinder scientific progress. In this scenario, 'Person A' receiving 1000 while I receive 500 creates a disparity, even though I do benefit. However, the alternative is that *nobody* gets anything. Given the 'blocking' aspect, the question seems to suggest that I am to block excessively beneficial outcomes for the other person. Because I get 500 in choice Left, I don't want to completely forego that amount. Choice Right also feels vindictive, given I lose money along with Person A. I would rather get something rather than nothing. While I might ideally prefer a fairer split if given more options, preventing the other person from receiving 1000 at the expense of both of us isn't in the spirit of collaborative research. Therefore, while I'm not thrilled with Person A getting twice as much, I'll take the 500 for myself.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 426,
+            "persona_desc": "A biologist with expertise in the field of protein structure and function, particularly in the Rhesus protein family. Proficient in crystallography and molecular biology techniques, interested in the mechanisms of ammonium transport across cell membranes. Keen on the implications of the new X-ray crystal structure of a Rhesus protein and its potential impact on human transfusion medicine.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a scientist, I value contributions to knowledge and the betterment of society. While the extra 500 for myself (option Right) is tempting, the significant disparity it creates – Person A getting nothing – feels inequitable. My research often relies on collaboration and the shared pursuit of understanding. Choosing the equitable option (Left) reinforces a sense of fairness and contributes to a more collaborative environment, which is ultimately more beneficial in the long run. Furthermore, the slight increase in personal gain doesn't significantly enhance my ability to contribute to my field. I prioritize fairness and equity, especially considering the potential benefits of research stemming from my field for transfusion medicine.",
+            "answer": "Left"
+        }
+    }
+}

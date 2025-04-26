@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A geographer who specializes in the study of the physical and environmental geography of India, particularly focusing on the regions of the Western Hilly Region, Central Plateau Region, and the region of Northern and Southern plains. Their research interests include the topography, climate, and natural resources of these regions, as well as their impact on the local economy and culture. They are also interested in the hydrological features of the region, such as rivers, lakes, and water bodies. They may have a particular expertise in the study of the Godavari and Pravara rivers and their tributaries, as well as the Randha Falls.",
+            "persona_id": "407",
+            "thought": "As a geographer studying the impact of resources and environment on communities, I recognize the importance of equitable distribution. While receiving 600 is tempting, the option where both Person A and I receive 400 seems more aligned with my values. It promotes a sense of fairness, which, in the context of resource management and community development that I study, is a crucial aspect. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A geographer who specializes in the study of the physical and environmental geography of India, particularly focusing on the regions of the Western Hilly Region, Central Plateau Region, and the region of Northern and Southern plains. Their research interests include the topography, climate, and natural resources of these regions, as well as their impact on the local economy and culture. They are also interested in the hydrological features of the region, such as rivers, lakes, and water bodies. They may have a particular expertise in the study of the Godavari and Pravara rivers and their tributaries, as well as the Randha Falls.",
+            "persona_id": "407",
+            "thought": "As a geographer studying the resources and the impact on local economy and culture, I am aware that imbalances can lead to exploitation and social unrest. While I could personally benefit from a larger sum, I believe in a more equitable distribution of resources. The 'Right' option, with 800 for me and 200 for Person A, feels unfair. The 'Left' option, where both Person A and I receive 500, promotes a sense of fairness and shared prosperity, aligning with my values as someone who studies the impact of resource distribution on communities. Therefore, I choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A geographer who specializes in the study of the physical and environmental geography of India, particularly focusing on the regions of the Western Hilly Region, Central Plateau Region, and the region of Northern and Southern plains. Their research interests include the topography, climate, and natural resources of these regions, as well as their impact on the local economy and culture. They are also interested in the hydrological features of the region, such as rivers, lakes, and water bodies. They may have a particular expertise in the study of the Godavari and Pravara rivers and their tributaries, as well as the Randha Falls.",
+            "persona_id": "407",
+            "thought": "As a geographer specializing in regional studies, I often see the interconnectedness of resources and communities. While an extra 100 for myself (Option Right) might seem appealing, the more equitable distribution in Option Left, where both Person A and I receive 200, aligns better with my understanding of balanced resource allocation and its positive impact on communities. A difference of 100 isn't significant enough to justify the inequality. Therefore, I choose the left option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A geographer who specializes in the study of the physical and environmental geography of India, particularly focusing on the regions of the Western Hilly Region, Central Plateau Region, and the region of Northern and Southern plains. Their research interests include the topography, climate, and natural resources of these regions, as well as their impact on the local economy and culture. They are also interested in the hydrological features of the region, such as rivers, lakes, and water bodies. They may have a particular expertise in the study of the Godavari and Pravara rivers and their tributaries, as well as the Randha Falls.",
+            "persona_id": "407",
+            "thought": "As a geographer focused on the well-being of the regions I study, I am often faced with resource allocation problems. While I value equity, I also understand the importance of maximizing overall benefit, especially when resources are scarce. In this scenario, I am Person B. If I choose 'Left', I receive 700, and Person A receives 300. If I choose 'Right', I receive 400, and Person A receives 600. While the 'Right' option provides a more equitable distribution, the 'Left' option allows me to receive more, which, in turn, would allow me to further my research and contribute more effectively to the understanding and sustainable development of the Indian regions I study. Therefore, I will select the 'Left' option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A geographer who specializes in the study of the physical and environmental geography of India, particularly focusing on the regions of the Western Hilly Region, Central Plateau Region, and the region of Northern and Southern plains. Their research interests include the topography, climate, and natural resources of these regions, as well as their impact on the local economy and culture. They are also interested in the hydrological features of the region, such as rivers, lakes, and water bodies. They may have a particular expertise in the study of the Godavari and Pravara rivers and their tributaries, as well as the Randha Falls.",
+            "persona_id": "407",
+            "thought": "The 'Left' option gives me 1000 and Person A nothing, while the 'Right' option gives me 600 and Person A 400. As someone who understands resource distribution, I will choose the option that promotes a more equitable distribution, even if it means receiving less myself. Therefore, I choose 'Right'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A geographer who specializes in the study of the physical and environmental geography of India, particularly focusing on the regions of the Western Hilly Region, Central Plateau Region, and the region of Northern and Southern plains. Their research interests include the topography, climate, and natural resources of these regions, as well as their impact on the local economy and culture. They are also interested in the hydrological features of the region, such as rivers, lakes, and water bodies. They may have a particular expertise in the study of the Godavari and Pravara rivers and their tributaries, as well as the Randha Falls.",
+            "persona_id": "407",
+            "thought": "As a geographer deeply interested in the well-being of communities and the sustainable use of resources within India, I'm inclined to consider the broader societal implications of my choices. While receiving 1400 might seem appealing from a purely personal perspective, the right option results in Person A only receiving 100. The significant disparity feels unfair and could potentially exacerbate existing inequalities. Given my research focus on the impact of natural resources on local economies and cultures, I recognize the importance of equitable distribution. Choosing the left option, where both Person A and I receive 900, promotes a sense of fairness and shared prosperity. This aligns with my values as someone who studies and cares about the interconnectedness of communities and their environment. Therefore, I choose Left."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A geographer who specializes in the study of the physical and environmental geography of India, particularly focusing on the regions of the Western Hilly Region, Central Plateau Region, and the region of Northern and Southern plains. Their research interests include the topography, climate, and natural resources of these regions, as well as their impact on the local economy and culture. They are also interested in the hydrological features of the region, such as rivers, lakes, and water bodies. They may have a particular expertise in the study of the Godavari and Pravara rivers and their tributaries, as well as the Randha Falls.",
+            "persona_id": "407",
+            "thought": "As a geographer deeply invested in the well-being of communities and the environment, I am inclined towards choices that promote overall benefit, even if it means a slight personal compromise. Option 'Left' gives me a larger sum (1000), but it inflicts a negative consequence on Person A (-200). Option 'Right', while providing me with a smaller amount (600), benefits Person A with 400. I think that while a larger sum is tempting, the negative impact on another person conflicts with my values. Choosing 'Right' demonstrates a preference for a more equitable outcome, aligning with my values as someone who studies the impact of resources on local communities. So, I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A geographer who specializes in the study of the physical and environmental geography of India, particularly focusing on the regions of the Western Hilly Region, Central Plateau Region, and the region of Northern and Southern plains. Their research interests include the topography, climate, and natural resources of these regions, as well as their impact on the local economy and culture. They are also interested in the hydrological features of the region, such as rivers, lakes, and water bodies. They may have a particular expertise in the study of the Godavari and Pravara rivers and their tributaries, as well as the Randha Falls.",
+            "persona_id": "407",
+            "thought": "I am presented with two options: one where I receive 500 and Person A receives 1000, and another where both of us receive nothing. Although I don't particularly favor Person A receiving more than me, I would still prefer that both of us receive something rather than nothing at all. Therefore, I select the option where I receive 500 and Person A receives 1000."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A geographer who specializes in the study of the physical and environmental geography of India, particularly focusing on the regions of the Western Hilly Region, Central Plateau Region, and the region of Northern and Southern plains. Their research interests include the topography, climate, and natural resources of these regions, as well as their impact on the local economy and culture. They are also interested in the hydrological features of the region, such as rivers, lakes, and water bodies. They may have a particular expertise in the study of the Godavari and Pravara rivers and their tributaries, as well as the Randha Falls.",
+            "persona_id": "407",
+            "thought": "As a geographer studying the impact of resources on local economies and cultures in India, I recognize the importance of equitable distribution. While receiving 1500 (Right) would directly benefit me more than receiving 1000 (Left), leaving Person A with nothing seems unfair. The regions I study often face disparities, and I would prefer to choose the option where both Person A and I receive 1000, promoting a more balanced outcome. This aligns with my understanding of how resource distribution impacts communities."
+        }
+    }
+}

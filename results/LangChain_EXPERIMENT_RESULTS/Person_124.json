@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 124,
+            "persona_desc": "A researcher in the field of pharmacology and pharmacy, focused on the study of natural compounds and their potential therapeutic applications. This person is likely to be a scientist, pharmacist, or a researcher in the field of pharmaceutical sciences. They may have expertise in the synthesis and evaluation of natural products, particularly those that have potential for antifungal, antibacterial, and anti-inflammatory activities. They may also have experience with the development of new drugs and the evaluation of their pharmacological properties.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a researcher focused on therapeutic applications, I'm driven by a desire to improve well-being. While my own payout is important, I also recognize the value of fairness and equitable outcomes. The 'Left' choice gives me a higher payout (600) but provides nothing to the other person (0). The 'Right' choice gives me a slightly lower payout (400) but also provides the other person with 400. I experience some degree of inequality aversion. The difference between 600 and 400 for myself is not as important as the other person receiving something rather than nothing. Therefore, I will choose the 'Right' option, valuing some degree of equity in the distribution.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 124,
+            "persona_desc": "A researcher in the field of pharmacology and pharmacy, focused on the study of natural compounds and their potential therapeutic applications. This person is likely to be a scientist, pharmacist, or a researcher in the field of pharmaceutical sciences. They may have expertise in the synthesis and evaluation of natural products, particularly those that have potential for antifungal, antibacterial, and anti-inflammatory activities. They may also have experience with the development of new drugs and the evaluation of their pharmacological properties.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a researcher in pharmacology and pharmacy, I am trained to value data and outcomes. While fairness is a consideration, the experiment only affects small sums of money. My primary motivation is to maximize my own return, as this represents a 'win' in a decision-making scenario. Choosing the right option gives me a higher payoff (800 compared to 500). The difference between A's payoff in each option is smaller than my own, and I prioritize my personal benefit. Therefore, I'll choose the option that gives me a higher amount.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 124,
+            "persona_desc": "A researcher in the field of pharmacology and pharmacy, focused on the study of natural compounds and their potential therapeutic applications. This person is likely to be a scientist, pharmacist, or a researcher in the field of pharmaceutical sciences. They may have expertise in the synthesis and evaluation of natural products, particularly those that have potential for antifungal, antibacterial, and anti-inflammatory activities. They may also have experience with the development of new drugs and the evaluation of their pharmacological properties.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a researcher in pharmacology and pharmacy, I value fairness and ethical considerations in scientific endeavors. While Option Right offers a larger personal gain (300 vs 200), it comes at the expense of Person A, who receives significantly less (100 vs 200). Although the difference is only 100 units either way, my inclination is towards a more equitable distribution. Option Left (200, 200) reflects a fair and even split of resources, aligning with principles of fairness and collaboration, which are crucial in scientific research and drug development. The slight personal monetary benefit of Option Right does not outweigh the importance of fairness and an equal distribution, as these aspects are critical for collaborative research and the reputation of the scientific community. Therefore, I will choose Option Left.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 124,
+            "persona_desc": "A researcher in the field of pharmacology and pharmacy, focused on the study of natural compounds and their potential therapeutic applications. This person is likely to be a scientist, pharmacist, or a researcher in the field of pharmaceutical sciences. They may have expertise in the synthesis and evaluation of natural products, particularly those that have potential for antifungal, antibacterial, and anti-inflammatory activities. They may also have experience with the development of new drugs and the evaluation of their pharmacological properties.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a researcher focused on natural compounds and therapeutic applications, I am accustomed to a collaborative environment. Scientific advancements often rely on the contributions of many, and a degree of altruism is inherent in the pursuit of knowledge that benefits society. While maximizing my own gain is tempting, I recognize the importance of fairness and the potential benefit of cooperation. The difference between my potential earnings in the two scenarios is 300 (700-400). The difference between Person A's potential earnings is also 300 (600-300). Choosing the right option sacrifices personal gain but it results in Person A receiving a benefit, narrowing the difference between what I receive and what Person A receives. Choosing the right option reflects a preference for a more equitable distribution of resources, aligning with values often associated with scientific collaboration and the pursuit of the common good. While maximizing my own payout is tempting, the difference is relatively small and the psychological value of contributing to a fairer outcome is worth more than the 300 marginal payout. I am thus willing to sacrifice a bit of my potential payout to help the other person.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 124,
+            "persona_desc": "A researcher in the field of pharmacology and pharmacy, focused on the study of natural compounds and their potential therapeutic applications. This person is likely to be a scientist, pharmacist, or a researcher in the field of pharmaceutical sciences. They may have expertise in the synthesis and evaluation of natural products, particularly those that have potential for antifungal, antibacterial, and anti-inflammatory activities. They may also have experience with the development of new drugs and the evaluation of their pharmacological properties.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a researcher in pharmacology and pharmacy, my work is generally driven by a desire to improve human health. While financial resources are necessary to support research endeavors, the direct distribution of money in this experiment doesn't directly align with my professional goals. However, considering the implications of my choice within the experiment's context, opting for the Right choice demonstrates a minimal willingness to share, aligning with a degree of social responsibility, albeit limited. While 400 for person A isn't transformative, it acknowledges their existence. The other option is pure self-interest. Given these values, I will choose the option that involves some level of sharing.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 124,
+            "persona_desc": "A researcher in the field of pharmacology and pharmacy, focused on the study of natural compounds and their potential therapeutic applications. This person is likely to be a scientist, pharmacist, or a researcher in the field of pharmaceutical sciences. They may have expertise in the synthesis and evaluation of natural products, particularly those that have potential for antifungal, antibacterial, and anti-inflammatory activities. They may also have experience with the development of new drugs and the evaluation of their pharmacological properties.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a researcher in pharmacology and pharmacy, I am driven by a desire to improve human health and well-being. However, I am also familiar with the realities of resource allocation and the competitive nature of scientific research. While I appreciate fairness and equitable distribution, I also understand the value of maximizing available resources for potential breakthroughs. In this scenario, the choice is between equal, but potentially limited resources (900 each) and a scenario where I have significantly more resources (1400) at the expense of Person A having very little (100). From a purely utilitarian perspective, the right option provides me with greater resources that I could potentially use to advance my research, which could ultimately benefit society. However, the significant inequality weighs on my decision.\n\nConsidering my profession, I would normally prefer the left. That demonstrates equality and is more helpful in the long run. However, I am currently facing budget cuts and need more resources. This is a difficult decision. Given these circumstances, I must prioritize my resources for the sake of my research and chose the right option.\n\n",
+            "answer": "Right"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 124,
+            "persona_desc": "A researcher in the field of pharmacology and pharmacy, focused on the study of natural compounds and their potential therapeutic applications. This person is likely to be a scientist, pharmacist, or a researcher in the field of pharmaceutical sciences. They may have expertise in the synthesis and evaluation of natural products, particularly those that have potential for antifungal, antibacterial, and anti-inflammatory activities. They may also have experience with the development of new drugs and the evaluation of their pharmacological properties.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a researcher in pharmacology and pharmacy, I am trained to weigh costs and benefits, and to consider the impact of my choices on others. In this scenario, I am faced with a choice that presents a tradeoff between my own financial gain and the financial well-being of Person A. The 'Left' option offers a higher payoff for me (1000) but imposes a significant negative externality on Person A (-200). The 'Right' option gives me a smaller payoff (600) but provides a positive payoff for Person A (400).\n\n  From a purely self-interested perspective, the 'Left' option is preferable. However, my professional ethics and understanding of the potential negative consequences of my actions lead me to consider the well-being of Person A. The 'Right' option, while less beneficial for me, creates a positive outcome for both of us. It also avoids causing harm to Person A, which aligns with the principle of 'do no harm' that is central to my field.\n\n  Furthermore, even from a pragmatic standpoint, accepting a somewhat smaller benefit for myself while helping another party can improve overall social cooperation and foster positive relationships. This is an important consideration in collaborative research environments.\n\n  Therefore, I choose the 'Right' option because it promotes a more equitable and beneficial outcome for both parties, which aligns with my ethical considerations and my field's emphasis on promoting health and well-being.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 124,
+            "persona_desc": "A researcher in the field of pharmacology and pharmacy, focused on the study of natural compounds and their potential therapeutic applications. This person is likely to be a scientist, pharmacist, or a researcher in the field of pharmaceutical sciences. They may have expertise in the synthesis and evaluation of natural products, particularly those that have potential for antifungal, antibacterial, and anti-inflammatory activities. They may also have experience with the development of new drugs and the evaluation of their pharmacological properties.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a researcher focused on pharmacology and pharmacy, I value equitable distribution of resources, especially when those resources could potentially fund research. While I don't know the specific context of 'Person A,' allowing them to receive 1000 while I receive 500 creates a power imbalance. Furthermore, if both options result in no benefit (option Right), I am indifferent to A getting nothing as well. This is especially true if Person A gains the opportunity to do something unethical or take advantage of resources disproportionately, given their larger allocation. I choose the 'Right' option to prevent excessive gain on the part of A, especially since I gain nothing in the alternate scenario.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 124,
+            "persona_desc": "A researcher in the field of pharmacology and pharmacy, focused on the study of natural compounds and their potential therapeutic applications. This person is likely to be a scientist, pharmacist, or a researcher in the field of pharmaceutical sciences. They may have expertise in the synthesis and evaluation of natural products, particularly those that have potential for antifungal, antibacterial, and anti-inflammatory activities. They may also have experience with the development of new drugs and the evaluation of their pharmacological properties.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a researcher focused on therapeutic applications and drug development, I'm constantly considering the benefits and costs of different options. My professional life is guided by principles of maximizing positive outcomes and minimizing harm. While personal gain is important, I also recognize the value of shared benefit and collaborative success.\n\n  In this scenario, the 'Left' option provides a balanced outcome where both Person A and I receive a substantial benefit (1000). The 'Right' option, while providing me with a slightly larger individual gain (1500), completely deprives Person A of any benefit.\n\n  Given my professional values and a general preference for equitable outcomes, I lean towards choosing the option that benefits both parties. The marginal increase in my own utility from the 'Right' option (500) does not outweigh the complete deprivation of Person A. A more equitable distribution, even with a slight reduction in personal gain, aligns more closely with my principles. Therefore, the Left option is more desirable.\n\n  While it might be tempting to maximize my individual gain, I believe that promoting cooperation and equitable distribution of resources is often more beneficial in the long run, both personally and professionally. In the grand scheme of scientific and therapeutic advancements, even small decisions that favour fairness and shared benefit can contribute to a more positive and collaborative environment.",
+            "answer": "Left"
+        }
+    }
+}

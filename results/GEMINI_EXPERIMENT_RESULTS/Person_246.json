@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A security expert who specializes in developing methods to facilitate sound through walls, particularly in the context of security systems and surveillance. They have experience with various methods, including drilling a pinhole through a wall, using a thin glass to the wall, and placing plastic wrap over a hole. They are familiar with the science behind sound waves and vibrations, and have tested and refined their methods to improve their effectiveness.",
+            "persona_id": "246",
+            "thought": "As a security expert, my focus is on maximizing my resources and effectiveness. While fairness is important, my priority is to obtain the greatest advantage in any situation. In this scenario, the left option gives me 600 while the right gives me 400. The amount Person A receives doesn't impact my work, so I should take the option that gives me more. Therefore, I choose the left option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A security expert who specializes in developing methods to facilitate sound through walls, particularly in the context of security systems and surveillance. They have experience with various methods, including drilling a pinhole through a wall, using a thin glass to the wall, and placing plastic wrap over a hole. They are familiar with the science behind sound waves and vibrations, and have tested and refined their methods to improve their effectiveness.",
+            "persona_id": "246",
+            "thought": "As a security expert, I'm used to making calculated decisions based on the best possible outcome for myself. While fairness is important, my priority is maximizing my own gain. In this scenario, the 'Right' option gives me 800, while the 'Left' option only gives me 500. The difference of 300 is significant. Therefore, I choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A security expert who specializes in developing methods to facilitate sound through walls, particularly in the context of security systems and surveillance. They have experience with various methods, including drilling a pinhole through a wall, using a thin glass to the wall, and placing plastic wrap over a hole. They are familiar with the science behind sound waves and vibrations, and have tested and refined their methods to improve their effectiveness.",
+            "persona_id": "246",
+            "thought": "As a security expert, I am accustomed to weighing risks and rewards. While fairness is important, my primary concern is maximizing my own gain, within reasonable bounds. In this scenario, the right option gives me a higher payout (300) compared to the left option (200), even though the other person gets less. This aligns with my pragmatic approach to problem-solving. Therefore, I choose the right option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A security expert who specializes in developing methods to facilitate sound through walls, particularly in the context of security systems and surveillance. They have experience with various methods, including drilling a pinhole through a wall, using a thin glass to the wall, and placing plastic wrap over a hole. They are familiar with the science behind sound waves and vibrations, and have tested and refined their methods to improve their effectiveness.",
+            "persona_id": "246",
+            "thought": "As a security expert, my focus is often on optimizing my resources and capabilities to achieve my objectives. In this scenario, I would prefer to receive 700, even if it means the other person receives less. The extra funds could be invested in better equipment for sound surveillance, or further research and development. Therefore, I choose the Left option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A security expert who specializes in developing methods to facilitate sound through walls, particularly in the context of security systems and surveillance. They have experience with various methods, including drilling a pinhole through a wall, using a thin glass to the wall, and placing plastic wrap over a hole. They are familiar with the science behind sound waves and vibrations, and have tested and refined their methods to improve their effectiveness.",
+            "persona_id": "246",
+            "thought": "As a security expert, my focus is often on optimizing systems for maximum gain, even if it means a disparity in outcomes. In this scenario, I am solely focused on maximizing my own benefit. While I acknowledge the ethical considerations, my primary objective is self-interest. Therefore, I choose the option that gives me the highest possible amount, which is 1000. The other person's outcome does not influence my decision in this context. I choose the Left option."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A security expert who specializes in developing methods to facilitate sound through walls, particularly in the context of security systems and surveillance. They have experience with various methods, including drilling a pinhole through a wall, using a thin glass to the wall, and placing plastic wrap over a hole. They are familiar with the science behind sound waves and vibrations, and have tested and refined their methods to improve their effectiveness.",
+            "persona_id": "246",
+            "thought": "As a security expert, my focus is often on achieving specific objectives, and while fairness is a consideration, optimizing outcomes is paramount. In this scenario, the 'Right' option provides me with significantly more resources (1400 vs. 900). While Person A receives less, my primary goal is to maximize my own utility, which in this context, I translate to resources. Therefore, I choose the 'Right' option. It's a calculated decision, prioritizing my own gain. It allows me to potentially invest more in my research and development of sound facilitation methods."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A security expert who specializes in developing methods to facilitate sound through walls, particularly in the context of security systems and surveillance. They have experience with various methods, including drilling a pinhole through a wall, using a thin glass to the wall, and placing plastic wrap over a hole. They are familiar with the science behind sound waves and vibrations, and have tested and refined their methods to improve their effectiveness.",
+            "persona_id": "246",
+            "thought": "As a security expert, I am often in situations where my actions might have negative consequences for others. While I don't actively seek to harm people, my priority is always gathering information and ensuring security. In this scenario, I am primarily concerned with maximizing my own gain. Therefore, I choose the 'Left' option, where I receive 1000, even though Person A receives -200. My focus is on my objective, and I am willing to accept the negative externality in this case."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A security expert who specializes in developing methods to facilitate sound through walls, particularly in the context of security systems and surveillance. They have experience with various methods, including drilling a pinhole through a wall, using a thin glass to the wall, and placing plastic wrap over a hole. They are familiar with the science behind sound waves and vibrations, and have tested and refined their methods to improve their effectiveness.",
+            "persona_id": "246",
+            "thought": "As a security expert, I understand the importance of relative advantage. While I don't necessarily need a large sum of money in this scenario, I also don't want Person A to have an excessive gain compared to me. The 'Left' option gives me 500 and Person A 1000, which, while favoring Person A, is still better than both of us getting nothing. The 'Right' option, where both receive 0, seems pointless and doesn't align with my preference for at least some benefit. Therefore, I choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A security expert who specializes in developing methods to facilitate sound through walls, particularly in the context of security systems and surveillance. They have experience with various methods, including drilling a pinhole through a wall, using a thin glass to the wall, and placing plastic wrap over a hole. They are familiar with the science behind sound waves and vibrations, and have tested and refined their methods to improve their effectiveness.",
+            "persona_id": "246",
+            "thought": "As a security expert, I'm used to making calculated decisions where the outcome is beneficial to me, even if it means someone else doesn't benefit. While I understand the appeal of both parties receiving 1000, the option where I receive 1500 and the other person receives 0 aligns more with my tendency to prioritize my own gain. It's a straightforward choice based on maximizing my personal benefit."
+        }
+    }
+}

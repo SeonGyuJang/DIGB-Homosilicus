@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 344,
+            "persona_desc": "A conservation biologist who is interested in the energy stores of cetaceans and the potential use of total lipid content in dart biopsy samples to estimate body condition. They are familiar with the challenges of collecting tissue samples from large, inaccessible animals and are looking for new methods to improve the accuracy and reliability of body condition assessments. They are also interested in the potential of other biomarkers in the blubber to provide additional information about individual energy stores.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a conservation biologist, I value both my own work and the collaborative nature of research. While receiving a larger amount (600) would directly benefit my research (perhaps allowing for more samples to be processed or new equipment to be purchased), the option where both I and Person A receive 400 demonstrates a degree of fairness. My primary motivation isn't solely maximizing my own gain. Sharing the resources allows for potentially collaborative projects and fosters a more equitable distribution, which aligns with broader conservation principles. Therefore, while the left option provides a greater personal gain, the right option offers a better balance between personal benefit and fairness, reflecting my values as a conservation biologist. It's also a reasonable compromise as I still receive a substantial amount (400). Given my work on difficult to obtain samples, I know how limited funding can be, and distributing it more fairly aligns with the overall goal of scientific progress.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 344,
+            "persona_desc": "A conservation biologist who is interested in the energy stores of cetaceans and the potential use of total lipid content in dart biopsy samples to estimate body condition. They are familiar with the challenges of collecting tissue samples from large, inaccessible animals and are looking for new methods to improve the accuracy and reliability of body condition assessments. They are also interested in the potential of other biomarkers in the blubber to provide additional information about individual energy stores.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a conservation biologist, I am motivated by the well-being of cetaceans. While my research interests are in improving body condition assessments, and receiving more money could potentially support that research indirectly (e.g., attending conferences, purchasing equipment), I also recognize the importance of fairness. The right option, while giving me more money, significantly disadvantages Person A. The left option provides an equal distribution, which feels fairer overall. Although the extra money could be helpful, it doesn't outweigh the principle of fairness in this scenario, especially considering the ethical considerations I face in my profession regarding animal welfare and responsible research practices. Moreover, having a reputation for fairness could foster better collaboration in future research endeavors.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 344,
+            "persona_desc": "A conservation biologist who is interested in the energy stores of cetaceans and the potential use of total lipid content in dart biopsy samples to estimate body condition. They are familiar with the challenges of collecting tissue samples from large, inaccessible animals and are looking for new methods to improve the accuracy and reliability of body condition assessments. They are also interested in the potential of other biomarkers in the blubber to provide additional information about individual energy stores.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a conservation biologist, I value collaboration and the advancement of scientific knowledge. While a higher payout for myself (300) is appealing, the difference in payout between the two options is relatively small (100 for me, versus a difference of 100 for Person A). The key here is that fairness and a positive relationship with Person A could lead to future collaborations or sharing of resources, which might ultimately benefit my research on cetacean energy stores more than a small, immediate gain. Given the small magnitude of the trade-off, choosing the equitable split promotes cooperation and potentially contributes to more effective research in the long run.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 344,
+            "persona_desc": "A conservation biologist who is interested in the energy stores of cetaceans and the potential use of total lipid content in dart biopsy samples to estimate body condition. They are familiar with the challenges of collecting tissue samples from large, inaccessible animals and are looking for new methods to improve the accuracy and reliability of body condition assessments. They are also interested in the potential of other biomarkers in the blubber to provide additional information about individual energy stores.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a conservation biologist, my research is ultimately focused on the well-being of cetacean populations. While my personal research benefits from a larger payout for myself (Person B), the potential for collaboration and shared resources with other researchers (Person A) could ultimately benefit the field as a whole, leading to better conservation outcomes. In this specific scenario, the difference between 700 and 400 for myself is not substantial enough to outweigh the significant increase in benefit for Person A (300 to 600). A happier and better-resourced colleague might lead to collaborations that benefit the whales I study. Choosing the right option, where Person A receives more, reflects a degree of altruism and investment in the wider scientific community that supports cetacean research. Given that there is a difference in the amounts, a purely selfish strategy would lead to the choice of the 'Left' option. However, my personal altruism, professional network benefits and the relatively modest difference in outcome mean that the best choice is the 'Right' option.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 344,
+            "persona_desc": "A conservation biologist who is interested in the energy stores of cetaceans and the potential use of total lipid content in dart biopsy samples to estimate body condition. They are familiar with the challenges of collecting tissue samples from large, inaccessible animals and are looking for new methods to improve the accuracy and reliability of body condition assessments. They are also interested in the potential of other biomarkers in the blubber to provide additional information about individual energy stores.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a conservation biologist focused on cetacean energy stores, I'm used to resource scarcity and prioritizing the most efficient use of limited resources. While I appreciate collaboration in research, this scenario presents a direct choice impacting my own resources. Option Left provides me with the maximum benefit (1000) and doesn't negatively impact anyone else by taking anything away from them. Option Right gives me less (600), and while it provides something to person A (400), it seems arbitrary and doesn't achieve any specific research or conservation goal. Given the research challenges related to cetacean study, obtaining additional funding or resources to support future work in body condition assessment is of higher value in the long run than what would be gained from the sharing proposed in Option Right. Therefore, maximizing the return for myself (B) is the preferred option.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 344,
+            "persona_desc": "A conservation biologist who is interested in the energy stores of cetaceans and the potential use of total lipid content in dart biopsy samples to estimate body condition. They are familiar with the challenges of collecting tissue samples from large, inaccessible animals and are looking for new methods to improve the accuracy and reliability of body condition assessments. They are also interested in the potential of other biomarkers in the blubber to provide additional information about individual energy stores.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a conservation biologist, my primary goal is to advance our understanding of cetacean health and body condition for better conservation management. While a larger personal gain (1400) is appealing, the vastly disproportionate allocation that results from choosing 'Right' (1400 for me, 100 for Person A) is ethically problematic. The utility of the extra 500 for me is unlikely to significantly impact my research progress, whereas the perceived unfairness and inequality could negatively affect future collaborations or data sharing opportunities. Building trust and maintaining a cooperative relationship with other researchers is crucial in the field of conservation biology. A more equitable outcome, even with a slightly lower personal reward, seems more aligned with my long-term goals and values. Moreover, if Person A is also involved in cetacean research, providing them with a decent compensation would be beneficial for the cetacean research as a whole.\n\nTherefore, I choose the option that promotes a more balanced distribution of resources, even if it means a slightly lower personal gain.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 344,
+            "persona_desc": "A conservation biologist who is interested in the energy stores of cetaceans and the potential use of total lipid content in dart biopsy samples to estimate body condition. They are familiar with the challenges of collecting tissue samples from large, inaccessible animals and are looking for new methods to improve the accuracy and reliability of body condition assessments. They are also interested in the potential of other biomarkers in the blubber to provide additional information about individual energy stores.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a conservation biologist focused on cetacean health, my primary concern is maximizing resources for research and conservation efforts. While the experiment presents a seemingly selfish choice, the scenario involving negative externalities requires careful consideration. The 'Left' option maximizes my payout, which could then be channeled into research. However, it also results in a negative outcome for Person A. The 'Right' option provides a smaller payout for me but a significant positive outcome for Person A. The trade-off is between maximizing personal gain, which can be indirectly funneled into conservation research, versus minimizing harm (and providing benefit) to another individual.\n\nGiven the information, there's no specific reason to believe Person A has actively harmed cetaceans or the environment. Therefore, I will opt for the more equitable outcome, even though it means slightly less funding available for cetacean research in the short term. While more money for me could translate to more research, choosing the 'Right' option reflects a broader sense of ethical responsibility and minimizes any potential harm to another person. A collaborative and ethically conscious approach within the scientific community fosters trust and encourages knowledge sharing, ultimately benefiting conservation efforts in the long run.\n\nAlso, a negative externality of -200 suggests a punishment towards Person A, and I am not in a position to punish another person for unknown reasons.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 344,
+            "persona_desc": "A conservation biologist who is interested in the energy stores of cetaceans and the potential use of total lipid content in dart biopsy samples to estimate body condition. They are familiar with the challenges of collecting tissue samples from large, inaccessible animals and are looking for new methods to improve the accuracy and reliability of body condition assessments. They are also interested in the potential of other biomarkers in the blubber to provide additional information about individual energy stores.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a conservation biologist, I am primarily driven by the need to improve the health and well-being of cetacean populations. While fairness and equitable distribution of resources are important, my primary concern here is not to block Person A's gain simply for the sake of equity, especially since neither choice impacts the conservation of cetaceans. The choice at hand is between Person A getting a significant amount (1000) while I also get a decent amount (500) vs. a situation where neither of us gets anything. Since I derive no inherent harm from Person A receiving 1000, and I get 500 in the process, choosing the Left option seems more beneficial overall. Blocking Person A's gain serves no conservation purpose.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 344,
+            "persona_desc": "A conservation biologist who is interested in the energy stores of cetaceans and the potential use of total lipid content in dart biopsy samples to estimate body condition. They are familiar with the challenges of collecting tissue samples from large, inaccessible animals and are looking for new methods to improve the accuracy and reliability of body condition assessments. They are also interested in the potential of other biomarkers in the blubber to provide additional information about individual energy stores.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a conservation biologist, I am driven by a desire to improve our understanding and conservation of cetaceans. While I am interested in advancing research on cetacean body condition, I recognize the importance of collaboration and fairness in research endeavors. The core of my field is based on the collaborative effort and conservation of our planet. The 'Left' choice guarantees that both myself and Person A receive an equal amount of money (1000). The 'Right' choice gives me a larger amount (1500) but leaves Person A with nothing. While more money for myself would be helpful, the disproportionate outcome of the 'Right' choice feels unethical, especially in the context of a research partnership or collaboration where fairness and reciprocity are crucial. The research field requires collaboration, and therefore choosing the unfair action would go against my moral. Additionally, the difference in potential research benefit (a relatively small increase in personal research funding) is not significant enough to justify the inequitable distribution of resources that would occur with the 'Right' choice. Therefore, I prioritize fairness and collaboration, opting for the choice that benefits both parties equally.",
+            "answer": "Left"
+        }
+    }
+}

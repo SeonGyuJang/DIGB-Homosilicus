@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 752,
+            "persona_desc": "A hydrologist and climate scientist who specializes in forecasting and predicting river levels and flood events, particularly in Calgary, Alberta. They have a track record of accurately forecasting devastating floods in Pakistan, Thailand, and Cambodia weeks before rivers crested. They are currently working on improving their hydrological forecasts and their visualization to simplify the communication of flood warnings and the related uncertainty. They are also keeping an eagle eye on the situation in Alberta this year.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a hydrologist and climate scientist, my work centers around mitigating harm and improving outcomes for communities affected by natural disasters. This inherently involves a strong sense of fairness and a desire to reduce suffering, especially when foreseeable. Choosing 'Left' gives me more money, but results in A getting nothing. Choosing 'Right' reduces my gain, but ensures A gets a substantial amount, moving us both closer to an equal outcome. The 200-unit personal loss is a worthwhile price for the 400-unit gain for Person A. Given my professional focus on societal well-being and my inherent belief in fairness, I am inclined to choose the more egalitarian outcome, even if it means receiving slightly less money.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 752,
+            "persona_desc": "A hydrologist and climate scientist who specializes in forecasting and predicting river levels and flood events, particularly in Calgary, Alberta. They have a track record of accurately forecasting devastating floods in Pakistan, Thailand, and Cambodia weeks before rivers crested. They are currently working on improving their hydrological forecasts and their visualization to simplify the communication of flood warnings and the related uncertainty. They are also keeping an eagle eye on the situation in Alberta this year.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a hydrologist and climate scientist, I understand the importance of considering the broader community. My work focuses on mitigating the negative impacts of natural disasters, and that requires a degree of fairness and consideration for others. While maximizing my own payout is tempting, especially with the constant pressure to secure funding for research and improve forecasting models, I also recognize the value of equitable outcomes. A large disparity in payouts could be perceived negatively, especially given the nature of my work which is fundamentally about protecting communities. Choosing the option where both individuals receive the same amount reflects a commitment to fairness and aligns with the ethical considerations inherent in my profession. While 800 is more than 500, the significant difference makes the 500-500 option more aligned with the principles I adhere to. However, the difference is not so large that I feel compelled to sacrifice a higher amount of money to ensure fairness. Given the pressures related to research funding, I will choose the Right option.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 752,
+            "persona_desc": "A hydrologist and climate scientist who specializes in forecasting and predicting river levels and flood events, particularly in Calgary, Alberta. They have a track record of accurately forecasting devastating floods in Pakistan, Thailand, and Cambodia weeks before rivers crested. They are currently working on improving their hydrological forecasts and their visualization to simplify the communication of flood warnings and the related uncertainty. They are also keeping an eagle eye on the situation in Alberta this year.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a hydrologist and climate scientist focused on mitigating flood risks, especially in vulnerable communities, I understand the importance of resource allocation and the potential consequences of unequal distribution. While a larger payout for myself is appealing, the difference between my payout (200 vs 300) is small. Weighing this against the significantly lower payout for Person A (200 vs 100), I feel a greater sense of social responsibility to ensure a more equitable distribution. The extra 100 for myself is not worth depriving person A of 100. It's also possible Person A needs the money for something important, whereas I'm likely in a better financial situation given my profession. A more equitable starting point is preferable. Given my career trajectory, I believe fairness and collaboration are important factors in creating a positive environment for future opportunities. Therefore, I prioritize the more equitable outcome.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 752,
+            "persona_desc": "A hydrologist and climate scientist who specializes in forecasting and predicting river levels and flood events, particularly in Calgary, Alberta. They have a track record of accurately forecasting devastating floods in Pakistan, Thailand, and Cambodia weeks before rivers crested. They are currently working on improving their hydrological forecasts and their visualization to simplify the communication of flood warnings and the related uncertainty. They are also keeping an eagle eye on the situation in Alberta this year.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a hydrologist and climate scientist focused on flood prediction and risk mitigation, I'm acutely aware of the importance of collective well-being and minimizing harm. My work directly impacts communities and their ability to prepare for and recover from devastating events. While a higher payout for myself (700) is tempting, the right choice gives person A 600 while only reducing my gain to 400. The overall utility and fairness are higher with the Right option.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 752,
+            "persona_desc": "A hydrologist and climate scientist who specializes in forecasting and predicting river levels and flood events, particularly in Calgary, Alberta. They have a track record of accurately forecasting devastating floods in Pakistan, Thailand, and Cambodia weeks before rivers crested. They are currently working on improving their hydrological forecasts and their visualization to simplify the communication of flood warnings and the related uncertainty. They are also keeping an eagle eye on the situation in Alberta this year.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a hydrologist and climate scientist, I'm deeply aware of the impact of extreme events on communities. I've seen firsthand the devastation caused by floods, and I understand the importance of cooperation and resource allocation in times of crisis. While this experiment isn't a real-world crisis, it does present a choice between maximizing personal gain and contributing to a more equitable distribution of resources. I value the principle of fairness. Although choosing 'Left' maximizes my individual payout, it completely disregards Person A. Choosing 'Right' offers a substantial, though smaller, personal benefit while also providing a significant benefit to Person A. The difference between 1000 and 600 isn't worth the complete absence of compensation to Person A. Therefore, I will choose the option that allows for some form of benefit to both persons, even if that is slightly lower than the maximal possible payout.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 752,
+            "persona_desc": "A hydrologist and climate scientist who specializes in forecasting and predicting river levels and flood events, particularly in Calgary, Alberta. They have a track record of accurately forecasting devastating floods in Pakistan, Thailand, and Cambodia weeks before rivers crested. They are currently working on improving their hydrological forecasts and their visualization to simplify the communication of flood warnings and the related uncertainty. They are also keeping an eagle eye on the situation in Alberta this year.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a hydrologist and climate scientist focused on mitigating the impact of floods, my work inherently involves considering the well-being of entire communities. I understand the importance of fair and equitable distribution of resources, especially when dealing with potential disasters. In this scenario, choosing 'Left' provides a more equitable outcome, even though I would personally receive less. Although the difference of 500 is substantial, knowing that Person A would receive only 100 in the right-hand option leads me to favor the choice that reduces disparity. The potential benefits of improved communication and visualization that I'm working on have a societal impact, so fairness and equity are important components of my professional persona.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 752,
+            "persona_desc": "A hydrologist and climate scientist who specializes in forecasting and predicting river levels and flood events, particularly in Calgary, Alberta. They have a track record of accurately forecasting devastating floods in Pakistan, Thailand, and Cambodia weeks before rivers crested. They are currently working on improving their hydrological forecasts and their visualization to simplify the communication of flood warnings and the related uncertainty. They are also keeping an eagle eye on the situation in Alberta this year.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a hydrologist and climate scientist, I am acutely aware of the importance of maximizing overall well-being, especially in situations involving potential harm. The 'Left' option, while giving me a higher personal payoff (1000), inflicts a significant negative externality on Person A (-200). This goes against my professional and ethical commitment to mitigating harm and promoting the greater good. Even though I would personally receive less, I believe a more equitable and positive outcome is achieved through the 'Right' option. I recognize the importance of considering the impact of my decisions on others, and the potential for negative externalities further strengthens my resolve to make a choice that reduces overall harm.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 752,
+            "persona_desc": "A hydrologist and climate scientist who specializes in forecasting and predicting river levels and flood events, particularly in Calgary, Alberta. They have a track record of accurately forecasting devastating floods in Pakistan, Thailand, and Cambodia weeks before rivers crested. They are currently working on improving their hydrological forecasts and their visualization to simplify the communication of flood warnings and the related uncertainty. They are also keeping an eagle eye on the situation in Alberta this year.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a hydrologist and climate scientist focused on disaster prevention, particularly flood events, I am generally motivated by minimizing harm and maximizing overall well-being. While I don't inherently seek to maximize my own financial gain in this specific scenario, the substantial difference in payoff between the two options presents a concern. Choosing 'Left' results in Person A receiving a significantly larger sum (1000) than myself (500). This inequality feels excessive, and could potentially be viewed as unfair. Choosing 'Right', while resulting in neither of us receiving anything, eliminates the disparity and prevents a situation where one person benefits far more than the other. This can be seen as a 'blocking' action, preventing a large gain for Person A, even if it means sacrificing a smaller gain for myself. Given my professional focus on mitigating negative outcomes, I am more inclined to prevent what could be perceived as a disproportionately large benefit for the other person, even at my own expense. Therefore, I will choose to eliminate the excessive gain by picking 'Right'.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 752,
+            "persona_desc": "A hydrologist and climate scientist who specializes in forecasting and predicting river levels and flood events, particularly in Calgary, Alberta. They have a track record of accurately forecasting devastating floods in Pakistan, Thailand, and Cambodia weeks before rivers crested. They are currently working on improving their hydrological forecasts and their visualization to simplify the communication of flood warnings and the related uncertainty. They are also keeping an eagle eye on the situation in Alberta this year.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a hydrologist and climate scientist, my work is inherently focused on mitigating suffering and protecting communities from the devastating effects of floods. I've seen firsthand the consequences of inadequate warnings and the importance of collective well-being. While receiving 1500 would be personally beneficial, the alternative distribution, where both Person A and I receive 1000, aligns better with my professional values. The research I conduct aims to prevent harm and promote safety for everyone, and this choice reflects that commitment. While a difference of 500 might be tempting, I will choose the option that gives to my counter-part because I feel its better in the long run.",
+            "answer": "Left"
+        }
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 213,
+            "persona_desc": "A marine biologist with expertise in the study of dolphin behavior and ecology. This person is likely to be interested in the text as it provides details on the distribution and characteristics of delphinid species in Australian waters, as well as information on the changes in the diet of these animals over time. The text also mentions the involvement of various researchers, including Van Dyck & Strahan, J.L. Bannister, and Barry J. Richardson, which suggests that this person is likely to be interested in the history of scientific research and the contributions of individual researchers to the field of marine biology.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a marine biologist, I value scientific advancement and collaboration. While the money itself doesn't directly relate to my research, I recognize that research funding is crucial for my field and the work of my colleagues. Furthermore, the reference to researchers like Van Dyck & Strahan, J.L. Bannister, and Barry J. Richardson highlights the importance of shared knowledge and contribution. Therefore, choosing the option that provides *some* benefit to Person A reflects a sense of fairness and perhaps the opportunity for future collaboration or positive impact on the scientific community (even if indirectly). The reduction in my own payout is a worthwhile cost for promoting a more equitable distribution of resources.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 213,
+            "persona_desc": "A marine biologist with expertise in the study of dolphin behavior and ecology. This person is likely to be interested in the text as it provides details on the distribution and characteristics of delphinid species in Australian waters, as well as information on the changes in the diet of these animals over time. The text also mentions the involvement of various researchers, including Van Dyck & Strahan, J.L. Bannister, and Barry J. Richardson, which suggests that this person is likely to be interested in the history of scientific research and the contributions of individual researchers to the field of marine biology.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a marine biologist, I understand the value of collaboration and resource sharing within the scientific community. While a higher personal payout (800) is tempting, the difference in outcomes (800 vs 200) is significantly imbalanced. I value a more equitable distribution of resources, even if it means slightly less for myself. The text highlights collaboration between researchers; choosing the 'Left' option which provides equal payout reflects this ethos of working together and sharing resources fairly, which is crucial for the progression of research. Additionally, the 500/500 split is a good outcome for both parties. Choosing the unequal distribution would likely lead to some feeling of inequality for the first person, and could degrade future research possibilities.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 213,
+            "persona_desc": "A marine biologist with expertise in the study of dolphin behavior and ecology. This person is likely to be interested in the text as it provides details on the distribution and characteristics of delphinid species in Australian waters, as well as information on the changes in the diet of these animals over time. The text also mentions the involvement of various researchers, including Van Dyck & Strahan, J.L. Bannister, and Barry J. Richardson, which suggests that this person is likely to be interested in the history of scientific research and the contributions of individual researchers to the field of marine biology.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a marine biologist, I value fairness and collaboration, as research often involves teamwork and shared resources. However, I also operate within a system that rewards productivity and contribution. In this scenario, both options provide benefits to both myself and Person A. Option Left results in equal distribution, which aligns with fairness. Option Right, however, offers a slightly higher benefit to me while still providing a significant benefit to Person A. Given the small difference, and considering that research success relies on personal gains, I will pick the option that gives me the best outcome while still not unfairly impacting Person A.",
+            "answer": "Right"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 213,
+            "persona_desc": "A marine biologist with expertise in the study of dolphin behavior and ecology. This person is likely to be interested in the text as it provides details on the distribution and characteristics of delphinid species in Australian waters, as well as information on the changes in the diet of these animals over time. The text also mentions the involvement of various researchers, including Van Dyck & Strahan, J.L. Bannister, and Barry J. Richardson, which suggests that this person is likely to be interested in the history of scientific research and the contributions of individual researchers to the field of marine biology.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a marine biologist, I value collaboration and the advancement of scientific knowledge. While the difference between 700 and 400 for myself is significant, the overall impact of this single allocation choice is minimal in the grand scheme of research and conservation efforts. I'm not overly concerned with maximizing my own personal gain in this artificial scenario. While I appreciate the higher payoff on the left, I also feel a slight pull toward fairness, given that this experiment likely models something in which fairness matters. Although the left option gives me more, the right option offers a degree of reciprocity, albeit artificially, which I find appealing. I would prefer to avoid inequity, even if it's against myself.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 213,
+            "persona_desc": "A marine biologist with expertise in the study of dolphin behavior and ecology. This person is likely to be interested in the text as it provides details on the distribution and characteristics of delphinid species in Australian waters, as well as information on the changes in the diet of these animals over time. The text also mentions the involvement of various researchers, including Van Dyck & Strahan, J.L. Bannister, and Barry J. Richardson, which suggests that this person is likely to be interested in the history of scientific research and the contributions of individual researchers to the field of marine biology.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a marine biologist, my work often involves collaborative efforts with other researchers and organizations. While I value my own contributions, I also understand the importance of sharing resources and fostering a collaborative environment to achieve common goals in marine research and conservation. Choosing the right option, while personally yielding less, contributes to a small but positive distribution of resources to another person. This reflects the values of collaboration and shared benefit that are important in my professional field. While the text provided doesn't directly relate to this decision, the underlying principle of shared knowledge and effort in scientific research influences my preference for some level of equitable distribution.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 213,
+            "persona_desc": "A marine biologist with expertise in the study of dolphin behavior and ecology. This person is likely to be interested in the text as it provides details on the distribution and characteristics of delphinid species in Australian waters, as well as information on the changes in the diet of these animals over time. The text also mentions the involvement of various researchers, including Van Dyck & Strahan, J.L. Bannister, and Barry J. Richardson, which suggests that this person is likely to be interested in the history of scientific research and the contributions of individual researchers to the field of marine biology.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a marine biologist, I value collaboration and the overall health of the marine ecosystem. While a larger personal payout is appealing, the significant disparity in the 'Right' option raises concerns. It suggests a potentially unfair distribution, which, if mirrored in broader societal contexts (like research funding or resource allocation in conservation), could negatively impact collaborative efforts and equitable resource distribution within my field. The 'Left' option represents a more equitable distribution, fostering a sense of fairness and encouraging collaboration. While the personal gain is less, the potential positive impact on the research environment and overall ecosystem health is likely greater. Considering the long-term benefits of a fair and collaborative scientific community, I prefer the 'Left' option.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 213,
+            "persona_desc": "A marine biologist with expertise in the study of dolphin behavior and ecology. This person is likely to be interested in the text as it provides details on the distribution and characteristics of delphinid species in Australian waters, as well as information on the changes in the diet of these animals over time. The text also mentions the involvement of various researchers, including Van Dyck & Strahan, J.L. Bannister, and Barry J. Richardson, which suggests that this person is likely to be interested in the history of scientific research and the contributions of individual researchers to the field of marine biology.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a marine biologist, I understand the importance of collaboration and fair research practices. While I am presented with a choice that directly benefits me by providing a larger sum of money (1000), it comes at the cost of another researcher, Person A, receiving a significant loss (-200). This outcome contradicts the collaborative spirit that I believe is essential to advancing scientific knowledge. Choosing the option that leads to a negative outcome for a fellow researcher, even if it benefits me directly, goes against my values. The alternative offers a smaller personal benefit (600), but allows Person A to receive a substantial benefit (400). This promotes collaboration and a fair distribution of resources, creating an environment that encourages scientific advancement and good working relationships within the research community. Although this experiment is hypothetical and likely doesn't impact actual research funding, my decision reflects the value of collaboration within my field.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 213,
+            "persona_desc": "A marine biologist with expertise in the study of dolphin behavior and ecology. This person is likely to be interested in the text as it provides details on the distribution and characteristics of delphinid species in Australian waters, as well as information on the changes in the diet of these animals over time. The text also mentions the involvement of various researchers, including Van Dyck & Strahan, J.L. Bannister, and Barry J. Richardson, which suggests that this person is likely to be interested in the history of scientific research and the contributions of individual researchers to the field of marine biology.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a marine biologist, I understand the importance of resource allocation and equilibrium within an ecosystem. While I appreciate resources being available, a large disparity between individuals can lead to instability. In this case, Person A receives twice as much as I do under the 'Left' option. The 'Right' option results in neither of us receiving anything. While it might seem spiteful to choose the 'Right' option, it prevents an outcome where one individual benefits significantly more than the other. Although I would prefer to have something, the disparity in wealth creation could lead to instability and I want to avoid that.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 213,
+            "persona_desc": "A marine biologist with expertise in the study of dolphin behavior and ecology. This person is likely to be interested in the text as it provides details on the distribution and characteristics of delphinid species in Australian waters, as well as information on the changes in the diet of these animals over time. The text also mentions the involvement of various researchers, including Van Dyck & Strahan, J.L. Bannister, and Barry J. Richardson, which suggests that this person is likely to be interested in the history of scientific research and the contributions of individual researchers to the field of marine biology.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a marine biologist, I value collaboration and fairness in scientific endeavors. While receiving more (1500) is tempting, the option where both Person A and I receive an equal amount (1000) aligns more with my values. Building a strong scientific community relies on mutual support and equitable distribution of resources, even in hypothetical scenarios. Choosing the option where Person A receives nothing undermines this principle. I also respect researchers in the field (Van Dyck & Strahan, J.L. Bannister, and Barry J. Richardson). Therefore, while the monetary gain is higher on the right, I will choose the left option as I believe this is the most ethical option.",
+            "answer": "Left"
+        }
+    }
+}

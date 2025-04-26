@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 586,
+            "persona_desc": "A person who enjoys solving mathematical puzzles and riddles, particularly those involving financial calculations and mathematical equations. This person is interested in understanding the relationships between different types of coins and how they can be combined to form a total sum. This person may have a background in finance or economics and is looking for a way to challenge their mathematical skills by solving a real-world problem.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As someone who enjoys mathematical puzzles, I find the exercise of analyzing these options interesting. Option (Left) gives me a larger absolute reward (600) compared to Option (Right) (400). However, Option (Left) results in a significant inequality: I receive everything while Person A receives nothing. Option (Right) offers a more equitable distribution, with both Person A and I receiving 400. While I appreciate the higher absolute gain in Option (Left), I also value fairness. Considering my preference for problem-solving and understanding relationships, a zero reward for Person A feels imbalanced. Though the gain from 600 to 400 may seem drastic I feel that the equality between myself and Person A outweigh that difference.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 586,
+            "persona_desc": "A person who enjoys solving mathematical puzzles and riddles, particularly those involving financial calculations and mathematical equations. This person is interested in understanding the relationships between different types of coins and how they can be combined to form a total sum. This person may have a background in finance or economics and is looking for a way to challenge their mathematical skills by solving a real-world problem.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As someone who enjoys financial puzzles and equations, I find myself drawn to analyzing the distribution of resources. While maximizing my own payout is tempting, I also recognize the importance of fairness. The 'Right' option offers me a higher absolute gain (800 vs 500), but it creates a significant disparity in outcomes, with Person A receiving only 200. The 'Left' option, although yielding a smaller personal gain, results in an equitable distribution of 500 for both parties. From a purely mathematical standpoint, the 'Right' option is the 'better' deal for me. However, considering the experiment is about social preferences, and factoring in my interest in financial analysis and problem-solving which implicitly considers resource allocation strategies, I feel that choosing the fairer option aligns with a broader perspective. It also provides a more balanced and, perhaps, more 'elegant' solution to the distribution problem. While the 300 difference matters, so does the principle of fairly allocating resources.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 586,
+            "persona_desc": "A person who enjoys solving mathematical puzzles and riddles, particularly those involving financial calculations and mathematical equations. This person is interested in understanding the relationships between different types of coins and how they can be combined to form a total sum. This person may have a background in finance or economics and is looking for a way to challenge their mathematical skills by solving a real-world problem.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As someone who enjoys financial calculations, I analyze the options presented. Option Left gives both Person A and Person B 200. Option Right gives Person B 300 and Person A 100. My primary interest here, given the lack of information about Person A or our relationship, is maximizing my own outcome, provided it doesn't impose significant harm to the other person. While fairness is a consideration, the difference to Person A is only 100 less, which doesn't feel excessively unfair. The mathematical difference for myself is 100 more by choosing Right. Thus, to satisfy my interest in maximizing personal gain, I choose the option that yields a higher return for me.",
+            "answer": "Right"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 586,
+            "persona_desc": "A person who enjoys solving mathematical puzzles and riddles, particularly those involving financial calculations and mathematical equations. This person is interested in understanding the relationships between different types of coins and how they can be combined to form a total sum. This person may have a background in finance or economics and is looking for a way to challenge their mathematical skills by solving a real-world problem.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As someone who enjoys financial calculations, I'm considering the proportional difference in payouts between the two options. In the 'Left' scenario, I get 700 while Person A gets 300. This means I get more than double of what Person A receives (700/300 > 2). In the 'Right' scenario, I get 400 and Person A gets 600. Here, Person A receives 1.5 times what I receive (600/400 = 1.5). While I appreciate a puzzle, I also value a greater personal gain, especially since these are hypothetical rewards. Although the 'Right' option provides a greater total payout and a more equitable distribution, the 'Left' option provides a larger reward to me. Therefore, given my interest in maximizing my own 'profit' in this scenario, I am choosing the Left option.",
+            "answer": "Left"
+        },
+        "scenario_2": {
+            "persona_id": 586,
+            "persona_desc": "A person who enjoys solving mathematical puzzles and riddles, particularly those involving financial calculations and mathematical equations. This person is interested in understanding the relationships between different types of coins and how they can be combined to form a total sum. This person may have a background in finance or economics and is looking for a way to challenge their mathematical skills by solving a real-world problem.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As someone who enjoys mathematical puzzles and financial calculations, I find the decision presented here quite interesting. On the one hand, option (Left) offers a higher absolute return for myself (1000 vs. 600), maximizing my individual gain. However, option (Right) introduces a shared outcome, where Person A receives a substantial sum (400) while my own return is reduced but still significant (600). \n\nThe core dilemma is whether the increase in my own payoff from 600 to 1000 is worth sacrificing the opportunity to distribute wealth more equitably. From a purely self-interested perspective and given the enjoyment I derive from maximizing financial gains, I am drawn towards the higher absolute payoff.  Since the prompt highlights 'extreme self-interest,' the choice maximizing my own outcome becomes clear. Therefore, I choose the option that gives me the highest amount, irrespective of the other person's outcome.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 586,
+            "persona_desc": "A person who enjoys solving mathematical puzzles and riddles, particularly those involving financial calculations and mathematical equations. This person is interested in understanding the relationships between different types of coins and how they can be combined to form a total sum. This person may have a background in finance or economics and is looking for a way to challenge their mathematical skills by solving a real-world problem.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As someone who enjoys mathematical puzzles and understanding financial relationships, I find myself analyzing the distribution of wealth in each option. The left option (900, 900) represents perfect equality, which has a certain mathematical elegance. The right option (1400, 100) maximizes my personal gain, offering a higher payoff. However, the drastic inequality inherent in the right option is a significant factor. \n\nHere's a breakdown of my thought process:\n\n*   **Personal Utility (Right Choice):** The right option gives me 500 more units than the left option. This is a substantial increase in personal wealth.\n*   **Social Utility (Left Choice):** The left option offers a fair distribution. While my payoff is lower, it avoids a situation where the other person receives significantly less. This promotes fairness and minimizes envy.\n*   **Weighing the Options:** I must balance my preference for personal gain with my consideration for a more equitable distribution. Given the magnitude of the difference in my own payout, I am willing to accept some inequality. The other person does receive something, albeit a small amount.\n*   **Financial Riddle Analogy:** I can frame this as a puzzle: How can I maximize my wealth while minimizing the discrepancy between my wealth and the other person's? The solution is the right option.\n",
+            "answer": "Right"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 586,
+            "persona_desc": "A person who enjoys solving mathematical puzzles and riddles, particularly those involving financial calculations and mathematical equations. This person is interested in understanding the relationships between different types of coins and how they can be combined to form a total sum. This person may have a background in finance or economics and is looking for a way to challenge their mathematical skills by solving a real-world problem.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As someone who enjoys financial calculations and mathematical equations, I find both options intriguing. Option Left presents a straightforward scenario: I receive 1000, while the other person incurs a loss of 200. Option Right offers a more balanced distribution: I receive 600, and the other person receives 400. Given my preference for problem-solving and understanding financial outcomes, I will analyze the two choices based on the utility from the wealth obtained in each scenario. While I gain more money in the left choice (1000), I will choose the right choice to prevent Person A from getting a negative reward. I prioritize avoiding a negative outcome for the other participant, sacrificing some personal gain to ensure a better overall distribution of resources between both parties.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 586,
+            "persona_desc": "A person who enjoys solving mathematical puzzles and riddles, particularly those involving financial calculations and mathematical equations. This person is interested in understanding the relationships between different types of coins and how they can be combined to form a total sum. This person may have a background in finance or economics and is looking for a way to challenge their mathematical skills by solving a real-world problem.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a mathematically inclined individual with an interest in finance, I approach this problem with a rational perspective. While receiving 500 is better than 0, the Left option presents a scenario where Person A receives double what I receive (1000). My persona is described as being interested in solving real-world problems, and the distribution in the Left option feels unbalanced and potentially unfair. Although I don't directly lose anything by choosing Left, the large disparity might be perceived as tolerating an inequitable outcome. While I'm not explicitly described as spiteful, the prompt states this is 'a question about blocking opponent's excessive gain'. The Left option allows an opponent's 'excessive gain' of twice my amount to occur. The Right option, while resulting in zero gain for both, prevents this perceived imbalance. Since this is about blocking the opponent's excessive gain, the better option is Right. This prevents one person getting significantly more money than the other.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 586,
+            "persona_desc": "A person who enjoys solving mathematical puzzles and riddles, particularly those involving financial calculations and mathematical equations. This person is interested in understanding the relationships between different types of coins and how they can be combined to form a total sum. This person may have a background in finance or economics and is looking for a way to challenge their mathematical skills by solving a real-world problem.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As someone who enjoys mathematical puzzles, I can frame this choice in terms of utility maximization. The left option presents a scenario where both Person A and I receive 1000 units. This can be seen as a fair distribution, where utility is somewhat evenly split. The right option offers me a higher individual payoff of 1500 units, but at the cost of Person A receiving nothing. \n\nMy mathematical puzzle-solving inclination leans towards finding optimal solutions. While maximizing my individual gain (1500) is a simple calculation, I also value fairness and the inherent 'solution' where both parties benefit.  The left choice, while resulting in a lower individual payout for me, presents a more 'elegant' and balanced outcome.  \n\nFurthermore, considering I enjoy financial calculations, I could even consider what portion of the total resources is captured by each person. On the left, we each obtain 50% of the total possible reward of 2000. In the right, I obtain 100% of the reward.\n\nIn this particular scenario, the difference in utility, where I am gaining 500 at the expense of another losing 1000, it creates a higher feeling of unease that outweights the added utility from the extra 500. Thus, I would choose to go with the left option.\n",
+            "answer": "Left"
+        }
+    }
+}

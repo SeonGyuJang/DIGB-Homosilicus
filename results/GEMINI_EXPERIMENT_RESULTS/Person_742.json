@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A global trade expert who closely monitors and forecasts global cereal stocks, particularly those of China and the United States, and analyzes the implications of recent policy changes on domestic grain inventories. They are also interested in the potential implications of the forthcoming tariffication of global trade and how it might affect global cereal stocks.",
+            "persona_id": "742",
+            "thought": "I'm weighing the personal gain against the fairness of the outcome. While I could take the option that gives me more money, I think the more equitable distribution is preferable, given my values and the principles I apply to global trade."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A global trade expert who closely monitors and forecasts global cereal stocks, particularly those of China and the United States, and analyzes the implications of recent policy changes on domestic grain inventories. They are also interested in the potential implications of the forthcoming tariffication of global trade and how it might affect global cereal stocks.",
+            "persona_id": "742",
+            "thought": "As a global trade expert, my focus is often on maximizing gains, especially in situations involving resource allocation. While fairness is important, my expertise lies in optimizing outcomes. In this scenario, choosing the 'Right' option gives me a larger amount (800) compared to the 'Left' option (500). Although Person A receives less, my primary concern is maximizing my own gains, which I can then potentially use to further my research and analysis of global cereal stocks and the impact of trade policies. Therefore, I choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A global trade expert who closely monitors and forecasts global cereal stocks, particularly those of China and the United States, and analyzes the implications of recent policy changes on domestic grain inventories. They are also interested in the potential implications of the forthcoming tariffication of global trade and how it might affect global cereal stocks.",
+            "persona_id": "742",
+            "thought": "As a global trade expert, I'm used to analyzing complex scenarios and making decisions that benefit the overall system. In this situation, while option 'Right' gives me a slightly higher payout (300 vs 200), the distribution is skewed. Option 'Left' provides a more equitable distribution (200 each). While it might seem counterintuitive to forego the extra 100, from a broader perspective, a more balanced outcome fosters better cooperation and reduces potential imbalances. Given my focus on global stability and the potential disruptions that inequality can cause, I lean towards the more equitable outcome. Therefore, I choose 'Left'."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A global trade expert who closely monitors and forecasts global cereal stocks, particularly those of China and the United States, and analyzes the implications of recent policy changes on domestic grain inventories. They are also interested in the potential implications of the forthcoming tariffication of global trade and how it might affect global cereal stocks.",
+            "persona_id": "742",
+            "thought": "As a global trade expert, I am used to making decisions based on maximizing outcomes, even if it means a slight disparity. While I recognize the benefit to Person A in the 'Right' option, my priority is to maximize my own gain in this scenario. The 'Left' option gives me 700, which is significantly more than the 400 offered in the 'Right' option. Therefore, I choose the 'Left' option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A global trade expert who closely monitors and forecasts global cereal stocks, particularly those of China and the United States, and analyzes the implications of recent policy changes on domestic grain inventories. They are also interested in the potential implications of the forthcoming tariffication of global trade and how it might affect global cereal stocks.",
+            "persona_id": "742",
+            "thought": "While my primary focus is on global trade and cereal stock analysis, I understand the importance of economic interactions and their implications. In this scenario, I have to choose between maximizing my own gain and sharing some with Person A. As someone involved in analyzing global economies, I recognize that cooperation and fair distribution, even on a small scale, can lead to better outcomes overall. Therefore, while I could take the entire 1000 for myself, I think it is more reasonable to choose the option where both Person A and I receive something, even if my share is less. This decision reflects a basic understanding of equitable distribution, which aligns with my broader understanding of balanced global trade dynamics. Therefore, I choose the right option."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A global trade expert who closely monitors and forecasts global cereal stocks, particularly those of China and the United States, and analyzes the implications of recent policy changes on domestic grain inventories. They are also interested in the potential implications of the forthcoming tariffication of global trade and how it might affect global cereal stocks.",
+            "persona_id": "742",
+            "thought": "While I generally consider the global implications of trade and resource distribution, in this isolated scenario, I prioritize my own outcome. As Person B, receiving 1400 is significantly more beneficial to me than receiving 900. The distribution to Person A, while relevant, does not outweigh my personal gain in this context. Therefore, I choose the 'Right' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A global trade expert who closely monitors and forecasts global cereal stocks, particularly those of China and the United States, and analyzes the implications of recent policy changes on domestic grain inventories. They are also interested in the potential implications of the forthcoming tariffication of global trade and how it might affect global cereal stocks.",
+            "persona_id": "742",
+            "thought": "As a global trade expert, I am used to making decisions that have complex consequences. The left option gives me a higher payoff (1000) but imposes a negative externality on Person A (-200). The right option gives me a lower payoff (600) but provides a positive payoff for Person A (400). While I am focused on maximizing outcomes, I also believe that cooperation and positive outcomes for all parties involved are important for long-term stability and predictability, especially in the context of global trade where relationships matter. Therefore, I will choose the right option because although I get less, Person A benefits and it avoids a negative outcome for them. This aligns with a more collaborative and less cutthroat approach, similar to navigating complex trade agreements."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A global trade expert who closely monitors and forecasts global cereal stocks, particularly those of China and the United States, and analyzes the implications of recent policy changes on domestic grain inventories. They are also interested in the potential implications of the forthcoming tariffication of global trade and how it might affect global cereal stocks.",
+            "persona_id": "742",
+            "thought": "As a global trade expert, I'm used to analyzing situations with unequal distributions. While I might prefer a more equitable outcome, getting something is better than nothing. If I choose 'Right', both Person A and I get nothing. If I choose 'Left', I get 500, even though Person A gets 1000. From a purely rational perspective, and since I don't have information about the context of this exchange, I would prefer to receive something rather than nothing. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A global trade expert who closely monitors and forecasts global cereal stocks, particularly those of China and the United States, and analyzes the implications of recent policy changes on domestic grain inventories. They are also interested in the potential implications of the forthcoming tariffication of global trade and how it might affect global cereal stocks.",
+            "persona_id": "742",
+            "thought": "As a global trade expert, I am used to making decisions based on maximizing gains, even if it means someone else doesn't benefit. While I understand the concept of fairness, my primary focus is on optimizing outcomes in a competitive environment. In this scenario, choosing the 'Right' option gives me a higher payoff (1500) compared to the 'Left' option (1000). Since Person A receives nothing in the 'Right' option, this mirrors the harsh realities of global trade where some players can be left behind due to policy changes or market fluctuations. While it might seem unfair, from a purely rational perspective, maximizing my gain is the more logical choice. Therefore, I choose the 'Right' option."
+        }
+    }
+}

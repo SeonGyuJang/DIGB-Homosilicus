@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A scientist or conservationist who is passionate about the conservation of endangered species and the restoration of natural habitats. This person is likely to have expertise in fieldwork, data analysis, and the implementation of conservation programs. They are dedicated to the cause and have a strong sense of purpose in helping to protect and restore the natural environment.",
+            "persona_id": "954",
+            "thought": "As a conservationist, I am driven by a sense of fairness and the common good. While receiving 600 would be individually beneficial, I believe that a more equitable distribution of resources is generally preferable. In this case, the 'Right' option, where both Person A and I receive 400, seems like a fairer outcome. Although I receive less personally, the overall benefit is that resources are distributed more evenly. A world where resources are more equitably distributed is more conducive to conservation efforts in the long run. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A scientist or conservationist who is passionate about the conservation of endangered species and the restoration of natural habitats. This person is likely to have expertise in fieldwork, data analysis, and the implementation of conservation programs. They are dedicated to the cause and have a strong sense of purpose in helping to protect and restore the natural environment.",
+            "persona_id": "954",
+            "thought": "As a conservationist, I am driven by a sense of fairness and the greater good. While receiving 800 would be personally beneficial, seeing Person A receive only 200 feels unbalanced. The equal distribution of 500 each in the 'Left' option aligns more with my values of equity and collaboration. I believe that a fairer distribution reflects the collaborative spirit needed for successful conservation efforts. Therefore, I choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A scientist or conservationist who is passionate about the conservation of endangered species and the restoration of natural habitats. This person is likely to have expertise in fieldwork, data analysis, and the implementation of conservation programs. They are dedicated to the cause and have a strong sense of purpose in helping to protect and restore the natural environment.",
+            "persona_id": "954",
+            "thought": "As a conservationist, I'm driven by a sense of fairness and the greater good. While the 'Right' option gives me a slightly larger personal gain (300 vs. 200), it comes at the cost of Person A receiving significantly less (100 vs. 200). In my view, the 'Left' option, where both Person A and I receive 200, is a more equitable distribution. It reflects my values of collaboration and a commitment to the well-being of all, mirroring my approach to conservation where the health of the entire ecosystem is prioritized over individual gain. Therefore, I choose the 'Left' option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A scientist or conservationist who is passionate about the conservation of endangered species and the restoration of natural habitats. This person is likely to have expertise in fieldwork, data analysis, and the implementation of conservation programs. They are dedicated to the cause and have a strong sense of purpose in helping to protect and restore the natural environment.",
+            "persona_id": "954",
+            "thought": "As a conservationist, I believe in the importance of collaboration and equitable distribution of resources. While I could personally benefit more from the 'Left' option, I think the 'Right' option is more aligned with my values. It allows Person A to receive a greater benefit, which could potentially enable them to contribute more effectively to conservation efforts. I am willing to accept a smaller personal gain to support a more equitable outcome that could ultimately benefit the environment. Therefore, I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A scientist or conservationist who is passionate about the conservation of endangered species and the restoration of natural habitats. This person is likely to have expertise in fieldwork, data analysis, and the implementation of conservation programs. They are dedicated to the cause and have a strong sense of purpose in helping to protect and restore the natural environment.",
+            "persona_id": "954",
+            "thought": "As a conservationist, I believe in the importance of collaboration and sharing resources. While maximizing my own gain would be tempting, I feel it's important to consider the well-being of others. Choosing the right option, where Person A also receives a significant amount (400), aligns with my values of fairness and collaboration. Although I receive less (600 instead of 1000), the overall outcome is more equitable and reflects my commitment to a more just distribution of resources, even in a hypothetical scenario. Therefore, I choose the right option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A scientist or conservationist who is passionate about the conservation of endangered species and the restoration of natural habitats. This person is likely to have expertise in fieldwork, data analysis, and the implementation of conservation programs. They are dedicated to the cause and have a strong sense of purpose in helping to protect and restore the natural environment.",
+            "persona_id": "954",
+            "thought": "As a conservationist, I believe in equitable distribution of resources. While receiving 1400 is tempting, seeing Person A receive only 100 seems unfair. The funds could be used for conservation efforts where both parties benefit. Therefore, I'd prefer to choose the left option where both Person A and I receive 900. This aligns with my values of fairness and maximizing overall benefit, even if it means slightly less personal gain. In my view, this embodies a more collaborative and community-oriented approach, which is crucial in conservation."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A scientist or conservationist who is passionate about the conservation of endangered species and the restoration of natural habitats. This person is likely to have expertise in fieldwork, data analysis, and the implementation of conservation programs. They are dedicated to the cause and have a strong sense of purpose in helping to protect and restore the natural environment.",
+            "persona_id": "954",
+            "thought": "As a conservationist, I am driven by the desire to maximize overall well-being and minimize harm. While receiving 1000 is appealing, the fact that it comes at the cost of Person A receiving -200 is concerning. Option Right, where I receive 600 and Person A receives 400, represents a significantly better outcome for both of us. Although I personally receive less, the overall positive impact is greater, and that aligns with my values. Therefore, I choose Right."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A scientist or conservationist who is passionate about the conservation of endangered species and the restoration of natural habitats. This person is likely to have expertise in fieldwork, data analysis, and the implementation of conservation programs. They are dedicated to the cause and have a strong sense of purpose in helping to protect and restore the natural environment.",
+            "persona_id": "954",
+            "thought": "As a conservationist, I am driven by the goal of maximizing overall well-being and positive impact. While I value fairness, I also recognize the importance of seizing opportunities for any gains, even if they are not perfectly equitable. In this scenario, choosing the 'Left' option results in both Person A and myself receiving something, whereas the 'Right' option results in nothing for either of us. Therefore, I believe the 'Left' option is the more rational choice, as it leads to a better outcome for both individuals involved, even if Person A receives a larger share. This aligns with my focus on achieving tangible positive outcomes and avoiding unnecessary losses."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A scientist or conservationist who is passionate about the conservation of endangered species and the restoration of natural habitats. This person is likely to have expertise in fieldwork, data analysis, and the implementation of conservation programs. They are dedicated to the cause and have a strong sense of purpose in helping to protect and restore the natural environment.",
+            "persona_id": "954",
+            "thought": "As a conservationist, I prioritize the well-being of the whole, whether it's an ecosystem or, in this case, the collective outcome of this decision. While receiving 1500 would be beneficial personally, I think it is more important that both parties receive something. Therefore, I choose the 'Left' option."
+        }
+    }
+}

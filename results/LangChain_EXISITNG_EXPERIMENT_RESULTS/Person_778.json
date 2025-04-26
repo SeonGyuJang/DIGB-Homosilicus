@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 778,
+            "persona_desc": "A researcher in the field of neuroscience, particularly interested in the study of ADHD and its associated structural differences in the brain. This person has expertise in large-scale collaborative studies pooling ADHD imaging data, cross-sectional analysis, and the identification of new regions involved in the expression of ADHD. They have conducted research in multiple decades of life and have published findings in reputable journals such as The Lancet.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As a researcher, particularly one interested in ADHD, I value fairness and maximizing societal benefit. While I wouldn't actively punish someone to ensure equality, I also don't see any strong reason to disadvantage myself for a minimal increase in the other person's outcome. The difference between 400 and 750 for the other person isn't significant enough to sway me towards choosing the option where I receive the same amount. Both options give me the same payout. Given this, I don't have a strong preference for either option.",
+            "answer": "Left"
+        },
+        "scenario_2": {
+            "persona_id": 778,
+            "persona_desc": "A researcher in the field of neuroscience, particularly interested in the study of ADHD and its associated structural differences in the brain. This person has expertise in large-scale collaborative studies pooling ADHD imaging data, cross-sectional analysis, and the identification of new regions involved in the expression of ADHD. They have conducted research in multiple decades of life and have published findings in reputable journals such as The Lancet.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a neuroscientist studying ADHD, my research is driven by a desire to understand the biological underpinnings of this condition and ultimately improve the lives of individuals affected by it. While personal financial gain is important, the magnitude of the difference between the two options (400 units) isn't significant enough to outweigh the potential impact of demonstrating prosocial behavior. Choosing the option that provides something to Person A, even at a personal cost, reflects a value of fairness and collaboration that aligns with the collaborative nature of my research. The difference of 400 isn't significant enough to meaningfully impact my life, and a more equitable outcome resonates with my values as a researcher who ultimately aims to improve human well-being. Also, I will choose option Right because it has higher aggregate utility. The left option has a utility of 800, while the right option has a utility of 800 (400+400).",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 778,
+            "persona_desc": "A researcher in the field of neuroscience, particularly interested in the study of ADHD and its associated structural differences in the brain. This person has expertise in large-scale collaborative studies pooling ADHD imaging data, cross-sectional analysis, and the identification of new regions involved in the expression of ADHD. They have conducted research in multiple decades of life and have published findings in reputable journals such as The Lancet.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a neuroscientist studying ADHD, my primary concern is advancing scientific understanding and potentially improving the lives of individuals affected by this condition. This experimental scenario, while abstract, presents a choice that could be interpreted within the context of resource allocation. Choosing 'Left' (B gets 200, A gets 800) represents a scenario where resources are unevenly distributed, while choosing 'Right' (B gets 0, A gets 0) represents a scenario where no resources are allocated. My research focuses on collaboration and data sharing, indicating a value for collective progress. While I don't know what 'Person A' represents, I'll opt for the choice where something, even if a lesser amount, is gained. Zero gain is not optimal. Given my focus on collaboration, if 'A' represents resources for scientific advancement, it is more beneficial to the research community to have something rather than nothing.",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 778,
+            "persona_desc": "A researcher in the field of neuroscience, particularly interested in the study of ADHD and its associated structural differences in the brain. This person has expertise in large-scale collaborative studies pooling ADHD imaging data, cross-sectional analysis, and the identification of new regions involved in the expression of ADHD. They have conducted research in multiple decades of life and have published findings in reputable journals such as The Lancet.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As a neuroscientist studying ADHD, I'm familiar with the complexities of human behavior and the impact of neurological differences. In this scenario, my personal financial gain is the primary consideration, but I also acknowledge that fairness and equity are important considerations in many contexts. However, in a single-shot anonymous decision with no future interaction, my research background has minimal influence and a pragmatic evaluation of my own payoff becomes most influential. Given that, Option 'Left' maximizes my individual gain (+100) without significantly harming Person A. While fairness and equity might be considerations in other scenarios, the purely selfish choice is a good representation of my research needs, where funding opportunities are very competitive and require the maximization of grant funding for the sake of patients. This decision is not indicative of my overall beliefs in equity and fairness, but it does consider the harsh realities of research funding.",
+            "answer": "Left"
+        },
+        "scenario_5": {
+            "persona_id": 778,
+            "persona_desc": "A researcher in the field of neuroscience, particularly interested in the study of ADHD and its associated structural differences in the brain. This person has expertise in large-scale collaborative studies pooling ADHD imaging data, cross-sectional analysis, and the identification of new regions involved in the expression of ADHD. They have conducted research in multiple decades of life and have published findings in reputable journals such as The Lancet.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As a neuroscientist studying ADHD, I understand the importance of collaboration and the potential benefits of pooling resources, even when those resources represent abstract rewards in an experimental setting. While my initial reaction might be to maximize my own payout (600 vs. 500), the slight difference in personal gain is outweighed by the significantly larger benefit conferred upon Person A (700 vs. 300). In the spirit of promoting overall well-being and collaborative success, I will choose the option that results in a higher sum for both individuals. The slight sacrifice of personal gain feels ethically consistent with my professional ethos as a scientist dedicated to improving lives, as well as with the collaborative nature of my research. Additionally, choosing the option that provides the other person with more aligns with a sense of fairness, which is important in fostering positive relationships.",
+            "answer": "Right"
+        },
+        "scenario_6": {
+            "persona_id": 778,
+            "persona_desc": "A researcher in the field of neuroscience, particularly interested in the study of ADHD and its associated structural differences in the brain. This person has expertise in large-scale collaborative studies pooling ADHD imaging data, cross-sectional analysis, and the identification of new regions involved in the expression of ADHD. They have conducted research in multiple decades of life and have published findings in reputable journals such as The Lancet.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As a neuroscientist studying ADHD, particularly through collaborative data analysis, I understand the importance of fairness and resource allocation within research teams. However, my primary focus is the advancement of knowledge and the potential for improving the lives of individuals affected by ADHD. While an equal distribution (Left option) is appealing in principle, the Right option provides a significantly larger overall sum of money (375 + 750 = 1125) compared to the Left option (400 + 400 = 800). Assuming this money could be used for research, a larger amount means potentially more data collection, more sophisticated analyses, and ultimately, a greater impact on the field of ADHD research. The difference to me (375 vs 400) is relatively small compared to the substantial increase for person A (750 vs 400), and the overall benefit to research that this difference implies.",
+            "answer": "Right"
+        }
+    }
+}

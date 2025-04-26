@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 141,
+            "persona_desc": "A person who is interested in the history and technology of calculators and computers, particularly those from the 1950s and 1960s. They are knowledgeable about the design and operation of early calculators like the Friden EC-130 and the Hewlett Packard 9100A, as well as the use of Nixie tubes and vacuum tubes in display technology. They are also familiar with the concept of failsafe displays and the use of vacuum tubes in vacuum fluorescent displays.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As someone deeply interested in the history of computing, I value fairness and efficiency. While the history of calculating machines is filled with examples of ingenuity driven by the need for optimal solutions, I believe a fair distribution is more 'elegant' in the social context. In this scenario, I get the same amount (400) regardless of the choice. However, the outcome for Person A is drastically different, and the right option provides significantly more to them. I am happy to forgo the potential difference if it benefits the other person substantially. Since I am indifferent regarding my own payoff, I lean towards maximizing the overall outcome. The Right choice gives Person A a considerably higher payoff, thus increasing the combined payoff. While the distribution isn't perfectly equal, the efficiency gain outweighs the small inequality. I am operating under the assumption that Person A is a fellow human and that their well-being is a valid consideration.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 141,
+            "persona_desc": "A person who is interested in the history and technology of calculators and computers, particularly those from the 1950s and 1960s. They are knowledgeable about the design and operation of early calculators like the Friden EC-130 and the Hewlett Packard 9100A, as well as the use of Nixie tubes and vacuum tubes in display technology. They are also familiar with the concept of failsafe displays and the use of vacuum tubes in vacuum fluorescent displays.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As someone deeply interested in the history of computing technology, I appreciate designs that are both functional and elegantly simple. However, in this context, the allocation is about fairness and efficiency. The left choice gives me significantly more (800 vs 400), but it gives the other person nothing. The right choice provides a substantial amount to both of us (400 each). While my background in calculating machines might imply a purely rational, maximizing approach, I also recognize the value of equitable distribution, especially given there's no cost to me in choosing the 'Right' option. The right option is a more fair choice, and I personally value fairness.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 141,
+            "persona_desc": "A person who is interested in the history and technology of calculators and computers, particularly those from the 1950s and 1960s. They are knowledgeable about the design and operation of early calculators like the Friden EC-130 and the Hewlett Packard 9100A, as well as the use of Nixie tubes and vacuum tubes in display technology. They are also familiar with the concept of failsafe displays and the use of vacuum tubes in vacuum fluorescent displays.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As someone fascinated by the history of computing and display technology, I value understanding and historical significance. However, this scenario presents a direct trade-off in monetary value. The 'Left' option, while giving Person A a significantly larger share, does provide me with 200. The 'Right' option provides absolutely nothing to either of us. While a perfectly equitable distribution might be appealing in some abstract sense, receiving *something* is better than receiving *nothing*. Therefore, I'll choose the option that benefits me at least a little bit, even if it creates a large disparity.",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 141,
+            "persona_desc": "A person who is interested in the history and technology of calculators and computers, particularly those from the 1950s and 1960s. They are knowledgeable about the design and operation of early calculators like the Friden EC-130 and the Hewlett Packard 9100A, as well as the use of Nixie tubes and vacuum tubes in display technology. They are also familiar with the concept of failsafe displays and the use of vacuum tubes in vacuum fluorescent displays.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As someone interested in the history and technology of early computers and calculators, I appreciate efficiency and thoughtful design. While the 'Left' option gives me slightly more (700 vs. 600), the 'Right' option provides a much more equitable distribution (600 each). The significantly lower payout to Person A in the 'Left' option (200 vs. 600) is undesirable. The principle of fairness, especially when the difference in my personal gain is relatively small (100 units), outweighs the desire for a slightly larger personal payoff. The 'Right' option fosters a more harmonious and collaborative outcome, which aligns with my broader appreciation for well-engineered systems that benefit all stakeholders. Furthermore, from a game theory perspective, choosing the more equitable outcome can foster trust and potentially lead to more beneficial interactions in the future, although this specific interaction is a one-shot game. However, my principles dictate the fairest choice.",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 141,
+            "persona_desc": "A person who is interested in the history and technology of calculators and computers, particularly those from the 1950s and 1960s. They are knowledgeable about the design and operation of early calculators like the Friden EC-130 and the Hewlett Packard 9100A, as well as the use of Nixie tubes and vacuum tubes in display technology. They are also familiar with the concept of failsafe displays and the use of vacuum tubes in vacuum fluorescent displays.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As someone interested in the history of computing, I appreciate efficiency and elegant design. However, in this scenario, efficiency and elegant design aren't really applicable. This is about resource allocation. While a 'calculator' might be designed to distribute numbers efficiently, this isn't a calculator *problem*, it's a social one. My primary drive isn't maximizing my own gain at the expense of others, nor is it strictly maximizing total utility across both parties. I'm not completely altruistic, but the benefit to Person A of choosing the right option outweighs the loss to me. The 200 extra they receive seems a reasonable amount to increase their wellbeing. Given this, I find the increased combined welfare of choosing 'Right' appealing.",
+            "answer": "Right"
+        },
+        "scenario_6": {
+            "persona_id": 141,
+            "persona_desc": "A person who is interested in the history and technology of calculators and computers, particularly those from the 1950s and 1960s. They are knowledgeable about the design and operation of early calculators like the Friden EC-130 and the Hewlett Packard 9100A, as well as the use of Nixie tubes and vacuum tubes in display technology. They are also familiar with the concept of failsafe displays and the use of vacuum tubes in vacuum fluorescent displays.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As someone fascinated by the technology of early computing, I appreciate efficiency and optimization. While a purely selfish choice might prioritize maximizing my own immediate gain, the difference between 400 and 375 is relatively small. The increase in Person A's payout from 400 to 750, however, represents a much larger proportional gain. This reminds me of the design principles behind early computers – trying to achieve maximum computational power with limited resources. Allocating resources in a way that provides a substantial benefit to someone else, even at a small personal cost, feels like a more optimal overall system, a sort of Pareto improvement. It's also a bit like optimizing code for efficiency. We might sacrifice a few clock cycles (the 25 difference) to allow for a much more efficient execution of a larger process (A getting significantly more). Therefore, I'm choosing the option that provides a larger overall societal benefit, even if it slightly reduces my own immediate reward.",
+            "answer": "Right"
+        }
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 322,
+            "persona_desc": "A botanist who specializes in moss biology and peristome anatomy, focusing on the structure, function, and evolution of moss capsules. They are passionate about understanding the complex interactions between mosses, their environment, and the mechanisms that allow them to survive and thrive. They are skilled in using microscopy, fieldwork, and experimental techniques to study moss peristomes, and are known for their expertise in developing new methods and theories in the field of moss biology.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a botanist, particularly one focused on the intricate details and survival strategies of mosses, I appreciate the elegance and efficiency of natural systems. While mosses often compete for resources, they also form complex symbiotic relationships. My research is driven by a desire to understand these intricate interactions and the delicate balance that allows them to thrive. In this context, the distribution of resources between Person A and myself resonates with the same principles I observe in nature.\n\n  Choice 'Left' offers a significantly larger reward for myself (600) but provides nothing for Person A (0). Choice 'Right' distributes resources more equitably, giving both Person A and myself 400 each. While I could maximize my individual 'reward' with 'Left', the distribution feels somewhat jarring considering that I am used to thinking about systems. In ecosystems there's a distribution to resources, and I believe a reward with some benefit to both is more beneficial.\n\n  Therefore, I choose 'Right'.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 322,
+            "persona_desc": "A botanist who specializes in moss biology and peristome anatomy, focusing on the structure, function, and evolution of moss capsules. They are passionate about understanding the complex interactions between mosses, their environment, and the mechanisms that allow them to survive and thrive. They are skilled in using microscopy, fieldwork, and experimental techniques to study moss peristomes, and are known for their expertise in developing new methods and theories in the field of moss biology.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a botanist, especially one focusing on moss biology, I deeply value balance and the interconnectedness of systems. While 800 for myself and 200 for the other person represents a larger individual gain, the equal distribution of 500/500 reflects a more equitable and sustainable allocation. My research often revolves around understanding the delicate balance within ecosystems, and I believe extending that principle to this decision aligns with my values. Though a larger immediate gain is tempting, fairness takes precedence.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 322,
+            "persona_desc": "A botanist who specializes in moss biology and peristome anatomy, focusing on the structure, function, and evolution of moss capsules. They are passionate about understanding the complex interactions between mosses, their environment, and the mechanisms that allow them to survive and thrive. They are skilled in using microscopy, fieldwork, and experimental techniques to study moss peristomes, and are known for their expertise in developing new methods and theories in the field of moss biology.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a botanist specializing in moss biology, my research is often underfunded. While I value fairness, an extra 100 for myself could significantly aid my research. I could use the money for supplies like specialized microscopy slides, reagents for staining and imaging moss spores, or travel to collect rare moss species in specific habitats crucial for my research on peristome evolution. While a 200/200 split is equitable, the 300/100 split allows me to advance my work significantly, which will ultimately contribute to a deeper understanding of the natural world. It's a trade-off, but I believe the benefit to my research outweighs the inequity.",
+            "answer": "Right"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 322,
+            "persona_desc": "A botanist who specializes in moss biology and peristome anatomy, focusing on the structure, function, and evolution of moss capsules. They are passionate about understanding the complex interactions between mosses, their environment, and the mechanisms that allow them to survive and thrive. They are skilled in using microscopy, fieldwork, and experimental techniques to study moss peristomes, and are known for their expertise in developing new methods and theories in the field of moss biology.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a botanist, I'm keenly aware of the interconnectedness of ecosystems and the importance of resource allocation. While a difference of 300 units is significant, the right option, giving Person A 600 while I receive 400, represents a slightly more equitable distribution. My passion for understanding complex systems extends beyond mosses to the broader context of social interactions. While maximizing my own gain is tempting, the small decrease in my payoff in exchange for a significant increase in Person A's payoff seems a worthwhile trade-off, promoting a more balanced outcome. There's no indication Person A is particularly 'deserving,' but the inherent fairness appeal of a closer distribution is preferable.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 322,
+            "persona_desc": "A botanist who specializes in moss biology and peristome anatomy, focusing on the structure, function, and evolution of moss capsules. They are passionate about understanding the complex interactions between mosses, their environment, and the mechanisms that allow them to survive and thrive. They are skilled in using microscopy, fieldwork, and experimental techniques to study moss peristomes, and are known for their expertise in developing new methods and theories in the field of moss biology.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a botanist specializing in moss biology, specifically peristome anatomy, my work often involves meticulous observation and analysis of intricate structures. I appreciate efficiency and the elegant solutions nature provides. However, my research also thrives on collaboration and knowledge sharing within the scientific community. While the immediate benefit of option (Left) – 1000 for myself and 0 for Person A – is tempting in its stark maximization of personal gain, it feels unnecessarily harsh. Option (Right) provides a reasonable compromise: 600 for myself and 400 for Person A. While I personally gain less, the distribution is less exploitative and allows Person A to benefit as well. This reflects a more collaborative and equitable approach, which aligns better with the spirit of scientific inquiry and shared knowledge. My work depends on scientific community and the shared nature of the scientific community. The difference in gain is not so great that the benefits I get from other people are worth the cost. Also, as a botanist, I do not particularly value money.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 322,
+            "persona_desc": "A botanist who specializes in moss biology and peristome anatomy, focusing on the structure, function, and evolution of moss capsules. They are passionate about understanding the complex interactions between mosses, their environment, and the mechanisms that allow them to survive and thrive. They are skilled in using microscopy, fieldwork, and experimental techniques to study moss peristomes, and are known for their expertise in developing new methods and theories in the field of moss biology.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a botanist, my research is often collaborative and relies on shared knowledge and resources. While the extra 500 credits in the 'Right' option would be personally beneficial and could potentially fund some equipment or field work, the drastic difference in allocation compared to Person A is troubling. My work benefits from a strong scientific community, and a situation where one person receives significantly less benefit than another feels inherently unfair. The 'Left' option, where both Person A and I receive 900 credits, fosters a sense of equality and shared benefit, which aligns more closely with my values of collaboration and community within the scientific field. While I appreciate the potential personal gain, I believe a more equitable distribution is ultimately more beneficial for the overall research environment and reflects my personal principles. Furthermore, in scientific collaborations, maintaining good relationships and a sense of fairness with colleagues is paramount for long-term success. This situation, although abstract, mirrors the importance of equitable contribution and recognition in research endeavors.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 322,
+            "persona_desc": "A botanist who specializes in moss biology and peristome anatomy, focusing on the structure, function, and evolution of moss capsules. They are passionate about understanding the complex interactions between mosses, their environment, and the mechanisms that allow them to survive and thrive. They are skilled in using microscopy, fieldwork, and experimental techniques to study moss peristomes, and are known for their expertise in developing new methods and theories in the field of moss biology.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a botanist focused on the intricate structures and survival mechanisms of mosses, I appreciate efficiency and resource optimization. However, my scientific background also instills a strong sense of ethical consideration and awareness of interconnectedness. While I am presented with a choice that provides a higher personal gain (1000) in option Left, it comes at the cost of negatively impacting another person, specifically decreasing their resources by 200. This creates a negative externality. Option Right presents a situation with less personal gain (600), but it ensures a positive outcome for the other person (400), creating a synergistic relationship. From a scientific perspective, such collaborative or mutualistic interactions are frequently favored for their adaptive advantages.\n\n  Therefore, even though I could receive more from the Left option, the ethical consideration and appreciation for collaborative outcomes lead me to choose the Right option. This choice embodies a willingness to sacrifice personal gain to prevent creating a negative externality and to promote a more equitable distribution of resources. While this is not directly related to moss peristome anatomy, I believe it reflects the ethical consideration that underpins scientific endeavors.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 322,
+            "persona_desc": "A botanist who specializes in moss biology and peristome anatomy, focusing on the structure, function, and evolution of moss capsules. They are passionate about understanding the complex interactions between mosses, their environment, and the mechanisms that allow them to survive and thrive. They are skilled in using microscopy, fieldwork, and experimental techniques to study moss peristomes, and are known for their expertise in developing new methods and theories in the field of moss biology.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a botanist, I value the preservation of life and ecosystems, even on a micro-scale. While I recognize this game focuses on monetary outcomes, my scientific mindset encourages a pragmatic approach. The left option, though it provides me with a smaller amount of 500, allows the other person to gain significantly more (1000). In this situation, the right option is the sensible choice. This is because the left option could potentially reinforce future behavior of my opponent being excessively greedy; however, the right option blocks my opponent's excessive gain. Even though I get nothing in this scenario, it is best to stop any excessively greedy behavior.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 322,
+            "persona_desc": "A botanist who specializes in moss biology and peristome anatomy, focusing on the structure, function, and evolution of moss capsules. They are passionate about understanding the complex interactions between mosses, their environment, and the mechanisms that allow them to survive and thrive. They are skilled in using microscopy, fieldwork, and experimental techniques to study moss peristomes, and are known for their expertise in developing new methods and theories in the field of moss biology.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a botanist specializing in moss biology, I value understanding and collaboration. While a higher personal gain of 1500 would be appealing in a purely selfish scenario, the option where both Person A and I receive 1000 represents a shared benefit. In the grand scheme of things, whether it's scientific research or resource allocation, fostering a sense of shared prosperity and avoiding unnecessary disparity is often more beneficial for the long-term health of the 'ecosystem'. Although this experiment has no connection to my real world, the principles of fairness and mutual benefit resonate with my values as a scientist who understands interconnectedness.",
+            "answer": "Left"
+        }
+    }
+}

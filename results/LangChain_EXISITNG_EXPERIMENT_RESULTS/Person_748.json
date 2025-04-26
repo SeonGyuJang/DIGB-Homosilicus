@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 748,
+            "persona_desc": "A farmer who is interested in using solar energy to heat water on his farmland. He is looking for the best materials and angles for his parabolic solar collectors to maximize heat collection and absorption rate. He is also interested in understanding the optimal exposure times for the collectors and how they change over time.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As a farmer looking into solar energy, I value efficiency and maximizing gains. This experiment presents a choice between two outcomes where I receive the same amount (400) regardless. The only difference is the amount Person A receives. Since my own outcome is fixed, and I have no specific reason to penalize or reward Person A, I should consider what choice aligns with a sense of fairness or maximizing the overall benefit. Choosing the Right option leads to Person A getting more, implying a potentially more socially desirable outcome (since the total amount is larger). My research mindset appreciates efficiency and maximization, and therefore I will choose the Right option.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 748,
+            "persona_desc": "A farmer who is interested in using solar energy to heat water on his farmland. He is looking for the best materials and angles for his parabolic solar collectors to maximize heat collection and absorption rate. He is also interested in understanding the optimal exposure times for the collectors and how they change over time.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a farmer interested in maximizing efficiency and resource utilization, I can apply similar principles to this decision. While maximizing my own gain would align with optimizing heat collection for my solar collectors, I also understand the value of shared resources and benefit. Getting 800 while the other person gets 0 is significantly better for me materially. However, the right side is an equal split and I might be helping out another farmer. While as a farmer, I would want to maximize profit, I also want to maximize utility by being fair. Since the numbers are high, and there is a significant loss to myself by choosing the equal split, and no information given about the other player, I choose the left side for financial optimization, but consider the other farmer in my final decision. Since Berk26 is associated with fairness I would choose the equal split, as although the other player receives nothing in the left choice, they also may be a malicious actor and getting equal is not that harmful to me. Thus, I will choose right.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 748,
+            "persona_desc": "A farmer who is interested in using solar energy to heat water on his farmland. He is looking for the best materials and angles for his parabolic solar collectors to maximize heat collection and absorption rate. He is also interested in understanding the optimal exposure times for the collectors and how they change over time.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a farmer interested in solar energy, I am looking for optimal ways to maximize heat collection. This experiment seems unrelated to my interests and provides a simple choice. The 'Left' option gives me a guaranteed 200, while the 'Right' option guarantees nothing. While 200 isn't a lot, it's better than zero. The amount given to Person A doesn't really factor into my decision from a purely self-interested perspective.",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 748,
+            "persona_desc": "A farmer who is interested in using solar energy to heat water on his farmland. He is looking for the best materials and angles for his parabolic solar collectors to maximize heat collection and absorption rate. He is also interested in understanding the optimal exposure times for the collectors and how they change over time.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As a farmer looking to optimize my solar energy setup, I understand the value of efficiency and fairness. While maximizing my own gain is tempting (the Left option), the Right option offers a more equitable distribution, giving Person A significantly more than the Left option. Although I get slightly less personally, the increased overall well-being and the perception of fairness are valuable. My interest in optimizing resource use extends beyond just my own profit; I want to contribute to a better system, and choosing the Right option aligns with that goal.",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 748,
+            "persona_desc": "A farmer who is interested in using solar energy to heat water on his farmland. He is looking for the best materials and angles for his parabolic solar collectors to maximize heat collection and absorption rate. He is also interested in understanding the optimal exposure times for the collectors and how they change over time.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As a farmer interested in optimizing resource utilization, especially solar energy, I value efficiency and maximizing gains. While fairness is a consideration, my primary focus is on improving my own resources to enhance my farming practices. Option (Left) provides me with a higher payout (600) compared to option (Right) (500). Although option (Right) benefits Person A more, the additional benefit to them doesn't outweigh the loss to me, considering I am striving to be efficient and maximize heat absorption for my solar collectors. Therefore, I will choose the option that provides me with the higher payout.",
+            "answer": "Left"
+        },
+        "scenario_6": {
+            "persona_id": 748,
+            "persona_desc": "A farmer who is interested in using solar energy to heat water on his farmland. He is looking for the best materials and angles for his parabolic solar collectors to maximize heat collection and absorption rate. He is also interested in understanding the optimal exposure times for the collectors and how they change over time.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As a farmer interested in maximizing efficiency, I am sensitive to opportunity costs. While the difference between 400 and 375 is relatively small, the significant increase Person A receives (350 more) compared to my minor loss suggests that the total 'social pie' expands considerably under the 'Right' option. This implies a potentially more efficient allocation of resources, which aligns with my values of maximizing output and minimizing waste. The utility derived from my own payoff isn't drastically impacted but the overall benefit in option 'Right' is better. I will choose option 'Right'.",
+            "answer": "Right"
+        }
+    }
+}

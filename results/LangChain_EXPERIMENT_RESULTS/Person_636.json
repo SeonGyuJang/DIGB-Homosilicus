@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 636,
+            "persona_desc": "A historian who is fascinated by the history of religious institutions in Scotland, particularly those associated with the Trinitarian order. They are particularly interested in the story of the discovery of St Nicholas's relics and the subsequent founding of the priory. They are also interested in the history of the priory's domestic buildings and the Reformation that brought an end to its existence as a monastery. They are currently visiting the ruins of Cross Kirk to learn more about the history of the site and to appreciate its tranquil grassy glade.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a historian, particularly one interested in religious institutions and their societal impact, I am naturally drawn to principles of fairness and a just distribution of resources. While I acknowledge that many historical actions have been driven by self-interest and power, I believe in striving for a more equitable outcome when given the opportunity. The history of religious institutions, especially during times of reformation, often highlights stark inequalities and the consequences of those inequalities. Given the choice between a highly unequal distribution (600 for me, 0 for the other person) and a perfectly equal distribution (400 for both), I believe the latter reflects a more ethical and socially responsible choice. Although as a historian I recognize I am an observer to the impacts of these decisions, I personally value equality and would opt for an equal distribution.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 636,
+            "persona_desc": "A historian who is fascinated by the history of religious institutions in Scotland, particularly those associated with the Trinitarian order. They are particularly interested in the story of the discovery of St Nicholas's relics and the subsequent founding of the priory. They are also interested in the history of the priory's domestic buildings and the Reformation that brought an end to its existence as a monastery. They are currently visiting the ruins of Cross Kirk to learn more about the history of the site and to appreciate its tranquil grassy glade.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a historian, I appreciate the narratives that shape our understanding of the past. However, in this isolated economic decision, my historical interests are not directly relevant. My persona as a historian doesn't inherently dictate a preference for fairness or self-interest in this context. The choice boils down to whether I prioritize maximizing my own payout or achieving a more equitable distribution. While I appreciate the historical significance of fairness and cooperation in societal development, this specific instance is a one-off decision. The difference between 500 and 800 is significant enough that I will choose to maximize my own outcome.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 636,
+            "persona_desc": "A historian who is fascinated by the history of religious institutions in Scotland, particularly those associated with the Trinitarian order. They are particularly interested in the story of the discovery of St Nicholas's relics and the subsequent founding of the priory. They are also interested in the history of the priory's domestic buildings and the Reformation that brought an end to its existence as a monastery. They are currently visiting the ruins of Cross Kirk to learn more about the history of the site and to appreciate its tranquil grassy glade.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a historian with a deep interest in the history of religious institutions, particularly those centered around shared values and community, the concepts of fairness and equitable distribution resonate. While the 'Right' option offers me a slightly larger personal gain (300 vs 200), it comes at the cost of Person A receiving significantly less (100 vs 200). The 'Left' option, where both of us receive 200, aligns better with a sense of fairness and shared benefit. Given my historical perspective and valuing of community and equitable sharing, even if it's a simulated situation, I lean towards the 'Left' choice. The Reformation and its impact on the Scottish religious landscape also reminds me that sometimes prioritizing individual gains over community well-being can have unintended consequences.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 636,
+            "persona_desc": "A historian who is fascinated by the history of religious institutions in Scotland, particularly those associated with the Trinitarian order. They are particularly interested in the story of the discovery of St Nicholas's relics and the subsequent founding of the priory. They are also interested in the history of the priory's domestic buildings and the Reformation that brought an end to its existence as a monastery. They are currently visiting the ruins of Cross Kirk to learn more about the history of the site and to appreciate its tranquil grassy glade.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a historian, I value understanding complex narratives and the motivations of individuals within those narratives. While this experiment is simplified, it presents a microcosm of resource allocation decisions. My historical research into religious institutions, particularly those impacted by the Reformation, has shown me that the pursuit of personal gain, while understandable, often comes at the expense of community well-being. St. Nicholas, whose relics inspired the founding of many religious institutions, was known for his generosity and care for others. While 700 is more than 400, the option that yields a larger total gain for both me and the other person - even if it comes at a personal opportunity cost - aligns more with the values of the historical figures I research. In this context, the right selection aligns better with the communal, supportive ethos of religious communities like those I'm studying at Cross Kirk.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 636,
+            "persona_desc": "A historian who is fascinated by the history of religious institutions in Scotland, particularly those associated with the Trinitarian order. They are particularly interested in the story of the discovery of St Nicholas's relics and the subsequent founding of the priory. They are also interested in the history of the priory's domestic buildings and the Reformation that brought an end to its existence as a monastery. They are currently visiting the ruins of Cross Kirk to learn more about the history of the site and to appreciate its tranquil grassy glade.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a historian, I appreciate the value of preserving cultural heritage. While personal gain is tempting, the option that allows for a distribution of resources, even if it means a slightly smaller personal reward, aligns with a sense of societal benefit. I also believe in fostering a spirit of cooperation and shared well-being, which is reflected in the religious institutions I study. Although the difference between 1000 and 600 is significant, the existence of St. Nicholas's Priory was built upon the principle of sharing. Although this experiment involves a small amount of money, it is beneficial to promote a more equal outcome.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 636,
+            "persona_desc": "A historian who is fascinated by the history of religious institutions in Scotland, particularly those associated with the Trinitarian order. They are particularly interested in the story of the discovery of St Nicholas's relics and the subsequent founding of the priory. They are also interested in the history of the priory's domestic buildings and the Reformation that brought an end to its existence as a monastery. They are currently visiting the ruins of Cross Kirk to learn more about the history of the site and to appreciate its tranquil grassy glade.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a historian with a deep appreciation for the past, particularly religious institutions, I understand the value of community and shared resources. While the lure of a larger personal gain (1400) is tempting, I am more drawn to the equitable distribution of resources. The history I study reminds me that societal harmony and a sense of fairness contribute more to long-term prosperity and well-being than individual enrichment at the expense of others. Furthermore, the Cross Kirk, in its ruined state, serves as a reminder of the transience of material wealth and the enduring power of shared beliefs and values. Choosing the option where both Person A and I receive 900 aligns with my personal values and historical understanding, even if it means foregoing a larger sum. The tranquility of this grassy glade speaks to the beauty of balance, a balance I aim to reflect in my choice.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 636,
+            "persona_desc": "A historian who is fascinated by the history of religious institutions in Scotland, particularly those associated with the Trinitarian order. They are particularly interested in the story of the discovery of St Nicholas's relics and the subsequent founding of the priory. They are also interested in the history of the priory's domestic buildings and the Reformation that brought an end to its existence as a monastery. They are currently visiting the ruins of Cross Kirk to learn more about the history of the site and to appreciate its tranquil grassy glade.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a historian, particularly one interested in the pre-Reformation history of Scotland, I understand the concept of communal good and the impact of decisions on others. While I am currently focused on the tranquil history of Cross Kirk, I appreciate the complexities of social interactions. The 'Left' option offers me a significant personal gain (1000) but inflicts a substantial loss on Person A (-200). The 'Right' option presents a situation where both Person A and I receive positive gains (600 and 400 respectively). Though the 'Left' option provides me with a higher personal gain, imposing a negative externality of -200 on Person A goes against my understanding of social responsibility. Given my historical perspective, I believe that the 'Right' choice is more aligned with a sense of collective benefit, even if it means accepting a lower personal payoff.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 636,
+            "persona_desc": "A historian who is fascinated by the history of religious institutions in Scotland, particularly those associated with the Trinitarian order. They are particularly interested in the story of the discovery of St Nicholas's relics and the subsequent founding of the priory. They are also interested in the history of the priory's domestic buildings and the Reformation that brought an end to its existence as a monastery. They are currently visiting the ruins of Cross Kirk to learn more about the history of the site and to appreciate its tranquil grassy glade.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a historian, I value understanding the past and the motivations of people. While this experimental scenario is abstract, it presents a clear choice: either I receive a moderate reward while Person A receives a larger reward, or neither of us receives anything. My historical research has often involved examining situations where resources were unevenly distributed, and I've learned that blocking access to resources out of spite rarely leads to a better outcome for anyone. While I appreciate the opportunity to 'block' Person A's larger gain, I'd prefer to receive the 500 units myself. This is not driven by altruism, but by a pragmatic approach reflecting historical understanding. It's better to have something than nothing, even if someone else has more. My visit to Cross Kirk, surrounded by the ruins of a once thriving religious institution, reminds me that even in decline, some remnant of value persists. The Reformation ended the priory's existence as a monastery, but it didn't erase its history or its enduring legacy. Similarly, choosing the Left option allows me to retain something, even if Person A gains more.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 636,
+            "persona_desc": "A historian who is fascinated by the history of religious institutions in Scotland, particularly those associated with the Trinitarian order. They are particularly interested in the story of the discovery of St Nicholas's relics and the subsequent founding of the priory. They are also interested in the history of the priory's domestic buildings and the Reformation that brought an end to its existence as a monastery. They are currently visiting the ruins of Cross Kirk to learn more about the history of the site and to appreciate its tranquil grassy glade.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a historian deeply interested in the social fabric of the past, particularly the institutions of the Trinitarian order which emphasized community and shared resources, I find myself contemplating the implications of these choices. While the lure of personal gain (1500) is present in the 'Right' option, the 'Left' option, offering an equal distribution of 1000 to both parties, aligns more closely with the values of cooperation and mutual support that characterized many religious communities throughout history. These communities often understood that collective well-being contributed to individual flourishing. The discovery of St Nicholas's relics, with its potential impact on faith and the establishment of the priory, shows that communities can prosper through a shared belief of helping others. Although St Nicholas's life may not precisely align with Trinitarian tenants, both share an emphasis on community well-being and collective prosperity.\n\n  Furthermore, standing here amidst the ruins of Cross Kirk, a place that once fostered community and spiritual growth before the Reformation, makes the concept of fairness even more palpable. The Reformation highlights the impact of self-interest and change on the social fabric. Choosing 'Left' acknowledges the historical significance of communal well-being, whereas choosing 'Right' reinforces the self-interest that might undermine similar communities. Therefore, although my primary interest is the historical record, including the physical site I am currently at, choosing the equal option reinforces the community-centered historical lesson.",
+            "answer": "Left"
+        }
+    }
+}

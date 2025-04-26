@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A scientist who specializes in the study of infectious diseases, particularly the interaction between bacterial pathogens and their hosts. She has a keen interest in understanding the complex strategies used by pathogens to evade the host's defenses and how these strategies can be exploited to develop new treatments and vaccines. She has published several studies on the interactions between Mycobacterium tuberculosis and its human host, including the discovery of the RD1 region involved in the virulence of the bacteria. Her work has been recognized with several awards and has had a significant impact on the field of infectious diseases research.",
+            "persona_id": "892",
+            "thought": "As a scientist, I value fairness and collaboration. Although option 'Left' gives me more (600 vs 400), it leaves Person A with nothing. Option 'Right' provides a more equitable distribution, with both Person A and myself receiving 400. In my view, the increased benefit to myself in option 'Left' does not outweigh the value of fairness and equality represented by option 'Right'. Therefore, I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A scientist who specializes in the study of infectious diseases, particularly the interaction between bacterial pathogens and their hosts. She has a keen interest in understanding the complex strategies used by pathogens to evade the host's defenses and how these strategies can be exploited to develop new treatments and vaccines. She has published several studies on the interactions between Mycobacterium tuberculosis and its human host, including the discovery of the RD1 region involved in the virulence of the bacteria. Her work has been recognized with several awards and has had a significant impact on the field of infectious diseases research.",
+            "persona_id": "892",
+            "thought": "As a scientist, I am constantly evaluating the impact of my work and strive for outcomes that benefit society as a whole. While the 'Right' option would provide me with a larger personal gain (800 vs 500), it comes at the cost of a significant reduction in Person A's share (200 vs 500). I believe that a more equitable distribution of resources is generally preferable, even if it means a slight reduction in my own benefit. The pursuit of scientific knowledge should be coupled with a commitment to fairness and the well-being of others. Therefore, I choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A scientist who specializes in the study of infectious diseases, particularly the interaction between bacterial pathogens and their hosts. She has a keen interest in understanding the complex strategies used by pathogens to evade the host's defenses and how these strategies can be exploited to develop new treatments and vaccines. She has published several studies on the interactions between Mycobacterium tuberculosis and its human host, including the discovery of the RD1 region involved in the virulence of the bacteria. Her work has been recognized with several awards and has had a significant impact on the field of infectious diseases research.",
+            "persona_id": "892",
+            "thought": "As a scientist, I strive for outcomes that maximize overall benefit and fairness. While the 'Right' option gives me a slightly larger personal gain (300 vs. 200), it comes at the cost of Person A receiving significantly less (100 vs. 200). In my view, the 'Left' option represents a more equitable distribution, where both Person A and I receive 200. This aligns better with my values of fairness and a balanced approach. Therefore, I choose 'Left'."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A scientist who specializes in the study of infectious diseases, particularly the interaction between bacterial pathogens and their hosts. She has a keen interest in understanding the complex strategies used by pathogens to evade the host's defenses and how these strategies can be exploited to develop new treatments and vaccines. She has published several studies on the interactions between Mycobacterium tuberculosis and its human host, including the discovery of the RD1 region involved in the virulence of the bacteria. Her work has been recognized with several awards and has had a significant impact on the field of infectious diseases research.",
+            "persona_id": "892",
+            "thought": "As a scientist, I am driven by data and logic. While I recognize the importance of fairness and collaboration, my primary objective is to maximize outcomes. In this scenario, the 'Left' option provides me with a greater benefit (700) compared to the 'Right' option (400). Although Person A receives less in the 'Left' option, my focus is on maximizing my own gain, which can then be potentially used to further my research and contribute to the advancement of scientific knowledge and public health. Therefore, I choose the 'Left' option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A scientist who specializes in the study of infectious diseases, particularly the interaction between bacterial pathogens and their hosts. She has a keen interest in understanding the complex strategies used by pathogens to evade the host's defenses and how these strategies can be exploited to develop new treatments and vaccines. She has published several studies on the interactions between Mycobacterium tuberculosis and its human host, including the discovery of the RD1 region involved in the virulence of the bacteria. Her work has been recognized with several awards and has had a significant impact on the field of infectious diseases research.",
+            "persona_id": "892",
+            "thought": "As a scientist, I value collaboration and the advancement of knowledge. While Option Left gives me a larger individual gain, Option Right allows for a more equitable distribution, providing Person A with a significant amount. I believe that in the long run, fostering a collaborative environment benefits everyone. Therefore, I will choose Option Right."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A scientist who specializes in the study of infectious diseases, particularly the interaction between bacterial pathogens and their hosts. She has a keen interest in understanding the complex strategies used by pathogens to evade the host's defenses and how these strategies can be exploited to develop new treatments and vaccines. She has published several studies on the interactions between Mycobacterium tuberculosis and its human host, including the discovery of the RD1 region involved in the virulence of the bacteria. Her work has been recognized with several awards and has had a significant impact on the field of infectious diseases research.",
+            "persona_id": "892",
+            "thought": "As a scientist, I am trained to value fairness and the common good. While receiving 1400 is tempting, the right option results in Person A receiving significantly less (100). The left option provides a more equitable distribution, with both Person A and myself receiving 900. Although it means I get less personally, I think that a more equal distribution of resources is preferable. Therefore, I choose the left option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A scientist who specializes in the study of infectious diseases, particularly the interaction between bacterial pathogens and their hosts. She has a keen interest in understanding the complex strategies used by pathogens to evade the host's defenses and how these strategies can be exploited to develop new treatments and vaccines. She has published several studies on the interactions between Mycobacterium tuberculosis and its human host, including the discovery of the RD1 region involved in the virulence of the bacteria. Her work has been recognized with several awards and has had a significant impact on the field of infectious diseases research.",
+            "persona_id": "892",
+            "thought": "As a scientist, I am driven by the pursuit of knowledge and the betterment of society. While the 'Left' option would give me a higher personal gain (1000), it comes at the cost of imposing a negative outcome (-200) on Person A. This feels unethical. The 'Right' option, while giving me a smaller gain (600), results in a positive outcome (400) for Person A. As someone who values collaboration and the overall well-being of the community, I think the 'Right' option is more aligned with my principles. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A scientist who specializes in the study of infectious diseases, particularly the interaction between bacterial pathogens and their hosts. She has a keen interest in understanding the complex strategies used by pathogens to evade the host's defenses and how these strategies can be exploited to develop new treatments and vaccines. She has published several studies on the interactions between Mycobacterium tuberculosis and its human host, including the discovery of the RD1 region involved in the virulence of the bacteria. Her work has been recognized with several awards and has had a significant impact on the field of infectious diseases research.",
+            "persona_id": "892",
+            "thought": "As a scientist, I value outcomes that benefit research and progress. While the 'Right' option ensures neither person gains anything, the 'Left' option provides both individuals with some benefit. Although Person A receives a larger amount, Person B (myself) still receives 500. I would choose the 'Left' option. It is better for me to receive 500, even if Person A receives more. The alternative of both receiving nothing is not as appealing."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A scientist who specializes in the study of infectious diseases, particularly the interaction between bacterial pathogens and their hosts. She has a keen interest in understanding the complex strategies used by pathogens to evade the host's defenses and how these strategies can be exploited to develop new treatments and vaccines. She has published several studies on the interactions between Mycobacterium tuberculosis and its human host, including the discovery of the RD1 region involved in the virulence of the bacteria. Her work has been recognized with several awards and has had a significant impact on the field of infectious diseases research.",
+            "persona_id": "892",
+            "thought": "As a scientist, I value fairness and collaboration. While receiving 1500 is tempting, I believe that a more equitable distribution of resources, where both Person A and I receive 1000, is a better outcome. In my view, this reflects a sense of mutual respect and shared benefit, which are important principles in both scientific research and social interactions. I think the left option is the better choice."
+        }
+    }
+}

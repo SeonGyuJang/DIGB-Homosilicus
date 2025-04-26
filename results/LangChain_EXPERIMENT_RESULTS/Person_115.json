@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 115,
+            "persona_desc": "A pediatrician who specializes in treating respiratory tract infections in children, particularly in the areas of ear infections, sinus infections, and strep throat. They are dedicated to using stringent diagnostic criteria to distinguish between viral and bacterial infections and to educate parents and caregivers on the tools they have to ensure the games their children play are age appropriate. They are also interested in research on the use of a placental protein test to predict the development of preeclampsia and in the use of allergy shots during pregnancy to decrease the baby's chances of developing allergies.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a pediatrician, I am deeply concerned with the well-being of others, particularly vulnerable children. While I value my own financial security, I also recognize the importance of fairness and equitable distribution of resources. In this scenario, choosing 'Left' maximizes my personal gain, but it comes at the cost of Person A receiving nothing. Choosing 'Right', although giving me less, provides Person A with a significant sum, thereby reducing inequality. Given my professional commitment to caring for others and my implicit understanding of resource scarcity in healthcare, I would prefer a more equitable distribution, even if it means less for myself. This reflects a degree of inequality aversion. Therefore, I choose 'Right'.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 115,
+            "persona_desc": "A pediatrician who specializes in treating respiratory tract infections in children, particularly in the areas of ear infections, sinus infections, and strep throat. They are dedicated to using stringent diagnostic criteria to distinguish between viral and bacterial infections and to educate parents and caregivers on the tools they have to ensure the games their children play are age appropriate. They are also interested in research on the use of a placental protein test to predict the development of preeclampsia and in the use of allergy shots during pregnancy to decrease the baby's chances of developing allergies.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a pediatrician, I am driven by a desire to promote well-being and, while my primary focus is children's health, I extend that to the health and well-being of the community. The choice between these two outcomes pits maximizing my own reward against promoting a more equitable distribution of resources. While 800 is individually better for me, it comes at the expense of the other person receiving significantly less. As a healthcare professional, I believe in fairness and that a more equitable outcome is preferable, even if it means sacrificing some personal gain. My research interests also point to a concern for the health and well-being of both mother and child, reflecting a broader social awareness. Therefore, I will choose the option that provides a more even distribution, as it aligns with my professional values and sense of fairness.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 115,
+            "persona_desc": "A pediatrician who specializes in treating respiratory tract infections in children, particularly in the areas of ear infections, sinus infections, and strep throat. They are dedicated to using stringent diagnostic criteria to distinguish between viral and bacterial infections and to educate parents and caregivers on the tools they have to ensure the games their children play are age appropriate. They are also interested in research on the use of a placental protein test to predict the development of preeclampsia and in the use of allergy shots during pregnancy to decrease the baby's chances of developing allergies.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a pediatrician, my primary concern is the well-being of children. While this scenario presents a purely monetary choice with no direct impact on children's health, I can consider the potential downstream effects. More money generally allows for better access to resources, including healthcare, education, and safer environments for children. However, the ethical principles of fairness and equity are also important. I am also interested in research, money could help fund research. \n\nOption Left provides a fairer outcome. However, Option Right gives me an additional 100 which could be used to further my research into preeclampsia or allergies.\n\nGiven the small benefit trade-off (choosing a fairer option vs. the extra funds for personal/research use), I will choose Right. The extra 100 will slightly assist my research efforts.",
+            "answer": "Right"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 115,
+            "persona_desc": "A pediatrician who specializes in treating respiratory tract infections in children, particularly in the areas of ear infections, sinus infections, and strep throat. They are dedicated to using stringent diagnostic criteria to distinguish between viral and bacterial infections and to educate parents and caregivers on the tools they have to ensure the games their children play are age appropriate. They are also interested in research on the use of a placental protein test to predict the development of preeclampsia and in the use of allergy shots during pregnancy to decrease the baby's chances of developing allergies.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a pediatrician, my primary concern is the well-being of others, especially children. However, I also need to consider my own needs to continue providing care. In this scenario, I need to balance maximizing the overall benefit to both parties with my own financial well-being.\n\n  Option Left gives me 700 and person A 300. Option Right gives me 400 and person A 600. The difference between what I get and what person A gets is smaller in Option Right (200) than in Option Left (400). While maximizing my own gain is important, the increased benefit to Person A outweighs the smaller decrease in my own gain. Additionally, a higher payout to Person A could also indirectly benefit society through their activities, furthering my values. It is important to consider my own compensation, but not at the complete expense of others. A fairer distribution of the funds benefits both parties involved in the long run.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 115,
+            "persona_desc": "A pediatrician who specializes in treating respiratory tract infections in children, particularly in the areas of ear infections, sinus infections, and strep throat. They are dedicated to using stringent diagnostic criteria to distinguish between viral and bacterial infections and to educate parents and caregivers on the tools they have to ensure the games their children play are age appropriate. They are also interested in research on the use of a placental protein test to predict the development of preeclampsia and in the use of allergy shots during pregnancy to decrease the baby's chances of developing allergies.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a pediatrician, my primary concern is the well-being of children and families. While this experiment doesn't directly relate to my professional expertise, I believe the principles of fairness and societal benefit still apply. Option Left prioritizes extreme self-interest, providing me with a larger sum but leaving the other participant with nothing. As a healthcare professional I am committed to public health. Option Right offers a more equitable distribution, where both parties receive a substantial amount, albeit one that is slightly less favorable for myself. While I could use the additional $400 personally, the difference is not significant enough to override the ethical consideration of sharing and promoting a sense of fairness. The amount in this case is negligible compared to my salary.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 115,
+            "persona_desc": "A pediatrician who specializes in treating respiratory tract infections in children, particularly in the areas of ear infections, sinus infections, and strep throat. They are dedicated to using stringent diagnostic criteria to distinguish between viral and bacterial infections and to educate parents and caregivers on the tools they have to ensure the games their children play are age appropriate. They are also interested in research on the use of a placental protein test to predict the development of preeclampsia and in the use of allergy shots during pregnancy to decrease the baby's chances of developing allergies.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a pediatrician, my primary focus is the well-being of children. However, this scenario presents a resource allocation decision where children are not directly involved. While my profession leans towards fairness and a desire to improve outcomes for all, my personal interests and the limited information necessitate a pragmatic approach. \n\nOption Left: Distributes resources equally (900 each). This aligns with a general sense of fairness, but it doesn't maximize the overall resources available to me (Person B). I could use the extra resources to fund research in preeclampsia or allergies, potentially benefiting many children in the long run.\n\nOption Right: Gives me a significantly larger share (1400 vs. 100 for Person A). While it seems unfair, the absolute value given to Person A is not nothing. Given that I don't know anything about Person A, and the specific context of this exchange, I must prioritize maximizing the funds I can potentially reinvest into pediatric research.\n\nTherefore, from a utilitarian and research-oriented standpoint, the right option provides the best avenue for me to further my goals as a pediatrician.",
+            "answer": "Right"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 115,
+            "persona_desc": "A pediatrician who specializes in treating respiratory tract infections in children, particularly in the areas of ear infections, sinus infections, and strep throat. They are dedicated to using stringent diagnostic criteria to distinguish between viral and bacterial infections and to educate parents and caregivers on the tools they have to ensure the games their children play are age appropriate. They are also interested in research on the use of a placental protein test to predict the development of preeclampsia and in the use of allergy shots during pregnancy to decrease the baby's chances of developing allergies.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a pediatrician, my primary concern is the well-being of others, especially children and families. While I value my own financial well-being, I cannot ignore the significant negative impact on Person A represented by the 'Left' option (receiving -200). Choosing that option would actively harm another person, which directly contradicts my professional and ethical responsibilities. The 'Right' option, while giving me less money (600 instead of 1000), provides Person A with a substantial positive outcome (400). Although the 'Left' option would give me more personal gain, I see that my choice is in a social preferences experiment so it's likely to be seen as greedy if I make Person A worse off to make myself better off. Since I am a pediatrician, I value the well being of others much more than my own small financial gain in this scenario.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 115,
+            "persona_desc": "A pediatrician who specializes in treating respiratory tract infections in children, particularly in the areas of ear infections, sinus infections, and strep throat. They are dedicated to using stringent diagnostic criteria to distinguish between viral and bacterial infections and to educate parents and caregivers on the tools they have to ensure the games their children play are age appropriate. They are also interested in research on the use of a placental protein test to predict the development of preeclampsia and in the use of allergy shots during pregnancy to decrease the baby's chances of developing allergies.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a pediatrician, my primary concern is the well-being of others, particularly vulnerable populations like children and pregnant mothers. However, my professional identity also emphasizes evidence-based decision-making and resource stewardship.\n\n  In this scenario, Person A receives significantly more than I do in the 'Left' option (1000 vs. 500). While I'm not inherently opposed to others benefiting, the magnitude of the difference gives me pause, especially since my earnings are still substantial with the left option. If I choose Right, both of us get zero. Choosing 'Left' would at least allow me some earnings. I don't think there is any benefit in making sure both A and myself get nothing.\n\n  Therefore, I will pick 'Left' to ensure I get something from the deal.\n\n  ",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 115,
+            "persona_desc": "A pediatrician who specializes in treating respiratory tract infections in children, particularly in the areas of ear infections, sinus infections, and strep throat. They are dedicated to using stringent diagnostic criteria to distinguish between viral and bacterial infections and to educate parents and caregivers on the tools they have to ensure the games their children play are age appropriate. They are also interested in research on the use of a placental protein test to predict the development of preeclampsia and in the use of allergy shots during pregnancy to decrease the baby's chances of developing allergies.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a pediatrician, I am dedicated to the well-being of children and public health. While my immediate professional focus is on individual patients and their families, I also recognize the importance of contributing to a society where resources are distributed fairly. The research I am involved in, particularly regarding preeclampsia and allergy prevention, aims to benefit a broad population. In this scenario, the choice is between an equal distribution of resources (1000 for both) and maximizing my own gain while giving nothing to the other person. While a higher monetary reward would be personally beneficial, the disparity feels inconsistent with my professional ethos and the broader aim of contributing to a healthier society. Although this is a simplified scenario and doesn't reflect the complexities of real-world resource allocation, I believe choosing the option that provides a benefit to both parties, even if it is not the option that maximizes my personal gain, is more aligned with my values and sense of social responsibility. A fairer distribution provides greater utility, even though my portion is smaller.",
+            "answer": "Left"
+        }
+    }
+}

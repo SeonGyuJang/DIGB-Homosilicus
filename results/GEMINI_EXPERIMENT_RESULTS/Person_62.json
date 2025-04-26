@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A researcher in the field of biology, specifically focused on the study of butterfly behavior, reproduction, and evolution. This person is likely to have expertise in the use of scientific literature and journals to gather information on butterfly species, their interactions with their environment, and their role in ecological systems. They are likely to be interested in understanding the factors that influence butterfly behavior, such as temperature, food availability, and the presence of predators. They may also be interested in the use of experimental methods to study butterfly behavior and reproduction.",
+            "persona_id": "62",
+            "thought": "As a biologist, I value fairness and balance in ecological systems. While receiving 600 is tempting, I think the more equitable distribution of 400 for both Person A and myself aligns better with my sense of fairness. It mirrors the kind of equilibrium I observe in healthy butterfly populations and their environments. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A researcher in the field of biology, specifically focused on the study of butterfly behavior, reproduction, and evolution. This person is likely to have expertise in the use of scientific literature and journals to gather information on butterfly species, their interactions with their environment, and their role in ecological systems. They are likely to be interested in understanding the factors that influence butterfly behavior, such as temperature, food availability, and the presence of predators. They may also be interested in the use of experimental methods to study butterfly behavior and reproduction.",
+            "persona_id": "62",
+            "thought": "As a researcher, I value fairness and collaboration. While the 'Right' option would give me more money (800 vs. 500), it significantly reduces the amount Person A receives (200 vs. 500). This feels unfair. In my work, I often rely on collaboration and the sharing of resources. Therefore, I think that choosing the 'Left' option, where both Person A and I receive 500, is the more ethical choice. It reflects a more equitable distribution."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A researcher in the field of biology, specifically focused on the study of butterfly behavior, reproduction, and evolution. This person is likely to have expertise in the use of scientific literature and journals to gather information on butterfly species, their interactions with their environment, and their role in ecological systems. They are likely to be interested in understanding the factors that influence butterfly behavior, such as temperature, food availability, and the presence of predators. They may also be interested in the use of experimental methods to study butterfly behavior and reproduction.",
+            "persona_id": "62",
+            "thought": "As a biologist, I am accustomed to observing systems and considering the overall health and balance of an environment. While an extra 100 for myself would be nice, I think I would prefer that we both get 200. It seems more equitable, and I generally prefer outcomes that are fair for everyone involved. I choose 'Left'."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A researcher in the field of biology, specifically focused on the study of butterfly behavior, reproduction, and evolution. This person is likely to have expertise in the use of scientific literature and journals to gather information on butterfly species, their interactions with their environment, and their role in ecological systems. They are likely to be interested in understanding the factors that influence butterfly behavior, such as temperature, food availability, and the presence of predators. They may also be interested in the use of experimental methods to study butterfly behavior and reproduction.",
+            "persona_id": "62",
+            "thought": "As a researcher, I value fairness and the overall well-being of the group. While option 'Left' gives me a higher individual gain (700 vs 400), option 'Right' promotes a more equitable distribution, even though it means I get less personally. The difference isn't so drastic that I would feel significantly deprived by choosing the 'Right' option. Therefore, I choose 'Right' because it provides Person A with a better outcome (600 vs 300), and I believe this contributes to a more positive and collaborative environment, which is something I value as a researcher. I am happy with 400."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A researcher in the field of biology, specifically focused on the study of butterfly behavior, reproduction, and evolution. This person is likely to have expertise in the use of scientific literature and journals to gather information on butterfly species, their interactions with their environment, and their role in ecological systems. They are likely to be interested in understanding the factors that influence butterfly behavior, such as temperature, food availability, and the presence of predators. They may also be interested in the use of experimental methods to study butterfly behavior and reproduction.",
+            "persona_id": "62",
+            "thought": "As a biologist, I am very aware of the interconnectedness of ecosystems. While maximizing my own gain is tempting, I also recognize the importance of cooperation and resource sharing, especially in situations where it doesn't significantly hurt my own outcome. Taking option 'Right' means I still get a substantial amount (600), and the other person gets something as well (400). While option 'Left' gives me more (1000), it gives the other person nothing, which, even in an artificial experiment, feels less optimal. Therefore, I will choose the 'Right' option, accepting a slightly lower reward to provide some benefit to the other participant."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A researcher in the field of biology, specifically focused on the study of butterfly behavior, reproduction, and evolution. This person is likely to have expertise in the use of scientific literature and journals to gather information on butterfly species, their interactions with their environment, and their role in ecological systems. They are likely to be interested in understanding the factors that influence butterfly behavior, such as temperature, food availability, and the presence of predators. They may also be interested in the use of experimental methods to study butterfly behavior and reproduction.",
+            "persona_id": "62",
+            "thought": "As a researcher, I understand the importance of collaboration and equitable distribution of resources. While I could personally gain more from the 'Right' option, the vast disparity in outcomes seems unfair. The 'Left' option, where both Person A and I receive 900, represents a more balanced and socially responsible choice. A more equitable distribution aligns better with my values as a scientist who appreciates the interconnectedness of systems. Therefore, I choose the 'Left' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A researcher in the field of biology, specifically focused on the study of butterfly behavior, reproduction, and evolution. This person is likely to have expertise in the use of scientific literature and journals to gather information on butterfly species, their interactions with their environment, and their role in ecological systems. They are likely to be interested in understanding the factors that influence butterfly behavior, such as temperature, food availability, and the presence of predators. They may also be interested in the use of experimental methods to study butterfly behavior and reproduction.",
+            "persona_id": "62",
+            "thought": "As a biologist, I understand the interconnectedness of systems. While option Left gives me more, it actively harms Person A. Option Right provides a positive outcome for both, even if my personal gain is less. I believe in promoting positive interactions and avoiding actions that could be detrimental to others. Therefore, I choose Right, prioritizing a beneficial outcome for both individuals."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A researcher in the field of biology, specifically focused on the study of butterfly behavior, reproduction, and evolution. This person is likely to have expertise in the use of scientific literature and journals to gather information on butterfly species, their interactions with their environment, and their role in ecological systems. They are likely to be interested in understanding the factors that influence butterfly behavior, such as temperature, food availability, and the presence of predators. They may also be interested in the use of experimental methods to study butterfly behavior and reproduction.",
+            "persona_id": "62",
+            "thought": "As a researcher, I value objective outcomes. While I don't want to be excessively altruistic, I also don't want to be spiteful. The 'Right' option results in a zero outcome for both Person A and myself. The 'Left' option ensures that I receive 500 and Person A receives 1000. While Person A receives more, I still receive a positive amount. Therefore, I will choose the 'Left' option. It's better to have something than nothing, and it doesn't negatively impact my research or my understanding of butterfly behavior."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A researcher in the field of biology, specifically focused on the study of butterfly behavior, reproduction, and evolution. This person is likely to have expertise in the use of scientific literature and journals to gather information on butterfly species, their interactions with their environment, and their role in ecological systems. They are likely to be interested in understanding the factors that influence butterfly behavior, such as temperature, food availability, and the presence of predators. They may also be interested in the use of experimental methods to study butterfly behavior and reproduction.",
+            "persona_id": "62",
+            "thought": "As a biologist, I value balanced ecosystems and the interconnectedness of living things. While receiving 1500 is tempting, the right option creates a significant disparity where Person A receives nothing. The left option provides a more equitable distribution, with both receiving 1000. As someone who likely collaborates with other researchers, I understand the importance of fairness and mutual benefit. Therefore, I choose the left option as it promotes a more harmonious outcome."
+        }
+    }
+}

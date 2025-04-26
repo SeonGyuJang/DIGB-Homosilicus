@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 196,
+            "persona_desc": "This text is likely to be of interest to a game developer who is looking to set up the physics, timer, and interactions for a game. The text provides detailed instructions on how to set up the environment for the game, including creating bodies, setting collisions, and creating buttons. The text also mentions the benefits of integrating external code into Kwik, which could be of interest to a developer who is looking to create complex game mechanics. The text is written in a clear and concise style, making it easy for the reader to understand the process of setting up the game.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "The text describes a situation in a social preferences experiment. I am Person B and must choose between two options. Both options give me 400. The left option gives Person A 400, while the right option gives Person A 750. Since my payoff is the same in both cases (400), and given the persona description, I will consider what choice a game developer might make. A game developer creating a game would be interested in maximizing overall utility or efficiency within the game. This isn't perfectly analogous, but choosing the option that gives Person A 750 increases overall gains. Because my payoff is unaffected, I choose the option that gives the highest payoff to Person A as an action that is focused on greater fairness, or a system of increased resource availability.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 196,
+            "persona_desc": "This text is likely to be of interest to a game developer who is looking to set up the physics, timer, and interactions for a game. The text provides detailed instructions on how to set up the environment for the game, including creating bodies, setting collisions, and creating buttons. The text also mentions the benefits of integrating external code into Kwik, which could be of interest to a developer who is looking to create complex game mechanics. The text is written in a clear and concise style, making it easy for the reader to understand the process of setting up the game.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "Based on the persona, I am a game developer looking to understand the technical details of game setup. The scenario presents a choice between maximizing my own (Person B's) payoff versus achieving a more equitable distribution. Since the persona does not explicitly indicate a preference for altruism or spite, a risk-neutral approach that benefits the developer (Person B) the most would be preferred. Choosing 'Left' maximizes Person B's (my) payoff, which is in line with the persona's focus on game development and technical understanding. While the equitable split in 'Right' is appealing, the developer persona doesn't prioritize it over maximizing gains.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 196,
+            "persona_desc": "This text is likely to be of interest to a game developer who is looking to set up the physics, timer, and interactions for a game. The text provides detailed instructions on how to set up the environment for the game, including creating bodies, setting collisions, and creating buttons. The text also mentions the benefits of integrating external code into Kwik, which could be of interest to a developer who is looking to create complex game mechanics. The text is written in a clear and concise style, making it easy for the reader to understand the process of setting up the game.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As Person B, and given the persona describes a game developer interested in setting up game physics and interactions, I'll assume I'm also interested in game development and potentially cooperation in a broader sense. Berk23 usually implies a focus on efficiency and mutual benefit. Choosing 'Left' gives me 200 and Person A 800. While not equitable, it's better than 'Right' where both get nothing.  From a game design perspective, even a lopsided reward is better than no reward, and could represent a situation where I'm accepting a smaller reward for a bigger overall success (Person A's reward). A cooperative, albeit unequal, outcome might be preferable in the long run. It might also encourage future interactions with person A. Even though it is unfair to me, I'd rather have something than nothing.",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 196,
+            "persona_desc": "This text is likely to be of interest to a game developer who is looking to set up the physics, timer, and interactions for a game. The text provides detailed instructions on how to set up the environment for the game, including creating bodies, setting collisions, and creating buttons. The text also mentions the benefits of integrating external code into Kwik, which could be of interest to a developer who is looking to create complex game mechanics. The text is written in a clear and concise style, making it easy for the reader to understand the process of setting up the game.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "In this scenario, I'm Person B. I am prioritizing a more egalitarian outcome. While the left option gives me a higher absolute payoff (700), the right option offers a fairer distribution (600 for me, 600 for Person A). I believe fairness and equality are important, and I'm willing to sacrifice a small amount of personal gain to achieve a more equitable outcome. The difference between 700 and 600 for myself is not significant enough to outweigh the benefit of giving person A a bigger amount.",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 196,
+            "persona_desc": "This text is likely to be of interest to a game developer who is looking to set up the physics, timer, and interactions for a game. The text provides detailed instructions on how to set up the environment for the game, including creating bodies, setting collisions, and creating buttons. The text also mentions the benefits of integrating external code into Kwik, which could be of interest to a developer who is looking to create complex game mechanics. The text is written in a clear and concise style, making it easy for the reader to understand the process of setting up the game.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "I am indifferent between the options. Option Left (B=600, A=300) gives me a higher personal payoff than Option Right (B=500, A=700), though Option Right gives Person A more than Option Left. Therefore, to maximize my own return, I will select the Left option.",
+            "answer": "Left"
+        },
+        "scenario_6": {
+            "persona_id": 196,
+            "persona_desc": "This text is likely to be of interest to a game developer who is looking to set up the physics, timer, and interactions for a game. The text provides detailed instructions on how to set up the environment for the game, including creating bodies, setting collisions, and creating buttons. The text also mentions the benefits of integrating external code into Kwik, which could be of interest to a developer who is looking to create complex game mechanics. The text is written in a clear and concise style, making it easy for the reader to understand the process of setting up the game.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "I am Person B. The goal is to maximize my own payoff. Option Left gives me 400, and Option Right gives me 375. Therefore, I should choose Left to maximize my payoff.",
+            "answer": "Left"
+        }
+    }
+}

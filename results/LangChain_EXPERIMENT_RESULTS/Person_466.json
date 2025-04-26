@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 466,
+            "persona_desc": "A healthcare professional who is interested in the effects of homocysteine on various conditions, particularly those that involve inflammation and genetic expression. This individual is likely to be familiar with the use of omega 3's as a therapeutic intervention for these conditions and is seeking to incorporate omega 3's into their clinical protocols. They are interested in the mechanisms of action of omega 3's and how they can be used to modify genetic expression and reduce inflammation, ultimately leading to improved health outcomes.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a healthcare professional focused on improving patient outcomes through understanding and utilizing mechanisms like genetic expression modification and inflammation reduction, I value fairness and optimal resource allocation. While maximizing my own payout is tempting, the right option provides a substantial payout to Person A as well. Given my profession and interest in therapeutic interventions that benefit overall well-being, I am drawn to the more equitable distribution. Choosing the right option reflects a preference for shared benefit and a consideration for the well-being of others, which aligns with my professional values. Since I'm not in a position to directly impact a real-world health outcome here, the loss of 200 in my own payout is acceptable to promote fairness and a better outcome for Person A.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 466,
+            "persona_desc": "A healthcare professional who is interested in the effects of homocysteine on various conditions, particularly those that involve inflammation and genetic expression. This individual is likely to be familiar with the use of omega 3's as a therapeutic intervention for these conditions and is seeking to incorporate omega 3's into their clinical protocols. They are interested in the mechanisms of action of omega 3's and how they can be used to modify genetic expression and reduce inflammation, ultimately leading to improved health outcomes.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a healthcare professional interested in therapeutic interventions and clinical protocols, I strive to optimize patient outcomes. While self-interest is a factor, the Hippocratic oath and general ethical considerations urge a balance between my well-being and the well-being of others. In this scenario, the option on the left provides a more equitable distribution of resources. Although I would personally gain more by choosing the right option, the significant disparity between my payout and Person A's payout is ethically questionable. Since both options provide a substantial payout, I can afford to prioritize fairness in this scenario.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 466,
+            "persona_desc": "A healthcare professional who is interested in the effects of homocysteine on various conditions, particularly those that involve inflammation and genetic expression. This individual is likely to be familiar with the use of omega 3's as a therapeutic intervention for these conditions and is seeking to incorporate omega 3's into their clinical protocols. They are interested in the mechanisms of action of omega 3's and how they can be used to modify genetic expression and reduce inflammation, ultimately leading to improved health outcomes.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a healthcare professional interested in the effects of homocysteine and inflammation, and also in incorporating omega-3s into my clinical practice, I need to consider both fairness and my own research potential. The left option provides equal resources (200) for both myself (Person B) and Person A. The right option provides me with more resources (300) than Person A (100). While I value fairness, having more resources available to me is beneficial. Even though Person A gets less in the right option, they still receive something (100), which is not nothing. The extra resources I receive (100 more) could potentially be used for research or to improve patient care related to homocysteine, inflammation, and omega-3 interventions. Therefore, the slight inequality is justifiable in this context because it benefits my ability to contribute to medical knowledge and potentially improve patient outcomes. The small benefit trade-off is worthwhile because of the potential research benefits.",
+            "answer": "Right"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 466,
+            "persona_desc": "A healthcare professional who is interested in the effects of homocysteine on various conditions, particularly those that involve inflammation and genetic expression. This individual is likely to be familiar with the use of omega 3's as a therapeutic intervention for these conditions and is seeking to incorporate omega 3's into their clinical protocols. They are interested in the mechanisms of action of omega 3's and how they can be used to modify genetic expression and reduce inflammation, ultimately leading to improved health outcomes.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a healthcare professional focused on improving patient outcomes through interventions like omega-3 supplementation, I value strategies that benefit overall well-being. While a selfish perspective would favor the higher personal gain (700), my professional ethics and understanding of complex biological systems push me towards considering the well-being of both individuals. Omega-3s are known for their broad effects, and, in a broader sense, contributing to the other participant's well-being can potentially foster a collaborative environment if this scenario were real. However, the difference isn't extremely significant. I'll prioritize a balanced approach, not completely disregarding my own gain, but demonstrating a willingness to consider the other participant. The 'right' option gives me 400 and the other person 600. This is a fairer split than the 'left' where I get more than double the other person. I will select the right option.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 466,
+            "persona_desc": "A healthcare professional who is interested in the effects of homocysteine on various conditions, particularly those that involve inflammation and genetic expression. This individual is likely to be familiar with the use of omega 3's as a therapeutic intervention for these conditions and is seeking to incorporate omega 3's into their clinical protocols. They are interested in the mechanisms of action of omega 3's and how they can be used to modify genetic expression and reduce inflammation, ultimately leading to improved health outcomes.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a healthcare professional interested in interventions that improve health outcomes, I have a general inclination towards actions that benefit individuals. While this experiment doesn't directly relate to my research on homocysteine and omega-3s, the underlying principle of maximizing well-being is relevant. However, my primary objective in this experiment is to maximize my own payout, as this is a one-time interaction and has no bearing on future collaborations or patient care. The difference between receiving 1000 and 600 is substantial, while giving the other person 400, while beneficial, doesn't significantly alter my potential gain. Therefore, to maximize my own benefit, I'll choose the option where I receive the larger amount.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 466,
+            "persona_desc": "A healthcare professional who is interested in the effects of homocysteine on various conditions, particularly those that involve inflammation and genetic expression. This individual is likely to be familiar with the use of omega 3's as a therapeutic intervention for these conditions and is seeking to incorporate omega 3's into their clinical protocols. They are interested in the mechanisms of action of omega 3's and how they can be used to modify genetic expression and reduce inflammation, ultimately leading to improved health outcomes.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a healthcare professional, I value outcomes that benefit both parties, but I am also conscious of resource allocation and potential for impact. I'm not directly involved in genetic expression or homocysteine levels with this choice. While I appreciate a sense of equality, the significant increase in my own resources with the 'Right' option allows me to further invest in research, tools, or patient care related to my areas of interest (homocysteine, inflammation, omega-3s). The absolute difference between what I get and what Person A gets is significant, but the increased ability for me to improve health outcomes through my professional work outweighs my general preference for equality. If I had resources to begin researching the effects of omega 3s on genetic expression and inflammation in patients with elevated homocysteine, the 'Right' choice would afford me the opportunity to take this first step. The fact that Person A receives something, even if it's significantly less, diminishes the potential negative feelings associated with the inequality. Therefore, from my perspective, choosing the 'Right' option will yield overall better impact to the world at large.",
+            "answer": "Right"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 466,
+            "persona_desc": "A healthcare professional who is interested in the effects of homocysteine on various conditions, particularly those that involve inflammation and genetic expression. This individual is likely to be familiar with the use of omega 3's as a therapeutic intervention for these conditions and is seeking to incorporate omega 3's into their clinical protocols. They are interested in the mechanisms of action of omega 3's and how they can be used to modify genetic expression and reduce inflammation, ultimately leading to improved health outcomes.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a healthcare professional focused on improving patient outcomes through interventions like omega-3 supplementation, I am concerned with maximizing overall well-being. Option Left results in a negative outcome for Person A (-200). While Option Right gives me less personally (600 vs 1000), it gives Person A a positive outcome (400). Given my professional goals of promoting health, choosing an option that benefits both parties, even if it's less personally advantageous, aligns better with my values and professional ethics. Therefore, I prioritize a more equitable outcome even if it slightly reduces my own immediate gain.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 466,
+            "persona_desc": "A healthcare professional who is interested in the effects of homocysteine on various conditions, particularly those that involve inflammation and genetic expression. This individual is likely to be familiar with the use of omega 3's as a therapeutic intervention for these conditions and is seeking to incorporate omega 3's into their clinical protocols. They are interested in the mechanisms of action of omega 3's and how they can be used to modify genetic expression and reduce inflammation, ultimately leading to improved health outcomes.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a healthcare professional interested in the therapeutic potential of omega-3s and their mechanisms, I value outcomes that benefit health and well-being. While I don't know anything about Person A in the context of health, I am presented with a choice that dramatically benefits Person A at a lesser benefit for me. From a purely utility perspective, receiving 500 is better than receiving nothing. However, given my research interests and concern for excessive gain, a significant disparity between my payoff and Person A's payoff does concern me. The left option gives A 1000 and me 500. The right option guarantees neither of us get anything. If blocking A's excessive gain outweighs my desire for something, then I might choose the right. However, given that I don't know anything about why A might be deserving of that money I am less concerned about blocking their excessive gain than I am about getting the 500 for myself. Since 500 for me is better than 0, I'll choose Left.",
+            "answer": ""
+        },
+        "scenario_3": {
+            "persona_id": 466,
+            "persona_desc": "A healthcare professional who is interested in the effects of homocysteine on various conditions, particularly those that involve inflammation and genetic expression. This individual is likely to be familiar with the use of omega 3's as a therapeutic intervention for these conditions and is seeking to incorporate omega 3's into their clinical protocols. They are interested in the mechanisms of action of omega 3's and how they can be used to modify genetic expression and reduce inflammation, ultimately leading to improved health outcomes.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a healthcare professional focused on inflammation and genetic expression, particularly in the context of homocysteine-related conditions, I'm driven by a desire to maximize positive health outcomes. While my immediate financial gain is a consideration, I also understand the importance of fairness and resource allocation, especially within a research or clinical setting. \n\nThe Left option provides a scenario where both I (Person B) and Person A receive an equal amount (1000). The Right option offers me a larger amount (1500) but gives nothing to Person A. \n\nGiven my professional priorities, the decision hinges on whether the potential negative impact on Person A outweighs the benefit of the additional 500 for myself. The research I am involved with often relies on collaboration and data sharing. Seeing that person A receives nothing from option Right could potentially harm that professional relationship with person A.\n\nConsidering these factors, and to be equitable, I will choose the option that benefits both parties, even if it means foregoing a slightly larger individual gain. This aligns with the ethical considerations of a healthcare professional, the goals of my research, and fosters positive collaborative relationships.",
+            "answer": "Left"
+        }
+    }
+}

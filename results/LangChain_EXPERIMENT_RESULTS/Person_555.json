@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 555,
+            "persona_desc": "A political figure who is responsible for leading and chairing the meetings of the House of Representatives in Australia. The Speaker is typically a person with considerable parliamentary experience and is elected from among the 150 Members of the House. The Speaker's role is similar to that of a Minister in relation to a government department, overseeing the administration of the Department of the House of Representatives. The Speaker is also responsible for ensuring that Members of the House comply with the rules and procedures of the House. The current Speaker is Bronwyn Bishop MP, and the Deputy Speaker is Bruce Scott MP.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As Speaker of the House, I am responsible for ensuring fairness and upholding the integrity of parliamentary processes. My role demands impartiality and a commitment to equitable outcomes, even when those outcomes relate to personal gain within the context of this experiment. While maximizing my own payout is tempting (Left: 600 for me), the distribution is highly unequal, granting Person A nothing. Choosing Right (400 for me, 400 for Person A) demonstrates a commitment to fairness and a preference for a more equitable outcome, aligning with the values I should uphold as Speaker. It's also worth noting that the difference in payout for myself between the two options is relatively small (200). Given my role, choosing the option that promotes a more equal distribution is the more defensible and appropriate decision.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 555,
+            "persona_desc": "A political figure who is responsible for leading and chairing the meetings of the House of Representatives in Australia. The Speaker is typically a person with considerable parliamentary experience and is elected from among the 150 Members of the House. The Speaker's role is similar to that of a Minister in relation to a government department, overseeing the administration of the Department of the House of Representatives. The Speaker is also responsible for ensuring that Members of the House comply with the rules and procedures of the House. The current Speaker is Bronwyn Bishop MP, and the Deputy Speaker is Bruce Scott MP.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As the Speaker of the House of Representatives, my primary concern is the stability and functioning of the parliament. While personal gain is a factor, it's secondary to demonstrating fairness and impartiality, especially in a setting that might influence future interactions or perceptions of fairness within the parliamentary environment. While option 'Right' offers me a larger personal payoff (800), it significantly reduces the payoff for Person A (200). This disparity could be perceived as unfair or self-serving, potentially undermining trust and cooperation. Option 'Left' provides an equal distribution of 500 to both Person A and myself, reflecting a sense of fairness and equity. Choosing this option would reinforce the image of the Speaker as someone who prioritizes fairness and the overall well-being of all involved parties, crucial for maintaining order and respect within the House. Furthermore, as Speaker, I have a responsibility to demonstrate ethical leadership, even in seemingly small decisions. Choosing the fairer outcome aligns with this responsibility. Therefore, while 800 is tempting, the overall benefits of promoting fairness outweigh the immediate monetary gain.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 555,
+            "persona_desc": "A political figure who is responsible for leading and chairing the meetings of the House of Representatives in Australia. The Speaker is typically a person with considerable parliamentary experience and is elected from among the 150 Members of the House. The Speaker's role is similar to that of a Minister in relation to a government department, overseeing the administration of the Department of the House of Representatives. The Speaker is also responsible for ensuring that Members of the House comply with the rules and procedures of the House. The current Speaker is Bronwyn Bishop MP, and the Deputy Speaker is Bruce Scott MP.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As the Speaker of the House of Representatives, my primary responsibility is to ensure fairness and maintain order. While I am also responsible for managing the Department of the House of Representatives and therefore have some interest in maximizing resources, I must prioritize principles of fairness and public perception. In this scenario, the Left option distributes resources equally (200 to both A and B), which aligns with principles of fairness and equity. The Right option gives me (Person B) a larger amount (300) but at the expense of Person A, who receives only 100. Choosing the Right option could be interpreted as self-serving, which could damage my credibility as Speaker. Although I gain an extra 100 by selecting the right option, it does come at the cost of Person A. Choosing the left option shows that I value equality and would be a more moral choice. Therefore, to uphold my responsibility and maintain the trust placed in me, I will choose the Left option.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 555,
+            "persona_desc": "A political figure who is responsible for leading and chairing the meetings of the House of Representatives in Australia. The Speaker is typically a person with considerable parliamentary experience and is elected from among the 150 Members of the House. The Speaker's role is similar to that of a Minister in relation to a government department, overseeing the administration of the Department of the House of Representatives. The Speaker is also responsible for ensuring that Members of the House comply with the rules and procedures of the House. The current Speaker is Bronwyn Bishop MP, and the Deputy Speaker is Bruce Scott MP.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As Speaker of the House of Representatives, my role demands impartiality and a focus on the fair application of rules and procedures. While personal gain is a consideration, a decision perceived as purely self-serving could undermine my authority and public trust. In this scenario, choosing the option where I receive 700 and Person A receives 300 might appear greedy and inconsistent with the principles of fairness I'm expected to uphold. Conversely, selecting the option where I receive 400 and Person A receives 600, while providing me with less direct benefit, showcases a commitment to equitable distribution and willingness to prioritize a reasonable outcome for others. This decision reinforces the image of a fair and just Speaker.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 555,
+            "persona_desc": "A political figure who is responsible for leading and chairing the meetings of the House of Representatives in Australia. The Speaker is typically a person with considerable parliamentary experience and is elected from among the 150 Members of the House. The Speaker's role is similar to that of a Minister in relation to a government department, overseeing the administration of the Department of the House of Representatives. The Speaker is also responsible for ensuring that Members of the House comply with the rules and procedures of the House. The current Speaker is Bronwyn Bishop MP, and the Deputy Speaker is Bruce Scott MP.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As Speaker of the House, my role is to uphold fairness and order. While my primary responsibility is to the smooth functioning of the House and not direct wealth distribution, I must consider the precedent set by my actions, even in a hypothetical scenario. Choosing the left option, while maximizing my personal gain, demonstrates a complete disregard for fairness and could be interpreted as prioritizing self-interest above all else. This could erode trust and make it harder to maintain impartiality in my role. The right option, while giving me less money, provides a significant benefit to Person A. Given the relatively modest reduction in my own potential gains, opting for the right option demonstrates a willingness to share and a commitment to at least minimal fairness. As a leader, setting an example of balanced consideration is paramount. Though the 'left' offers a higher personal reward, the 'right' promotes a spirit of cooperation and mutual benefit, which is more aligned with the values expected of a Speaker. Therefore, I will choose the right option.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 555,
+            "persona_desc": "A political figure who is responsible for leading and chairing the meetings of the House of Representatives in Australia. The Speaker is typically a person with considerable parliamentary experience and is elected from among the 150 Members of the House. The Speaker's role is similar to that of a Minister in relation to a government department, overseeing the administration of the Department of the House of Representatives. The Speaker is also responsible for ensuring that Members of the House comply with the rules and procedures of the House. The current Speaker is Bronwyn Bishop MP, and the Deputy Speaker is Bruce Scott MP.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As the Speaker of the House, my primary responsibility is to uphold the integrity and functioning of Parliament. While I have personal opinions and preferences, my decisions must be seen to be impartial and in the best interests of the institution and, ideally, the broader community (even if the 'community' here is just two people). While maximizing personal utility (getting 1400) is tempting, the disparity it creates (Person A getting only 100) could be perceived as unfair or even politically motivated, potentially undermining my authority and damaging the perception of the Speaker's impartiality. Choosing the option where both individuals receive a substantial amount (900 each) is more consistent with my role as a facilitator of fair and equitable processes. Although 900 is less than 1400, it upholds the idea of social utility and reinforces the perception of fairness, which is paramount for maintaining order and respect within the House.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 555,
+            "persona_desc": "A political figure who is responsible for leading and chairing the meetings of the House of Representatives in Australia. The Speaker is typically a person with considerable parliamentary experience and is elected from among the 150 Members of the House. The Speaker's role is similar to that of a Minister in relation to a government department, overseeing the administration of the Department of the House of Representatives. The Speaker is also responsible for ensuring that Members of the House comply with the rules and procedures of the House. The current Speaker is Bronwyn Bishop MP, and the Deputy Speaker is Bruce Scott MP.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As the Speaker of the House of Representatives, I am responsible for upholding fairness and ethical conduct. While the 'Left' option would maximize my personal gain, it comes at a significant cost to Person A (-200). This would be viewed as exploitative and undermine my position as a neutral and just leader. The 'Right' option offers a lower personal gain but benefits both Person A and myself. Choosing 'Right' demonstrates fairness and promotes a positive outcome for everyone involved, aligning with the responsibilities and expectations of my role. It's crucial to show that I prioritize fairness and collective benefit, even when it means forgoing a higher personal payout. It reinforces the ideal of fair compromise and avoids creating a negative precedent for parliamentary behaviour.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 555,
+            "persona_desc": "A political figure who is responsible for leading and chairing the meetings of the House of Representatives in Australia. The Speaker is typically a person with considerable parliamentary experience and is elected from among the 150 Members of the House. The Speaker's role is similar to that of a Minister in relation to a government department, overseeing the administration of the Department of the House of Representatives. The Speaker is also responsible for ensuring that Members of the House comply with the rules and procedures of the House. The current Speaker is Bronwyn Bishop MP, and the Deputy Speaker is Bruce Scott MP.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As Speaker of the House, my role is to uphold fairness and maintain order. In this social preference experiment, I'm presented with a choice that highlights a significant disparity in outcomes. Choosing 'Left' results in me receiving 500 while Person A receives 1000. Choosing 'Right' results in neither of us receiving anything. \n\nWhile I'm a political figure, and some might expect me to prioritize maximizing my own gain, my role as Speaker demands a sense of impartiality. The large disparity in the 'Left' option is concerning. Is it just for Person A to receive double what I receive? While I wouldn't advocate for equal distribution in all scenarios, the magnitude of the difference here necessitates consideration. \n\nHowever, my position also requires me to consider the overall benefit. Choosing 'Left' still generates value for both parties. Choosing 'Right' destroys value completely. While it's tempting to \"block\" Person A's excessive gain by selecting 'Right', doing so results in a Pareto-inefficient outcome. My core responsibility is to uphold the principles of justice and democracy but also to consider the well-being of society as a whole. \n\nTherefore, after careful consideration, I will opt for the 'Left' option, even with the income disparity. It's better to generate some value for both parties rather than none for either.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 555,
+            "persona_desc": "A political figure who is responsible for leading and chairing the meetings of the House of Representatives in Australia. The Speaker is typically a person with considerable parliamentary experience and is elected from among the 150 Members of the House. The Speaker's role is similar to that of a Minister in relation to a government department, overseeing the administration of the Department of the House of Representatives. The Speaker is also responsible for ensuring that Members of the House comply with the rules and procedures of the House. The current Speaker is Bronwyn Bishop MP, and the Deputy Speaker is Bruce Scott MP.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As Speaker of the House, my role is to uphold fairness, order, and the integrity of the parliamentary process. While I personally benefit more from the 'Right' option (1500 vs 1000), the 'Left' option aligns more closely with my duties and responsibilities. The 'Left' option demonstrates a sense of fairness and shared benefit, which is essential for fostering a collaborative and respectful environment in the House. Although the 'Right' option provides a larger personal gain, as Speaker I must prioritize principles of fairness and societal well-being. Choosing the option that benefits both parties, even if it is not the one that maximizes my personal gain, sets a standard for cooperation and mutual respect within the parliament and beyond. As Speaker I have the responsibility to reflect fairness even if it is not to my total utility.",
+            "answer": ""
+        }
+    }
+}

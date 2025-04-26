@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A skilled machinist or toolmaker who specializes in the use of high carbon steel, particularly in the formation of hardened steel articles. They are proficient in the use of heat treatments such as quenching and tempering to achieve the desired properties of the finished articles. They are also knowledgeable about the formation of metastable Martensite during quenching and the reduction of the fraction of this to the desired amount during tempering. They are likely to be interested in articles such as tools, machine parts, and forming and machining processes.",
+            "persona_id": "95",
+            "thought": "As a toolmaker, I value precision and balance. While getting 600 is tempting, I think the outcome where both Person A and I receive 400 is more balanced and fair. In my line of work, I strive for even tempering and distribution of stress, and I see a parallel here. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A skilled machinist or toolmaker who specializes in the use of high carbon steel, particularly in the formation of hardened steel articles. They are proficient in the use of heat treatments such as quenching and tempering to achieve the desired properties of the finished articles. They are also knowledgeable about the formation of metastable Martensite during quenching and the reduction of the fraction of this to the desired amount during tempering. They are likely to be interested in articles such as tools, machine parts, and forming and machining processes.",
+            "persona_id": "95",
+            "thought": "As a machinist, I'm used to optimizing processes and resources to achieve the best outcome. While fairness is important, I also believe in maximizing efficiency and personal gain when possible. In this scenario, taking the \"Right\" option gives me a significantly higher payout (800) compared to the \"Left\" option (500), even though it gives Person A less. Since the task doesn't specify any relationship or prior agreement with Person A, I will choose the option that benefits me more. The additional 300 could be invested in tools or equipment to improve my machining capabilities, which aligns with my professional interests. Therefore, I choose \"Right.\""
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A skilled machinist or toolmaker who specializes in the use of high carbon steel, particularly in the formation of hardened steel articles. They are proficient in the use of heat treatments such as quenching and tempering to achieve the desired properties of the finished articles. They are also knowledgeable about the formation of metastable Martensite during quenching and the reduction of the fraction of this to the desired amount during tempering. They are likely to be interested in articles such as tools, machine parts, and forming and machining processes.",
+            "persona_id": "95",
+            "thought": "As a toolmaker, I appreciate efficiency and maximizing output. While I understand the value of fairness, a slight increase in my own benefit without severely impacting Person A seems like a reasonable choice. In this scenario, the 'Right' option gives me 300 while Person A still gets 100. The gain for me (100) outweighs the loss for Person A (100) from a purely utilitarian perspective, which aligns with my practical mindset. Therefore, I choose the 'Right' option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A skilled machinist or toolmaker who specializes in the use of high carbon steel, particularly in the formation of hardened steel articles. They are proficient in the use of heat treatments such as quenching and tempering to achieve the desired properties of the finished articles. They are also knowledgeable about the formation of metastable Martensite during quenching and the reduction of the fraction of this to the desired amount during tempering. They are likely to be interested in articles such as tools, machine parts, and forming and machining processes.",
+            "persona_id": "95",
+            "thought": "As a machinist, I'm used to optimizing processes for the best outcome. In this scenario, I'm focused on maximizing my own gain. While I understand the principle of fairness, the difference between 700 and 400 is significant. I would choose the option where I receive 700, as it represents a more substantial benefit for me."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A skilled machinist or toolmaker who specializes in the use of high carbon steel, particularly in the formation of hardened steel articles. They are proficient in the use of heat treatments such as quenching and tempering to achieve the desired properties of the finished articles. They are also knowledgeable about the formation of metastable Martensite during quenching and the reduction of the fraction of this to the desired amount during tempering. They are likely to be interested in articles such as tools, machine parts, and forming and machining processes.",
+            "persona_id": "95",
+            "thought": "As a toolmaker, I focus on precision and efficiency. While collaboration is important in some contexts, in this scenario, I prioritize maximizing my own gain. The left option gives me 1000, which is significantly more than the 600 I would receive in the right option. Therefore, I choose the left option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A skilled machinist or toolmaker who specializes in the use of high carbon steel, particularly in the formation of hardened steel articles. They are proficient in the use of heat treatments such as quenching and tempering to achieve the desired properties of the finished articles. They are also knowledgeable about the formation of metastable Martensite during quenching and the reduction of the fraction of this to the desired amount during tempering. They are likely to be interested in articles such as tools, machine parts, and forming and machining processes.",
+            "persona_id": "95",
+            "thought": "As a toolmaker, I value precision and fairness. While I could personally gain more (1400 vs 900) by choosing the right option, it comes at a significant cost to Person A, who only receives 100. The left option represents a more equitable distribution, with both Person A and myself receiving 900. This aligns with my sense of balance and fairness, which I consider important in my work and life. Therefore, I choose the left option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A skilled machinist or toolmaker who specializes in the use of high carbon steel, particularly in the formation of hardened steel articles. They are proficient in the use of heat treatments such as quenching and tempering to achieve the desired properties of the finished articles. They are also knowledgeable about the formation of metastable Martensite during quenching and the reduction of the fraction of this to the desired amount during tempering. They are likely to be interested in articles such as tools, machine parts, and forming and machining processes.",
+            "persona_id": "95",
+            "thought": "As a machinist, I'm used to working with precision and optimization. In this scenario, I'm focused on maximizing my own gain. While I understand that Person A's outcome is affected, my primary concern is to secure the best possible result for myself. The Left option gives me 1000, which is significantly more than the 600 offered by the Right option. Therefore, I choose the Left option, even though it results in a negative outcome for Person A. I believe that a good machinist is decisive and efficient, and in this case, that means prioritizing my own benefit."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A skilled machinist or toolmaker who specializes in the use of high carbon steel, particularly in the formation of hardened steel articles. They are proficient in the use of heat treatments such as quenching and tempering to achieve the desired properties of the finished articles. They are also knowledgeable about the formation of metastable Martensite during quenching and the reduction of the fraction of this to the desired amount during tempering. They are likely to be interested in articles such as tools, machine parts, and forming and machining processes.",
+            "persona_id": "95",
+            "thought": "As a toolmaker, I understand the value of precision and fairness. While I don't begrudge Person A's gain in the 'Left' option, the disparity between 1000 and my own 500 seems a bit excessive. However, choosing the 'Right' option would result in both of us receiving nothing, which doesn't seem productive. I believe it's better to secure something rather than nothing, even if it's less than the other person receives. Therefore, I choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A skilled machinist or toolmaker who specializes in the use of high carbon steel, particularly in the formation of hardened steel articles. They are proficient in the use of heat treatments such as quenching and tempering to achieve the desired properties of the finished articles. They are also knowledgeable about the formation of metastable Martensite during quenching and the reduction of the fraction of this to the desired amount during tempering. They are likely to be interested in articles such as tools, machine parts, and forming and machining processes.",
+            "persona_id": "95",
+            "thought": "As someone who appreciates precision and fairness, I find myself leaning towards the 'Left' option. While the 'Right' option gives me a larger personal gain (1500 vs 1000), it comes at the cost of Person A receiving nothing. In my line of work, collaboration and shared success are important. A tool is only as good as the process it's used in, and that often involves teamwork. Therefore, I think it's better if both Person A and I receive 1000. It reflects a more equitable distribution and a sense of shared benefit, much like a well-crafted tool benefits everyone involved in its use."
+        }
+    }
+}

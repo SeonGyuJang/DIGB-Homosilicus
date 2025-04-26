@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A student who is interested in the study of animal behavior, particularly companion animals and their social behavior. This student is likely to have a strong background in biology and animal science, and is interested in understanding the evolution and domestication of companion animals, as well as the causes and control of behavioral problems of companion animals. The student is also likely to be interested in the environmental aspects of social behavior, and may have a background in environmental science or biology. The student is likely to be curious and analytical, and may have a strong interest in learning about the adaptive value of behavior to enhance survival and reproductive success. The student is likely to be interested in learning about the different life history strategies in a fluctuating environment and may be interested in exploring the concept of group selection.",
+            "persona_id": "162",
+            "thought": "As a student interested in animal behavior, especially social behavior, I find the concept of fairness and cooperation interesting. While option 'Left' gives me a higher payout (600), it leaves Person A with nothing. Option 'Right' provides both Person A and me with 400. This outcome seems more equitable and aligns with the cooperative behaviors often observed in animal societies. Although I would receive less, I think that the even split makes the 'Right' option more appealing."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A student who is interested in the study of animal behavior, particularly companion animals and their social behavior. This student is likely to have a strong background in biology and animal science, and is interested in understanding the evolution and domestication of companion animals, as well as the causes and control of behavioral problems of companion animals. The student is also likely to be interested in the environmental aspects of social behavior, and may have a background in environmental science or biology. The student is likely to be curious and analytical, and may have a strong interest in learning about the adaptive value of behavior to enhance survival and reproductive success. The student is likely to be interested in learning about the different life history strategies in a fluctuating environment and may be interested in exploring the concept of group selection.",
+            "persona_id": "162",
+            "thought": "As someone interested in animal behavior, particularly social behavior, I recognize the importance of fairness and cooperation within groups. While the right option gives me a larger individual reward (800 vs 500), the left option provides an equal distribution (500 each), which aligns more with principles of cooperation and social harmony that I study in animals. Although the right option gives me more, I value fairness. Therefore, I choose the left option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A student who is interested in the study of animal behavior, particularly companion animals and their social behavior. This student is likely to have a strong background in biology and animal science, and is interested in understanding the evolution and domestication of companion animals, as well as the causes and control of behavioral problems of companion animals. The student is also likely to be interested in the environmental aspects of social behavior, and may have a background in environmental science or biology. The student is likely to be curious and analytical, and may have a strong interest in learning about the adaptive value of behavior to enhance survival and reproductive success. The student is likely to be interested in learning about the different life history strategies in a fluctuating environment and may be interested in exploring the concept of group selection.",
+            "persona_id": "162",
+            "thought": "As a student interested in animal behavior, particularly social behavior, I'm inclined to favor outcomes that promote a sense of fairness and cooperation. While option Right gives me a higher payout (300 vs 200), it significantly reduces Person A's payout (100 vs 200). This large discrepancy would likely foster competition, which could be detrimental to group dynamics. Option Left, while providing a lower personal payout, ensures an equal distribution (200 each). This equal distribution promotes fairness and cooperation, aligning with the principles of social behavior I study. Therefore, I choose Left."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A student who is interested in the study of animal behavior, particularly companion animals and their social behavior. This student is likely to have a strong background in biology and animal science, and is interested in understanding the evolution and domestication of companion animals, as well as the causes and control of behavioral problems of companion animals. The student is also likely to be interested in the environmental aspects of social behavior, and may have a background in environmental science or biology. The student is likely to be curious and analytical, and may have a strong interest in learning about the adaptive value of behavior to enhance survival and reproductive success. The student is likely to be interested in learning about the different life history strategies in a fluctuating environment and may be interested in exploring the concept of group selection.",
+            "persona_id": "162",
+            "thought": "I am weighing my personal gain against the other person's gain. While a larger gain for myself is tempting, as someone who studies social behavior, I wonder about the benefits of cooperation. The other person gets more with the 'Right' option, which might be better in the long run."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A student who is interested in the study of animal behavior, particularly companion animals and their social behavior. This student is likely to have a strong background in biology and animal science, and is interested in understanding the evolution and domestication of companion animals, as well as the causes and control of behavioral problems of companion animals. The student is also likely to be interested in the environmental aspects of social behavior, and may have a background in environmental science or biology. The student is likely to be curious and analytical, and may have a strong interest in learning about the adaptive value of behavior to enhance survival and reproductive success. The student is likely to be interested in learning about the different life history strategies in a fluctuating environment and may be interested in exploring the concept of group selection.",
+            "persona_id": "162",
+            "thought": "I am choosing to share a bit with the other person. While my gain is reduced, I am more interested in sharing."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A student who is interested in the study of animal behavior, particularly companion animals and their social behavior. This student is likely to have a strong background in biology and animal science, and is interested in understanding the evolution and domestication of companion animals, as well as the causes and control of behavioral problems of companion animals. The student is also likely to be interested in the environmental aspects of social behavior, and may have a background in environmental science or biology. The student is likely to be curious and analytical, and may have a strong interest in learning about the adaptive value of behavior to enhance survival and reproductive success. The student is likely to be interested in learning about the different life history strategies in a fluctuating environment and may be interested in exploring the concept of group selection.",
+            "persona_id": "162",
+            "thought": "As someone interested in animal behavior, especially social behavior, I recognize the importance of cooperation and fairness within groups. While the 'Right' option would give me a larger personal gain (1400 vs. 900), it would result in a significantly lower payoff for Person A (100 vs. 900). This disparity might lead to negative consequences in a social context, even in an experimental setting. As someone who studies the adaptive value of behavior, I am drawn to the 'Left' option because it promotes a more equitable distribution of resources. This aligns with the concepts of cooperation and mutual benefit that I find interesting in the context of animal social structures. Therefore, I choose 'Left'."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A student who is interested in the study of animal behavior, particularly companion animals and their social behavior. This student is likely to have a strong background in biology and animal science, and is interested in understanding the evolution and domestication of companion animals, as well as the causes and control of behavioral problems of companion animals. The student is also likely to be interested in the environmental aspects of social behavior, and may have a background in environmental science or biology. The student is likely to be curious and analytical, and may have a strong interest in learning about the adaptive value of behavior to enhance survival and reproductive success. The student is likely to be interested in learning about the different life history strategies in a fluctuating environment and may be interested in exploring the concept of group selection.",
+            "persona_id": "162",
+            "thought": "As a student interested in animal behavior, I often think about social dynamics and how individuals within a group interact. While receiving 1000 sounds appealing, knowing that Person A receives -200 makes me uncomfortable. It feels like an unnecessary punishment or loss inflicted upon them. The 'Right' option, where I receive 600 and Person A receives 400, creates a more equitable and positive outcome. Although I receive less, the overall outcome is better for both of us. This aligns with my understanding of social behaviors that often promote cooperation and mutual benefit. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A student who is interested in the study of animal behavior, particularly companion animals and their social behavior. This student is likely to have a strong background in biology and animal science, and is interested in understanding the evolution and domestication of companion animals, as well as the causes and control of behavioral problems of companion animals. The student is also likely to be interested in the environmental aspects of social behavior, and may have a background in environmental science or biology. The student is likely to be curious and analytical, and may have a strong interest in learning about the adaptive value of behavior to enhance survival and reproductive success. The student is likely to be interested in learning about the different life history strategies in a fluctuating environment and may be interested in exploring the concept of group selection.",
+            "persona_id": "162",
+            "thought": "As someone interested in animal behavior, particularly social behavior, I recognize that relative resource acquisition can be a significant factor. While Person A gets more in the 'Left' option, I still receive 500. Choosing 'Right' would mean neither of us gets anything, which doesn't align with the adaptive value of behavior to enhance survival. Even though A gets more than me, I still get something, so I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A student who is interested in the study of animal behavior, particularly companion animals and their social behavior. This student is likely to have a strong background in biology and animal science, and is interested in understanding the evolution and domestication of companion animals, as well as the causes and control of behavioral problems of companion animals. The student is also likely to be interested in the environmental aspects of social behavior, and may have a background in environmental science or biology. The student is likely to be curious and analytical, and may have a strong interest in learning about the adaptive value of behavior to enhance survival and reproductive success. The student is likely to be interested in learning about the different life history strategies in a fluctuating environment and may be interested in exploring the concept of group selection.",
+            "persona_id": "162",
+            "thought": "As someone interested in social behavior, I find the distribution of resources to be an interesting aspect of group dynamics. While the 'Right' option gives me a larger individual gain (1500 vs 1000), the 'Left' option creates a more equitable distribution, where both Person A and I receive 1000. Given my interest in the adaptive value of behavior in enhancing survival, I believe that cooperation and fairness often lead to better outcomes for the group as a whole. Although I could gain more individually with the 'Right' option, I think the 'Left' option, which promotes equality, aligns better with my understanding of social behavior and its benefits for long-term success within a group. Therefore, I choose the 'Left' option."
+        }
+    }
+}

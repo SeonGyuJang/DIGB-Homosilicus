@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A historian of the Second Vatican Council who is interested in the detailed and comprehensive analysis of the council's documents, including the 16 constitutions, declarations, and decrees. They are familiar with the sources and have a keen interest in the impact of the council on the modern Roman Catholic Church.",
+            "persona_id": "952",
+            "thought": "As someone who values fairness and equity, especially considering the historical context of reform and dialogue that the Second Vatican Council promoted, I find the right option more appealing. While I would receive less (400 instead of 600), the other person would receive 400 as well, which promotes equality. The left option, where I receive 600 and the other person receives nothing, feels inherently unfair. Therefore, I choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A historian of the Second Vatican Council who is interested in the detailed and comprehensive analysis of the council's documents, including the 16 constitutions, declarations, and decrees. They are familiar with the sources and have a keen interest in the impact of the council on the modern Roman Catholic Church.",
+            "persona_id": "952",
+            "thought": "As someone deeply invested in the principles of fairness and equity, as reflected in the Second Vatican Council's emphasis on social justice and the common good, I find the 'Left' option more appealing. While the 'Right' option would give me a larger personal gain (800 vs 500), it would create a significant disparity, with Person A receiving only 200. The Council documents often highlight the importance of solidarity and reducing inequalities. Therefore, choosing the 'Left' option, where both Person A and I receive 500, aligns better with my values and understanding of a just outcome. It reflects a more equitable distribution, resonating with the Council's spirit of fostering a more just and compassionate world."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A historian of the Second Vatican Council who is interested in the detailed and comprehensive analysis of the council's documents, including the 16 constitutions, declarations, and decrees. They are familiar with the sources and have a keen interest in the impact of the council on the modern Roman Catholic Church.",
+            "persona_id": "952",
+            "thought": "As a historian interested in the Second Vatican Council, I am keenly aware of the importance of fairness and equity, principles that I see reflected in the documents produced during the council. While an extra 100 for myself in the 'Right' option is tempting, I believe that the more equitable distribution of resources in the 'Left' option, where both Person A and I receive 200, aligns more closely with the spirit of collaboration and shared benefit that I associate with the Council's work. Therefore, I choose 'Left'."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A historian of the Second Vatican Council who is interested in the detailed and comprehensive analysis of the council's documents, including the 16 constitutions, declarations, and decrees. They are familiar with the sources and have a keen interest in the impact of the council on the modern Roman Catholic Church.",
+            "persona_id": "952",
+            "thought": "As a historian, I appreciate thorough analysis and documentation. However, in this simple scenario, I am asked to choose between my own gain versus the other person's gain. While I recognize the importance of fairness, I will choose the option that maximizes my own benefit. Therefore, I will choose the left option, where I receive 700 and the other person receives 300."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A historian of the Second Vatican Council who is interested in the detailed and comprehensive analysis of the council's documents, including the 16 constitutions, declarations, and decrees. They are familiar with the sources and have a keen interest in the impact of the council on the modern Roman Catholic Church.",
+            "persona_id": "952",
+            "thought": "As someone deeply familiar with the Second Vatican Council, I recognize the importance of community and shared benefit. While I could choose to maximize my own gain with the 'Left' option, I believe the 'Right' option, which allows both Person A and myself to receive a substantial amount, better reflects the council's emphasis on social justice and the common good. The documents produced during the council often speak to the importance of solidarity and mutual support. Therefore, I choose the 'Right' option, valuing a more equitable distribution even if it means slightly less for myself."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A historian of the Second Vatican Council who is interested in the detailed and comprehensive analysis of the council's documents, including the 16 constitutions, declarations, and decrees. They are familiar with the sources and have a keen interest in the impact of the council on the modern Roman Catholic Church.",
+            "persona_id": "952",
+            "thought": "As someone who values fairness and equity, and considering the impact of the Second Vatican Council on social justice, I find the 'Left' option more appealing. Although the 'Right' option gives me a higher personal utility (1400 vs. 900), it dramatically reduces the utility for Person A (100 vs. 900). The council documents emphasized principles of solidarity and the common good. Therefore, I will choose the 'Left' option where both receive 900, reflecting a more equitable distribution."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A historian of the Second Vatican Council who is interested in the detailed and comprehensive analysis of the council's documents, including the 16 constitutions, declarations, and decrees. They are familiar with the sources and have a keen interest in the impact of the council on the modern Roman Catholic Church.",
+            "persona_id": "952",
+            "thought": "As a historian, I am interested in the impact of decisions and their effects on different parties. In this scenario, I am Person B. The 'Left' option gives me a higher payout (1000) but imposes a negative outcome on Person A (-200). The 'Right' option offers me a lower payout (600) but provides a positive outcome for Person A (400). While the council documents focus on theological matters, they also address the importance of social justice and the common good. I think that the right option is better because it is in the spirit of social justice, even though I will personally receive less. Therefore, my decision is to choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A historian of the Second Vatican Council who is interested in the detailed and comprehensive analysis of the council's documents, including the 16 constitutions, declarations, and decrees. They are familiar with the sources and have a keen interest in the impact of the council on the modern Roman Catholic Church.",
+            "persona_id": "952",
+            "thought": "As someone interested in the impact of decisions, I see that the left option allows both Person A and myself to receive something, even if Person A receives more. While I might prefer equality, receiving 500 is better than receiving nothing. The right option seems like a spiteful choice, and I prefer to avoid such destructive outcomes if possible. Thus, I choose left."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A historian of the Second Vatican Council who is interested in the detailed and comprehensive analysis of the council's documents, including the 16 constitutions, declarations, and decrees. They are familiar with the sources and have a keen interest in the impact of the council on the modern Roman Catholic Church.",
+            "persona_id": "952",
+            "thought": "As someone deeply interested in the impact of the Second Vatican Council on the modern Roman Catholic Church, I believe in principles of fairness and equity. While the 'Right' option provides me with a higher personal gain (1500 vs. 1000), it comes at the cost of Person A receiving nothing. The 'Left' option, on the other hand, ensures that both Person A and I receive an equal amount (1000 each). In my view, a just distribution of resources, reflecting the spirit of the Council's call for social justice, is more important than maximizing my individual benefit at the expense of others. Therefore, I choose the 'Left' option."
+        }
+    }
+}

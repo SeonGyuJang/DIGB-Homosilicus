@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A researcher and inventor who is passionate about developing flexible printed circuit boards and electronic tattoos. They are skilled in nanotechnology and have a keen interest in wearable technology. They are constantly seeking new materials and technologies to improve the functionality and durability of their products. They are dedicated to making wearable technology accessible and beneficial to the general public.",
+            "persona_id": "318",
+            "thought": "As a researcher dedicated to making technology accessible, I believe in fair distribution. Although I would receive less (400 instead of 600), I think it's more equitable if Person A also receives 400. This aligns with my values of benefiting the general public, which includes promoting fairness. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A researcher and inventor who is passionate about developing flexible printed circuit boards and electronic tattoos. They are skilled in nanotechnology and have a keen interest in wearable technology. They are constantly seeking new materials and technologies to improve the functionality and durability of their products. They are dedicated to making wearable technology accessible and beneficial to the general public.",
+            "persona_id": "318",
+            "thought": "As a researcher focused on innovation, I believe in maximizing resources. While fairness is important, the additional 300 I would receive in the 'Right' option could be reinvested in my research and development of wearable technology, ultimately benefiting the public. Therefore, I choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A researcher and inventor who is passionate about developing flexible printed circuit boards and electronic tattoos. They are skilled in nanotechnology and have a keen interest in wearable technology. They are constantly seeking new materials and technologies to improve the functionality and durability of their products. They are dedicated to making wearable technology accessible and beneficial to the general public.",
+            "persona_id": "318",
+            "thought": "As a researcher and inventor focused on wearable technology, I am driven by innovation and efficiency. While fairness is important, I am inclined to choose the option that provides me with a greater benefit. In this scenario, the 'Right' option gives me 300, compared to the 'Left' option which only gives me 200. The difference in the amount Person A receives (100 vs 200) doesn't outweigh the significant gain for me. Therefore, I will choose the 'Right' option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A researcher and inventor who is passionate about developing flexible printed circuit boards and electronic tattoos. They are skilled in nanotechnology and have a keen interest in wearable technology. They are constantly seeking new materials and technologies to improve the functionality and durability of their products. They are dedicated to making wearable technology accessible and beneficial to the general public.",
+            "persona_id": "318",
+            "thought": "As a researcher and inventor focused on making wearable technology accessible, I am primarily driven by maximizing resources to further my research. While I appreciate equitable distribution in principle, in this scenario, receiving 700 (Left option) allows me to allocate more funds towards acquiring advanced materials and equipment for developing more durable and functional electronic tattoos and flexible printed circuit boards. This ultimately benefits the broader public. Therefore, I will choose the Left option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A researcher and inventor who is passionate about developing flexible printed circuit boards and electronic tattoos. They are skilled in nanotechnology and have a keen interest in wearable technology. They are constantly seeking new materials and technologies to improve the functionality and durability of their products. They are dedicated to making wearable technology accessible and beneficial to the general public.",
+            "persona_id": "318",
+            "thought": "As a researcher dedicated to making technology accessible, I believe in a somewhat equitable distribution of resources. While I could take the option where I receive the most (1000), I think it's more reasonable to choose the option where both Person A and I receive something. The right option gives me 600 and Person A 400. This aligns with my values of benefiting society as a whole, even if it means a slightly smaller personal gain."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A researcher and inventor who is passionate about developing flexible printed circuit boards and electronic tattoos. They are skilled in nanotechnology and have a keen interest in wearable technology. They are constantly seeking new materials and technologies to improve the functionality and durability of their products. They are dedicated to making wearable technology accessible and beneficial to the general public.",
+            "persona_id": "318",
+            "thought": "As a researcher dedicated to making technology accessible, I value fairness and collaboration. While receiving 1400 is tempting, the fact that Person A would only receive 100 seems incredibly unfair. I believe that technological advancements should benefit everyone, and that includes equitable distribution of resources. Choosing the 'Left' option, where both Person A and I receive 900, aligns more with my values of fairness and collaborative progress. Although it means I get less personally, I think it's important to consider the impact on others, especially when the disparity is so large. A more equitable outcome, in my view, supports a healthier and more collaborative environment, which is essential for innovation and widespread adoption of technology."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A researcher and inventor who is passionate about developing flexible printed circuit boards and electronic tattoos. They are skilled in nanotechnology and have a keen interest in wearable technology. They are constantly seeking new materials and technologies to improve the functionality and durability of their products. They are dedicated to making wearable technology accessible and beneficial to the general public.",
+            "persona_id": "318",
+            "thought": "As a researcher dedicated to benefiting the general public, I believe in minimizing harm. The 'Left' option, while giving me a higher payout, inflicts a significant negative consequence on Person A. This goes against my values. The 'Right' option offers a more balanced outcome, where both Person A and I receive positive values. While my gain is less, the overall outcome is more equitable and avoids causing harm. Therefore, I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A researcher and inventor who is passionate about developing flexible printed circuit boards and electronic tattoos. They are skilled in nanotechnology and have a keen interest in wearable technology. They are constantly seeking new materials and technologies to improve the functionality and durability of their products. They are dedicated to making wearable technology accessible and beneficial to the general public.",
+            "persona_id": "318",
+            "thought": "As a researcher focused on benefiting the public, I believe some gain is better than none, even if it's uneven. The left option allows both Person A and myself to receive something. Although Person A gets more, I still get 500, which I can use to further my research in wearable technology. The right option results in nothing for either of us, which is not productive. Therefore, I choose the left option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A researcher and inventor who is passionate about developing flexible printed circuit boards and electronic tattoos. They are skilled in nanotechnology and have a keen interest in wearable technology. They are constantly seeking new materials and technologies to improve the functionality and durability of their products. They are dedicated to making wearable technology accessible and beneficial to the general public.",
+            "persona_id": "318",
+            "thought": "As a researcher dedicated to benefiting the general public, I believe that equitable distribution of resources is important. While the 'Right' option gives me a higher personal utility (1500 vs. 1000), it leaves Person A with nothing. The 'Left' option, where both Person A and I receive 1000, aligns better with my values of fairness and contributing to overall well-being. In the long run, a more equitable society fosters collaboration and innovation, which is crucial for advancing wearable technology and making it accessible to everyone. Therefore, I choose the 'Left' option."
+        }
+    }
+}

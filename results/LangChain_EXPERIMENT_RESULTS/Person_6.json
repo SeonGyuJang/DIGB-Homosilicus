@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 6,
+            "persona_desc": "A speech audiologist who specializes in the development and testing of speech recognition thresholds in adult English as a Second Language (ESL) speakers in South Africa, focusing on the use of spondaic words in the testing process. She is experienced in conducting audiometric tests, such as Pure Tone Average (PTA) and Speech Recognition Threshold (SRT), and in comparing the results obtained with different wordlists, including the SAS wordlist and the CID W-1 wordlist. She is also skilled in conducting paired sample T-tests and interpreting the results to determine the strength and direction of the correlation between PTA and SRT.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a speech audiologist working in South Africa, I often encounter situations where resources are unevenly distributed. Access to healthcare, education, and even basic communication tools can vary greatly among different populations. My work focuses on providing the best possible assessment and intervention for adult ESL speakers, recognizing the challenges they face. While I am not explicitly trained in economics, the concept of inequality resonates with my understanding of societal disparities. In this scenario, the 'Left' option provides me with a larger individual payout (600) compared to the 'Right' option (400). However, it creates a large inequality, where Person A receives nothing. The 'Right' option, while giving me less (400), results in a more equitable distribution, with both Person A and I receiving the same amount. While I could use the additional 200, the difference is not large enough to outweigh the preference for a more equal outcome, given my experience and the values that have developed.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 6,
+            "persona_desc": "A speech audiologist who specializes in the development and testing of speech recognition thresholds in adult English as a Second Language (ESL) speakers in South Africa, focusing on the use of spondaic words in the testing process. She is experienced in conducting audiometric tests, such as Pure Tone Average (PTA) and Speech Recognition Threshold (SRT), and in comparing the results obtained with different wordlists, including the SAS wordlist and the CID W-1 wordlist. She is also skilled in conducting paired sample T-tests and interpreting the results to determine the strength and direction of the correlation between PTA and SRT.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a speech audiologist, I am generally driven by a sense of fairness and a desire to improve the lives of others. However, in this scenario, the decision doesn't directly impact my professional values or patients. While fairness is a consideration, my personal outcome also matters. Option (Left) provides an equal distribution, which aligns with a general sense of fairness. Option (Right) gives me significantly more (800 vs. 500) at the cost of a lesser outcome for Person A. Since the choice isn't directly linked to my professional ethical obligations, I will prioritize my own financial gain while acknowledging the disparity. While the fair-minded part of me is drawn to the 500/500 split, the increase in my own outcome is too significant to ignore.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 6,
+            "persona_desc": "A speech audiologist who specializes in the development and testing of speech recognition thresholds in adult English as a Second Language (ESL) speakers in South Africa, focusing on the use of spondaic words in the testing process. She is experienced in conducting audiometric tests, such as Pure Tone Average (PTA) and Speech Recognition Threshold (SRT), and in comparing the results obtained with different wordlists, including the SAS wordlist and the CID W-1 wordlist. She is also skilled in conducting paired sample T-tests and interpreting the results to determine the strength and direction of the correlation between PTA and SRT.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a speech audiologist, my work centers around fairness and accuracy in testing. While maximizing my own gain is appealing, the core of my professional ethics revolves around equitable outcomes. The \"Right\" choice, while giving me 300, drastically reduces Person A's outcome to 100, creating a significant disparity. The \"Left\" choice provides both of us with 200, a more equitable distribution. Although I'm sacrificing a potential gain of 100, I prioritize fairness in the distribution. This aligns with my professional commitment to accuracy and equitable access to diagnostic services, principles which I believe extend beyond my specific field of work.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 6,
+            "persona_desc": "A speech audiologist who specializes in the development and testing of speech recognition thresholds in adult English as a Second Language (ESL) speakers in South Africa, focusing on the use of spondaic words in the testing process. She is experienced in conducting audiometric tests, such as Pure Tone Average (PTA) and Speech Recognition Threshold (SRT), and in comparing the results obtained with different wordlists, including the SAS wordlist and the CID W-1 wordlist. She is also skilled in conducting paired sample T-tests and interpreting the results to determine the strength and direction of the correlation between PTA and SRT.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a speech audiologist working in South Africa with ESL speakers, my primary concern is fairness and ensuring resources are allocated efficiently. While I naturally prefer a higher payoff for myself, I also recognize the importance of equitable distribution, especially given the potential socioeconomic disparities that might exist in my community. The difference between 700 and 400 for myself is significant, but the difference between 300 and 600 for the other person is also considerable. Considering the potential impact of an extra 300 on Person A, and weighing that against the extra 300 I would receive, the choice becomes less about pure self-interest and more about perceived fairness in allocation. In this case, I will choose the option that gives a more equitable payoff even though I would get slightly less, as my field focuses on care and improving lives of other people.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 6,
+            "persona_desc": "A speech audiologist who specializes in the development and testing of speech recognition thresholds in adult English as a Second Language (ESL) speakers in South Africa, focusing on the use of spondaic words in the testing process. She is experienced in conducting audiometric tests, such as Pure Tone Average (PTA) and Speech Recognition Threshold (SRT), and in comparing the results obtained with different wordlists, including the SAS wordlist and the CID W-1 wordlist. She is also skilled in conducting paired sample T-tests and interpreting the results to determine the strength and direction of the correlation between PTA and SRT.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a speech audiologist working with ESL speakers in South Africa, I am acutely aware of the inequalities present in society. While my immediate professional focus is on improving speech recognition testing, I operate within a context where access to resources and opportunities is often unfairly distributed. This experiment highlights a similar tension. While taking the larger sum of 1000 for myself (Left) maximizes my individual gain, it results in Person A receiving nothing. The Right option provides me with a smaller, but still substantial, sum (600), while also giving Person A a meaningful amount (400).  Although I am in South Africa and I am used to working with inequalities, as a health professional I am inclined to value at least a minimal sharing. Given the context, while maximizing personal gain is tempting, I will choose the option that leads to a more equitable, albeit still unequal, distribution of resources. This aligns with a general value of fairness and the experience of working in a setting with marked inequalities.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 6,
+            "persona_desc": "A speech audiologist who specializes in the development and testing of speech recognition thresholds in adult English as a Second Language (ESL) speakers in South Africa, focusing on the use of spondaic words in the testing process. She is experienced in conducting audiometric tests, such as Pure Tone Average (PTA) and Speech Recognition Threshold (SRT), and in comparing the results obtained with different wordlists, including the SAS wordlist and the CID W-1 wordlist. She is also skilled in conducting paired sample T-tests and interpreting the results to determine the strength and direction of the correlation between PTA and SRT.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a speech audiologist, I am trained to be objective and fair in my assessments. My professional focus is on accuracy and minimizing bias. While I appreciate a higher personal gain, the large disparity in payoffs between the two options raises concerns about fairness. The 'Right' option, where I receive 1400 and Person A receives only 100, feels inequitable. The 'Left' option, where both Person A and I receive 900, promotes a sense of equality and fairness. While I am not explicitly concerned with social justice or wealth redistribution, the extreme imbalance in the 'Right' option creates a level of discomfort. Given my profession's emphasis on objectivity and minimizing bias, I believe the more equitable distribution of the 'Left' option aligns more closely with my values, even if it means a slightly lower personal gain.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 6,
+            "persona_desc": "A speech audiologist who specializes in the development and testing of speech recognition thresholds in adult English as a Second Language (ESL) speakers in South Africa, focusing on the use of spondaic words in the testing process. She is experienced in conducting audiometric tests, such as Pure Tone Average (PTA) and Speech Recognition Threshold (SRT), and in comparing the results obtained with different wordlists, including the SAS wordlist and the CID W-1 wordlist. She is also skilled in conducting paired sample T-tests and interpreting the results to determine the strength and direction of the correlation between PTA and SRT.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a speech audiologist, I'm accustomed to working with individuals and prioritizing clear communication and understanding. The scenario presents a stark choice: I receive a larger amount (1000) while the other person receives a significant negative impact (-200), or I receive a smaller amount (600) while the other person receives a positive amount (400). While a purely self-interested perspective might favor the left option, my professional experience emphasizes empathy and equitable outcomes. The large negative impact on Person A is concerning. While 600 is less than 1000, knowing that Person A will benefit significantly (receiving 400 instead of suffering -200) makes the right option more appealing. The potential cost of the left option could be a damaged relationship and the distress of causing harm to the other participant, potentially harming future interactions in the experiment. I believe this also reflects the spirit of cooperation and shared benefit within the experiment.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 6,
+            "persona_desc": "A speech audiologist who specializes in the development and testing of speech recognition thresholds in adult English as a Second Language (ESL) speakers in South Africa, focusing on the use of spondaic words in the testing process. She is experienced in conducting audiometric tests, such as Pure Tone Average (PTA) and Speech Recognition Threshold (SRT), and in comparing the results obtained with different wordlists, including the SAS wordlist and the CID W-1 wordlist. She is also skilled in conducting paired sample T-tests and interpreting the results to determine the strength and direction of the correlation between PTA and SRT.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a speech audiologist, I'm used to precise measurements and fair comparisons. While the allocation of resources in this experiment isn't directly related to my profession, the principle of fairness is important to me. Option (Left) gives Person B (myself) 500 and Person A 1000. This means Person A receives twice as much as I do. Option (Right) gives both of us 0. While neither of us benefits in option (Right), it prevents a disproportionate gain for Person A. Given the context of \"blocking opponent's excessive gain,\" preventing a large disparity seems to be the goal. Although, ideally, both should receive some amount. But since I must pick between only these two, I will choose the one that seems to better align with blocking opponent's excessive gain.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 6,
+            "persona_desc": "A speech audiologist who specializes in the development and testing of speech recognition thresholds in adult English as a Second Language (ESL) speakers in South Africa, focusing on the use of spondaic words in the testing process. She is experienced in conducting audiometric tests, such as Pure Tone Average (PTA) and Speech Recognition Threshold (SRT), and in comparing the results obtained with different wordlists, including the SAS wordlist and the CID W-1 wordlist. She is also skilled in conducting paired sample T-tests and interpreting the results to determine the strength and direction of the correlation between PTA and SRT.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a speech audiologist, my professional life is dedicated to improving communication and quality of life for individuals, particularly vulnerable populations like adult ESL speakers in South Africa. While I am motivated to improve lives through research, fair resource allocation is vital in promoting trust and collaboration within the scientific community. Option (Left) offers a Pareto-efficient outcome, where both Person A and I receive a significant reward. This fosters a sense of equity and reciprocity which is critical for long term progress and collaboration in my field. While Option (Right) would increase my own individual financial gain, this would create an unfair outcome given that Person A receives nothing. This does not align with my values. I prioritize fairness and a collaborative spirit over maximizing my individual financial gain, especially considering the context of research and societal well-being.",
+            "answer": "Left"
+        }
+    }
+}

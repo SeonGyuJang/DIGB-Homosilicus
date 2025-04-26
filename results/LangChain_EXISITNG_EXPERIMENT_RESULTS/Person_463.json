@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 463,
+            "persona_desc": "A chemistry student who is interested in learning about the properties and structures of ionic compounds, particularly those involving nitrogen and other elements. This person is particularly interested in the formation of nitride compounds and how to write their ionic formulas.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As a chemistry student, fairness isn't as relevant as maximizing my own outcome in this artificial scenario. While I understand the social implications of fairness, this choice is solely about receiving the most tokens for myself, regardless of what Person A receives. Both options offer me the same amount (400 tokens). Since both give me the same amount, and I have no particular aversion or affinity for Person A receiving more, I can default to a simpler decision, or perhaps even assume there may be unseen strategic reasons to choose one or the other. In this simplified analysis, given that the core value of maximising my own gains is the same under both scenarios, there's no inherent reason to pick one over the other. So I will stick to my first statement and go with the simplest choice.",
+            "answer": "Left"
+        },
+        "scenario_2": {
+            "persona_id": 463,
+            "persona_desc": "A chemistry student who is interested in learning about the properties and structures of ionic compounds, particularly those involving nitrogen and other elements. This person is particularly interested in the formation of nitride compounds and how to write their ionic formulas.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a chemistry student, the details of the experiment are less relevant than the outcome. This scenario presents a choice between maximizing my own payoff versus splitting the payoff equally. While I am interested in nitride compounds and their formulas, that doesn't factor into a decision in a hypothetical social experiment. I will choose the option that gives me the higher payoff, even though it means person A gets nothing. Since this experiment deals with social preferences, I'm acting under the assumption that I want to maximize my monetary gain, as that's a fairly standard assumption in economic games related to social preference.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 463,
+            "persona_desc": "A chemistry student who is interested in learning about the properties and structures of ionic compounds, particularly those involving nitrogen and other elements. This person is particularly interested in the formation of nitride compounds and how to write their ionic formulas.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a chemistry student interested in ionic compounds, I don't see how the outcome of this split has any bearing on my studies or future research. There's no strategic advantage to be gained, and I don't know Person A. I would prefer getting 200 over 0, even if Person A gets more.",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 463,
+            "persona_desc": "A chemistry student who is interested in learning about the properties and structures of ionic compounds, particularly those involving nitrogen and other elements. This person is particularly interested in the formation of nitride compounds and how to write their ionic formulas.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As a chemistry student, I'm accustomed to striving for optimal solutions, whether it's in synthesizing compounds or balancing equations. In this scenario, my personal payoff is important, but so is fairness, a concept that resonates with the principle of stoichiometry. Option Left gives me more (700 vs 600), but gives Person A significantly less (200 vs 600). Option Right is more equitable. While I'm somewhat inclined towards maximizing my own payoff (700), the large disparity between my payoff and Person A's payoff in the Left choice makes me hesitant. The more balanced split in the Right choice appeals to my sense of fairness. It's a bit like achieving a balanced chemical reaction – both sides are closer to equal! Since this is a one-time interaction, factors such as future reciprocity are not relevant. The experiment is named 'Berk15', which suggests some academic or research purpose, further reinforcing a principle of equity as expected in academic studies. I would choose the right answer",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 463,
+            "persona_desc": "A chemistry student who is interested in learning about the properties and structures of ionic compounds, particularly those involving nitrogen and other elements. This person is particularly interested in the formation of nitride compounds and how to write their ionic formulas.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As a chemistry student, I am not directly impacted by the distribution of money in this game. I don't have any specific knowledge about social preferences or game theory that would influence my decision. Given that I am person B, I want to maximize my own payoff. Comparing the two options, I receive 600 in the 'Left' option and 500 in the 'Right' option. Therefore, I should choose the 'Left' option to maximize my own gain. The fact that person A gets less money in the 'Left' option compared to the 'Right' option doesn't impact my decision, as my persona is not designed to care about altruism or fairness in this specific context.",
+            "answer": "Left"
+        },
+        "scenario_6": {
+            "persona_id": 463,
+            "persona_desc": "A chemistry student who is interested in learning about the properties and structures of ionic compounds, particularly those involving nitrogen and other elements. This person is particularly interested in the formation of nitride compounds and how to write their ionic formulas.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As a chemistry student, I am aware that research and collaboration are crucial for scientific advancement. While I could choose the option that gives me slightly more (400 vs. 375), the right option significantly benefits Person A (750 vs 400). Since I can still get a decent amount (375), I am more inclined to choose the right option, showing some degree of other-regarding preference and fostering the idea of mutual gain, analogous to how sharing knowledge and resources in science leads to progress.",
+            "answer": "Right"
+        }
+    }
+}

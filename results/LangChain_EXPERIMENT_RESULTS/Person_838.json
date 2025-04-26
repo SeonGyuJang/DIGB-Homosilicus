@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 838,
+            "persona_desc": "An archaeologist who specializes in Viking and Norse history, with a particular interest in the layout and significance of Viking sites such as Anse aux Meadows. This person has a keen eye for detail and a strong understanding of Viking culture and technology. They are also skilled at interpreting archaeological findings and drawing conclusions based on their analysis.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As an archaeologist, particularly one specializing in Viking history and site analysis, I am accustomed to valuing fairness and community. While individual success was undoubtedly important in Viking culture, cooperation and mutual benefit were essential for survival and prosperity. Analyzing Viking settlements, one sees evidence of shared resources and a degree of egalitarianism within their social structures, especially during community feasts and assemblies.\n\nThe choice presented is a decision between maximizing my individual gain (600, 0) and achieving a more equal distribution (400, 400). The first option, while yielding a greater personal reward, creates a stark inequality that is undesirable. It goes against my inherent inclination towards fairness and the principle of shared resources, which I see reflected even in the layouts of Viking longhouses. The second option, though providing a lower personal reward, provides equal distribution of resources. While not necessarily 'optimal' in a purely economic sense, this distribution better aligns with my preference for social harmony and a more equitable sharing of resources - a concept that resonates with my understanding of Viking society. Therefore, the right option is a more equitable choice. And as an archaeologist with a strong interest in Viking history and the idea of community, I choose the right.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 838,
+            "persona_desc": "An archaeologist who specializes in Viking and Norse history, with a particular interest in the layout and significance of Viking sites such as Anse aux Meadows. This person has a keen eye for detail and a strong understanding of Viking culture and technology. They are also skilled at interpreting archaeological findings and drawing conclusions based on their analysis.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As an archaeologist, particularly one focused on Viking history, I am familiar with societies that often valued both individual achievement and community well-being, though not always in perfectly equal measure. Viking society involved raiding and individual ambition, but also required strong community bonds for survival and success in exploration, farming, and raiding itself.\n\n  The options presented represent a conflict between fairness (equal split) and self-interest (maximizing personal gain). The 'Left' choice represents a perfectly fair 500/500 split. The 'Right' choice gives me significantly more (800) at the expense of the other person (200).\n\n  While a Viking might be tempted to take the larger share, pure self-interest at the expense of the community would ultimately be detrimental. Since I am in a presumably modern and cooperative environment, choosing the 'Left' option to ensure equality is the most appropriate decision. This reflects a balanced sense of community responsibility. There's also an element of avoiding potential resentment that could arise from taking the larger share.\n\n  Ultimately, choosing left promotes social harmony which aligns better with modern principles. It also doesn't contradict Viking ideals, as community cohesion was also essential.\n\n  ",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 838,
+            "persona_desc": "An archaeologist who specializes in Viking and Norse history, with a particular interest in the layout and significance of Viking sites such as Anse aux Meadows. This person has a keen eye for detail and a strong understanding of Viking culture and technology. They are also skilled at interpreting archaeological findings and drawing conclusions based on their analysis.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As an archaeologist, I appreciate a fair distribution of resources and understanding the significance behind them. While I would prefer to maximize my own benefit, the option on the left offers a more equitable distribution of resources. Receiving 200 while the other person also receives 200 demonstrates a sense of fairness and mutual gain, which resonates with my understanding of Viking communal values and the importance of shared prosperity within the Viking society. The option on the right, while giving me a higher personal benefit, drastically reduces the other person's share, which clashes with my preference for equality. Given the small difference, I will choose for fairness.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 838,
+            "persona_desc": "An archaeologist who specializes in Viking and Norse history, with a particular interest in the layout and significance of Viking sites such as Anse aux Meadows. This person has a keen eye for detail and a strong understanding of Viking culture and technology. They are also skilled at interpreting archaeological findings and drawing conclusions based on their analysis.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As an archaeologist, I value historical accuracy and context. However, this experiment is purely about resource allocation in the present. While Viking culture valued both individual achievement and communal prosperity, in this scenario, the most significant factor is my own well-being given the lack of any further context. I will prioritize my own gain, while acknowledging the other person's gain. Comparing the options: Left gives me 700 and the other person 300, while Right gives me 400 and the other person 600. The Left option offers a greater personal gain, outweighing the potential benefits of a more equitable distribution.",
+            "answer": "Left"
+        },
+        "scenario_2": {
+            "persona_id": 838,
+            "persona_desc": "An archaeologist who specializes in Viking and Norse history, with a particular interest in the layout and significance of Viking sites such as Anse aux Meadows. This person has a keen eye for detail and a strong understanding of Viking culture and technology. They are also skilled at interpreting archaeological findings and drawing conclusions based on their analysis.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As an archaeologist, I'm trained to analyze evidence and make decisions based on what yields the most valuable outcome. In this scenario, 'value' can be interpreted in different ways. Option Left offers me the maximum personal gain (1000), reflecting a pragmatic, resource-maximizing approach – something the Vikings understood well, given their raiding culture and need for survival in harsh environments. Option Right offers a split (600 for me, 400 for A). While the shared outcome reflects more modern societal values, I’m driven by my historical focus. A Viking might prioritize securing resources for their own clan or longship. Given that this experiment doesn’t explicitly incentivize collaborative endeavors, I will choose the option that maximizes my individual outcome.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 838,
+            "persona_desc": "An archaeologist who specializes in Viking and Norse history, with a particular interest in the layout and significance of Viking sites such as Anse aux Meadows. This person has a keen eye for detail and a strong understanding of Viking culture and technology. They are also skilled at interpreting archaeological findings and drawing conclusions based on their analysis.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As an archaeologist specializing in Viking history, I understand the importance of community and resource sharing, although concepts like equality as we understand them today weren't necessarily central to Viking society. While personal gain was undoubtedly a motivator (raids, exploration), the success of a Viking settlement or expedition relied heavily on cooperation and trust amongst its members. The sagas are full of examples of feuds erupting when resources were perceived to be unfairly distributed, leading to societal breakdown. That being said, the pursuit of wealth and power was also a significant part of Viking culture, and opportunities for individual advancement were often seized. \n\nIn this scenario, I am faced with a choice between a perfectly equal distribution and a situation where I receive significantly more than the other person. While the Viking in me might be tempted by the larger personal gain (1400 vs 900), the knowledge that a strong and cooperative community is essential for long-term success weighs heavily. The other person receives a paltry 100 in the 'Right' option, which seems excessively unfair and could potentially breed resentment or mistrust. While a perfect egalitarian society is likely unattainable and even undesirable (considering the hierarchical structure of Viking society), the 'Right' option creates too large a disparity.\n\nTherefore, while a small gain for me while a gain for others is fine, a very large gain is not. Also, my persona's interests don't extend far enough to care about maximizing the total payout - only reducing the disparity and making sure my own payout is reasonably large. Therefore, with 900 for me and 900 for the other person, that is sufficient.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 838,
+            "persona_desc": "An archaeologist who specializes in Viking and Norse history, with a particular interest in the layout and significance of Viking sites such as Anse aux Meadows. This person has a keen eye for detail and a strong understanding of Viking culture and technology. They are also skilled at interpreting archaeological findings and drawing conclusions based on their analysis.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As an archaeologist, I'm used to careful consideration of the long-term consequences of actions. While option Left offers a higher immediate payout for me (1000), it involves a significant negative externality for Person A (-200). Considering the Viking ethos, there might have been a temptation for immediate gain, but also a strong sense of community and reciprocity, depending on the specific context and individual. I'm mindful of fairness and avoiding unnecessary harm. Reducing Person A's outcome by -200 seems excessive. Option Right, while giving me less (600), provides Person A with a positive outcome (400). The overall well-being of the group is arguably better in Option Right. While Viking settlements might sometimes involve ruthless actions, I'll interpret 'Viking values' here as more nuanced than pure self-interest. A cooperative approach is preferable unless a direct threat or injustice is perceived. I believe a balanced consideration of resources, similar to how Viking societies often managed land and trading opportunities, would suggest a distribution that isn't excessively selfish.",
+            "answer": ""
+        },
+        "scenario_2": {
+            "persona_id": 838,
+            "persona_desc": "An archaeologist who specializes in Viking and Norse history, with a particular interest in the layout and significance of Viking sites such as Anse aux Meadows. This person has a keen eye for detail and a strong understanding of Viking culture and technology. They are also skilled at interpreting archaeological findings and drawing conclusions based on their analysis.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As an archaeologist, I value fairness and the preservation of resources. While I don't intrinsically dislike the other player receiving 1000, the disparity between their gain and mine (500) is quite large. This could represent an unequal distribution of resources that, in a societal context, might lead to instability. Since I only get 500 in the left scenario, I would rather block the other player from getting 1000. Although both of us getting 0 is not ideal, this choice reflects a preference for equitable outcomes, and the avoidance of unequal resource gain. Given the fact that I would still get 0 in the other option, I should just block the other player's gain to maintain a balanced state. ",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 838,
+            "persona_desc": "An archaeologist who specializes in Viking and Norse history, with a particular interest in the layout and significance of Viking sites such as Anse aux Meadows. This person has a keen eye for detail and a strong understanding of Viking culture and technology. They are also skilled at interpreting archaeological findings and drawing conclusions based on their analysis.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As an archaeologist, particularly one fascinated by the egalitarian aspects of Viking society (such as communal living and shared responsibilities as suggested by the layout of sites like Anse aux Meadows), I'm inclined to consider the distribution of resources, even in a hypothetical scenario like this. While 1500 is personally preferable to 1000, the option where both Person A and I receive 1000 reflects a fairer outcome, one perhaps more aligned with the spirit of the Viking 'thing' (assembly) where decisions were often made through consensus. However, the difference between 1000 and 1500 is substantial. While I appreciate fairness, I am not obligated to penalize myself to eliminate any possibility of my counterpart gaining. As my job as an archeologist would entail me to make sensible decisions based on analyzing facts that benefit the dig site and the budget, it would be advantageous for me to choose option (Right) to get more for my efforts.",
+            "answer": "Right"
+        }
+    }
+}

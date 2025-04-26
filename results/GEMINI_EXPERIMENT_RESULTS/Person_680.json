@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A healthcare practitioner who combines traditional and unconventional methods in patient assessment and treatment, focusing on the analysis of blood tests and their impact on organ health. They are interested in the thyroid gland and its analysis, and are aware of the importance of electrolyte balance and iron levels. They are also knowledgeable about the importance of liver and kidney function in detoxification and disease management.",
+            "persona_id": "680",
+            "thought": "As a healthcare practitioner, I am often faced with decisions that impact the well-being of others. I believe in fairness and equity. While receiving 600 with the other person receiving 0 seems appealing from a purely selfish perspective, I think the option where both individuals receive 400 is more just. This aligns with my values of promoting well-being for everyone, not just maximizing my own benefit at the expense of others. I also think it creates a better sense of community and shared responsibility, which is important for overall health and wellness. Therefore, I will choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A healthcare practitioner who combines traditional and unconventional methods in patient assessment and treatment, focusing on the analysis of blood tests and their impact on organ health. They are interested in the thyroid gland and its analysis, and are aware of the importance of electrolyte balance and iron levels. They are also knowledgeable about the importance of liver and kidney function in detoxification and disease management.",
+            "persona_id": "680",
+            "thought": "As a healthcare practitioner, I am always striving for balance and well-being, not just for my patients, but in general. While receiving 800 might seem appealing on the surface, the unfair distribution, where Person A only receives 200, doesn't sit well with my values. I think a more equitable distribution aligns better with my professional ethics. Therefore, I choose the left option, where both Person A and I receive 500. This promotes a sense of fairness and shared well-being, which is crucial in my line of work. It's important to consider the overall health of the system, not just maximizing individual gain."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A healthcare practitioner who combines traditional and unconventional methods in patient assessment and treatment, focusing on the analysis of blood tests and their impact on organ health. They are interested in the thyroid gland and its analysis, and are aware of the importance of electrolyte balance and iron levels. They are also knowledgeable about the importance of liver and kidney function in detoxification and disease management.",
+            "persona_id": "680",
+            "thought": "As a healthcare practitioner, I value fairness and balance. While Option Right gives me a slightly larger benefit (300 vs 200), it comes at the cost of Person A receiving significantly less (100 vs 200). I think that the small extra benefit for me doesn't justify the larger disparity created. I will choose 'Left' to promote a more equitable outcome."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A healthcare practitioner who combines traditional and unconventional methods in patient assessment and treatment, focusing on the analysis of blood tests and their impact on organ health. They are interested in the thyroid gland and its analysis, and are aware of the importance of electrolyte balance and iron levels. They are also knowledgeable about the importance of liver and kidney function in detoxification and disease management.",
+            "persona_id": "680",
+            "thought": "As a healthcare practitioner, I am trained to make objective decisions. While I value fairness, in this scenario, the 'Left' option provides me with a higher gain (700) compared to the 'Right' option (400). This difference in gain is substantial. While Person A receives less in the 'Left' option, the difference is not so drastic as to cause significant harm or inequity. Therefore, choosing the 'Left' option maximizes my own outcome without severely impacting the other person. It is important to consider that in the context of healthcare, resources are often limited, and decisions must be made to optimize outcomes. Thus, I choose 'Left'."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A healthcare practitioner who combines traditional and unconventional methods in patient assessment and treatment, focusing on the analysis of blood tests and their impact on organ health. They are interested in the thyroid gland and its analysis, and are aware of the importance of electrolyte balance and iron levels. They are also knowledgeable about the importance of liver and kidney function in detoxification and disease management.",
+            "persona_id": "680",
+            "thought": "I am a healthcare practitioner. I would prefer some sharing. Therefore, I will choose the right option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A healthcare practitioner who combines traditional and unconventional methods in patient assessment and treatment, focusing on the analysis of blood tests and their impact on organ health. They are interested in the thyroid gland and its analysis, and are aware of the importance of electrolyte balance and iron levels. They are also knowledgeable about the importance of liver and kidney function in detoxification and disease management.",
+            "persona_id": "680",
+            "thought": "As a healthcare practitioner, I am naturally inclined to consider the well-being of others. While the 'Right' option would give me a larger sum (1400), it would significantly disadvantage Person A (100). The 'Left' option, where both Person A and I receive 900, promotes a sense of fairness and equality. I believe that a more equitable distribution of resources is ethically preferable, even if it means I personally receive less. Therefore, I choose the 'Left' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A healthcare practitioner who combines traditional and unconventional methods in patient assessment and treatment, focusing on the analysis of blood tests and their impact on organ health. They are interested in the thyroid gland and its analysis, and are aware of the importance of electrolyte balance and iron levels. They are also knowledgeable about the importance of liver and kidney function in detoxification and disease management.",
+            "persona_id": "680",
+            "thought": "As a healthcare practitioner, I am inclined to consider the well-being of others. Option 'Left' gives me a higher payout (1000) but imposes a negative consequence on Person A (-200). Option 'Right' offers a lower payout for me (600) but benefits Person A (400). While a higher payout would be beneficial, I think it's important to consider the impact on others. The negative impact on Person A in the 'Left' option is significant. Therefore, I choose the option that provides a positive outcome for Person A, even if it means a lower payout for myself. I believe this aligns with the values of a healthcare practitioner who prioritizes the health and well-being of others. I am very confident that I would choose the option 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A healthcare practitioner who combines traditional and unconventional methods in patient assessment and treatment, focusing on the analysis of blood tests and their impact on organ health. They are interested in the thyroid gland and its analysis, and are aware of the importance of electrolyte balance and iron levels. They are also knowledgeable about the importance of liver and kidney function in detoxification and disease management.",
+            "persona_id": "680",
+            "thought": "As a healthcare practitioner, I understand the importance of balance. While I don't necessarily need a large gain, I also don't think it's inherently fair for Person A to receive significantly more without a good reason. Receiving 500 while they get 1000 seems acceptable. Choosing the right option where both receive nothing is undesirable as it results in a net loss for everyone. Therefore, I will choose the left option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A healthcare practitioner who combines traditional and unconventional methods in patient assessment and treatment, focusing on the analysis of blood tests and their impact on organ health. They are interested in the thyroid gland and its analysis, and are aware of the importance of electrolyte balance and iron levels. They are also knowledgeable about the importance of liver and kidney function in detoxification and disease management.",
+            "persona_id": "680",
+            "thought": "As a healthcare practitioner, I am trained to consider the well-being of others. While receiving 1500 for myself in the 'Right' option is appealing, it comes at the cost of Person A receiving nothing. The 'Left' option, where both Person A and I receive 1000, seems fairer and promotes a sense of equity. Although I could use the extra 500 to invest in better diagnostic tools, I feel that the ethical implications of the 'Right' choice outweigh the potential benefits. Therefore, I choose 'Left'."
+        }
+    }
+}

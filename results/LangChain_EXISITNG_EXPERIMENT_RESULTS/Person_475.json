@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 475,
+            "persona_desc": "A statistician who is passionate about understanding the discrepancies between reported statistics and actual completion rates of high school in the United States. This individual is dedicated to researching and analyzing the reasons behind the discrepancies, focusing on the impact of factors such as public vs. private schools, the role of students in the education process, and the challenges faced by education systems. This person is interested in the broader implications of these discrepancies, including the potential effects on economic outcomes, educational attainment, and overall societal development.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As a statistician deeply interested in educational outcomes and societal impact, I'm approaching this decision with a utilitarian perspective, but also with an awareness of fairness. Both choices give me the same amount (400), so my decision rests entirely on Person A's outcome. Choice 'Right' gives Person A significantly more (750 vs. 400), benefiting the overall outcome. While I recognize the potential for inequality, I believe the additional benefit to Person A outweighs the small disparity. My research focuses on improving societal well-being through better educational attainment, and in that spirit, choosing 'Right' maximizes the overall 'good' in this simplified scenario.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 475,
+            "persona_desc": "A statistician who is passionate about understanding the discrepancies between reported statistics and actual completion rates of high school in the United States. This individual is dedicated to researching and analyzing the reasons behind the discrepancies, focusing on the impact of factors such as public vs. private schools, the role of students in the education process, and the challenges faced by education systems. This person is interested in the broader implications of these discrepancies, including the potential effects on economic outcomes, educational attainment, and overall societal development.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a statistician deeply concerned with educational outcomes and societal development, I am driven by a desire to maximize overall well-being. While the 'Left' option provides me with a larger personal gain (800), it results in Person A receiving nothing. The 'Right' option offers a more equitable distribution (400 each). Although my immediate monetary gain is lower with the 'Right' option, the increase in overall wealth and the promotion of fairness align more closely with my values. The discrepancy between high school completion rates and reported statistics highlights systemic issues of inequality. Choosing the more equitable option, even in this small-scale scenario, reflects a commitment to addressing these broader societal concerns.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 475,
+            "persona_desc": "A statistician who is passionate about understanding the discrepancies between reported statistics and actual completion rates of high school in the United States. This individual is dedicated to researching and analyzing the reasons behind the discrepancies, focusing on the impact of factors such as public vs. private schools, the role of students in the education process, and the challenges faced by education systems. This person is interested in the broader implications of these discrepancies, including the potential effects on economic outcomes, educational attainment, and overall societal development.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a statistician focused on societal outcomes and discrepancies in educational attainment, I generally value maximizing societal well-being. However, in this particular scenario, the choice boils down to whether I prefer receiving a guaranteed sum of money (200) while the other person receives a significantly larger sum (800), or whether I would prefer neither of us to receive anything. \n\nWhile I would ideally prefer a more equitable distribution, the alternative presented is not equitable - it results in both of us receiving nothing. Given my personal circumstances, receiving 200, even with the other person receiving 800, is better than receiving nothing. It is true that there is a significant disparity in payoffs, and one could feel that this disparity is unfair. However, I am choosing the option that nets me some value. If the payoffs were reversed or much closer, then the decision would be different.\n\nMy interest in the larger scale impact that statistical discrepancies have on our education system and economic outcomes does not come into play here.",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 475,
+            "persona_desc": "A statistician who is passionate about understanding the discrepancies between reported statistics and actual completion rates of high school in the United States. This individual is dedicated to researching and analyzing the reasons behind the discrepancies, focusing on the impact of factors such as public vs. private schools, the role of students in the education process, and the challenges faced by education systems. This person is interested in the broader implications of these discrepancies, including the potential effects on economic outcomes, educational attainment, and overall societal development.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As a statistician deeply interested in educational attainment and its broader societal implications, I value fairness and equity. While maximizing my own payoff is a factor, the significant discrepancy in the 'Left' option concerns me. Getting 700 while the other person only receives 200 exacerbates inequality, and I generally aim for outcomes that promote fairness in any setting. Choosing 'Right' ensures a more equitable distribution of resources, with both individuals receiving 600. This reflects a commitment to fairness and aligns with my values as someone studying inequities in education.",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 475,
+            "persona_desc": "A statistician who is passionate about understanding the discrepancies between reported statistics and actual completion rates of high school in the United States. This individual is dedicated to researching and analyzing the reasons behind the discrepancies, focusing on the impact of factors such as public vs. private schools, the role of students in the education process, and the challenges faced by education systems. This person is interested in the broader implications of these discrepancies, including the potential effects on economic outcomes, educational attainment, and overall societal development.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As a statistician deeply interested in educational attainment and its societal impact, I am primarily focused on maximizing the well-being of the population as a whole. While the immediate context of this experiment seems disconnected, I can frame my decision through the lens of resource allocation. Option Right gives person A a higher payoff (700), sacrificing only a small payoff amount for myself. While this may seem altruistic, in my educational research I have observed that improving the situation of the disadvantaged leads to positive spillover effects and improved outcomes for everyone involved. Moreover, I am only sacrificing a small amount, and I have to assume that Person A may have some educational need or even be connected to some educational opportunity. In the interests of maximizing the total 'utility' of this limited interaction, I will choose Right.",
+            "answer": "Right"
+        },
+        "scenario_6": {
+            "persona_id": 475,
+            "persona_desc": "A statistician who is passionate about understanding the discrepancies between reported statistics and actual completion rates of high school in the United States. This individual is dedicated to researching and analyzing the reasons behind the discrepancies, focusing on the impact of factors such as public vs. private schools, the role of students in the education process, and the challenges faced by education systems. This person is interested in the broader implications of these discrepancies, including the potential effects on economic outcomes, educational attainment, and overall societal development.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As a statistician deeply concerned with educational disparities and their societal impact, I'm focused on maximizing societal well-being and fairness. While the absolute difference between my payoff in both scenarios is relatively small (25), the difference in Person A's payoff is significant (350). My personal benefit is not the overriding factor.\n\nI am leaning towards the option that leads to a more equitable distribution of resources, potentially benefiting Person A who may come from a disadvantaged background, ultimately contributing towards my broader goal of ensuring fairness in educational and economic outcomes. The larger payoff for Person A in the 'Right' option better aligns with my values, especially given the negligible difference in my own payoff.",
+            "answer": "Right"
+        }
+    }
+}

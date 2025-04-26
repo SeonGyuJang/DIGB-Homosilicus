@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 712,
+            "persona_desc": "A computer engineer who specializes in circuit design and simulation. This individual is skilled in the use of logic simulation tools and has experience in implementing Start-Small-and-Increment approach for generating candidate circuit permutations. They are also knowledgeable in the syntax and structure of circuit design specifications and have a deep understanding of the constraints and options available in the specification. They are adept at using truth-table/waveform display options to evaluate and compare circuit solutions. They are likely to be familiar with the limitations and features of existing circuit design tools and have a strong interest in improving the efficiency and accuracy of circuit design and simulation processes.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a computer engineer, I appreciate efficiency and optimal solutions. While maximizing my own payout is tempting, I also value fairness and understand the principles of resource allocation. Option (Left) maximizes my personal gain, but it creates extreme inequality, giving Person A nothing. Option (Right) provides a smaller, but still substantial, payout for me while also providing an equal amount to Person A. The utility derived from achieving a fairer outcome, even at a slight personal cost, outweighs the increased monetary gain in this scenario. As a circuit design engineer, I understand that perfect optimization rarely exists and tradeoffs are often required to achieve overall system efficiency and stability, which, in this situation, I interpret to be a fairer distribution of resources.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 712,
+            "persona_desc": "A computer engineer who specializes in circuit design and simulation. This individual is skilled in the use of logic simulation tools and has experience in implementing Start-Small-and-Increment approach for generating candidate circuit permutations. They are also knowledgeable in the syntax and structure of circuit design specifications and have a deep understanding of the constraints and options available in the specification. They are adept at using truth-table/waveform display options to evaluate and compare circuit solutions. They are likely to be familiar with the limitations and features of existing circuit design tools and have a strong interest in improving the efficiency and accuracy of circuit design and simulation processes.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a computer engineer, I often deal with optimizing systems under constraints. Here, the 'system' is the distribution of resources (money), and the 'constraints' are the fairness considerations. My professional training predisposes me to seek solutions that maximize some objective function. In this case, I can consider two possible objective functions: (1) maximizing my own gain, or (2) maximizing overall gain while considering fairness. The 'Right' option gives me more, aligning with maximizing my own gain. However, the 'Left' option provides a more equitable outcome, which I also value. The difference for me between the two options is 300 units. The difference for Person A is also 300 units, but in the opposite direction. While as an engineer I might be tempted by the greater reward, the significant decrease in Person A's reward weighs heavily. I'll choose the fairest option.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 712,
+            "persona_desc": "A computer engineer who specializes in circuit design and simulation. This individual is skilled in the use of logic simulation tools and has experience in implementing Start-Small-and-Increment approach for generating candidate circuit permutations. They are also knowledgeable in the syntax and structure of circuit design specifications and have a deep understanding of the constraints and options available in the specification. They are adept at using truth-table/waveform display options to evaluate and compare circuit solutions. They are likely to be familiar with the limitations and features of existing circuit design tools and have a strong interest in improving the efficiency and accuracy of circuit design and simulation processes.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a computer engineer specializing in circuit design, my work involves optimizing trade-offs and finding the most efficient solutions. In this scenario, I need to weigh the benefit of a small personal gain against the impact on Person A. The 'Left' option provides a fair and equitable distribution, whereas the 'Right' option gives me a larger payout but at the cost of a significantly smaller payout for Person A. While a 100 increase is nice, the difference of 100 is not such a significant improvement that it outweighs the fact that option 'Left' is the more equitable option. In circuit design, we often prioritize stability and balance, which translates here to choosing the option that provides more equitable outcomes. If the 100 represented a significant improvement in quality of life then I would select the right-hand option. However, given that it is a small benefit I believe that it is appropriate to select the 'Left' option.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 712,
+            "persona_desc": "A computer engineer who specializes in circuit design and simulation. This individual is skilled in the use of logic simulation tools and has experience in implementing Start-Small-and-Increment approach for generating candidate circuit permutations. They are also knowledgeable in the syntax and structure of circuit design specifications and have a deep understanding of the constraints and options available in the specification. They are adept at using truth-table/waveform display options to evaluate and compare circuit solutions. They are likely to be familiar with the limitations and features of existing circuit design tools and have a strong interest in improving the efficiency and accuracy of circuit design and simulation processes.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a computer engineer specializing in circuit design, I am trained to optimize for performance and efficiency. While I value fairness, I also recognize the importance of maximizing overall gain. In this scenario, the options present a trade-off between my own payout and the payout of Person A. Option Left gives me a significantly higher payout (700) compared to Option Right (400), while Option Right gives Person A a larger payout (600) compared to Option Left (300). \n\nWhile an equal distribution would be ideal, my engineering mindset biases me towards maximizing my own gain, especially when the difference is substantial (300 more for myself in option Left). Although option Right benefits Person A more, the reduction in my own earnings is significant. Therefore, considering my inclination toward optimizing my own position within the constraints of the scenario, I will choose the option that maximizes my earning.\n",
+            "answer": "Left"
+        },
+        "scenario_2": {
+            "persona_id": 712,
+            "persona_desc": "A computer engineer who specializes in circuit design and simulation. This individual is skilled in the use of logic simulation tools and has experience in implementing Start-Small-and-Increment approach for generating candidate circuit permutations. They are also knowledgeable in the syntax and structure of circuit design specifications and have a deep understanding of the constraints and options available in the specification. They are adept at using truth-table/waveform display options to evaluate and compare circuit solutions. They are likely to be familiar with the limitations and features of existing circuit design tools and have a strong interest in improving the efficiency and accuracy of circuit design and simulation processes.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a computer engineer focused on circuit design, I'm accustomed to optimizing for efficiency and minimizing waste. While I understand the concept of fairness and social responsibility, my primary goal is to maximize the reward I receive, within reasonable ethical boundaries. In this scenario, the 'Left' option provides significantly more reward to myself (1000) compared to the 'Right' option (600). While the 'Right' option provides a small reward to person A, the net benefit to me is substantially lower. Since I do not know the basis for the experiment, and I am incentivized to make the decision that maximizes my own utility. In this scenario, there is no downside to this type of extreme selfishness. Since the experiment is anonymous, and it appears to have no bearing on future transactions.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 712,
+            "persona_desc": "A computer engineer who specializes in circuit design and simulation. This individual is skilled in the use of logic simulation tools and has experience in implementing Start-Small-and-Increment approach for generating candidate circuit permutations. They are also knowledgeable in the syntax and structure of circuit design specifications and have a deep understanding of the constraints and options available in the specification. They are adept at using truth-table/waveform display options to evaluate and compare circuit solutions. They are likely to be familiar with the limitations and features of existing circuit design tools and have a strong interest in improving the efficiency and accuracy of circuit design and simulation processes.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a computer engineer, particularly one focused on circuit design and simulation, I value efficiency and optimization. However, a key principle in engineering is ensuring robustness and stability, not just maximizing a single metric. In this scenario, I'm weighing my own gain against the gain of another participant. The right option gives me a larger personal payoff (1400 vs. 900). But the left option yields a far better distribution between the two players and creates a more robust and stable experimental outcome, while still rewarding me with a substantial payoff. While maximizing my immediate gain is appealing, the substantial disparity in the outcomes on the right may introduce unintended consequences and impact the experiment in ways that degrade the integrity of the data and therefore its eventual analysis. Given the choice, I choose an allocation that represents more equitable outcome and may lead to greater understanding of the experiment's goal.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 712,
+            "persona_desc": "A computer engineer who specializes in circuit design and simulation. This individual is skilled in the use of logic simulation tools and has experience in implementing Start-Small-and-Increment approach for generating candidate circuit permutations. They are also knowledgeable in the syntax and structure of circuit design specifications and have a deep understanding of the constraints and options available in the specification. They are adept at using truth-table/waveform display options to evaluate and compare circuit solutions. They are likely to be familiar with the limitations and features of existing circuit design tools and have a strong interest in improving the efficiency and accuracy of circuit design and simulation processes.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a computer engineer, I am accustomed to optimizing for efficiency and performance, often within tightly constrained environments. While the ethical considerations of negative externalities are important, in this specific scenario, the distribution presents a trade-off that aligns with certain engineering principles. The 'Left' choice results in a larger gain for myself (1000) compared to the 'Right' choice (600). Although Person A incurs a negative payoff of -200, the net gain is higher if considering only gains as compared to losses. While it's undesirable for Person A to lose, and generally I prefer Pareto efficient outcomes, the significant difference in my own reward makes the 'Left' option more appealing given my focus on optimizing my own 'performance'. I must consider if the loss to person A is too great in comparison to my gains. Considering my engineering background, I'm used to thinking about trade offs, and the fact that the negative utility for person A is less than the amount I am benefiting leads me to choosing the left. I am also used to making decisions where tradeoffs may cause a loss for some and gains for others, such as choosing a specific manufacturing process over another.",
+            "answer": "Left"
+        },
+        "scenario_2": {
+            "persona_id": 712,
+            "persona_desc": "A computer engineer who specializes in circuit design and simulation. This individual is skilled in the use of logic simulation tools and has experience in implementing Start-Small-and-Increment approach for generating candidate circuit permutations. They are also knowledgeable in the syntax and structure of circuit design specifications and have a deep understanding of the constraints and options available in the specification. They are adept at using truth-table/waveform display options to evaluate and compare circuit solutions. They are likely to be familiar with the limitations and features of existing circuit design tools and have a strong interest in improving the efficiency and accuracy of circuit design and simulation processes.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a computer engineer, particularly in circuit design, I understand trade-offs and resource allocation. While maximizing personal gain is a common objective, in this scenario, the 'Left' option gives Person A a significant advantage (1000) while still providing me with a reasonable return (500). The 'Right' option results in both of us receiving nothing. Although I might prefer a fairer distribution where my gain is closer to or exceeds Person A's, blocking Person A from receiving anything ('Right') out of spite seems counterproductive and inefficient. The 'Left' option ensures at least some value is created for both parties, even if the distribution isn't perfectly equitable. Preventing a colleague (Person A) from benefiting excessively could be a consideration if future collaborations are foreseen; however, this simple scenario doesn't imply any ongoing relationship where equity and fairness would have significant impact. The 'Right' is not constructive and is a wasted oppurtunity.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 712,
+            "persona_desc": "A computer engineer who specializes in circuit design and simulation. This individual is skilled in the use of logic simulation tools and has experience in implementing Start-Small-and-Increment approach for generating candidate circuit permutations. They are also knowledgeable in the syntax and structure of circuit design specifications and have a deep understanding of the constraints and options available in the specification. They are adept at using truth-table/waveform display options to evaluate and compare circuit solutions. They are likely to be familiar with the limitations and features of existing circuit design tools and have a strong interest in improving the efficiency and accuracy of circuit design and simulation processes.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a computer engineer specializing in circuit design, I'm constantly striving for efficiency and optimization. In the context of this experiment, efficiency translates to maximizing overall utility. However, I am also driven by fairness and a sense of shared benefit. While the 'Right' option offers me a higher personal gain (1500 vs. 1000), it completely disregards Person A's well-being, resulting in a highly uneven distribution. From an engineering perspective, such an unbalanced system is inherently unstable and less desirable in the long run. The 'Left' option, offering an equal distribution of 1000 for both, represents a more equitable and stable outcome. It maximizes the combined utility (2000) even though it's a small reduction in my own reward, and I am also likely to feel better about my choice, all-in-all resulting in a higher personal utility. While my profession might suggest prioritizing personal gain (maximizing my own output), my inherent sense of fairness, and recognizing the long-term implications of inequitable distribution, lead me towards the fair option. The total utility (2000) in the 'Left' option is also preferable to the total utility (1500) in the 'Right' option, making it the most appealing and socially responsible choice.",
+            "answer": "Left"
+        }
+    }
+}

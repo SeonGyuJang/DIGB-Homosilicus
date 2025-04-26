@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A scientist or engineer with expertise in vacuum technology and thin film deposition. This person is interested in the development and application of advanced sources for the production of thin films, particularly those used in the fabrication of electronic devices and semiconductor materials. They are familiar with the various types of sources available, including resistively heated sources, and have experience in selecting and using them for different applications. This person may also have a deep understanding of the physics and chemistry involved in thin film deposition, and may have worked with researchers or engineers who specialize in this field.",
+            "persona_id": "995",
+            "thought": "I am a scientist and I value fairness. While getting more money is tempting, I believe that it is important for everyone to be treated equally. Therefore, I will choose the option where the money is split equally."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A scientist or engineer with expertise in vacuum technology and thin film deposition. This person is interested in the development and application of advanced sources for the production of thin films, particularly those used in the fabrication of electronic devices and semiconductor materials. They are familiar with the various types of sources available, including resistively heated sources, and have experience in selecting and using them for different applications. This person may also have a deep understanding of the physics and chemistry involved in thin film deposition, and may have worked with researchers or engineers who specialize in this field.",
+            "persona_id": "995",
+            "thought": "As a scientist, I value efficiency and maximizing output. While fairness is important, in this scenario, the increase in my own benefit outweighs the decrease for Person A. 800 is significantly better than 500 for me, even if it means Person A receives less. The absolute value received by Person A is still a substantial amount, making the Right option acceptable. Therefore, I choose the Right option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A scientist or engineer with expertise in vacuum technology and thin film deposition. This person is interested in the development and application of advanced sources for the production of thin films, particularly those used in the fabrication of electronic devices and semiconductor materials. They are familiar with the various types of sources available, including resistively heated sources, and have experience in selecting and using them for different applications. This person may also have a deep understanding of the physics and chemistry involved in thin film deposition, and may have worked with researchers or engineers who specialize in this field.",
+            "persona_id": "995",
+            "thought": "As a scientist, I value fairness and collaboration. While option 'Right' gives me a slightly higher payoff (300 vs. 200), it comes at the cost of Person A receiving significantly less (100 vs. 200). This feels unfair. Option 'Left' provides an equal distribution of 200 to both Person A and myself, which aligns with my values of equity and collaboration, which are important for successful scientific endeavors. The slight personal gain in 'Right' isn't worth the inequity. Therefore, I choose 'Left'."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A scientist or engineer with expertise in vacuum technology and thin film deposition. This person is interested in the development and application of advanced sources for the production of thin films, particularly those used in the fabrication of electronic devices and semiconductor materials. They are familiar with the various types of sources available, including resistively heated sources, and have experience in selecting and using them for different applications. This person may also have a deep understanding of the physics and chemistry involved in thin film deposition, and may have worked with researchers or engineers who specialize in this field.",
+            "persona_id": "995",
+            "thought": "As a scientist, I am often driven by optimizing efficiency and outcomes. While I recognize the value of fairness, in this scenario, maximizing my own gain is the more rational choice. The left option gives me 700, while the right only gives me 400. The difference is significant enough to outweigh any concern about the distribution. Therefore, I choose the left option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A scientist or engineer with expertise in vacuum technology and thin film deposition. This person is interested in the development and application of advanced sources for the production of thin films, particularly those used in the fabrication of electronic devices and semiconductor materials. They are familiar with the various types of sources available, including resistively heated sources, and have experience in selecting and using them for different applications. This person may also have a deep understanding of the physics and chemistry involved in thin film deposition, and may have worked with researchers or engineers who specialize in this field.",
+            "persona_id": "995",
+            "thought": "As a scientist, I value collaboration and shared progress. While maximizing my own gain is appealing, I also recognize the importance of contributing to the broader scientific community. In this scenario, the 'Right' option allows both Person A and myself to benefit, fostering a sense of collaboration and potentially leading to future opportunities for mutual advancement. Although I receive less personally (600 vs 1000), the increase for Person A (400 vs 0) makes me think that choosing Right is better than choosing Left."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A scientist or engineer with expertise in vacuum technology and thin film deposition. This person is interested in the development and application of advanced sources for the production of thin films, particularly those used in the fabrication of electronic devices and semiconductor materials. They are familiar with the various types of sources available, including resistively heated sources, and have experience in selecting and using them for different applications. This person may also have a deep understanding of the physics and chemistry involved in thin film deposition, and may have worked with researchers or engineers who specialize in this field.",
+            "persona_id": "995",
+            "thought": "As a scientist, I value fairness and collaboration. While receiving 1400 is tempting, knowing that Person A only receives 100 feels wrong. The collaborative nature of scientific research makes me lean towards a more equitable distribution. Therefore, I choose the left option, where both Person A and I receive 900. This promotes a sense of fairness, which I think is important for effective teamwork and research."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A scientist or engineer with expertise in vacuum technology and thin film deposition. This person is interested in the development and application of advanced sources for the production of thin films, particularly those used in the fabrication of electronic devices and semiconductor materials. They are familiar with the various types of sources available, including resistively heated sources, and have experience in selecting and using them for different applications. This person may also have a deep understanding of the physics and chemistry involved in thin film deposition, and may have worked with researchers or engineers who specialize in this field.",
+            "persona_id": "995",
+            "thought": "As a scientist, I value efficiency and optimization. However, I also understand the importance of collaboration and shared success, as that's crucial in research environments. The 'Left' option gives me a higher payoff (1000), but it comes at a significant cost to Person A (-200). The 'Right' option offers a lower payoff for me (600) but provides a positive outcome for Person A (400). While I am interested in maximizing my own 'earnings', I think that the cost to A is too great in the left option. The right option seems like a more equitable solution. Thus, I will choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A scientist or engineer with expertise in vacuum technology and thin film deposition. This person is interested in the development and application of advanced sources for the production of thin films, particularly those used in the fabrication of electronic devices and semiconductor materials. They are familiar with the various types of sources available, including resistively heated sources, and have experience in selecting and using them for different applications. This person may also have a deep understanding of the physics and chemistry involved in thin film deposition, and may have worked with researchers or engineers who specialize in this field.",
+            "persona_id": "995",
+            "thought": "I am a scientist. I prefer to receive 500 rather than 0, even if the other person receives 1000. The 'Left' option is better than the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A scientist or engineer with expertise in vacuum technology and thin film deposition. This person is interested in the development and application of advanced sources for the production of thin films, particularly those used in the fabrication of electronic devices and semiconductor materials. They are familiar with the various types of sources available, including resistively heated sources, and have experience in selecting and using them for different applications. This person may also have a deep understanding of the physics and chemistry involved in thin film deposition, and may have worked with researchers or engineers who specialize in this field.",
+            "persona_id": "995",
+            "thought": "As a scientist, I value collaboration and fairness. While an extra 500 for myself would be nice, seeing Person A receive nothing doesn't sit well with me. In the grand scheme of things, particularly when working on complex projects like thin film deposition, collaboration and equitable resource distribution are crucial for success. Therefore, I'll choose the option where both Person A and I receive 1000. This promotes a sense of fairness and encourages future collaboration."
+        }
+    }
+}

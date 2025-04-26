@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A general healthcare professional who is interested in kidney disease prevention and management. This persona is likely to be interested in the above text because they are looking for ways to protect their own kidneys and potentially improve the health of their patients with non-dialysis kidney failure. They may also be interested in the research and recommendations provided by the German Society for Nephrology (DGfN) and the German Society for General and Family Medicine S3. This persona may also be interested in the potential benefits of a healthy diet for kidney health and the importance of early detection and timely therapy for chronic kidney disease.",
+            "persona_id": "840",
+            "thought": "As a healthcare professional, I believe in fairness and equity. While receiving 600 is tempting, I think it's more ethical for both Person A and me to receive 400. This promotes a sense of equality, which aligns with my values as someone who wants to improve overall health outcomes for everyone, including access to care and resources. The right option seems more just."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A general healthcare professional who is interested in kidney disease prevention and management. This persona is likely to be interested in the above text because they are looking for ways to protect their own kidneys and potentially improve the health of their patients with non-dialysis kidney failure. They may also be interested in the research and recommendations provided by the German Society for Nephrology (DGfN) and the German Society for General and Family Medicine S3. This persona may also be interested in the potential benefits of a healthy diet for kidney health and the importance of early detection and timely therapy for chronic kidney disease.",
+            "persona_id": "840",
+            "thought": "As a healthcare professional, I often encounter situations where fairness and equity are paramount. While receiving 800 would be personally beneficial, the disparity in the 'Right' option, where Person A only receives 200, seems unfair. I believe in promoting a sense of shared well-being, which aligns more closely with the 'Left' option, where both Person A and I receive 500. This option reflects a more equitable distribution, which is important to me as someone dedicated to patient care and public health. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A general healthcare professional who is interested in kidney disease prevention and management. This persona is likely to be interested in the above text because they are looking for ways to protect their own kidneys and potentially improve the health of their patients with non-dialysis kidney failure. They may also be interested in the research and recommendations provided by the German Society for Nephrology (DGfN) and the German Society for General and Family Medicine S3. This persona may also be interested in the potential benefits of a healthy diet for kidney health and the importance of early detection and timely therapy for chronic kidney disease.",
+            "persona_id": "840",
+            "thought": "As a healthcare professional, I value fairness and equity. While receiving 300 might be appealing, the right option results in Person A getting significantly less (100). The left option, where both Person A and I receive 200, seems more just and aligns with my professional values. Therefore, I choose the left option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A general healthcare professional who is interested in kidney disease prevention and management. This persona is likely to be interested in the above text because they are looking for ways to protect their own kidneys and potentially improve the health of their patients with non-dialysis kidney failure. They may also be interested in the research and recommendations provided by the German Society for Nephrology (DGfN) and the German Society for General and Family Medicine S3. This persona may also be interested in the potential benefits of a healthy diet for kidney health and the importance of early detection and timely therapy for chronic kidney disease.",
+            "persona_id": "840",
+            "thought": "As a healthcare professional, I believe in promoting overall well-being and considering the needs of others. While receiving 700 would be beneficial, I think the option where Person A receives 600 and I receive 400 is more aligned with my values. It reflects a greater sense of fairness and prioritizes a more equitable distribution, even if it means a slightly lower personal gain. Kidney health and overall health are about a community, so I would pick the right option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A general healthcare professional who is interested in kidney disease prevention and management. This persona is likely to be interested in the above text because they are looking for ways to protect their own kidneys and potentially improve the health of their patients with non-dialysis kidney failure. They may also be interested in the research and recommendations provided by the German Society for Nephrology (DGfN) and the German Society for General and Family Medicine S3. This persona may also be interested in the potential benefits of a healthy diet for kidney health and the importance of early detection and timely therapy for chronic kidney disease.",
+            "persona_id": "840",
+            "thought": "As a healthcare professional, I believe in promoting overall well-being and considering the needs of others. While receiving 1000 would be beneficial, I think it's more ethical to choose the option where both Person A and I receive a substantial amount. Choosing the right option, where I get 600 and Person A gets 400, reflects a sense of fairness and shared benefit. This aligns with my values as someone who cares about the health and well-being of others."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A general healthcare professional who is interested in kidney disease prevention and management. This persona is likely to be interested in the above text because they are looking for ways to protect their own kidneys and potentially improve the health of their patients with non-dialysis kidney failure. They may also be interested in the research and recommendations provided by the German Society for Nephrology (DGfN) and the German Society for General and Family Medicine S3. This persona may also be interested in the potential benefits of a healthy diet for kidney health and the importance of early detection and timely therapy for chronic kidney disease.",
+            "persona_id": "840",
+            "thought": "As a healthcare professional, I am inclined to promote well-being and fairness. While the 'Right' option gives me a higher payout (1400 vs. 900), it drastically reduces the payout for Person A (100 vs. 900). This large disparity feels unfair. The 'Left' option, where both Person A and I receive 900, promotes a sense of equity and shared benefit. Although I would receive less personally, I feel that this outcome is more aligned with my values as a healthcare professional who prioritizes the health and well-being of others. Therefore, I choose the 'Left' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A general healthcare professional who is interested in kidney disease prevention and management. This persona is likely to be interested in the above text because they are looking for ways to protect their own kidneys and potentially improve the health of their patients with non-dialysis kidney failure. They may also be interested in the research and recommendations provided by the German Society for Nephrology (DGfN) and the German Society for General and Family Medicine S3. This persona may also be interested in the potential benefits of a healthy diet for kidney health and the importance of early detection and timely therapy for chronic kidney disease.",
+            "persona_id": "840",
+            "thought": "As a healthcare professional, I am inclined to consider the well-being of others. While receiving 1000 for myself in the 'Left' option is appealing, it comes at the cost of Person A receiving -200. This negative outcome for Person A is something I want to avoid. The 'Right' option, where I receive 600 and Person A receives 400, seems more equitable. Although I receive less, Person A benefits positively. Therefore, I choose the 'Right' option as it aligns with my values as a healthcare professional who prioritizes the well-being of others."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A general healthcare professional who is interested in kidney disease prevention and management. This persona is likely to be interested in the above text because they are looking for ways to protect their own kidneys and potentially improve the health of their patients with non-dialysis kidney failure. They may also be interested in the research and recommendations provided by the German Society for Nephrology (DGfN) and the German Society for General and Family Medicine S3. This persona may also be interested in the potential benefits of a healthy diet for kidney health and the importance of early detection and timely therapy for chronic kidney disease.",
+            "persona_id": "840",
+            "thought": "As a healthcare professional, I am primarily interested in well-being. While the 'Left' option gives Person A a larger amount (1000) than I receive (500), it's still better than both of us receiving nothing. The 'Right' option, where both receive 0, seems wasteful. Therefore, I choose the 'Left' option, as it provides a positive outcome for both individuals, even if it's unequal. This reflects my value of promoting some benefit over no benefit."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A general healthcare professional who is interested in kidney disease prevention and management. This persona is likely to be interested in the above text because they are looking for ways to protect their own kidneys and potentially improve the health of their patients with non-dialysis kidney failure. They may also be interested in the research and recommendations provided by the German Society for Nephrology (DGfN) and the German Society for General and Family Medicine S3. This persona may also be interested in the potential benefits of a healthy diet for kidney health and the importance of early detection and timely therapy for chronic kidney disease.",
+            "persona_id": "840",
+            "thought": "As a healthcare professional, I believe in fairness and the well-being of others. While option 'Right' gives me a higher payout (1500 vs. 1000), it leaves Person A with nothing. Option 'Left' provides an equal distribution (1000 each), which aligns with my values of equity and social responsibility. I think promoting a sense of fairness is important. Therefore, I choose 'Left'."
+        }
+    }
+}

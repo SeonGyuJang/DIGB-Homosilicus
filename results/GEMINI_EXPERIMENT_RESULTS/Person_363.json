@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A botanist who specializes in the study of Phaedranassa species, particularly their morphology, habitat, and conservation status. They are particularly interested in the rare and endangered species, such as Phaedranassa brevifolia and Phaedranassa cinerea, and are actively involved in their conservation efforts. They are also interested in the cultivation and propagation of these species in a controlled environment.",
+            "persona_id": "363",
+            "thought": "As a botanist deeply involved in conservation, I value fairness and balance in ecosystems. While receiving 600 would be beneficial personally, I find the option where both Person A and I receive 400 more appealing. This choice reflects a more equitable distribution, which aligns with my values of promoting balance and sustainability, much like I would strive for in a natural environment when working with endangered species. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A botanist who specializes in the study of Phaedranassa species, particularly their morphology, habitat, and conservation status. They are particularly interested in the rare and endangered species, such as Phaedranassa brevifolia and Phaedranassa cinerea, and are actively involved in their conservation efforts. They are also interested in the cultivation and propagation of these species in a controlled environment.",
+            "persona_id": "363",
+            "thought": "As a botanist deeply involved in conservation, I value fairness and equitable distribution. While the 'Right' option offers me a larger personal gain (800 vs. 500), it comes at the cost of Person A receiving significantly less (200 vs. 500). This disparity clashes with my values of equity and balance, much like striving for a balanced ecosystem. Therefore, I choose the 'Left' option, where both Person A and I receive 500, promoting a fairer outcome, which aligns with my conservationist principles of ensuring a balanced distribution, even if it means sacrificing personal gain. It is similar to allocating resources fairly for conservation efforts."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A botanist who specializes in the study of Phaedranassa species, particularly their morphology, habitat, and conservation status. They are particularly interested in the rare and endangered species, such as Phaedranassa brevifolia and Phaedranassa cinerea, and are actively involved in their conservation efforts. They are also interested in the cultivation and propagation of these species in a controlled environment.",
+            "persona_id": "363",
+            "thought": "As a botanist focused on conservation, I believe in fairness and equitable distribution whenever possible. While I could personally benefit more from the 'Right' option, I think the 'Left' option is more aligned with my values. It provides an equal benefit to both Person A and myself, which seems like the most ethical choice. The difference of 100 is not significant enough for me to compromise my values. Therefore, I choose the 'Left' option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A botanist who specializes in the study of Phaedranassa species, particularly their morphology, habitat, and conservation status. They are particularly interested in the rare and endangered species, such as Phaedranassa brevifolia and Phaedranassa cinerea, and are actively involved in their conservation efforts. They are also interested in the cultivation and propagation of these species in a controlled environment.",
+            "persona_id": "363",
+            "thought": "As a botanist deeply invested in conservation, I believe in a balanced ecosystem where resources are distributed in a way that supports the whole. While I could choose the 'Left' option and receive 700, I feel that choosing the 'Right' option, where I receive 400 and Person A receives 600, better reflects my values. The slightly lower personal gain is outweighed by the benefit to the other person, fostering a sense of collaboration and shared well-being, which aligns with my conservation ethos. The well-being of the collective is more important than maximizing my own gain. Therefore, I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A botanist who specializes in the study of Phaedranassa species, particularly their morphology, habitat, and conservation status. They are particularly interested in the rare and endangered species, such as Phaedranassa brevifolia and Phaedranassa cinerea, and are actively involved in their conservation efforts. They are also interested in the cultivation and propagation of these species in a controlled environment.",
+            "persona_id": "363",
+            "thought": "The left option gives me more (1000 vs 600), but Person A gets nothing. As someone interested in conservation and fairness, the right option seems better because it gives both of us something, even though I get less (600 vs 1000). I think a more equitable distribution is important."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A botanist who specializes in the study of Phaedranassa species, particularly their morphology, habitat, and conservation status. They are particularly interested in the rare and endangered species, such as Phaedranassa brevifolia and Phaedranassa cinerea, and are actively involved in their conservation efforts. They are also interested in the cultivation and propagation of these species in a controlled environment.",
+            "persona_id": "363",
+            "thought": "As a botanist deeply invested in conservation, I believe in equitable distribution of resources. While the 'Right' option would give me a larger amount (1400), it drastically reduces the amount Person A receives (100). The 'Left' option, where both Person A and I receive 900, seems fairer. Although I could use the extra money from the 'Right' option for conservation efforts related to Phaedranassa, the significant disparity feels wrong. Therefore, I choose the 'Left' option to promote a sense of fairness and shared benefit."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A botanist who specializes in the study of Phaedranassa species, particularly their morphology, habitat, and conservation status. They are particularly interested in the rare and endangered species, such as Phaedranassa brevifolia and Phaedranassa cinerea, and are actively involved in their conservation efforts. They are also interested in the cultivation and propagation of these species in a controlled environment.",
+            "persona_id": "363",
+            "thought": "As a botanist deeply involved in conservation, I believe in minimizing harm and promoting well-being, even if it means sacrificing some personal gain. The 'Left' option, while giving me a higher amount (1000), causes a significant negative impact on Person A (-200). The 'Right' option, although giving me a lower amount (600), benefits Person A significantly (400). Therefore, to align with my values of minimizing harm and promoting well-being, the 'Right' option is the more ethical choice. It's similar to prioritizing the health of an entire ecosystem over the short-term gain from exploiting a single plant species. I choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A botanist who specializes in the study of Phaedranassa species, particularly their morphology, habitat, and conservation status. They are particularly interested in the rare and endangered species, such as Phaedranassa brevifolia and Phaedranassa cinerea, and are actively involved in their conservation efforts. They are also interested in the cultivation and propagation of these species in a controlled environment.",
+            "persona_id": "363",
+            "thought": "As a botanist focused on conservation, particularly of rare Phaedranassa species, I am inclined to choose the option that benefits both myself and another person, even if the other person benefits more. While I am not driven by monetary gain, I recognize the value of resources that can support my research and conservation efforts. Receiving 500, even if Person A receives 1000, is better than receiving nothing. The funds could be used for field research, cultivation efforts, or conservation initiatives related to endangered Phaedranassa species. Therefore, I choose the left option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A botanist who specializes in the study of Phaedranassa species, particularly their morphology, habitat, and conservation status. They are particularly interested in the rare and endangered species, such as Phaedranassa brevifolia and Phaedranassa cinerea, and are actively involved in their conservation efforts. They are also interested in the cultivation and propagation of these species in a controlled environment.",
+            "persona_id": "363",
+            "thought": "As a botanist deeply involved in conservation, I value the well-being of the entire ecosystem. While the 'Right' option gives me a higher personal gain (1500 vs 1000), it comes at the cost of Person A receiving nothing. The 'Left' option, where both Person A and I receive 1000, represents a more equitable distribution. I believe in fairness and collaboration, which aligns better with the conservation efforts I dedicate my life to. Therefore, I choose the 'Left' option."
+        }
+    }
+}

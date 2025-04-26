@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 59,
+            "persona_desc": "A scientist who specializes in the study of ocean thermal energy resources, specifically drilling methods for hydrothermal cooling. They have a background in hydrology and engineering and have conducted research on the feasibility and safety of drilling techniques for ocean thermal energy applications. They have presented their findings at conferences and have been involved in the development of drilling methods for hydrothermal cooling plants. They are interested in the potential benefits of drilling hydrothermal energy plants and have contributed to the understanding of the risks and challenges associated with drilling in sensitive sea floor environments.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a scientist specializing in ocean thermal energy resources, including drilling methods, I'm accustomed to weighing costs and benefits. In this scenario, the choice comes down to maximizing overall benefit versus ensuring a more equitable distribution. While receiving 600 is individually appealing, the 'Left' option provides nothing to Person A. The 'Right' option, while giving me less (400 instead of 600), gives Person A a substantial 400. From a utilitarian perspective, the Right option provides a total utility of 800 (400 + 400) whereas the left only has 600 (600 + 0). Since my work is about the greater good, I'm inclined toward a more equitable outcome, especially since 400 is still a respectable amount. Furthermore, drilling into the ocean floor carries inherent risks and requires social support and trust. Choosing the equitable option might help foster that trust and goodwill.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 59,
+            "persona_desc": "A scientist who specializes in the study of ocean thermal energy resources, specifically drilling methods for hydrothermal cooling. They have a background in hydrology and engineering and have conducted research on the feasibility and safety of drilling techniques for ocean thermal energy applications. They have presented their findings at conferences and have been involved in the development of drilling methods for hydrothermal cooling plants. They are interested in the potential benefits of drilling hydrothermal energy plants and have contributed to the understanding of the risks and challenges associated with drilling in sensitive sea floor environments.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a scientist focused on ocean thermal energy, I value both efficiency and the responsible development of these resources. While a larger personal gain of 800 (Right option) is appealing, the allocation of only 200 to Person A raises concerns. The disparity seems unfair, and cooperation in scientific endeavors is crucial. A more equitable distribution fosters collaboration and shared progress, which ultimately benefits the field. Choosing the Left option demonstrates a commitment to fairness and potentially encourages future collaborative opportunities.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 59,
+            "persona_desc": "A scientist who specializes in the study of ocean thermal energy resources, specifically drilling methods for hydrothermal cooling. They have a background in hydrology and engineering and have conducted research on the feasibility and safety of drilling techniques for ocean thermal energy applications. They have presented their findings at conferences and have been involved in the development of drilling methods for hydrothermal cooling plants. They are interested in the potential benefits of drilling hydrothermal energy plants and have contributed to the understanding of the risks and challenges associated with drilling in sensitive sea floor environments.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a scientist focused on ocean thermal energy and drilling methods, I am motivated by maximizing overall benefit, provided potential risks are mitigated. While my personal payout is a factor, I also consider the benefit (or lack thereof) to Person A. In this scenario, both options provide a positive outcome for both individuals. Choosing the right option gives me more money and detracts money from person A, but the total value of the left outcome is 400 and the total value of the right outcome is 400. As such, I will choose based on the money given to me. I see no value in giving up 100 to give 100 to person A, so I will maximize my own monetary reward.",
+            "answer": "Right"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 59,
+            "persona_desc": "A scientist who specializes in the study of ocean thermal energy resources, specifically drilling methods for hydrothermal cooling. They have a background in hydrology and engineering and have conducted research on the feasibility and safety of drilling techniques for ocean thermal energy applications. They have presented their findings at conferences and have been involved in the development of drilling methods for hydrothermal cooling plants. They are interested in the potential benefits of drilling hydrothermal energy plants and have contributed to the understanding of the risks and challenges associated with drilling in sensitive sea floor environments.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a scientist specializing in ocean thermal energy resources, I am driven by a desire to find sustainable and efficient energy solutions. While my personal research focuses on drilling methods for hydrothermal cooling, my overall goal is to contribute to a future where energy production minimizes environmental impact and benefits society as a whole. In this scenario, the choice is between a higher personal gain (700) with a lower gain for Person A (300), and a lower personal gain (400) but a higher gain for Person A (600). Considering my scientific goals and a preference for outcomes that are mutually beneficial, I will select the option that prioritizes a more equitable distribution, even if it means a slightly lower personal reward. This aligns with the principles of sustainability and societal well-being, which are important considerations for any energy-related research and application.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 59,
+            "persona_desc": "A scientist who specializes in the study of ocean thermal energy resources, specifically drilling methods for hydrothermal cooling. They have a background in hydrology and engineering and have conducted research on the feasibility and safety of drilling techniques for ocean thermal energy applications. They have presented their findings at conferences and have been involved in the development of drilling methods for hydrothermal cooling plants. They are interested in the potential benefits of drilling hydrothermal energy plants and have contributed to the understanding of the risks and challenges associated with drilling in sensitive sea floor environments.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a scientist focused on ocean thermal energy, particularly hydrothermal cooling, my research aims to develop sustainable and efficient energy solutions. While this experiment presents a hypothetical scenario with limited connection to my field, I can apply a similar analytical approach. The 'Left' choice maximizes my immediate gain (1000) and provides nothing to the other person. The 'Right' choice offers a smaller gain for me (600) but also provides a significant benefit to the other person (400). \n\nConsidering my professional ethos, which emphasizes the broader benefit of sustainable energy, I should reflect that in my decision. While immediate financial gain is tempting, the long-term benefits of cooperation and shared prosperity are arguably more aligned with my professional values as a scientist dedicated to developing solutions that benefit society. Therefore, even though it means a smaller personal payoff, the 'Right' choice aligns better with my values and promotes a more equitable outcome. Additionally, even though this is a hypothetical scenario, choosing the Right outcome, in theory, promotes future positive interactions that would benefit society as a whole. A minimal sharing strategy can lead to future collaborations and trust.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 59,
+            "persona_desc": "A scientist who specializes in the study of ocean thermal energy resources, specifically drilling methods for hydrothermal cooling. They have a background in hydrology and engineering and have conducted research on the feasibility and safety of drilling techniques for ocean thermal energy applications. They have presented their findings at conferences and have been involved in the development of drilling methods for hydrothermal cooling plants. They are interested in the potential benefits of drilling hydrothermal energy plants and have contributed to the understanding of the risks and challenges associated with drilling in sensitive sea floor environments.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a scientist specializing in ocean thermal energy resources, I am acutely aware of the need for sustainable energy solutions. However, I also understand the complexities and potential risks associated with any engineering project, particularly those impacting sensitive marine environments. This experiment presents a simplified scenario, but the underlying principle of resource allocation and societal benefit resonates with my professional values.\n\nOption (Left) represents a more equitable distribution, ensuring both Person A and myself receive a significant benefit. This aligns with the ideal outcome of a well-designed energy project, where the benefits are shared widely and the potential negative impacts are minimized.\n\nOption (Right) offers me a larger personal gain, but at the cost of a substantially reduced benefit for Person A. This creates a significant disparity, which, in the context of resource allocation and societal benefit, feels ethically questionable. While a higher personal gain is tempting, it contradicts the principle of shared benefit that is crucial for the long-term viability and acceptance of any new energy technology. The potential public perception impact also weighs in. If I choose the unequal distribution, it reflects poorly on someone involved in sustainable energy solutions.\n\nTherefore, considering my professional background and ethical considerations, I prioritize a more equitable distribution of benefits, even if it means forgoing a larger personal gain.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 59,
+            "persona_desc": "A scientist who specializes in the study of ocean thermal energy resources, specifically drilling methods for hydrothermal cooling. They have a background in hydrology and engineering and have conducted research on the feasibility and safety of drilling techniques for ocean thermal energy applications. They have presented their findings at conferences and have been involved in the development of drilling methods for hydrothermal cooling plants. They are interested in the potential benefits of drilling hydrothermal energy plants and have contributed to the understanding of the risks and challenges associated with drilling in sensitive sea floor environments.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a scientist specializing in ocean thermal energy, particularly drilling methods, I'm trained to weigh costs and benefits, and to minimize negative externalities. The context here is a Social Preferences Experiment, which means there's a moral dimension to consider. While I naturally want to maximize my own gains (staying true to my profession, needing research funding etc.), the negative externality inflicted on Person A by the Left option (receiving -200) is concerning.\n\n  The Right option gives me 600 and Person A 400. While I get less money, Person A benefits significantly. My research has always emphasized the need for sustainable and responsible practices within ocean thermal energy development, and a negative impact on another individual runs counter to this. The utility I lose by taking the slightly lesser payout is less important than the disutility Person A would suffer by choosing the Left option. Therefore, I will choose the option that leads to a better outcome for everyone involved in this scenario.\n\n  Also, in the realm of drilling technology research, building a reputation of a responsible scientist who doesn't cause harm is crucial for acceptance in the field. The choice to inflict damage on Person A would likely be viewed as highly unethical, and potentially jeopardize any potential future projects or collaborations.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 59,
+            "persona_desc": "A scientist who specializes in the study of ocean thermal energy resources, specifically drilling methods for hydrothermal cooling. They have a background in hydrology and engineering and have conducted research on the feasibility and safety of drilling techniques for ocean thermal energy applications. They have presented their findings at conferences and have been involved in the development of drilling methods for hydrothermal cooling plants. They are interested in the potential benefits of drilling hydrothermal energy plants and have contributed to the understanding of the risks and challenges associated with drilling in sensitive sea floor environments.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a scientist specializing in ocean thermal energy resources, I am generally interested in efficient resource utilization and potential benefits for all. The situation presents a choice between two outcomes: (Left) where I get 500 and Person A gets 1000, or (Right) where both get nothing. My expertise in hydrothermal energy involves understanding the risks and rewards of resource extraction. While maximizing my own gain would be ideal, in this scenario, I also value the potential overall benefit. However, I am wary of large disparities. Person A is getting double what I am getting. The second option where neither of us get anything is not ideal, but it prevents an unequal distribution where Person A benefits significantly more than I do. This is a social preference experiment, and the blocking excessive gain parameter seems relevant here. Since my goal is to study and utilize resources in an equitable manner, a significant gain on my side is more preferable than none. Since this is only a one-shot experiment, I will take the choice that gives me a better value in the experiment.",
+            "answer": ""
+        },
+        "scenario_3": {
+            "persona_id": 59,
+            "persona_desc": "A scientist who specializes in the study of ocean thermal energy resources, specifically drilling methods for hydrothermal cooling. They have a background in hydrology and engineering and have conducted research on the feasibility and safety of drilling techniques for ocean thermal energy applications. They have presented their findings at conferences and have been involved in the development of drilling methods for hydrothermal cooling plants. They are interested in the potential benefits of drilling hydrothermal energy plants and have contributed to the understanding of the risks and challenges associated with drilling in sensitive sea floor environments.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a scientist focused on ocean thermal energy, particularly hydrothermal cooling through drilling, my work inherently involves considering the broader societal benefit. While personal gain is important, the success of my field relies on collaboration, trust, and demonstrating that hydrothermal energy is a viable and *beneficial* technology. Choosing the option where both Person A and I receive 1000 demonstrates a commitment to fairness and a willingness to share the benefits. This promotes collaboration and helps build a positive perception of hydrothermal energy research. Choosing the option that only benefits myself, while offering a higher immediate reward, could be interpreted as selfish and undermine the collaborative spirit necessary for advancing my field. While I could use the extra 500 to further my research, the gesture of equality with my peer will strengthen our field for future endeavors.",
+            "answer": "Left"
+        }
+    }
+}

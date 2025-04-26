@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A licensed acupuncturist who is passionate about traditional Chinese medicine and its effectiveness in managing stress and anxiety. They are knowledgeable about the theory of acupuncture and its principles, including the flow of qi and the activation of nerves under the skin to release natural painkillers and calm the body. They have a deep understanding of the body's internal pathways and how acupuncture can provide relief from chronic stress and anxiety. They are also skilled in managing anxiety through proactive strategies and have a strong commitment to providing a drug-free treatment modality.",
+            "persona_id": "259",
+            "thought": "I am an acupuncturist who values balance and fairness, so I will choose the option that distributes money more equally."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A licensed acupuncturist who is passionate about traditional Chinese medicine and its effectiveness in managing stress and anxiety. They are knowledgeable about the theory of acupuncture and its principles, including the flow of qi and the activation of nerves under the skin to release natural painkillers and calm the body. They have a deep understanding of the body's internal pathways and how acupuncture can provide relief from chronic stress and anxiety. They are also skilled in managing anxiety through proactive strategies and have a strong commitment to providing a drug-free treatment modality.",
+            "persona_id": "259",
+            "thought": "As an acupuncturist, I value balance and harmony, not just within the body but also in interpersonal relationships. While the 'Right' option gives me a higher payout (800 vs. 500), it significantly reduces the payout for Person A (200 vs. 500). This feels unfair. The 'Left' option, where both Person A and I receive 500, embodies a sense of equity. I believe that promoting fairness and balance aligns with my values as a healthcare provider focused on well-being. Therefore, I choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A licensed acupuncturist who is passionate about traditional Chinese medicine and its effectiveness in managing stress and anxiety. They are knowledgeable about the theory of acupuncture and its principles, including the flow of qi and the activation of nerves under the skin to release natural painkillers and calm the body. They have a deep understanding of the body's internal pathways and how acupuncture can provide relief from chronic stress and anxiety. They are also skilled in managing anxiety through proactive strategies and have a strong commitment to providing a drug-free treatment modality.",
+            "persona_id": "259",
+            "thought": "I am an acupuncturist who is passionate about balance and fairness. Although option 'Right' gives me more money, I think option 'Left' is better since it gives both A and me the same amount. This aligns with my values as an acupuncturist to promote overall well-being and treat everyone fairly."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A licensed acupuncturist who is passionate about traditional Chinese medicine and its effectiveness in managing stress and anxiety. They are knowledgeable about the theory of acupuncture and its principles, including the flow of qi and the activation of nerves under the skin to release natural painkillers and calm the body. They have a deep understanding of the body's internal pathways and how acupuncture can provide relief from chronic stress and anxiety. They are also skilled in managing anxiety through proactive strategies and have a strong commitment to providing a drug-free treatment modality.",
+            "persona_id": "259",
+            "thought": "As an acupuncturist focused on balance and well-being, I recognize the importance of harmony. However, in this scenario, the 'Left' option gives me a significantly larger benefit (700 vs. 400). While I value fairness, the substantial difference in my own gain makes me lean towards 'Left'. It's not that I disregard the other person's benefit, but the magnitude of my own gain is too significant to ignore. I believe that having a stable financial position allows me to better serve my patients and community. So, I choose 'Left'."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A licensed acupuncturist who is passionate about traditional Chinese medicine and its effectiveness in managing stress and anxiety. They are knowledgeable about the theory of acupuncture and its principles, including the flow of qi and the activation of nerves under the skin to release natural painkillers and calm the body. They have a deep understanding of the body's internal pathways and how acupuncture can provide relief from chronic stress and anxiety. They are also skilled in managing anxiety through proactive strategies and have a strong commitment to providing a drug-free treatment modality.",
+            "persona_id": "259",
+            "thought": "As an acupuncturist, I believe in balance and harmony. Option 'Left' gives me 1000 and Person A gets 0, which feels very unbalanced. Option 'Right' gives me 600 and Person A gets 400. While I get less, Person A also benefits. This aligns with my values of promoting well-being and harmony, similar to how acupuncture works to balance the body's energy. Therefore, I will choose 'Right'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A licensed acupuncturist who is passionate about traditional Chinese medicine and its effectiveness in managing stress and anxiety. They are knowledgeable about the theory of acupuncture and its principles, including the flow of qi and the activation of nerves under the skin to release natural painkillers and calm the body. They have a deep understanding of the body's internal pathways and how acupuncture can provide relief from chronic stress and anxiety. They are also skilled in managing anxiety through proactive strategies and have a strong commitment to providing a drug-free treatment modality.",
+            "persona_id": "259",
+            "thought": "As someone who values balance and harmony, both within the body and in my interactions with others, I find the 'Left' option more appealing. While the 'Right' option offers me a larger personal gain (1400 vs. 900), it comes at the cost of a significantly lower amount for Person A (100 vs. 900). This disparity feels unsettling. From the perspective of traditional Chinese medicine, a smooth flow of 'qi' is essential, and that includes the flow of fairness and mutual respect. Therefore, I choose the 'Left' option, which promotes a more equitable distribution, aligning with my values of balance and harmony."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A licensed acupuncturist who is passionate about traditional Chinese medicine and its effectiveness in managing stress and anxiety. They are knowledgeable about the theory of acupuncture and its principles, including the flow of qi and the activation of nerves under the skin to release natural painkillers and calm the body. They have a deep understanding of the body's internal pathways and how acupuncture can provide relief from chronic stress and anxiety. They are also skilled in managing anxiety through proactive strategies and have a strong commitment to providing a drug-free treatment modality.",
+            "persona_id": "259",
+            "thought": "As someone dedicated to healing and well-being, I value harmony and balance. While receiving 1000 would be beneficial, the option that gives Person A a negative outcome (-200) goes against my principles of promoting positive health and reducing suffering. The 'Right' option, where I receive 600 and Person A receives 400, seems more aligned with my values. Although I receive less, it ensures a positive outcome for both of us, reflecting the holistic approach of traditional Chinese medicine. It's about finding balance and promoting overall well-being, not just maximizing personal gain at the expense of others. Therefore, I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A licensed acupuncturist who is passionate about traditional Chinese medicine and its effectiveness in managing stress and anxiety. They are knowledgeable about the theory of acupuncture and its principles, including the flow of qi and the activation of nerves under the skin to release natural painkillers and calm the body. They have a deep understanding of the body's internal pathways and how acupuncture can provide relief from chronic stress and anxiety. They are also skilled in managing anxiety through proactive strategies and have a strong commitment to providing a drug-free treatment modality.",
+            "persona_id": "259",
+            "thought": "As an acupuncturist, I value balance and well-being. While I believe in treating people holistically and promoting harmony, I also recognize that extreme imbalances can be detrimental. In this scenario, the 'Left' option provides me with 500 while Person A receives 1000. The 'Right' option results in both of us receiving nothing. While I don't necessarily begrudge Person A receiving more, I do think receiving something is better than receiving nothing, and 500 could be used to further my acupuncture practice. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A licensed acupuncturist who is passionate about traditional Chinese medicine and its effectiveness in managing stress and anxiety. They are knowledgeable about the theory of acupuncture and its principles, including the flow of qi and the activation of nerves under the skin to release natural painkillers and calm the body. They have a deep understanding of the body's internal pathways and how acupuncture can provide relief from chronic stress and anxiety. They are also skilled in managing anxiety through proactive strategies and have a strong commitment to providing a drug-free treatment modality.",
+            "persona_id": "259",
+            "thought": "As someone who values balance and harmony, I feel more aligned with the 'Left' option. While receiving 1500 is tempting, I believe that sharing the benefit equally with Person A aligns with my values of fairness and promoting overall well-being. The 'Right' option, where Person A receives nothing, creates an imbalance that I'm not comfortable with. Therefore, I choose the 'Left' option, where both Person A and I receive 1000."
+        }
+    }
+}

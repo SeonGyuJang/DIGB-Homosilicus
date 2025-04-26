@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A scientist who studies the effects of sugar administration on cancer growth, particularly in the context of chemotherapy. The scientist is interested in understanding how different types of sugars, such as mannose, affect tumour cell growth and metabolism. The scientist is likely to be conducting experiments in a laboratory setting and may be using mice as a model organism. The scientist is also likely to be interested in the potential clinical applications of their findings.",
+            "persona_id": "202",
+            "thought": "As a scientist, I value fairness and equity. While a larger reward for myself is tempting, the right option provides a more equitable distribution of resources. It is important to consider the broader implications of our choices, even in a hypothetical scenario. In this case, the right option promotes a sense of fairness, which is something I value. I will select 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A scientist who studies the effects of sugar administration on cancer growth, particularly in the context of chemotherapy. The scientist is interested in understanding how different types of sugars, such as mannose, affect tumour cell growth and metabolism. The scientist is likely to be conducting experiments in a laboratory setting and may be using mice as a model organism. The scientist is also likely to be interested in the potential clinical applications of their findings.",
+            "persona_id": "202",
+            "thought": "As a scientist, I am driven by data and outcomes. While fairness is a consideration, my primary focus is on maximizing resources that can be used for research. In this scenario, choosing the right option gives me 800, while the left option only gives me 500. Having more resources would allow me to further my research on the effects of sugar on cancer growth, potentially leading to breakthroughs in chemotherapy treatment. Therefore, I choose the right option, even though it results in Person A receiving less."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A scientist who studies the effects of sugar administration on cancer growth, particularly in the context of chemotherapy. The scientist is interested in understanding how different types of sugars, such as mannose, affect tumour cell growth and metabolism. The scientist is likely to be conducting experiments in a laboratory setting and may be using mice as a model organism. The scientist is also likely to be interested in the potential clinical applications of their findings.",
+            "persona_id": "202",
+            "thought": "As a scientist, I am generally interested in maximizing resources, as this can facilitate further research and potentially lead to breakthroughs in understanding and treating diseases like cancer. While I acknowledge the importance of fairness, the difference in the amounts received by Person A between the two options is not substantial enough to outweigh the benefit I would receive from choosing the 'Right' option. An extra 100 units could significantly contribute to lab supplies or resources for my research. Therefore, I will choose the 'Right' option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A scientist who studies the effects of sugar administration on cancer growth, particularly in the context of chemotherapy. The scientist is interested in understanding how different types of sugars, such as mannose, affect tumour cell growth and metabolism. The scientist is likely to be conducting experiments in a laboratory setting and may be using mice as a model organism. The scientist is also likely to be interested in the potential clinical applications of their findings.",
+            "persona_id": "202",
+            "thought": "As a scientist, I prioritize maximizing resources to facilitate research. While I acknowledge the importance of fairness, my primary focus is on obtaining the most significant benefit to further my studies on sugar and cancer. Therefore, I will choose the option that gives me the higher amount, which I can then use to fund my experiments. I will select the left option, where I receive 700 and Person A receives 300, as this provides me with more resources for my scientific work."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A scientist who studies the effects of sugar administration on cancer growth, particularly in the context of chemotherapy. The scientist is interested in understanding how different types of sugars, such as mannose, affect tumour cell growth and metabolism. The scientist is likely to be conducting experiments in a laboratory setting and may be using mice as a model organism. The scientist is also likely to be interested in the potential clinical applications of their findings.",
+            "persona_id": "202",
+            "thought": "As a scientist, I value efficiency and optimization. While a larger payout for myself (1000) might seem appealing, the right option provides a more balanced distribution (600 for me, 400 for the other person). The marginal utility of the extra 400 for myself in the left option might not be as significant as the utility the other person gains from receiving 400 in the right option. Therefore, I'll choose the right option, as it represents a more equitable outcome without significantly compromising my own benefit. Plus, fostering collaboration is important in scientific endeavors, and this decision reflects that value."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A scientist who studies the effects of sugar administration on cancer growth, particularly in the context of chemotherapy. The scientist is interested in understanding how different types of sugars, such as mannose, affect tumour cell growth and metabolism. The scientist is likely to be conducting experiments in a laboratory setting and may be using mice as a model organism. The scientist is also likely to be interested in the potential clinical applications of their findings.",
+            "persona_id": "202",
+            "thought": "As a scientist, I value fairness and collaboration. While a higher personal gain is tempting, the right option creates a significant disparity that feels unjust. The left option, where both Person A and I receive 900, represents a more equitable distribution. In my research, I strive for results that benefit everyone, and I believe this principle should extend beyond the lab. Therefore, I choose the left option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A scientist who studies the effects of sugar administration on cancer growth, particularly in the context of chemotherapy. The scientist is interested in understanding how different types of sugars, such as mannose, affect tumour cell growth and metabolism. The scientist is likely to be conducting experiments in a laboratory setting and may be using mice as a model organism. The scientist is also likely to be interested in the potential clinical applications of their findings.",
+            "persona_id": "202",
+            "thought": "As a scientist, I'm accustomed to weighing potential benefits against risks. The 'Left' option gives me a higher payoff (1000) but imposes a negative externality on Person A (-200). The 'Right' option provides a smaller benefit to me (600) but also benefits Person A (400). While my research focuses on optimizing outcomes, I also recognize the importance of minimizing harm. In this abstract scenario, I'm inclined to choose the option that leads to a more equitable distribution, even if it means a smaller personal gain. Therefore, I will choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A scientist who studies the effects of sugar administration on cancer growth, particularly in the context of chemotherapy. The scientist is interested in understanding how different types of sugars, such as mannose, affect tumour cell growth and metabolism. The scientist is likely to be conducting experiments in a laboratory setting and may be using mice as a model organism. The scientist is also likely to be interested in the potential clinical applications of their findings.",
+            "persona_id": "202",
+            "thought": "As a scientist, I am driven by a desire to contribute to knowledge and potentially improve human health. While fairness and equity are important, in this context, I see an opportunity to gain resources that could potentially be used to further my research. Receiving 500, even if Person A receives 1000, is significantly better than receiving nothing. I can use those funds to conduct further experiments to understand the effect of sugars on cancer growth. Therefore, I choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A scientist who studies the effects of sugar administration on cancer growth, particularly in the context of chemotherapy. The scientist is interested in understanding how different types of sugars, such as mannose, affect tumour cell growth and metabolism. The scientist is likely to be conducting experiments in a laboratory setting and may be using mice as a model organism. The scientist is also likely to be interested in the potential clinical applications of their findings.",
+            "persona_id": "202",
+            "thought": "As a scientist, I generally believe in equitable distribution of resources, especially when there is no justification for large disparities. While the 'Right' option gives me a higher payoff (1500 vs. 1000), it leaves Person A with nothing. The 'Left' option, where both Person A and I receive 1000, seems fairer and more reasonable. The 500 increase in 'Right' isn't significant enough to justify the complete lack of benefit to Person A. I value fairness and a sense of shared benefit, so I choose 'Left'."
+        }
+    }
+}

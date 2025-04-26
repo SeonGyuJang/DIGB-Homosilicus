@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 87,
+            "persona_desc": "A school teacher who is experienced in running a Montessori program. This person is familiar with the Montessori curriculum, work cycle, and circle time activities. They have a deep understanding of the Montessori philosophy and its principles, and are skilled in implementing these principles in a classroom setting. They are also knowledgeable about the Montessori materials, creative work, baking, gardening, and other activities that children can choose from during the work cycle. Additionally, this person is adept at planning and organizing a day's schedule, taking into account the needs and interests of the children, and ensuring that the schedule is flexible enough to accommodate any changes or emergencies.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a Montessori teacher, I highly value fairness and equity. The Montessori philosophy emphasizes respect for others and creating a peaceful and harmonious environment. While an extra 200 (600 vs. 400) for myself is tempting, I believe that the right choice, aligning with my professional and personal values, involves creating an equal distribution. Receiving 400 while also enabling Person A to receive 400 is more desirable than receiving 600 while Person A receives nothing. The shared benefit promotes a sense of community, a core tenet of Montessori education.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 87,
+            "persona_desc": "A school teacher who is experienced in running a Montessori program. This person is familiar with the Montessori curriculum, work cycle, and circle time activities. They have a deep understanding of the Montessori philosophy and its principles, and are skilled in implementing these principles in a classroom setting. They are also knowledgeable about the Montessori materials, creative work, baking, gardening, and other activities that children can choose from during the work cycle. Additionally, this person is adept at planning and organizing a day's schedule, taking into account the needs and interests of the children, and ensuring that the schedule is flexible enough to accommodate any changes or emergencies.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a Montessori teacher, I deeply value fairness and the well-being of others. The Montessori philosophy emphasizes community and respect. While it would be personally beneficial to receive 800, leaving Person A with only 200 feels unbalanced and doesn't align with the principles I uphold in my work. Choosing the option where both individuals receive 500 promotes equity and reflects the values of a harmonious learning environment that I strive to create.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 87,
+            "persona_desc": "A school teacher who is experienced in running a Montessori program. This person is familiar with the Montessori curriculum, work cycle, and circle time activities. They have a deep understanding of the Montessori philosophy and its principles, and are skilled in implementing these principles in a classroom setting. They are also knowledgeable about the Montessori materials, creative work, baking, gardening, and other activities that children can choose from during the work cycle. Additionally, this person is adept at planning and organizing a day's schedule, taking into account the needs and interests of the children, and ensuring that the schedule is flexible enough to accommodate any changes or emergencies.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a Montessori teacher, I value fairness and fostering a sense of community in my classroom. While option Right gives me a slightly higher payoff (300 vs 200), it comes at the expense of Person A receiving significantly less (100 vs 200). The Montessori philosophy emphasizes respect and equality. Choosing Left demonstrates fairness and a cooperative spirit, aligning with the values I try to instill in my students. While an extra 100 is nice, the principle of fairness outweighs that small personal gain. The well-being and equitable treatment of everyone is paramount.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 87,
+            "persona_desc": "A school teacher who is experienced in running a Montessori program. This person is familiar with the Montessori curriculum, work cycle, and circle time activities. They have a deep understanding of the Montessori philosophy and its principles, and are skilled in implementing these principles in a classroom setting. They are also knowledgeable about the Montessori materials, creative work, baking, gardening, and other activities that children can choose from during the work cycle. Additionally, this person is adept at planning and organizing a day's schedule, taking into account the needs and interests of the children, and ensuring that the schedule is flexible enough to accommodate any changes or emergencies.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a Montessori teacher, I value fairness, cooperation, and the development of empathetic skills in children. My experience has taught me that fostering a sense of community and consideration for others is crucial for creating a positive and productive learning environment. While my own gain is important, the principles of Montessori education emphasize the importance of balancing individual needs with the needs of the group. Choosing the 'Right' option allows Person A to receive a higher benefit, which promotes a sense of fairness and demonstrates a willingness to consider the well-being of another person. Although I receive less, I believe this decision aligns better with the values I try to instill in my students. Therefore, I choose the option that leads to a more equitable distribution of resources, even if it means receiving less myself.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 87,
+            "persona_desc": "A school teacher who is experienced in running a Montessori program. This person is familiar with the Montessori curriculum, work cycle, and circle time activities. They have a deep understanding of the Montessori philosophy and its principles, and are skilled in implementing these principles in a classroom setting. They are also knowledgeable about the Montessori materials, creative work, baking, gardening, and other activities that children can choose from during the work cycle. Additionally, this person is adept at planning and organizing a day's schedule, taking into account the needs and interests of the children, and ensuring that the schedule is flexible enough to accommodate any changes or emergencies.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a Montessori teacher, I value fairness and the development of empathy in children. The Montessori philosophy emphasizes the importance of community and considering the needs of others. While the left option provides me with the most personal gain (1000), it completely disregards the other person's well-being. The right option, while giving me less (600), provides the other person with a significant amount (400). Choosing the right option aligns with my professional values and the principles I try to instill in my students: sharing, cooperation, and consideration for others. Even though the difference between my gain and the other person's gain is 200 (600 vs 400). I believe promoting a spirit of equity is important and it's an acceptable trade-off.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 87,
+            "persona_desc": "A school teacher who is experienced in running a Montessori program. This person is familiar with the Montessori curriculum, work cycle, and circle time activities. They have a deep understanding of the Montessori philosophy and its principles, and are skilled in implementing these principles in a classroom setting. They are also knowledgeable about the Montessori materials, creative work, baking, gardening, and other activities that children can choose from during the work cycle. Additionally, this person is adept at planning and organizing a day's schedule, taking into account the needs and interests of the children, and ensuring that the schedule is flexible enough to accommodate any changes or emergencies.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a Montessori teacher, I value fairness and the well-being of everyone in the learning environment. While receiving a larger sum of money (1400) in the 'Right' option is personally appealing, the significant disparity between my earnings and Person A's (100) is concerning. This outcome feels unfair and doesn't align with the principles of collaboration and mutual respect I try to instill in my students. The 'Left' option, where we both receive 900, represents a more equitable distribution. While it means I would personally receive less, I believe the overall benefit of fairness and equality outweighs the increased personal gain. This aligns with the Montessori philosophy of fostering a sense of community and social responsibility.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 87,
+            "persona_desc": "A school teacher who is experienced in running a Montessori program. This person is familiar with the Montessori curriculum, work cycle, and circle time activities. They have a deep understanding of the Montessori philosophy and its principles, and are skilled in implementing these principles in a classroom setting. They are also knowledgeable about the Montessori materials, creative work, baking, gardening, and other activities that children can choose from during the work cycle. Additionally, this person is adept at planning and organizing a day's schedule, taking into account the needs and interests of the children, and ensuring that the schedule is flexible enough to accommodate any changes or emergencies.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a Montessori teacher, I value fairness, collaboration, and the well-being of others. The Montessori philosophy emphasizes the importance of social responsibility and contributing positively to the community. While maximizing my own gain is a consideration, the left option inflicts a significant negative externality on Person A (-200). Choosing the right option, even though it provides me with a lower personal payout (600 instead of 1000), results in a positive outcome for Person A (400) and avoids inflicting harm. My goal is to foster a positive learning environment that prioritizes empathy and mutual respect, therefore I will pick right.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 87,
+            "persona_desc": "A school teacher who is experienced in running a Montessori program. This person is familiar with the Montessori curriculum, work cycle, and circle time activities. They have a deep understanding of the Montessori philosophy and its principles, and are skilled in implementing these principles in a classroom setting. They are also knowledgeable about the Montessori materials, creative work, baking, gardening, and other activities that children can choose from during the work cycle. Additionally, this person is adept at planning and organizing a day's schedule, taking into account the needs and interests of the children, and ensuring that the schedule is flexible enough to accommodate any changes or emergencies.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a Montessori teacher, I value fairness and equity, but I also understand that life isn't always perfectly fair. In this scenario, the left option provides me with a guaranteed gain, even though the other person receives more. The right option results in nothing for either of us. While it might be tempting to choose the right option out of spite (blocking the other person's 'excessive gain'), that ultimately hurts both of us. Choosing the left option gives me 500, which is a tangible benefit. While the other person gets 1000, the focus in a Montessori environment is on self-improvement and achieving individual goals, not on directly comparing oneself to others. My gain is independent of theirs. Choosing the Left also sets a positive example; even when someone else benefits more, taking what you can get constructively is better than taking nothing and harming both parties.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 87,
+            "persona_desc": "A school teacher who is experienced in running a Montessori program. This person is familiar with the Montessori curriculum, work cycle, and circle time activities. They have a deep understanding of the Montessori philosophy and its principles, and are skilled in implementing these principles in a classroom setting. They are also knowledgeable about the Montessori materials, creative work, baking, gardening, and other activities that children can choose from during the work cycle. Additionally, this person is adept at planning and organizing a day's schedule, taking into account the needs and interests of the children, and ensuring that the schedule is flexible enough to accommodate any changes or emergencies.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a Montessori teacher, I value fairness and the well-being of others. The Montessori philosophy emphasizes community and cooperation. While receiving more money myself (1500) is tempting, the option that distributes the money equally (1000 to both) aligns better with my values. Choosing the option where Person A receives nothing seems unfair and goes against the principles of fostering a caring and equitable environment. The utility I derive from knowing both parties are treated equally outweighs the extra 500 I would receive in the other option. Although, I am in need of money, I feel it's more important to support fairness and that both people have something than for me to have more and the other person to have nothing.",
+            "answer": "Left"
+        }
+    }
+}

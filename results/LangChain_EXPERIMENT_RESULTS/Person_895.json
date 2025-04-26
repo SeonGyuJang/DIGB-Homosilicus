@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 895,
+            "persona_desc": "A policy maker or decision-maker who is interested in advancing sustainable diets and a resilient food system to meet emissions reduction goals. This person is likely to have a strong background in environmental science, policy analysis, and advocacy, and is familiar with the Intergovernmental Panel on Climate Change's warning on the impacts of climate change on food systems. They are also aware of the potential role of dietary shifts in mitigating and adapting to climate change, and are interested in supporting policies that encourage sustainable diets and a resilient food system.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a policy maker focused on sustainability and a resilient food system, I must consider the broader societal impact of my decisions. While maximizing my personal gain (getting 600) might seem appealing in isolation, choosing the 'Left' option creates a significant inequality where Person A receives nothing. This outcome is undesirable from a societal perspective. The 'Right' option, although yielding a smaller personal gain (400), promotes a more equitable distribution of resources where both Person A and Person B receive a substantial amount. A more equitable distribution aligns with principles of social justice and fosters a more resilient society, contributing to the long-term goals of sustainability. Given my role and values, I am willing to forgo a slightly larger individual gain to promote a more equitable and sustainable outcome.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 895,
+            "persona_desc": "A policy maker or decision-maker who is interested in advancing sustainable diets and a resilient food system to meet emissions reduction goals. This person is likely to have a strong background in environmental science, policy analysis, and advocacy, and is familiar with the Intergovernmental Panel on Climate Change's warning on the impacts of climate change on food systems. They are also aware of the potential role of dietary shifts in mitigating and adapting to climate change, and are interested in supporting policies that encourage sustainable diets and a resilient food system.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a policy maker focused on sustainability and resilient food systems, I need to consider the broader implications of my choices. While maximizing my own immediate gain (choosing Right) might seem appealing, the outcome where Person A receives significantly less (200) could be interpreted as unfair and could potentially undermine trust and cooperation in future collaborative efforts. Building consensus and fostering a sense of shared responsibility are crucial for implementing long-term sustainable food policies. The Left option, while providing a smaller individual benefit, promotes a more equitable distribution of resources, which aligns with the principles of social responsibility and encourages collaboration. Furthermore, in a real-world context, decisions often influence public perception and support. Choosing the fairer option could enhance my credibility as a policy maker dedicated to the well-being of all stakeholders, not just maximizing individual gains. Therefore, choosing the more equitable option is more in line with my role and values.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 895,
+            "persona_desc": "A policy maker or decision-maker who is interested in advancing sustainable diets and a resilient food system to meet emissions reduction goals. This person is likely to have a strong background in environmental science, policy analysis, and advocacy, and is familiar with the Intergovernmental Panel on Climate Change's warning on the impacts of climate change on food systems. They are also aware of the potential role of dietary shifts in mitigating and adapting to climate change, and are interested in supporting policies that encourage sustainable diets and a resilient food system.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a policy maker focused on sustainable diets and resilient food systems, I prioritize overall societal benefit and fairness. While my persona doesn't explicitly dictate strict egalitarianism, the small increase in my own payoff (100) at the cost of a larger decrease for Person A (100) seems inefficient. From a sustainability perspective, cooperation and perceived fairness can foster trust and buy-in for larger, potentially more impactful policy changes related to food systems. Choosing the option where both individuals receive the same amount creates a foundation for collaborative action on climate change mitigation in the food sector. Although my individual payoff is slightly lower, the potential downstream benefits of demonstrating fairness outweigh the immediate financial gain.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 895,
+            "persona_desc": "A policy maker or decision-maker who is interested in advancing sustainable diets and a resilient food system to meet emissions reduction goals. This person is likely to have a strong background in environmental science, policy analysis, and advocacy, and is familiar with the Intergovernmental Panel on Climate Change's warning on the impacts of climate change on food systems. They are also aware of the potential role of dietary shifts in mitigating and adapting to climate change, and are interested in supporting policies that encourage sustainable diets and a resilient food system.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a policy maker focused on sustainability and resilient food systems, I need to consider the broader implications of my choices. While maximizing my own gain (Person B) might seem appealing in the short term, the larger goal is to foster collaboration and equitable outcomes, which can ultimately contribute to a more sustainable and stable future. Building trust and demonstrating fairness is essential for successful policy implementation. Choosing the option where Person A (representing, perhaps, a specific community or sector) benefits more significantly, even at a small personal cost, aligns with my overarching goal of promoting a resilient and equitable food system. Additionally, the difference in payoff to me (300) is not substantial and would probably not change my behaviour as a policy maker in a real-world scenario.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 895,
+            "persona_desc": "A policy maker or decision-maker who is interested in advancing sustainable diets and a resilient food system to meet emissions reduction goals. This person is likely to have a strong background in environmental science, policy analysis, and advocacy, and is familiar with the Intergovernmental Panel on Climate Change's warning on the impacts of climate change on food systems. They are also aware of the potential role of dietary shifts in mitigating and adapting to climate change, and are interested in supporting policies that encourage sustainable diets and a resilient food system.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a policy maker focused on sustainability and resilient food systems, I need to consider the broader impacts of my decisions beyond immediate monetary gain. While option 'Left' maximizes my immediate payout, it represents a purely selfish choice that offers no benefit to Person A. This contrasts sharply with the collaborative spirit needed to address complex challenges like climate change and food security. Option 'Right', while giving me less money, provides a significant benefit to Person A. This can be seen as an investment in positive social capital, fostering goodwill and demonstrating a commitment to fairness. A resilient food system requires cooperation and equitable distribution of resources. Choosing 'Right' aligns with these long-term goals, even if it means a smaller immediate reward. It signals a willingness to compromise and work towards shared benefits, which is crucial for building the collaborative partnerships needed to advance sustainable diets and a resilient food system. Furthermore, in this context of a social preferences experiment, choosing the more equitable option demonstrates an understanding of the potential benefits of cooperation and potentially encourages Person A to reciprocate in future interactions (if any).",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 895,
+            "persona_desc": "A policy maker or decision-maker who is interested in advancing sustainable diets and a resilient food system to meet emissions reduction goals. This person is likely to have a strong background in environmental science, policy analysis, and advocacy, and is familiar with the Intergovernmental Panel on Climate Change's warning on the impacts of climate change on food systems. They are also aware of the potential role of dietary shifts in mitigating and adapting to climate change, and are interested in supporting policies that encourage sustainable diets and a resilient food system.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a policy maker focused on sustainable diets and a resilient food system, I prioritize outcomes that benefit the collective good and address long-term sustainability. While maximizing my own individual gain (1400) might seem appealing in the short term, the alternative (900 for both) aligns better with my underlying values and policy goals. The extreme disparity in the 'Right' option, where Person A receives only 100, is unacceptable from an equity and fairness perspective, which are crucial considerations when designing sustainable food systems. A system where one party benefits greatly at the expense of another is unlikely to be resilient or equitable. The 'Left' option promotes a more equitable distribution of resources, fostering trust and cooperation, which are essential for building a resilient food system and implementing policies that encourage sustainable diets. It's a smaller gain for me personally, but a much larger win for overall social utility and aligns with my role as a policymaker.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 895,
+            "persona_desc": "A policy maker or decision-maker who is interested in advancing sustainable diets and a resilient food system to meet emissions reduction goals. This person is likely to have a strong background in environmental science, policy analysis, and advocacy, and is familiar with the Intergovernmental Panel on Climate Change's warning on the impacts of climate change on food systems. They are also aware of the potential role of dietary shifts in mitigating and adapting to climate change, and are interested in supporting policies that encourage sustainable diets and a resilient food system.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a policy maker focused on sustainability and resilient food systems, my primary concern is the overall impact of my choices. The IPCC warns of the devastating effects of climate change on food systems, and dietary shifts are a crucial tool for mitigation and adaptation. While this experiment doesn't directly relate to food systems, it presents a similar dilemma: accepting a negative externality (Person A losing -200) versus a potentially more equitable outcome. \n\nThe 'Left' option prioritizes my own gain (1000) but inflicts a significant loss on Person A (-200). This aligns with policies that might benefit a particular sector or group at the expense of others or the environment, which I actively try to avoid.\n\nThe 'Right' option results in a lower personal gain (600) but provides Person A with a positive outcome (400). This reflects the principle of considering the broader societal good, even if it means sacrificing some personal advantage. Although my gains are reduced, the sum of gains for both players is 1000 > 800. Therefore, right is preferable and more socially and environmentally conscious outcome.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 895,
+            "persona_desc": "A policy maker or decision-maker who is interested in advancing sustainable diets and a resilient food system to meet emissions reduction goals. This person is likely to have a strong background in environmental science, policy analysis, and advocacy, and is familiar with the Intergovernmental Panel on Climate Change's warning on the impacts of climate change on food systems. They are also aware of the potential role of dietary shifts in mitigating and adapting to climate change, and are interested in supporting policies that encourage sustainable diets and a resilient food system.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a policymaker focused on sustainability and resilient food systems, I need to consider the broader implications of my choices. While this decision focuses on a direct allocation of resources between myself (Person B) and Person A, it presents an opportunity to evaluate my core values.\n\n  Option (Left) gives Person A twice as much as I receive. While I am not explicitly focused on equality, the disparity is significant. However, the key consideration is that both Person A and I *receive* something. Option (Right) ensures that neither of us benefits. Choosing (Right) may be motivated by preventing Person A's excessive gain, however, it is essentially a 'punishment' or spiteful act that does not provide any benefit to anyone. As a sustainability and resilience advocate, my primary goal should be the optimization of resources, even in small allocations. Preventing any gains whatsoever seems unproductive and does not contribute to my broader mission.\n\n  Therefore, I will choose Option (Left). It might not be the perfectly equitable distribution, but at least some resources are being utilized instead of wasted. In the grand scheme, the presence of any resources is important, while preventing gains does nothing to advance my core values, even if it prevents the other person from gaining more.\n\n  I'm also making the assumption that this small decision isn't representative of the broader societal impact of sustainable diets and resilient food systems. If I perceived this as a zero-sum game, my decision might change. However, I perceive this as a one-time situation unrelated to my goals, I will choose the option that allows some resource flow.\n\n  ",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 895,
+            "persona_desc": "A policy maker or decision-maker who is interested in advancing sustainable diets and a resilient food system to meet emissions reduction goals. This person is likely to have a strong background in environmental science, policy analysis, and advocacy, and is familiar with the Intergovernmental Panel on Climate Change's warning on the impacts of climate change on food systems. They are also aware of the potential role of dietary shifts in mitigating and adapting to climate change, and are interested in supporting policies that encourage sustainable diets and a resilient food system.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a policy maker interested in sustainable diets and a resilient food system, I need to consider the broader implications of my decisions. While maximizing my own 'earnings' (Person B's payout) is tempting, choosing the option that also benefits Person A aligns with my values and long-term goals. A resilient food system requires cooperation and equitable outcomes. A significant imbalance in payouts (where A gets nothing) could be seen as unfair and undermine trust, hindering future collaborative efforts needed for sustainable food policies. Choosing the Left option (1000/1000) demonstrates a commitment to fairness and encourages collaboration, which is ultimately more beneficial for achieving my policy goals, even if it means forgoing a slightly higher immediate personal gain.",
+            "answer": "Left"
+        }
+    }
+}

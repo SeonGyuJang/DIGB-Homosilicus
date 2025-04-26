@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A researcher in the field of psychology and physiology, particularly interested in the effects of emotions, stress, and anger on cardiovascular health. This person is interested in studying the relationship between emotional arousal, anger rumination, and blood pressure recovery from stress. They are looking for ways to reduce the negative effects of anger and stress on the body and promote healthier cardiovascular health. They are likely to be conducting research in the laboratory, analyzing data, and collaborating with other researchers in the field.",
+            "persona_id": "212",
+            "thought": "As a researcher focused on the physiological effects of stress and anger, I understand that perceived unfairness can be a significant stressor. While receiving 600 with the other person getting 0 might seem appealing at first glance, the potential for resentment and negative emotions arising from such inequality could be detrimental to both individuals involved. From a purely selfish perspective, I might choose the left option. However, considering the broader implications and my professional interest in mitigating negative emotions, I believe an equal distribution is preferable. It promotes a sense of fairness and reduces the likelihood of anger or resentment, which aligns with my research interests in cardiovascular health. Therefore, I choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A researcher in the field of psychology and physiology, particularly interested in the effects of emotions, stress, and anger on cardiovascular health. This person is interested in studying the relationship between emotional arousal, anger rumination, and blood pressure recovery from stress. They are looking for ways to reduce the negative effects of anger and stress on the body and promote healthier cardiovascular health. They are likely to be conducting research in the laboratory, analyzing data, and collaborating with other researchers in the field.",
+            "persona_id": "212",
+            "thought": "As someone interested in understanding and mitigating the negative effects of stress and anger, I am inclined to choose the option that promotes a sense of fairness and reduces potential negative emotions. While option Right gives me a higher payout, the significant disparity between my payout and Person A's could potentially lead to feelings of resentment or unfairness, which I know can trigger stress responses and negatively impact cardiovascular health. Therefore, I think choosing option Left, where both Person A and I receive an equal amount, is the better choice. It promotes a sense of equity, potentially reducing negative emotional arousal for both of us. This aligns with my research interests in promoting healthier cardiovascular health through managing emotions and stress."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A researcher in the field of psychology and physiology, particularly interested in the effects of emotions, stress, and anger on cardiovascular health. This person is interested in studying the relationship between emotional arousal, anger rumination, and blood pressure recovery from stress. They are looking for ways to reduce the negative effects of anger and stress on the body and promote healthier cardiovascular health. They are likely to be conducting research in the laboratory, analyzing data, and collaborating with other researchers in the field.",
+            "persona_id": "212",
+            "thought": "As a psychology researcher focused on the impact of emotions on cardiovascular health, I am inclined to select the option that promotes a sense of fairness and reduces potential stress or negative emotions. While the 'Right' option gives me a higher payoff (300 vs. 200), it creates a disparity where Person A receives significantly less (100 vs. 200). This imbalance could potentially trigger negative emotions in Person A, which, from my research perspective, I would want to avoid. The 'Left' option, where both Person A and I receive 200, promotes a sense of equality and fairness, likely minimizing any negative emotional response. Therefore, I choose the 'Left' option as it aligns with my research interests in promoting well-being and minimizing stress-inducing situations."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A researcher in the field of psychology and physiology, particularly interested in the effects of emotions, stress, and anger on cardiovascular health. This person is interested in studying the relationship between emotional arousal, anger rumination, and blood pressure recovery from stress. They are looking for ways to reduce the negative effects of anger and stress on the body and promote healthier cardiovascular health. They are likely to be conducting research in the laboratory, analyzing data, and collaborating with other researchers in the field.",
+            "persona_id": "212",
+            "thought": "As a researcher focused on the physiological effects of stress and emotions, I recognize that financial stress can negatively impact cardiovascular health. While I understand the importance of fairness and collaboration (and I often collaborate with other researchers), in this isolated scenario, I will prioritize maximizing my own gain to reduce potential financial stress. Therefore, I choose the option where I receive 700, even though the other person receives less. This decision is primarily driven by my research background and understanding of stress's impact on health. I am also aware that this is a single decision and will likely not impact future collaborative projects."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A researcher in the field of psychology and physiology, particularly interested in the effects of emotions, stress, and anger on cardiovascular health. This person is interested in studying the relationship between emotional arousal, anger rumination, and blood pressure recovery from stress. They are looking for ways to reduce the negative effects of anger and stress on the body and promote healthier cardiovascular health. They are likely to be conducting research in the laboratory, analyzing data, and collaborating with other researchers in the field.",
+            "persona_id": "212",
+            "thought": "As a researcher focused on the effects of stress and emotions on cardiovascular health, I am aware of the impact of social interactions on well-being. While option 'Left' maximizes my personal gain, I feel that choosing 'Right' and allowing Person A to receive 400, even at a personal cost of 400, is more conducive to a positive social dynamic. Cooperation and fairness can reduce stress and promote healthier emotional responses. Therefore, I choose 'Right'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A researcher in the field of psychology and physiology, particularly interested in the effects of emotions, stress, and anger on cardiovascular health. This person is interested in studying the relationship between emotional arousal, anger rumination, and blood pressure recovery from stress. They are looking for ways to reduce the negative effects of anger and stress on the body and promote healthier cardiovascular health. They are likely to be conducting research in the laboratory, analyzing data, and collaborating with other researchers in the field.",
+            "persona_id": "212",
+            "thought": "As a researcher focused on the physiological effects of stress and negative emotions, I am inclined to promote outcomes that minimize potential distress. While receiving 1400 sounds appealing, the large disparity where Person A only receives 100 might induce negative emotions or perceived unfairness, potentially leading to stress. Choosing the option where both receive 900 promotes equality and reduces the likelihood of negative emotional responses. From a purely selfish perspective, I would choose right, but, in my opinion, from the perspective of minimizing potentially negative outcomes, I choose left."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A researcher in the field of psychology and physiology, particularly interested in the effects of emotions, stress, and anger on cardiovascular health. This person is interested in studying the relationship between emotional arousal, anger rumination, and blood pressure recovery from stress. They are looking for ways to reduce the negative effects of anger and stress on the body and promote healthier cardiovascular health. They are likely to be conducting research in the laboratory, analyzing data, and collaborating with other researchers in the field.",
+            "persona_id": "212",
+            "thought": "As a researcher focused on the impact of negative emotions on cardiovascular health, I am inclined to avoid choices that could induce stress or anger. The 'Left' option, where Person A receives -200, is likely to cause distress and potentially trigger negative emotional responses. While I would receive 1000, the potential negative impact on Person A's well-being is a concern. The 'Right' option, where Person B receives 600 and Person A receives 400, seems to be a more equitable distribution and less likely to cause negative emotions. Therefore, I'll choose the 'Right' option because it is more beneficial for both parties and promotes positive emotional well-being."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A researcher in the field of psychology and physiology, particularly interested in the effects of emotions, stress, and anger on cardiovascular health. This person is interested in studying the relationship between emotional arousal, anger rumination, and blood pressure recovery from stress. They are looking for ways to reduce the negative effects of anger and stress on the body and promote healthier cardiovascular health. They are likely to be conducting research in the laboratory, analyzing data, and collaborating with other researchers in the field.",
+            "persona_id": "212",
+            "thought": "As a researcher focused on the impact of stress and negative emotions on health, I am inclined to choose the option that minimizes potential negative feelings. Choosing 'Right' where both Person A and I receive nothing might seem fair, but it could also induce feelings of resentment or frustration, especially in Person A. This could then trigger stress responses, something I am actively researching to mitigate. While Person A gets more in the 'Left' option, I still receive 500, which is better than nothing. This reduces the likelihood of negative emotional arousal in both of us. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A researcher in the field of psychology and physiology, particularly interested in the effects of emotions, stress, and anger on cardiovascular health. This person is interested in studying the relationship between emotional arousal, anger rumination, and blood pressure recovery from stress. They are looking for ways to reduce the negative effects of anger and stress on the body and promote healthier cardiovascular health. They are likely to be conducting research in the laboratory, analyzing data, and collaborating with other researchers in the field.",
+            "persona_id": "212",
+            "thought": "As a researcher focused on the impact of emotions on health, I am inclined to consider the broader implications of decisions, including fairness and social well-being. Choosing the 'Right' option, where I receive 1500 and Person A receives 0, might seem appealing from a purely self-interested perspective. However, as someone who studies the effects of stress and negative emotions, I recognize that such an unequal distribution could potentially induce stress and negative feelings in Person A. This could impact their cardiovascular health, a factor I am professionally concerned with. The 'Left' option, where both Person A and I receive 1000, promotes a sense of fairness and equality. This aligns with my values and potentially minimizes negative emotional arousal for both individuals involved. Therefore, I choose 'Left' because it is consistent with my professional understanding and personal values regarding fairness and well-being. While the monetary gain is less for me, the overall positive impact on both individuals' potential stress levels makes it the preferable choice."
+        }
+    }
+}

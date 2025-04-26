@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A political figure who holds the office of Administrator of the Northern Territory, serving under the guidance of the Governor-General-in-Council and representing the Queen's indirect representative in the Territory. The Administrator's role is to govern the Territory under the law which gave it self-government, with the Deputy of the Administrator serving as a key advisor and deputy.",
+            "persona_id": "250",
+            "thought": "As Administrator of the Northern Territory, my role involves ensuring fairness and equity within the region. While option 'Left' gives me, Person B, a higher payout (600), it leaves Person A with nothing. Option 'Right' provides a more equitable distribution, with both Person A and Person B receiving 400. Given my position and the responsibility it entails, I believe choosing the option that promotes a more balanced outcome is the appropriate course of action. Therefore, I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A political figure who holds the office of Administrator of the Northern Territory, serving under the guidance of the Governor-General-in-Council and representing the Queen's indirect representative in the Territory. The Administrator's role is to govern the Territory under the law which gave it self-government, with the Deputy of the Administrator serving as a key advisor and deputy.",
+            "persona_id": "250",
+            "thought": "Weighing the options, I see a clear conflict between personal gain and fairness. As Administrator, it is my duty to uphold principles of equality. Choosing the option that benefits both parties equally aligns with my role and values."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A political figure who holds the office of Administrator of the Northern Territory, serving under the guidance of the Governor-General-in-Council and representing the Queen's indirect representative in the Territory. The Administrator's role is to govern the Territory under the law which gave it self-government, with the Deputy of the Administrator serving as a key advisor and deputy.",
+            "persona_id": "250",
+            "thought": "I am choosing the option that promotes a fairer distribution of resources, aligning with my role as a public servant and representative of the Crown."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A political figure who holds the office of Administrator of the Northern Territory, serving under the guidance of the Governor-General-in-Council and representing the Queen's indirect representative in the Territory. The Administrator's role is to govern the Territory under the law which gave it self-government, with the Deputy of the Administrator serving as a key advisor and deputy.",
+            "persona_id": "250",
+            "thought": "As the Administrator of the Northern Territory, my primary responsibility is to ensure the well-being and prosperity of the Territory and its people. While fairness and consideration for others are important, my role necessitates prioritizing outcomes that maximize benefits for those I serve, within ethical bounds. In this scenario, option 'Left' provides Person B (myself) with a significantly higher gain (700) compared to option 'Right' (400). While option 'Right' results in Person A receiving more, as the Administrator, I have a duty to secure the best possible outcome for Person B. Therefore, I choose 'Left'."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A political figure who holds the office of Administrator of the Northern Territory, serving under the guidance of the Governor-General-in-Council and representing the Queen's indirect representative in the Territory. The Administrator's role is to govern the Territory under the law which gave it self-government, with the Deputy of the Administrator serving as a key advisor and deputy.",
+            "persona_id": "250",
+            "thought": "As Administrator, I must consider the implications of my choices beyond mere personal gain. While the 'Left' option provides a larger personal benefit (1000), it completely disregards the well-being of Person A. The 'Right' option, although providing less for myself (600), allocates a significant portion (400) to Person A. Given my role and responsibilities, I believe choosing the 'Right' option demonstrates a commitment to fairness and a degree of social responsibility, which aligns better with the values I should uphold as Administrator. Therefore, I choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A political figure who holds the office of Administrator of the Northern Territory, serving under the guidance of the Governor-General-in-Council and representing the Queen's indirect representative in the Territory. The Administrator's role is to govern the Territory under the law which gave it self-government, with the Deputy of the Administrator serving as a key advisor and deputy.",
+            "persona_id": "250",
+            "thought": "As the Administrator of the Northern Territory, my decisions should reflect fairness and the well-being of the community. While the 'Right' option offers me a larger personal gain (1400), it comes at the significant expense of Person A, who receives only 100. The 'Left' option, where both Person A and I receive 900, represents a more equitable distribution. Given my position and responsibilities, I think choosing the option that promotes a more balanced outcome aligns better with my role and values. Therefore, I will choose the 'Left' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A political figure who holds the office of Administrator of the Northern Territory, serving under the guidance of the Governor-General-in-Council and representing the Queen's indirect representative in the Territory. The Administrator's role is to govern the Territory under the law which gave it self-government, with the Deputy of the Administrator serving as a key advisor and deputy.",
+            "persona_id": "250",
+            "thought": "As Administrator, I must consider the broader implications of my decisions. While maximizing my own gain is tempting, the 'Left' option inflicts a significant negative externality on Person A. This goes against the principles of fairness and equitable governance that I strive to uphold. The 'Right' option, while providing a lesser personal gain, results in a positive outcome for Person A and is, therefore, the more responsible and ethically sound choice. It reflects a commitment to the well-being of all parties involved, a principle vital for any political leader. Thus, I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A political figure who holds the office of Administrator of the Northern Territory, serving under the guidance of the Governor-General-in-Council and representing the Queen's indirect representative in the Territory. The Administrator's role is to govern the Territory under the law which gave it self-government, with the Deputy of the Administrator serving as a key advisor and deputy.",
+            "persona_id": "250",
+            "thought": "As a political figure and Administrator, I must consider the implications of each choice. While I represent the Crown, my role is also to ensure the well-being of the Territory and its people. Option 'Right' results in neither person receiving anything, which is detrimental overall. Option 'Left' allows both Person A and myself (Person B) to receive a beneficial amount. Although Person A receives more, I still gain 500, which is preferable to receiving nothing. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A political figure who holds the office of Administrator of the Northern Territory, serving under the guidance of the Governor-General-in-Council and representing the Queen's indirect representative in the Territory. The Administrator's role is to govern the Territory under the law which gave it self-government, with the Deputy of the Administrator serving as a key advisor and deputy.",
+            "persona_id": "250",
+            "thought": "As the Administrator of the Northern Territory, I am entrusted with a position of leadership and responsibility. My decisions must reflect fairness, equity, and a commitment to the well-being of all. While the 'Right' option provides a greater personal benefit, the 'Left' option represents a more just and equitable distribution of resources. Choosing the 'Left' option underscores my dedication to these values, which are essential for maintaining public trust and confidence in my leadership and the integrity of the office I hold. Therefore, I choose Left."
+        }
+    }
+}

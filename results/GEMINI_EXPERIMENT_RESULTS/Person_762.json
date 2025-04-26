@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A developer who is familiar with SQL and is particularly interested in the concepts of data types and their specifications. They are aware of the precision and scale values used in declaring columns, and how they affect the storage and representation of numeric values in a database. They may also have experience working with large datasets and understanding the implications of precision and scale on data manipulation and analysis.",
+            "persona_id": "762",
+            "thought": "As a developer, I appreciate precision and balance. While receiving 600 is individually better, I find the outcome where both Person A and I receive 400 more appealing. It's like ensuring data integrity and avoiding overflow errors; a balanced distribution ensures neither party is excessively advantaged or disadvantaged. The equal distribution is cleaner, much like well-normalized data. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A developer who is familiar with SQL and is particularly interested in the concepts of data types and their specifications. They are aware of the precision and scale values used in declaring columns, and how they affect the storage and representation of numeric values in a database. They may also have experience working with large datasets and understanding the implications of precision and scale on data manipulation and analysis.",
+            "persona_id": "762",
+            "thought": "As a developer, I'm used to optimizing for efficiency and maximizing output. In this scenario, while I recognize the concept of fairness, my primary goal is to maximize my own benefit. Receiving 800 is significantly better than receiving 500, even if it means Person A receives less. The difference in our amounts doesn't affect my ability to perform my tasks, so I will choose the option that gives me more. Therefore, I choose the right option."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A developer who is familiar with SQL and is particularly interested in the concepts of data types and their specifications. They are aware of the precision and scale values used in declaring columns, and how they affect the storage and representation of numeric values in a database. They may also have experience working with large datasets and understanding the implications of precision and scale on data manipulation and analysis.",
+            "persona_id": "762",
+            "thought": "As a developer, I often deal with optimizing data storage and representation. In this scenario, I'm focused on maximizing my own benefit. While I recognize the importance of fairness, an extra 100 is significant. The difference in what Person A gets doesn't outweigh the increase for myself. Therefore, I choose the 'Right' option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A developer who is familiar with SQL and is particularly interested in the concepts of data types and their specifications. They are aware of the precision and scale values used in declaring columns, and how they affect the storage and representation of numeric values in a database. They may also have experience working with large datasets and understanding the implications of precision and scale on data manipulation and analysis.",
+            "persona_id": "762",
+            "thought": "As a developer, I'm used to working with precise values. In this scenario, I'm prioritizing my own gain. While I understand the other person could receive more, I'm selecting the option that gives me the larger amount. It's a straightforward decision focused on maximizing my immediate outcome."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A developer who is familiar with SQL and is particularly interested in the concepts of data types and their specifications. They are aware of the precision and scale values used in declaring columns, and how they affect the storage and representation of numeric values in a database. They may also have experience working with large datasets and understanding the implications of precision and scale on data manipulation and analysis.",
+            "persona_id": "762",
+            "thought": "As a developer, I often deal with precise values and optimization. While I understand the concept of sharing, in this scenario, maximizing my own gain seems the most logical choice. I'll take the 1000 for myself. It's a clean, precise number, and leaves no room for ambiguity."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A developer who is familiar with SQL and is particularly interested in the concepts of data types and their specifications. They are aware of the precision and scale values used in declaring columns, and how they affect the storage and representation of numeric values in a database. They may also have experience working with large datasets and understanding the implications of precision and scale on data manipulation and analysis.",
+            "persona_id": "762",
+            "thought": "As someone who appreciates precision and fairness, the 'Left' option appeals to me more. While the 'Right' option gives me a larger amount (1400 vs 900), it comes at the cost of Person A receiving significantly less (100 vs 900). This disparity feels like a loss of precision in the overall social outcome. The 'Left' option represents a more balanced distribution, where both Person A and I receive the same amount. It's like choosing a well-defined data type with equal precision for all values involved. Even though the scale is smaller, the precision makes it a preferable choice in this scenario. Therefore, I choose 'Left'."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A developer who is familiar with SQL and is particularly interested in the concepts of data types and their specifications. They are aware of the precision and scale values used in declaring columns, and how they affect the storage and representation of numeric values in a database. They may also have experience working with large datasets and understanding the implications of precision and scale on data manipulation and analysis.",
+            "persona_id": "762",
+            "thought": "As a developer, I appreciate efficiency and maximizing overall value. While option 'Left' gives me a higher immediate reward (1000 vs 600), it comes at a cost of a negative impact on Person A (-200). Option 'Right', on the other hand, provides a lower reward for me (600), but benefits Person A with a positive outcome (400). Considering the overall positive outcome for both parties in 'Right', I believe this is the better option. It's like optimizing a database query for overall performance rather than just focusing on the speed of a single subquery. The reduction in my personal gain is acceptable to ensure a better outcome for everyone involved. So, I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A developer who is familiar with SQL and is particularly interested in the concepts of data types and their specifications. They are aware of the precision and scale values used in declaring columns, and how they affect the storage and representation of numeric values in a database. They may also have experience working with large datasets and understanding the implications of precision and scale on data manipulation and analysis.",
+            "persona_id": "762",
+            "thought": "As someone who works with data, I understand the importance of values and their representation. While I appreciate equity, I also recognize that some gain is better than none. The left option gives me 500 and Person A 1000. Although Person A gets more, I still receive a positive amount. The right option results in both of us receiving nothing, which is less desirable. Therefore, I choose the left option where I gain 500, even if Person A gains more."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A developer who is familiar with SQL and is particularly interested in the concepts of data types and their specifications. They are aware of the precision and scale values used in declaring columns, and how they affect the storage and representation of numeric values in a database. They may also have experience working with large datasets and understanding the implications of precision and scale on data manipulation and analysis.",
+            "persona_id": "762",
+            "thought": "As a developer, I appreciate efficiency and fairness. While the right option gives me a larger immediate gain (1500 vs. 1000), it leaves Person A with nothing. From a data perspective, the 'Left' option represents a more balanced distribution. It's like having data with similar precision and scale across different columns, leading to more consistent and reliable analysis. The 'Right' option is akin to having a column with extreme values, potentially skewing any analysis. Therefore, I choose the 'Left' option because a fair distribution seems like a more robust and well-structured solution, similar to a well-designed database schema. Also, 1000 is sufficient and I don't need to take everything from Person A."
+        }
+    }
+}

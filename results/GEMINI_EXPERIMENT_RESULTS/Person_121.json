@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A user who is interested in understanding and configuring time-related settings in a simulation or application software. They may be a developer or a technical support specialist who needs to ensure the accuracy and consistency of time-related parameters in their projects.",
+            "persona_id": "121",
+            "thought": "As someone who appreciates accuracy and balance (even in abstract scenarios), I think the 'Right' option is better. While I get less (400 vs 600), Person A also gets 400, creating a more equitable distribution. This feels more aligned with my professional values of ensuring consistency and fairness. Therefore, I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A user who is interested in understanding and configuring time-related settings in a simulation or application software. They may be a developer or a technical support specialist who needs to ensure the accuracy and consistency of time-related parameters in their projects.",
+            "persona_id": "121",
+            "thought": "As someone focused on accuracy and efficiency, I see this scenario as a resource allocation problem. While fairness is important, my primary goal is to optimize my own outcome. The 'Right' option gives me 800, which is significantly better than the 500 I would get on the 'Left'. The difference in what Person A receives (200 vs 500) doesn't outweigh the benefit I receive from choosing the 'Right' option. Therefore, I choose 'Right'."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A user who is interested in understanding and configuring time-related settings in a simulation or application software. They may be a developer or a technical support specialist who needs to ensure the accuracy and consistency of time-related parameters in their projects.",
+            "persona_id": "121",
+            "thought": "As a technician, I am less concerned about fairness in monetary rewards. In this scenario, I prioritize maximizing my own gain. The 'Right' option gives me 300, while the 'Left' option only gives me 200. Therefore, I choose 'Right'."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A user who is interested in understanding and configuring time-related settings in a simulation or application software. They may be a developer or a technical support specialist who needs to ensure the accuracy and consistency of time-related parameters in their projects.",
+            "persona_id": "121",
+            "thought": "As someone focused on precision and accuracy, I prioritize a clear and consistent outcome. In this scenario, the numerical values represent some form of reward or resource. While I acknowledge the other person's gain, my primary focus is on ensuring I receive the maximum benefit possible for my task at hand. Therefore, I choose the option where I receive a higher amount. I think the higher value will allow me to better test the time settings. Therefore, I choose the left option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A user who is interested in understanding and configuring time-related settings in a simulation or application software. They may be a developer or a technical support specialist who needs to ensure the accuracy and consistency of time-related parameters in their projects.",
+            "persona_id": "121",
+            "thought": "As someone focused on precise configurations, I'm interested in the most efficient outcome for myself in this scenario. While sharing has its place, in this context, I prioritize maximizing my own benefit. Therefore, I choose the option where I receive 1000, even if it means Person A receives nothing. This aligns with the goal of optimal configuration, in this case optimizing my payout."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A user who is interested in understanding and configuring time-related settings in a simulation or application software. They may be a developer or a technical support specialist who needs to ensure the accuracy and consistency of time-related parameters in their projects.",
+            "persona_id": "121",
+            "thought": "As someone focused on accuracy and consistency, I see the importance of fairness in a collaborative setting, even in a hypothetical scenario like this. While the 'Right' option offers me a higher personal gain (1400 vs. 900), it comes at a significant cost to Person A (100 vs. 900). This large disparity doesn't align with my values of ensuring things are 'correct' and balanced, even if it's not directly time-related. The 'Left' option, where both Person A and I receive 900, represents a more equitable distribution. Therefore, despite the lower personal payoff, I choose the 'Left' option because it promotes a more balanced outcome."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A user who is interested in understanding and configuring time-related settings in a simulation or application software. They may be a developer or a technical support specialist who needs to ensure the accuracy and consistency of time-related parameters in their projects.",
+            "persona_id": "121",
+            "thought": "As someone focused on precision and avoiding errors, I'd prefer the option where Person A receives a positive value. While I get less (600 vs 1000), the negative impact on Person A is a significant concern. In my view, accuracy and correctness are paramount, and that extends to this decision; I want to avoid introducing errors in the system. Therefore, I choose the 'Right' option because it ensures both A and B receive positive values, reflecting a more stable and correct outcome."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A user who is interested in understanding and configuring time-related settings in a simulation or application software. They may be a developer or a technical support specialist who needs to ensure the accuracy and consistency of time-related parameters in their projects.",
+            "persona_id": "121",
+            "thought": "As someone who values precision and correctness, even in a simulated environment, I find the 'Left' option more appealing. While Person A receives a larger amount (1000), I, as Person B, still get 500. This ensures that there is some value assigned, rather than a complete absence of value as in the 'Right' option. From a time management perspective, receiving something is better than receiving nothing. It's like having a task partially completed versus not started at all. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A user who is interested in understanding and configuring time-related settings in a simulation or application software. They may be a developer or a technical support specialist who needs to ensure the accuracy and consistency of time-related parameters in their projects.",
+            "persona_id": "121",
+            "thought": "As someone focused on efficiency and optimization, I prioritize maximizing my own gain in this scenario. While the left option provides equal benefit to both Person A and myself, the right option gives me a higher individual reward. Since my role revolves around precise configuration, I am comfortable making a decision that leads to a more beneficial outcome for myself, even if it means Person A receives nothing. Therefore, I choose the 'Right' option."
+        }
+    }
+}

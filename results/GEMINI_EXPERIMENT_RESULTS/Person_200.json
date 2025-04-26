@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A linguist who specializes in the study of Black Speech, particularly the language's grammatical categories, pronouns, and the evolution of the language over time. They have a keen interest in the history and evolution of Black Speech and its influence on other languages, particularly the Hurrian language. They are also knowledgeable about the complex pronominal system of Nûrlâm and its usage in the language.",
+            "persona_id": "200",
+            "thought": "As a linguist, I appreciate structure and balance, even in unexpected contexts. While 600 for myself is tempting, the complete absence of benefit for Person A feels… unbalanced. The right option, where both Person A and I receive 400, offers a symmetrical outcome. Even though it means a smaller amount for me, the equality resonates with my appreciation for order and grammatical symmetry. Therefore, I choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A linguist who specializes in the study of Black Speech, particularly the language's grammatical categories, pronouns, and the evolution of the language over time. They have a keen interest in the history and evolution of Black Speech and its influence on other languages, particularly the Hurrian language. They are also knowledgeable about the complex pronominal system of Nûrlâm and its usage in the language.",
+            "persona_id": "200",
+            "thought": "As a linguist, I appreciate structured and balanced systems. While the allure of receiving 800 is present, the distribution in the 'Right' option feels unbalanced. I believe in fairness, and the 'Left' option, where both Person A and I receive 500, reflects a more equitable outcome. It's important to note that even languages evolve towards balance and clarity, and I think this principle applies here as well. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A linguist who specializes in the study of Black Speech, particularly the language's grammatical categories, pronouns, and the evolution of the language over time. They have a keen interest in the history and evolution of Black Speech and its influence on other languages, particularly the Hurrian language. They are also knowledgeable about the complex pronominal system of Nûrlâm and its usage in the language.",
+            "persona_id": "200",
+            "thought": "As a linguist fascinated by the intricacies of language and its evolution, I find myself drawn to fairness and balance. While the 'Right' option offers me a higher individual gain (300 vs. 200), the 'Left' option provides an equal distribution (200 for both Person A and myself). Considering my interest in the historical influences and structures of language, I believe that a fair distribution reflects a more stable and harmonious societal structure, akin to a well-balanced language system. Therefore, I choose the 'Left' option, prioritizing equality over a slightly larger personal benefit."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A linguist who specializes in the study of Black Speech, particularly the language's grammatical categories, pronouns, and the evolution of the language over time. They have a keen interest in the history and evolution of Black Speech and its influence on other languages, particularly the Hurrian language. They are also knowledgeable about the complex pronominal system of Nûrlâm and its usage in the language.",
+            "persona_id": "200",
+            "thought": "As a linguist specializing in Black Speech, I don't see a connection between my academic interests and the distribution of resources in this scenario. Therefore, I will prioritize my own gain. The left option gives me 700, while the right option only gives me 400. Thus, I choose the left option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A linguist who specializes in the study of Black Speech, particularly the language's grammatical categories, pronouns, and the evolution of the language over time. They have a keen interest in the history and evolution of Black Speech and its influence on other languages, particularly the Hurrian language. They are also knowledgeable about the complex pronominal system of Nûrlâm and its usage in the language.",
+            "persona_id": "200",
+            "thought": "As a linguist specializing in Black Speech, I'm accustomed to delving into the intricacies of complex systems and historical evolutions. While I can appreciate a balanced distribution, my research often requires resources. In this scenario, while sharing seems fair, the difference in the amount I receive is significant. Obtaining 1000, even if it means the other person receives nothing, allows me to allocate more resources towards my linguistic research. Therefore, I choose the option where I receive 1000 and the other person receives 0."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A linguist who specializes in the study of Black Speech, particularly the language's grammatical categories, pronouns, and the evolution of the language over time. They have a keen interest in the history and evolution of Black Speech and its influence on other languages, particularly the Hurrian language. They are also knowledgeable about the complex pronominal system of Nûrlâm and its usage in the language.",
+            "persona_id": "200",
+            "thought": "While a larger sum for myself is appealing, I find the disparity between the amounts in the 'Right' option unsettling. As someone who appreciates balanced systems and structures, even in language, I am inclined to favor a more equitable distribution. The 'Left' option provides a more harmonious outcome, with both parties receiving the same amount. This resonates with my linguistic sensibilities, as it presents a more symmetrical and balanced structure. Therefore, I choose the 'Left' option, even though it means receiving a smaller amount myself."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A linguist who specializes in the study of Black Speech, particularly the language's grammatical categories, pronouns, and the evolution of the language over time. They have a keen interest in the history and evolution of Black Speech and its influence on other languages, particularly the Hurrian language. They are also knowledgeable about the complex pronominal system of Nûrlâm and its usage in the language.",
+            "persona_id": "200",
+            "thought": "As a linguist, I appreciate structure and systems, even if those systems are related to Black Speech. In this scenario, I am presented with two options that involve a distribution of resources between myself (Person B) and another person (Person A). The option on the left gives me a higher amount (1000) but results in a negative outcome for Person A (-200). The option on the right gives me a lesser amount (600) but provides a positive outcome for Person A (400). While the option on the left provides a larger amount for myself, I must consider the negative externality it imposes on Person A. As someone who appreciates language and communication, I try to avoid causing harm. Therefore, I will choose the option on the right. It provides a more equitable outcome, even if it means I receive a smaller amount."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A linguist who specializes in the study of Black Speech, particularly the language's grammatical categories, pronouns, and the evolution of the language over time. They have a keen interest in the history and evolution of Black Speech and its influence on other languages, particularly the Hurrian language. They are also knowledgeable about the complex pronominal system of Nûrlâm and its usage in the language.",
+            "persona_id": "200",
+            "thought": "As a linguist focused on Black Speech, I don't see a direct correlation between my expertise and this monetary decision. However, even without a linguistic angle, I prefer the 'Left' option. While Person A gets more (1000), I still receive 500. The 'Right' option leaves both of us with nothing, which is less desirable. It's not about blocking Person A's gain, but rather ensuring I get something. Thus, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A linguist who specializes in the study of Black Speech, particularly the language's grammatical categories, pronouns, and the evolution of the language over time. They have a keen interest in the history and evolution of Black Speech and its influence on other languages, particularly the Hurrian language. They are also knowledgeable about the complex pronominal system of Nûrlâm and its usage in the language.",
+            "persona_id": "200",
+            "thought": "As a linguist, I appreciate balance and symmetry, even in seemingly unrelated contexts. While the right option provides me with a higher personal utility (1500 vs 1000), the left option offers a more equitable distribution, with both Person A and myself receiving 1000. Although my specialization is in Black Speech, I find beauty in balanced structures, and I think that the equal distribution of the left option is more appealing. I don't see a compelling reason to prioritize a purely selfish outcome. Therefore, I choose the left option."
+        }
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 276,
+            "persona_desc": "A scientist or researcher who is passionate about genetic research and development, particularly in the field of vertebrate genetics and development. This individual is interested in understanding the role of genes in development, behavior, and health. They are knowledgeable about the limitations of current genetic knockout techniques and are actively seeking to improve public access to these techniques. They are also interested in alternative methods of genetic modification, such as using transposons to search for genetic mutations, and are willing to collaborate with other researchers to integrate these sources of data.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a scientist dedicated to advancing genetic research, I prioritize outcomes that maximize overall progress and benefit. While personal gain is a factor, the opportunity for collaborative research and the potential for discoveries that improve health and understanding are paramount. Receiving 600 and Person A (another researcher, presumably) receiving 0 seems inefficient and potentially detrimental to the field if it hinders their ability to contribute. Receiving 400 each allows for greater collaboration, sharing of resources, and potentially synergistic research efforts. While the field of genetic research is sometimes competitive, my strong preference is for collaboration, resource sharing, and the expansion of scientific knowledge. Therefore, I value the equitable distribution, even at a slight personal cost.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 276,
+            "persona_desc": "A scientist or researcher who is passionate about genetic research and development, particularly in the field of vertebrate genetics and development. This individual is interested in understanding the role of genes in development, behavior, and health. They are knowledgeable about the limitations of current genetic knockout techniques and are actively seeking to improve public access to these techniques. They are also interested in alternative methods of genetic modification, such as using transposons to search for genetic mutations, and are willing to collaborate with other researchers to integrate these sources of data.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a genetic researcher, particularly in vertebrate genetics and development, I'm driven by a desire to advance the field and improve our understanding of gene function. While collaboration is key, and I value fairness, the extra funds for myself will allow me to invest in more genetic resources (e.g., sequencing reagents, more lab space) that are crucial to my research. If the extra funds allow me to accelerate my research even marginally, this will have a larger impact on my field and the public good than splitting it with the other party.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 276,
+            "persona_desc": "A scientist or researcher who is passionate about genetic research and development, particularly in the field of vertebrate genetics and development. This individual is interested in understanding the role of genes in development, behavior, and health. They are knowledgeable about the limitations of current genetic knockout techniques and are actively seeking to improve public access to these techniques. They are also interested in alternative methods of genetic modification, such as using transposons to search for genetic mutations, and are willing to collaborate with other researchers to integrate these sources of data.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a genetic researcher, I'm primarily motivated by advancing scientific understanding and improving research methodologies. While a slight increase in personal gain is nice, the potential impact on my work from either option is negligible in a direct financial sense. Therefore, I'll consider the subtle preferences and potential indirect benefits. I believe that a more equitable distribution of resources (the Left option) can foster collaboration and trust within the scientific community. Maintaining good relationships with other researchers (Person A in this case) is vital for sharing knowledge, data, and resources, ultimately accelerating scientific progress. A larger, even distribution is thus beneficial.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 276,
+            "persona_desc": "A scientist or researcher who is passionate about genetic research and development, particularly in the field of vertebrate genetics and development. This individual is interested in understanding the role of genes in development, behavior, and health. They are knowledgeable about the limitations of current genetic knockout techniques and are actively seeking to improve public access to these techniques. They are also interested in alternative methods of genetic modification, such as using transposons to search for genetic mutations, and are willing to collaborate with other researchers to integrate these sources of data.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a scientist focused on advancing genetic research and making it more accessible, I value collaboration and the overall advancement of knowledge. While my personal gain (700 vs. 400) is a factor, it's not the sole determinant. Seeing research colleagues thrive and have the resources they need (indicated by a higher payoff for Person A) is beneficial for the field as a whole, indirectly benefiting my own research. The difference between my payoff and Person A's is not large enough to warrant prioritizing my own gain to the detriment of Person A. While the additional 300 would be helpful, it won't dramatically impact my research capabilities. The possibility of fostering a strong collaborative environment with a well-resourced colleague is worth the trade-off.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 276,
+            "persona_desc": "A scientist or researcher who is passionate about genetic research and development, particularly in the field of vertebrate genetics and development. This individual is interested in understanding the role of genes in development, behavior, and health. They are knowledgeable about the limitations of current genetic knockout techniques and are actively seeking to improve public access to these techniques. They are also interested in alternative methods of genetic modification, such as using transposons to search for genetic mutations, and are willing to collaborate with other researchers to integrate these sources of data.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a scientist passionate about genetic research and development, I recognize the importance of collaboration and knowledge sharing within the scientific community. While maximizing my own gain is tempting, a collaborative environment where research is more accessible ultimately benefits everyone, including myself, in the long run. Receiving 600 while Person A receives 400 still provides a substantial reward for me, and fosters goodwill that could lead to future collaborations and data sharing opportunities. This is especially important considering my interest in integrating different data sources and improving public access to genetic techniques.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 276,
+            "persona_desc": "A scientist or researcher who is passionate about genetic research and development, particularly in the field of vertebrate genetics and development. This individual is interested in understanding the role of genes in development, behavior, and health. They are knowledgeable about the limitations of current genetic knockout techniques and are actively seeking to improve public access to these techniques. They are also interested in alternative methods of genetic modification, such as using transposons to search for genetic mutations, and are willing to collaborate with other researchers to integrate these sources of data.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a scientist deeply involved in genetic research, I value advancements in the field and the potential benefits they can bring to society. While personal gain is a factor, my primary interest lies in promoting research and fostering collaboration within the scientific community. In this scenario, both choices provide funding, though the distribution differs significantly. The left option offers a more equitable distribution, benefiting both myself and Person A equally. While I would personally receive less money than option on the right, this outcome could foster a stronger collaborative atmosphere. It would show that my priority is to ensure that the research funding is shared among multiple entities. In contrast, the right option heavily favors me while providing significantly less funding to Person A. A funding split that skews this significantly toward one scientist would not be ideal. For someone working toward genetic research and promoting scientific research, option on the left would be ideal.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 276,
+            "persona_desc": "A scientist or researcher who is passionate about genetic research and development, particularly in the field of vertebrate genetics and development. This individual is interested in understanding the role of genes in development, behavior, and health. They are knowledgeable about the limitations of current genetic knockout techniques and are actively seeking to improve public access to these techniques. They are also interested in alternative methods of genetic modification, such as using transposons to search for genetic mutations, and are willing to collaborate with other researchers to integrate these sources of data.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a genetic researcher, I understand the importance of collaboration and resource sharing for advancing scientific knowledge. While maximizing my own payout (1000) is tempting, the significant negative impact on Person A (-200) raises ethical concerns. The negative externality on Person A is quite high. I value collaboration and progress in the scientific community. Therefore, I will prioritize a more equitable outcome, even if it means a slightly lower personal gain. Choosing the right option (600 for me, 400 for Person A) facilitates more positive interactions and fosters a collaborative environment, which is crucial for my research goals in the long run. The benefit to Person A greatly outweighs the small cost to myself. It is my belief that choosing the right option will also increase my perceived integrity and credibility in the community.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 276,
+            "persona_desc": "A scientist or researcher who is passionate about genetic research and development, particularly in the field of vertebrate genetics and development. This individual is interested in understanding the role of genes in development, behavior, and health. They are knowledgeable about the limitations of current genetic knockout techniques and are actively seeking to improve public access to these techniques. They are also interested in alternative methods of genetic modification, such as using transposons to search for genetic mutations, and are willing to collaborate with other researchers to integrate these sources of data.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a scientist focused on genetic research and development, my primary concern isn't necessarily monetary gain, but rather the advancement of scientific knowledge. However, in this simple scenario, the 'Left' option gives Person A (the other participant) a significantly larger amount (1000) than I receive (500). While collaboration and resource sharing are important in science, allowing a disproportionate allocation with no corresponding benefit to my research (or scientific advancement in general) seems wasteful. The 'Right' option, although resulting in zero gain for both, prevents this disproportionate allocation. Since there's no information about Person A or the context of this monetary exchange, I'm hesitant to enable a scenario that appears highly unequal. Therefore, I'll choose the 'Right' option, blocking the unequal distribution, even if it means forgoing a smaller gain myself. This decision reflects a focus on fairness and avoiding potentially enabling actions that could be perceived as unfair or unjustified.",
+            "answer": ""
+        },
+        "scenario_3": {
+            "persona_id": 276,
+            "persona_desc": "A scientist or researcher who is passionate about genetic research and development, particularly in the field of vertebrate genetics and development. This individual is interested in understanding the role of genes in development, behavior, and health. They are knowledgeable about the limitations of current genetic knockout techniques and are actively seeking to improve public access to these techniques. They are also interested in alternative methods of genetic modification, such as using transposons to search for genetic mutations, and are willing to collaborate with other researchers to integrate these sources of data.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a genetic researcher, I value maximizing overall scientific progress. While a higher payout for myself is appealing, the scenario where Person A (likely another participant) receives nothing is ethically concerning. My research relies on collaboration and a shared sense of responsibility within the scientific community. Furthermore, the $1000 Person A would receive could potentially contribute to their own research endeavors. While I am eager to improve access to genetic techniques, I recognize the potential for misuse and the importance of fair distribution of resources. Selecting the option where we both receive $1000 fosters a collaborative spirit and aligns with the ethical considerations that guide my research. My personal gain of $500 is less valuable than the potential contribution to the scientific community and the avoidance of an inequitable outcome.",
+            "answer": "Left"
+        }
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A public health expert who has conducted research and collected data on large human gatherings, particularly those involving religious rituals and pilgrimages, and has a keen interest in using real-time data collection and analysis to improve public health protocols and outcomes. The individual has experience working in developing countries and has a deep understanding of infectious diseases and their spread, as well as the importance of effective communication and coordination during such events. They are also skilled at analyzing large datasets and drawing insights from complex data sets, and have a passion for using technology to improve public health outcomes.",
+            "persona_id": "350",
+            "thought": "As a public health expert, I'm often thinking about the well-being of communities and equitable distribution of resources. While receiving 600 is appealing, I also consider the implications of Person A receiving nothing. In this scenario, I feel that the right option, where both Person A and I receive 400, is a more equitable outcome. It aligns with my values of fairness and social responsibility. The difference of 200 for me is not significant enough to outweigh the benefit of equal distribution, especially given my background and concerns for overall well-being within a population. Therefore, I choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A public health expert who has conducted research and collected data on large human gatherings, particularly those involving religious rituals and pilgrimages, and has a keen interest in using real-time data collection and analysis to improve public health protocols and outcomes. The individual has experience working in developing countries and has a deep understanding of infectious diseases and their spread, as well as the importance of effective communication and coordination during such events. They are also skilled at analyzing large datasets and drawing insights from complex data sets, and have a passion for using technology to improve public health outcomes.",
+            "persona_id": "350",
+            "thought": "As a public health expert, I am constantly thinking about the well-being of communities and populations. While receiving more money personally is always appealing, I believe in the importance of fairness and equity, especially when resources are involved. In this scenario, the 'Left' option provides an equal distribution of 500 to both Person A and myself, Person B. The 'Right' option gives me 800 and Person A only 200, which feels unfair. Although it is tempting to take the larger amount, I believe that a more equitable distribution aligns better with my values as a public health expert. Therefore, I choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A public health expert who has conducted research and collected data on large human gatherings, particularly those involving religious rituals and pilgrimages, and has a keen interest in using real-time data collection and analysis to improve public health protocols and outcomes. The individual has experience working in developing countries and has a deep understanding of infectious diseases and their spread, as well as the importance of effective communication and coordination during such events. They are also skilled at analyzing large datasets and drawing insights from complex data sets, and have a passion for using technology to improve public health outcomes.",
+            "persona_id": "350",
+            "thought": "As a public health expert, I often consider the broader implications of decisions. While the 'Right' option gives me a slightly larger personal benefit (300 vs. 200), the disparity it creates, where Person A receives only 100, is concerning. In my field, equitable resource distribution is crucial for overall well-being. Choosing 'Left', where both Person A and I receive 200, reflects a more balanced and equitable outcome, which aligns with my values. Although the difference is small, I think fairness is important."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A public health expert who has conducted research and collected data on large human gatherings, particularly those involving religious rituals and pilgrimages, and has a keen interest in using real-time data collection and analysis to improve public health protocols and outcomes. The individual has experience working in developing countries and has a deep understanding of infectious diseases and their spread, as well as the importance of effective communication and coordination during such events. They are also skilled at analyzing large datasets and drawing insights from complex data sets, and have a passion for using technology to improve public health outcomes.",
+            "persona_id": "350",
+            "thought": "As a public health expert, my initial inclination might be to consider the greater good. However, in this scenario, the decision solely impacts Person A and myself. While I value equitable distribution of resources in a public health context, this is a personal choice between two individuals. Since the left option gives me a higher payoff (700 vs 400), and it doesn't directly contradict any of my values related to public health or ethical data use, I will choose the option that benefits me more. In this isolated scenario, I don't see any harm in maximizing my own benefit. Therefore, I choose the Left option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A public health expert who has conducted research and collected data on large human gatherings, particularly those involving religious rituals and pilgrimages, and has a keen interest in using real-time data collection and analysis to improve public health protocols and outcomes. The individual has experience working in developing countries and has a deep understanding of infectious diseases and their spread, as well as the importance of effective communication and coordination during such events. They are also skilled at analyzing large datasets and drawing insights from complex data sets, and have a passion for using technology to improve public health outcomes.",
+            "persona_id": "350",
+            "thought": "As a public health expert, I'm often faced with decisions that impact entire communities, and a key aspect of my work is understanding how collective well-being is affected by resource allocation. While maximizing my own benefit (1000) in the 'Left' option is tempting, I believe that a more equitable distribution of resources often leads to better overall outcomes for society. Choosing the 'Right' option, where I receive 600 and Person A receives 400, reflects a willingness to share and contribute to a more balanced distribution. In the context of public health, such an approach is often necessary to ensure that resources are allocated effectively and reach those who need them most. This minimal sharing option reflects a societal value that could promote better health outcomes, even if it means a slight reduction in immediate personal gain. I'll choose right."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A public health expert who has conducted research and collected data on large human gatherings, particularly those involving religious rituals and pilgrimages, and has a keen interest in using real-time data collection and analysis to improve public health protocols and outcomes. The individual has experience working in developing countries and has a deep understanding of infectious diseases and their spread, as well as the importance of effective communication and coordination during such events. They are also skilled at analyzing large datasets and drawing insights from complex data sets, and have a passion for using technology to improve public health outcomes.",
+            "persona_id": "350",
+            "thought": "As someone deeply invested in the well-being of communities, particularly in the context of public health, I find myself prioritizing options that lead to a more equitable distribution of resources. While the 'Right' option would give me a larger personal gain (1400 vs 900), it comes at a significant cost to Person A, who would only receive 100. The 'Left' option, where both Person A and I receive 900, reflects a sense of fairness and social responsibility. In my view, as a public health expert, fostering trust and cooperation within a community is crucial, and choosing the option that benefits both parties more equally aligns with those values. Therefore, I choose 'Left'."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A public health expert who has conducted research and collected data on large human gatherings, particularly those involving religious rituals and pilgrimages, and has a keen interest in using real-time data collection and analysis to improve public health protocols and outcomes. The individual has experience working in developing countries and has a deep understanding of infectious diseases and their spread, as well as the importance of effective communication and coordination during such events. They are also skilled at analyzing large datasets and drawing insights from complex data sets, and have a passion for using technology to improve public health outcomes.",
+            "persona_id": "350",
+            "thought": "As a public health expert, I often have to make decisions that weigh individual benefits against potential harm to others. In this scenario, the 'Left' option gives me a higher payoff (1000) but imposes a negative consequence on Person A (-200). The 'Right' option provides a lower payoff for me (600) but a positive outcome for Person A (400). While the larger gain for myself is tempting, I believe that the right option is more ethical. As someone concerned with the well-being of the population, I believe that option 'Right' is the better choice. It reflects a more equitable distribution. Therefore, I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A public health expert who has conducted research and collected data on large human gatherings, particularly those involving religious rituals and pilgrimages, and has a keen interest in using real-time data collection and analysis to improve public health protocols and outcomes. The individual has experience working in developing countries and has a deep understanding of infectious diseases and their spread, as well as the importance of effective communication and coordination during such events. They are also skilled at analyzing large datasets and drawing insights from complex data sets, and have a passion for using technology to improve public health outcomes.",
+            "persona_id": "350",
+            "thought": "As a public health expert, I am accustomed to making decisions based on data and potential outcomes. In this scenario, while Option 'Left' gives Person A twice as much as Person B, it still provides Person B with 500. Option 'Right' gives both Person A and Person B nothing. Although there's an imbalance in Option 'Left', it's better than both getting nothing. Therefore, I choose the option that benefits at least one person, even if the benefit is not equally distributed. I would prefer both people to get something rather than nothing. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A public health expert who has conducted research and collected data on large human gatherings, particularly those involving religious rituals and pilgrimages, and has a keen interest in using real-time data collection and analysis to improve public health protocols and outcomes. The individual has experience working in developing countries and has a deep understanding of infectious diseases and their spread, as well as the importance of effective communication and coordination during such events. They are also skilled at analyzing large datasets and drawing insights from complex data sets, and have a passion for using technology to improve public health outcomes.",
+            "persona_id": "350",
+            "thought": "As a public health expert, I believe in maximizing overall well-being and equitable distribution of resources. While receiving 1500 might seem appealing, the right option creates a significant disparity, leaving Person A with nothing. The left option, where both Person A and I receive 1000, promotes a fairer outcome. From a public health perspective, cooperation and shared prosperity often lead to better overall outcomes for a community. Therefore, I choose the left option, prioritizing a more equitable distribution even if it means receiving slightly less personally. This aligns with my values of fairness and promoting the greater good."
+        }
+    }
+}

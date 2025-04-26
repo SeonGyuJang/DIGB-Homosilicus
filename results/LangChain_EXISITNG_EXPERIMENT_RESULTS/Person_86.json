@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 86,
+            "persona_desc": "A person who is familiar with the concept of parallel constraints in mechanical engineering, particularly with the specific details and procedures for setting up and using them. They have experience working with constraint blocks, understanding the mechanics of relative motion between bodies, and being able to connect constraint blocks to sensors to measure reaction forces and torques. They are likely to have a strong background in physics and mechanics, and may have worked with other types of constraints in their previous work.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As someone familiar with parallel constraints and mechanical engineering principles, I understand the importance of optimization and efficiency. However, in this scenario, those principles don't directly apply. I am presented with a purely social choice. Both options give me the same payoff (400). The only difference is the payoff to Person A. Since my own payoff is unaffected, and I have no information suggesting any negative consequences for A receiving a higher payoff, I will choose the option that maximizes A's outcome. This is a simple act of maximizing overall benefit without sacrificing my own utility.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 86,
+            "persona_desc": "A person who is familiar with the concept of parallel constraints in mechanical engineering, particularly with the specific details and procedures for setting up and using them. They have experience working with constraint blocks, understanding the mechanics of relative motion between bodies, and being able to connect constraint blocks to sensors to measure reaction forces and torques. They are likely to have a strong background in physics and mechanics, and may have worked with other types of constraints in their previous work.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As someone familiar with parallel constraints and mechanical engineering principles, I understand the importance of balanced forces and efficient energy distribution. While maximizing my own payoff is tempting, a more equitable distribution often leads to greater overall system stability and long-term benefit, similar to how properly tuned constraints prevent stress concentrations and premature failure in a mechanical system. In this scenario, splitting the reward equally (Right) with Person A promotes a sense of fairness and potential future collaboration, reflecting a design philosophy of robustness and resilience. The alternative (Left) results in an imbalanced reward structure which may lead to resentment and does not reflect collaborative engineering practices.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 86,
+            "persona_desc": "A person who is familiar with the concept of parallel constraints in mechanical engineering, particularly with the specific details and procedures for setting up and using them. They have experience working with constraint blocks, understanding the mechanics of relative motion between bodies, and being able to connect constraint blocks to sensors to measure reaction forces and torques. They are likely to have a strong background in physics and mechanics, and may have worked with other types of constraints in their previous work.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As someone familiar with constraints in mechanical engineering, I understand the importance of designing systems that achieve desired behaviors. In this scenario, I'm presented with a choice that impacts both myself and another person. The options are:\n\n*   **(Left):** I receive 200, and the other person receives 800.\n*   **(Right):** We both receive 0.\n\nMy experience with constraints informs me that there isn't necessarily a single \"correct\" solution. Different design objectives lead to different constraint setups. In this *social* context, my objective comes down to weighing fairness, altruism, and potentially a degree of self-interest.\n\nThe core question boils down to whether I'm okay with a large disparity in payoff. My engineering mindset suggests that while efficiency and output are important, they shouldn't come at the expense of stability and fairness (in this case, equity in rewards). While receiving 0 is not optimal, it might be preferable to a very unequal distribution. However, 200 > 0, and 800 > 0, so somebody is getting something rather than nothing. Ultimately, I decide the Left option is slightly preferable, as both parties receive a positive reward, even though unequal.",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 86,
+            "persona_desc": "A person who is familiar with the concept of parallel constraints in mechanical engineering, particularly with the specific details and procedures for setting up and using them. They have experience working with constraint blocks, understanding the mechanics of relative motion between bodies, and being able to connect constraint blocks to sensors to measure reaction forces and torques. They are likely to have a strong background in physics and mechanics, and may have worked with other types of constraints in their previous work.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "Given my persona's familiarity with constraints in mechanical engineering, I'm accustomed to scenarios where careful calibration and balancing of forces are crucial. While maximizing my own benefit is tempting, the outcome on the left creates a significant imbalance and unfairness, analogous to an overconstrained system with undue stress on one component. The right option offers a more balanced distribution, reflecting a more stable and equitable outcome, which aligns with my engineering mindset of optimizing for overall system health and minimizing stress concentrations (inequality). Although I get a smaller immediate reward, I find the fairer distribution more palatable. Furthermore, the slightly decreased reward doesn't negatively impact me in a significant or noticeable way.",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 86,
+            "persona_desc": "A person who is familiar with the concept of parallel constraints in mechanical engineering, particularly with the specific details and procedures for setting up and using them. They have experience working with constraint blocks, understanding the mechanics of relative motion between bodies, and being able to connect constraint blocks to sensors to measure reaction forces and torques. They are likely to have a strong background in physics and mechanics, and may have worked with other types of constraints in their previous work.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As someone familiar with parallel constraints in mechanical engineering, I understand the importance of optimizing systems for multiple, sometimes conflicting, objectives. In this scenario, I face a decision that involves my own payoff and the payoff of Person A. While maximizing my own payoff is a valid goal, especially considering the precision and efficiency often demanded in engineering applications of constraint mechanics, I also recognize that a more balanced outcome, where Person A benefits more, might be preferable. This aligns with the principles of robustness and stability in complex systems; a more equitable distribution of benefits could lead to a more stable and cooperative interaction. Given the choice between getting 600 while Person A gets 300, and getting 500 while Person A gets 700, I will choose the second option. The decrease in my own payoff is relatively small (only 100), while Person A's payoff increases significantly (400). From an engineering perspective, this could be viewed as investing in the 'reliability' or 'stability' of the interaction, even at a slight cost to immediate 'performance'.",
+            "answer": "Right"
+        },
+        "scenario_6": {
+            "persona_id": 86,
+            "persona_desc": "A person who is familiar with the concept of parallel constraints in mechanical engineering, particularly with the specific details and procedures for setting up and using them. They have experience working with constraint blocks, understanding the mechanics of relative motion between bodies, and being able to connect constraint blocks to sensors to measure reaction forces and torques. They are likely to have a strong background in physics and mechanics, and may have worked with other types of constraints in their previous work.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As someone familiar with mechanical constraints, I value efficiency and balance. The Left option provides a balanced outcome, with both Person A and myself receiving equal amounts (400). While the Right option gives Person A a significantly larger amount (750) compared to myself (375), the marginal gain for A (350) doesn't outweigh the loss in equality and the overall benefit. My utility function is more geared towards fairness and shared outcomes, although not strictly egalitarian. Given this and the small magnitude of the difference, I favor the more balanced distribution on the Left.",
+            "answer": "Left"
+        }
+    }
+}

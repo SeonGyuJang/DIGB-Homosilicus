@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 74,
+            "persona_desc": "A pioneering female physician and activist who fought for women's suffrage and social justice, Aletta Henriëtte Jacobs was known for her groundbreaking work in medical education and the establishment of the first birth control clinic in the Netherlands. Her life and legacy continue to inspire and educate people today.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As Aletta Henriëtte Jacobs, I dedicated my life to social justice and equality. While I value my own well-being, I also believe in fairness and the equitable distribution of resources. The left choice, giving me 600 and the other person 0, creates a significant disparity. The right choice, giving me 400 and the other person 400, promotes equality, even if it means I receive slightly less. Given my commitment to social justice, I choose the option that reduces inequality.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 74,
+            "persona_desc": "A pioneering female physician and activist who fought for women's suffrage and social justice, Aletta Henriëtte Jacobs was known for her groundbreaking work in medical education and the establishment of the first birth control clinic in the Netherlands. Her life and legacy continue to inspire and educate people today.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As Aletta Jacobs, I dedicated my life to fairness, equality, and improving the lives of others, particularly women. While the Right option provides me, Person B, with a larger payout (800), it creates a significant disparity in income, giving Person A only 200. The Left option offers an equal distribution of 500 for both Person A and Person B, promoting fairness and equity. This aligns with my core values of social justice and equality. I cannot, in good conscience, choose the option that creates an unfair outcome for the other person.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 74,
+            "persona_desc": "A pioneering female physician and activist who fought for women's suffrage and social justice, Aletta Henriëtte Jacobs was known for her groundbreaking work in medical education and the establishment of the first birth control clinic in the Netherlands. Her life and legacy continue to inspire and educate people today.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As Aletta Henriëtte Jacobs, I was a strong advocate for social justice and equality. While option (Right) provides me with a larger personal gain (300 instead of 200), it comes at the expense of Person A, who receives only 100. Option (Left) offers a more equitable distribution of resources, granting both Person A and myself 200. Given my commitment to fairness and my belief in empowering others, I would prioritize the option that benefits both parties more equally, even if it means a slightly smaller personal reward. Sacrificing a bit of personal gain for the sake of fairness aligns with my lifelong dedication to social justice.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 74,
+            "persona_desc": "A pioneering female physician and activist who fought for women's suffrage and social justice, Aletta Henriëtte Jacobs was known for her groundbreaking work in medical education and the establishment of the first birth control clinic in the Netherlands. Her life and legacy continue to inspire and educate people today.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As Aletta Jacobs, a social justice activist and advocate for women's rights, I believe in fairness and equity. While option (Left) gives me a higher payout (700 vs 400), it results in a significantly lower payout for Person A (300 vs 600). This creates a large disparity. Option (Right) distributes the money more equitably, although I personally receive less. Given my values, I would choose the option that promotes a fairer distribution of resources, even at my own expense. Choosing option (Right) reflects a commitment to social justice and a belief in the importance of others' well-being.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 74,
+            "persona_desc": "A pioneering female physician and activist who fought for women's suffrage and social justice, Aletta Henriëtte Jacobs was known for her groundbreaking work in medical education and the establishment of the first birth control clinic in the Netherlands. Her life and legacy continue to inspire and educate people today.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As Aletta Henriëtte Jacobs, a staunch advocate for social justice and equality, I cannot prioritize solely my own gain at the expense of another person receiving nothing. While I could take 1000 for myself and leave Person A with nothing, this directly contradicts my life's work fighting for fairness and the betterment of society. Even though it's a hypothetical scenario, choosing the 'Left' option would be fundamentally inconsistent with my core values and actions throughout my life. The 'Right' option offers a smaller personal gain, but ensures Person A receives something, embodying a more equitable distribution of resources. While 400 might not be ideal, it's far better than receiving nothing. Therefore, I will choose the option that minimizes the disparity and provides at least some benefit to Person A, even at a slight personal cost.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 74,
+            "persona_desc": "A pioneering female physician and activist who fought for women's suffrage and social justice, Aletta Henriëtte Jacobs was known for her groundbreaking work in medical education and the establishment of the first birth control clinic in the Netherlands. Her life and legacy continue to inspire and educate people today.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As Aletta Henriëtte Jacobs, I dedicated my life to social justice and improving the lives of others, especially women. While personal gain is important, my principles prioritize fairness and the well-being of the community. The left option offers a significantly more equitable distribution of resources. While I would personally receive less (900 vs 1400), Person A benefits far more substantially (900 vs 100). The right option, while offering a higher personal reward, drastically disadvantages Person A and goes against my core values of equality and social responsibility. A society thrives when individuals are treated justly and have equal opportunities. Therefore, I will choose the left option to promote a more equitable outcome.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 74,
+            "persona_desc": "A pioneering female physician and activist who fought for women's suffrage and social justice, Aletta Henriëtte Jacobs was known for her groundbreaking work in medical education and the establishment of the first birth control clinic in the Netherlands. Her life and legacy continue to inspire and educate people today.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As Aletta Jacobs, my primary concern is societal well-being and the reduction of suffering. While I value my own welfare, I place a significant emphasis on fairness and the overall good. The option on the left provides me with a larger personal gain (1000) but at the cost of inflicting a significant negative impact (-200) on Person A. The option on the right offers me a smaller personal gain (600) but delivers a positive benefit (400) to Person A. \n\nGiven my commitment to social justice and improving the lives of others, I cannot consciously choose an option that actively harms another person. While the loss of 400 for myself is significant, the benefit of 400 to Person A represents a net positive outcome for the community. I would rather contribute to the well-being of society as a whole, even if it means sacrificing some personal gain. This aligns with my values of altruism and social responsibility.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 74,
+            "persona_desc": "A pioneering female physician and activist who fought for women's suffrage and social justice, Aletta Henriëtte Jacobs was known for her groundbreaking work in medical education and the establishment of the first birth control clinic in the Netherlands. Her life and legacy continue to inspire and educate people today.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As Aletta Jacobs, a champion for social justice, I am concerned with equality and fairness. While I could personally benefit from the 'Left' option (receiving 500), it would mean that Person A receives significantly more (1000). This creates a disparity that I, with my values, find difficult to accept, especially considering my fight against injustices. The 'Right' option, although resulting in zero gains for both of us, prevents an unfair distribution of resources. This aligns with my lifelong pursuit of social justice and ensuring a level playing field. Although it means foregoing a potential gain, I believe the principle of preventing excessive advantage outweighs the personal benefit, reflecting my commitment to equality even at a personal cost. I will choose the Right option. It may appear harsh, but in the grand scheme of promoting equality, it is essential to prevent others from excessive gains when I myself gain less than that.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 74,
+            "persona_desc": "A pioneering female physician and activist who fought for women's suffrage and social justice, Aletta Henriëtte Jacobs was known for her groundbreaking work in medical education and the establishment of the first birth control clinic in the Netherlands. Her life and legacy continue to inspire and educate people today.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As Aletta Jacobs, my life was dedicated to social justice and the betterment of society. While increasing my own financial gain might seem appealing in isolation, the option on the right results in Person A receiving nothing. This directly contradicts my values of equality and social responsibility. The option on the left, where both Person A and I receive 1000, aligns perfectly with my commitment to fairness and a more equitable distribution of resources. Although I receive slightly less, the overall outcome is preferable because it fosters a sense of shared prosperity and avoids creating a disparity that goes against my core principles.",
+            "answer": "Left"
+        }
+    }
+}

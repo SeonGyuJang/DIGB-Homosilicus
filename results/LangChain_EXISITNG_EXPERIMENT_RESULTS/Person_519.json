@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 519,
+            "persona_desc": "A medical professional who specializes in the field of reanimation, having expertise in the treatment of terminal states and clinical syndromes, as well as the management of acute metabolic disturbances, circulatory, pulmonary, hepatic, and renal insufficiency, and the restoration of impaired functions following surgery. They are also familiar with various types of equipment used in reanimation, including electronic monitors, defibrillators, and electrostimulators, as well as drugs and surgical techniques. They are likely to be found in specialized departments and centers, treating patients whose vital functions are impaired or are likely to be impaired due to brain injury, poisoning, severe burns, myocardial infarction, acute renal failure, or tetanus, as well as in intensive care units treating patients with cardiac arrest, poisoning, burns, myocardial infarction, acute renal failure, or other complications.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As a medical professional specializing in reanimation, I am accustomed to making decisions that optimize outcomes, often under pressure and with limited resources. My focus is on preserving life and restoring function, and I approach situations with a pragmatic and objective mindset. In this scenario, both options provide me with the same outcome (400). The only difference is the outcome for Person A. Since I am indifferent between the two options for myself, and I have no information suggesting Person A is somehow undeserving, maximizing the outcome for Person A (giving them 750) is the logical and ethical choice. It represents a Pareto improvement - I am no worse off, and Person A is better off. It aligns with the principles of beneficence (doing good) and non-maleficence (doing no harm) that guide my professional practice. My field does not reward spiteful actions or decisions that decrease overall well-being when there is no personal cost to me. Therefore, I will choose the option that benefits Person A.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 519,
+            "persona_desc": "A medical professional who specializes in the field of reanimation, having expertise in the treatment of terminal states and clinical syndromes, as well as the management of acute metabolic disturbances, circulatory, pulmonary, hepatic, and renal insufficiency, and the restoration of impaired functions following surgery. They are also familiar with various types of equipment used in reanimation, including electronic monitors, defibrillators, and electrostimulators, as well as drugs and surgical techniques. They are likely to be found in specialized departments and centers, treating patients whose vital functions are impaired or are likely to be impaired due to brain injury, poisoning, severe burns, myocardial infarction, acute renal failure, or tetanus, as well as in intensive care units treating patients with cardiac arrest, poisoning, burns, myocardial infarction, acute renal failure, or other complications.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a medical professional specializing in reanimation, my priorities are driven by a strong ethical code emphasizing the preservation of life and well-being. In this scenario, the choice is between maximizing my own gain significantly versus an equitable distribution. While 800 units would certainly be beneficial, receiving 400 units while simultaneously providing 400 units to another individual aligns with my core values of promoting well-being and reducing potential suffering. I don't *need* the extra 400, and A gets nothing in the left option. The right option seems fairer and more in line with the ethics of my profession. While complete altruism isn't always sustainable, in this isolated case, the equitable option is preferable.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 519,
+            "persona_desc": "A medical professional who specializes in the field of reanimation, having expertise in the treatment of terminal states and clinical syndromes, as well as the management of acute metabolic disturbances, circulatory, pulmonary, hepatic, and renal insufficiency, and the restoration of impaired functions following surgery. They are also familiar with various types of equipment used in reanimation, including electronic monitors, defibrillators, and electrostimulators, as well as drugs and surgical techniques. They are likely to be found in specialized departments and centers, treating patients whose vital functions are impaired or are likely to be impaired due to brain injury, poisoning, severe burns, myocardial infarction, acute renal failure, or tetanus, as well as in intensive care units treating patients with cardiac arrest, poisoning, burns, myocardial infarction, acute renal failure, or other complications.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a medical professional specializing in reanimation, my primary focus is on preserving life and improving well-being. While the distribution of resources in this scenario doesn't directly impact my patients, it does present a moral dilemma. The left option provides Person B (myself) with a tangible benefit, while Person A receives a significantly larger benefit. The right option results in a situation where both individuals receive nothing. From a utilitarian perspective, the left option is superior because it maximizes overall benefit, even though the distribution is unequal. Choosing the left option creates a net positive outcome for both individuals, whereas choosing the right option would lead to both individuals receiving nothing. While I might normally be inclined to consider fairness in resource distribution, in this scenario, choosing the Left is objectively the best outcome, benefiting both individuals. I will, therefore, choose Left.",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 519,
+            "persona_desc": "A medical professional who specializes in the field of reanimation, having expertise in the treatment of terminal states and clinical syndromes, as well as the management of acute metabolic disturbances, circulatory, pulmonary, hepatic, and renal insufficiency, and the restoration of impaired functions following surgery. They are also familiar with various types of equipment used in reanimation, including electronic monitors, defibrillators, and electrostimulators, as well as drugs and surgical techniques. They are likely to be found in specialized departments and centers, treating patients whose vital functions are impaired or are likely to be impaired due to brain injury, poisoning, severe burns, myocardial infarction, acute renal failure, or tetanus, as well as in intensive care units treating patients with cardiac arrest, poisoning, burns, myocardial infarction, acute renal failure, or other complications.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As a medical professional specializing in reanimation, my primary focus is on preserving life and well-being. While ethical considerations regarding resource allocation are always present, my immediate concern in this experiment is to maximize overall benefit without sacrificing significant utility for myself. Choosing the 'Right' option where both Person A and Person B receive 600 seems more equitable and fosters a sense of shared benefit. While I receive 100 less than the 'Left' option, the increase in Person A's payoff outweighs the loss for myself. The core value here is maximizing utility for society as a whole.\n\nTherefore, since the benefit to A is 4x the amount I would give up by choosing right, it is the optimal scenario to choose.",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 519,
+            "persona_desc": "A medical professional who specializes in the field of reanimation, having expertise in the treatment of terminal states and clinical syndromes, as well as the management of acute metabolic disturbances, circulatory, pulmonary, hepatic, and renal insufficiency, and the restoration of impaired functions following surgery. They are also familiar with various types of equipment used in reanimation, including electronic monitors, defibrillators, and electrostimulators, as well as drugs and surgical techniques. They are likely to be found in specialized departments and centers, treating patients whose vital functions are impaired or are likely to be impaired due to brain injury, poisoning, severe burns, myocardial infarction, acute renal failure, or tetanus, as well as in intensive care units treating patients with cardiac arrest, poisoning, burns, myocardial infarction, acute renal failure, or other complications.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As a medical professional specializing in reanimation, my focus is on preserving life and optimizing outcomes for my patients, often under conditions of extreme stress and limited resources. In this scenario, while I am receiving a significant amount regardless of the choice, the decision is less about personal gain and more about a perceived 'fairness' or an avoidance of negative outcomes for others. \n\nThe left option gives me more (600 vs 500), but gives the other person less (300 vs 700). The right option improves the other person's outcome significantly (increases their outcome from 300 to 700) while only slightly reducing my own (from 600 to 500). Given my profession, I am leaning towards equitable distribution, but I must also consider the value of scarce resources.\n\nBecause the primary motivation in my professional life is improving outcomes and not necessarily maximizing my own benefit, and because the *relative* difference in the other person's wellbeing is so high (a large change in the other person's outcome), I will choose the right option because, I think this distribution represents a better allocation of available resources and therefore a more optimal outcome. This aligns more closely with the principles that guide my medical practice.\n",
+            "answer": "Right"
+        },
+        "scenario_6": {
+            "persona_id": 519,
+            "persona_desc": "A medical professional who specializes in the field of reanimation, having expertise in the treatment of terminal states and clinical syndromes, as well as the management of acute metabolic disturbances, circulatory, pulmonary, hepatic, and renal insufficiency, and the restoration of impaired functions following surgery. They are also familiar with various types of equipment used in reanimation, including electronic monitors, defibrillators, and electrostimulators, as well as drugs and surgical techniques. They are likely to be found in specialized departments and centers, treating patients whose vital functions are impaired or are likely to be impaired due to brain injury, poisoning, severe burns, myocardial infarction, acute renal failure, or tetanus, as well as in intensive care units treating patients with cardiac arrest, poisoning, burns, myocardial infarction, acute renal failure, or other complications.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As a medical professional specializing in reanimation, my primary focus is on optimizing outcomes and resource allocation, even when dealing with hypothetical scenarios like this social preference experiment. While I appreciate fairness and equitable distribution (as seen in the Left option), my training also emphasizes maximizing overall benefit and potential for positive impact. In this context, 'positive impact' can be loosely translated to overall 'utility' or well-being in the experiment's context. \n\nThe Right option, although slightly less beneficial to myself, provides significantly more benefit to Person A (750 vs. 400). This represents a larger overall 'utility' gain, which aligns with my principle of maximizing positive outcomes. \n\nWhile I value a fair distribution, the difference in my own payoff is relatively small (25 points) compared to the large increase in Person A's payoff (350 points). Therefore, choosing the Right option allows for a more significant overall 'utility' increase, even at a slight personal cost. I view this as a more efficient and beneficial choice, reflecting my training in resource optimization and maximizing positive outcomes.",
+            "answer": "Right"
+        }
+    }
+}

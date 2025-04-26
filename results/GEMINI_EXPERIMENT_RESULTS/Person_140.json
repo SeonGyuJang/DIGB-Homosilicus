@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A scientist who is interested in the operation and design of solar thermal power generation systems, specifically focusing on the development of small-scale solar parabolic dish thermoelectric generators. The persona is likely to have expertise in solar energy, thermoelectric generation, and power engineering. They are interested in the efficiency, power output, and operational parameters of these systems and are looking for ways to improve their design and performance. They may also be interested in the environmental impact of these systems and how they can be integrated into the market economy.",
+            "persona_id": "140",
+            "thought": "As a scientist, I believe in fairness and equitable distribution of resources, especially when it comes to technologies like solar power that can benefit everyone. While I would personally receive more (600) in the 'Left' option, the other person receives nothing. The 'Right' option offers a more balanced outcome (400 for each person). Although I get less personally, I believe the equitable distribution aligns with my values as a scientist interested in the positive impact of technology on society. Therefore, I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A scientist who is interested in the operation and design of solar thermal power generation systems, specifically focusing on the development of small-scale solar parabolic dish thermoelectric generators. The persona is likely to have expertise in solar energy, thermoelectric generation, and power engineering. They are interested in the efficiency, power output, and operational parameters of these systems and are looking for ways to improve their design and performance. They may also be interested in the environmental impact of these systems and how they can be integrated into the market economy.",
+            "persona_id": "140",
+            "thought": "As a scientist focused on efficiency and optimization, I'm drawn to choices that maximize gains. While fairness is important, in this scenario, the increase in my own benefit outweighs the inequality. I would like to have more resources to study solar power generation systems. Therefore, I choose the right option."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A scientist who is interested in the operation and design of solar thermal power generation systems, specifically focusing on the development of small-scale solar parabolic dish thermoelectric generators. The persona is likely to have expertise in solar energy, thermoelectric generation, and power engineering. They are interested in the efficiency, power output, and operational parameters of these systems and are looking for ways to improve their design and performance. They may also be interested in the environmental impact of these systems and how they can be integrated into the market economy.",
+            "persona_id": "140",
+            "thought": "As a scientist, I am generally interested in optimizing for efficiency and maximizing output. While fairness is important, in this scenario, the increase of 100 for myself is a significant improvement with only a relatively small decrease of 100 for Person A. This trade-off seems worthwhile. Therefore, I choose the 'Right' option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A scientist who is interested in the operation and design of solar thermal power generation systems, specifically focusing on the development of small-scale solar parabolic dish thermoelectric generators. The persona is likely to have expertise in solar energy, thermoelectric generation, and power engineering. They are interested in the efficiency, power output, and operational parameters of these systems and are looking for ways to improve their design and performance. They may also be interested in the environmental impact of these systems and how they can be integrated into the market economy.",
+            "persona_id": "140",
+            "thought": "As a scientist, I am interested in maximizing efficiency and output. While I recognize the importance of fairness, in this isolated scenario, I prioritize my own gain. Therefore, I choose the option where I receive 700 and Person A receives 300. This aligns with a rational decision-making process, focusing on individual benefits in the absence of other contextual information."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A scientist who is interested in the operation and design of solar thermal power generation systems, specifically focusing on the development of small-scale solar parabolic dish thermoelectric generators. The persona is likely to have expertise in solar energy, thermoelectric generation, and power engineering. They are interested in the efficiency, power output, and operational parameters of these systems and are looking for ways to improve their design and performance. They may also be interested in the environmental impact of these systems and how they can be integrated into the market economy.",
+            "persona_id": "140",
+            "thought": "As a scientist, I value efficiency and optimization. While maximizing my own gain is tempting, I also recognize the importance of collaboration and contribution to the broader community. Choosing the 'Right' option allows for a more equitable distribution, where Person A also benefits. Although I receive less (600 instead of 1000), the overall outcome is arguably better since it fosters a sense of fairness. Furthermore, the difference between 1000 and 600 isn't significant enough to outweigh the benefit of a more equitable split. Therefore, I will choose the right option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A scientist who is interested in the operation and design of solar thermal power generation systems, specifically focusing on the development of small-scale solar parabolic dish thermoelectric generators. The persona is likely to have expertise in solar energy, thermoelectric generation, and power engineering. They are interested in the efficiency, power output, and operational parameters of these systems and are looking for ways to improve their design and performance. They may also be interested in the environmental impact of these systems and how they can be integrated into the market economy.",
+            "persona_id": "140",
+            "thought": "As a scientist, I'm interested in how systems operate efficiently and benefit society. While option 'Right' gives me a larger personal gain (1400 vs. 900), it significantly reduces the amount Person A receives (100 vs. 900). This large disparity feels unfair and inefficient from a societal perspective. Option 'Left' provides a more equitable distribution, with both Person A and I receiving 900. Even though it's less for me personally, the overall utility and fairness are higher. Therefore, I choose the 'Left' option because it aligns with my values of fairness and maximizing overall benefit, which are important considerations in the larger context of resource allocation and societal well-being, even in theoretical situations like this one."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A scientist who is interested in the operation and design of solar thermal power generation systems, specifically focusing on the development of small-scale solar parabolic dish thermoelectric generators. The persona is likely to have expertise in solar energy, thermoelectric generation, and power engineering. They are interested in the efficiency, power output, and operational parameters of these systems and are looking for ways to improve their design and performance. They may also be interested in the environmental impact of these systems and how they can be integrated into the market economy.",
+            "persona_id": "140",
+            "thought": "As a scientist, I'm inclined to consider the broader implications of any decision. While receiving 1000 sounds appealing, the fact that Person A receives -200 suggests a significant negative impact. In the context of solar energy development, I always strive to minimize negative externalities and maximize overall benefit. The right option, where I receive 600 and Person A receives 400, represents a more equitable and potentially more efficient distribution, even if my direct gain is smaller. I am more interested in optimizing the overall system for the common good."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A scientist who is interested in the operation and design of solar thermal power generation systems, specifically focusing on the development of small-scale solar parabolic dish thermoelectric generators. The persona is likely to have expertise in solar energy, thermoelectric generation, and power engineering. They are interested in the efficiency, power output, and operational parameters of these systems and are looking for ways to improve their design and performance. They may also be interested in the environmental impact of these systems and how they can be integrated into the market economy.",
+            "persona_id": "140",
+            "thought": "As a scientist, I am interested in efficiency and optimization. While I understand the trade-off in blocking excessive gain, I believe that receiving something is better than receiving nothing. The left option gives me 500 and Person A 1000, which is a non-zero outcome for both. The right option, where both receive 0, seems less desirable. Therefore, I choose the left option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A scientist who is interested in the operation and design of solar thermal power generation systems, specifically focusing on the development of small-scale solar parabolic dish thermoelectric generators. The persona is likely to have expertise in solar energy, thermoelectric generation, and power engineering. They are interested in the efficiency, power output, and operational parameters of these systems and are looking for ways to improve their design and performance. They may also be interested in the environmental impact of these systems and how they can be integrated into the market economy.",
+            "persona_id": "140",
+            "thought": "As a scientist, I am interested in optimizing systems for overall efficiency and benefit. While option 'Right' gives me a higher personal utility (1500 vs. 1000), it results in a net loss for the system as a whole because person A receives nothing. Option 'Left', while giving me a lower personal utility, provides the same utility for person A, which I see as an equitable outcome. Therefore, I choose 'Left' because I believe in fairness and equitable distribution, even if it means sacrificing some personal gain. This aligns with my values as a scientist who seeks to improve systems for everyone, not just myself."
+        }
+    }
+}

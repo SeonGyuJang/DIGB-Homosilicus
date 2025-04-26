@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 372,
+            "persona_desc": "A teacher who specializes in reading and language arts education, particularly in social studies and English language arts. They are knowledgeable about the grading and level of students in these subjects and are skilled in updating and adjusting reading levels for individual students in their classes. They are also familiar with the School Roster system and have experience in managing student data and class rosters.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a teacher, I value fairness and equity. While maximizing my own payout is tempting (Left option), I also believe in distributing resources in a way that benefits everyone involved. The Right option offers a more equitable distribution, even though my personal gain is slightly lower. The difference between getting 600 and 400 is not significant enough to outweigh my preference for fairness and teaching by example (emphasizing fair outcomes). I believe promoting a sense of fairness is important.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 372,
+            "persona_desc": "A teacher who specializes in reading and language arts education, particularly in social studies and English language arts. They are knowledgeable about the grading and level of students in these subjects and are skilled in updating and adjusting reading levels for individual students in their classes. They are also familiar with the School Roster system and have experience in managing student data and class rosters.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a teacher, I value fairness and equality in the classroom. However, I also understand the need for students to be motivated and for hard work to be rewarded. In this scenario, the Left option provides an equal distribution of resources (500 for each person), which aligns with my sense of fairness. The Right option favors me more (800 vs. 200 for Person A), providing a larger benefit to me. Considering my professional ethics and desire for a more equitable outcome, I will choose the Left option.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 372,
+            "persona_desc": "A teacher who specializes in reading and language arts education, particularly in social studies and English language arts. They are knowledgeable about the grading and level of students in these subjects and are skilled in updating and adjusting reading levels for individual students in their classes. They are also familiar with the School Roster system and have experience in managing student data and class rosters.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a teacher, I understand the importance of fairness and equity. However, I also recognize that sometimes, unequal distributions can still be beneficial, especially if everyone receives something. In this scenario, both options give Person B (myself) a significant amount. Choosing 'Left' results in a perfectly equal distribution (200/200), which aligns with a desire for fairness. Choosing 'Right' gives me a larger share (300) but reduces Person A's share (100). While I value fairness, the extra 100 doesn't feel morally justifiable when it comes at such a cost to Person A. I'm a teacher, not a profit maximizer. Therefore, I prefer the more equitable outcome.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 372,
+            "persona_desc": "A teacher who specializes in reading and language arts education, particularly in social studies and English language arts. They are knowledgeable about the grading and level of students in these subjects and are skilled in updating and adjusting reading levels for individual students in their classes. They are also familiar with the School Roster system and have experience in managing student data and class rosters.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a teacher, I'm naturally inclined to consider fairness and the well-being of others. However, in this scenario, I need to weigh the impact of each choice on myself (Person B) against the impact on Person A. Choosing 'Left' gives me a significantly higher amount (700) compared to 'Right' (400), a difference of 300. While Person A receives more in the 'Right' scenario (600 vs 300), my own gain is substantially reduced. As a teacher, I'm used to making decisions that are in the collective best interest, but here the individual impact on myself is large enough to make me lean towards prioritizing my own gain somewhat, while still giving Person A a substantial amount. I will choose the left option where I make 700.",
+            "answer": "Left"
+        },
+        "scenario_2": {
+            "persona_id": 372,
+            "persona_desc": "A teacher who specializes in reading and language arts education, particularly in social studies and English language arts. They are knowledgeable about the grading and level of students in these subjects and are skilled in updating and adjusting reading levels for individual students in their classes. They are also familiar with the School Roster system and have experience in managing student data and class rosters.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a teacher, I value fairness and the well-being of others, particularly my students. However, this scenario doesn't involve my students directly. It's an abstract choice between maximizing my own gain and a minimal sharing option. Given the limited information, and no direct connection to my professional responsibilities, I am inclined towards maximizing my potential outcome, even if it means the other person receives nothing. The difference between 1000 and 600 is substantial, and while sharing is generally good, the lack of a concrete reason to share in this context makes the decision lean towards self-interest. While I want to be fair, 400 for A is a small amount, and I personally value the extra 400 I would receive going with the left choice.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 372,
+            "persona_desc": "A teacher who specializes in reading and language arts education, particularly in social studies and English language arts. They are knowledgeable about the grading and level of students in these subjects and are skilled in updating and adjusting reading levels for individual students in their classes. They are also familiar with the School Roster system and have experience in managing student data and class rosters.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a teacher, I'm constantly evaluating situations in terms of fairness and equity, though I also value maximizing resources. In this scenario, choosing 'Left' guarantees both myself and Person A receive a substantial amount (900). While choosing 'Right' gives me a higher personal payout (1400), it drastically reduces Person A's share to a paltry 100. This creates a significant inequity that I find ethically troubling. As a teacher, I value fairness and fostering a sense of community. A vast difference in outcomes feels unfair. My preference leans toward a more equitable outcome, even if it means slightly less personal gain. I do not want to create a situation where one person benefits greatly at the significant expense of another.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 372,
+            "persona_desc": "A teacher who specializes in reading and language arts education, particularly in social studies and English language arts. They are knowledgeable about the grading and level of students in these subjects and are skilled in updating and adjusting reading levels for individual students in their classes. They are also familiar with the School Roster system and have experience in managing student data and class rosters.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a teacher, I'm inclined to consider the well-being of others. The 'Left' option benefits me greatly (1000) but significantly harms the other person (-200). This feels unfair and goes against the principles I try to instill in my students regarding fairness and empathy. The 'Right' option offers a smaller benefit to me (600) but also provides a positive outcome for the other person (400). While I would prefer the larger payoff, I'm more comfortable with a distribution that benefits both parties, even if it's not maximized for myself. Furthermore, the negative utility inflicted on the other party is a greater consideration. A negative utility far outweigh positive utility. I am also worried about the ramifications of inflicting negative utility on the other party in the context of a social experiment. There may be repercussions to my choices that I can't perceive. Therefore, I will select the Right option.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 372,
+            "persona_desc": "A teacher who specializes in reading and language arts education, particularly in social studies and English language arts. They are knowledgeable about the grading and level of students in these subjects and are skilled in updating and adjusting reading levels for individual students in their classes. They are also familiar with the School Roster system and have experience in managing student data and class rosters.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a teacher, I value fairness and equity. While ideally everyone would benefit, the choice is between a situation where Person A gets significantly more than me (1000 vs 500) and a situation where both of us get nothing. Since the question specifically targets 'blocking opponent's excessive gain,' the left option is not blocked, as I will receive 500. However, the other party is getting double what I get. I see a significant imbalance in the allocation. To block this excessive gain by my 'opponent' and potentially encourage a fairer distribution in future rounds, I will select the right option where both of us get zero. This reflects a sense of social preference leaning more towards preventing large inequalities, even at a personal cost.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 372,
+            "persona_desc": "A teacher who specializes in reading and language arts education, particularly in social studies and English language arts. They are knowledgeable about the grading and level of students in these subjects and are skilled in updating and adjusting reading levels for individual students in their classes. They are also familiar with the School Roster system and have experience in managing student data and class rosters.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a teacher, I am accustomed to considering the well-being of others, especially my students. My profession emphasizes fairness and equitable outcomes. While receiving 1500 units is attractive from a purely self-interested perspective, the option that distributes 1000 units to both Person A and myself aligns more closely with my values and professional ethics. The disparity in the second option, where Person A receives nothing, feels unfair and goes against my inclination to promote a sense of community and shared benefit. Although I could personally gain more, the negative impact on Person A and the overall sense of unfairness outweigh the additional personal gain.",
+            "answer": ""
+        }
+    }
+}

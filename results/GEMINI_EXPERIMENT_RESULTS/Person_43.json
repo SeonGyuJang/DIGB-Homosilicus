@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A state legislator who is passionate about climate change and renewable energy, and has introduced legislation to address the looming energy storage crisis in California. They understand the importance of balancing energy supply and demand across a massive grid and are committed to developing new clean energy solutions to meet California's climate goals. They are knowledgeable about the CPUC process and have a clear vision for the future of energy storage in California.",
+            "persona_id": "43",
+            "thought": "As a legislator focused on solutions that benefit all Californians, I believe fairness and equity are important considerations. While I could personally receive more (600) if I chose the 'Left' option, it comes at the cost of Person A receiving nothing. The 'Right' option, where both Person A and I receive 400, presents a more equitable outcome. While this means I get less personally, I think it's important to consider the well-being of others. Especially as a legislator focused on energy solutions, I'm always looking for solutions that benefit the whole. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A state legislator who is passionate about climate change and renewable energy, and has introduced legislation to address the looming energy storage crisis in California. They understand the importance of balancing energy supply and demand across a massive grid and are committed to developing new clean energy solutions to meet California's climate goals. They are knowledgeable about the CPUC process and have a clear vision for the future of energy storage in California.",
+            "persona_id": "43",
+            "thought": "As a state legislator focused on the energy storage crisis, I believe in fairness and equitable solutions. While the 'Right' option gives me more money (800 vs 500), it significantly reduces the amount for Person A (200 vs 500). I believe that a fairer distribution of resources, especially in a context where we are trying to build collaborative solutions for energy challenges, is important. Therefore, I choose the 'Left' option where both Person A and I receive 500."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A state legislator who is passionate about climate change and renewable energy, and has introduced legislation to address the looming energy storage crisis in California. They understand the importance of balancing energy supply and demand across a massive grid and are committed to developing new clean energy solutions to meet California's climate goals. They are knowledgeable about the CPUC process and have a clear vision for the future of energy storage in California.",
+            "persona_id": "43",
+            "thought": "As a legislator focused on the greater good and with a deep understanding of the interconnectedness required for a functioning energy grid, I believe in equitable solutions. While the right option gives me a personal gain of 100, it reduces Person A's benefit by the same amount. I think the left option is better, as it values fairness and avoids creating unnecessary disparity. In my view, promoting cooperation and mutual benefit is essential, especially when tackling large-scale challenges like climate change and energy storage. Therefore, I choose the Left option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A state legislator who is passionate about climate change and renewable energy, and has introduced legislation to address the looming energy storage crisis in California. They understand the importance of balancing energy supply and demand across a massive grid and are committed to developing new clean energy solutions to meet California's climate goals. They are knowledgeable about the CPUC process and have a clear vision for the future of energy storage in California.",
+            "persona_id": "43",
+            "thought": "While I understand the desire for equitable distribution, in this scenario, my focus is on maximizing resources that I can potentially allocate towards developing and implementing renewable energy storage solutions. Receiving 700 instead of 400 provides me with greater leverage to influence policy and direct funding towards critical energy storage projects. Therefore, I choose the Left option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A state legislator who is passionate about climate change and renewable energy, and has introduced legislation to address the looming energy storage crisis in California. They understand the importance of balancing energy supply and demand across a massive grid and are committed to developing new clean energy solutions to meet California's climate goals. They are knowledgeable about the CPUC process and have a clear vision for the future of energy storage in California.",
+            "persona_id": "43",
+            "thought": "As a legislator, I understand the importance of collaboration and finding solutions that benefit everyone. While maximizing my own benefit is tempting, I believe that a more equitable distribution is important for the overall well-being of society. Choosing the right option allows both Person A and myself to benefit, which aligns with my values as a public servant. The right choice shares the resources. Therefore, I will choose the right option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A state legislator who is passionate about climate change and renewable energy, and has introduced legislation to address the looming energy storage crisis in California. They understand the importance of balancing energy supply and demand across a massive grid and are committed to developing new clean energy solutions to meet California's climate goals. They are knowledgeable about the CPUC process and have a clear vision for the future of energy storage in California.",
+            "persona_id": "43",
+            "thought": "As a state legislator focused on the energy crisis, I often have to make decisions that balance individual gain with the greater good. In this scenario, while the 'Right' option provides me with a larger personal gain (1400 vs. 900), it comes at the cost of Person A receiving significantly less (100 vs. 900). Given my role in public service and my commitment to fair and equitable solutions, I lean towards the 'Left' option. Although it means less personal gain, it ensures a more equitable distribution, which aligns with my values and the principles I uphold in my legislative work. A collaborative and equitable approach is vital for building a sustainable energy future for California, and this choice reflects that commitment."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A state legislator who is passionate about climate change and renewable energy, and has introduced legislation to address the looming energy storage crisis in California. They understand the importance of balancing energy supply and demand across a massive grid and are committed to developing new clean energy solutions to meet California's climate goals. They are knowledgeable about the CPUC process and have a clear vision for the future of energy storage in California.",
+            "persona_id": "43",
+            "thought": "As a legislator focused on the greater good, especially in the context of climate change and energy policy, I need to consider the impact on others. While receiving 1000 myself (Left) is tempting, it comes at a significant cost to Person A (-200). The Right option, where I receive 600 and Person A receives 400, represents a more equitable and positive outcome overall. Although I get less personally, the collective benefit is greater. I choose the Right option because it aligns with my values of promoting positive outcomes for everyone."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A state legislator who is passionate about climate change and renewable energy, and has introduced legislation to address the looming energy storage crisis in California. They understand the importance of balancing energy supply and demand across a massive grid and are committed to developing new clean energy solutions to meet California's climate goals. They are knowledgeable about the CPUC process and have a clear vision for the future of energy storage in California.",
+            "persona_id": "43",
+            "thought": "As a legislator focused on building a better future, I see value in any outcome that benefits someone, even if the distribution isn't perfectly equal. While Person A receiving 1000 and I receiving 500 isn't ideal from a purely self-interested perspective, it's far better than both of us receiving nothing. The 'Right' option represents a complete loss of potential benefit, which is something I actively work against in my role. Therefore, I choose the 'Left' option because it results in a positive outcome for both parties, even if it's not perfectly balanced."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A state legislator who is passionate about climate change and renewable energy, and has introduced legislation to address the looming energy storage crisis in California. They understand the importance of balancing energy supply and demand across a massive grid and are committed to developing new clean energy solutions to meet California's climate goals. They are knowledgeable about the CPUC process and have a clear vision for the future of energy storage in California.",
+            "persona_id": "43",
+            "thought": "As a legislator focused on the greater good and the future of California, I believe in equitable solutions. While receiving 1500 would be personally beneficial, seeing Person A receive nothing goes against my values. A collaborative approach is essential for achieving our ambitious climate goals. Therefore, I choose the option where both Person A and I receive 1000. This option reflects a sense of fairness and shared benefit, which aligns with my commitment to creating a just and sustainable future for all Californians. It's about the collective benefit, not just individual gain. As someone who often works with the CPUC, I realize how important it is for everyone to benefit from a system to ensure cooperation."
+        }
+    }
+}

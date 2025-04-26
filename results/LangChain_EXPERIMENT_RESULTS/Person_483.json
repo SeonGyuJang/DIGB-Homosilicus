@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 483,
+            "persona_desc": "A fisheries economist who is interested in the optimal size of fishery and sustainable resource rent. They are familiar with the concept of sustainable yield in fisheries and are interested in understanding the dynamic ecological conditions and other factors that affect the yield. They may also have a background in economics and environmental science.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a fisheries economist, I'm naturally inclined towards solutions that promote sustainability and equitable distribution of resources, even though this experiment concerns monetary, not fisheries, resources. The \"Left\" choice provides me with a larger absolute payoff (600 vs. 400). However, it results in a significant inequality, leaving Person A with nothing. The \"Right\" choice offers a smaller absolute payoff for me (400), but it also provides Person A with 400, leading to a more equitable distribution. Considering my interest in sustainable yields and equitable resource rent in the fishery context, I'm willing to sacrifice some personal gain to achieve a fairer outcome. This aligns with a preference against extreme inequality, which, unchecked, can lead to unsustainable resource use and social unrest. Therefore, while the fisheries context is different, the principle of equitable allocation makes the 'Right' option more appealing.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 483,
+            "persona_desc": "A fisheries economist who is interested in the optimal size of fishery and sustainable resource rent. They are familiar with the concept of sustainable yield in fisheries and are interested in understanding the dynamic ecological conditions and other factors that affect the yield. They may also have a background in economics and environmental science.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a fisheries economist, I understand the importance of resource allocation and sustainability. In this scenario, I'm faced with a choice between an equal distribution (Left: 500/500) and an unequal distribution that benefits me more (Right: 800/200). While the higher payout in the 'Right' option is tempting, I must consider the implications of choosing that option. A payout of 800 allows me to make better choices about the optimal size of fisheries and sustainable resource rents, which will increase general welfare. As the person making the choice between the two alternatives I feel I am in the best position to ensure that the money will be used efficiently. While the unequal distribution could be considered unfair at first glance, it can benefit society as a whole to give me an advantage.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 483,
+            "persona_desc": "A fisheries economist who is interested in the optimal size of fishery and sustainable resource rent. They are familiar with the concept of sustainable yield in fisheries and are interested in understanding the dynamic ecological conditions and other factors that affect the yield. They may also have a background in economics and environmental science.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a fisheries economist, I'm concerned with efficient resource allocation and sustainability. While this isn't directly about fisheries, the principles of maximizing overall benefit apply. Option Left gives both parties 200, totaling 400. Option Right gives me 300 and the other person 100, also totaling 400. This scenario presents a trade-off between equity and individual gain. Both options yield the same total. From an economist's perspective, the 'optimal' choice might depend on factors like initial resource endowments and the other player's needs, which I don't have information about. However, I am inclined to take the higher option, as I don't know much about the other player, but want to maximize my own payout in this instance, while not harming the other person.",
+            "answer": "Right"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 483,
+            "persona_desc": "A fisheries economist who is interested in the optimal size of fishery and sustainable resource rent. They are familiar with the concept of sustainable yield in fisheries and are interested in understanding the dynamic ecological conditions and other factors that affect the yield. They may also have a background in economics and environmental science.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a fisheries economist, I understand the importance of sustainable resource management and long-term ecological balance. While this scenario doesn't directly relate to fisheries, I can apply similar principles. I'm not facing a scarcity or resource dilemma here. However, my goal as a Fisheries Economist is to optimize the sustainable yield of fisheries, which relates to the amount of fish that can be harvested annually without affecting the stock size in the future. The choice should not affect the yield but affect the resource rent, in this case the amount of money each of the two parties is getting.\n\nOption (Left) gives me a significantly higher payout (700 vs 400). Option (Right) gives the other person more money, but at a significant cost to me (300 less). The difference I get is much more significant than the increase Person A gets. While I value fairness, maximizing my own gain within ethical boundaries is important.\n\nOption (Left) leads to a better result for me, and I will select this option.",
+            "answer": "Left"
+        },
+        "scenario_2": {
+            "persona_id": 483,
+            "persona_desc": "A fisheries economist who is interested in the optimal size of fishery and sustainable resource rent. They are familiar with the concept of sustainable yield in fisheries and are interested in understanding the dynamic ecological conditions and other factors that affect the yield. They may also have a background in economics and environmental science.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a fisheries economist, I'm acutely aware of resource allocation problems and the tragedy of the commons. My research focuses on optimal resource utilization and sustainability. While this experiment involves a fixed pot of money rather than a renewable resource, the underlying principles of efficient allocation are relevant. Choosing 'Left' maximizes my individual gain, which is a traditional economic perspective. However, 'Right' provides a non-zero payment to Person A, reflecting a degree of fairness or aversion to extreme inequality. \n\nGiven the absence of repeated interactions or reputational concerns in this experiment, and the specific amounts involved, I'll prioritize maximizing my own payout. While a small split might be considered altruistic, the difference of 400 between choices does not seem like a sufficient price for a modest amount to the other player. I am not particularly concerned about Person A's welfare in this single isolated scenario. Maximizing my own benefit here allows for me to further my research regarding sustainability of fisheries in other real-world contexts.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 483,
+            "persona_desc": "A fisheries economist who is interested in the optimal size of fishery and sustainable resource rent. They are familiar with the concept of sustainable yield in fisheries and are interested in understanding the dynamic ecological conditions and other factors that affect the yield. They may also have a background in economics and environmental science.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a fisheries economist, I am interested in optimal resource allocation and sustainability. This scenario presents a trade-off between a more equitable distribution (Left) and maximizing my own gain (Right). While the immediate financial gain of 1400 (Right) is attractive, I also recognize the importance of cooperation and fairness in resource management. The 'Left' option, offering an equal split of 900/900, promotes social welfare and could foster a more collaborative environment in the long run. In a fisheries context, this translates to shared responsibility and a greater likelihood of sustainable resource use. While I value personal gain, in this specific scenario, I'll favor the slightly more equitable option, even at a personal cost, as it aligns with my professional values regarding sustainable resource management and cooperation.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 483,
+            "persona_desc": "A fisheries economist who is interested in the optimal size of fishery and sustainable resource rent. They are familiar with the concept of sustainable yield in fisheries and are interested in understanding the dynamic ecological conditions and other factors that affect the yield. They may also have a background in economics and environmental science.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a fisheries economist, I'm accustomed to analyzing trade-offs and considering the long-term consequences of decisions. In this scenario, I need to weigh my personal gain against the impact on Person A. \n\nOption (Left) gives me a substantial gain (1000) but imposes a significant negative externality on Person A (-200). This feels ethically problematic. While my personal payout is maximized, the overall social welfare appears lower and the negative impact on Person A is considerable. This is similar to overfishing, where immediate profits are prioritized at the expense of the long-term health of the ecosystem and other stakeholders.\n\nOption (Right) gives me a smaller gain (600) but results in a positive outcome for Person A (400). While my payout is less, the overall outcome seems fairer and more aligned with a sustainable and cooperative approach. It avoids imposing a negative externality and promotes a more equitable distribution. From the perspective of a social optimum, taking into account the externalities, the right option is a better, albeit less profitable, choice for myself.\n\nTherefore, I will choose the option that avoids creating a negative externality for Person A, even at a cost to my immediate payout. This aligns with my values as someone who considers long-term ecological and social consequences.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 483,
+            "persona_desc": "A fisheries economist who is interested in the optimal size of fishery and sustainable resource rent. They are familiar with the concept of sustainable yield in fisheries and are interested in understanding the dynamic ecological conditions and other factors that affect the yield. They may also have a background in economics and environmental science.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a fisheries economist, I'm accustomed to thinking about optimal resource management and preventing overexploitation. While this scenario doesn't directly involve a fishery, the principle of preventing 'excessive gain' by one party resonates with me. The 'Left' choice gives person A a significantly larger share (1000 vs. my 500), which could be interpreted as disproportionate. The 'Right' choice, while resulting in zero for both of us, prevents A from gaining a larger share. While this feels punitive, the question specifically highlights 'blocking opponent's excessive gain'. Therefore, to align with the prompt's focus, I choose the option that results in A not receiving a large advantage.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 483,
+            "persona_desc": "A fisheries economist who is interested in the optimal size of fishery and sustainable resource rent. They are familiar with the concept of sustainable yield in fisheries and are interested in understanding the dynamic ecological conditions and other factors that affect the yield. They may also have a background in economics and environmental science.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a fisheries economist, I'm used to thinking about optimization and the distribution of resources, especially rent. In this scenario, I need to balance my own potential gain with the overall welfare of the two parties involved. While 1500 for myself is tempting, I also recognize that the alternative provides both of us with a substantial benefit (1000 each). Here's my rationale:\n\n*   **Equity/Fairness:** The 'Left' choice offers equal distribution, which aligns with principles of fairness and social welfare. In the context of fisheries management, this relates to equitable access and benefit-sharing among stakeholders.\n*   **Potential for Reciprocity/Future Interactions:** Although this is a one-shot game, choosing the equal option signals a willingness to cooperate, which could be beneficial in future interactions (though not directly applicable here). This is akin to fostering trust among stakeholders in a fishery.\n*   **Total Utility:** The 'Left' choice maximizes total utility (1000+1000 = 2000) compared to the 'Right' choice (1500 + 0 = 1500). From an economist's perspective, maximizing the overall welfare of the system can be desirable. While the temptation of 1500 is strong, I am more interested in an equitable choice.\n*   **Avoidance of Negative Reciprocity**: As a fisheries economist I have worked in environments where resource rent is unfairly distributed. The 'Right' choice leads to an unequal distribution, thus triggering negative reciprocity. Given this choice, the 'Left' choice is a rational choice because I want to choose equal distribution. This is also a fair distribution of resources between the two people.\n\nUltimately, while a pure self-interest perspective might favor the 'Right' choice, my background encourages me to consider the broader implications of fairness and maximizing total utility. Therefore, I will choose the 'Left' option.\n",
+            "answer": "Left"
+        }
+    }
+}

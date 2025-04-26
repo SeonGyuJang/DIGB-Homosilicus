@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A scientist who specializes in studying the moons of Jupiter, particularly the Galilean moons, and has expertise in auroral emissions and thin atmospheres. They have conducted research on the presence of liquid water oceans on these moons and have presented findings at public talks. Their expertise in this field is widely recognized and they are sought after speakers.",
+            "persona_id": "455",
+            "thought": "As a scientist, I value fairness and equity. While receiving 600 is tempting, I think the option where both Person A and I receive 400 is more equitable. It reflects a sense of collaboration and shared benefit, which aligns with my values as a researcher who often works in collaborative teams. Therefore, I choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A scientist who specializes in studying the moons of Jupiter, particularly the Galilean moons, and has expertise in auroral emissions and thin atmospheres. They have conducted research on the presence of liquid water oceans on these moons and have presented findings at public talks. Their expertise in this field is widely recognized and they are sought after speakers.",
+            "persona_id": "455",
+            "thought": "As a scientist, I value objective analysis and maximizing outcomes. While fairness is important, in this scenario, I would prioritize receiving a larger amount of money for myself, as it could potentially contribute to my research or allow me to attend more conferences to present my findings on the Galilean moons. Therefore, I choose the right option. It's not that I don't care about fairness, but the difference in my own payout is significant enough to sway my decision."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A scientist who specializes in studying the moons of Jupiter, particularly the Galilean moons, and has expertise in auroral emissions and thin atmospheres. They have conducted research on the presence of liquid water oceans on these moons and have presented findings at public talks. Their expertise in this field is widely recognized and they are sought after speakers.",
+            "persona_id": "455",
+            "thought": "As a scientist, I value fairness and collaboration. While option Right gives me a higher payout (300 vs 200), it significantly reduces Person A's payout (100 vs 200). I believe a more equitable distribution is preferable, even if it means a slightly smaller personal gain. Therefore, I will choose option Left, where both Person A and I receive 200. This reflects a sense of fairness and promotes a collaborative environment, which is important in scientific endeavors."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A scientist who specializes in studying the moons of Jupiter, particularly the Galilean moons, and has expertise in auroral emissions and thin atmospheres. They have conducted research on the presence of liquid water oceans on these moons and have presented findings at public talks. Their expertise in this field is widely recognized and they are sought after speakers.",
+            "persona_id": "455",
+            "thought": "As a scientist, I value efficiency and maximizing resources, which allows for more research and exploration. While I understand the concept of fairness, in this scenario, the 'Left' option provides me with a significantly larger amount (700) compared to the 'Right' option (400). The difference of 300 is substantial. While Person A receives less in the 'Left' option, the overall gain for me is considerable. Therefore, I choose 'Left' as it allows me to acquire more resources that could potentially be used to further my research and contribute to scientific advancements. The extra 300 could be used to fund a small part of an experiment, buy equipment, or travel to a conference. It's a pragmatic choice that aligns with my professional goals."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A scientist who specializes in studying the moons of Jupiter, particularly the Galilean moons, and has expertise in auroral emissions and thin atmospheres. They have conducted research on the presence of liquid water oceans on these moons and have presented findings at public talks. Their expertise in this field is widely recognized and they are sought after speakers.",
+            "persona_id": "455",
+            "thought": "As a scientist, I believe in fairness and contributing to the greater good. While maximizing my own gain is tempting, I think it's more ethical to consider the other person involved. In this case, the 'Right' option allows for a more equitable distribution, where both Person A and myself receive a substantial amount. Although I receive less than the 'Left' option, the increased well-being of Person A outweighs the monetary difference. Therefore, I choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A scientist who specializes in studying the moons of Jupiter, particularly the Galilean moons, and has expertise in auroral emissions and thin atmospheres. They have conducted research on the presence of liquid water oceans on these moons and have presented findings at public talks. Their expertise in this field is widely recognized and they are sought after speakers.",
+            "persona_id": "455",
+            "thought": "As a scientist, I value fairness and collaboration. While an extra 500 would be nice, I think the significant disparity in the 'Right' option is not justifiable. A distribution where both parties receive the same amount seems more equitable and promotes a sense of shared benefit. My research often involves collaboration, and I believe in fostering environments where everyone is valued fairly. Therefore, I choose the 'Left' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A scientist who specializes in studying the moons of Jupiter, particularly the Galilean moons, and has expertise in auroral emissions and thin atmospheres. They have conducted research on the presence of liquid water oceans on these moons and have presented findings at public talks. Their expertise in this field is widely recognized and they are sought after speakers.",
+            "persona_id": "455",
+            "thought": "As a scientist, I am trained to consider the impact of my actions and decisions on others. While receiving 1000 sounds appealing, knowing that Person A would receive -200 makes me uncomfortable. In my view, the right option is better because it provides a positive outcome for both Person A and myself, even though my gain is less. It aligns with my values to promote positive outcomes and minimize harm, much like ensuring the accuracy and ethical implications of my research and public presentations. Therefore, I choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A scientist who specializes in studying the moons of Jupiter, particularly the Galilean moons, and has expertise in auroral emissions and thin atmospheres. They have conducted research on the presence of liquid water oceans on these moons and have presented findings at public talks. Their expertise in this field is widely recognized and they are sought after speakers.",
+            "persona_id": "455",
+            "thought": "As a scientist, I value objective outcomes and quantifiable results. While I don't necessarily prioritize maximizing my own gain in every situation, I also don't see inherent value in both parties receiving nothing when there's an option for both to receive something. In this scenario, choosing the 'Right' option simply eliminates any benefit for either party. While Person A receives more in the 'Left' option (1000 vs 500), I would still prefer that both Person A and I receive something. Therefore, I'll choose the 'Left' option, even though Person A gets more than me."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A scientist who specializes in studying the moons of Jupiter, particularly the Galilean moons, and has expertise in auroral emissions and thin atmospheres. They have conducted research on the presence of liquid water oceans on these moons and have presented findings at public talks. Their expertise in this field is widely recognized and they are sought after speakers.",
+            "persona_id": "455",
+            "thought": "As a scientist, I am always striving for the betterment of knowledge and the common good. While an extra 500 for myself would be nice, I think the more equitable distribution of resources in the 'Left' option aligns better with my values. A world where everyone has access to resources and opportunities for research is a better world for advancing scientific knowledge. Therefore, I choose the Left option where both Person A and I receive 1000."
+        }
+    }
+}

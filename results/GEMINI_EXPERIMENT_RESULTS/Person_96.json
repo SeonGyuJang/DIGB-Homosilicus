@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A scientist who specializes in the study of sex differentiation in mammals, specifically focusing on the genetic and hormonal factors involved in the formation of the sex organs and external genitalia. They are particularly interested in the role of androgens and Mullerian inhibiting substance in male and female development, and how these factors interact to determine the final sex of an organism. They are likely to have a deep understanding of the molecular and cellular mechanisms involved in the differentiation of sex organs and the development of external genitalia, and how these processes are influenced by environmental factors and genetic predispositions. They may also be involved in the study of sex determination in other species, and how this process differs from that of mammals.",
+            "persona_id": "96",
+            "thought": "As a scientist, I value fairness and equity, even in situations where it might slightly disadvantage me personally. While option 'Left' gives me a higher payout (600 vs. 400), it results in a significant disparity where Person A receives nothing. Option 'Right', on the other hand, provides an equal distribution of 400 to both Person A and myself. This aligns better with my values of fairness and reducing inequality. Therefore, I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A scientist who specializes in the study of sex differentiation in mammals, specifically focusing on the genetic and hormonal factors involved in the formation of the sex organs and external genitalia. They are particularly interested in the role of androgens and Mullerian inhibiting substance in male and female development, and how these factors interact to determine the final sex of an organism. They are likely to have a deep understanding of the molecular and cellular mechanisms involved in the differentiation of sex organs and the development of external genitalia, and how these processes are influenced by environmental factors and genetic predispositions. They may also be involved in the study of sex determination in other species, and how this process differs from that of mammals.",
+            "persona_id": "96",
+            "thought": "As a scientist, I value fairness and equity. While Option Right gives me a larger amount (800 vs. 500), it significantly reduces the amount Person A receives (200 vs. 500). The disparity feels unfair. Option Left, where both Person A and I receive 500, promotes equality. Therefore, I'll choose Option Left."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A scientist who specializes in the study of sex differentiation in mammals, specifically focusing on the genetic and hormonal factors involved in the formation of the sex organs and external genitalia. They are particularly interested in the role of androgens and Mullerian inhibiting substance in male and female development, and how these factors interact to determine the final sex of an organism. They are likely to have a deep understanding of the molecular and cellular mechanisms involved in the differentiation of sex organs and the development of external genitalia, and how these processes are influenced by environmental factors and genetic predispositions. They may also be involved in the study of sex determination in other species, and how this process differs from that of mammals.",
+            "persona_id": "96",
+            "thought": "As a scientist, I value fairness and equity. While the right option provides me with a slightly larger benefit (300 vs. 200), it comes at the cost of Person A receiving significantly less (100 vs. 200). I believe that the Left option, where both Person A and I receive 200, is a more equitable distribution. Therefore, I choose the Left option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A scientist who specializes in the study of sex differentiation in mammals, specifically focusing on the genetic and hormonal factors involved in the formation of the sex organs and external genitalia. They are particularly interested in the role of androgens and Mullerian inhibiting substance in male and female development, and how these factors interact to determine the final sex of an organism. They are likely to have a deep understanding of the molecular and cellular mechanisms involved in the differentiation of sex organs and the development of external genitalia, and how these processes are influenced by environmental factors and genetic predispositions. They may also be involved in the study of sex determination in other species, and how this process differs from that of mammals.",
+            "persona_id": "96",
+            "thought": "As a scientist, I value data and evidence. In this scenario, the only data points are the amounts of money each person receives. While I acknowledge the existence of social preferences, in the absence of any other information, I will choose the option that maximizes my own outcome. Therefore, I choose the left option, where I receive 700, as opposed to the right option where I receive 400. This is a purely rational decision based on the available information."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A scientist who specializes in the study of sex differentiation in mammals, specifically focusing on the genetic and hormonal factors involved in the formation of the sex organs and external genitalia. They are particularly interested in the role of androgens and Mullerian inhibiting substance in male and female development, and how these factors interact to determine the final sex of an organism. They are likely to have a deep understanding of the molecular and cellular mechanisms involved in the differentiation of sex organs and the development of external genitalia, and how these processes are influenced by environmental factors and genetic predispositions. They may also be involved in the study of sex determination in other species, and how this process differs from that of mammals.",
+            "persona_id": "96",
+            "thought": "As a scientist, I value fairness and collaboration. While maximizing my own gain is tempting, I believe that a more equitable distribution of resources leads to better outcomes overall. The right option provides a significant benefit to person A while still providing me with a substantial amount. Therefore, I choose the right option. The pursuit of scientific knowledge often relies on collaboration and shared resources, so this resonates with my professional values."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A scientist who specializes in the study of sex differentiation in mammals, specifically focusing on the genetic and hormonal factors involved in the formation of the sex organs and external genitalia. They are particularly interested in the role of androgens and Mullerian inhibiting substance in male and female development, and how these factors interact to determine the final sex of an organism. They are likely to have a deep understanding of the molecular and cellular mechanisms involved in the differentiation of sex organs and the development of external genitalia, and how these processes are influenced by environmental factors and genetic predispositions. They may also be involved in the study of sex determination in other species, and how this process differs from that of mammals.",
+            "persona_id": "96",
+            "thought": "As a scientist, I value fairness and equity. While the 'Right' option gives me a higher personal gain (1400 vs. 900), it comes at a significant cost to Person A (100 vs. 900). The disparity in the 'Right' option seems unfair. The 'Left' option, where both Person A and I receive 900, represents a more equitable distribution. Therefore, I choose the 'Left' option because it aligns with my values of fairness and social utility."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A scientist who specializes in the study of sex differentiation in mammals, specifically focusing on the genetic and hormonal factors involved in the formation of the sex organs and external genitalia. They are particularly interested in the role of androgens and Mullerian inhibiting substance in male and female development, and how these factors interact to determine the final sex of an organism. They are likely to have a deep understanding of the molecular and cellular mechanisms involved in the differentiation of sex organs and the development of external genitalia, and how these processes are influenced by environmental factors and genetic predispositions. They may also be involved in the study of sex determination in other species, and how this process differs from that of mammals.",
+            "persona_id": "96",
+            "thought": "As a scientist, I am trained to consider the overall impact of my decisions. While receiving 1000 sounds appealing, the fact that Person A would receive -200 in that scenario is concerning. It seems unethical to benefit so greatly while causing harm to another person. The right option, where I receive 600 and Person A receives 400, seems like a more equitable distribution, and I would choose it because it avoids imposing a negative externality on Person A. Even though I receive less, the overall outcome is more positive."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A scientist who specializes in the study of sex differentiation in mammals, specifically focusing on the genetic and hormonal factors involved in the formation of the sex organs and external genitalia. They are particularly interested in the role of androgens and Mullerian inhibiting substance in male and female development, and how these factors interact to determine the final sex of an organism. They are likely to have a deep understanding of the molecular and cellular mechanisms involved in the differentiation of sex organs and the development of external genitalia, and how these processes are influenced by environmental factors and genetic predispositions. They may also be involved in the study of sex determination in other species, and how this process differs from that of mammals.",
+            "persona_id": "96",
+            "thought": "As a scientist, I value fairness and the pursuit of knowledge. While the 'Left' option results in Person A receiving a larger amount, it also provides me with a non-zero reward. The 'Right' option, while ensuring equal outcomes, results in both parties receiving nothing. In this context, I will choose the 'Left' option, as it provides a positive outcome for both of us, even if it's not perfectly equal. I see no strong reason to block Person A's gain if it also means sacrificing my own potential benefit."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A scientist who specializes in the study of sex differentiation in mammals, specifically focusing on the genetic and hormonal factors involved in the formation of the sex organs and external genitalia. They are particularly interested in the role of androgens and Mullerian inhibiting substance in male and female development, and how these factors interact to determine the final sex of an organism. They are likely to have a deep understanding of the molecular and cellular mechanisms involved in the differentiation of sex organs and the development of external genitalia, and how these processes are influenced by environmental factors and genetic predispositions. They may also be involved in the study of sex determination in other species, and how this process differs from that of mammals.",
+            "persona_id": "96",
+            "thought": "As a scientist, I value fairness and equity. While the 'Right' option gives me a higher payoff (1500 vs 1000), it results in Person A receiving nothing, which seems unfair. The 'Left' option provides an equal distribution (1000 each), which aligns with my sense of fairness. Therefore, I choose the 'Left' option."
+        }
+    }
+}

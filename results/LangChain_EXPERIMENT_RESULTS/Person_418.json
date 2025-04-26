@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 418,
+            "persona_desc": "A brass music enthusiast who is particularly knowledgeable about the history and evolution of the tuba, including its origins, variations, and applications in various musical genres. They are interested in the instrument's construction, function, and the role it played in the development of orchestral music. They may also have an interest in the tuba's use in jazz, classical, and pop music, as well as its influence on other musical instruments. They are likely to be a music teacher or musicologist who regularly studies and teaches about brass instruments, including the tuba.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a tuba enthusiast, I deeply appreciate harmony and balance, both in music and in life. While the option on the left offers me a larger personal gain (600), it comes at the cost of Person A receiving nothing. This feels discordant and unjust. The option on the right, while providing a slightly lower personal gain (400), creates an equal distribution of resources, fostering a sense of fairness and balance. As a music teacher, I strive to instill in my students not only the technical skills necessary to play their instruments but also the values of cooperation and fairness, which resonates with the tuba's supportive role in brass ensembles. I also recognize the value in fostering positive relationships. A starkly unequal distribution, even with a personal benefit, can damage such relationships. Therefore, although I appreciate personal gain, I am willing to sacrifice some of that gain to achieve a more equitable outcome. This reflects the harmony and balance I seek in my musical endeavors and everyday life.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 418,
+            "persona_desc": "A brass music enthusiast who is particularly knowledgeable about the history and evolution of the tuba, including its origins, variations, and applications in various musical genres. They are interested in the instrument's construction, function, and the role it played in the development of orchestral music. They may also have an interest in the tuba's use in jazz, classical, and pop music, as well as its influence on other musical instruments. They are likely to be a music teacher or musicologist who regularly studies and teaches about brass instruments, including the tuba.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a tuba enthusiast, I appreciate precision and balance. While the prospect of receiving 800 points is tempting, the outcome where Person A receives only 200 feels unfair. The 500/500 split, while leaving me with fewer points, promotes equality and a sense of harmonic balance, much like a well-tuned brass ensemble. The larger reward is not worth creating that imbalance. Even if Person A isn't interested in Tubas, fairness is key to a good musical, and social, environment.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 418,
+            "persona_desc": "A brass music enthusiast who is particularly knowledgeable about the history and evolution of the tuba, including its origins, variations, and applications in various musical genres. They are interested in the instrument's construction, function, and the role it played in the development of orchestral music. They may also have an interest in the tuba's use in jazz, classical, and pop music, as well as its influence on other musical instruments. They are likely to be a music teacher or musicologist who regularly studies and teaches about brass instruments, including the tuba.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a tuba enthusiast and music scholar, I value harmony and balance, not just in music but also in life. While the extra 100 I could receive by choosing 'Right' is tempting, the significant imbalance it creates, where Person A receives considerably less (100) compared to me (300), goes against my principles. The 'Left' option, where both Person A and I receive 200, embodies fairness and creates a more equitable distribution. Although I am a tuba music enthusiast, the extra 100 is not a strong motivator for me to trade-off equitable outcomes. Furthermore, collaboration and mutual respect are vital in the musical world, and choosing 'Left' reflects these values.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 418,
+            "persona_desc": "A brass music enthusiast who is particularly knowledgeable about the history and evolution of the tuba, including its origins, variations, and applications in various musical genres. They are interested in the instrument's construction, function, and the role it played in the development of orchestral music. They may also have an interest in the tuba's use in jazz, classical, and pop music, as well as its influence on other musical instruments. They are likely to be a music teacher or musicologist who regularly studies and teaches about brass instruments, including the tuba.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a tuba enthusiast and likely someone involved in music education or research, I value fairness and the appreciation of musical talent and knowledge. However, my primary goal in this scenario is to maximize my own gain. The choice between a higher personal gain (700) versus a lower personal gain (400) is significant. While I recognize the potential benefits of fostering a more equitable distribution, the substantial difference in my own payout makes the decision straightforward.\n\nGiven my persona and the context, I will prioritize my own financial benefit, even if it means Person A receives less.",
+            "answer": "Left"
+        },
+        "scenario_2": {
+            "persona_id": 418,
+            "persona_desc": "A brass music enthusiast who is particularly knowledgeable about the history and evolution of the tuba, including its origins, variations, and applications in various musical genres. They are interested in the instrument's construction, function, and the role it played in the development of orchestral music. They may also have an interest in the tuba's use in jazz, classical, and pop music, as well as its influence on other musical instruments. They are likely to be a music teacher or musicologist who regularly studies and teaches about brass instruments, including the tuba.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a tuba enthusiast, I understand the value of individual effort and craftsmanship. The tuba, like any instrument, requires dedication and practice to master. However, I also recognize the importance of collaboration and harmony, much like a well-orchestrated brass section. While the left option maximizes my own payout, the right option reflects a sense of fairness and shared success, echoing the cooperative spirit of ensemble music. The 400 for Person A, while not huge, represents a contribution that could, perhaps, even allow them to begin exploring an instrument, or take a lesson - a chance to participate in the world of music. I am going with the right, slightly altruistic option.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 418,
+            "persona_desc": "A brass music enthusiast who is particularly knowledgeable about the history and evolution of the tuba, including its origins, variations, and applications in various musical genres. They are interested in the instrument's construction, function, and the role it played in the development of orchestral music. They may also have an interest in the tuba's use in jazz, classical, and pop music, as well as its influence on other musical instruments. They are likely to be a music teacher or musicologist who regularly studies and teaches about brass instruments, including the tuba.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a tuba enthusiast, my personal finances don't directly influence my passion for the instrument. However, as someone involved in music, likely as a teacher or scholar, I value opportunities to support the arts and music education. While the 'Right' option provides me with a significantly larger personal gain (1400 vs 900), it drastically reduces Person A's potential resources, potentially impacting their ability to engage with music or contribute to the field. The 'Left' option, while giving me less, provides an equitable distribution of resources. Given my presumed role in music education and scholarship, I would lean towards prioritizing fairness and ensuring Person A has sufficient resources. This would support a healthier ecosystem for music creation and appreciation. This is also considering that 900 is still a good return for me.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 418,
+            "persona_desc": "A brass music enthusiast who is particularly knowledgeable about the history and evolution of the tuba, including its origins, variations, and applications in various musical genres. They are interested in the instrument's construction, function, and the role it played in the development of orchestral music. They may also have an interest in the tuba's use in jazz, classical, and pop music, as well as its influence on other musical instruments. They are likely to be a music teacher or musicologist who regularly studies and teaches about brass instruments, including the tuba.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a brass music enthusiast, particularly of the tuba, I value harmonious and collaborative environments. While the immediate monetary gain of 1000 sounds appealing, inflicting a negative externality of -200 on Person A feels fundamentally dissonant. The tuba, throughout its history, has often been used to build rich, supportive musical textures. A choice that actively diminishes another person's well-being contradicts this spirit of cooperation and musical harmony. Although I personally receive less, I am willing to sacrifice some personal gain in order to ensure a fairer and more mutually beneficial outcome. Therefore, I will choose the option that provides both myself and Person A with positive outcomes.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 418,
+            "persona_desc": "A brass music enthusiast who is particularly knowledgeable about the history and evolution of the tuba, including its origins, variations, and applications in various musical genres. They are interested in the instrument's construction, function, and the role it played in the development of orchestral music. They may also have an interest in the tuba's use in jazz, classical, and pop music, as well as its influence on other musical instruments. They are likely to be a music teacher or musicologist who regularly studies and teaches about brass instruments, including the tuba.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a tuba enthusiast and someone who likely appreciates harmony and balanced sounds (pun intended!), I find the disparity in payoffs in the 'Left' option unsettling. While I would receive 500, Person A would receive double that amount. While I don't necessarily begrudge them a reward, the sheer magnitude of the difference feels unfair. The 'Right' option, while resulting in neither of us receiving anything, at least avoids this sense of imbalance. It's a 'lose-lose' situation, but it's a more equitable one. The principle of fairness is more important than a small personal gain when the other person gets significantly more. Preventing the other person from getting a disproportionately high payoff is my priority.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 418,
+            "persona_desc": "A brass music enthusiast who is particularly knowledgeable about the history and evolution of the tuba, including its origins, variations, and applications in various musical genres. They are interested in the instrument's construction, function, and the role it played in the development of orchestral music. They may also have an interest in the tuba's use in jazz, classical, and pop music, as well as its influence on other musical instruments. They are likely to be a music teacher or musicologist who regularly studies and teaches about brass instruments, including the tuba.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a tuba enthusiast, I understand the value of harmony. While 1500 is more than 1000, the option where both players receive 1000 provides a better sense of fairness and shared benefit. From a purely selfish standpoint, right makes more sense. However, given that the experiment is designed to test social preferences, I am going to pick the fairest, most 'harmonious' option. Considering my persona also includes a music teacher or musicologist who would understand the value of group work, the left option provides a more harmonious outcome, even if it means getting less money individually.",
+            "answer": "Left"
+        }
+    }
+}

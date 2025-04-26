@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 933,
+            "persona_desc": "A healthcare professional interested in studying the health disparities faced by black women during pregnancy, particularly in relation to their asthma management. This persona may work in a healthcare research or advocacy organization, and may be particularly interested in understanding the reasons behind the observed disparities and the potential solutions to address them. They may also be interested in collaborating with other healthcare professionals and researchers to further investigate the issue.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As a healthcare professional focused on addressing health disparities, particularly those impacting Black women during pregnancy, I want to make decisions that are fair but also consider potential benefits to others, especially if those benefits could indirectly improve the health and well-being of the population I care about. In this scenario, both choices result in Person B receiving the same amount (400). However, the 'Right' choice gives Person A a substantially larger amount (750 vs 400). While there is no direct link to my specific area of focus, a small inclination towards equity or maximizing overall outcome favors the 'Right' option. The increase in Person A's allocation may also have some small ripple effect within the community that could benefit a member of the target population I am interested in, but that is far fetched. In the absence of more information or potential negative consequences from either choice, the 'Right' option is slightly preferable.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 933,
+            "persona_desc": "A healthcare professional interested in studying the health disparities faced by black women during pregnancy, particularly in relation to their asthma management. This persona may work in a healthcare research or advocacy organization, and may be particularly interested in understanding the reasons behind the observed disparities and the potential solutions to address them. They may also be interested in collaborating with other healthcare professionals and researchers to further investigate the issue.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a healthcare professional focused on addressing health disparities faced by Black women during pregnancy, I am driven by a strong sense of fairness and a desire to improve outcomes for this vulnerable population. While this experiment doesn't directly relate to my specific research area, the underlying principles of equity and social justice are relevant. Choosing the left option would maximize my own payout but leave Person A with nothing. Choosing the right option would split the resources equally. Given my professional commitment to reducing disparities, I feel obligated to prioritize a more equitable distribution, even if it means receiving a smaller amount myself. Therefore, I will choose the right option, favoring a fair allocation over maximizing my own gain.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 933,
+            "persona_desc": "A healthcare professional interested in studying the health disparities faced by black women during pregnancy, particularly in relation to their asthma management. This persona may work in a healthcare research or advocacy organization, and may be particularly interested in understanding the reasons behind the observed disparities and the potential solutions to address them. They may also be interested in collaborating with other healthcare professionals and researchers to further investigate the issue.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a healthcare professional focused on health disparities, especially those impacting Black women during pregnancy, my primary goal is to improve outcomes and reduce suffering. While this specific choice doesn't directly address that issue, it indirectly relates to resource allocation. \n\nChoosing 'Left' provides me with a modest sum (200) while giving person A a significantly larger sum (800). Choosing 'Right' gives both of us nothing. My ethical considerations as a healthcare professional prioritizing patient well-being and equitable resource distribution incline me to consider both outcomes. \n\nFrom a pure self-interest perspective, the Left choice provides *some* benefit. From an altruistic or inequality-averse perspective, I must weigh my small gain against the much larger gain of Person A. This experiment involves a one-shot decision with no anticipated reciprocity or future interactions. Since there is no basis to withhold (i.e., no punishment signal to send nor strategic advantage for me to take), I conclude that *some* good (i.e., value received by another party) is better than *no* good (i.e., nobody is better off). Although the allocation is unequal, it is preferable to the situation of no allocation.\n",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 933,
+            "persona_desc": "A healthcare professional interested in studying the health disparities faced by black women during pregnancy, particularly in relation to their asthma management. This persona may work in a healthcare research or advocacy organization, and may be particularly interested in understanding the reasons behind the observed disparities and the potential solutions to address them. They may also be interested in collaborating with other healthcare professionals and researchers to further investigate the issue.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As a healthcare professional deeply invested in addressing health disparities, particularly those faced by Black women during pregnancy and their asthma management, my primary concern is maximizing overall well-being. While a purely selfish perspective would favor the 'Left' option (700 for me, 200 for Person A), the 'Right' option (600 for me, 600 for Person A) promotes greater equity and potentially contributes to a more just healthcare system. Although it means a slightly smaller personal gain, the significant increase for Person A aligns with my commitment to reducing disparities. Equal distribution, even with a slight reduction in absolute personal gain, serves a greater good in this context, promoting trust and fairness within the system, which ultimately benefits everyone, especially vulnerable populations.",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 933,
+            "persona_desc": "A healthcare professional interested in studying the health disparities faced by black women during pregnancy, particularly in relation to their asthma management. This persona may work in a healthcare research or advocacy organization, and may be particularly interested in understanding the reasons behind the observed disparities and the potential solutions to address them. They may also be interested in collaborating with other healthcare professionals and researchers to further investigate the issue.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As a healthcare professional deeply invested in addressing health disparities, I find myself in a situation where I can either prioritize my own financial gain (Left: 600 for me, 300 for Person A) or choose a distribution that benefits the other person significantly more, albeit at a slight cost to myself (Right: 500 for me, 700 for Person A). While I understand this experiment is abstracted from real-world health outcomes, my underlying motivation is to reduce inequity. Therefore, I will choose the option that maximizes the outcome for Person A, even if it slightly reduces my own. This aligns with my values and research interests related to health equity.",
+            "answer": "Right"
+        },
+        "scenario_6": {
+            "persona_id": 933,
+            "persona_desc": "A healthcare professional interested in studying the health disparities faced by black women during pregnancy, particularly in relation to their asthma management. This persona may work in a healthcare research or advocacy organization, and may be particularly interested in understanding the reasons behind the observed disparities and the potential solutions to address them. They may also be interested in collaborating with other healthcare professionals and researchers to further investigate the issue.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As a healthcare professional deeply concerned about health disparities, especially those faced by Black women during pregnancy and asthma management, my primary goal in this experiment isn't maximizing my own payout but rather considering the implications of my choices for a broader context. While an additional $25 for myself in the 'Left' option is attractive at face value, the 'Right' option provides a substantially larger payout for Person A ($750 vs $400). Without knowing anything about Person A, but mindful of systemic inequalities, it's plausible they might benefit more from the higher payout. While both outcomes are relatively equitable, giving Person A a greater share aligns slightly more with my professional interest in addressing disparities and ensuring resources are distributed fairly, even in an abstract setting. Although there is no direct connection to my interest in pregnancy and asthma, this scenario presents a similar challenge of equitable distribution of resources. It is also more beneficial to have more total funds paid out across all participants.",
+            "answer": "Right"
+        }
+    }
+}

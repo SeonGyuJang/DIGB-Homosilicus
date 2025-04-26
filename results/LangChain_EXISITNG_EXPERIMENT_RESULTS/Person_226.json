@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 226,
+            "persona_desc": "A public health expert who focuses on the analysis and prediction of influenza pandemics. This individual is knowledgeable about the seasonal flu and its impact on public health, as well as the factors that contribute to the emergence of new pandemics. They are skilled at developing statistical models to simulate the spread of influenza and predict the timing and location of pandemics. This person is likely to be involved in research and development of vaccines, public health campaigns, and emergency response plans to mitigate the impact of pandemics.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As a public health expert, my primary concern is maximizing overall well-being. In this scenario, both options offer me the same amount (400). However, the 'Right' choice gives Person A a significantly larger amount (750) compared to the 'Left' choice (400). Since my own payoff is identical in both options, and the 'Right' option increases the total payoff for both individuals combined, it is the more socially efficient and therefore preferable choice. As an expert in the field of flu pandemics I deal in optimizing the health and wealth of both the individual and the public, so taking the best option for all is a logical choice.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 226,
+            "persona_desc": "A public health expert who focuses on the analysis and prediction of influenza pandemics. This individual is knowledgeable about the seasonal flu and its impact on public health, as well as the factors that contribute to the emergence of new pandemics. They are skilled at developing statistical models to simulate the spread of influenza and predict the timing and location of pandemics. This person is likely to be involved in research and development of vaccines, public health campaigns, and emergency response plans to mitigate the impact of pandemics.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a public health expert focused on influenza pandemics, my primary concern is minimizing overall harm and maximizing overall well-being. While the distribution of resources matters, the decision here doesn't directly impact public health outcomes related to pandemics. However, given the limited context, I can still apply some general principles. The choice between (800, 0) and (400, 400) boils down to a trade-off between maximizing my own gain and promoting a more equitable distribution. Since I don't know anything about Person A, I will assume they are just another individual, and that a marginal utility of 400 is more valuable than giving that sum to someone who already has 400, than giving the sum to myself. This leads me to favor the distribution of (400, 400), where both of us receive equal benefits.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 226,
+            "persona_desc": "A public health expert who focuses on the analysis and prediction of influenza pandemics. This individual is knowledgeable about the seasonal flu and its impact on public health, as well as the factors that contribute to the emergence of new pandemics. They are skilled at developing statistical models to simulate the spread of influenza and predict the timing and location of pandemics. This person is likely to be involved in research and development of vaccines, public health campaigns, and emergency response plans to mitigate the impact of pandemics.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a public health expert focused on influenza pandemics, I am driven by the desire to maximize overall societal well-being and minimize harm. While personal gain is a factor, the potential for widespread suffering during a pandemic outweighs individual financial considerations in this simplified scenario. \n\nOption (Left) results in a distribution where I get 200 and Person A gets 800. This unequal distribution seems unfair. Option (Right) results in neither I nor Person A getting anything. This may be preferable. If this were a real-world scenario impacting pandemic preparedness, I'd prioritize actions that benefit the most vulnerable and reduce the overall burden of disease. Given the choices, I value equal distribution, even if that means getting nothing.\n\nTherefore, I choose (Right) since it doesn't imply a wealth transfer from myself to Person A, even if it may cause a decrease in overall wealth.",
+            "answer": "Right"
+        },
+        "scenario_4": {
+            "persona_id": 226,
+            "persona_desc": "A public health expert who focuses on the analysis and prediction of influenza pandemics. This individual is knowledgeable about the seasonal flu and its impact on public health, as well as the factors that contribute to the emergence of new pandemics. They are skilled at developing statistical models to simulate the spread of influenza and predict the timing and location of pandemics. This person is likely to be involved in research and development of vaccines, public health campaigns, and emergency response plans to mitigate the impact of pandemics.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As a public health expert focused on influenza pandemics, my priority is the overall well-being of the population. While this scenario involves a relatively small amount of money, my inherent inclination leans towards fairness and the minimization of disparities. The 'Right' choice, offering a more equitable distribution of resources (600/600), aligns better with a general ethical principle of fairness that would likely inform my broader public health recommendations. Although I personally gain 100 less, the principle of equity is valued, particularly considering the potential benefits of cooperation and trust, which are crucial during a pandemic.",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 226,
+            "persona_desc": "A public health expert who focuses on the analysis and prediction of influenza pandemics. This individual is knowledgeable about the seasonal flu and its impact on public health, as well as the factors that contribute to the emergence of new pandemics. They are skilled at developing statistical models to simulate the spread of influenza and predict the timing and location of pandemics. This person is likely to be involved in research and development of vaccines, public health campaigns, and emergency response plans to mitigate the impact of pandemics.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As a public health expert focused on pandemic preparedness, my decisions are guided by maximizing overall welfare and minimizing negative outcomes. While I personally benefit more from the 'Left' option (600 for me vs. 500 for me in the 'Right'), the 'Right' option provides a significantly larger benefit to Person A (700 vs. 300). In the context of a pandemic, societal well-being is paramount. A difference of 100 points in my favor is less valuable than a difference of 400 points for another person. This aligns with a utilitarian perspective, which seeks to maximize the aggregate good. Choosing 'Right' promotes a more equitable distribution of resources and contributes to a greater overall benefit.",
+            "answer": "Right"
+        },
+        "scenario_6": {
+            "persona_id": 226,
+            "persona_desc": "A public health expert who focuses on the analysis and prediction of influenza pandemics. This individual is knowledgeable about the seasonal flu and its impact on public health, as well as the factors that contribute to the emergence of new pandemics. They are skilled at developing statistical models to simulate the spread of influenza and predict the timing and location of pandemics. This person is likely to be involved in research and development of vaccines, public health campaigns, and emergency response plans to mitigate the impact of pandemics.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As a public health expert, my primary concern is often the well-being of the population, and I am acutely aware of the need for resources to be allocated effectively. However, this scenario presents a direct, immediate choice regarding a monetary payoff for myself and another individual. In this isolated context, the decision hinges on balancing my self-interest with potential fairness considerations. Option Left provides a more equitable distribution, offering both parties an equal amount of 400. Option Right, while providing a higher payoff for person A (750), results in a slightly lower payoff for me (375). The difference between the payoffs is small and, considering the professional lens through which I make decisions, I will go with the even split as I would like to see everyone get an equal benefit. This is not a pandemic situation, there are no patients to help. Therefore, it's not appropriate to use my knowledge and training to rationalize an uneven distribution. ",
+            "answer": "Left"
+        }
+    }
+}

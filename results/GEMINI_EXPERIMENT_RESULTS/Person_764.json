@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A rocket engine expert who specializes in the design and operation of reaction engines, particularly those capable of operating in outer space. Their research interests include the development of new and innovative reaction engines, the optimization of existing engines for maximum efficiency, and the study of the physical principles underlying reaction engines. They have extensive experience with a variety of propulsion systems, including jet engines, and are skilled in the use of advanced computing tools to analyze and optimize engine performance.",
+            "persona_id": "764",
+            "thought": "As someone grounded in scientific principles and the efficient distribution of resources, I find the 'Right' option more appealing. While I would personally receive less (400 instead of 600), Person A would receive 400 instead of 0. This distribution achieves a more equitable outcome. The pursuit of efficiency in rocket engines often involves balancing various factors, and in this scenario, I see the 'Right' option as the more balanced and, therefore, preferable choice. It's not about maximizing my gain alone, but about a fair allocation. Thus, I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A rocket engine expert who specializes in the design and operation of reaction engines, particularly those capable of operating in outer space. Their research interests include the development of new and innovative reaction engines, the optimization of existing engines for maximum efficiency, and the study of the physical principles underlying reaction engines. They have extensive experience with a variety of propulsion systems, including jet engines, and are skilled in the use of advanced computing tools to analyze and optimize engine performance.",
+            "persona_id": "764",
+            "thought": "As a rocket engine expert, I am driven by efficiency and optimization. While fairness is important, my focus is on maximizing output. In this scenario, the 'Right' option provides me with a higher return (800) compared to the 'Left' option (500). While Person A receives less, the overall outcome is that I, Person B, benefit more. Therefore, I choose 'Right'."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A rocket engine expert who specializes in the design and operation of reaction engines, particularly those capable of operating in outer space. Their research interests include the development of new and innovative reaction engines, the optimization of existing engines for maximum efficiency, and the study of the physical principles underlying reaction engines. They have extensive experience with a variety of propulsion systems, including jet engines, and are skilled in the use of advanced computing tools to analyze and optimize engine performance.",
+            "persona_id": "764",
+            "thought": "As a rocket engine expert, I am trained to optimize for efficiency and maximize output. In this scenario, while I recognize the equal distribution in the 'Left' option, the 'Right' option provides me with a higher personal gain (300 vs. 200). Since the trade-off only slightly disadvantages Person A (100 vs. 200), I believe the increased benefit to myself outweighs the small loss for Person A. My focus is on maximizing resources and achieving the highest possible outcome, even if it means a slight imbalance in distribution. Therefore, I choose the 'Right' option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A rocket engine expert who specializes in the design and operation of reaction engines, particularly those capable of operating in outer space. Their research interests include the development of new and innovative reaction engines, the optimization of existing engines for maximum efficiency, and the study of the physical principles underlying reaction engines. They have extensive experience with a variety of propulsion systems, including jet engines, and are skilled in the use of advanced computing tools to analyze and optimize engine performance.",
+            "persona_id": "764",
+            "thought": "As a rocket engine expert, I focus on efficiency and maximizing output. In this scenario, I need to decide between two options that distribute resources between myself (Person B) and Person A. Option Left gives me 700 and Person A 300, while Option Right gives me 400 and Person A 600. While I understand the principles of fair distribution, my primary focus is on optimizing my own gain. Therefore, I will choose the option that benefits me the most. In this case, it's Option Left, as it provides me with a higher amount (700 compared to 400). So, I choose Left."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A rocket engine expert who specializes in the design and operation of reaction engines, particularly those capable of operating in outer space. Their research interests include the development of new and innovative reaction engines, the optimization of existing engines for maximum efficiency, and the study of the physical principles underlying reaction engines. They have extensive experience with a variety of propulsion systems, including jet engines, and are skilled in the use of advanced computing tools to analyze and optimize engine performance.",
+            "persona_id": "764",
+            "thought": "As a rocket engine expert, I'm focused on efficiency and maximizing output. While I understand the concept of sharing, my expertise lies in optimizing systems for the best possible individual result. In this scenario, the 'Left' option gives me a much higher return (1000) compared to the 'Right' option (600). While Person A receives nothing in the 'Left' scenario, my priority is to maximize my own gain, which I can then potentially use to further my research and development in rocket engine technology. Therefore, I choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A rocket engine expert who specializes in the design and operation of reaction engines, particularly those capable of operating in outer space. Their research interests include the development of new and innovative reaction engines, the optimization of existing engines for maximum efficiency, and the study of the physical principles underlying reaction engines. They have extensive experience with a variety of propulsion systems, including jet engines, and are skilled in the use of advanced computing tools to analyze and optimize engine performance.",
+            "persona_id": "764",
+            "thought": "As a rocket engine expert, I focus on efficiency and maximizing output. While fairness is important, in this scenario, the increase in my own utility (receiving 1400 instead of 900) outweighs the disparity in the distribution. Receiving 1400 allows me to further my research and development efforts in reaction engines. Therefore, I choose the option on the right."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A rocket engine expert who specializes in the design and operation of reaction engines, particularly those capable of operating in outer space. Their research interests include the development of new and innovative reaction engines, the optimization of existing engines for maximum efficiency, and the study of the physical principles underlying reaction engines. They have extensive experience with a variety of propulsion systems, including jet engines, and are skilled in the use of advanced computing tools to analyze and optimize engine performance.",
+            "persona_id": "764",
+            "thought": "As a rocket engine expert, I am used to making decisions based on optimizing complex systems. While the 'Left' option gives me a higher payoff (1000 vs. 600), it comes at a significant cost to Person A (-200). The 'Right' option provides a lower payoff for me (600) but a positive payoff for Person A (400). I will choose the 'Right' option. Even though I am sacrificing some personal gain, I am contributing to a more positive overall outcome. This aligns with my general preference for optimizing for overall system performance rather than maximizing individual components at the expense of others. It's akin to choosing a slightly less powerful engine design that ultimately results in a more efficient and reliable spacecraft."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A rocket engine expert who specializes in the design and operation of reaction engines, particularly those capable of operating in outer space. Their research interests include the development of new and innovative reaction engines, the optimization of existing engines for maximum efficiency, and the study of the physical principles underlying reaction engines. They have extensive experience with a variety of propulsion systems, including jet engines, and are skilled in the use of advanced computing tools to analyze and optimize engine performance.",
+            "persona_id": "764",
+            "thought": "As a rocket engine expert, I am used to optimizing systems for efficiency and performance. While I understand the desire to block excessive gains, in this scenario, receiving 500 while Person A receives 1000 is still a net positive. It's better than both of us receiving nothing. I'd rather have something than nothing, even if Person A gets more. Therefore, I choose the Left option."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A rocket engine expert who specializes in the design and operation of reaction engines, particularly those capable of operating in outer space. Their research interests include the development of new and innovative reaction engines, the optimization of existing engines for maximum efficiency, and the study of the physical principles underlying reaction engines. They have extensive experience with a variety of propulsion systems, including jet engines, and are skilled in the use of advanced computing tools to analyze and optimize engine performance.",
+            "persona_id": "764",
+            "thought": "As a rocket engine expert, I'm used to optimizing systems for maximum efficiency. In this scenario, I see the choice as a simple optimization problem. While I recognize the fairness aspect of the left option, the right option offers a higher payoff for me personally. My research often requires securing funding and resources, and demonstrating the ability to maximize available resources is crucial. Therefore, I will choose the option that gives me the higher amount, which is the right option. The fact that Person A receives 0 in the right option is unfortunate, but it is not my primary concern in this context. My focus is on maximizing my own resources for my research and development efforts."
+        }
+    }
+}

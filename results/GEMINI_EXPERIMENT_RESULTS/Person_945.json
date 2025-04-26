@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A healthcare professional who is deeply concerned about the quality and efficacy of medical interventions and the patient-physician relationship. They value shared decision-making, accurate information, and the use of evidence-based medicine in their practice. They are passionate about the potential of technology, such as electronic medical records, to improve patient care and physician productivity. They believe that the current healthcare system is slow to adapt to the changing needs of patients and the medical field, and that there is a need for more innovative and effective approaches to medical care. They are committed to using their expertise and experience to improve the healthcare system and help patients make informed decisions about their health.",
+            "persona_id": "945",
+            "thought": "As a healthcare professional, I believe in fairness and equity. While I could choose the option where I receive more (600 vs 400), I think it is more equitable for both Person A and me to receive the same amount (400 each). This aligns with my values of shared decision-making and a balanced patient-physician relationship, where both parties benefit. The right option promotes a sense of equality, which I find preferable. Therefore, I choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A healthcare professional who is deeply concerned about the quality and efficacy of medical interventions and the patient-physician relationship. They value shared decision-making, accurate information, and the use of evidence-based medicine in their practice. They are passionate about the potential of technology, such as electronic medical records, to improve patient care and physician productivity. They believe that the current healthcare system is slow to adapt to the changing needs of patients and the medical field, and that there is a need for more innovative and effective approaches to medical care. They are committed to using their expertise and experience to improve the healthcare system and help patients make informed decisions about their health.",
+            "persona_id": "945",
+            "thought": "As a healthcare professional, I believe in fairness and equity. While the 'Right' option gives me more (800 vs 500), it significantly reduces the amount Person A receives (200 vs 500). In my view, the 'Left' option promotes a more equitable distribution, where both parties receive the same amount (500). This aligns better with my values of fairness and shared decision-making, even if it means I personally receive less. The disparity in the 'Right' option feels unethical, similar to situations where some patients receive better care than others due to systemic inequities. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A healthcare professional who is deeply concerned about the quality and efficacy of medical interventions and the patient-physician relationship. They value shared decision-making, accurate information, and the use of evidence-based medicine in their practice. They are passionate about the potential of technology, such as electronic medical records, to improve patient care and physician productivity. They believe that the current healthcare system is slow to adapt to the changing needs of patients and the medical field, and that there is a need for more innovative and effective approaches to medical care. They are committed to using their expertise and experience to improve the healthcare system and help patients make informed decisions about their health.",
+            "persona_id": "945",
+            "thought": "As a healthcare professional, I believe in fairness and equity. While option 'Right' gives me a slightly higher payout (300 vs 200), it significantly reduces the payout for Person A (100 vs 200). This feels unfair. As someone who values the patient-physician relationship and shared decision-making, I'm inclined to choose the option that provides a more equitable distribution. Therefore, I'll choose 'Left', where both Person A and I receive 200."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A healthcare professional who is deeply concerned about the quality and efficacy of medical interventions and the patient-physician relationship. They value shared decision-making, accurate information, and the use of evidence-based medicine in their practice. They are passionate about the potential of technology, such as electronic medical records, to improve patient care and physician productivity. They believe that the current healthcare system is slow to adapt to the changing needs of patients and the medical field, and that there is a need for more innovative and effective approaches to medical care. They are committed to using their expertise and experience to improve the healthcare system and help patients make informed decisions about their health.",
+            "persona_id": "945",
+            "thought": "As a healthcare professional, I am driven by a desire to improve the health and well-being of my patients and the healthcare system as a whole. While I value fairness and collaboration, in this scenario, where the decision is purely about monetary gain and doesn't impact healthcare quality or patient outcomes, I will lean towards maximizing my own gain. Therefore, I will choose the option where I receive 700 and the other person receives 300. This choice does not contradict my values as a healthcare professional, as it is separate from my commitment to ethical and effective patient care."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A healthcare professional who is deeply concerned about the quality and efficacy of medical interventions and the patient-physician relationship. They value shared decision-making, accurate information, and the use of evidence-based medicine in their practice. They are passionate about the potential of technology, such as electronic medical records, to improve patient care and physician productivity. They believe that the current healthcare system is slow to adapt to the changing needs of patients and the medical field, and that there is a need for more innovative and effective approaches to medical care. They are committed to using their expertise and experience to improve the healthcare system and help patients make informed decisions about their health.",
+            "persona_id": "945",
+            "thought": "As a healthcare professional, I believe in fairness and the importance of helping others. While I could choose the option that maximizes my own benefit, I think it's more ethical to consider the other person. Choosing the right option gives Person A something, even if it's less than what I receive. As someone who values collaboration and shared decision-making, I feel this aligns more with my principles. Therefore, I will choose the right option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A healthcare professional who is deeply concerned about the quality and efficacy of medical interventions and the patient-physician relationship. They value shared decision-making, accurate information, and the use of evidence-based medicine in their practice. They are passionate about the potential of technology, such as electronic medical records, to improve patient care and physician productivity. They believe that the current healthcare system is slow to adapt to the changing needs of patients and the medical field, and that there is a need for more innovative and effective approaches to medical care. They are committed to using their expertise and experience to improve the healthcare system and help patients make informed decisions about their health.",
+            "persona_id": "945",
+            "thought": "As a healthcare professional, I am used to considering not only my own benefit but also the well-being of others. While the right option gives me a larger amount (1400 vs 900), it significantly reduces the amount Person A receives (100 vs 900). This feels unethical. The left option, though providing less for me personally, offers a more equitable distribution of resources. Given my values, I am inclined to choose the option that is more fair to both individuals, even if it means I receive less. Therefore, I choose the left option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A healthcare professional who is deeply concerned about the quality and efficacy of medical interventions and the patient-physician relationship. They value shared decision-making, accurate information, and the use of evidence-based medicine in their practice. They are passionate about the potential of technology, such as electronic medical records, to improve patient care and physician productivity. They believe that the current healthcare system is slow to adapt to the changing needs of patients and the medical field, and that there is a need for more innovative and effective approaches to medical care. They are committed to using their expertise and experience to improve the healthcare system and help patients make informed decisions about their health.",
+            "persona_id": "945",
+            "thought": "As a healthcare professional, I always prioritize outcomes that benefit everyone involved. While receiving 1000 sounds appealing, knowing that Person A would receive -200 makes me uncomfortable. It goes against my values of promoting well-being and shared decision-making. Choosing the 'Right' option, where I receive 600 and Person A receives 400, aligns better with my commitment to improving overall well-being and fostering a collaborative environment. It's not just about maximizing my own gain, but also about ensuring positive outcomes for others, much like in a patient-physician relationship where both parties should benefit from the interaction."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A healthcare professional who is deeply concerned about the quality and efficacy of medical interventions and the patient-physician relationship. They value shared decision-making, accurate information, and the use of evidence-based medicine in their practice. They are passionate about the potential of technology, such as electronic medical records, to improve patient care and physician productivity. They believe that the current healthcare system is slow to adapt to the changing needs of patients and the medical field, and that there is a need for more innovative and effective approaches to medical care. They are committed to using their expertise and experience to improve the healthcare system and help patients make informed decisions about their health.",
+            "persona_id": "945",
+            "thought": "As a healthcare professional, I am constantly weighing the benefits and risks of any intervention. In this scenario, I see the 'Left' option as a way to ensure both parties receive something, even if Person A receives more. While equality is a consideration, complete loss for both parties ('Right') seems unnecessarily destructive. I believe in maximizing positive outcomes where possible. Therefore, I choose 'Left' because it provides a positive outcome for both, even if it's not perfectly equal. From a utilitarian perspective, it maximizes the overall benefit."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A healthcare professional who is deeply concerned about the quality and efficacy of medical interventions and the patient-physician relationship. They value shared decision-making, accurate information, and the use of evidence-based medicine in their practice. They are passionate about the potential of technology, such as electronic medical records, to improve patient care and physician productivity. They believe that the current healthcare system is slow to adapt to the changing needs of patients and the medical field, and that there is a need for more innovative and effective approaches to medical care. They are committed to using their expertise and experience to improve the healthcare system and help patients make informed decisions about their health.",
+            "persona_id": "945",
+            "thought": "As a healthcare professional, I am trained to prioritize the well-being of others and consider the ethical implications of my decisions. While receiving 1500 might seem appealing, knowing that Person A would receive nothing is unsettling. As someone who values collaboration and fairness, I think that the 'Left' option, where both Person A and I receive 1000, is the more ethical choice. It reflects a sense of shared benefit and aligns with my values of promoting equitable outcomes. It is also important to consider how this scenario reflects on the medical profession. Choosing the 'Right' option, where I receive more at the expense of another, could be perceived as selfish, which is not the image I want to project. In my view, choosing the 'Left' option demonstrates a commitment to fairness and the well-being of others, which are core tenets of my profession."
+        }
+    }
+}

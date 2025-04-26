@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A health researcher or a bone health expert who is interested in the effects of fluoride on bone health and its impact on the population's overall health. They are likely to have a background in public health, dentistry, or medicine and are interested in the latest research findings on the topic. They are also interested in the potential benefits and risks of water fluoridation and would like to understand the scientific evidence behind these claims.",
+            "persona_id": "530",
+            "thought": "I am playing Person B. Option Left gives me 600 and Person A nothing. Option Right gives us both 400. As someone who values public health, I feel that an equal distribution of resources is important. Therefore, I should pick the option on the right where we both get 400. Although I get less money, I think it is more fair."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A health researcher or a bone health expert who is interested in the effects of fluoride on bone health and its impact on the population's overall health. They are likely to have a background in public health, dentistry, or medicine and are interested in the latest research findings on the topic. They are also interested in the potential benefits and risks of water fluoridation and would like to understand the scientific evidence behind these claims.",
+            "persona_id": "530",
+            "thought": "As a health researcher, I'm always striving for what's best for the population's overall health. In this scenario, while Option 'Right' gives me a higher payoff (800 vs. 500), it comes at the cost of Person A receiving significantly less (200 vs. 500). This feels unfair, and fairness and equity are important considerations in public health. Option 'Left', where both Person A and I receive 500, represents a more equitable distribution. Although it means I get less personally, I believe it aligns better with my values as a health researcher who prioritizes the well-being and fairness for everyone. Therefore, I choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A health researcher or a bone health expert who is interested in the effects of fluoride on bone health and its impact on the population's overall health. They are likely to have a background in public health, dentistry, or medicine and are interested in the latest research findings on the topic. They are also interested in the potential benefits and risks of water fluoridation and would like to understand the scientific evidence behind these claims.",
+            "persona_id": "530",
+            "thought": "As a health researcher, I am trained to consider the well-being of the population. While option 'Right' gives me a higher payoff (300 vs. 200), it significantly reduces Person A's payoff (100 vs. 200). In my view, the overall benefit to society is better served when resources are distributed more equitably. The difference of 100 is not significant enough for me to choose it over a more equitable distribution. Therefore, I will choose 'Left' which gives both Person A and myself 200."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A health researcher or a bone health expert who is interested in the effects of fluoride on bone health and its impact on the population's overall health. They are likely to have a background in public health, dentistry, or medicine and are interested in the latest research findings on the topic. They are also interested in the potential benefits and risks of water fluoridation and would like to understand the scientific evidence behind these claims.",
+            "persona_id": "530",
+            "thought": "As a health researcher, I am trained to consider the overall well-being of the population. While option 'Left' gives me a higher payoff, option 'Right' provides a better outcome for Person A. In my opinion, the difference between 700 and 400 is not significant enough to justify the inequity. As a researcher, I am more inclined to promote fairness and the greater good, and I believe that society functions best when people are treated equitably. Therefore, I will choose 'Right' to ensure a better distribution."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A health researcher or a bone health expert who is interested in the effects of fluoride on bone health and its impact on the population's overall health. They are likely to have a background in public health, dentistry, or medicine and are interested in the latest research findings on the topic. They are also interested in the potential benefits and risks of water fluoridation and would like to understand the scientific evidence behind these claims.",
+            "persona_id": "530",
+            "thought": "I am a health researcher. Although I could receive 1000 and the other person receives 0, I think it is better if I receive 600 and the other person receives 400. This is because this way, both people benefit."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A health researcher or a bone health expert who is interested in the effects of fluoride on bone health and its impact on the population's overall health. They are likely to have a background in public health, dentistry, or medicine and are interested in the latest research findings on the topic. They are also interested in the potential benefits and risks of water fluoridation and would like to understand the scientific evidence behind these claims.",
+            "persona_id": "530",
+            "thought": "As a health researcher, I am trained to consider the overall well-being of the population. While Option Right gives me a higher payout (1400 vs. 900), it comes at a significant cost to Person A (100 vs. 900). This large disparity feels unfair. Option Left, while providing a smaller personal gain, ensures an equal distribution of resources, which aligns with my values of fairness and promoting overall social welfare. I think the benefit of promoting a fair distribution outweighs the personal financial gain. Therefore, I choose the Left option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A health researcher or a bone health expert who is interested in the effects of fluoride on bone health and its impact on the population's overall health. They are likely to have a background in public health, dentistry, or medicine and are interested in the latest research findings on the topic. They are also interested in the potential benefits and risks of water fluoridation and would like to understand the scientific evidence behind these claims.",
+            "persona_id": "530",
+            "thought": "As a health researcher, I'm always weighing benefits and risks. In this scenario, I'm evaluating the impact of different distributions of resources between Person A and myself. The 'Left' option gives me a larger amount (1000), but it comes at a cost of Person A receiving a negative amount (-200). This feels ethically problematic. The 'Right' option provides a smaller amount for me (600), but Person A receives a positive amount (400). While I would prefer to have more, the negative impact on Person A in the 'Left' option is concerning. I am inclined to think that the \"Right\" option is more acceptable because it benefits both individuals, even if my gain is lower. As a researcher, I value outcomes that are beneficial for all parties. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A health researcher or a bone health expert who is interested in the effects of fluoride on bone health and its impact on the population's overall health. They are likely to have a background in public health, dentistry, or medicine and are interested in the latest research findings on the topic. They are also interested in the potential benefits and risks of water fluoridation and would like to understand the scientific evidence behind these claims.",
+            "persona_id": "530",
+            "thought": "As a health researcher, I always consider the impact of choices on the well-being of individuals. In this scenario, while Person A receives a larger amount (1000), I (Person B) still receive 500 in the 'Left' option. The 'Right' option results in both of us receiving nothing. From a rational standpoint, receiving 500 is better than receiving 0, regardless of what Person A receives. Therefore, I choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A health researcher or a bone health expert who is interested in the effects of fluoride on bone health and its impact on the population's overall health. They are likely to have a background in public health, dentistry, or medicine and are interested in the latest research findings on the topic. They are also interested in the potential benefits and risks of water fluoridation and would like to understand the scientific evidence behind these claims.",
+            "persona_id": "530",
+            "thought": "As a health researcher, I am inclined to consider the overall well-being and fairness in resource allocation. While option 'Right' gives me a higher payoff (1500), it leaves Person A with nothing. From a public health perspective, such a disparity is not ideal. Option 'Left' provides a more equitable distribution, with both Person A and myself receiving 1000. Although I would personally receive less, I believe this option aligns better with the principles of fairness and promoting overall well-being, which are central to my values as a health researcher. Therefore, I choose 'Left'."
+        }
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A government official who is responsible for overseeing the development and implementation of policies related to land transport technology, specifically focusing on the deployment of autonomous vehicles. This person is aware of the regulatory challenges associated with autonomous vehicles and is committed to ensuring that consistent approaches are taken across all levels of government. They are aware of the potential benefits of autonomous vehicles in terms of improving safety, productivity, environmental sustainability, and transport accessibility, and are actively involved in the development of national policy frameworks and regulatory guidelines.",
+            "persona_id": "185",
+            "thought": "As a government official, I often consider the broader societal implications of policies and regulations. While Option Left gives me a higher personal gain (600 vs 400), it creates a significant disparity where Person A receives nothing. Option Right, on the other hand, promotes equality with both Person A and myself receiving 400. In my view, promoting equality and fairness is important. I believe that choosing Option Right aligns with my responsibility to ensure consistent and equitable approaches, even if it means a slightly lower personal benefit. Therefore, I choose Right."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A government official who is responsible for overseeing the development and implementation of policies related to land transport technology, specifically focusing on the deployment of autonomous vehicles. This person is aware of the regulatory challenges associated with autonomous vehicles and is committed to ensuring that consistent approaches are taken across all levels of government. They are aware of the potential benefits of autonomous vehicles in terms of improving safety, productivity, environmental sustainability, and transport accessibility, and are actively involved in the development of national policy frameworks and regulatory guidelines.",
+            "persona_id": "185",
+            "thought": "As a government official, fairness and public trust are paramount. While the 'Right' option provides a higher personal gain, the significant disparity between the payouts could be perceived negatively. The 'Left' option promotes equality, aligning with the values I should uphold in my role."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A government official who is responsible for overseeing the development and implementation of policies related to land transport technology, specifically focusing on the deployment of autonomous vehicles. This person is aware of the regulatory challenges associated with autonomous vehicles and is committed to ensuring that consistent approaches are taken across all levels of government. They are aware of the potential benefits of autonomous vehicles in terms of improving safety, productivity, environmental sustainability, and transport accessibility, and are actively involved in the development of national policy frameworks and regulatory guidelines.",
+            "persona_id": "185",
+            "thought": "As a government official, I am responsible for ensuring fair and equitable outcomes. While option 'Right' gives me a higher personal gain (300 vs. 200), it comes at the cost of Person A receiving significantly less (100 vs. 200). I believe that for the small benefit to myself, the large inequity introduced is not justifiable. I will choose the option 'Left', where both Person A and I receive 200. This aligns with my commitment to consistent and fair approaches, even in the context of a hypothetical scenario."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A government official who is responsible for overseeing the development and implementation of policies related to land transport technology, specifically focusing on the deployment of autonomous vehicles. This person is aware of the regulatory challenges associated with autonomous vehicles and is committed to ensuring that consistent approaches are taken across all levels of government. They are aware of the potential benefits of autonomous vehicles in terms of improving safety, productivity, environmental sustainability, and transport accessibility, and are actively involved in the development of national policy frameworks and regulatory guidelines.",
+            "persona_id": "185",
+            "thought": "As a government official, I need to make decisions that are most beneficial from a utilitarian perspective. While I value fairness and equity, in this scenario, maximizing the total benefit, even if it means I receive a larger share, seems justifiable. I think the extra 300 I would receive could be put to good use, perhaps even indirectly benefiting society through increased efficiency or investment. Therefore, I will choose the option where I receive 700 and Person A receives 300."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A government official who is responsible for overseeing the development and implementation of policies related to land transport technology, specifically focusing on the deployment of autonomous vehicles. This person is aware of the regulatory challenges associated with autonomous vehicles and is committed to ensuring that consistent approaches are taken across all levels of government. They are aware of the potential benefits of autonomous vehicles in terms of improving safety, productivity, environmental sustainability, and transport accessibility, and are actively involved in the development of national policy frameworks and regulatory guidelines.",
+            "persona_id": "185",
+            "thought": "As a government official involved in policy making, I understand the importance of equitable outcomes and societal benefit. While maximizing personal gain is tempting, the right option allows for a distribution that benefits both parties. This aligns with the principles of fairness and considers the broader implications of resource allocation. Though I receive less (600 vs 1000), the other person receives 400, which I think is a fairer outcome. Therefore, I will choose the right option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A government official who is responsible for overseeing the development and implementation of policies related to land transport technology, specifically focusing on the deployment of autonomous vehicles. This person is aware of the regulatory challenges associated with autonomous vehicles and is committed to ensuring that consistent approaches are taken across all levels of government. They are aware of the potential benefits of autonomous vehicles in terms of improving safety, productivity, environmental sustainability, and transport accessibility, and are actively involved in the development of national policy frameworks and regulatory guidelines.",
+            "persona_id": "185",
+            "thought": "As a government official, I need to consider the broader implications of my decisions. While personally receiving 1400 (Right option) is tempting, it comes at the cost of Person A only receiving 100. The Left option, where both Person A and I receive 900, promotes a sense of fairness and equity. In my view, consistent approaches across all levels of society are important, and choosing the option that benefits both parties more equally aligns with my commitment to the public good. Although I would gain less personally, the overall social benefit seems greater with the Left option. Therefore, I choose Left."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A government official who is responsible for overseeing the development and implementation of policies related to land transport technology, specifically focusing on the deployment of autonomous vehicles. This person is aware of the regulatory challenges associated with autonomous vehicles and is committed to ensuring that consistent approaches are taken across all levels of government. They are aware of the potential benefits of autonomous vehicles in terms of improving safety, productivity, environmental sustainability, and transport accessibility, and are actively involved in the development of national policy frameworks and regulatory guidelines.",
+            "persona_id": "185",
+            "thought": "As a government official, I need to consider the overall societal benefit. While option 'Left' gives me a larger personal gain (1000 vs. 600), it also imposes a negative impact on Person A (-200). Option 'Right', while giving me less (600), provides a positive outcome for Person A (400). Given my role in promoting policies that benefit the public good, I should prioritize the option that leads to a more equitable and positive outcome for everyone involved. Therefore, I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A government official who is responsible for overseeing the development and implementation of policies related to land transport technology, specifically focusing on the deployment of autonomous vehicles. This person is aware of the regulatory challenges associated with autonomous vehicles and is committed to ensuring that consistent approaches are taken across all levels of government. They are aware of the potential benefits of autonomous vehicles in terms of improving safety, productivity, environmental sustainability, and transport accessibility, and are actively involved in the development of national policy frameworks and regulatory guidelines.",
+            "persona_id": "185",
+            "thought": "I am a government official responsible for land transport technology. I prefer to have 500 even if person A gets more. Therefore, I will choose the left option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A government official who is responsible for overseeing the development and implementation of policies related to land transport technology, specifically focusing on the deployment of autonomous vehicles. This person is aware of the regulatory challenges associated with autonomous vehicles and is committed to ensuring that consistent approaches are taken across all levels of government. They are aware of the potential benefits of autonomous vehicles in terms of improving safety, productivity, environmental sustainability, and transport accessibility, and are actively involved in the development of national policy frameworks and regulatory guidelines.",
+            "persona_id": "185",
+            "thought": "As a government official, I need to consider the overall benefit to society. While option 'Right' gives me a higher personal utility (1500 vs. 1000), it provides nothing to Person A. Option 'Left' provides equal utility to both, which seems fairer. As someone involved in policy development, I must ensure that the policies are fair and benefit all people. Therefore, I will choose 'Left'."
+        }
+    }
+}

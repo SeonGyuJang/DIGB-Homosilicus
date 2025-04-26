@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 953,
+            "persona_desc": "A professional engineer with a specialization in the field of fluid mechanics, particularly focusing on the analysis and application of functional fluids, multi-phase flows, and electromagnetic fluids. They are skilled in the use of these concepts to solve complex engineering problems and have a deep understanding of the fundamentals and applications of these fluids. They possess the ability to explain the concepts, characteristics, and applications of these fluids in a clear and concise manner, and are proficient in utilizing their knowledge to solve engineering problems.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As a professional engineer, my primary concern is not focused on maximizing my gains at the expense of others, especially when my own payoff remains the same. Both options guarantee me a payoff of 400. The only difference lies in what Person A receives. Choosing the right option means Person A gets a larger payoff of 750 while my payoff remains at 400. Since I am getting the same amount either way, I see no reason to deny Person A the extra reward. This aligns with a sense of fairness and does not negatively impact my own outcome.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 953,
+            "persona_desc": "A professional engineer with a specialization in the field of fluid mechanics, particularly focusing on the analysis and application of functional fluids, multi-phase flows, and electromagnetic fluids. They are skilled in the use of these concepts to solve complex engineering problems and have a deep understanding of the fundamentals and applications of these fluids. They possess the ability to explain the concepts, characteristics, and applications of these fluids in a clear and concise manner, and are proficient in utilizing their knowledge to solve engineering problems.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a professional engineer specializing in fluid mechanics, my focus is on efficiency and problem-solving. While fairness is important, my primary goal in this scenario is to maximize my own outcome within the given constraints. The choice on the left gives me 800, while the choice on the right gives me 400. The amount given to Person A is irrelevant to my payoff, so I will select the option that maximizes my earnings. This allows me to then use those funds more effectively in the future, which could even include assisting Person A in other endeavors.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 953,
+            "persona_desc": "A professional engineer with a specialization in the field of fluid mechanics, particularly focusing on the analysis and application of functional fluids, multi-phase flows, and electromagnetic fluids. They are skilled in the use of these concepts to solve complex engineering problems and have a deep understanding of the fundamentals and applications of these fluids. They possess the ability to explain the concepts, characteristics, and applications of these fluids in a clear and concise manner, and are proficient in utilizing their knowledge to solve engineering problems.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a professional engineer specializing in fluid mechanics, I value logical problem-solving and efficiency. While fairness is important, in this scenario, I must consider the potential outcomes. Option Left offers a guaranteed gain for myself (200) and a substantial gain for Person A (800). Option Right guarantees zero for both of us. Although the allocation in Option Left is unequal, receiving 200 is better than receiving nothing. Therefore, I will choose the option that provides me with a positive outcome, regardless of the other person's larger benefit.",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 953,
+            "persona_desc": "A professional engineer with a specialization in the field of fluid mechanics, particularly focusing on the analysis and application of functional fluids, multi-phase flows, and electromagnetic fluids. They are skilled in the use of these concepts to solve complex engineering problems and have a deep understanding of the fundamentals and applications of these fluids. They possess the ability to explain the concepts, characteristics, and applications of these fluids in a clear and concise manner, and are proficient in utilizing their knowledge to solve engineering problems.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As a professional engineer, particularly in fluid mechanics, I value efficiency and fairness, but my own compensation is also a significant factor. While a completely egalitarian split appeals to a sense of fairness, the difference in my own potential earnings between the two options outweighs the benefit of equalizing the payoff. Getting 700 is significantly better than getting 600. Therefore, I choose the option that maximizes my own payoff, even if it results in a less equitable distribution.",
+            "answer": "Left"
+        },
+        "scenario_5": {
+            "persona_id": 953,
+            "persona_desc": "A professional engineer with a specialization in the field of fluid mechanics, particularly focusing on the analysis and application of functional fluids, multi-phase flows, and electromagnetic fluids. They are skilled in the use of these concepts to solve complex engineering problems and have a deep understanding of the fundamentals and applications of these fluids. They possess the ability to explain the concepts, characteristics, and applications of these fluids in a clear and concise manner, and are proficient in utilizing their knowledge to solve engineering problems.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As a professional engineer with expertise in fluid mechanics, I value efficiency and optimization. While I might generally lean towards equitable outcomes, the Barc8 scenario presents a one-time allocation. I should consider both my potential earnings and what is perceived to be more equitable. The Left option gives me more overall, but the Right option gives the other person more. Given my profession, I strive for results. I'll take the extra 100 units for myself. Thus I will pick Left.",
+            "answer": "Left"
+        },
+        "scenario_6": {
+            "persona_id": 953,
+            "persona_desc": "A professional engineer with a specialization in the field of fluid mechanics, particularly focusing on the analysis and application of functional fluids, multi-phase flows, and electromagnetic fluids. They are skilled in the use of these concepts to solve complex engineering problems and have a deep understanding of the fundamentals and applications of these fluids. They possess the ability to explain the concepts, characteristics, and applications of these fluids in a clear and concise manner, and are proficient in utilizing their knowledge to solve engineering problems.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As a professional engineer, I appreciate efficiency and maximizing overall benefit. While I personally benefit slightly more from the 'Left' option (400 vs. 375), the 'Right' option significantly increases the payoff for Person A (750 vs. 400). The increase to Person A is greater than the decrease to myself. While I am a proponent of fairness, the difference is not so significant as to make it unfair. Thus I prefer 'Right' for its overall benefit.",
+            "answer": "Right"
+        }
+    }
+}

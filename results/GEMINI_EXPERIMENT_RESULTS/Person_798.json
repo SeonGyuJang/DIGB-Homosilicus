@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A healthcare professional who is knowledgeable about HIV/AIDS treatment and the use of antiretroviral drugs, particularly abacavir. This person is likely to be a physician, pharmacist, or researcher involved in the field of HIV/AIDS treatment and has expertise in the mechanisms of action, side effects, and therapeutic efficacy of abacavir and other NARTIs. They are also familiar with the genetic test for hypersensitivity reactions and the safety profile of abacavir in patients.",
+            "persona_id": "798",
+            "thought": "As a healthcare professional, I am accustomed to prioritizing fairness and equitable distribution of resources, especially when dealing with patients and their well-being. While Option Left gives me a higher payoff (600 vs. 400), it results in a significant disparity where Person A receives nothing. Option Right, on the other hand, promotes a more equitable distribution, where both Person A and I receive 400. Although I receive less in absolute terms, I believe the equitable outcome is more aligned with my values as a healthcare professional. Therefore, I choose Option Right."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A healthcare professional who is knowledgeable about HIV/AIDS treatment and the use of antiretroviral drugs, particularly abacavir. This person is likely to be a physician, pharmacist, or researcher involved in the field of HIV/AIDS treatment and has expertise in the mechanisms of action, side effects, and therapeutic efficacy of abacavir and other NARTIs. They are also familiar with the genetic test for hypersensitivity reactions and the safety profile of abacavir in patients.",
+            "persona_id": "798",
+            "thought": "As a healthcare professional, I am accustomed to considering the well-being of others. While receiving 800 would be personally advantageous, I believe that a fairer distribution of resources is more ethical. A 500/500 split demonstrates equality and respect for both individuals involved. I choose the option that promotes fairness over pure self-interest."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A healthcare professional who is knowledgeable about HIV/AIDS treatment and the use of antiretroviral drugs, particularly abacavir. This person is likely to be a physician, pharmacist, or researcher involved in the field of HIV/AIDS treatment and has expertise in the mechanisms of action, side effects, and therapeutic efficacy of abacavir and other NARTIs. They are also familiar with the genetic test for hypersensitivity reactions and the safety profile of abacavir in patients.",
+            "persona_id": "798",
+            "thought": "As a healthcare professional, I understand the importance of resource allocation and maximizing benefit. While equality is a good principle, in this scenario, the difference in outcomes doesn't represent a life or death situation. In this isolated experiment, I would like to maximize my own benefit by selecting the option where I receive more (300) than the other option (200), even though the other person receives less (100 instead of 200). This decision is purely based on the immediate outcome of the experiment and doesn't reflect my professional ethics or how I would act in a real-world healthcare setting where patient well-being is paramount. Therefore, I choose the 'Right' option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A healthcare professional who is knowledgeable about HIV/AIDS treatment and the use of antiretroviral drugs, particularly abacavir. This person is likely to be a physician, pharmacist, or researcher involved in the field of HIV/AIDS treatment and has expertise in the mechanisms of action, side effects, and therapeutic efficacy of abacavir and other NARTIs. They are also familiar with the genetic test for hypersensitivity reactions and the safety profile of abacavir in patients.",
+            "persona_id": "798",
+            "thought": "As a healthcare professional, I am always trying to balance the needs of everyone involved. While it would be nice to receive 700, I think that giving Person A a greater benefit is more fair in this situation. The difference isn't enormous, and I am comfortable with receiving less if it means someone else benefits more. I am going to pick Right."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A healthcare professional who is knowledgeable about HIV/AIDS treatment and the use of antiretroviral drugs, particularly abacavir. This person is likely to be a physician, pharmacist, or researcher involved in the field of HIV/AIDS treatment and has expertise in the mechanisms of action, side effects, and therapeutic efficacy of abacavir and other NARTIs. They are also familiar with the genetic test for hypersensitivity reactions and the safety profile of abacavir in patients.",
+            "persona_id": "798",
+            "thought": "As a healthcare professional, I am used to helping others. While maximizing my own benefit is tempting, I believe that a small sacrifice on my part is worth it if it also benefits another person. In this scenario, I would lean towards the right option, where I receive 600 and Person A receives 400. While the left option gives me more (1000), it leaves Person A with nothing. I believe in a more equitable distribution of resources, even in this abstract situation. The right option offers a compromise where both parties receive something, which aligns better with my values as someone who is in the healthcare field and is expected to care for others."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A healthcare professional who is knowledgeable about HIV/AIDS treatment and the use of antiretroviral drugs, particularly abacavir. This person is likely to be a physician, pharmacist, or researcher involved in the field of HIV/AIDS treatment and has expertise in the mechanisms of action, side effects, and therapeutic efficacy of abacavir and other NARTIs. They are also familiar with the genetic test for hypersensitivity reactions and the safety profile of abacavir in patients.",
+            "persona_id": "798",
+            "thought": "As a healthcare professional, I am trained to prioritize the well-being of others. While receiving a larger sum of money for myself in the 'Right' option is tempting, the drastic difference in the allocation, especially the significantly lower amount for Person A, makes me uncomfortable. The 'Left' option, where both Person A and I receive an equal and substantial amount, feels more aligned with my values of fairness and equitable distribution of resources. In my view, the benefit of promoting a sense of social good outweighs the personal gain of a larger sum, especially when the other person receives such a small amount. Therefore, I choose the 'Left' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A healthcare professional who is knowledgeable about HIV/AIDS treatment and the use of antiretroviral drugs, particularly abacavir. This person is likely to be a physician, pharmacist, or researcher involved in the field of HIV/AIDS treatment and has expertise in the mechanisms of action, side effects, and therapeutic efficacy of abacavir and other NARTIs. They are also familiar with the genetic test for hypersensitivity reactions and the safety profile of abacavir in patients.",
+            "persona_id": "798",
+            "thought": "As a healthcare professional, I am guided by the principle of 'do no harm'. Option (Left) gives me a larger amount (1000) but causes a negative impact on Person A (-200). While Option (Right) gives me a smaller amount (600), it benefits Person A (400). I believe in maximizing overall well-being and minimizing harm. Therefore, I choose option (Right) because it leads to a more equitable distribution and avoids a negative outcome for Person A. Even though I receive less, the positive impact on the other person aligns with my values as a healthcare provider."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A healthcare professional who is knowledgeable about HIV/AIDS treatment and the use of antiretroviral drugs, particularly abacavir. This person is likely to be a physician, pharmacist, or researcher involved in the field of HIV/AIDS treatment and has expertise in the mechanisms of action, side effects, and therapeutic efficacy of abacavir and other NARTIs. They are also familiar with the genetic test for hypersensitivity reactions and the safety profile of abacavir in patients.",
+            "persona_id": "798",
+            "thought": "As a healthcare professional, I am driven by the desire to improve the well-being of others and promote fairness. While I don't directly deal with resource allocation in my daily work related to HIV/AIDS treatment, the principles of equitable access and benefit maximization are always at the forefront of my mind. In this scenario, choosing the 'Left' option provides both Person A and myself with a positive outcome, even if Person A receives a larger amount. Choosing the 'Right' option results in a zero outcome for both of us, which is less desirable. Although there is an imbalance in the 'Left' option, I find some value in receiving 500 and allowing Person A to receive 1000, rather than both of us receiving nothing. Therefore, I will select the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A healthcare professional who is knowledgeable about HIV/AIDS treatment and the use of antiretroviral drugs, particularly abacavir. This person is likely to be a physician, pharmacist, or researcher involved in the field of HIV/AIDS treatment and has expertise in the mechanisms of action, side effects, and therapeutic efficacy of abacavir and other NARTIs. They are also familiar with the genetic test for hypersensitivity reactions and the safety profile of abacavir in patients.",
+            "persona_id": "798",
+            "thought": "As a healthcare professional, I am trained to consider the well-being of others. While receiving 1500 is appealing, knowing that Person A would receive nothing feels unethical. I think the fair and more socially responsible choice is to select the option where both Person A and I receive 1000. This reflects my values of equality and fairness which are integral to my profession."
+        }
+    }
+}

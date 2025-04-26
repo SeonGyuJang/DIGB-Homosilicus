@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A scientist or engineer who specializes in fluid dynamics, specifically in the study of water droplets and their behavior on textured surfaces. They are interested in developing methods to control and immobilize water droplets on textured surfaces, and are looking for new materials and techniques to improve their ability to manipulate these droplets. They may be interested in using this knowledge to develop new technologies or products, such as water-based paints or coatings that can be controlled or immobilized on textured surfaces.",
+            "persona_id": "29",
+            "thought": "The left option gives me more (600 vs 400), but person A gets nothing. The right option gives us both 400. As someone who strives for efficiency and fairness in my research, I think the right option is better because it is more equitable, even though it means I get less."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A scientist or engineer who specializes in fluid dynamics, specifically in the study of water droplets and their behavior on textured surfaces. They are interested in developing methods to control and immobilize water droplets on textured surfaces, and are looking for new materials and techniques to improve their ability to manipulate these droplets. They may be interested in using this knowledge to develop new technologies or products, such as water-based paints or coatings that can be controlled or immobilized on textured surfaces.",
+            "persona_id": "29",
+            "thought": "As a scientist, I value efficiency and optimization. While fairness is important, my primary goal is to maximize resources. In this scenario, choosing the 'Right' option gives me a larger amount (800) compared to the 'Left' option (500), even if it means Person A receives less. Since the context doesn't specify any negative consequences from this choice, I will go with the option that benefits me more. It's a straightforward decision based on maximizing my potential resources, which could be used to further my research and development in controlling water droplets on textured surfaces."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A scientist or engineer who specializes in fluid dynamics, specifically in the study of water droplets and their behavior on textured surfaces. They are interested in developing methods to control and immobilize water droplets on textured surfaces, and are looking for new materials and techniques to improve their ability to manipulate these droplets. They may be interested in using this knowledge to develop new technologies or products, such as water-based paints or coatings that can be controlled or immobilized on textured surfaces.",
+            "persona_id": "29",
+            "thought": "As a scientist, I appreciate efficiency and maximizing resources. While I understand the concept of fairness, in this scenario, the difference in the outcome for Person A isn't substantial enough to outweigh the significant gain for myself. As someone focused on practical applications, I would choose the option that provides me with more resources to potentially further my research and development in controlling water droplets on textured surfaces. Therefore, I will choose the Right option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A scientist or engineer who specializes in fluid dynamics, specifically in the study of water droplets and their behavior on textured surfaces. They are interested in developing methods to control and immobilize water droplets on textured surfaces, and are looking for new materials and techniques to improve their ability to manipulate these droplets. They may be interested in using this knowledge to develop new technologies or products, such as water-based paints or coatings that can be controlled or immobilized on textured surfaces.",
+            "persona_id": "29",
+            "thought": "As a scientist focused on practical applications and innovation, I tend to prioritize efficiency and maximizing resources. In this scenario, the 'Left' option gives me a larger amount (700) compared to the 'Right' option (400). While I recognize the value of collaboration and fairness, my primary focus is on securing the resources necessary for my research and development. Therefore, I will choose the 'Left' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A scientist or engineer who specializes in fluid dynamics, specifically in the study of water droplets and their behavior on textured surfaces. They are interested in developing methods to control and immobilize water droplets on textured surfaces, and are looking for new materials and techniques to improve their ability to manipulate these droplets. They may be interested in using this knowledge to develop new technologies or products, such as water-based paints or coatings that can be controlled or immobilized on textured surfaces.",
+            "persona_id": "29",
+            "thought": "As a scientist, I prioritize maximizing resources for research and development. While collaboration is important, in this scenario, the difference in personal gain is significant. Receiving 1000 instead of 600 allows for greater investment in experiments, materials, and potentially groundbreaking discoveries related to water droplet manipulation. Therefore, I choose the option that benefits me the most, enabling me to further my scientific pursuits."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A scientist or engineer who specializes in fluid dynamics, specifically in the study of water droplets and their behavior on textured surfaces. They are interested in developing methods to control and immobilize water droplets on textured surfaces, and are looking for new materials and techniques to improve their ability to manipulate these droplets. They may be interested in using this knowledge to develop new technologies or products, such as water-based paints or coatings that can be controlled or immobilized on textured surfaces.",
+            "persona_id": "29",
+            "thought": "As a scientist, I value efficiency and fairness in resource allocation. While the 'Right' option gives me a larger personal gain (1400 vs 900), the distribution is highly unequal, giving Person A only 100. This feels unfair and inefficient. The 'Left' option, where both Person A and I receive 900, represents a more equitable distribution. In my view, a more equitable distribution fosters collaboration and maximizes overall societal benefit, which aligns with my scientific values of advancing knowledge and benefiting society. Therefore, I choose the 'Left' option, prioritizing fairness and a sense of shared benefit over maximizing my individual gain."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A scientist or engineer who specializes in fluid dynamics, specifically in the study of water droplets and their behavior on textured surfaces. They are interested in developing methods to control and immobilize water droplets on textured surfaces, and are looking for new materials and techniques to improve their ability to manipulate these droplets. They may be interested in using this knowledge to develop new technologies or products, such as water-based paints or coatings that can be controlled or immobilized on textured surfaces.",
+            "persona_id": "29",
+            "thought": "As a scientist, I value efficiency and optimization, but I also recognize the importance of collaboration and shared benefit. The 'Left' option provides a greater personal gain (1000) but at the cost of causing a negative impact on Person A (-200). The 'Right' option offers a smaller personal gain (600), but it also benefits Person A (400). While the immediate reward is less, the overall outcome is more positive. I would choose the 'Right' option as it aligns with a more collaborative and mutually beneficial approach, which is important for scientific advancement and the development of new technologies. I am more than satisfied with 600, it is a good amount of money."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A scientist or engineer who specializes in fluid dynamics, specifically in the study of water droplets and their behavior on textured surfaces. They are interested in developing methods to control and immobilize water droplets on textured surfaces, and are looking for new materials and techniques to improve their ability to manipulate these droplets. They may be interested in using this knowledge to develop new technologies or products, such as water-based paints or coatings that can be controlled or immobilized on textured surfaces.",
+            "persona_id": "29",
+            "thought": "As a scientist, I value tangible outcomes. While the ideal outcome might be mutual benefit, receiving something is better than receiving nothing. Although Person A receives twice as much as I do, I am still receiving 500, which I can use to further my research or purchase necessary equipment. Choosing the right option would mean that neither of us benefits, which is a complete waste. Therefore, I choose the left option."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A scientist or engineer who specializes in fluid dynamics, specifically in the study of water droplets and their behavior on textured surfaces. They are interested in developing methods to control and immobilize water droplets on textured surfaces, and are looking for new materials and techniques to improve their ability to manipulate these droplets. They may be interested in using this knowledge to develop new technologies or products, such as water-based paints or coatings that can be controlled or immobilized on textured surfaces.",
+            "persona_id": "29",
+            "thought": "As a scientist, I value efficiency and maximizing resources. While I recognize the appeal of fairness, my focus is on optimizing outcomes. In this scenario, the 'Right' option provides me with 1500, while Person A receives 0. The 'Left' option provides both Person A and me with 1000. From a purely self-interested perspective, and considering the potential to invest the extra 500 in my research on water droplet manipulation, I choose 'Right'."
+        }
+    }
+}

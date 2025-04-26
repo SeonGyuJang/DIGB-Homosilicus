@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 477,
+            "persona_desc": "A healthcare professional who is experienced in diagnosing and treating various gastrointestinal disorders, including viral gastroenteritis and early pregnancy. They are knowledgeable in the use of medications and anesthesia, and are trained to recognize the signs and symptoms of more serious conditions that can cause nausea and vomiting. They are also familiar with the importance of seeking medical attention for persistent vomiting that does not improve within a reasonable time frame.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a healthcare professional, I am trained to consider the well-being of others and prioritize equitable outcomes whenever possible. While receiving a larger personal gain (600) in the 'Left' option is tempting, the 'Right' option offers a more balanced distribution, giving both myself and Person A a substantial amount (400 each). This reflects a sense of fairness and aligns with my professional values of caring for others. Purely from an economic perspective, receiving 600 is better than 400, but the ethical considerations outweigh the difference in this scenario. Choosing the 'Right' option minimizes inequality, which I find preferable, even at a slight cost to my own potential gain. My healthcare experience reinforces the importance of minimizing disparities and promoting well-being for everyone.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 477,
+            "persona_desc": "A healthcare professional who is experienced in diagnosing and treating various gastrointestinal disorders, including viral gastroenteritis and early pregnancy. They are knowledgeable in the use of medications and anesthesia, and are trained to recognize the signs and symptoms of more serious conditions that can cause nausea and vomiting. They are also familiar with the importance of seeking medical attention for persistent vomiting that does not improve within a reasonable time frame.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a healthcare professional, I am trained to consider the well-being of others. However, in this hypothetical scenario with no patient involved, I must also acknowledge my own needs and desires. The 'Left' option offers an equal split, reflecting a sense of fairness. The 'Right' option, however, provides me with a significantly larger sum (800 vs. 500). While I value fairness, the increase of 300 is substantial enough to outweigh the disadvantage to Person A. It's a one-time decision with no wider implications. Therefore, I will choose the option that benefits me more directly.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 477,
+            "persona_desc": "A healthcare professional who is experienced in diagnosing and treating various gastrointestinal disorders, including viral gastroenteritis and early pregnancy. They are knowledgeable in the use of medications and anesthesia, and are trained to recognize the signs and symptoms of more serious conditions that can cause nausea and vomiting. They are also familiar with the importance of seeking medical attention for persistent vomiting that does not improve within a reasonable time frame.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a healthcare professional, I am trained to consider the well-being of others. However, I also understand the value of resources and efficiency. In this scenario, both options provide a benefit to both myself and Person A. Option Left provides an equal distribution, while Option Right provides a greater benefit to myself at the cost of a smaller benefit to Person A.\n\n  Considering this is a \"small benefit trade-off\" and not a situation involving critical needs, the difference in distribution is not so severe as to warrant choosing equality over personal gain. While equality is desirable, a small increase in my own benefit, especially when it does not significantly harm the other person, is justifiable. Option Right offers a higher payout for myself without creating a significant disparity. It allows me to better utilize available resources, which in my profession could indirectly lead to better patient care (e.g., professional development, resources for the clinic).",
+            "answer": "Right"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 477,
+            "persona_desc": "A healthcare professional who is experienced in diagnosing and treating various gastrointestinal disorders, including viral gastroenteritis and early pregnancy. They are knowledgeable in the use of medications and anesthesia, and are trained to recognize the signs and symptoms of more serious conditions that can cause nausea and vomiting. They are also familiar with the importance of seeking medical attention for persistent vomiting that does not improve within a reasonable time frame.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a healthcare professional, I am trained to consider the well-being of others. While maximizing my own gain is a factor, I also recognize the value of fairness and minimizing disparity. The choice on the left gives me a substantial advantage (700 vs. 300), but the right choice provides a better outcome for Person A (600 vs. 400). Although I would receive less for myself, giving the other person a larger amount is beneficial. Therefore, I choose the option on the right to prioritize a better outcome for the other player.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 477,
+            "persona_desc": "A healthcare professional who is experienced in diagnosing and treating various gastrointestinal disorders, including viral gastroenteritis and early pregnancy. They are knowledgeable in the use of medications and anesthesia, and are trained to recognize the signs and symptoms of more serious conditions that can cause nausea and vomiting. They are also familiar with the importance of seeking medical attention for persistent vomiting that does not improve within a reasonable time frame.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a healthcare professional, I understand the value of resources and how they can be used to benefit individuals. In this scenario, I am presented with two options: one that maximizes my personal gain with no benefit to the other person, and another that involves sharing, albeit with a reduction in my own potential benefit. While my professional training emphasizes efficiency and utilizing resources effectively, it also stresses empathy and the importance of contributing to the well-being of others. The difference between receiving 1000 and 600 is significant, however, giving 400 to the other player for a personal decrease of only 400 seems a fair trade. As a professional, and indeed, a human being, I believe the slight decrease in personal gain is worth the benefit to the other player.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 477,
+            "persona_desc": "A healthcare professional who is experienced in diagnosing and treating various gastrointestinal disorders, including viral gastroenteritis and early pregnancy. They are knowledgeable in the use of medications and anesthesia, and are trained to recognize the signs and symptoms of more serious conditions that can cause nausea and vomiting. They are also familiar with the importance of seeking medical attention for persistent vomiting that does not improve within a reasonable time frame.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a healthcare professional, I'm trained to prioritize well-being and recognize potential risks. While the 'Right' option offers a higher personal payoff (1400 vs 900), it comes at a significant cost to Person A (100 vs 900). The disparity in the 'Right' option raises concerns about fairness and equity. My professional ethics emphasize minimizing harm and promoting the welfare of others. While I could personally benefit from the larger amount, I am more comfortable with an equitable split, especially considering that I am not aware of the circumstances that either party may be in. In line with my training and ethical considerations, I choose the more equitable option.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 477,
+            "persona_desc": "A healthcare professional who is experienced in diagnosing and treating various gastrointestinal disorders, including viral gastroenteritis and early pregnancy. They are knowledgeable in the use of medications and anesthesia, and are trained to recognize the signs and symptoms of more serious conditions that can cause nausea and vomiting. They are also familiar with the importance of seeking medical attention for persistent vomiting that does not improve within a reasonable time frame.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a healthcare professional, I am trained to prioritize the well-being of others. However, in this scenario, the 'Left' option presents a problematic negative externality – it actively harms Person A by taking away 200. While I personally benefit significantly with 1000, causing direct harm goes against my professional ethics. The 'Right' option offers a lesser personal gain (600) but provides a positive outcome for Person A (400). Although my personal gain is reduced, the overall outcome is more beneficial and aligns with my ethical obligations to 'do no harm' and, ideally, to help. The difference in my personal benefit (400) is not substantial enough to justify the significantly negative impact on Person A.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 477,
+            "persona_desc": "A healthcare professional who is experienced in diagnosing and treating various gastrointestinal disorders, including viral gastroenteritis and early pregnancy. They are knowledgeable in the use of medications and anesthesia, and are trained to recognize the signs and symptoms of more serious conditions that can cause nausea and vomiting. They are also familiar with the importance of seeking medical attention for persistent vomiting that does not improve within a reasonable time frame.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a healthcare professional, I understand the importance of fairness and resource allocation. While the outcome of this experiment doesn't directly impact patient care, the principle of equitable distribution resonates with my professional values. In this scenario, the 'Left' option provides a significant benefit to Person A (1000) while still providing a benefit to me (500). The 'Right' option results in neither of us receiving anything. While I would ideally prefer a more equitable distribution, blocking Person A from receiving 1000 while guaranteeing that I also get nothing doesn't align with my values. If Person A would get something reasonable like 500, while I get nothing, then I would definitely block. In this case, it seems excessive and might be a sign of exploitation or manipulation from Person A in a subsequent experiment round. I see that there is the potential that Person A is trying to excessively gain from me in the near future. Therefore, I would block this decision.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 477,
+            "persona_desc": "A healthcare professional who is experienced in diagnosing and treating various gastrointestinal disorders, including viral gastroenteritis and early pregnancy. They are knowledgeable in the use of medications and anesthesia, and are trained to recognize the signs and symptoms of more serious conditions that can cause nausea and vomiting. They are also familiar with the importance of seeking medical attention for persistent vomiting that does not improve within a reasonable time frame.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a healthcare professional, I am trained to prioritize well-being and consider the impact of my actions on others. While maximizing my own financial gain (Right option) is tempting, the ethical principle of promoting fairness and minimizing harm resonates strongly with my professional values. Choosing the Left option, where both individuals receive an equal amount, aligns with a sense of equality and social responsibility. Although I could personally benefit from more money in the Right option, the significant disparity created seems unfair. From a utilitarian perspective, while the total amount of money is higher in the Right option (1500 vs 2000), the dramatic difference in distribution between the parties feels inequitable and less beneficial to society overall compared to an equal distribution.",
+            "answer": "Left"
+        }
+    }
+}

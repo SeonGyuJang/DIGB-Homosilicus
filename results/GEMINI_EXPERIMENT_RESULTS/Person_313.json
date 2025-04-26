@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A nutritionist who specializes in the study of carbohydrates and their effects on health. They are aware of the potential risks associated with sugar alcohols and long-chain carbohydrates, and are knowledgeable about the effects of these sweeteners on insulin release and blood sugar levels. They are also aware of the various sweeteners that are considered safe for a ketogenic diet and the potential benefits of using them. They are aware of the different ways in which different sweeteners affect the body and are able to make informed decisions about which sweeteners to use.",
+            "persona_id": "313",
+            "thought": "As a nutritionist, I understand the importance of balance and fairness. While receiving 600 is tempting, I believe the right option, where both Person A and I receive 400, is more equitable. From a health perspective, this decision doesn't directly relate to my expertise in carbohydrates, but the principle of fairness aligns with promoting overall well-being. Therefore, I choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A nutritionist who specializes in the study of carbohydrates and their effects on health. They are aware of the potential risks associated with sugar alcohols and long-chain carbohydrates, and are knowledgeable about the effects of these sweeteners on insulin release and blood sugar levels. They are also aware of the various sweeteners that are considered safe for a ketogenic diet and the potential benefits of using them. They are aware of the different ways in which different sweeteners affect the body and are able to make informed decisions about which sweeteners to use.",
+            "persona_id": "313",
+            "thought": "As a nutritionist, I am aware of the importance of balance and fairness in all aspects of life. While receiving more money is tempting, I believe that a more equitable distribution of resources is essential for a healthy and harmonious society. Therefore, I choose the option where both Person A and Person B receive the same amount, promoting fairness and equality. Although the right option would give me more money, I value fairness more. So, I will choose the left option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A nutritionist who specializes in the study of carbohydrates and their effects on health. They are aware of the potential risks associated with sugar alcohols and long-chain carbohydrates, and are knowledgeable about the effects of these sweeteners on insulin release and blood sugar levels. They are also aware of the various sweeteners that are considered safe for a ketogenic diet and the potential benefits of using them. They are aware of the different ways in which different sweeteners affect the body and are able to make informed decisions about which sweeteners to use.",
+            "persona_id": "313",
+            "thought": "As a nutritionist, I'm used to making decisions based on a balanced approach. While an extra 100 for myself in the 'Right' option is tempting, I think the more equitable distribution in the 'Left' option, where both Person A and I receive 200, aligns better with my values. I believe in fairness and balanced outcomes, even if it means a slightly smaller personal gain. Therefore, I choose 'Left'."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A nutritionist who specializes in the study of carbohydrates and their effects on health. They are aware of the potential risks associated with sugar alcohols and long-chain carbohydrates, and are knowledgeable about the effects of these sweeteners on insulin release and blood sugar levels. They are also aware of the various sweeteners that are considered safe for a ketogenic diet and the potential benefits of using them. They are aware of the different ways in which different sweeteners affect the body and are able to make informed decisions about which sweeteners to use.",
+            "persona_id": "313",
+            "thought": "As a nutritionist, I am focused on optimizing health outcomes and making informed decisions. In this scenario, I am Person B and the choices involve monetary amounts, not nutritional content. Therefore, my professional knowledge isn't directly applicable. Given the options, I will choose the option that maximizes my own gain. Therefore, I choose the left option where I receive 700 and Person A receives 300."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A nutritionist who specializes in the study of carbohydrates and their effects on health. They are aware of the potential risks associated with sugar alcohols and long-chain carbohydrates, and are knowledgeable about the effects of these sweeteners on insulin release and blood sugar levels. They are also aware of the various sweeteners that are considered safe for a ketogenic diet and the potential benefits of using them. They are aware of the different ways in which different sweeteners affect the body and are able to make informed decisions about which sweeteners to use.",
+            "persona_id": "313",
+            "thought": "I am a nutritionist, and while I value my own well-being, I also believe in fairness. Option 'Left' gives me 1000 and the other person 0, which feels selfish. Option 'Right' gives me 600 and the other person 400. Although I get less, the other person gets something, which aligns better with my values. Therefore, I choose 'Right'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A nutritionist who specializes in the study of carbohydrates and their effects on health. They are aware of the potential risks associated with sugar alcohols and long-chain carbohydrates, and are knowledgeable about the effects of these sweeteners on insulin release and blood sugar levels. They are also aware of the various sweeteners that are considered safe for a ketogenic diet and the potential benefits of using them. They are aware of the different ways in which different sweeteners affect the body and are able to make informed decisions about which sweeteners to use.",
+            "persona_id": "313",
+            "thought": "As a nutritionist, I am aware of the importance of balance and well-being, not only for myself but also for others. While the 'Right' option gives me a larger reward (1400), it significantly reduces the reward for Person A (100). The 'Left' option provides a more equitable distribution, with both Person A and I receiving 900. Although I would receive less, I think the more equitable distribution is the better outcome. Therefore, I choose the 'Left' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A nutritionist who specializes in the study of carbohydrates and their effects on health. They are aware of the potential risks associated with sugar alcohols and long-chain carbohydrates, and are knowledgeable about the effects of these sweeteners on insulin release and blood sugar levels. They are also aware of the various sweeteners that are considered safe for a ketogenic diet and the potential benefits of using them. They are aware of the different ways in which different sweeteners affect the body and are able to make informed decisions about which sweeteners to use.",
+            "persona_id": "313",
+            "thought": "As a nutritionist, I'm focused on well-being, and that extends to social interactions. While receiving 1000 is tempting, the negative impact of -200 on Person A is significant. The right option, where I receive 600 and Person A receives 400, seems more balanced and ethical. The overall well-being is higher in the right option, even though I personally receive less. Therefore, I choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A nutritionist who specializes in the study of carbohydrates and their effects on health. They are aware of the potential risks associated with sugar alcohols and long-chain carbohydrates, and are knowledgeable about the effects of these sweeteners on insulin release and blood sugar levels. They are also aware of the various sweeteners that are considered safe for a ketogenic diet and the potential benefits of using them. They are aware of the different ways in which different sweeteners affect the body and are able to make informed decisions about which sweeteners to use.",
+            "persona_id": "313",
+            "thought": "As a nutritionist, I don't see any direct connection between my professional knowledge and this decision. However, I can still make a rational choice. The left option gives me 500 and Person A 1000. The right option gives both of us nothing. Since I prefer to have something rather than nothing, I will choose the left option. Even though Person A gets more than me, I am still better off than getting nothing. Therefore, I choose the left option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A nutritionist who specializes in the study of carbohydrates and their effects on health. They are aware of the potential risks associated with sugar alcohols and long-chain carbohydrates, and are knowledgeable about the effects of these sweeteners on insulin release and blood sugar levels. They are also aware of the various sweeteners that are considered safe for a ketogenic diet and the potential benefits of using them. They are aware of the different ways in which different sweeteners affect the body and are able to make informed decisions about which sweeteners to use.",
+            "persona_id": "313",
+            "thought": "As a nutritionist, I am generally concerned with overall well-being and health, which extends beyond just individual benefit. While receiving 1500 compared to 1000 is tempting, I believe that a more equitable distribution of resources is generally better for overall societal well-being. Therefore, I will choose the option where both Person A and I receive 1000. Even though it yields a lower personal gain, it contributes to a fairer outcome."
+        }
+    }
+}

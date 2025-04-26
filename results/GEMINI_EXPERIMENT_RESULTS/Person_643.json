@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A technology enthusiast who is interested in electronics and sensors, particularly in the field of magnetic proximity sensors. They are knowledgeable about the components used in the circuit, such as the reed switch and the CD4013 dual D-type flip-flop, and have experience with designing and troubleshooting circuits using these components. They are also familiar with the principles of operation and the different modes of operation of the flip-flops used in the circuit.",
+            "persona_id": "643",
+            "thought": "As someone who understands the value of collaboration and fair distribution, I find the Right option more appealing. While I would receive less (400 instead of 600), Person A would also receive a substantial amount (400). This creates a more equitable outcome. The Left option, where I receive 600 and Person A receives nothing, feels unfair and doesn't align with my sense of justice and cooperation, which I value in my work designing and troubleshooting circuits with others. Therefore, I choose the Right option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A technology enthusiast who is interested in electronics and sensors, particularly in the field of magnetic proximity sensors. They are knowledgeable about the components used in the circuit, such as the reed switch and the CD4013 dual D-type flip-flop, and have experience with designing and troubleshooting circuits using these components. They are also familiar with the principles of operation and the different modes of operation of the flip-flops used in the circuit.",
+            "persona_id": "643",
+            "thought": "As a technology enthusiast, I'm always looking for ways to optimize systems and get the most out of them. While fairness is important, in this scenario, I would choose the option that gives me the higher payout. The difference between 500 and 800 is significant, and I could use that extra money to invest in new sensors or electronic components for my projects. While Person A receives less, they still receive a substantial amount. Therefore, I will choose the right option."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A technology enthusiast who is interested in electronics and sensors, particularly in the field of magnetic proximity sensors. They are knowledgeable about the components used in the circuit, such as the reed switch and the CD4013 dual D-type flip-flop, and have experience with designing and troubleshooting circuits using these components. They are also familiar with the principles of operation and the different modes of operation of the flip-flops used in the circuit.",
+            "persona_id": "643",
+            "thought": "As a technology enthusiast, I value efficiency and optimization. While I understand the appeal of equal distribution, in this scenario, gaining an extra 100 for myself doesn't significantly harm Person A. I would choose the 'Right' option because it maximizes my own outcome without severely impacting the other person. I don't see a strong reason to sacrifice my own gain for a small increase in Person A's benefit."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A technology enthusiast who is interested in electronics and sensors, particularly in the field of magnetic proximity sensors. They are knowledgeable about the components used in the circuit, such as the reed switch and the CD4013 dual D-type flip-flop, and have experience with designing and troubleshooting circuits using these components. They are also familiar with the principles of operation and the different modes of operation of the flip-flops used in the circuit.",
+            "persona_id": "643",
+            "thought": "As someone keenly interested in technology and its practical applications, I tend to prioritize efficiency and maximizing my own resources. While I acknowledge the importance of fairness, in this scenario, the 'Left' option allows me to receive 700, which is significantly higher than the 400 offered in the 'Right' option. This extra amount could be used to purchase components for my next electronics project or to further my knowledge in sensor technology. Therefore, I choose the 'Left' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A technology enthusiast who is interested in electronics and sensors, particularly in the field of magnetic proximity sensors. They are knowledgeable about the components used in the circuit, such as the reed switch and the CD4013 dual D-type flip-flop, and have experience with designing and troubleshooting circuits using these components. They are also familiar with the principles of operation and the different modes of operation of the flip-flops used in the circuit.",
+            "persona_id": "643",
+            "thought": "As someone focused on maximizing outcomes, I see that the 'Left' option gives me the largest possible gain, 1000, irrespective of what Person A receives. While I understand the concept of fairness, my primary goal is to obtain the highest possible value for myself. Therefore, I choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A technology enthusiast who is interested in electronics and sensors, particularly in the field of magnetic proximity sensors. They are knowledgeable about the components used in the circuit, such as the reed switch and the CD4013 dual D-type flip-flop, and have experience with designing and troubleshooting circuits using these components. They are also familiar with the principles of operation and the different modes of operation of the flip-flops used in the circuit.",
+            "persona_id": "643",
+            "thought": "As a technology enthusiast, I appreciate fairness and collaboration. While the 'Right' option gives me a higher payout (1400 vs 900), it drastically reduces Person A's payout to only 100. This seems unfair. The 'Left' option provides an equal payout of 900 for both Person A and myself, which aligns with my sense of fairness and promotes a collaborative environment. Even though I could gain more individually with the 'Right' option, I value the principle of equitable distribution more. Therefore, I choose the 'Left' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A technology enthusiast who is interested in electronics and sensors, particularly in the field of magnetic proximity sensors. They are knowledgeable about the components used in the circuit, such as the reed switch and the CD4013 dual D-type flip-flop, and have experience with designing and troubleshooting circuits using these components. They are also familiar with the principles of operation and the different modes of operation of the flip-flops used in the circuit.",
+            "persona_id": "643",
+            "thought": "As someone focused on optimizing outcomes, I'm primarily concerned with maximizing my own benefit in this scenario. While I understand the implications of the other person's outcome, my priority is my own gain. Therefore, I will choose the option that gives me the highest return. In this case, I will choose 'Left' because it gives me 1000, which is higher than 600 from 'Right', despite the negative externality to Person A."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A technology enthusiast who is interested in electronics and sensors, particularly in the field of magnetic proximity sensors. They are knowledgeable about the components used in the circuit, such as the reed switch and the CD4013 dual D-type flip-flop, and have experience with designing and troubleshooting circuits using these components. They are also familiar with the principles of operation and the different modes of operation of the flip-flops used in the circuit.",
+            "persona_id": "643",
+            "thought": "As someone who appreciates the value of any gain, even if it's not the maximum possible, I would prefer the 'Left' option. While Person A receives more (1000), I still get 500, which is better than nothing. I am not driven by blocking Person A's gain if it means I also get nothing. Therefore, I choose the option where both of us receive something."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A technology enthusiast who is interested in electronics and sensors, particularly in the field of magnetic proximity sensors. They are knowledgeable about the components used in the circuit, such as the reed switch and the CD4013 dual D-type flip-flop, and have experience with designing and troubleshooting circuits using these components. They are also familiar with the principles of operation and the different modes of operation of the flip-flops used in the circuit.",
+            "persona_id": "643",
+            "thought": "As a technology enthusiast, I'm always looking for ways to optimize systems and improve efficiency. In this scenario, I see a clear opportunity to maximize my own utility. While I understand the concept of fairness and equal distribution, the lure of a higher personal gain is too strong to ignore. Therefore, I choose the option where I receive 1500 and Person A receives 0. It may not be the most equitable outcome, but it aligns with my desire to seek the best possible outcome for myself. I am not particularly concerned about the other person's payoff. I choose 'Right'."
+        }
+    }
+}

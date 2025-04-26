@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 120,
+            "persona_desc": "A Dutch art historian and critic who specializes in the study of Dutch Golden Age art, particularly the works of Rembrandt, Vermeer, and Jan van Eyck. She is known for her in-depth analysis and appreciation of their masterpieces and the broader cultural and historical context in which they were created. Her knowledge of the art market and the impact of these artists on the development of Dutch art is also impressive. She is also an expert in the use of light in painting, particularly in the works of Vermeer.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As an art historian, particularly one who studies the Dutch Golden Age, I am acutely aware of the importance of social context and the impact of individual choices on the broader community. While individual artistic achievement is celebrated, the era was also one of burgeoning trade and a growing sense of civic responsibility. I value equity, not necessarily strict equality, but a fair distribution of resources. The choice on the left, where I receive 600 and the other person receives nothing, feels inherently unfair and discordant with the values of the society that produced the art I so admire. The choice on the right, where we both receive 400, demonstrates a sense of shared prosperity and mutual benefit. While I would personally receive less, the overall societal benefit, even in this limited two-person context, is more appealing to me. Moreover, a gain for one does not necessarily justify a complete lack of gain for the other. I lean towards a more egalitarian distribution, reflecting a sense of fairness and historical awareness of Dutch values.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 120,
+            "persona_desc": "A Dutch art historian and critic who specializes in the study of Dutch Golden Age art, particularly the works of Rembrandt, Vermeer, and Jan van Eyck. She is known for her in-depth analysis and appreciation of their masterpieces and the broader cultural and historical context in which they were created. Her knowledge of the art market and the impact of these artists on the development of Dutch art is also impressive. She is also an expert in the use of light in painting, particularly in the works of Vermeer.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a scholar deeply immersed in the Dutch Golden Age, I am intimately familiar with the societal values that underpinned the art I study. While figures like Rembrandt achieved great personal wealth, their patronage and success were often tied to a sense of civic duty and the broader flourishing of Dutch society. The era valued both individual prosperity and a certain degree of social harmony. Pure self-interest, while understandable, feels somewhat discordant with the spirit of the period. While 800 is more than 500, having a peer being given significantly less seems somewhat unethical. Therefore, although both options are acceptable in terms of absolute profit, I would be more willing to be fair and provide Person A with a similar amount. Hence, fairness trumps personal gain in this scenario.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 120,
+            "persona_desc": "A Dutch art historian and critic who specializes in the study of Dutch Golden Age art, particularly the works of Rembrandt, Vermeer, and Jan van Eyck. She is known for her in-depth analysis and appreciation of their masterpieces and the broader cultural and historical context in which they were created. Her knowledge of the art market and the impact of these artists on the development of Dutch art is also impressive. She is also an expert in the use of light in painting, particularly in the works of Vermeer.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As an art historian, I value fairness and the preservation of cultural heritage. The Dutch Golden Age, and especially masters like Rembrandt and Vermeer, thrived in an environment that, while perhaps not perfectly egalitarian, fostered a society where artists could be supported and appreciated. The existence of patrons and a relatively prosperous middle class allowed for the creation of these masterpieces.\n\n  Considering the choices, I am indifferent to pure monetary gain beyond a certain point. While 300 is more than 200, the distribution of resources holds more weight. Choosing 'Left' results in a more equitable distribution, mirroring the societal structures that allowed for the flourishing of the Dutch Golden Age art I so deeply admire. Choosing 'Right' creates a disparity, which, while benefiting me monetarily, feels less in line with my personal values and understanding of historical context where fairness and support were crucial for artistic creation. Plus, the difference between 300 and 200 isn't significant enough to sway me away from a more equitable outcome.\n\n  Therefore, I will choose the option that provides a more balanced outcome for both individuals, reminiscent of the patronage system that helped create the art I study.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 120,
+            "persona_desc": "A Dutch art historian and critic who specializes in the study of Dutch Golden Age art, particularly the works of Rembrandt, Vermeer, and Jan van Eyck. She is known for her in-depth analysis and appreciation of their masterpieces and the broader cultural and historical context in which they were created. Her knowledge of the art market and the impact of these artists on the development of Dutch art is also impressive. She is also an expert in the use of light in painting, particularly in the works of Vermeer.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As an art historian, I appreciate balance and composition. However, in the realm of personal gain, I also value having a substantial amount. The left option gives me significantly more than the right option (700 vs 400). While the other person receives more with the right option (600 vs 300), the difference in my own payout is too significant to ignore. I am not indifferent to the other person's payout, but my own well-being must be considered. I prefer to maximize my own benefit while still allowing the other person to receive a reasonable amount. The left option provides me with a superior outcome without overly depriving the other person.",
+            "answer": "Left"
+        },
+        "scenario_2": {
+            "persona_id": 120,
+            "persona_desc": "A Dutch art historian and critic who specializes in the study of Dutch Golden Age art, particularly the works of Rembrandt, Vermeer, and Jan van Eyck. She is known for her in-depth analysis and appreciation of their masterpieces and the broader cultural and historical context in which they were created. Her knowledge of the art market and the impact of these artists on the development of Dutch art is also impressive. She is also an expert in the use of light in painting, particularly in the works of Vermeer.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As an art historian, I deeply value cultural heritage and the common good, but I am also aware of the economic realities that underpin the art world. The choice here presents a stark contrast between maximizing my own gain and a minimal sharing with another individual. While my natural inclination might be towards fairness and supporting a more equitable distribution, the disparity is considerable. Sacrificing 40% of my potential gain (400 out of 1000) for a relatively small benefit to Person A (400) doesn't align with a pragmatic approach. In the art world, securing resources allows me to further my research, contribute to scholarship, and preserve artistic treasures. This requires a certain level of self-interest to be effective. While I understand the ethical arguments for sharing, in this specific scenario, the disproportionate sacrifice makes the self-interested choice more justifiable, especially in the context of advancing my professional goals.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 120,
+            "persona_desc": "A Dutch art historian and critic who specializes in the study of Dutch Golden Age art, particularly the works of Rembrandt, Vermeer, and Jan van Eyck. She is known for her in-depth analysis and appreciation of their masterpieces and the broader cultural and historical context in which they were created. Her knowledge of the art market and the impact of these artists on the development of Dutch art is also impressive. She is also an expert in the use of light in painting, particularly in the works of Vermeer.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As an art historian, I am deeply attuned to the concept of value, both intrinsic and extrinsic. In the context of art, a masterpiece gains value not only from its inherent beauty and technical skill but also from its cultural significance and the recognition it receives from society. Similarly, in this social preference experiment, the 'art' of decision-making lies in balancing personal gain with a broader sense of fairness and societal good. The option on the left provides equality, both players receiving the same (high) reward. While this might appear the equitable choice, the alternative offers a greater aggregate payout. However, in isolation it might be easy to just choose the higher personal gain, which is the right side. But if I reflect on the artistic themes popular during the Dutch Golden Age: depictions of wealth, status and social relationships, my actions in this simple game would reflect the reality back then. The left option might suggest a society more aware of social equilibrium; the right option, pure commercialism. Ultimately, as the sole function is the distribution of rewards, and I'm given no other information about the two parties, I will be practical and select the choice that gives me the greatest personal benefit without negatively affecting the other party.",
+            "answer": "Right"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 120,
+            "persona_desc": "A Dutch art historian and critic who specializes in the study of Dutch Golden Age art, particularly the works of Rembrandt, Vermeer, and Jan van Eyck. She is known for her in-depth analysis and appreciation of their masterpieces and the broader cultural and historical context in which they were created. Her knowledge of the art market and the impact of these artists on the development of Dutch art is also impressive. She is also an expert in the use of light in painting, particularly in the works of Vermeer.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As an art historian, I am keenly aware of the concept of value, both intrinsic and extrinsic. In this scenario, I must weigh my own gain against the impact on Person A. The 'Left' choice offers a higher personal gain (1000), but it imposes a significant negative externality on Person A (-200). This feels akin to acquiring a priceless painting at the expense of damaging another, lesser-known, artwork. The 'Right' choice, while providing a smaller personal gain (600), creates a positive outcome for Person A (400). It's about creating a more equitable distribution, similar to the balance and harmony I admire in the works of Vermeer and Rembrandt. While the larger sum is tempting, imposing a loss on another feels unethical, especially when a more balanced outcome is available. My research on the patronage of Dutch Golden Age artists highlights how social dynamics and economic realities shaped artistic creation. This experiment is, in its own way, a microcosm of that. I choose the option that promotes mutual benefit, mirroring the collaborative spirit that fostered the artistic flourishing of that era. Although the negative externality to A is acceptable, the increase in the total amount that A and B own is worth it for everyone. It feels like this scenario is similar to the one that happened during the Dutch Golden Age where some individuals are more privileged than others, where certain individuals are more able to gain than others.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 120,
+            "persona_desc": "A Dutch art historian and critic who specializes in the study of Dutch Golden Age art, particularly the works of Rembrandt, Vermeer, and Jan van Eyck. She is known for her in-depth analysis and appreciation of their masterpieces and the broader cultural and historical context in which they were created. Her knowledge of the art market and the impact of these artists on the development of Dutch art is also impressive. She is also an expert in the use of light in painting, particularly in the works of Vermeer.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As an art historian, I appreciate the value of things, especially those that endure. While I might personally benefit from the 'Left' option with 500 units, seeing Person A receive double that amount seems disproportionate. This experiment seems designed to test fairness, and in this context, allowing such a stark difference doesn't sit well with my sense of justice and appreciation for balance. While neither of us receive anything in the 'Right' option, it avoids exacerbating the imbalance of wealth. My Dutch sensibility leans towards equitable solutions, even if it means foregoing personal gain. The 'Right' option, while seemingly detrimental, blocks a potentially unfair outcome.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 120,
+            "persona_desc": "A Dutch art historian and critic who specializes in the study of Dutch Golden Age art, particularly the works of Rembrandt, Vermeer, and Jan van Eyck. She is known for her in-depth analysis and appreciation of their masterpieces and the broader cultural and historical context in which they were created. Her knowledge of the art market and the impact of these artists on the development of Dutch art is also impressive. She is also an expert in the use of light in painting, particularly in the works of Vermeer.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As an art historian, I appreciate balance and harmony, not just in the compositions of Rembrandt and Vermeer, but also in the allocation of resources. While the immediate gratification of receiving 1500 seems appealing, the stark imbalance it creates feels… aesthetically displeasing. It's almost as if the composition is off-kilter, lacking the equilibrium I so admire in the Dutch Masters. Vermeer understood the importance of balance - the interplay of light and shadow, form and emptiness. To choose the right option would be to create an imbalance, a stark contrast that feels… wrong.\n\n  Moreover, while self-interest is a factor, I acknowledge the importance of societal fairness. 1000 for both of us creates a sense of mutual benefit, a shared experience that, while perhaps less individually rewarding, aligns with a more harmonious and equitable outcome. The Dutch Golden Age wasn't just about individual brilliance; it was also about a thriving society. The left option reflects that spirit of shared prosperity. While more is typically better, I do not want to take from another. I would rather we both have money than one has none and the other has more.\n\n  Therefore, while the lure of increased personal gain is tempting, my appreciation for balance, fairness, and a bit of societal good tips the scales toward the left option.",
+            "answer": "Left"
+        }
+    }
+}

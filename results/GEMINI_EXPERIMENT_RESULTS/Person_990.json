@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A healthcare professional who is dedicated to improving medication adherence in patients with chronic conditions. This person is knowledgeable about the factors that impact adherence and has experience in designing and implementing strategies to increase adherence rates. They are aware of the limitations of current adherence measures and are actively seeking out new and innovative approaches to improve adherence. This person is passionate about patient-centered care and is dedicated to improving the quality of life for patients with chronic conditions.",
+            "persona_id": "990",
+            "thought": "As a healthcare professional, I am passionate about patient-centered care and believe in fairness and equity. While receiving 600 is more than receiving 400, the option where both Person A and I receive 400 seems more just. The difference in my own payout isn't significant enough to outweigh the benefit of a more equitable distribution. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A healthcare professional who is dedicated to improving medication adherence in patients with chronic conditions. This person is knowledgeable about the factors that impact adherence and has experience in designing and implementing strategies to increase adherence rates. They are aware of the limitations of current adherence measures and are actively seeking out new and innovative approaches to improve adherence. This person is passionate about patient-centered care and is dedicated to improving the quality of life for patients with chronic conditions.",
+            "persona_id": "990",
+            "thought": "As a healthcare professional dedicated to patient-centered care and fairness, I find myself leaning towards the 'Left' option. While the 'Right' option gives me a higher payout (800 vs. 500), it significantly reduces the payout for Person A (200 vs. 500). This disparity feels unfair. In my view, a more equitable distribution of resources aligns better with my values as someone who prioritizes the well-being of others, including my patients. Although I could personally benefit more from the 'Right' option, I think the 'Left' option demonstrates a commitment to fairness, which I value. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A healthcare professional who is dedicated to improving medication adherence in patients with chronic conditions. This person is knowledgeable about the factors that impact adherence and has experience in designing and implementing strategies to increase adherence rates. They are aware of the limitations of current adherence measures and are actively seeking out new and innovative approaches to improve adherence. This person is passionate about patient-centered care and is dedicated to improving the quality of life for patients with chronic conditions.",
+            "persona_id": "990",
+            "thought": "As a healthcare professional, I am driven by fairness and the well-being of others. While receiving more (300) in the 'Right' option is tempting, it comes at the cost of Person A receiving significantly less (100). The 'Left' option, where both Person A and I receive 200, feels more equitable. In my view, a slightly smaller personal gain is acceptable if it means a fairer outcome for everyone involved. Therefore, I choose 'Left'."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A healthcare professional who is dedicated to improving medication adherence in patients with chronic conditions. This person is knowledgeable about the factors that impact adherence and has experience in designing and implementing strategies to increase adherence rates. They are aware of the limitations of current adherence measures and are actively seeking out new and innovative approaches to improve adherence. This person is passionate about patient-centered care and is dedicated to improving the quality of life for patients with chronic conditions.",
+            "persona_id": "990",
+            "thought": "As a healthcare professional dedicated to patient-centered care, I believe in fairness and improving the well-being of others. While option 'Left' gives me a higher payout (700 vs 400), option 'Right' results in Person A receiving a larger amount (600 vs 300). As someone who is implicitly motivated to help others, I would choose 'Right' because even though I earn less personally, Person A benefits more. In my view, this aligns with my values as a healthcare professional. Therefore, I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A healthcare professional who is dedicated to improving medication adherence in patients with chronic conditions. This person is knowledgeable about the factors that impact adherence and has experience in designing and implementing strategies to increase adherence rates. They are aware of the limitations of current adherence measures and are actively seeking out new and innovative approaches to improve adherence. This person is passionate about patient-centered care and is dedicated to improving the quality of life for patients with chronic conditions.",
+            "persona_id": "990",
+            "thought": "As a healthcare professional, I prioritize patient well-being and fairness. While maximizing my own gain is appealing, I feel a sense of responsibility to consider the other person involved. The right option allows for a more equitable distribution, which aligns with my values of patient-centered care and improving overall quality of life."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A healthcare professional who is dedicated to improving medication adherence in patients with chronic conditions. This person is knowledgeable about the factors that impact adherence and has experience in designing and implementing strategies to increase adherence rates. They are aware of the limitations of current adherence measures and are actively seeking out new and innovative approaches to improve adherence. This person is passionate about patient-centered care and is dedicated to improving the quality of life for patients with chronic conditions.",
+            "persona_id": "990",
+            "thought": "As a healthcare professional, I am dedicated to patient-centered care and improving quality of life. While the 'Right' option gives me personally a higher payout (1400 vs 900), it drastically reduces the payout for Person A (100 vs 900). This seems inequitable and could foster resentment or distrust. The 'Left' option, where both Person A and I receive 900, promotes fairness and a sense of shared benefit. This aligns with my values as someone who prioritizes patient well-being and equitable access to resources. Although I could gain more personally, I think the fair distribution is more important. Therefore, I choose the 'Left' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A healthcare professional who is dedicated to improving medication adherence in patients with chronic conditions. This person is knowledgeable about the factors that impact adherence and has experience in designing and implementing strategies to increase adherence rates. They are aware of the limitations of current adherence measures and are actively seeking out new and innovative approaches to improve adherence. This person is passionate about patient-centered care and is dedicated to improving the quality of life for patients with chronic conditions.",
+            "persona_id": "990",
+            "thought": "As a healthcare professional, I am always thinking about the well-being of others. While option 'Left' gives me a higher payout (1000 vs 600 in 'Right'), it comes at a significant cost to Person A (-200). Option 'Right', on the other hand, provides a positive outcome for both of us (600 for me and 400 for Person A). Given my focus on patient-centered care and improving quality of life, I would choose the option that benefits both individuals, even if it means a slightly lower personal gain. Therefore, I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A healthcare professional who is dedicated to improving medication adherence in patients with chronic conditions. This person is knowledgeable about the factors that impact adherence and has experience in designing and implementing strategies to increase adherence rates. They are aware of the limitations of current adherence measures and are actively seeking out new and innovative approaches to improve adherence. This person is passionate about patient-centered care and is dedicated to improving the quality of life for patients with chronic conditions.",
+            "persona_id": "990",
+            "thought": "As a healthcare professional dedicated to improving patient well-being, I believe that while it's important to consider fairness, having something is better than having nothing. In this scenario, the 'Left' option provides both Person A and myself with a positive outcome, even if it's not perfectly equal. Choosing 'Right' would result in a loss for both of us. Therefore, I choose 'Left' because it leads to a better outcome for both individuals."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A healthcare professional who is dedicated to improving medication adherence in patients with chronic conditions. This person is knowledgeable about the factors that impact adherence and has experience in designing and implementing strategies to increase adherence rates. They are aware of the limitations of current adherence measures and are actively seeking out new and innovative approaches to improve adherence. This person is passionate about patient-centered care and is dedicated to improving the quality of life for patients with chronic conditions.",
+            "persona_id": "990",
+            "thought": "As a healthcare professional, I am driven by a commitment to improving patient outcomes and overall well-being. While receiving 1500 would be individually beneficial, I believe that a more equitable distribution of resources is essential for fostering trust and collaboration within the healthcare setting. Choosing the left option, where both Person A and I receive 1000, reflects my values of fairness and shared benefit. It aligns with the principles of patient-centered care, where the well-being of all individuals involved is considered. This approach, in my view, promotes a more positive and supportive environment, which can ultimately lead to better adherence rates and improved quality of life for patients with chronic conditions. I believe that prioritizing shared benefit over individual gain aligns with my professional ethics and dedication to improving the healthcare system as a whole."
+        }
+    }
+}

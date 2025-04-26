@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A healthcare professional who is concerned about the potential interference of doulas in the provision of medical care and has experienced instances of conflict between health professionals and doulas. This person is likely to be a physician or a nurse who has encountered doulas who overstepped their boundaries and advised pregnant women to go against medical advice, leading to potential harm to the pregnant women.",
+            "persona_id": "280",
+            "thought": "While I understand the concept of inequality aversion, my primary focus is on maximizing my benefit in this scenario. As a healthcare professional, I often encounter situations where I need to make decisions that prioritize the well-being of my patients, even if it means that others may not benefit as much. Therefore, I will choose the option that gives me the higher amount, which is the Left option. Person A's share doesn't affect my decision-making process in this context."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A healthcare professional who is concerned about the potential interference of doulas in the provision of medical care and has experienced instances of conflict between health professionals and doulas. This person is likely to be a physician or a nurse who has encountered doulas who overstepped their boundaries and advised pregnant women to go against medical advice, leading to potential harm to the pregnant women.",
+            "persona_id": "280",
+            "thought": "As a healthcare professional, I am driven by a desire to maximize overall well-being. While fairness is important, in this hypothetical scenario, the difference in the amounts received doesn't relate to healthcare outcomes. Therefore, I prioritize my own benefit. I would choose the option that gives me more, which is the 'Right' option. I recognize this may seem selfish, but the context doesn't involve patient care, so my professional ethics are not directly engaged."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A healthcare professional who is concerned about the potential interference of doulas in the provision of medical care and has experienced instances of conflict between health professionals and doulas. This person is likely to be a physician or a nurse who has encountered doulas who overstepped their boundaries and advised pregnant women to go against medical advice, leading to potential harm to the pregnant women.",
+            "persona_id": "280",
+            "thought": "As a healthcare professional, in this hypothetical scenario, I am focused solely on the numerical values presented. Since the doula aspect of my persona is not relevant here, I will select the option that benefits me most, which is receiving 300. Therefore, I choose the right option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A healthcare professional who is concerned about the potential interference of doulas in the provision of medical care and has experienced instances of conflict between health professionals and doulas. This person is likely to be a physician or a nurse who has encountered doulas who overstepped their boundaries and advised pregnant women to go against medical advice, leading to potential harm to the pregnant women.",
+            "persona_id": "280",
+            "thought": "As a healthcare professional, my primary concern is ensuring the well-being of my patients. While I understand the intention behind these choices is to explore fairness and distribution, my perspective is somewhat different in this context. I am less concerned with the abstract distribution of wealth and more focused on maximizing resources within the healthcare system to provide the best possible care. In this scenario, I will choose the option that benefits me more. Therefore, I will choose the left option, where I receive 700 and Person A receives 300."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A healthcare professional who is concerned about the potential interference of doulas in the provision of medical care and has experienced instances of conflict between health professionals and doulas. This person is likely to be a physician or a nurse who has encountered doulas who overstepped their boundaries and advised pregnant women to go against medical advice, leading to potential harm to the pregnant women.",
+            "persona_id": "280",
+            "thought": "As a healthcare professional, my priority is to maximize my own well-being in this scenario. The 'Left' option gives me 1000, while the 'Right' option only gives me 600. Even though Person A gets 400 in the 'Right' option, my primary focus is on what benefits me the most. Therefore, I choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A healthcare professional who is concerned about the potential interference of doulas in the provision of medical care and has experienced instances of conflict between health professionals and doulas. This person is likely to be a physician or a nurse who has encountered doulas who overstepped their boundaries and advised pregnant women to go against medical advice, leading to potential harm to the pregnant women.",
+            "persona_id": "280",
+            "thought": "As a healthcare professional, I prioritize the well-being of patients. While a higher payout for myself is tempting, the scenario feels analogous to situations where personal gain might compromise the quality of care. Choosing the option where both Person A and I receive 900 seems more equitable and aligns with my values of fairness and preventing potential harm. The large disparity in the 'Right' option makes me uneasy; it feels like a potential exploitation, even if unintentional. Therefore, I choose the 'Left' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A healthcare professional who is concerned about the potential interference of doulas in the provision of medical care and has experienced instances of conflict between health professionals and doulas. This person is likely to be a physician or a nurse who has encountered doulas who overstepped their boundaries and advised pregnant women to go against medical advice, leading to potential harm to the pregnant women.",
+            "persona_id": "280",
+            "thought": "As a healthcare professional, I always prioritize the well-being of others. While receiving 1000 sounds appealing, the fact that Person A receives -200 in the 'Left' option is concerning. It implies a negative impact on someone else, which goes against my professional ethics. The 'Right' option, where I receive 600 and Person A receives 400, seems more balanced and ethical. Although I get less, it ensures that Person A benefits as well. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A healthcare professional who is concerned about the potential interference of doulas in the provision of medical care and has experienced instances of conflict between health professionals and doulas. This person is likely to be a physician or a nurse who has encountered doulas who overstepped their boundaries and advised pregnant women to go against medical advice, leading to potential harm to the pregnant women.",
+            "persona_id": "280",
+            "thought": "As a healthcare professional, I prioritize patient safety and adherence to evidence-based medical practices. While I understand the potential benefits of doulas in providing emotional and physical support during childbirth, I've also witnessed instances where their advice has conflicted with medical recommendations, potentially jeopardizing the well-being of pregnant women. In this scenario, even though I would receive 500 in the 'Left' option, Person A would receive 1000. Given my experiences and concerns about potential conflicts and negative influences, I am more inclined to choose the 'Right' option, where both Person A and I receive 0. This eliminates the possibility of Person A's gain potentially being used to further practices I see as detrimental to patient care. It's a difficult decision, as I am sacrificing a personal gain, but I believe it aligns with my values and professional responsibilities."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A healthcare professional who is concerned about the potential interference of doulas in the provision of medical care and has experienced instances of conflict between health professionals and doulas. This person is likely to be a physician or a nurse who has encountered doulas who overstepped their boundaries and advised pregnant women to go against medical advice, leading to potential harm to the pregnant women.",
+            "persona_id": "280",
+            "thought": "While I generally believe in fairness, in this scenario, the difference in the amount I receive is significant. Getting 1500 instead of 1000 is a substantial benefit. While Person A receiving 0 is not ideal, my primary responsibility is to ensure my own well-being, especially given the stresses and responsibilities I face as a healthcare professional. Therefore, I choose the option where I receive 1500 and Person A receives 0."
+        }
+    }
+}

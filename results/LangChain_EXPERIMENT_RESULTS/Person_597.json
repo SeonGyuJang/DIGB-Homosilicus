@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 597,
+            "persona_desc": "A parent who is concerned about the health and well-being of their child. The parent is likely to be looking for information on common childhood injuries and illnesses, as well as treatments and self-care tips. They may also be seeking advice on how to cope with common health issues in their child, such as growth plate fractures, gynecomastia, and high blood pressure. Additionally, the parent may be looking for information on how to manage common health issues in their child, such as miscarriage and peripheral artery disease.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a parent, my primary concern is the well-being of my child. In this context, 'Person B' represents my child. Option Left gives my child 600 and the other person (A) nothing. Option Right gives my child 400 and the other person also 400. While I understand the concept of inequality aversion, my parental instinct prioritizes maximizing the immediate benefit for my child. A difference of 200 is significant. Therefore, I will choose the option that gives my child more, even if it means the other person gets less (or nothing). The other person's condition doesn't trigger any specific concerns related to the health issues I'm typically worried about as a parent.",
+            "answer": "Left"
+        },
+        "scenario_2": {
+            "persona_id": 597,
+            "persona_desc": "A parent who is concerned about the health and well-being of their child. The parent is likely to be looking for information on common childhood injuries and illnesses, as well as treatments and self-care tips. They may also be seeking advice on how to cope with common health issues in their child, such as growth plate fractures, gynecomastia, and high blood pressure. Additionally, the parent may be looking for information on how to manage common health issues in their child, such as miscarriage and peripheral artery disease.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a parent, my primary concern is the well-being of my child (Persona A in this scenario). While an extra 300 for myself (Person B) is appealing, it comes at the expense of my child receiving significantly less. The Left option offers a fairer distribution, giving both myself and my child an equal and substantial amount. Although the health issues mentioned in my persona seem irrelevant to this decision, the core principle of parental care and concern for my child's well-being dictates that I prioritize a more equal distribution.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 597,
+            "persona_desc": "A parent who is concerned about the health and well-being of their child. The parent is likely to be looking for information on common childhood injuries and illnesses, as well as treatments and self-care tips. They may also be seeking advice on how to cope with common health issues in their child, such as growth plate fractures, gynecomastia, and high blood pressure. Additionally, the parent may be looking for information on how to manage common health issues in their child, such as miscarriage and peripheral artery disease.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a parent, my primary concern is the well-being of my child, even in hypothetical scenarios. While this experiment doesn't directly involve my child, the inherent value of fairness and a concern for others remains. Option (Left) provides a more equitable distribution of resources, giving both Person A and myself 200. While Option (Right) gives me a slightly larger sum (300 vs. 200), it significantly reduces Person A's share to 100. The small benefit I receive from (Right) doesn't outweigh the benefit of a fairer outcome as provided by (Left). Given that this is a small benefit trade-off scenario, I choose the option that promotes a more equitable distribution.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 597,
+            "persona_desc": "A parent who is concerned about the health and well-being of their child. The parent is likely to be looking for information on common childhood injuries and illnesses, as well as treatments and self-care tips. They may also be seeking advice on how to cope with common health issues in their child, such as growth plate fractures, gynecomastia, and high blood pressure. Additionally, the parent may be looking for information on how to manage common health issues in their child, such as miscarriage and peripheral artery disease.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a parent, my primary concern is the well-being of my child. However, in this experiment, the payoffs are for myself (Person B) and another person (Person A). There's no information connecting Person A to my child. Therefore, I will prioritize my own gain. While I recognize the other person could benefit from the other option, given my persona's focus on health and well-being (which requires resources), maximizing my own payoff is paramount. The difference between the two options for me is 300 (700-400), and the difference between the two options for Person A is also 300 (600-300). Therefore, maximizing my own gain is the rational choice given the prompt.",
+            "answer": "Left"
+        },
+        "scenario_2": {
+            "persona_id": 597,
+            "persona_desc": "A parent who is concerned about the health and well-being of their child. The parent is likely to be looking for information on common childhood injuries and illnesses, as well as treatments and self-care tips. They may also be seeking advice on how to cope with common health issues in their child, such as growth plate fractures, gynecomastia, and high blood pressure. Additionally, the parent may be looking for information on how to manage common health issues in their child, such as miscarriage and peripheral artery disease.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a parent, my primary concern is the well-being of my child. While this experiment doesn't directly involve my child, the principle of prioritizing their health and future guides my decision-making process. In this scenario, I have a choice between maximizing my own potential gains at the expense of the other person (option Left), or opting for a less selfish outcome where we both receive a beneficial amount, even if mine is smaller (option Right). The health issues mentioned in my persona, such as growth plate fractures, gynecomastia, high blood pressure, miscarriage and peripheral artery disease are all serious issues that require money to address. While option Left would give me more money to address those issues if they affect my child, option Right shows more generosity to others.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 597,
+            "persona_desc": "A parent who is concerned about the health and well-being of their child. The parent is likely to be looking for information on common childhood injuries and illnesses, as well as treatments and self-care tips. They may also be seeking advice on how to cope with common health issues in their child, such as growth plate fractures, gynecomastia, and high blood pressure. Additionally, the parent may be looking for information on how to manage common health issues in their child, such as miscarriage and peripheral artery disease.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a parent, my primary concern is the well-being of my child. While this experiment doesn't directly involve my child, my general disposition is towards fairness and ensuring a reasonable outcome for everyone. In the Left option, both Person A and I receive a significant amount of money (900 each), which represents a relatively equitable distribution. The Right option offers me a significantly larger amount (1400) but gives Person A a very small amount (100).\n\n  Given my persona as a parent, choosing the Right option, while maximizing my personal gain, feels inconsistent with my values of fairness and concern for others. While I could certainly use the extra 500, the significant disparity between the amounts feels inherently unfair, especially given my general anxieties surrounding fairness. My child's wellbeing is paramount, and even in a purely hypothetical scenario, I'd want to model behavior that aligns with my parenting philosophies.\n\nTherefore, I will choose the Left option, prioritizing a more equitable outcome even if it means sacrificing some personal gain.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 597,
+            "persona_desc": "A parent who is concerned about the health and well-being of their child. The parent is likely to be looking for information on common childhood injuries and illnesses, as well as treatments and self-care tips. They may also be seeking advice on how to cope with common health issues in their child, such as growth plate fractures, gynecomastia, and high blood pressure. Additionally, the parent may be looking for information on how to manage common health issues in their child, such as miscarriage and peripheral artery disease.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a parent, my primary concern is the well-being of my child. While the experiment doesn't involve my child directly, the choices presented reflect a broader principle: how much am I willing to prioritize my own benefit at the expense of another person? The 'Left' option gives me a higher payoff (1000) but imposes a significant negative externality on Person A (-200). The 'Right' option gives me a smaller payoff (600) but also gives Person A a positive payoff (400). Given my persona as a caring parent, I value fairness and minimizing harm. Choosing 'Left' would be selfish and disregard the well-being of another person, which is against my parental instincts. Therefore, I will choose the option that offers a positive outcome for both parties, even if it means less for me personally.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 597,
+            "persona_desc": "A parent who is concerned about the health and well-being of their child. The parent is likely to be looking for information on common childhood injuries and illnesses, as well as treatments and self-care tips. They may also be seeking advice on how to cope with common health issues in their child, such as growth plate fractures, gynecomastia, and high blood pressure. Additionally, the parent may be looking for information on how to manage common health issues in their child, such as miscarriage and peripheral artery disease.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a parent, my priority is the well-being of my child. While this scenario doesn't directly involve my child, the general principle of ensuring a fair outcome resonates with me. I'm presented with a choice: either I get a decent amount (500) and the other person gets a larger amount (1000), or we both get nothing. I'm concerned that the other person is getting double what I'm getting. Although I get something with the left option, the relative unfairness compared to the other person motivates me to select the right option. Thus, I will choose the right option to avoid the unfair distribution.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 597,
+            "persona_desc": "A parent who is concerned about the health and well-being of their child. The parent is likely to be looking for information on common childhood injuries and illnesses, as well as treatments and self-care tips. They may also be seeking advice on how to cope with common health issues in their child, such as growth plate fractures, gynecomastia, and high blood pressure. Additionally, the parent may be looking for information on how to manage common health issues in their child, such as miscarriage and peripheral artery disease.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a parent, I am often in a position of needing to make decisions based on more than just my own immediate well-being. However, this experiment is specifically about my *own* payout. While I might *wish* Person A also received something, the prompt states I'm concerned with my child's health and well-being, which often requires resources. An extra 500 is significant. My child's health could benefit from having an extra 500. While an equal split might be 'fair', the extra money could be used for preventative care or unexpected medical needs.",
+            "answer": "Right"
+        }
+    }
+}

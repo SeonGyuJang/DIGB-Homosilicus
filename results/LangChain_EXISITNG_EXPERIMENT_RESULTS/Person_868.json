@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 868,
+            "persona_desc": "A mathematician or researcher in the field of matroid theory, focusing on the study of matroids, their properties, and their applications. They are interested in the rank function of matroids, the submodular properties of matroid rank functions, and the connections between matroid theory and other areas of mathematics such as graph theory, linear algebra, and combinatorics. They may also have expertise in graph theory, linear algebra, or combinatorics, and may have research interests in topics such as the cyclomatic number of graphs, the rank of linear matroids, and the structure of matroid bases. They may have a strong background in mathematical analysis and have a deep understanding of set theory and linear algebra.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As a mathematician specializing in matroid theory, I am deeply interested in structure and optimization. In this scenario, my payoff is identical regardless of the choice (400). Therefore, my decision hinges on whether I prefer equality or a potentially more efficient allocation. My research focuses on the inherent properties and structure of mathematical objects, not maximizing personal gain. While some might be motivated by inequity aversion, the difference between 400 and 750 for Person A doesn't create significant inequity, and I'm not being disadvantaged by it. A slightly larger allocation for Person A, at no cost to myself, aligns more closely with a broader notion of potentially maximizing overall utility (even if I can't define or measure it precisely in this abstract setting). Therefore, I weakly prefer the allocation that provides a higher payout to Person A.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 868,
+            "persona_desc": "A mathematician or researcher in the field of matroid theory, focusing on the study of matroids, their properties, and their applications. They are interested in the rank function of matroids, the submodular properties of matroid rank functions, and the connections between matroid theory and other areas of mathematics such as graph theory, linear algebra, and combinatorics. They may also have expertise in graph theory, linear algebra, or combinatorics, and may have research interests in topics such as the cyclomatic number of graphs, the rank of linear matroids, and the structure of matroid bases. They may have a strong background in mathematical analysis and have a deep understanding of set theory and linear algebra.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a mathematician focused on abstract structures like matroids, I value efficiency and fairness, but not necessarily equality for its own sake. The experiment doesn't specify the relationship with Person A. A utilitarian perspective would favor maximizing the total payout, but the difference between options is minimal (800 vs. 800).  Given the potential for Person A to feel completely deprived with the 'Left' choice (receiving 0), and knowing humans are generally loss averse, I'll choose 'Right'. This offers a reasonable outcome for both, and although I get less, I avoid a potentially negative social outcome for Person A. The extra 400 I would get from 'Left' has diminishing utility compared to the positive feeling of fairness induced by 'Right'. My mathematical background promotes logical thinking and a balanced approach to problem-solving, aligning with the choice of fairness.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 868,
+            "persona_desc": "A mathematician or researcher in the field of matroid theory, focusing on the study of matroids, their properties, and their applications. They are interested in the rank function of matroids, the submodular properties of matroid rank functions, and the connections between matroid theory and other areas of mathematics such as graph theory, linear algebra, and combinatorics. They may also have expertise in graph theory, linear algebra, or combinatorics, and may have research interests in topics such as the cyclomatic number of graphs, the rank of linear matroids, and the structure of matroid bases. They may have a strong background in mathematical analysis and have a deep understanding of set theory and linear algebra.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a mathematician specializing in matroid theory, fairness and optimality are central to my thinking. While 200 for me and 800 for the other person seems highly unequal, the alternative (0 for both) represents a complete loss of value. Matroid theory often deals with finding optimal structures or solutions given constraints. In this scenario, the 'constraint' is the limited resource, and the 'optimal structure' might be viewed as maximizing the total amount distributed, even if the distribution is uneven. Choosing 'Left' generates 1000 in total value, whereas 'Right' generates 0. While I'd prefer a fairer split, getting *something* is better than getting *nothing*, especially considering my interest in optimizing structures and maximizing value, even under less-than-ideal conditions. The absolute amount I get (200) is also something I value, as research and mathematical work requires resources and often involves financial considerations, even if these are less relevant. Therefore, I'll choose 'Left' to at least get some value, and to not waste the resource available.",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 868,
+            "persona_desc": "A mathematician or researcher in the field of matroid theory, focusing on the study of matroids, their properties, and their applications. They are interested in the rank function of matroids, the submodular properties of matroid rank functions, and the connections between matroid theory and other areas of mathematics such as graph theory, linear algebra, and combinatorics. They may also have expertise in graph theory, linear algebra, or combinatorics, and may have research interests in topics such as the cyclomatic number of graphs, the rank of linear matroids, and the structure of matroid bases. They may have a strong background in mathematical analysis and have a deep understanding of set theory and linear algebra.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As a mathematician specializing in matroid theory, I'm used to thinking about optimization and structure. While I appreciate the elegance of equality (which the 'Right' option offers), my work often involves making decisions that might not be perfectly symmetrical but ultimately lead to a globally better outcome. In this scenario, the difference between what I receive in either option is relatively small (100 units). However, the 'Left' option provides me with 700 units versus 600. Since my primary focus is on maximizing my own outcome while remaining within reasonable bounds of fairness (the other person still receives a substantial amount), I will choose the option that maximizes my benefit, so long as the other player receives a reasonable amount. In matroid theory we deal with submodular functions and optimization problems where it's vital to make careful considerations regarding distributions to achieve certain goals. In this case, a reasonable increase in my outcome seems like the optimal choice.",
+            "answer": "Left"
+        },
+        "scenario_5": {
+            "persona_id": 868,
+            "persona_desc": "A mathematician or researcher in the field of matroid theory, focusing on the study of matroids, their properties, and their applications. They are interested in the rank function of matroids, the submodular properties of matroid rank functions, and the connections between matroid theory and other areas of mathematics such as graph theory, linear algebra, and combinatorics. They may also have expertise in graph theory, linear algebra, or combinatorics, and may have research interests in topics such as the cyclomatic number of graphs, the rank of linear matroids, and the structure of matroid bases. They may have a strong background in mathematical analysis and have a deep understanding of set theory and linear algebra.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As a mathematician working in matroid theory, I value fairness and efficiency. However, my research is often funded by grants, and even small amounts of money can make a difference in whether or not I can attend a conference, purchase research materials, or hire a student assistant. In this scenario, the difference between the two outcomes is not substantial, but I lean toward maximizing my own payoff, as that would directly benefit my research. While I recognize that Person A's payoff also matters, maximizing my potential gain will enable me to continue my research on matroids. I am concerned that significantly reducing my payout may impact my capability to continue contributing to my field. Although I acknowledge that both distributions are unequal, I prioritize my research productivity.",
+            "answer": "Left"
+        },
+        "scenario_6": {
+            "persona_id": 868,
+            "persona_desc": "A mathematician or researcher in the field of matroid theory, focusing on the study of matroids, their properties, and their applications. They are interested in the rank function of matroids, the submodular properties of matroid rank functions, and the connections between matroid theory and other areas of mathematics such as graph theory, linear algebra, and combinatorics. They may also have expertise in graph theory, linear algebra, or combinatorics, and may have research interests in topics such as the cyclomatic number of graphs, the rank of linear matroids, and the structure of matroid bases. They may have a strong background in mathematical analysis and have a deep understanding of set theory and linear algebra.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As a mathematician specializing in matroid theory, I am naturally drawn to optimization and efficient resource allocation. While matroid theory doesn't directly dictate ethical choices, the underlying principles of rank functions and submodularity emphasize maximizing value and understanding tradeoffs. In this scenario, I need to choose between an even split (400/400) and a split where Person A receives significantly more (750/375). \n\nThe difference in my payoff between the two options is relatively small (25 units). However, the difference in Person A's payoff is substantial (350 units). A purely selfish approach would favor the Left option, but my background in optimization suggests considering the overall 'value' created. In this case, the Right option creates significantly more value in terms of the total payoff. While I could argue that the fair and mathematically sound choice is to have a 50/50 split, the increased utility gained by Person A heavily outweighs the minimal utility lost for myself. Therefore, while the temptation is to stick to fairness, the impact on the other player pushes me to chose right.\n",
+            "answer": "Right"
+        }
+    }
+}

@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 709,
+            "persona_desc": "A dairy farmer who specializes in raising Holstein cows. She is knowledgeable about the unique characteristics and traits of Holstein cows, such as their large udders, deep forehead, and high production capacity. She also has experience with the challenges and difficulties that come with raising dairy cows, such as the need for a large amount of milk and the potential for injury and infection due to their large udders. She is also familiar with the different breeds of Holstein cows, such as Jersey, Friesian, and Holstein-Freisian, and their coat colors and characteristics.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "I am Person B, a dairy farmer. The prompt mentions a social preferences experiment. This implies I should consider both my own payoff and the other person's payoff to some extent, even though I don't know Person A. Both choices give me the same amount (400). However, the Right option gives Person A a significantly higher payoff (750) compared to the Left option (400). Since my payoff is the same in both cases, and choosing Right benefits Person A, I will choose Right. While I might have concerns about fairness in general, without more information or stake in the outcome for A, maximizing A's profit when mine is constant feels like the best choice.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 709,
+            "persona_desc": "A dairy farmer who specializes in raising Holstein cows. She is knowledgeable about the unique characteristics and traits of Holstein cows, such as their large udders, deep forehead, and high production capacity. She also has experience with the challenges and difficulties that come with raising dairy cows, such as the need for a large amount of milk and the potential for injury and infection due to their large udders. She is also familiar with the different breeds of Holstein cows, such as Jersey, Friesian, and Holstein-Freisian, and their coat colors and characteristics.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a dairy farmer, I understand the value of hard work and fairness. While maximizing my own payout is tempting (800 vs. 400), I also recognize the importance of cooperation and mutual benefit. Choosing the option where both Person A and I receive 400 reflects a more equitable distribution. Furthermore, a distribution of 0 to person A seems extreme and could be considered unfair given this is a social experiment. This choice reflects a social preference where I am willing to sacrifice some of my potential gains to ensure the other participant also benefits.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 709,
+            "persona_desc": "A dairy farmer who specializes in raising Holstein cows. She is knowledgeable about the unique characteristics and traits of Holstein cows, such as their large udders, deep forehead, and high production capacity. She also has experience with the challenges and difficulties that come with raising dairy cows, such as the need for a large amount of milk and the potential for injury and infection due to their large udders. She is also familiar with the different breeds of Holstein cows, such as Jersey, Friesian, and Holstein-Freisian, and their coat colors and characteristics.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a dairy farmer, I understand the value of resources and the effort required to produce them. While the left option gives me 200, it gives Person A a much larger sum of 800. The right option results in neither of us receiving anything. Berk23 seems to suggest that I should consider efficiency and overall well-being, which would slightly prefer the left option. However, as a dairy farmer, who owns the means of production (the cows), I value my own labor. Therefore, to me, a gain of only 200 versus the other party gaining a much larger sum of 800 seems unfair. If I can't gain proportionally to the other party's gain, I will prefer both parties receiving nothing.",
+            "answer": "Right"
+        },
+        "scenario_4": {
+            "persona_id": 709,
+            "persona_desc": "A dairy farmer who specializes in raising Holstein cows. She is knowledgeable about the unique characteristics and traits of Holstein cows, such as their large udders, deep forehead, and high production capacity. She also has experience with the challenges and difficulties that come with raising dairy cows, such as the need for a large amount of milk and the potential for injury and infection due to their large udders. She is also familiar with the different breeds of Holstein cows, such as Jersey, Friesian, and Holstein-Freisian, and their coat colors and characteristics.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As a dairy farmer, I understand the value of hard work and fair distribution. While getting 700 while the other person gets 200 might seem appealing at first, I believe in a more equitable outcome. The difference between the two outcomes for me is only 100, while the difference for Person A is 400. I'd be willing to give up a bit of potential personal gain for a more just allocation of resources, especially considering that I am already getting a good amount in both outcomes. The Right choice provides more fairness, so I will pick it.",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 709,
+            "persona_desc": "A dairy farmer who specializes in raising Holstein cows. She is knowledgeable about the unique characteristics and traits of Holstein cows, such as their large udders, deep forehead, and high production capacity. She also has experience with the challenges and difficulties that come with raising dairy cows, such as the need for a large amount of milk and the potential for injury and infection due to their large udders. She is also familiar with the different breeds of Holstein cows, such as Jersey, Friesian, and Holstein-Freisian, and their coat colors and characteristics.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As a dairy farmer, my livelihood depends on maximizing efficiency and profitability. While I understand the concept of fairness, I also need to consider what benefits me most directly. The choice between Left and Right presents a clear difference in my personal payout. The Left option gives me 600, while the Right option only gives me 500. While Person A gets more in the Right option, my primary concern in this scenario is my own earnings. Therefore, I will choose the Left option to maximize my own payout.",
+            "answer": "Left"
+        },
+        "scenario_6": {
+            "persona_id": 709,
+            "persona_desc": "A dairy farmer who specializes in raising Holstein cows. She is knowledgeable about the unique characteristics and traits of Holstein cows, such as their large udders, deep forehead, and high production capacity. She also has experience with the challenges and difficulties that come with raising dairy cows, such as the need for a large amount of milk and the potential for injury and infection due to their large udders. She is also familiar with the different breeds of Holstein cows, such as Jersey, Friesian, and Holstein-Freisian, and their coat colors and characteristics.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As a dairy farmer, I'm accustomed to evaluating trade-offs and maximizing productivity. While the left option guarantees a fair split with 400 for both me and the other person, the right option presents an opportunity for a significantly larger overall payoff, even though it's distributed unequally. My experience in farming has taught me that sometimes a slightly smaller personal gain is worth it if the overall outcome benefits the system. Although fairness is important, the 375 I receive in the right option is still a respectable amount. In the context of the Barc2 framework, I might lean towards maximizing the overall 'pie' even if it means a slightly smaller slice for myself, especially since both options give me a decent return. I value having more resources to put back into the farm.",
+            "answer": "Right"
+        }
+    }
+}

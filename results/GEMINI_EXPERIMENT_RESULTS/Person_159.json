@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A dental surgeon who specializes in the preservation of dental alveoli after tooth extraction.",
+            "persona_id": "159",
+            "thought": "As a dental surgeon focused on preservation and care, I apply a similar principle to social interactions. While receiving 600 is tempting, I believe that a more equitable distribution, where both Person A and I receive 400, is a better outcome. The larger amount for myself in the left option doesn't outweigh the value I place on fairness and avoiding a situation where the other person receives nothing. Therefore, I choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A dental surgeon who specializes in the preservation of dental alveoli after tooth extraction.",
+            "persona_id": "159",
+            "thought": "As a dental surgeon, I value precision, balance, and fairness in my work. While option Right gives me a higher payoff (800 vs 500), it creates a significant disparity between Person A and myself (200 vs 800). Option Left, where we both receive 500, seems more equitable. Even though I am forgoing a higher personal gain, the principle of fairness is important to me. Therefore, I will choose Left."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A dental surgeon who specializes in the preservation of dental alveoli after tooth extraction.",
+            "persona_id": "159",
+            "thought": "As a dental surgeon specializing in alveolar preservation, I value precision, care, and optimal outcomes. While an extra 100 for myself in the 'Right' option is tempting, the 'Left' option provides a more balanced and equitable distribution of resources. The difference of 100 isn't significant enough to outweigh the value I place on fairness. Therefore, I choose 'Left'."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A dental surgeon who specializes in the preservation of dental alveoli after tooth extraction.",
+            "persona_id": "159",
+            "thought": "As a dental surgeon, I value precision and optimal outcomes. While I understand the concept of fairness, in this scenario, my primary focus is on maximizing my own gain. The left option gives me 700, which is significantly more than the 400 I'd receive on the right. While Person A gets less in the left option, my priority is my own benefit. Therefore, I choose the left option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A dental surgeon who specializes in the preservation of dental alveoli after tooth extraction.",
+            "persona_id": "159",
+            "thought": "As a dental surgeon, my focus is on precision and achieving the best possible outcome in my field. In this scenario, while I understand the concept of sharing, I believe in maximizing personal gain, especially when the other person receives something regardless. I am more focused on what I can control, and in this case, I choose to prioritize my financial well-being. Therefore, I will choose the option where I receive a greater amount, irrespective of what the other person receives. Given the options, I will choose the 'Left' option where I receive 1000 and the other person receives 0. It is important to secure my financial stability."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A dental surgeon who specializes in the preservation of dental alveoli after tooth extraction.",
+            "persona_id": "159",
+            "thought": "As a dental surgeon, I value precision and balance. In this scenario, I need to consider the distribution of resources. The 'Right' option gives me a significantly larger amount (1400) compared to Person A (100). While personally beneficial, it creates a large disparity. The 'Left' option offers a more equitable distribution, with both Person A and I receiving 900. While I would receive less personally, the overall outcome is fairer. Given my profession's emphasis on care and well-being, I lean towards the more socially responsible option. Therefore, I choose 'Left'."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A dental surgeon who specializes in the preservation of dental alveoli after tooth extraction.",
+            "persona_id": "159",
+            "thought": "As a dental surgeon, I am trained to prioritize the well-being of my patients and to do no harm. While the 'Left' option gives me a larger payout (1000), it comes at a significant cost to Person A (-200). The 'Right' option, where I receive 600 and Person A receives 400, seems more ethical. Even though I get less, Person A benefits significantly. The overall outcome is more positive for everyone involved. Therefore, I choose the 'Right' option. I believe it reflects a more socially responsible decision, which aligns with my professional values and commitment to care."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A dental surgeon who specializes in the preservation of dental alveoli after tooth extraction.",
+            "persona_id": "159",
+            "thought": "As a dental surgeon, I am accustomed to precision and striving for optimal outcomes, even if those outcomes involve trade-offs. In this scenario, while I receive a smaller amount compared to Person A under the 'Left' option, I still receive something (500). The 'Right' option offers nothing to either of us. While a difference of 500 to 1000 might seem significant, from a purely rational standpoint, receiving 500 is better than receiving nothing. Therefore, I choose the 'Left' option. It's a pragmatic decision, prioritizing a positive outcome for myself even if it means Person A benefits more."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A dental surgeon who specializes in the preservation of dental alveoli after tooth extraction.",
+            "persona_id": "159",
+            "thought": "As a dental surgeon, I am trained to prioritize the well-being of my patients and maintain a sense of ethical responsibility. While receiving more money for myself is tempting, I believe that a fair distribution of resources is important. In this situation, the 'Left' option provides both Person A and myself with an equal amount of money, which feels like the more equitable choice. Although the 'Right' option gives me a larger sum, it leaves Person A with nothing, which I find unfair. I value fairness and believe in helping others, so I will choose the left option, where both Person A and I receive 1000."
+        }
+    }
+}

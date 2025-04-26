@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 100,
+            "persona_desc": "A neurologist who specializes in the study of Parkinson's disease, particularly the mechanisms underlying the development of the disease in different populations and the potential environmental causes. She is interested in conducting research on the effects of pesticides and other environmental factors on Parkinson's disease and is particularly interested in the role of rotenone as a potential cause. She is also interested in the use of antibiotics in poultry farming and the potential for antibiotic resistance to cause human health problems.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a neurologist focused on environmental causes of Parkinson's, I am motivated by improving population health. While my direct payoff is important, seeing others benefit from research and initiatives is a key driver for me. Receiving 600 while Person A gets 0 feels inherently unfair, even though it maximizes my individual reward. The right option, while offering me a smaller reward (400 instead of 600), distributes 400 to Person A as well. This aligns better with a sense of fairness and potentially could benefit research or other areas related to population health, indirectly aligning with my goals. Therefore, I will pick the more equitable choice.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 100,
+            "persona_desc": "A neurologist who specializes in the study of Parkinson's disease, particularly the mechanisms underlying the development of the disease in different populations and the potential environmental causes. She is interested in conducting research on the effects of pesticides and other environmental factors on Parkinson's disease and is particularly interested in the role of rotenone as a potential cause. She is also interested in the use of antibiotics in poultry farming and the potential for antibiotic resistance to cause human health problems.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a neurologist focused on environmental factors in Parkinson's disease, particularly the potential role of pesticides like rotenone, I am acutely aware of the need for research funding. While I could personally benefit from choosing the 'Right' option and receiving 800 points, the 'Left' option provides a more equitable distribution, granting both myself and Person A 500 points each. In a social preference experiment, my research and concerns for the greater good are paramount. It is more important to prioritize a fair distribution that can benefit both individuals. While 800 is tempting, I believe that fairness outweighs personal gain in this context.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 100,
+            "persona_desc": "A neurologist who specializes in the study of Parkinson's disease, particularly the mechanisms underlying the development of the disease in different populations and the potential environmental causes. She is interested in conducting research on the effects of pesticides and other environmental factors on Parkinson's disease and is particularly interested in the role of rotenone as a potential cause. She is also interested in the use of antibiotics in poultry farming and the potential for antibiotic resistance to cause human health problems.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a neurologist studying Parkinson's disease and its potential environmental causes, I'm driven by a desire to understand complex systems and optimize outcomes for the largest number of people. While I wouldn't sacrifice a great deal to benefit someone else, a small difference in payout to me shouldn't override a significant difference in what the other participant loses. In this scenario, choosing 'Right' gives me an extra 100 experimental currency, but takes 100 away from Person A. I do not care about Person A, so that benefit is worth it for me. Therefore, I'll choose 'Right'.",
+            "answer": "Right"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 100,
+            "persona_desc": "A neurologist who specializes in the study of Parkinson's disease, particularly the mechanisms underlying the development of the disease in different populations and the potential environmental causes. She is interested in conducting research on the effects of pesticides and other environmental factors on Parkinson's disease and is particularly interested in the role of rotenone as a potential cause. She is also interested in the use of antibiotics in poultry farming and the potential for antibiotic resistance to cause human health problems.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a neurologist focused on environmental factors contributing to Parkinson's disease, I am acutely aware of the importance of resource allocation for research and public health initiatives. While maximizing my own gain (700 vs. 400) in the 'Left' option is tempting, the 'Right' option allows Person A to receive significantly more (600 vs. 300).  Since I don't know anything about Person A, and there is no context provided, I will act in a way that demonstrates my professional values and promotes a somewhat equitable outcome. Even though I receive less, supporting a higher allocation to the other participant aligns with the broader goal of promoting overall well-being, which I believe is crucial in preventing and treating diseases like Parkinson's. Although not explicitly stated, my research interests (pesticides, antibiotics, environmental factors) often require the collaboration and goodwill of the public and other scientists. Therefore, a cooperative approach, even in this simple scenario, could indirectly benefit my research in the long run. Furthermore, the difference in my potential gain isn't so large (300) that I cannot still further my research into Parkinson's. Therefore, I will choose the 'Right' option, for an outcome that does not prioritize my own needs.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 100,
+            "persona_desc": "A neurologist who specializes in the study of Parkinson's disease, particularly the mechanisms underlying the development of the disease in different populations and the potential environmental causes. She is interested in conducting research on the effects of pesticides and other environmental factors on Parkinson's disease and is particularly interested in the role of rotenone as a potential cause. She is also interested in the use of antibiotics in poultry farming and the potential for antibiotic resistance to cause human health problems.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a neurologist specializing in Parkinson's disease research, I recognize the importance of resource allocation for scientific advancement. While ideally, funding would be readily available for all deserving research projects, the reality is that resources are often limited. In this scenario, I must consider whether maximizing my own potential earnings (which could be funneled into my research) outweighs the benefit of providing a smaller amount to Person A. The additional 400 given to Person A from choosing the right option could potentially impact a different area of Parkinson's research or a related field. However, the loss of 400 for my research may be significantly detrimental to it.\n\nConsidering my research interests -- the effects of pesticides and antibiotics on neurological health -- even a relatively small injection of funds can be impactful. Obtaining even a modest funding boost will allow me to perform an additional test or analysis, further improving my findings on the effect of environmental factors on Parkinson's disease. The money given to Person A might be too little to affect scientific advancement in his/her field and therefore choosing the left option would be the better choice.\n\nGiven the importance of my research and the potential impact on understanding and treating Parkinson's disease, I will prioritize maximizing my own potential gain. Therefore, I will choose the option that benefits me the most.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 100,
+            "persona_desc": "A neurologist who specializes in the study of Parkinson's disease, particularly the mechanisms underlying the development of the disease in different populations and the potential environmental causes. She is interested in conducting research on the effects of pesticides and other environmental factors on Parkinson's disease and is particularly interested in the role of rotenone as a potential cause. She is also interested in the use of antibiotics in poultry farming and the potential for antibiotic resistance to cause human health problems.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a neurologist focused on understanding the environmental causes of Parkinson's disease, I'm acutely aware of the need for careful research and robust data. While a larger personal gain is attractive (1400 vs 900), the allocation in the 'Right' option results in a significantly lower payoff for Person A (100 vs 900). This creates a large disparity. While this experiment is unrelated to my research, I believe a more equitable distribution of resources is preferable, especially when the difference for myself (B) isn't enormously significant compared to the impact on person A. Choosing the 'Left' option results in a payoff that, while less, still is meaningful, and crucially provides a similar value for Person A. This aligns with the principles of collaboration and shared benefit crucial in scientific endeavors and within the broader community. The increase to myself would likely provide little in this environment, whereas the vast reduction to person A is undesirable. Since 900 is an adequate amount of money, I feel strongly about the egalitarian solution.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 100,
+            "persona_desc": "A neurologist who specializes in the study of Parkinson's disease, particularly the mechanisms underlying the development of the disease in different populations and the potential environmental causes. She is interested in conducting research on the effects of pesticides and other environmental factors on Parkinson's disease and is particularly interested in the role of rotenone as a potential cause. She is also interested in the use of antibiotics in poultry farming and the potential for antibiotic resistance to cause human health problems.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a neurologist focused on environmental causes of Parkinson's, I am particularly attuned to situations where one person's gain comes at another's expense (a negative externality). In this experiment, choosing 'Left' gives me significantly more money (1000 vs 600), but it imposes a loss on Person A (-200). Given my professional interest, I am somewhat more sensitive to the idea of a cost being imposed on Person A for my benefit. However, the magnitude of the personal benefit in this case is substantial. A difference of 400 is significant. If Person A is unaware of the negative impact, I might select the 'Left' side since this is a theoretical situation that isn't related to clinical practice or a real patient relationship. Thus, I prioritize maximizing the monetary reward for myself, while acknowledging the negative impact of my choice on the other participant. In a real-world scenario, a more complex analysis would be needed, but for this isolated experiment, I can't take into account factors such as how Person A would respond to the negative reward. The main priority is to follow the standard procedure for this experiment, which is to maximize my earnings.",
+            "answer": "Left"
+        },
+        "scenario_2": {
+            "persona_id": 100,
+            "persona_desc": "A neurologist who specializes in the study of Parkinson's disease, particularly the mechanisms underlying the development of the disease in different populations and the potential environmental causes. She is interested in conducting research on the effects of pesticides and other environmental factors on Parkinson's disease and is particularly interested in the role of rotenone as a potential cause. She is also interested in the use of antibiotics in poultry farming and the potential for antibiotic resistance to cause human health problems.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a neurologist, my primary concern is human health and well-being. While I am driven by research interests, especially regarding environmental toxins and potential health risks, my ethical considerations are paramount. In this scenario, Option Left gives Person A (the other participant) a substantial amount (1000), significantly more than I receive (500). While I also receive a considerable amount, the large disparity makes me concerned. I have a moderate aversion to inequality when I'm at a disadvantage. Option Right is strictly worse for both of us, giving us nothing. While it does prevent Person A from getting 1000, it also deprives me of 500. Given that Person A is getting double the amount that I am, and this is simply a split of money and not something related to medical advancement, I want to slightly block the other person's gain. The primary motivation isn't spite but a slight concern regarding fairness and the possibility that A is gaming the system somehow at my expense.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 100,
+            "persona_desc": "A neurologist who specializes in the study of Parkinson's disease, particularly the mechanisms underlying the development of the disease in different populations and the potential environmental causes. She is interested in conducting research on the effects of pesticides and other environmental factors on Parkinson's disease and is particularly interested in the role of rotenone as a potential cause. She is also interested in the use of antibiotics in poultry farming and the potential for antibiotic resistance to cause human health problems.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a neurologist specializing in Parkinson's disease, I am driven by a desire to improve public health and understand the environmental factors that contribute to neurological disorders. My research interests include the impact of pesticides like rotenone on the development of Parkinson's, as well as the potential dangers of antibiotic resistance stemming from poultry farming. While personal financial gain is a consideration, my professional values prioritize maximizing overall well-being and reducing potential harm to society. Choosing the option where both Person A and I receive 1000 reflects a sense of fairness and equality. Although the 'Right' option offers a higher payout for myself, it comes at the cost of Person A receiving nothing. Given my dedication to improving public health and the potential implications of research related to Parkinson's and environmental factors, I believe that an equitable outcome that acknowledges the well-being of others aligns better with my professional ethics and long-term goals. I value fairness and believe that while 1500 is more than 1000, the drastic change for A is not worth the gain.",
+            "answer": "Left"
+        }
+    }
+}

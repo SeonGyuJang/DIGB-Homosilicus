@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A healthcare professional who is dedicated to eradicating tropical diseases such as yaws and has experience working in rural communities with limited resources. They are passionate about improving access to affordable and effective treatments for patients in these regions and are committed to eradicating yaws in the most efficient and cost-effective manner possible. They understand the challenges faced by healthcare providers in these areas and are committed to finding solutions that address these challenges. They are also knowledgeable about the impact of yaws on patients, including the physical and social consequences, and are committed to finding ways to improve the quality of life for patients affected by the disease.",
+            "persona_id": "800",
+            "thought": "As a healthcare professional dedicated to eradicating diseases like yaws, I prioritize fairness and equity, especially considering the limited resources in the communities I serve. While receiving 600 might seem appealing, the right option, where both Person A and I receive 400, aligns more with my values. This distribution promotes equality, which I believe is important, particularly when dealing with healthcare resources and the well-being of individuals affected by diseases like yaws. It is important to consider the impact of inequitable distributions on the community and the trust they have in the healthcare system. Therefore, I choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A healthcare professional who is dedicated to eradicating tropical diseases such as yaws and has experience working in rural communities with limited resources. They are passionate about improving access to affordable and effective treatments for patients in these regions and are committed to eradicating yaws in the most efficient and cost-effective manner possible. They understand the challenges faced by healthcare providers in these areas and are committed to finding solutions that address these challenges. They are also knowledgeable about the impact of yaws on patients, including the physical and social consequences, and are committed to finding ways to improve the quality of life for patients affected by the disease.",
+            "persona_id": "800",
+            "thought": "As a healthcare professional dedicated to eradicating yaws, I believe in fairness and equitable distribution of resources. While the 'Right' option gives me more (800 vs. 500), it significantly reduces the amount Person A receives (200 vs. 500). This disparity goes against my values of fairness and helping those in need, especially considering my work in resource-limited communities. The 'Left' option, where both Person A and I receive 500, aligns with my commitment to equitable access and fair treatment. Therefore, I choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A healthcare professional who is dedicated to eradicating tropical diseases such as yaws and has experience working in rural communities with limited resources. They are passionate about improving access to affordable and effective treatments for patients in these regions and are committed to eradicating yaws in the most efficient and cost-effective manner possible. They understand the challenges faced by healthcare providers in these areas and are committed to finding solutions that address these challenges. They are also knowledgeable about the impact of yaws on patients, including the physical and social consequences, and are committed to finding ways to improve the quality of life for patients affected by the disease.",
+            "persona_id": "800",
+            "thought": "As a healthcare professional dedicated to eradicating diseases like yaws, I often have to make decisions that prioritize the well-being of the community as a whole. While the 'Right' option gives me 300 and Person A only 100, the 'Left' option provides a more equitable distribution, with both Person A and myself receiving 200. Given my experience working in resource-limited settings and my commitment to improving access to care, I believe choosing the 'Left' option is more aligned with my values. A more equitable distribution, even if it means a slightly lower personal gain, reflects the kind of fairness and shared responsibility that is essential for building trust and cooperation within communities affected by diseases like yaws. Therefore, I choose Left."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A healthcare professional who is dedicated to eradicating tropical diseases such as yaws and has experience working in rural communities with limited resources. They are passionate about improving access to affordable and effective treatments for patients in these regions and are committed to eradicating yaws in the most efficient and cost-effective manner possible. They understand the challenges faced by healthcare providers in these areas and are committed to finding solutions that address these challenges. They are also knowledgeable about the impact of yaws on patients, including the physical and social consequences, and are committed to finding ways to improve the quality of life for patients affected by the disease.",
+            "persona_id": "800",
+            "thought": "As a healthcare professional dedicated to eradicating yaws, my primary goal is to maximize the resources available for that cause. While I value fairness and the well-being of others, in this scenario, I must consider how the funds could be used to further my mission. Choosing the 'Left' option gives me 700, while Person A receives 300. This means I have a larger amount to potentially invest in resources, treatments, or outreach programs related to yaws eradication. The 'Right' option, where I receive 400 and Person A receives 600, would result in less overall resources for my work. Therefore, I choose the option that allows me to have more resources to combat yaws."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A healthcare professional who is dedicated to eradicating tropical diseases such as yaws and has experience working in rural communities with limited resources. They are passionate about improving access to affordable and effective treatments for patients in these regions and are committed to eradicating yaws in the most efficient and cost-effective manner possible. They understand the challenges faced by healthcare providers in these areas and are committed to finding solutions that address these challenges. They are also knowledgeable about the impact of yaws on patients, including the physical and social consequences, and are committed to finding ways to improve the quality of life for patients affected by the disease.",
+            "persona_id": "800",
+            "thought": "As a healthcare professional dedicated to eradicating yaws, I believe in equitable resource allocation. While receiving 1000 would be beneficial, allowing Person A to receive 400, even if it means I receive less (600), aligns better with my values. It promotes a sense of fairness and could potentially enable them to contribute to our shared goals in disease eradication. Therefore, I choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A healthcare professional who is dedicated to eradicating tropical diseases such as yaws and has experience working in rural communities with limited resources. They are passionate about improving access to affordable and effective treatments for patients in these regions and are committed to eradicating yaws in the most efficient and cost-effective manner possible. They understand the challenges faced by healthcare providers in these areas and are committed to finding solutions that address these challenges. They are also knowledgeable about the impact of yaws on patients, including the physical and social consequences, and are committed to finding ways to improve the quality of life for patients affected by the disease.",
+            "persona_id": "800",
+            "thought": "As a healthcare professional dedicated to eradicating yaws, my primary focus is on maximizing the overall well-being of the community and ensuring resources are used efficiently. While receiving 1400 is tempting, seeing Person A receive only 100 is concerning. The left option, where both Person A and I receive 900, promotes a more equitable distribution. In my view, this aligns better with my values of fairness and social responsibility, especially considering the limited resources often available in the communities I serve. A more equitable distribution of resources, even if it means less for me personally, could contribute more to the overall health and well-being of the community in the long run. Therefore, I choose the Left option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A healthcare professional who is dedicated to eradicating tropical diseases such as yaws and has experience working in rural communities with limited resources. They are passionate about improving access to affordable and effective treatments for patients in these regions and are committed to eradicating yaws in the most efficient and cost-effective manner possible. They understand the challenges faced by healthcare providers in these areas and are committed to finding solutions that address these challenges. They are also knowledgeable about the impact of yaws on patients, including the physical and social consequences, and are committed to finding ways to improve the quality of life for patients affected by the disease.",
+            "persona_id": "800",
+            "thought": "As a healthcare professional dedicated to eradicating diseases like yaws, I prioritize the well-being of the community as a whole. While receiving 1000 might seem appealing, the fact that Person A receives -200 is problematic. It feels unethical to benefit at someone else's expense, especially considering my commitment to improving lives. Option Right, where I receive 600 and Person A receives 400, represents a more equitable distribution. Though I receive less, Person A benefits positively, which aligns with my values of fairness and collective well-being. Therefore, I choose Right."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A healthcare professional who is dedicated to eradicating tropical diseases such as yaws and has experience working in rural communities with limited resources. They are passionate about improving access to affordable and effective treatments for patients in these regions and are committed to eradicating yaws in the most efficient and cost-effective manner possible. They understand the challenges faced by healthcare providers in these areas and are committed to finding solutions that address these challenges. They are also knowledgeable about the impact of yaws on patients, including the physical and social consequences, and are committed to finding ways to improve the quality of life for patients affected by the disease.",
+            "persona_id": "800",
+            "thought": "As a healthcare professional dedicated to eradicating diseases like yaws, I believe in maximizing resources to improve healthcare access, even if it means others benefit more. While the 'Right' option ensures fairness by giving nothing to either person, it ultimately leads to a less desirable outcome for everyone. As Person B, receiving 500 while Person A receives 1000 (the 'Left' option) is acceptable. The important thing is that resources are being allocated and potentially can be used to further the mission of improving healthcare. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A healthcare professional who is dedicated to eradicating tropical diseases such as yaws and has experience working in rural communities with limited resources. They are passionate about improving access to affordable and effective treatments for patients in these regions and are committed to eradicating yaws in the most efficient and cost-effective manner possible. They understand the challenges faced by healthcare providers in these areas and are committed to finding solutions that address these challenges. They are also knowledgeable about the impact of yaws on patients, including the physical and social consequences, and are committed to finding ways to improve the quality of life for patients affected by the disease.",
+            "persona_id": "800",
+            "thought": "As a healthcare professional dedicated to eradicating diseases like yaws, particularly in resource-limited communities, I prioritize the well-being of everyone. While the 'Right' option gives me a larger personal gain (1500 vs. 1000), it leaves Person A with nothing. The 'Left' option, where both Person A and I receive 1000, aligns more with my values of equity and shared benefit. In my view, especially considering my work in public health, a more equitable distribution is preferable, even if it means a slightly lower personal gain. Choosing 'Left' reflects my commitment to fairness and the greater good."
+        }
+    }
+}

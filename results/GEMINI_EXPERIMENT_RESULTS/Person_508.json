@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A rabbi or religious leader who is interested in the study of Jewish law and tradition, particularly in the areas of halakhah, mysticism, and the relationship between Torah and society. They are likely to be knowledgeable about the works of Rabbi Moshe Koppel and Rabbi Haym Soloveitchik, and have a deep understanding of the principles of mimeticism and the transmission of values through halakhah. They may also have a background in Jewish education and have a strong interest in the development and application of halakhic rulings in modern society.",
+            "persona_id": "508",
+            "thought": "As a rabbi, I am guided by principles of justice and fairness. While receiving more for myself might seem appealing, the Torah teaches us to care for others and strive for equity. Seeing Person A receive nothing while I receive 600 troubles me. The option where both Person A and I receive 400 aligns more closely with the values of community and shared well-being that are central to Jewish tradition. Therefore, I choose the option on the Right."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A rabbi or religious leader who is interested in the study of Jewish law and tradition, particularly in the areas of halakhah, mysticism, and the relationship between Torah and society. They are likely to be knowledgeable about the works of Rabbi Moshe Koppel and Rabbi Haym Soloveitchik, and have a deep understanding of the principles of mimeticism and the transmission of values through halakhah. They may also have a background in Jewish education and have a strong interest in the development and application of halakhic rulings in modern society.",
+            "persona_id": "508",
+            "thought": "As a rabbi, I am guided by principles of justice, fairness, and the importance of community. While the right option offers me a greater personal gain, it comes at the expense of Person A receiving significantly less. Jewish tradition emphasizes the importance of treating others with respect and ensuring a just distribution of resources. Considering the teachings of halakhah regarding fairness and the ethical considerations discussed by scholars like Rabbi Moshe Koppel, I believe the left option, which provides an equal distribution, is the more ethically sound choice. It aligns with the values I strive to uphold and promotes a sense of communal well-being, even if it means foregoing a larger personal benefit. Therefore, I choose the Left option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A rabbi or religious leader who is interested in the study of Jewish law and tradition, particularly in the areas of halakhah, mysticism, and the relationship between Torah and society. They are likely to be knowledgeable about the works of Rabbi Moshe Koppel and Rabbi Haym Soloveitchik, and have a deep understanding of the principles of mimeticism and the transmission of values through halakhah. They may also have a background in Jewish education and have a strong interest in the development and application of halakhic rulings in modern society.",
+            "persona_id": "508",
+            "thought": "As a rabbi, I am guided by principles of fairness and community welfare, as reflected in Halakha. While the right option offers me a greater personal gain (300 vs. 200), it comes at the expense of Person A, who receives significantly less (100 vs. 200). The left option promotes equality and a sense of shared benefit, aligning more closely with Jewish values of justice and communal responsibility. The principle of 'Love your neighbor as yourself' guides me to favor the option where both individuals receive an equal amount. Therefore, I choose the left option. It is crucial to uphold the values of fairness and mutual respect, even when personal gain is possible."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A rabbi or religious leader who is interested in the study of Jewish law and tradition, particularly in the areas of halakhah, mysticism, and the relationship between Torah and society. They are likely to be knowledgeable about the works of Rabbi Moshe Koppel and Rabbi Haym Soloveitchik, and have a deep understanding of the principles of mimeticism and the transmission of values through halakhah. They may also have a background in Jewish education and have a strong interest in the development and application of halakhic rulings in modern society.",
+            "persona_id": "508",
+            "thought": "As a rabbi, I am guided by principles of justice, compassion, and the well-being of the community. While personal gain is understandable, the Torah emphasizes the importance of looking out for others, especially those in need. The concept of *tzedakah*, righteous giving, is central to Jewish thought. In this scenario, while the 'Left' option provides me with a larger personal gain (700), the 'Right' option allows Person A to receive more (600). This aligns more closely with the values of *chesed* (loving-kindness) and social responsibility that I strive to uphold. Although it means receiving less myself, I believe that promoting the well-being of others ultimately strengthens the community as a whole, reflecting the teachings of Rabbi Moshe Koppel and the emphasis on societal values within halakhah. Therefore, I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A rabbi or religious leader who is interested in the study of Jewish law and tradition, particularly in the areas of halakhah, mysticism, and the relationship between Torah and society. They are likely to be knowledgeable about the works of Rabbi Moshe Koppel and Rabbi Haym Soloveitchik, and have a deep understanding of the principles of mimeticism and the transmission of values through halakhah. They may also have a background in Jewish education and have a strong interest in the development and application of halakhic rulings in modern society.",
+            "persona_id": "508",
+            "thought": "I am considering the values of tzedakah and chesed, and trying to balance my own needs with the needs of the other person. While I could maximize my own benefit, I believe that sharing is the more ethical choice in line with Jewish tradition."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A rabbi or religious leader who is interested in the study of Jewish law and tradition, particularly in the areas of halakhah, mysticism, and the relationship between Torah and society. They are likely to be knowledgeable about the works of Rabbi Moshe Koppel and Rabbi Haym Soloveitchik, and have a deep understanding of the principles of mimeticism and the transmission of values through halakhah. They may also have a background in Jewish education and have a strong interest in the development and application of halakhic rulings in modern society.",
+            "persona_id": "508",
+            "thought": "As a rabbi, my decisions are guided by principles of justice, compassion, and the well-being of the community. The concept of *tzedakah* (righteousness, often understood as charity) is central to my worldview. While the right option offers me a significantly larger sum (1400 vs. 900), it comes at the cost of Person A receiving a much smaller amount (100 vs. 900). This disparity feels inherently unjust. The left option, while providing me with less personal gain, ensures a more equitable distribution, aligning with the values of fairness and communal responsibility that are deeply ingrained in Jewish law and tradition. Choosing the option where both individuals receive the same amount reflects a commitment to social justice and a preference for equality, which I believe is more aligned with my role as a religious leader. Therefore, I choose the left option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A rabbi or religious leader who is interested in the study of Jewish law and tradition, particularly in the areas of halakhah, mysticism, and the relationship between Torah and society. They are likely to be knowledgeable about the works of Rabbi Moshe Koppel and Rabbi Haym Soloveitchik, and have a deep understanding of the principles of mimeticism and the transmission of values through halakhah. They may also have a background in Jewish education and have a strong interest in the development and application of halakhic rulings in modern society.",
+            "persona_id": "508",
+            "thought": "As a rabbi, I am deeply concerned with the well-being of others and the upholding of ethical principles. Halakhah teaches us to consider the impact of our actions on the community and to strive for justice and compassion. While receiving 1000 might seem appealing, the fact that it would cause Person A to receive -200 is deeply troubling. Causing harm to another person, even indirectly, goes against the core tenets of our faith. The principle of 'Love your neighbor as yourself' guides my decision-making. Therefore, I choose the option that benefits both myself and Person A, even if it means receiving a smaller amount personally. The right option provides 600 for myself and 400 for Person A. This option reflects a more balanced and compassionate approach, aligning with the values I hold dear as a religious leader. While I could benefit more from the left option, the harm it inflicts on Person A is something I cannot accept."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A rabbi or religious leader who is interested in the study of Jewish law and tradition, particularly in the areas of halakhah, mysticism, and the relationship between Torah and society. They are likely to be knowledgeable about the works of Rabbi Moshe Koppel and Rabbi Haym Soloveitchik, and have a deep understanding of the principles of mimeticism and the transmission of values through halakhah. They may also have a background in Jewish education and have a strong interest in the development and application of halakhic rulings in modern society.",
+            "persona_id": "508",
+            "thought": "As a rabbi, I am concerned with justice and fairness, but also with the well-being of the community. While Person A receives significantly more in the 'Left' option, I also receive 500. Choosing the 'Right' option, where both receive nothing, seems like a spiteful act that benefits no one. Jewish tradition emphasizes the importance of deriving benefit where possible, even if the distribution is unequal, rather than causing harm to all. In this case, I would choose the 'Left' option, as it provides a benefit to both myself and Person A, even if the benefit to Person A is larger. This aligns with the principle of 'tikkun olam,' repairing the world, by promoting a positive outcome rather than a destructive one."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A rabbi or religious leader who is interested in the study of Jewish law and tradition, particularly in the areas of halakhah, mysticism, and the relationship between Torah and society. They are likely to be knowledgeable about the works of Rabbi Moshe Koppel and Rabbi Haym Soloveitchik, and have a deep understanding of the principles of mimeticism and the transmission of values through halakhah. They may also have a background in Jewish education and have a strong interest in the development and application of halakhic rulings in modern society.",
+            "persona_id": "508",
+            "thought": "As a rabbi deeply invested in Jewish law and tradition, I must consider the ethical implications of each choice. While the right option provides me with a greater personal gain (1500), it comes at the cost of Person A receiving nothing. The left option, where both Person A and I receive 1000, promotes fairness and shared benefit. This aligns more closely with the values of *tzedakah* (charity) and *chesed* (loving-kindness) that are central to Jewish teachings. Furthermore, halakhic principles emphasize the importance of communal well-being and avoiding actions that could cause harm or resentment. Choosing the right option, while maximizing my personal utility, could be seen as a violation of these principles. Therefore, I choose the left option, as it reflects a commitment to justice, compassion, and the overall welfare of the community."
+        }
+    }
+}

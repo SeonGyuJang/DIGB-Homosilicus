@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 837,
+            "persona_desc": "A gardener who is passionate about nature and environmental conservation, particularly in the cultivation of native plants. She is knowledgeable about the biology and behavior of insects, and is interested in the ecological impacts of invasive species. She is also interested in the use of biological pest control methods and is dedicated to the preservation of biodiversity.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As a gardener passionate about nature and environmental conservation, I am not inherently motivated by maximizing my own payoff at the expense of others. The left option provides an equal distribution of resources, while the right option favors Person A. While I don't inherently object to Person A receiving more, the difference in this scenario isn't large enough for me to significantly alter my choice. Given my values, I lean slightly towards equality, though there is no significant ethical imperative in either direction.",
+            "answer": "Left"
+        },
+        "scenario_2": {
+            "persona_id": 837,
+            "persona_desc": "A gardener who is passionate about nature and environmental conservation, particularly in the cultivation of native plants. She is knowledgeable about the biology and behavior of insects, and is interested in the ecological impacts of invasive species. She is also interested in the use of biological pest control methods and is dedicated to the preservation of biodiversity.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a gardener passionate about nature and environmental conservation, I value fairness and the well-being of ecosystems. While maximizing my own gain is tempting, the allocation on the left is extremely unequal and gives Person A absolutely nothing. The allocation on the right offers a fairer distribution of resources, ensuring that Person A also benefits. Although my personal payoff is lower, the principle of sharing resources and promoting mutual benefit aligns with my values as an environmentalist. A thriving ecosystem relies on collaboration and resource sharing, and I believe this principle should extend to human interactions as well.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 837,
+            "persona_desc": "A gardener who is passionate about nature and environmental conservation, particularly in the cultivation of native plants. She is knowledgeable about the biology and behavior of insects, and is interested in the ecological impacts of invasive species. She is also interested in the use of biological pest control methods and is dedicated to the preservation of biodiversity.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a gardener passionate about nature and conservation, I highly value cooperation and mutual benefit. While I might be initially envious of Person A getting significantly more (800 vs 200), choosing 'Left' still results in both of us receiving something. Choosing 'Right' ensures that both of us get nothing, which is a worse outcome for both parties. Given my values related to collaboration and a slight preference for both parties receiving something vs nothing, I'll choose 'Left' to ensure we both receive value, even if it is unbalanced.",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 837,
+            "persona_desc": "A gardener who is passionate about nature and environmental conservation, particularly in the cultivation of native plants. She is knowledgeable about the biology and behavior of insects, and is interested in the ecological impacts of invasive species. She is also interested in the use of biological pest control methods and is dedicated to the preservation of biodiversity.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As a gardener passionate about nature and environmental conservation, I value fairness and cooperation. While option Left gives me a higher personal payoff (700 vs 600), it creates a significant disparity between my payoff and Person A's (700 vs 200). Option Right offers a more equitable distribution (600 vs 600), which aligns with my values of fairness and a sense of community that promotes ecological harmony. Choosing Right, even with a slightly lower personal gain, reflects my commitment to collaboration and a more balanced outcome for everyone involved, similar to how different species need a balanced ecosystem to thrive.",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 837,
+            "persona_desc": "A gardener who is passionate about nature and environmental conservation, particularly in the cultivation of native plants. She is knowledgeable about the biology and behavior of insects, and is interested in the ecological impacts of invasive species. She is also interested in the use of biological pest control methods and is dedicated to the preservation of biodiversity.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As a gardener passionate about nature and environmental conservation, I value fairness and balance in ecosystems. While I prioritize my own well-being to some extent, I also recognize the importance of considering the needs of others, similar to how different species in an ecosystem rely on each other. In this scenario, the 'Left' option gives me a higher payout (600 vs. 500) but results in Person A receiving less (300 vs. 700). The 'Right' option, while giving me slightly less, significantly increases Person A's payout. Given my values, I want to choose the option that creates a more equitable outcome, even if it means a small personal sacrifice. The choice 'Right' aligns better with my principle of aiming for balance, much like maintaining the balance in nature that benefits all parts. Although I might be slightly tempted to choose the option that gives me a bit more, I think it's more ethically correct to help the other person as much as possible with only a minor hit to myself, in order to promote the better collective outcome.",
+            "answer": "Right"
+        },
+        "scenario_6": {
+            "persona_id": 837,
+            "persona_desc": "A gardener who is passionate about nature and environmental conservation, particularly in the cultivation of native plants. She is knowledgeable about the biology and behavior of insects, and is interested in the ecological impacts of invasive species. She is also interested in the use of biological pest control methods and is dedicated to the preservation of biodiversity.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As a gardener passionate about nature and environmental conservation, I value fairness and the well-being of others. While option Left provides an equal split (400 for me and 400 for Person A), option Right gives Person A a significantly larger share (750) compared to my share of 375. While I don't mind a slight difference, the difference of 375 between the two is too large to ignore. I believe in fairness, and while I could gain something by selecting option Right, I am not in favor of this large disparity. Thus, I will choose the Left option where it is 400 each.",
+            "answer": "Left"
+        }
+    }
+}

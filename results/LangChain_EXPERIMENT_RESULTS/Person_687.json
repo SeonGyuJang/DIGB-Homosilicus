@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 687,
+            "persona_desc": "A scientist who specializes in influenza research and has expertise in the detection and analysis of influenza viruses. She is particularly interested in the emergence of new viral strains and the development of effective vaccines. She has experience in working with large datasets and has a deep understanding of the epidemiology of influenza. She is also knowledgeable about the different types of influenza viruses and their genetic variability.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a scientist focused on influenza research and vaccine development, my priority is maximizing societal benefit. While I personally benefit more from option (Left), the distribution is highly unequal. Option (Right) offers a more equitable distribution, where both I and Person A receive a substantial amount. Although I get less individually (400 vs 600), the overall societal benefit is potentially higher because Person A also receives 400, enabling them perhaps to do work in another area to benefit society. In short, fairness and the potential for broader societal benefit outweighs the personal gain from the unequal outcome.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 687,
+            "persona_desc": "A scientist who specializes in influenza research and has expertise in the detection and analysis of influenza viruses. She is particularly interested in the emergence of new viral strains and the development of effective vaccines. She has experience in working with large datasets and has a deep understanding of the epidemiology of influenza. She is also knowledgeable about the different types of influenza viruses and their genetic variability.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a scientist focused on influenza research, my primary motivation centers around securing resources that enable me to continue my work effectively. While fairness and equitable distribution are important principles, in this scenario, the increased personal gain offered by the 'Right' choice directly translates to greater resources for research, which can lead to advancements in influenza detection, prevention, and treatment. Having access to more funds can provide me the opportunity to further explore the field of emerging viral strains, work with larger datasets, and better understand the epidemiology of influenza. Although Person A receives less, the allocation still provides them with some resources. The pursuit of scientific advancement, in this case, outweighs the potential benefit of a more equal distribution. Therefore, I prioritize maximizing my own allocation to benefit my research efforts.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 687,
+            "persona_desc": "A scientist who specializes in influenza research and has expertise in the detection and analysis of influenza viruses. She is particularly interested in the emergence of new viral strains and the development of effective vaccines. She has experience in working with large datasets and has a deep understanding of the epidemiology of influenza. She is also knowledgeable about the different types of influenza viruses and their genetic variability.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a scientist focused on influenza research, I understand the importance of resource allocation and maximizing benefit. However, my professional background also emphasizes objectivity and fairness. While option (Right) provides me with a slightly larger personal gain (300 vs. 200), it comes at the cost of reducing Person A's resources significantly (100 vs. 200). From a purely utilitarian perspective focused on maximizing total resources, (Left) might be seen as better (400 total vs 400 total), but it is unclear how the resources are utilized. However, because the total amount is the same, the equitable distribution in option (Left) reflects the principles of fairness and collaboration that are crucial in scientific endeavors. This fosters a more cooperative environment. While my own personal benefit is somewhat higher in the right option, the difference isn't dramatically different, and therefore maintaining fairness is a more compelling reason. There is no strategic element in the task so considerations like reciprocity and reputation do not matter. From my professional perspective, maintaining equality in the allocation is important as it will enable future collaboration.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 687,
+            "persona_desc": "A scientist who specializes in influenza research and has expertise in the detection and analysis of influenza viruses. She is particularly interested in the emergence of new viral strains and the development of effective vaccines. She has experience in working with large datasets and has a deep understanding of the epidemiology of influenza. She is also knowledgeable about the different types of influenza viruses and their genetic variability.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a scientist focused on influenza research and vaccine development, collaboration and data sharing are essential for advancing the field. While a higher personal payoff is attractive, the relatively small difference in my own gain (300) is outweighed by the significantly larger benefit to Person A (200). Strong collaboration leads to greater societal benefit and is more aligned with my values as a researcher. Furthermore, prioritizing fairness and a balanced outcome can foster trust and reciprocity in future interactions, which are beneficial in scientific endeavors. Therefore, I will choose the option that benefits both of us more equitably, even if it means slightly less for myself.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 687,
+            "persona_desc": "A scientist who specializes in influenza research and has expertise in the detection and analysis of influenza viruses. She is particularly interested in the emergence of new viral strains and the development of effective vaccines. She has experience in working with large datasets and has a deep understanding of the epidemiology of influenza. She is also knowledgeable about the different types of influenza viruses and their genetic variability.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a scientist focused on influenza research, I understand the importance of resource allocation, even in hypothetical situations. While the left option provides me with a larger personal gain (1000 vs 600), the right option allows Person A to receive 400. In the context of scientific collaboration and the need for shared resources to combat global health threats like influenza, a minimal level of sharing reflects a pragmatic approach. While the immediate personal benefit is lower, fostering a sense of fairness could potentially lead to future collaborations and shared knowledge, ultimately benefiting my research and the broader scientific community. Moreover, a 400 gain for another individual doesn't significantly impede my own goals. Considering the ethical implications and potential long-term benefits of modest altruism in collaborative settings, I will choose the right option.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 687,
+            "persona_desc": "A scientist who specializes in influenza research and has expertise in the detection and analysis of influenza viruses. She is particularly interested in the emergence of new viral strains and the development of effective vaccines. She has experience in working with large datasets and has a deep understanding of the epidemiology of influenza. She is also knowledgeable about the different types of influenza viruses and their genetic variability.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a scientist focused on influenza research and public health, I prioritize outcomes that benefit the population as a whole. While a larger personal gain of 1400 (Right) is tempting, the significant disparity in outcomes, where Person A receives only 100, is concerning. Influenza research and vaccine development rely on collaboration and a sense of shared benefit. A severely unequal distribution could undermine trust and hinder cooperative efforts in the long run. The option (Left) where both Person A and Person B receive 900, promotes fairness and encourages continued collaboration. Although I am foregoing a larger personal gain, promoting a more equitable outcome ultimately aligns with my professional values and the goals of my scientific endeavors. The health of the overall population benefits from a society where everyone thrives rather than just one individual. A more equal allocation of resources better reflects that value.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 687,
+            "persona_desc": "A scientist who specializes in influenza research and has expertise in the detection and analysis of influenza viruses. She is particularly interested in the emergence of new viral strains and the development of effective vaccines. She has experience in working with large datasets and has a deep understanding of the epidemiology of influenza. She is also knowledgeable about the different types of influenza viruses and their genetic variability.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a scientist focused on influenza research, my priority is the greater good and maximizing overall positive outcomes. Option 'Left' gives me a larger payoff (1000) but imposes a significant negative externality on Person A (-200). Option 'Right' provides a smaller payoff for me (600), but creates a positive outcome for Person A (400). The total payoff in 'Left' is 800, while the total payoff in 'Right' is 1000.\n\n  Considering my scientific background, choosing the option that maximizes overall well-being aligns with my professional values. While the prospect of a larger individual gain is tempting, I believe choosing 'Right' promotes fairness and a more equitable distribution of resources. It also avoids the negative externality imposed on Person A. Therefore, I will choose 'Right'.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 687,
+            "persona_desc": "A scientist who specializes in influenza research and has expertise in the detection and analysis of influenza viruses. She is particularly interested in the emergence of new viral strains and the development of effective vaccines. She has experience in working with large datasets and has a deep understanding of the epidemiology of influenza. She is also knowledgeable about the different types of influenza viruses and their genetic variability.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a scientist specializing in influenza research, I am generally motivated by outcomes that maximize overall benefit and minimize potential risks. In this scenario, option (Left) leads to a higher total payoff (1500) compared to option (Right) (0). While Person A receives a larger share in option (Left), the overall gain is substantial. Blocking Person A's gain by choosing (Right) seems detrimental, as it eliminates any potential value for both individuals. Although I might prefer a more equitable distribution, destroying value simply to prevent someone else from having more is counterproductive and doesn't align with my goal of maximizing overall wellbeing and progress (which indirectly benefits everyone). It could be argued that blocking a large gain might be justifiable if it prevented significant future harm, but this game provides no such context. Furthermore, I don't perceive Person A's larger gain as inherently unfair or excessive in this isolated interaction. Therefore, I will choose the option that leads to a positive outcome for both parties, even if the distribution is not perfectly equal. Thus, I prefer Option (Left).",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 687,
+            "persona_desc": "A scientist who specializes in influenza research and has expertise in the detection and analysis of influenza viruses. She is particularly interested in the emergence of new viral strains and the development of effective vaccines. She has experience in working with large datasets and has a deep understanding of the epidemiology of influenza. She is also knowledgeable about the different types of influenza viruses and their genetic variability.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a scientist, I value outcomes that benefit society as a whole. While an extra 500 units would be personally beneficial, the scenario where both individuals receive a substantial amount (1000 each) represents a more equitable and potentially more beneficial outcome for a wider population, assuming Person A is also contributing to society in some way. I'm choosing the option that appears more socially optimal, even if it means slightly less personal gain. Considering my expertise in influenza research, I understand the importance of collaborative efforts and resource allocation for the greater good. The 1000 for both suggests a collaborative and equally valuable outcome, whereas 1500 for me and 0 for the other person suggest a potentially inequitable power dynamic or resource distribution. Thus, the egalitarian choice is better overall.",
+            "answer": "Left"
+        }
+    }
+}

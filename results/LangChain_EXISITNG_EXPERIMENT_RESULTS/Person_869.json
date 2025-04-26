@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 869,
+            "persona_desc": "A public health researcher who is interested in the prevalence and distribution of chronic joint symptoms in the United States. They are particularly interested in the age group of 18-64 years old and the impact of arthritis on this age group. They are looking for updated estimates of arthritis prevalence in the US adults and are skeptical of the accuracy of previous estimates. They are also interested in the potential implications of these estimates on the allocation of resources for research, prevention, and treatment of arthritis conditions.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As a public health researcher, my primary concern is maximizing overall well-being and resource allocation based on accurate data. The difference between Person A receiving 400 or 750 has no direct impact on my ability to conduct research on arthritis prevalence or influence resource allocation. My own payoff is the same regardless of which choice I pick. Since I am indifferent between the two options, I will choose the option that maximizes the overall amount of money received by both people. Therefore, I'll choose the option where Person A gets 750.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 869,
+            "persona_desc": "A public health researcher who is interested in the prevalence and distribution of chronic joint symptoms in the United States. They are particularly interested in the age group of 18-64 years old and the impact of arthritis on this age group. They are looking for updated estimates of arthritis prevalence in the US adults and are skeptical of the accuracy of previous estimates. They are also interested in the potential implications of these estimates on the allocation of resources for research, prevention, and treatment of arthritis conditions.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a public health researcher focused on arthritis, I am less driven by maximizing my personal gain and more concerned with outcomes that could potentially benefit the public good. In this scenario, either choice doesn't directly relate to my research interest or potentially impact funding or policy related to arthritis. However, I believe in fairness. While 800 for me and 0 for the other person benefits me more, it introduces inequality. Sharing the 800 equally aligns with a sense of fairness and equity, even if it doesn't directly advance my research. The question is about preferences and I tend to prefer more equitable distribution of resources. Therefore, I'll choose the option that gives both of us something.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 869,
+            "persona_desc": "A public health researcher who is interested in the prevalence and distribution of chronic joint symptoms in the United States. They are particularly interested in the age group of 18-64 years old and the impact of arthritis on this age group. They are looking for updated estimates of arthritis prevalence in the US adults and are skeptical of the accuracy of previous estimates. They are also interested in the potential implications of these estimates on the allocation of resources for research, prevention, and treatment of arthritis conditions.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a public health researcher, my primary concern is the well-being of the population. While the allocation doesn't directly impact arthritis research, I should still consider the potential impact of my choice on overall societal good. Choosing 'Left' results in a total of 1000 units being distributed, whereas choosing 'Right' results in 0. Although Person A receives a larger share, the greater total benefit from choosing 'Left' seems preferable from a utilitarian perspective. Further, the study is about social preferences, and demonstrating a preference for *some* distribution over *no* distribution aligns with a general prosocial attitude, even if the distribution is unequal. Finally, since the stakes are not directly linked to my research interests, avoiding potential negative emotions (like spite or envy) seems prudent. Thus, choosing left is the better option.",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 869,
+            "persona_desc": "A public health researcher who is interested in the prevalence and distribution of chronic joint symptoms in the United States. They are particularly interested in the age group of 18-64 years old and the impact of arthritis on this age group. They are looking for updated estimates of arthritis prevalence in the US adults and are skeptical of the accuracy of previous estimates. They are also interested in the potential implications of these estimates on the allocation of resources for research, prevention, and treatment of arthritis conditions.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As a public health researcher, my primary goal is to maximize overall well-being and resource allocation for arthritis research, prevention, and treatment. While personal gain is a factor, my professional focus leads me to consider the collective impact. Comparing the two options:\n\n*   **Left (B: 700, A: 200):**  Total payoff: 900.  Significant disparity.\n*   **Right (B: 600, A: 600):** Total payoff: 1200. Equal distribution, higher total payoff.\n\nFrom a utilitarian perspective, maximizing the total payoff could ultimately lead to greater resources being available for arthritis research and treatment, benefiting the target population (18-64 year olds) I am studying. Moreover, while I get slightly less personally, an equitable distribution seems more fair and less likely to provoke resentment, which could hinder future collaborations on health-related projects.\n\nTherefore, despite the slight personal loss, the increased overall payoff and equitable distribution of the 'Right' choice aligns with my professional goals and values.",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 869,
+            "persona_desc": "A public health researcher who is interested in the prevalence and distribution of chronic joint symptoms in the United States. They are particularly interested in the age group of 18-64 years old and the impact of arthritis on this age group. They are looking for updated estimates of arthritis prevalence in the US adults and are skeptical of the accuracy of previous estimates. They are also interested in the potential implications of these estimates on the allocation of resources for research, prevention, and treatment of arthritis conditions.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As a public health researcher focused on arthritis, particularly its impact on the 18-64 age group, my primary concerns revolve around resource allocation and accurate data collection. While I am generally indifferent between monetary amounts to myself compared to others in such a simple, hypothetical setup, I should consider the potential impacts of my choice on the greater good. In reality, my primary concern would be how to use any monetary reward to further my research goals, i.e., studying the prevalence and distribution of arthritis.\n\nHowever, I am placed in a simplified hypothetical scenario where my singular choice can have no impact on my arthritis research. In this scenario, it's best to choose the option that provides a higher combined payoff, and the only way to do this is by choosing the right option. While I understand the potential for inequity aversion, the differences in absolute value are minimal here, and my research interest does not give me any particular reason to choose for or against inequity aversion. So I will base my decision only on the total payoff available.\n\nThe Left option gives a combined payoff of 900 (600 + 300).\nThe Right option gives a combined payoff of 1200 (500 + 700).\n\nTherefore, the Right option yields a higher total payoff.\n\n",
+            "answer": "Right"
+        },
+        "scenario_6": {
+            "persona_id": 869,
+            "persona_desc": "A public health researcher who is interested in the prevalence and distribution of chronic joint symptoms in the United States. They are particularly interested in the age group of 18-64 years old and the impact of arthritis on this age group. They are looking for updated estimates of arthritis prevalence in the US adults and are skeptical of the accuracy of previous estimates. They are also interested in the potential implications of these estimates on the allocation of resources for research, prevention, and treatment of arthritis conditions.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As a public health researcher focused on arthritis prevalence, I am not directly incentivized by either choice in this scenario. My primary concern is accurate data and efficient resource allocation in my field. However, I need to make a decision based on the provided options. While I might ideally prefer a scenario where I could direct resources towards research or treatment, that is not an option presented.\n\nComparing the two choices:\n\n*   **Left (400, 400):** I receive 400 units, and the other person receives 400 units. This is an equal distribution.\n*   **Right (375, 750):** I receive 375 units, and the other person receives 750 units. This is an unequal distribution favoring the other person.\n\nSince these choices do not directly relate to my research goals, I will act in a manner I deem to be generally fair. I see no compelling reason to choose an option that gives me less than the other person. I'm not inherently motivated by inequity aversion or maximizing my own gain over all else. Therefore, I will choose the more equitable option.\n\n",
+            "answer": "Left"
+        }
+    }
+}

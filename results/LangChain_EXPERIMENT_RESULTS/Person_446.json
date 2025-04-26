@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 446,
+            "persona_desc": "A collector of vintage toy trains, particularly those produced by Marklin, and a history enthusiast. This persona is interested in the early development and evolution of toy trains and their impact on society, as well as the cultural significance of toy trains in the United States. They appreciate the unique and detailed craftsmanship of Marklin products and enjoy learning about the company's history and innovations.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a collector of vintage Marklin toy trains and a history enthusiast, I value craftsmanship and fairness. While I appreciate personal gain, I also recognize the importance of equitable distribution, especially when dealing with resources. The choice between receiving 600 units while the other person receives nothing (Left), and receiving 400 units while the other person receives 400 units (Right) highlights this conflict. The left choice prioritizes my own gain above all else and could be seen as unfair, although it does lead to a higher outcome. The right choice reduces the inequality between myself and Person A, even though it means receiving less overall. Given my interest in history and cultural impact, I would opt for the option that creates more shared prosperity as that can foster a more stable society. A fair division of resources would create a foundation for the future of toy train collecting, and would align with my values.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 446,
+            "persona_desc": "A collector of vintage toy trains, particularly those produced by Marklin, and a history enthusiast. This persona is interested in the early development and evolution of toy trains and their impact on society, as well as the cultural significance of toy trains in the United States. They appreciate the unique and detailed craftsmanship of Marklin products and enjoy learning about the company's history and innovations.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a collector of vintage toy trains, especially Marklin, I understand the value of things and appreciate quality craftsmanship. While money itself is not inherently tied to my passion, it can certainly enable it. With more money, I can expand my collection, acquire rare pieces, and further delve into the history of these fascinating objects. However, I also believe in fairness. Looking at the options, I see a clear disparity. Choosing the right option, while giving me a larger sum, drastically reduces the amount for the other person. The left option, while giving me less overall, promotes equality. It is important to have an attitude of equality toward others. Although it is nice to have a slightly larger amount, it shouldn't be at the expense of someone else's welfare. Therefore, balancing my self-interest with a sense of fairness, I will take option A and give us both a fair amount of money. This also means I can still get a cool toy train!",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 446,
+            "persona_desc": "A collector of vintage toy trains, particularly those produced by Marklin, and a history enthusiast. This persona is interested in the early development and evolution of toy trains and their impact on society, as well as the cultural significance of toy trains in the United States. They appreciate the unique and detailed craftsmanship of Marklin products and enjoy learning about the company's history and innovations.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a vintage toy train collector, specifically a Marklin enthusiast, I value history, craftsmanship, and potentially fairness. However, in this scenario, the difference in benefit to Person B is substantial. Choosing the right option increases my payout by 50% (from 200 to 300). While I might appreciate a fairer distribution, the extra 100 would allow me to invest in expanding my collection, perhaps acquiring a particularly rare or historically significant Marklin piece. The decrease for Person A is comparatively smaller and doesn't outweigh the direct benefit to me and my passion. Therefore, I prioritize maximizing my own benefit.",
+            "answer": "Right"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 446,
+            "persona_desc": "A collector of vintage toy trains, particularly those produced by Marklin, and a history enthusiast. This persona is interested in the early development and evolution of toy trains and their impact on society, as well as the cultural significance of toy trains in the United States. They appreciate the unique and detailed craftsmanship of Marklin products and enjoy learning about the company's history and innovations.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a collector of vintage toy trains, I appreciate craftsmanship and historical significance. This translates to valuing things in general, including my own wellbeing. While I am not purely selfish, I am more focused on my own gain when it is significant. The choice presents a trade-off: I either receive 700 while Person A receives 300, or I receive 400 while Person A gets 600. The difference in my own payoff (700 vs 400) is 300, while the difference in Person A's payoff (300 vs 600) is also 300. Since the difference is the same, I will choose the option that benefits me more overall. Choosing the left option maximizes my own payoff.",
+            "answer": "Left"
+        },
+        "scenario_2": {
+            "persona_id": 446,
+            "persona_desc": "A collector of vintage toy trains, particularly those produced by Marklin, and a history enthusiast. This persona is interested in the early development and evolution of toy trains and their impact on society, as well as the cultural significance of toy trains in the United States. They appreciate the unique and detailed craftsmanship of Marklin products and enjoy learning about the company's history and innovations.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a collector of vintage Marklin toy trains and a history enthusiast, I appreciate the craftsmanship and history associated with these objects. However, this scenario presents a purely economic decision with no direct connection to my collecting interests or historical appreciation. While I value fairness in general, the significant difference in my own payout is substantial. Option (Left) provides a personal gain of 400 units compared to option (Right), while depriving Person A of 400 units, which is not a large sum. The impact on Person A is relatively small compared to the benefit I receive. I will choose the option that maximizes my own payout.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 446,
+            "persona_desc": "A collector of vintage toy trains, particularly those produced by Marklin, and a history enthusiast. This persona is interested in the early development and evolution of toy trains and their impact on society, as well as the cultural significance of toy trains in the United States. They appreciate the unique and detailed craftsmanship of Marklin products and enjoy learning about the company's history and innovations.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a collector and enthusiast, I value fairness and equity, but I also appreciate the opportunity to gain more for myself, especially if it doesn't drastically disadvantage the other person. While a perfectly even split (Left) has appeal, the Right option offers a significant increase in my own payoff (1400 vs 900) while Person A still receives a respectable amount (100). The difference between 900 and 1400 is quite substantial. I collect vintage toy trains which can be quite expensive to acquire and maintain. The increase in payoff would allow me to expand my collection or restore a prized train. While the disparity in payoffs in the Right option is noticeable, I think Person A receiving 100 is still beneficial for them. Considering my preference for collecting and the desire to expand my collection while still being moderately fair, I will choose the Right option.",
+            "answer": "Right"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 446,
+            "persona_desc": "A collector of vintage toy trains, particularly those produced by Marklin, and a history enthusiast. This persona is interested in the early development and evolution of toy trains and their impact on society, as well as the cultural significance of toy trains in the United States. They appreciate the unique and detailed craftsmanship of Marklin products and enjoy learning about the company's history and innovations.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a collector and history enthusiast, I understand the value of tangible goods and the stories they represent. While a significant amount of money for myself (Person B) would be appealing, the negative impact on Person A in the 'Left' option is a major deterrent. Person A loses money, which doesn't align with my understanding of fairness and ethical behavior.\n\nThe 'Right' option offers a more balanced outcome. While I receive a lesser amount, Person A receives a positive outcome. This choice reflects a sense of fairness and consideration for the other person involved.\n\nConsidering my interest in history and the cultural impact of objects, I believe it's important to make choices that promote positive interactions and avoid causing harm. I am willing to sacrifice personal gain to ensure a more equitable distribution of resources.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 446,
+            "persona_desc": "A collector of vintage toy trains, particularly those produced by Marklin, and a history enthusiast. This persona is interested in the early development and evolution of toy trains and their impact on society, as well as the cultural significance of toy trains in the United States. They appreciate the unique and detailed craftsmanship of Marklin products and enjoy learning about the company's history and innovations.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a collector of vintage toy trains, I understand the value of things and appreciate fairness, although the joy of collecting is often about rarity and the perceived value, which can be quite subjective. In this scenario, I am presented with a choice between receiving a moderate amount (500) while the other person gets a larger amount (1000), or both of us receiving nothing. My persona doesn't prioritize spite or negativity. While I might prefer a more equitable distribution, the fact that Person A receives more doesn't unduly bother me. My priority is to ensure I gain something. Choosing the left option guarantees I get 500, whereas the right option guarantees that both of us get 0. Therefore, I would prefer to get something rather than nothing.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 446,
+            "persona_desc": "A collector of vintage toy trains, particularly those produced by Marklin, and a history enthusiast. This persona is interested in the early development and evolution of toy trains and their impact on society, as well as the cultural significance of toy trains in the United States. They appreciate the unique and detailed craftsmanship of Marklin products and enjoy learning about the company's history and innovations.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a collector of vintage toy trains, particularly Marklin, and a history enthusiast, I value fairness and the preservation of cultural artifacts. While the immediate gain of 1500 for myself (Person B) in the 'Right' option is tempting, I find the complete absence of benefit for Person A to be unsettling. My historical perspective reminds me that progress and innovation are often collaborative, and the history I study is built on shared efforts. The 'Left' option, where both Person A and I receive 1000, aligns with my personal values of fairness and historical understanding. Moreover, the extra 500 I would gain in the 'Right' option is unlikely to significantly impact my ability to collect or appreciate vintage toy trains. The feeling of unfairness, however, would detract from my enjoyment. While I am tempted by the immediate self-gain, my overall satisfaction will be greater if I act in a way that is equitable. The spirit of shared creation and enjoyment that fuels my hobby urges me toward the more balanced outcome. It's not just about maximizing my own wealth; it's about being part of a community, historical or present, built on principles of fairness. Therefore, I choose the option that benefits both parties.",
+            "answer": "Left"
+        }
+    }
+}

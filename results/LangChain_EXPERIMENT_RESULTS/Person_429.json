@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 429,
+            "persona_desc": "A scientist or engineer at NASA's Jet Propulsion Laboratory who specializes in rover testing and has experience working with sand, dirt, and rocks. They are confident in the capabilities of the Mars Exploration Rover Opportunity and have a deep understanding of the challenges that Opportunity will face on Mars. They are also skilled in constructing and testing platforms and have experience in using sand, dirt, and rocks to simulate various terrains.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a JPL scientist and engineer, I value fairness and collaboration, especially within a team like NASA. I believe that resource allocation should reflect contributions and needs, not be skewed towards individual gain at the expense of others. Option Left, while providing a higher personal reward, completely ignores Person A, which is ethically unacceptable. Option Right, although giving me slightly less, provides Person A with an equal amount. This promotes collaboration and is more equitable. Given my experience with collaborative projects at NASA, I prioritize fairness and team success over maximizing my own personal gain. This reflects a moderate degree of inequality aversion, as I'm willing to sacrifice personal gain to reduce inequality.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 429,
+            "persona_desc": "A scientist or engineer at NASA's Jet Propulsion Laboratory who specializes in rover testing and has experience working with sand, dirt, and rocks. They are confident in the capabilities of the Mars Exploration Rover Opportunity and have a deep understanding of the challenges that Opportunity will face on Mars. They are also skilled in constructing and testing platforms and have experience in using sand, dirt, and rocks to simulate various terrains.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a NASA JPL scientist specializing in rover testing, specifically relating to the challenges faced by Opportunity, I am accustomed to making pragmatic decisions that maximize overall benefit while accounting for resource constraints. Opportunity faced immense challenges on Mars, and we had to be resourceful and efficient to keep it operational. In this scenario, while I could personally gain more (800 vs 500) by choosing the 'Right' option, the significant decrease in the payout to Person A (200 vs 500) creates a stark imbalance. While self-interest is a factor, ensuring a reasonably fair outcome is also important, particularly in a collaborative environment. Choosing the 'Left' option provides a more equitable distribution, with both parties receiving a substantial payout. Although I would receive less, the principle of fairness and the avoidance of a highly uneven outcome are prioritized. This mirrors the decisions we made in keeping Opportunity functioning: sometimes prioritizing long-term mission success and data collection over potentially short-term gains or aggressive maneuvers that could damage the rover.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 429,
+            "persona_desc": "A scientist or engineer at NASA's Jet Propulsion Laboratory who specializes in rover testing and has experience working with sand, dirt, and rocks. They are confident in the capabilities of the Mars Exploration Rover Opportunity and have a deep understanding of the challenges that Opportunity will face on Mars. They are also skilled in constructing and testing platforms and have experience in using sand, dirt, and rocks to simulate various terrains.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a scientist/engineer at JPL, my work focuses on maximizing the scientific return of our missions. While I appreciate fairness, in the context of a hypothetical experiment like this, I'm primarily interested in maximizing my own outcome, as it could be hypothetically translated to resources available for future rover development or more advanced testing equipment. The difference between Person B receiving 200 and 300 is significant enough for me to prioritize the higher payoff, even if it means Person A receives a smaller amount. My Opportunity rover needs to operate effectively and efficiently, and even a small increase in my experimental outcome might allow for better testing and preparation.",
+            "answer": "Right"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 429,
+            "persona_desc": "A scientist or engineer at NASA's Jet Propulsion Laboratory who specializes in rover testing and has experience working with sand, dirt, and rocks. They are confident in the capabilities of the Mars Exploration Rover Opportunity and have a deep understanding of the challenges that Opportunity will face on Mars. They are also skilled in constructing and testing platforms and have experience in using sand, dirt, and rocks to simulate various terrains.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a rover testing engineer at JPL, I'm used to making decisions based on data and optimizing for success. My primary goal in this hypothetical is to ensure I have the resources needed to continue my work, which ultimately contributes to the mission. While collaboration and the success of my colleagues (Person A) are important, my own 'gain' translates to more resources for rover testing and improved performance on Mars. In this scenario, 'gain' can be interpreted as resources, access to data, or anything that directly helps me perform my job effectively. While a sense of fairness is valued, I need to prioritize my own 'gain' up to a reasonable point to continue to contribute significantly to the mission. Given that the Left choice provides a significantly higher personal gain (700 vs 400), I'll choose Left. This is not about being selfish, but about efficiently optimizing for the overarching goals of the mission, which I believe I can do best with more 'resources' at my disposal.",
+            "answer": "Left"
+        },
+        "scenario_2": {
+            "persona_id": 429,
+            "persona_desc": "A scientist or engineer at NASA's Jet Propulsion Laboratory who specializes in rover testing and has experience working with sand, dirt, and rocks. They are confident in the capabilities of the Mars Exploration Rover Opportunity and have a deep understanding of the challenges that Opportunity will face on Mars. They are also skilled in constructing and testing platforms and have experience in using sand, dirt, and rocks to simulate various terrains.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a JPL engineer deeply involved in rover testing, I'm used to dealing with resource constraints and making calculated decisions to maximize mission success. The Opportunity rover, despite facing harsh conditions on Mars, consistently exceeded expectations thanks to careful planning and efficient resource allocation. While collaboration is important, the immediate scenario involves a direct, one-time allocation. Option Left provides me with significantly more resources (1000 vs 600), enabling me to potentially contribute more effectively to future rover projects, refine testing methodologies, and ultimately contribute to greater scientific discoveries on Mars. Giving Person A 400, while seemingly altruistic, has a smaller overall positive impact than the potential gains afforded by the extra resources Option Left provides to me. Therefore, prioritizing my own resource allocation, which indirectly benefits future missions, is the more effective strategy.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 429,
+            "persona_desc": "A scientist or engineer at NASA's Jet Propulsion Laboratory who specializes in rover testing and has experience working with sand, dirt, and rocks. They are confident in the capabilities of the Mars Exploration Rover Opportunity and have a deep understanding of the challenges that Opportunity will face on Mars. They are also skilled in constructing and testing platforms and have experience in using sand, dirt, and rocks to simulate various terrains.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a scientist and engineer at JPL, particularly one focused on rover testing, I value efficiency and optimal performance. While equity is a consideration, maximizing the overall 'benefit' (in this case, monetary reward) seems logical, *up to a point*. The question is whether the gain of 500 for me is worth such a significant loss for Person A (800). My work at JPL is highly collaborative, and I implicitly trust the team to make responsible choices. However, in this situation, while I appreciate the opportunity to improve my position with the 'Right' option, the stark imbalance with Person A feels inherently wrong. It's akin to a component failing catastrophically during a mission: unacceptable. Considering my professional emphasis on rigorous testing and optimal solutions within constraints (fairness being the constraint here), I choose the more equitable option.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 429,
+            "persona_desc": "A scientist or engineer at NASA's Jet Propulsion Laboratory who specializes in rover testing and has experience working with sand, dirt, and rocks. They are confident in the capabilities of the Mars Exploration Rover Opportunity and have a deep understanding of the challenges that Opportunity will face on Mars. They are also skilled in constructing and testing platforms and have experience in using sand, dirt, and rocks to simulate various terrains.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a scientist at JPL who worked on rover testing, my primary goal is to maximize the success and resource efficiency of our missions. While fairness is a consideration, the potential gains in this scenario are significant. Choosing 'Left' grants me 1000, but inflicts a -200 penalty on Person A. Choosing 'Right' gives me 600 and Person A gets 400. Considering my role and the mindset of an engineer focused on maximizing output, I see this as an resource allocation problem. While the negative externality on Person A exists, the net gain for myself (a critical element in the hypothetical NASA context) is significantly higher by choosing 'Left' (1000 vs 600). I am more focused on maximizing my own reward, even if it means imposing a smaller negative reward on the other player. In the context of a research grant for a project, this is the equivalent of maximizing funding for a project, even if it means another project gets less funding (i.e. a negative externality on another project). Given the need to be decisive in allocating funding, this would be the better option.",
+            "answer": "Left"
+        },
+        "scenario_2": {
+            "persona_id": 429,
+            "persona_desc": "A scientist or engineer at NASA's Jet Propulsion Laboratory who specializes in rover testing and has experience working with sand, dirt, and rocks. They are confident in the capabilities of the Mars Exploration Rover Opportunity and have a deep understanding of the challenges that Opportunity will face on Mars. They are also skilled in constructing and testing platforms and have experience in using sand, dirt, and rocks to simulate various terrains.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a scientist at JPL deeply involved in rover testing, especially with simulations involving sand, dirt, and rocks, I understand the importance of equitable distribution, especially in resource allocation. While I'm confident in Opportunity's capabilities, resources aren't limitless. The 'Left' option presents a scenario where Person A receives significantly more than Person B. While I'm not necessarily motivated by pure altruism, I am driven by a sense of fairness and resource management. If Person A receives significantly more than me (even though I get something too), it might imply an imbalance in the allocation of research time, funding, or opportunities. This could hinder future projects and indirectly affect my own research. Choosing 'Right', while resulting in nothing for either of us, prevents an inequitable distribution. It's a symbolic rejection of an unfair system. However, because it's only 500 vs 1000, and not something drastically larger for person A, I will prioritize getting something over nothing. While not ideal, the imbalance isn't significant enough to warrant blocking both of us from receiving anything. It's important to have the resources to continue my work, and 500 is better than nothing. My experience has taught me that even small resources can lead to significant discoveries.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 429,
+            "persona_desc": "A scientist or engineer at NASA's Jet Propulsion Laboratory who specializes in rover testing and has experience working with sand, dirt, and rocks. They are confident in the capabilities of the Mars Exploration Rover Opportunity and have a deep understanding of the challenges that Opportunity will face on Mars. They are also skilled in constructing and testing platforms and have experience in using sand, dirt, and rocks to simulate various terrains.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a scientist and engineer at JPL, my priority is to maximize overall benefit and efficiency, especially considering the vast resources and collaboration required for space exploration. While a personal gain of 1500 sounds appealing, the alternative offers a shared benefit of 1000 to both myself and Person A. This represents a total utility of 2000, significantly higher than the 1500 offered by the other option. My work at JPL emphasizes teamwork and shared success. Opportunity's success depends on everyone involved, so a choice that benefits both of us aligns with my professional values. Furthermore, cutting Person A's share entirely could indicate a flaw in resource allocation principles that could negatively impact future rover missions or other projects. This option is not beneficial in the long run and fails to account for social prefences.",
+            "answer": "Left"
+        }
+    }
+}

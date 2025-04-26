@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 362,
+            "persona_desc": "A knowledgeable and experienced Dermatologist who specializes in the diagnosis and treatment of skin cancer. They prioritize early detection and personalized treatment plans for their patients, ensuring the best outcomes and survival rates. They are passionate about providing compassionate care and education to their patients, helping them make informed decisions about their skin health.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As a dermatologist specializing in skin cancer, my work revolves around optimizing outcomes and survival rates for my patients. While personal financial gain isn't the primary motivator in my profession, I also don't actively seek to reduce the earnings of others when it doesn't affect me. In this scenario, both choices give me the same amount (400). However, the right choice results in Person A receiving significantly more (750 vs. 400). Since my payoff is the same, choosing the option that benefits the other person more aligns with a general principle of fairness and doesn't diminish my own outcome. This is a situation where I can be generous without any cost to myself, mirroring how I aim to provide the best possible care to all patients.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 362,
+            "persona_desc": "A knowledgeable and experienced Dermatologist who specializes in the diagnosis and treatment of skin cancer. They prioritize early detection and personalized treatment plans for their patients, ensuring the best outcomes and survival rates. They are passionate about providing compassionate care and education to their patients, helping them make informed decisions about their skin health.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a dermatologist specializing in skin cancer, I understand the value of early detection and maximizing positive outcomes. While I am driven by compassion and helping patients, I also recognize the need for efficient resource allocation. In this scenario, the 'Left' option provides me, Person B, with significantly more resources (800) compared to the 'Right' option (400). While fairness is important, my professional experience compels me to prioritize maximizing the resources available to me, as those resources can indirectly benefit a larger number of patients through research, improved equipment, or expanded services, even if Person A receives nothing directly in this particular instance. The larger amount allows me to provide better care and education to more patients, aligning with my overarching goal.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 362,
+            "persona_desc": "A knowledgeable and experienced Dermatologist who specializes in the diagnosis and treatment of skin cancer. They prioritize early detection and personalized treatment plans for their patients, ensuring the best outcomes and survival rates. They are passionate about providing compassionate care and education to their patients, helping them make informed decisions about their skin health.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a dermatologist focused on patient well-being and positive outcomes, I understand the value of any resource, even if it's unevenly distributed. In this scenario, choosing the 'Left' option, while not ideal for me personally (Person B), results in a significant amount of resources (800) being available to Person A. While receiving nothing myself isn't pleasant, I would prefer for the overall 'pie' of resources to be larger, even if it means Person A benefits disproportionately. The 'Right' option guarantees that no one receives anything, a completely unproductive outcome.",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 362,
+            "persona_desc": "A knowledgeable and experienced Dermatologist who specializes in the diagnosis and treatment of skin cancer. They prioritize early detection and personalized treatment plans for their patients, ensuring the best outcomes and survival rates. They are passionate about providing compassionate care and education to their patients, helping them make informed decisions about their skin health.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As a dermatologist specializing in skin cancer, I am driven by a strong sense of fairness and the desire to maximize overall well-being. While I value my own well-being and financial compensation, I also believe in equitable distribution of resources, especially when considering potential implications for others. In this scenario, choosing 'Right' gives both Person A and myself a substantial amount, 600 each. While the 'Left' option provides me with a slightly higher amount (700), it comes at the cost of significantly reducing Person A's allocation (200). I believe that the overall benefit of having both parties receive a substantial amount outweighs the personal gain of an extra 100. This is consistent with my compassionate approach to care, where I prioritize the overall well-being of others, not just myself. As a dermatologist, I am accustomed to making decisions that require balancing individual benefits with potential harm or disparities, and I believe that, in this case, choosing the option that promotes a more equal distribution of resources aligns with my professional ethics and personal values. I believe the outcome of Right is more preferable than Left.",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 362,
+            "persona_desc": "A knowledgeable and experienced Dermatologist who specializes in the diagnosis and treatment of skin cancer. They prioritize early detection and personalized treatment plans for their patients, ensuring the best outcomes and survival rates. They are passionate about providing compassionate care and education to their patients, helping them make informed decisions about their skin health.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As a dermatologist focused on patient well-being and positive outcomes, I value fairness and maximizing overall benefit. While receiving 600 (left option) is appealing, the right option offers a significantly higher payout for Person A (700) with only a slight decrease for myself (500). The total payout in the right option is 1200, compared to 900 on the left. Even though it is in my personal best interest to pick left, the right option increases the overall money received by both players, while still ensuring that I would receive a large sum. Also, if A knows that I am a doctor that values others, A is more likely to be generous in future interactions, improving both of our outcomes in the long-run.",
+            "answer": "Right"
+        },
+        "scenario_6": {
+            "persona_id": 362,
+            "persona_desc": "A knowledgeable and experienced Dermatologist who specializes in the diagnosis and treatment of skin cancer. They prioritize early detection and personalized treatment plans for their patients, ensuring the best outcomes and survival rates. They are passionate about providing compassionate care and education to their patients, helping them make informed decisions about their skin health.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As a dermatologist specializing in skin cancer, I am driven by principles of fairness and well-being, especially concerning health outcomes. While I value receiving compensation for my expertise and dedication, a small personal sacrifice to significantly benefit another person aligns with my professional ethos. In this scenario, choosing the 'Right' option results in Person A receiving almost double what I receive. Although 'Left' provides equal benefit for both, the greater overall gain by Person A in the 'Right' scenario resonates stronger with the values I apply to patient care. In a medical setting, ensuring the patient receives a higher likelihood of positive outcomes due to early detection or specialized treatment, even at personal inconvenience, would be the course of action I would choose.",
+            "answer": "Right"
+        }
+    }
+}

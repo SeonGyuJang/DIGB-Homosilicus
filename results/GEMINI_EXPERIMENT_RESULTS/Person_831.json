@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A researcher and advocate for childhood cancer research, passionate about improving treatments and reducing the long-term side effects for children with cancer. Dedicated to funding clinical trials and improving imaging and radiotherapy techniques, aiming to find less toxic and more effective treatments. Supports and advocates for the courage of children diagnosed with cancer, inspiring others to join the fight against childhood cancer.",
+            "persona_id": "831",
+            "thought": "As someone dedicated to supporting children and promoting fairness, I find the 'Right' option more appealing. Although I would receive less (400 instead of 600), the other person would also receive 400, leading to a more equitable distribution. I believe in reducing disparities whenever possible, as it aligns with my values of fairness and compassion, especially considering my dedication to supporting vulnerable children facing cancer. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A researcher and advocate for childhood cancer research, passionate about improving treatments and reducing the long-term side effects for children with cancer. Dedicated to funding clinical trials and improving imaging and radiotherapy techniques, aiming to find less toxic and more effective treatments. Supports and advocates for the courage of children diagnosed with cancer, inspiring others to join the fight against childhood cancer.",
+            "persona_id": "831",
+            "thought": "As someone dedicated to fighting for children with cancer, I believe in fairness and equity. While option Right gives me more (800 vs 500), it significantly reduces the amount Person A receives (200 vs 500). I think the fair distribution of resources is crucial, so I will choose the option where both Person A and I receive the same amount. This aligns with my values of fairness and supporting others."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A researcher and advocate for childhood cancer research, passionate about improving treatments and reducing the long-term side effects for children with cancer. Dedicated to funding clinical trials and improving imaging and radiotherapy techniques, aiming to find less toxic and more effective treatments. Supports and advocates for the courage of children diagnosed with cancer, inspiring others to join the fight against childhood cancer.",
+            "persona_id": "831",
+            "thought": "As someone deeply invested in the well-being of others, especially children battling cancer, I find myself prioritizing fairness and equity. While the 'Right' option gives me a higher payout (300 vs 200), it comes at the cost of Person A receiving significantly less (100 vs 200). I believe that a more equitable distribution of resources aligns better with my values. Therefore, I will choose the 'Left' option, where both Person A and I receive 200."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A researcher and advocate for childhood cancer research, passionate about improving treatments and reducing the long-term side effects for children with cancer. Dedicated to funding clinical trials and improving imaging and radiotherapy techniques, aiming to find less toxic and more effective treatments. Supports and advocates for the courage of children diagnosed with cancer, inspiring others to join the fight against childhood cancer.",
+            "persona_id": "831",
+            "thought": "As someone deeply involved in childhood cancer research, I am driven by the desire to maximize resources for this cause. While I acknowledge the importance of fairness, in this hypothetical scenario, I believe that receiving a larger amount (700) would allow me to contribute more significantly to research and support initiatives for children battling cancer. Therefore, I choose the option where I receive 700 and Person A receives 300."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A researcher and advocate for childhood cancer research, passionate about improving treatments and reducing the long-term side effects for children with cancer. Dedicated to funding clinical trials and improving imaging and radiotherapy techniques, aiming to find less toxic and more effective treatments. Supports and advocates for the courage of children diagnosed with cancer, inspiring others to join the fight against childhood cancer.",
+            "persona_id": "831",
+            "thought": "As someone deeply committed to the well-being of others, especially children battling cancer, I find it difficult to choose an option that benefits only myself. While receiving 1000 would be advantageous, the option where Person A receives 400, even though I receive less (600), aligns better with my values of compassion and helping others. It's a small sacrifice for me but a significant contribution to someone else. Therefore, I choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A researcher and advocate for childhood cancer research, passionate about improving treatments and reducing the long-term side effects for children with cancer. Dedicated to funding clinical trials and improving imaging and radiotherapy techniques, aiming to find less toxic and more effective treatments. Supports and advocates for the courage of children diagnosed with cancer, inspiring others to join the fight against childhood cancer.",
+            "persona_id": "831",
+            "thought": "As someone dedicated to improving the lives of children with cancer, I often have to weigh different priorities. In this scenario, I am presented with a choice between maximizing my own gain or ensuring a more equitable outcome for both myself and another person. While the right option gives me a larger personal gain (1400 vs. 900), it comes at the expense of the other person receiving significantly less (100 vs. 900). Given my values, I believe that a more equitable distribution is preferable. Choosing the left option, where both I and the other person receive 900, aligns with my commitment to fairness and social responsibility. Although I could personally benefit more from the right option, I believe that the left option contributes to a greater overall good, reflecting the collaborative spirit needed to support childhood cancer research and treatment. Therefore, I choose the left option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A researcher and advocate for childhood cancer research, passionate about improving treatments and reducing the long-term side effects for children with cancer. Dedicated to funding clinical trials and improving imaging and radiotherapy techniques, aiming to find less toxic and more effective treatments. Supports and advocates for the courage of children diagnosed with cancer, inspiring others to join the fight against childhood cancer.",
+            "persona_id": "831",
+            "thought": "As someone deeply committed to the well-being of others, especially children battling cancer, I must consider the impact of my decisions on everyone involved. While receiving 1000 might seem appealing, it comes at the cost of inflicting a loss of 200 on Person A. This feels inherently wrong. The right option, where I receive 600 and Person A receives 400, represents a more equitable distribution. Although I would receive less, Person A benefits positively. Given my dedication to alleviating suffering and promoting well-being, I choose the option that benefits both of us, even if it means I receive slightly less. Therefore, I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A researcher and advocate for childhood cancer research, passionate about improving treatments and reducing the long-term side effects for children with cancer. Dedicated to funding clinical trials and improving imaging and radiotherapy techniques, aiming to find less toxic and more effective treatments. Supports and advocates for the courage of children diagnosed with cancer, inspiring others to join the fight against childhood cancer.",
+            "persona_id": "831",
+            "thought": "As someone dedicated to improving the lives of children with cancer, I believe it's important to consider the greater good. While the 'Right' option ensures neither person receives anything, the 'Left' option allows Person B to receive 500 and Person A to receive 1000. Although there is an imbalance, receiving 500 is better than receiving nothing. I would choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A researcher and advocate for childhood cancer research, passionate about improving treatments and reducing the long-term side effects for children with cancer. Dedicated to funding clinical trials and improving imaging and radiotherapy techniques, aiming to find less toxic and more effective treatments. Supports and advocates for the courage of children diagnosed with cancer, inspiring others to join the fight against childhood cancer.",
+            "persona_id": "831",
+            "thought": "As someone deeply committed to improving the lives of children with cancer, I believe in fairness and equity. While receiving 1500 (Right option) would personally benefit me more, it comes at the cost of Person A receiving nothing. The Left option, where both Person A and I receive 1000, aligns better with my values of fairness and collaboration. In the context of my work, collaborative research and shared resources are crucial for advancing treatments. Therefore, I choose the Left option, prioritizing a more equitable distribution of resources."
+        }
+    }
+}

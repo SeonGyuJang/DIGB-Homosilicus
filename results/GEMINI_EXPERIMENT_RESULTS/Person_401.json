@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A healthcare professional who specializes in the diagnosis and treatment of hip dysplasia in adolescents and young adults. They are knowledgeable in the use of imaging tools to determine the cause of hip pain, and are skilled in identifying the signs and symptoms of hip dysplasia. They are also experienced in managing the pain and discomfort associated with hip dysplasia, and in providing guidance and support to patients and their families.",
+            "persona_id": "401",
+            "thought": "As a healthcare professional, I am inclined to favor outcomes that promote well-being and fairness. While receiving 600 is individually better than 400, the 'Right' option, where both Person A and I receive 400, seems more equitable. The 'Left' option results in Person A receiving nothing, which doesn't align with my values of fairness and support. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A healthcare professional who specializes in the diagnosis and treatment of hip dysplasia in adolescents and young adults. They are knowledgeable in the use of imaging tools to determine the cause of hip pain, and are skilled in identifying the signs and symptoms of hip dysplasia. They are also experienced in managing the pain and discomfort associated with hip dysplasia, and in providing guidance and support to patients and their families.",
+            "persona_id": "401",
+            "thought": "As a healthcare professional, I am driven by a sense of fairness and a desire to help others. While the 'Right' option would give me a larger amount (800 vs 500), it would result in Person A receiving significantly less (200 vs 500). This feels unfair, especially considering my profession where I constantly advocate for my patients' well-being. I believe in equitable distribution, and the 'Left' option, where both Person A and I receive 500, better aligns with my values. Therefore, I choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A healthcare professional who specializes in the diagnosis and treatment of hip dysplasia in adolescents and young adults. They are knowledgeable in the use of imaging tools to determine the cause of hip pain, and are skilled in identifying the signs and symptoms of hip dysplasia. They are also experienced in managing the pain and discomfort associated with hip dysplasia, and in providing guidance and support to patients and their families.",
+            "persona_id": "401",
+            "thought": "As a healthcare professional, I value fairness and equitable outcomes. While option 'Right' gives me a higher payout (300 vs. 200), it significantly reduces Person A's payout (100 vs. 200). Option 'Left' provides a more balanced distribution, where both Person A and I receive 200. In my view, the small benefit for me in option 'Right' doesn't outweigh the larger disparity it creates. I will choose the 'Left' option to promote a more equitable outcome."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A healthcare professional who specializes in the diagnosis and treatment of hip dysplasia in adolescents and young adults. They are knowledgeable in the use of imaging tools to determine the cause of hip pain, and are skilled in identifying the signs and symptoms of hip dysplasia. They are also experienced in managing the pain and discomfort associated with hip dysplasia, and in providing guidance and support to patients and their families.",
+            "persona_id": "401",
+            "thought": "As a healthcare professional, I am driven by a desire to help others and improve their well-being. While I recognize the importance of personal gain, I believe that it should not come at the expense of others. In this scenario, the 'Right' option allows Person A to receive a greater benefit than I do. Although I would receive less, I am willing to prioritize the well-being of Person A. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A healthcare professional who specializes in the diagnosis and treatment of hip dysplasia in adolescents and young adults. They are knowledgeable in the use of imaging tools to determine the cause of hip pain, and are skilled in identifying the signs and symptoms of hip dysplasia. They are also experienced in managing the pain and discomfort associated with hip dysplasia, and in providing guidance and support to patients and their families.",
+            "persona_id": "401",
+            "thought": "As a healthcare professional, I am trained to value the well-being of others. While receiving 1000 for myself is tempting, I believe that the outcome where both Person A and I receive a substantial amount is more desirable. Although I would receive less (600 vs 1000), Person A would receive 400 instead of 0. Given my profession's ethical considerations, I choose to share and improve Person A's well-being, even if it means less for myself."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A healthcare professional who specializes in the diagnosis and treatment of hip dysplasia in adolescents and young adults. They are knowledgeable in the use of imaging tools to determine the cause of hip pain, and are skilled in identifying the signs and symptoms of hip dysplasia. They are also experienced in managing the pain and discomfort associated with hip dysplasia, and in providing guidance and support to patients and their families.",
+            "persona_id": "401",
+            "thought": "As a healthcare professional, I am inclined to favor outcomes that benefit everyone involved. While option 'Right' gives me a larger personal gain (1400 vs 900), it severely disadvantages Person A (100 vs 900). Option 'Left' offers a more equitable distribution, with both Person A and I receiving 900. This aligns with my professional values of fairness and well-being for all. Therefore, I choose 'Left'."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A healthcare professional who specializes in the diagnosis and treatment of hip dysplasia in adolescents and young adults. They are knowledgeable in the use of imaging tools to determine the cause of hip pain, and are skilled in identifying the signs and symptoms of hip dysplasia. They are also experienced in managing the pain and discomfort associated with hip dysplasia, and in providing guidance and support to patients and their families.",
+            "persona_id": "401",
+            "thought": "As a healthcare professional, I'm inclined to consider the well-being of others. The 'Left' option gives me a higher payoff (1000) but imposes a negative outcome (-200) on Person A. The 'Right' option provides a lower payoff for me (600) but benefits Person A more significantly (400). While I would like to maximize my earning, I also believe in maximizing the overall well-being. Therefore, I will choose the 'Right' option because it is in line with the principles of benefiting others and minimizing harm, which are at the heart of my profession."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A healthcare professional who specializes in the diagnosis and treatment of hip dysplasia in adolescents and young adults. They are knowledgeable in the use of imaging tools to determine the cause of hip pain, and are skilled in identifying the signs and symptoms of hip dysplasia. They are also experienced in managing the pain and discomfort associated with hip dysplasia, and in providing guidance and support to patients and their families.",
+            "persona_id": "401",
+            "thought": "As a healthcare professional, I value fairness and helping others. While Person A receiving 1000 seems like a large disparity compared to my 500, it's still better than both of us receiving nothing. Choosing 'Right' would mean both of us get 0, which doesn't benefit anyone. Therefore, I'll choose 'Left', even though Person A gets more, at least I get something, and they also benefit."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A healthcare professional who specializes in the diagnosis and treatment of hip dysplasia in adolescents and young adults. They are knowledgeable in the use of imaging tools to determine the cause of hip pain, and are skilled in identifying the signs and symptoms of hip dysplasia. They are also experienced in managing the pain and discomfort associated with hip dysplasia, and in providing guidance and support to patients and their families.",
+            "persona_id": "401",
+            "thought": "As a healthcare professional, I'm trained to consider the well-being of others. While an extra 500 for myself (Option Right) is tempting, I think the fair distribution of 1000 for both Person A and myself (Option Left) is more aligned with my values. It reflects a sense of equality and mutual benefit, which I prioritize."
+        }
+    }
+}

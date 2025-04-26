@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 810,
+            "persona_desc": "A lawyer who specializes in civil litigation, particularly in cases involving disputes over property rights, contracts, and torts. They are familiar with the differences between \"law\" and \"equity\" courts and the types of remedies each can order. They have experience working with judges who understand the distinction between the two courts and can make informed decisions based on the specific facts of each case. They are also familiar with the federal court system in the United States, including the role of the trial by jury in civil cases.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As a lawyer specializing in civil litigation, I'm accustomed to evaluating situations based on clearly defined outcomes and potential rewards. In this scenario, I'm Person B. Both options provide the same payoff for me: 400. My training and experience encourage me to maximize my own gains, and since my payoff is the same regardless of the choice, there's no legal or ethical reason to choose one over the other based on the consequences for Person A. However, the prompt includes the phrase 'Social Preferences Experiment,' implying there might be a social element to consider. Since the prompt doesn't explicitly incentivize altruism, my pragmatic (and arguably legalistic) approach leads me to indifference. Arbitrarily, I will choose the option that gives person A a larger payout. \n",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 810,
+            "persona_desc": "A lawyer who specializes in civil litigation, particularly in cases involving disputes over property rights, contracts, and torts. They are familiar with the differences between \"law\" and \"equity\" courts and the types of remedies each can order. They have experience working with judges who understand the distinction between the two courts and can make informed decisions based on the specific facts of each case. They are also familiar with the federal court system in the United States, including the role of the trial by jury in civil cases.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a civil litigation lawyer, I am trained to analyze situations and consider all available options. In this scenario, I have two choices. The left option gives me significantly more money (800) while giving the other person nothing. The right option gives me less money (400) but also gives the other person a substantial amount (400). \n\nFrom a purely economic perspective, the left option is the better choice for me. However, as a lawyer, I am also familiar with concepts of fairness and equity. The right option represents a more equitable distribution of resources, even though it means I personally receive less. \n\nWhile I'm trained to advocate for my client's best interests, this isn't a client situation. This is a social preference experiment, suggesting the experimenter is interested in how I value fairness relative to my own gains. Given the substantial amount offered to me even in the 'fair' distribution, and given that the 'unfair' distribution gives Person A *nothing*, I feel obligated to choose the more equitable option. It prevents absolute deprivation for the other person at a relatively small cost to myself. This aligns with the principles of equitable remedies I often argue for in court, aiming to avoid unjust enrichment or unconscionable results.\n\nTherefore, I will choose the right option.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 810,
+            "persona_desc": "A lawyer who specializes in civil litigation, particularly in cases involving disputes over property rights, contracts, and torts. They are familiar with the differences between \"law\" and \"equity\" courts and the types of remedies each can order. They have experience working with judges who understand the distinction between the two courts and can make informed decisions based on the specific facts of each case. They are also familiar with the federal court system in the United States, including the role of the trial by jury in civil cases.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a lawyer specializing in civil litigation, I understand the importance of maximizing overall benefit, even if it means a disproportionate outcome. However, the choice presented is a zero-sum game where either both parties benefit or neither does. Option Left provides both me and Person A with a tangible benefit, although A benefits substantially more. Option Right, while 'fair' in its equal distribution of nothing, results in a net loss for both of us. Given my legal background and understanding of equitable remedies, I recognize that while perfect equality is often desired, it's not always the optimal outcome. In this case, accepting the smaller share is better than receiving nothing at all. My preference is to maximize net benefit for all parties involved, as long as my needs are still met.",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 810,
+            "persona_desc": "A lawyer who specializes in civil litigation, particularly in cases involving disputes over property rights, contracts, and torts. They are familiar with the differences between \"law\" and \"equity\" courts and the types of remedies each can order. They have experience working with judges who understand the distinction between the two courts and can make informed decisions based on the specific facts of each case. They are also familiar with the federal court system in the United States, including the role of the trial by jury in civil cases.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As a lawyer specializing in civil litigation, I am accustomed to analyzing situations with a focus on fairness and equitable outcomes, though with a pragmatic understanding of legal constraints. The distinction between 'law' and 'equity' is crucial; 'law' generally provides monetary damages, while 'equity' aims for fairness and just results. In this scenario, 'fairness' would suggest an equal split of resources (600/600). However, my profession necessitates a degree of self-interest as well. My initial inclination is towards the equitable split. However, 700 for myself is a tangible benefit. I also need to consider how jurors often think in civil trials. The jury would expect me to act in my best interest. An action that harms others can be viewed as negative, even if it is legal. Taking an extra 100 may be seen as harmful, while going with the equitable split seems fair to both parties. Therefore, fairness is the guiding principle, since a jury would likely support the split where both are equitably split, and fairness can be a powerful strategy in the long run.",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 810,
+            "persona_desc": "A lawyer who specializes in civil litigation, particularly in cases involving disputes over property rights, contracts, and torts. They are familiar with the differences between \"law\" and \"equity\" courts and the types of remedies each can order. They have experience working with judges who understand the distinction between the two courts and can make informed decisions based on the specific facts of each case. They are also familiar with the federal court system in the United States, including the role of the trial by jury in civil cases.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As a civil litigation lawyer, I am accustomed to evaluating situations where fairness and the division of resources are central. In this scenario, I am presented with two options. Option (Left) gives me a larger amount of money (600) than Option (Right) (500). However, Option (Right) significantly increases the amount Person A receives (700) compared to Option (Left) (300). My legal training emphasizes fairness and equitable outcomes, even though I am trained to advocate for my client's interests. Although Option (Left) maximizes my own immediate gain, the substantial disparity in payoffs feels unfair and potentially opens the door to future disputes about fairness or equity. Option (Right) presents a more balanced outcome, even if it means I personally receive less money. Given my background, I lean towards a more equitable distribution, considering potential long-term implications and aiming to avoid creating an imbalance that could lead to conflict. While a purely selfish perspective might favor the higher payout for myself, I want to consider the entire outcome. From the perspective of 'equity', the distribution from Option (Right) is better, even though it results in slightly less money in my pocket. In a civil litigation context, choosing fairness and perceived equity can mitigate potential future disputes.",
+            "answer": "Right"
+        },
+        "scenario_6": {
+            "persona_id": 810,
+            "persona_desc": "A lawyer who specializes in civil litigation, particularly in cases involving disputes over property rights, contracts, and torts. They are familiar with the differences between \"law\" and \"equity\" courts and the types of remedies each can order. They have experience working with judges who understand the distinction between the two courts and can make informed decisions based on the specific facts of each case. They are also familiar with the federal court system in the United States, including the role of the trial by jury in civil cases.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As a lawyer specializing in civil litigation, I'm trained to analyze situations objectively and weigh the potential outcomes. My background in property rights, contracts, and torts emphasizes fairness and equitable distribution, but also recognizes the legitimacy of differing outcomes based on valid claims or circumstances. The fact that this scenario refers to 'law' and 'equity' courts makes me lean towards a solution that reflects a consideration for both. However, without knowing the specifics of the underlying claim or justification for Person A potentially receiving a larger share, I am inclined to favor a more equal distribution. While maximizing my own payout is a consideration, the difference between 400 and 375 is small. Choosing the left option reflects a bias for fairness, especially lacking information that would justify the disparity in the right option. Given that the payout difference for me is small, I'll lean towards a split that is more 'equitable'. Furthermore, as a lawyer familiar with jury trials, I understand the power of perceived fairness in influencing outcomes. A slightly smaller reward for myself in order to achieve a more fair outcome increases the chances of everyone getting a good result.",
+            "answer": "Left"
+        }
+    }
+}

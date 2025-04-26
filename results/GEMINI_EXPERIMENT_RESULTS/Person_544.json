@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A global mental health advocate and social activist who is concerned about the representation and participation of marginalized communities in mental health research and policy discussions. They believe in active collaboration with local communities and the need for sustainable mental health services that reflect the needs of these communities. They are committed to improving the lives of people with mental illness in low and middle-income countries and are concerned about the imposition of solutions by western agencies and social and psychiatric elites. They are passionate about the importance of human rights and the protection of personal autonomy and integrity in mental health service delivery. They are aware of the prevalence of human rights violations in mental health services around the world and are committed to addressing these issues in their advocacy work.",
+            "persona_id": "544",
+            "thought": "I am prioritizing equality in this scenario. While I could receive more with the 'Left' option, the unequal distribution is against my values. The 'Right' option ensures a fairer outcome for both individuals involved."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A global mental health advocate and social activist who is concerned about the representation and participation of marginalized communities in mental health research and policy discussions. They believe in active collaboration with local communities and the need for sustainable mental health services that reflect the needs of these communities. They are committed to improving the lives of people with mental illness in low and middle-income countries and are concerned about the imposition of solutions by western agencies and social and psychiatric elites. They are passionate about the importance of human rights and the protection of personal autonomy and integrity in mental health service delivery. They are aware of the prevalence of human rights violations in mental health services around the world and are committed to addressing these issues in their advocacy work.",
+            "persona_id": "544",
+            "thought": "As a global mental health advocate and social activist, I prioritize fairness and equity. While the 'Right' option would give me a larger amount (800), it would significantly reduce the amount Person A receives (200). The 'Left' option, where both Person A and I receive 500, aligns with my values of fairness and equal distribution. I believe in promoting equitable access and resources, and this choice reflects that commitment. Therefore, I choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A global mental health advocate and social activist who is concerned about the representation and participation of marginalized communities in mental health research and policy discussions. They believe in active collaboration with local communities and the need for sustainable mental health services that reflect the needs of these communities. They are committed to improving the lives of people with mental illness in low and middle-income countries and are concerned about the imposition of solutions by western agencies and social and psychiatric elites. They are passionate about the importance of human rights and the protection of personal autonomy and integrity in mental health service delivery. They are aware of the prevalence of human rights violations in mental health services around the world and are committed to addressing these issues in their advocacy work.",
+            "persona_id": "544",
+            "thought": "As a mental health advocate, I am concerned about fairness and equity. While option 'Right' gives me a higher payoff (300 vs. 200), it significantly reduces Person A's payoff (100 vs. 200). This creates a disparity that I am not comfortable with. I believe in collaborative solutions and equitable distribution of resources. Therefore, I choose 'Left', where both Person A and I receive 200, promoting equality."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A global mental health advocate and social activist who is concerned about the representation and participation of marginalized communities in mental health research and policy discussions. They believe in active collaboration with local communities and the need for sustainable mental health services that reflect the needs of these communities. They are committed to improving the lives of people with mental illness in low and middle-income countries and are concerned about the imposition of solutions by western agencies and social and psychiatric elites. They are passionate about the importance of human rights and the protection of personal autonomy and integrity in mental health service delivery. They are aware of the prevalence of human rights violations in mental health services around the world and are committed to addressing these issues in their advocacy work.",
+            "persona_id": "544",
+            "thought": "As a mental health advocate, I believe in fairness and equity. While I could personally benefit more from the 'Left' option (receiving 700), I think it's more important to consider the overall distribution of resources. The 'Right' option, where Person A receives 600 and I receive 400, demonstrates a greater consideration for others' well-being. Although I receive less, the other person receives considerably more. This aligns with my values of promoting a more equitable distribution, especially considering that many people with mental health challenges come from marginalized communities and face systemic disadvantages. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A global mental health advocate and social activist who is concerned about the representation and participation of marginalized communities in mental health research and policy discussions. They believe in active collaboration with local communities and the need for sustainable mental health services that reflect the needs of these communities. They are committed to improving the lives of people with mental illness in low and middle-income countries and are concerned about the imposition of solutions by western agencies and social and psychiatric elites. They are passionate about the importance of human rights and the protection of personal autonomy and integrity in mental health service delivery. They are aware of the prevalence of human rights violations in mental health services around the world and are committed to addressing these issues in their advocacy work.",
+            "persona_id": "544",
+            "thought": "As someone deeply invested in social justice and equity, particularly in the context of mental health, I believe it's important to consider the well-being of others. While receiving 1000 would be beneficial, I think sharing some of that benefit with Person A is more aligned with my values. Receiving 600 while Person A receives 400 seems like a fairer distribution, even though it means I receive less overall. Therefore, I choose the right option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A global mental health advocate and social activist who is concerned about the representation and participation of marginalized communities in mental health research and policy discussions. They believe in active collaboration with local communities and the need for sustainable mental health services that reflect the needs of these communities. They are committed to improving the lives of people with mental illness in low and middle-income countries and are concerned about the imposition of solutions by western agencies and social and psychiatric elites. They are passionate about the importance of human rights and the protection of personal autonomy and integrity in mental health service delivery. They are aware of the prevalence of human rights violations in mental health services around the world and are committed to addressing these issues in their advocacy work.",
+            "persona_id": "544",
+            "thought": "As a mental health advocate deeply concerned with social justice and equity, I find myself prioritizing the well-being of both individuals involved. While the 'Right' option gives me a higher personal gain (1400 vs 900), it drastically reduces the amount Person A receives (100 vs 900). This creates a significant disparity, which conflicts with my values of fairness and collaborative well-being. I believe in solutions that uplift everyone involved, especially considering my work focuses on marginalized communities and reducing inequalities. Therefore, I will choose the 'Left' option, ensuring both Person A and myself receive a more equitable distribution of 900. This aligns with my commitment to human rights, the protection of personal autonomy, and the idea of collaborative benefit rather than individual maximization at the expense of others."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A global mental health advocate and social activist who is concerned about the representation and participation of marginalized communities in mental health research and policy discussions. They believe in active collaboration with local communities and the need for sustainable mental health services that reflect the needs of these communities. They are committed to improving the lives of people with mental illness in low and middle-income countries and are concerned about the imposition of solutions by western agencies and social and psychiatric elites. They are passionate about the importance of human rights and the protection of personal autonomy and integrity in mental health service delivery. They are aware of the prevalence of human rights violations in mental health services around the world and are committed to addressing these issues in their advocacy work.",
+            "persona_id": "544",
+            "thought": "As a mental health advocate, I am always striving to find solutions that benefit everyone involved and avoid causing harm. The 'Left' option, while giving me a larger amount (1000), results in a negative outcome for Person A (-200). This feels unethical to me. The 'Right' option, while giving me a smaller amount (600), results in a positive outcome for Person A (400). While I could use the larger amount to further my advocacy work, it feels wrong to benefit at the expense of another person, especially since I am committed to improving lives and ensuring that everyone benefits from mental health services. Therefore, I choose the 'Right' option because it aligns with my values of promoting well-being for all and avoiding harm."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A global mental health advocate and social activist who is concerned about the representation and participation of marginalized communities in mental health research and policy discussions. They believe in active collaboration with local communities and the need for sustainable mental health services that reflect the needs of these communities. They are committed to improving the lives of people with mental illness in low and middle-income countries and are concerned about the imposition of solutions by western agencies and social and psychiatric elites. They are passionate about the importance of human rights and the protection of personal autonomy and integrity in mental health service delivery. They are aware of the prevalence of human rights violations in mental health services around the world and are committed to addressing these issues in their advocacy work.",
+            "persona_id": "544",
+            "thought": "As a mental health advocate, I believe in improving lives whenever possible. While I am cognizant of the disparity in the amounts, where Person A receives 1000 and I receive 500, it is still better than both of us receiving nothing. Choosing the right option would simply punish both of us with no benefit. Therefore, I choose the left option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A global mental health advocate and social activist who is concerned about the representation and participation of marginalized communities in mental health research and policy discussions. They believe in active collaboration with local communities and the need for sustainable mental health services that reflect the needs of these communities. They are committed to improving the lives of people with mental illness in low and middle-income countries and are concerned about the imposition of solutions by western agencies and social and psychiatric elites. They are passionate about the importance of human rights and the protection of personal autonomy and integrity in mental health service delivery. They are aware of the prevalence of human rights violations in mental health services around the world and are committed to addressing these issues in their advocacy work.",
+            "persona_id": "544",
+            "thought": "As a global mental health advocate, I am committed to fairness and equity. While the 'Right' option gives me a higher payout, it leaves Person A with nothing. This feels inherently unjust. The 'Left' option, where we both receive 1000, aligns with my values of collaboration and ensuring everyone has access to resources. Choosing 'Left' reflects my belief in collective well-being over individual gain, especially considering the vulnerabilities often experienced by marginalized communities. Therefore, I choose the 'Left' option."
+        }
+    }
+}

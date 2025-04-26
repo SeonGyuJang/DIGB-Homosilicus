@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 784,
+            "persona_desc": "A researcher or conservation scientist who is interested in wind energy and its impact on wildlife, particularly bats and eagles. This person is likely to be attending the Wind Wildlife Research Meeting to present their latest research on these topics, discuss findings with other experts, and network with industry professionals. They may also be interested in learning about innovative technologies and methods being developed to mitigate the impact of wind turbines on wildlife.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a conservation scientist focused on wind energy's impact on wildlife, particularly bats and eagles, I recognize the importance of collaboration and mutual benefit. While maximizing personal gain is tempting, I believe that a fair and equitable distribution of resources fosters stronger relationships and facilitates more effective research and implementation of mitigation strategies. Choosing the option where both parties receive a significant portion of the resources (400 each) reflects a commitment to shared success and a recognition that working together is essential for achieving our common goals related to sustainable wind energy development and wildlife conservation. Although I could get more by choosing the option where I get 600, the benefit to me is likely outweighed by the perceived cost to Person A. I would prefer that there be no 'loser' in this situation.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 784,
+            "persona_desc": "A researcher or conservation scientist who is interested in wind energy and its impact on wildlife, particularly bats and eagles. This person is likely to be attending the Wind Wildlife Research Meeting to present their latest research on these topics, discuss findings with other experts, and network with industry professionals. They may also be interested in learning about innovative technologies and methods being developed to mitigate the impact of wind turbines on wildlife.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a researcher interested in wind energy and wildlife conservation, I recognize that fostering collaboration and positive relationships is crucial for progress. While maximizing my own gain is tempting, a more equitable distribution of resources could foster better collaboration and potentially lead to more funding and resources for future research and conservation efforts, ultimately benefiting wildlife more in the long run. However, the difference isn't enormous. Is for research for bats or eagles, could use the addition funds to hire on students and afford radio trackers. Would this even be seen by those around me? Who is person A? Is it a potential ally in the bat/eagle research world? It does provide much more funds for myself and those who I employ for my research. I will select the option that has more for myself.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 784,
+            "persona_desc": "A researcher or conservation scientist who is interested in wind energy and its impact on wildlife, particularly bats and eagles. This person is likely to be attending the Wind Wildlife Research Meeting to present their latest research on these topics, discuss findings with other experts, and network with industry professionals. They may also be interested in learning about innovative technologies and methods being developed to mitigate the impact of wind turbines on wildlife.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a researcher focused on wind energy and wildlife, I have competing priorities. I need funding and resources for my research, which could potentially benefit from choosing the option that gives me more money (Right). However, I also value fairness and collaboration, especially within the research community. Choosing the option where both players receive equal amounts (Left) sends a signal of fairness and could foster better relationships at the Wind Wildlife Research Meeting.\n\n  While the immediate monetary gain of 100 by choosing Right is tempting, the potential long-term benefits of maintaining a reputation for fairness and promoting collaboration within the research community likely outweigh it. Furthermore, the absolute difference between the payoffs is relatively small. A reputation for fairness and reciprocity will be critical at the conference. Thus, favoring the equal split seems more aligned with my long-term goals and professional persona.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 784,
+            "persona_desc": "A researcher or conservation scientist who is interested in wind energy and its impact on wildlife, particularly bats and eagles. This person is likely to be attending the Wind Wildlife Research Meeting to present their latest research on these topics, discuss findings with other experts, and network with industry professionals. They may also be interested in learning about innovative technologies and methods being developed to mitigate the impact of wind turbines on wildlife.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a researcher focused on wind energy and wildlife, I understand the complex interplay between energy production and environmental impact. While my immediate goal isn't necessarily maximizing personal financial gain, building relationships and fostering collaboration within the wind energy community is crucial for advancing research and implementing effective mitigation strategies. Choosing the option where Person A (who could be a potential collaborator, industry partner, or even a funder) receives more could build goodwill and potentially lead to future opportunities for my research. Additionally, as someone who appreciates scientific rigor and data-driven decision making, I don't have a strong pre-existing aversion to inequality, especially when the amounts involved are relatively small. Therefore, while I receive less in the 'Right' option, the potential benefits of fostering a positive relationship are worth more than the difference in the payout.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 784,
+            "persona_desc": "A researcher or conservation scientist who is interested in wind energy and its impact on wildlife, particularly bats and eagles. This person is likely to be attending the Wind Wildlife Research Meeting to present their latest research on these topics, discuss findings with other experts, and network with industry professionals. They may also be interested in learning about innovative technologies and methods being developed to mitigate the impact of wind turbines on wildlife.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a researcher focused on wind energy and its impact on wildlife, I have a professional interest in the long-term sustainability and acceptance of wind energy. While my immediate payoff is higher with the 'Left' option (1000 for me, 0 for Person A), choosing the 'Right' option (600 for me, 400 for Person A) demonstrates a willingness to share and could foster a more collaborative environment within the field. This might be beneficial for my research in the long run, perhaps leading to greater cooperation in data sharing or funding opportunities. Since I'm at a conference, maintaining a positive reputation and promoting collaboration are crucial. Though there is a decrease in income I receive in this round, the improvement in professional reputation is worth it.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 784,
+            "persona_desc": "A researcher or conservation scientist who is interested in wind energy and its impact on wildlife, particularly bats and eagles. This person is likely to be attending the Wind Wildlife Research Meeting to present their latest research on these topics, discuss findings with other experts, and network with industry professionals. They may also be interested in learning about innovative technologies and methods being developed to mitigate the impact of wind turbines on wildlife.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a conservation scientist attending the Wind Wildlife Research Meeting, my primary concern is the impact of wind energy on wildlife. While I appreciate receiving a larger sum personally, the extreme disparity in the 'Right' option raises concerns about potential research funding implications. A scenario where Person A receives significantly less *could* indirectly impact funding available for research projects focused on wildlife mitigation at wind farms. While this is a speculative connection, I lean towards a more equitable distribution, as it reflects a more cooperative and potentially collaborative environment within the field. I want to foster an environment where resources are more equitably distributed to support conservation efforts. Therefore, even though option 'Right' would net me a larger profit, it is my belief that option 'Left' will further my long-term goal to conserve wildlife by fostering an environment of collaboration.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 784,
+            "persona_desc": "A researcher or conservation scientist who is interested in wind energy and its impact on wildlife, particularly bats and eagles. This person is likely to be attending the Wind Wildlife Research Meeting to present their latest research on these topics, discuss findings with other experts, and network with industry professionals. They may also be interested in learning about innovative technologies and methods being developed to mitigate the impact of wind turbines on wildlife.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a conservation scientist focused on wind energy's impact on wildlife, I have complex feelings about these choices. On one hand, I want to support the development of wind energy as a clean energy source. The positive aspects of wind energy may outweigh potential damages it causes to animals. However, I must also prioritize the well-being of wildlife and, therefore, cannot in good conscience choose an option that actively harms another person. Option Left gives Person A a negative payoff which is unacceptable. Option Right, while providing less to me, benefits Person A. Given the ethical considerations of my profession and a desire to not cause harm to others, I must choose Right. Therefore, I will take the choice that doesn't actively harm anyone, even if it means less for me.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 784,
+            "persona_desc": "A researcher or conservation scientist who is interested in wind energy and its impact on wildlife, particularly bats and eagles. This person is likely to be attending the Wind Wildlife Research Meeting to present their latest research on these topics, discuss findings with other experts, and network with industry professionals. They may also be interested in learning about innovative technologies and methods being developed to mitigate the impact of wind turbines on wildlife.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a researcher deeply invested in wind energy and wildlife conservation, my primary focus is on achieving outcomes that benefit both the environment and sustainable energy production. In this scenario, Option A offers a compromise. Although Person A (my counterpart in this experiment) receives a larger amount (1000), I still gain 500. Choosing the alternative will provide zero return for either of us.\n\nGiven my professional priorities, I can tolerate the inequity since it also results in mutual gain. The alternative would be destructive.\n\nIn cases where there's no option for mutual gain, my preference is more likely to be affected by concerns about relative equity, but here there is a net benefit available.\n\n",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 784,
+            "persona_desc": "A researcher or conservation scientist who is interested in wind energy and its impact on wildlife, particularly bats and eagles. This person is likely to be attending the Wind Wildlife Research Meeting to present their latest research on these topics, discuss findings with other experts, and network with industry professionals. They may also be interested in learning about innovative technologies and methods being developed to mitigate the impact of wind turbines on wildlife.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a conservation scientist focused on wind energy and wildlife impacts, my primary goal is to facilitate the responsible development of wind power. While the monetary amounts in this experiment are abstract, I can frame them in terms of impact. Person A's outcome can be seen as representing the 'conservation effort' or the 'overall well-being of wildlife populations'. Person B's outcome can be seen as representing 'individual research success' or 'funding for specific projects'.\n\nOption Left (1000, 1000) means both conservation efforts (Person A) and individual research (Person B) receive substantial benefit.  Option Right (1500, 0) means my individual research benefits significantly, but conservation efforts receive nothing. \n\nWhile a 500-unit increase for myself is appealing, the complete lack of benefit to conservation (Person A) is unacceptable. The negative consequences for wildlife outweigh the personal gain, especially given my professional dedication to finding solutions that balance energy needs with wildlife protection.\n\nTherefore, I will choose the option that supports both my work and conservation efforts.",
+            "answer": "Left"
+        }
+    }
+}

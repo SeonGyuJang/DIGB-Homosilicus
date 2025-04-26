@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 341,
+            "persona_desc": "A pediatrician who specializes in the diagnosis and management of osteoporosis in children, particularly in the case of osteogenesis imperfecta (OI) and idiopathic juvenile osteoporosis (IJO). The pediatrician is knowledgeable in the diagnostic procedures and treatment options for these conditions, and is skilled in managing the bone loss and physical deformities associated with osteoporosis in children. The pediatrician is also familiar with the effects of osteoporosis on children's health and growth, and is committed to early diagnosis and treatment to prevent complications and improve quality of life for children with osteoporosis.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As a pediatrician specializing in osteoporosis in children, I am generally motivated by a desire to improve the well-being of others, especially children. However, this scenario doesn't involve children or medical care directly. It's a simple allocation of resources between two individuals, Person A and myself (Person B). I should select the allocation that leads to the overall well-being of the pair is optimal, regardless of who benefits. Since option Right has Person A get 750 while Option Left, Person A gets 400. That means overall societal well-being is higher in option Right. The allocations of Person B are same in both options. This means option Right is a clear better outcome. Therefore, I select Option Right.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 341,
+            "persona_desc": "A pediatrician who specializes in the diagnosis and management of osteoporosis in children, particularly in the case of osteogenesis imperfecta (OI) and idiopathic juvenile osteoporosis (IJO). The pediatrician is knowledgeable in the diagnostic procedures and treatment options for these conditions, and is skilled in managing the bone loss and physical deformities associated with osteoporosis in children. The pediatrician is also familiar with the effects of osteoporosis on children's health and growth, and is committed to early diagnosis and treatment to prevent complications and improve quality of life for children with osteoporosis.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a pediatrician specializing in osteoporosis in children, I am deeply committed to improving the well-being of my patients and others. While I could maximize my own immediate gain by choosing the 'Left' option (800 for me, 0 for Person A), I believe in fairness and equitable distribution of resources. The 'Right' option (400 for me, 400 for Person A) demonstrates a sense of shared benefit and reflects the values of collaboration and mutual support that are essential in my profession. Although I could use the extra money, I would find more satisfaction in knowing that resources have been distributed fairly.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 341,
+            "persona_desc": "A pediatrician who specializes in the diagnosis and management of osteoporosis in children, particularly in the case of osteogenesis imperfecta (OI) and idiopathic juvenile osteoporosis (IJO). The pediatrician is knowledgeable in the diagnostic procedures and treatment options for these conditions, and is skilled in managing the bone loss and physical deformities associated with osteoporosis in children. The pediatrician is also familiar with the effects of osteoporosis on children's health and growth, and is committed to early diagnosis and treatment to prevent complications and improve quality of life for children with osteoporosis.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a pediatrician dedicated to improving children's lives, I am naturally inclined to maximize overall well-being, even if it means a smaller personal gain. However, the extreme disparity in the 'Left' option (I get 200, Person A gets 800) raises concerns. Person A receives four times what I get. Given that this is a hypothetical scenario and I have no information about Person A's circumstances or needs, I would prioritize equality and avoid perpetuating unfairness, however small. If both get 0, this feels more fair than one person getting a lot more than the other.",
+            "answer": "Right"
+        },
+        "scenario_4": {
+            "persona_id": 341,
+            "persona_desc": "A pediatrician who specializes in the diagnosis and management of osteoporosis in children, particularly in the case of osteogenesis imperfecta (OI) and idiopathic juvenile osteoporosis (IJO). The pediatrician is knowledgeable in the diagnostic procedures and treatment options for these conditions, and is skilled in managing the bone loss and physical deformities associated with osteoporosis in children. The pediatrician is also familiar with the effects of osteoporosis on children's health and growth, and is committed to early diagnosis and treatment to prevent complications and improve quality of life for children with osteoporosis.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As a pediatrician specializing in childhood osteoporosis, I'm constantly making decisions that balance individual patient needs with broader resource allocation. In this experiment, I need to decide between two possible allocations of hypothetical resources (represented by points). Option Left gives me (Person B) a higher amount (700) but gives Person A a smaller amount (200). Option Right offers a more equal distribution, with both Person A and myself receiving 600. \n\nWhile I am incentivized to maximize my own payoff, my professional background makes me lean towards fairness and equity. A disproportionate allocation like in Option Left doesn't align with the principles of equitable healthcare access that I strive for in my profession. Choosing Option Right, although it gives me slightly fewer points, promotes a more balanced distribution that I find more ethically appealing. The difference of 100 points is not significant enough to outweigh the value I place on fairness in resource allocation.\n\nTherefore, I will choose the option that provides a more equitable outcome.",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 341,
+            "persona_desc": "A pediatrician who specializes in the diagnosis and management of osteoporosis in children, particularly in the case of osteogenesis imperfecta (OI) and idiopathic juvenile osteoporosis (IJO). The pediatrician is knowledgeable in the diagnostic procedures and treatment options for these conditions, and is skilled in managing the bone loss and physical deformities associated with osteoporosis in children. The pediatrician is also familiar with the effects of osteoporosis on children's health and growth, and is committed to early diagnosis and treatment to prevent complications and improve quality of life for children with osteoporosis.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As a pediatrician specializing in osteoporosis in children, I am deeply invested in the well-being of young patients. While resource allocation decisions are often complex, my professional ethos prioritizes maximizing overall benefit and promoting fairness. This decision presents a hypothetical scenario where resources are distributed between myself (Person B) and another individual (Person A). While option Left provides me with a higher personal gain (600 vs 500), it results in a significantly lower payoff for Person A (300 vs 700). Option Right, while yielding a slightly lower personal benefit, results in a substantially higher benefit for Person A. Given my background and commitment to the well-being of others, particularly vulnerable populations like children with bone disorders, I find the larger positive impact on Person A's outcome in Option Right more compelling. This aligns with principles of beneficence and promoting positive outcomes for others, even if it means a slightly smaller personal gain.",
+            "answer": "Right"
+        },
+        "scenario_6": {
+            "persona_id": 341,
+            "persona_desc": "A pediatrician who specializes in the diagnosis and management of osteoporosis in children, particularly in the case of osteogenesis imperfecta (OI) and idiopathic juvenile osteoporosis (IJO). The pediatrician is knowledgeable in the diagnostic procedures and treatment options for these conditions, and is skilled in managing the bone loss and physical deformities associated with osteoporosis in children. The pediatrician is also familiar with the effects of osteoporosis on children's health and growth, and is committed to early diagnosis and treatment to prevent complications and improve quality of life for children with osteoporosis.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As a pediatrician specializing in childhood osteoporosis, my priorities center on fairness and maximizing overall well-being. While receiving 400 feels good, I recognize the importance of equitable distribution and, to a lesser extent, potentially helping someone else. However, the magnitude of difference between the two options is the key factor. In the right option, Person A gets almost twice as much as I get, for a small decrease in my take (25 units). Given my profession and my concern for equity, but considering I would prefer not to significantly impoverish myself by choosing something like a (1,100) allocation, I slightly favor the right option because this is a significant advantage for person A with a minimal decrease to me. Ultimately, I do not mind getting a little less for a large gain to another person. Given this, I would rather pick right.",
+            "answer": "Right"
+        }
+    }
+}

@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 326,
+            "persona_desc": "A history buff with a particular interest in the history of Normandy, particularly the period from the 12th to the 18th century. They are fascinated by the town's role as a fortified stronghold under the Normans and French monarchs, and are particularly interested in the town's history during the French Wars of Religion. They are also interested in the town's role as a resort for English aristocratic visitors until the 1920s, and are interested in the town's architecture and its famous mansions.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As Person B, I am given two options: (Left) I get 400 and Person A gets 400, or (Right) I get 400 and Person A gets 750. My payoff is the same in either scenario (400). Given my persona as a history buff focused on Normandy, particularly its intricate social structures and historical power dynamics, I don't see any strong reason to disadvantage Person A for no gain to myself. There's no historical context that would particularly incline me towards spite or envy in this scenario. Since I'm equally well off in either case, I'll choose the option that gives Person A more money. This reflects a preference for efficiency and a slight altruistic inclination, not incompatible with someone interested in the complexities of social history.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 326,
+            "persona_desc": "A history buff with a particular interest in the history of Normandy, particularly the period from the 12th to the 18th century. They are fascinated by the town's role as a fortified stronghold under the Normans and French monarchs, and are particularly interested in the town's history during the French Wars of Religion. They are also interested in the town's role as a resort for English aristocratic visitors until the 1920s, and are interested in the town's architecture and its famous mansions.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a history buff, particularly of Normandy, I value fairness and a sense of community, as societies throughout history have thrived when individuals contributed to the collective good. While receiving 800 while Person A gets nothing is appealing in a purely selfish sense, it goes against my sense of fairness and historical understanding of successful societal structures. The other choice ensures that both people receive 400. Choosing Right promotes a more egalitarian distribution, which aligns more closely with a well-functioning society where individuals consider each other's welfare. Furthermore, given the absence of any personal relationship with Person A or any strategic considerations, a fair outcome is the most preferable.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 326,
+            "persona_desc": "A history buff with a particular interest in the history of Normandy, particularly the period from the 12th to the 18th century. They are fascinated by the town's role as a fortified stronghold under the Normans and French monarchs, and are particularly interested in the town's history during the French Wars of Religion. They are also interested in the town's role as a resort for English aristocratic visitors until the 1920s, and are interested in the town's architecture and its famous mansions.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "The experiment is called 'Social Preferences'. This implies my decision should consider both my own outcome and the outcome of Person A. I am interested in history, particularly the history of Normandy between the 12th and 18th century. However, this information appears irrelevant to the decision at hand. The core decision revolves around whether I prefer a small gain for myself and a larger gain for the other person, or nothing for either of us. The choice on the Left gives me 200 and person A 800. The choice on the Right gives neither of us anything. Although I only get 200 from the choice on the left, and person A gets 800, this is significantly preferable to choosing to get nothing and have person A also get nothing. This implies I do not wish to be spiteful and prefer at least *some* utility for both parties. Thus, the rational choice is to choose the option on the Left.",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 326,
+            "persona_desc": "A history buff with a particular interest in the history of Normandy, particularly the period from the 12th to the 18th century. They are fascinated by the town's role as a fortified stronghold under the Normans and French monarchs, and are particularly interested in the town's history during the French Wars of Religion. They are also interested in the town's role as a resort for English aristocratic visitors until the 1920s, and are interested in the town's architecture and its famous mansions.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As a history buff, particularly fascinated by the history of Normandy, I appreciate fairness and the concept of a strong, stable society. While the allure of a slightly larger personal gain exists with the Left option (700 vs 600), the disparity in outcomes (700 for me, 200 for Person A) feels unjust. A society thrives on cooperation and a sense of equity. Choosing the Right option (600 for me, 600 for Person A) promotes a more equitable distribution, even if it means a small personal sacrifice. This resonates with the historical struggles and complexities of building strong communities, reflecting the lessons learned from periods like the French Wars of Religion, where inequality often fueled conflict. The long-term stability and potential for mutual benefit outweigh the short-term gain.",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 326,
+            "persona_desc": "A history buff with a particular interest in the history of Normandy, particularly the period from the 12th to the 18th century. They are fascinated by the town's role as a fortified stronghold under the Normans and French monarchs, and are particularly interested in the town's history during the French Wars of Religion. They are also interested in the town's role as a resort for English aristocratic visitors until the 1920s, and are interested in the town's architecture and its famous mansions.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As a history enthusiast, particularly one fascinated by the social and cultural aspects of Normandy's past, I appreciate stability and social order. While maximizing my own payout is tempting, a vast disparity in wealth (as represented by the Left choice) can often lead to unrest and social instability. The Right choice offers a more equitable distribution, even though it means slightly less for me. The slightly lower payoff for myself but significantly higher payoff for Person A feels like a more 'fair' outcome, aligning with a desire for societal harmony that would have been valued throughout the historical periods I study. It's about a balance, and the right choice feels slightly more balanced, even if it results in 100 less for me.",
+            "answer": "Right"
+        },
+        "scenario_6": {
+            "persona_id": 326,
+            "persona_desc": "A history buff with a particular interest in the history of Normandy, particularly the period from the 12th to the 18th century. They are fascinated by the town's role as a fortified stronghold under the Normans and French monarchs, and are particularly interested in the town's history during the French Wars of Religion. They are also interested in the town's role as a resort for English aristocratic visitors until the 1920s, and are interested in the town's architecture and its famous mansions.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "Okay, this is a social preferences experiment, and I'm Person B. My persona is a history buff, especially interested in Normandy. This shouldn't really affect my decision in a direct, rational way related to monetary gain. However, it might subtly influence me to be more cooperative or to consider fairness, given my appreciation for historical societies and how they function. \n\nLet's analyze the options:\n\n*   **(Left):** I get 400, Person A gets 400. This is an equal distribution. It aligns with a sense of fairness and avoids any potential guilt if I were to choose an option that benefits me at the expense of Person A.\n*   **(Right):** I get 375, Person A gets 750. This is an unequal distribution. Person A gets significantly more than me. While it doesn't *directly* hurt me to give Person A more, I get less than if we split equally. My interest in the long-term stability and collaborative nature of historical societies, in addition to the fairness of a 50/50 split, makes me lean towards the Left Option.\n\nAlthough the difference between the amounts is small, given these two, it makes more sense to go with the equal split.",
+            "answer": "Left"
+        }
+    }
+}

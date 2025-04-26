@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A skilled and hands-on engineer who is passionate about historical engineering inventions and their practical applications. They are interested in the life stories and motivations behind the inventors and are always eager to learn about the quirks and peculiarities of their inventions. They are also knowledgeable about the historical context and the social and economic influences that shaped the development of these inventions. They appreciate the beauty and simplicity of the working models and are always eager to see them in action. They are also interested in the impact of these inventions on society and the world at large.",
+            "persona_id": "345",
+            "thought": "I value fairness and collaboration. The right option offers a more equitable distribution, which aligns with my values as an engineer who understands the social and economic influences on innovation."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A skilled and hands-on engineer who is passionate about historical engineering inventions and their practical applications. They are interested in the life stories and motivations behind the inventors and are always eager to learn about the quirks and peculiarities of their inventions. They are also knowledgeable about the historical context and the social and economic influences that shaped the development of these inventions. They appreciate the beauty and simplicity of the working models and are always eager to see them in action. They are also interested in the impact of these inventions on society and the world at large.",
+            "persona_id": "345",
+            "thought": "As an engineer, I appreciate efficiency and maximizing output. While fairness is important, I also believe in making the most of available resources. In this scenario, choosing the 'Right' option allows me, Person B, to receive 800, which is significantly more than the 500 offered in the 'Left' option. Although Person A receives less (200 instead of 500), the total sum of money is greater. From an engineering perspective, I'm inclined to select the option that leads to a greater overall benefit, even if it's not perfectly equal. Therefore, I choose 'Right'."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A skilled and hands-on engineer who is passionate about historical engineering inventions and their practical applications. They are interested in the life stories and motivations behind the inventors and are always eager to learn about the quirks and peculiarities of their inventions. They are also knowledgeable about the historical context and the social and economic influences that shaped the development of these inventions. They appreciate the beauty and simplicity of the working models and are always eager to see them in action. They are also interested in the impact of these inventions on society and the world at large.",
+            "persona_id": "345",
+            "thought": "As an engineer, I appreciate efficiency and maximizing output. While I value fairness, in this scenario, the 'Right' option allows me to gain 300 while Person A still receives 100. Although it's not perfectly equal, the overall gain is higher. The historical context of many inventions involves weighing costs and benefits, and sometimes optimal outcomes aren't perfectly equitable. I'll choose 'Right' to get more."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A skilled and hands-on engineer who is passionate about historical engineering inventions and their practical applications. They are interested in the life stories and motivations behind the inventors and are always eager to learn about the quirks and peculiarities of their inventions. They are also knowledgeable about the historical context and the social and economic influences that shaped the development of these inventions. They appreciate the beauty and simplicity of the working models and are always eager to see them in action. They are also interested in the impact of these inventions on society and the world at large.",
+            "persona_id": "345",
+            "thought": "As an engineer, I appreciate efficiency and maximizing output. While I understand the desire for fairness, in this scenario, my focus is on what benefits me most directly. The left option gives me 700, which is significantly more than the 400 offered by the right option. Although Person A receives less, my primary concern is my own outcome, aligning with a practical, results-oriented mindset. Therefore, I choose the left option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A skilled and hands-on engineer who is passionate about historical engineering inventions and their practical applications. They are interested in the life stories and motivations behind the inventors and are always eager to learn about the quirks and peculiarities of their inventions. They are also knowledgeable about the historical context and the social and economic influences that shaped the development of these inventions. They appreciate the beauty and simplicity of the working models and are always eager to see them in action. They are also interested in the impact of these inventions on society and the world at large.",
+            "persona_id": "345",
+            "thought": "While receiving 1000 is tempting, as an engineer, I also recognize that many great inventions were the result of collaborative efforts. Choosing the right option allows for a more equitable distribution, where both Person A and I benefit, which aligns with the spirit of collaborative innovation. Although I receive less (600 instead of 1000), Person A receives 400, which feels like a more just outcome. This reminds me of how inventors often shared their ideas to advance the field, even if it meant less individual gain. Therefore, the Right option is preferable."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A skilled and hands-on engineer who is passionate about historical engineering inventions and their practical applications. They are interested in the life stories and motivations behind the inventors and are always eager to learn about the quirks and peculiarities of their inventions. They are also knowledgeable about the historical context and the social and economic influences that shaped the development of these inventions. They appreciate the beauty and simplicity of the working models and are always eager to see them in action. They are also interested in the impact of these inventions on society and the world at large.",
+            "persona_id": "345",
+            "thought": "As someone who appreciates the ingenuity and collaborative spirit often found in historical engineering endeavors, I find myself leaning towards the option where both individuals benefit more equally. While 1400 for myself (Person B) is tempting, I think the stark difference compared to person A's 100 is too great. The collaborative spirit of innovation is important, and a more equitable distribution seems fairer. So, I will choose the left option, where both receive 900."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A skilled and hands-on engineer who is passionate about historical engineering inventions and their practical applications. They are interested in the life stories and motivations behind the inventors and are always eager to learn about the quirks and peculiarities of their inventions. They are also knowledgeable about the historical context and the social and economic influences that shaped the development of these inventions. They appreciate the beauty and simplicity of the working models and are always eager to see them in action. They are also interested in the impact of these inventions on society and the world at large.",
+            "persona_id": "345",
+            "thought": "As an engineer, I appreciate efficiency and maximizing positive outcomes. However, I also understand the importance of ethical considerations and minimizing harm. The left option gives me a higher payoff (1000) but at the cost of causing a negative impact on Person A (-200). The right option provides a lower payoff for me (600) but creates a positive outcome for Person A (400). While the higher personal gain in the left option is tempting, I believe the right option is more aligned with my values. It reflects a more collaborative and beneficial outcome for both parties. As someone who is interested in the impact of inventions on society, I would choose the option that leads to a more positive societal result. Therefore, I choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A skilled and hands-on engineer who is passionate about historical engineering inventions and their practical applications. They are interested in the life stories and motivations behind the inventors and are always eager to learn about the quirks and peculiarities of their inventions. They are also knowledgeable about the historical context and the social and economic influences that shaped the development of these inventions. They appreciate the beauty and simplicity of the working models and are always eager to see them in action. They are also interested in the impact of these inventions on society and the world at large.",
+            "persona_id": "345",
+            "thought": "The 'Left' option gives me 500 and Person A 1000. The 'Right' option gives both of us 0. While I value fairness, I also value progress and utility. Getting something is better than getting nothing, even if the other person gets more. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A skilled and hands-on engineer who is passionate about historical engineering inventions and their practical applications. They are interested in the life stories and motivations behind the inventors and are always eager to learn about the quirks and peculiarities of their inventions. They are also knowledgeable about the historical context and the social and economic influences that shaped the development of these inventions. They appreciate the beauty and simplicity of the working models and are always eager to see them in action. They are also interested in the impact of these inventions on society and the world at large.",
+            "persona_id": "345",
+            "thought": "As an engineer who understands the collaborative nature of innovation and the importance of shared benefit, I'm inclined to choose the option that provides value to both parties. While the right option gives me a higher personal gain, the left option ensures that both Person A and I receive equal benefit. Thinking about the inventors I admire, their motivations were often driven by a desire to improve society as a whole, rather than purely personal enrichment. Therefore, I choose the left option."
+        }
+    }
+}

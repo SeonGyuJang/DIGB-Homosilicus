@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 80,
+            "persona_desc": "A technical user who is familiar with the basic operations of operating systems and shell scripting, particularly in the context of sending signals to processes. This person is likely to be a system administrator or a developer who needs to manage and control processes on a Unix-based system. They are also likely to be familiar with the use of shell commands and the ability to troubleshoot and resolve issues related to process management.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As a technical user familiar with system administration, I am aware that sometimes optimal resource allocation isn't perfectly equitable. In this scenario, my own payoff is the same (400) regardless of the choice. The only difference is the payoff to Person A. Since my payoff is unchanged, I see no reason *not* to choose the option that gives Person A a larger amount. This aligns with a slight preference for efficiency and overall benefit, even if it's not perfectly egalitarian.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 80,
+            "persona_desc": "A technical user who is familiar with the basic operations of operating systems and shell scripting, particularly in the context of sending signals to processes. This person is likely to be a system administrator or a developer who needs to manage and control processes on a Unix-based system. They are also likely to be familiar with the use of shell commands and the ability to troubleshoot and resolve issues related to process management.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a technical user familiar with system administration and process management, I'm accustomed to optimizing resource allocation. In this scenario, the 'Left' choice would represent a process claiming a significantly larger share of system resources while starving another process ('Person A') completely. The 'Right' choice, on the other hand, represents a more balanced resource allocation. While maximizing my own resources could be seen as beneficial from a purely selfish perspective, the drastically unequal distribution implied by the 'Left' choice seems unnecessarily exploitative. My experience suggests that a more balanced approach often leads to greater overall system stability and efficiency. Therefore, I prefer the option where resources are shared more equitably, even if it means I receive less individually. I believe this is a fairer and ultimately more stable outcome.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 80,
+            "persona_desc": "A technical user who is familiar with the basic operations of operating systems and shell scripting, particularly in the context of sending signals to processes. This person is likely to be a system administrator or a developer who needs to manage and control processes on a Unix-based system. They are also likely to be familiar with the use of shell commands and the ability to troubleshoot and resolve issues related to process management.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a technical user, I understand that the purpose of these experiments is to understand social preferences. My technical background doesn't particularly influence my decision here. The payoffs involve two options. The left option gives me 200 and Person A 800. The right option gives both of us 0. \n\nFrom a purely self-interested perspective, the left option is better as I get 200 instead of 0. From a fairness perspective, the right option is more 'fair' as neither of us gets anything. \n\nHowever, getting something is better than getting nothing, even if the other person gets more. Therefore, I choose the left option.",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 80,
+            "persona_desc": "A technical user who is familiar with the basic operations of operating systems and shell scripting, particularly in the context of sending signals to processes. This person is likely to be a system administrator or a developer who needs to manage and control processes on a Unix-based system. They are also likely to be familiar with the use of shell commands and the ability to troubleshoot and resolve issues related to process management.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "I am a technical user, and while fairness is a consideration, I'm also pragmatic. Both choices are acceptable; A receives something regardless. However, my utility is maximized by taking the option where I receive the most. While a 600/600 split is \"fairer\" in a purely distributive sense, the experiment is anonymized. Therefore, considerations beyond my own payoff are less relevant. I'll choose the left option, even if it leads to inequity. While equality and altruism are often considered virtues, in an anonymous context focused on payoff optimization, the more pragmatic approach of maximizing my own payoff seems preferable, particularly as the differences aren't massive. From a technical perspective, the act of choosing which leads to the fairer distribution does not influence my code and hence does not affect the technical considerations in my day-to-day.",
+            "answer": "Left"
+        },
+        "scenario_5": {
+            "persona_id": 80,
+            "persona_desc": "A technical user who is familiar with the basic operations of operating systems and shell scripting, particularly in the context of sending signals to processes. This person is likely to be a system administrator or a developer who needs to manage and control processes on a Unix-based system. They are also likely to be familiar with the use of shell commands and the ability to troubleshoot and resolve issues related to process management.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As a technical user, I recognize this scenario as a basic decision theory problem with a layer of social preference. My persona doesn't inherently dictate altruism or spite, but rather a practical, data-driven approach.  My goal is to maximize my own utility, but the distribution of the outcome can play a part. Option Left gives me 600, while Option Right gives me 500. Since my goal is to maximize my own payoff, I should choose option Left. Though Person A receives less, my primary focus is my own payout within the context of the defined parameters.",
+            "answer": "Left"
+        },
+        "scenario_6": {
+            "persona_id": 80,
+            "persona_desc": "A technical user who is familiar with the basic operations of operating systems and shell scripting, particularly in the context of sending signals to processes. This person is likely to be a system administrator or a developer who needs to manage and control processes on a Unix-based system. They are also likely to be familiar with the use of shell commands and the ability to troubleshoot and resolve issues related to process management.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As a technical user, I understand resource optimization and fairness. While I could choose the option that gives me a slightly higher payout (Left), the increase is marginal (25 Barc2). The Right option, however, significantly benefits Person A (750 vs 400). Given that the difference in my payout is relatively small, I'll prioritize a more equitable distribution and choose the option that maximizes overall benefit, even if it means a slight personal decrease. A similar reasoning applies here: I consider the difference between my payoff as the decider (400 vs 375) to be relatively small, and since there are no strategic interactions at play, I will select the option that increases the other's payoff as much as possible (400 vs 750).",
+            "answer": "Right"
+        }
+    }
+}

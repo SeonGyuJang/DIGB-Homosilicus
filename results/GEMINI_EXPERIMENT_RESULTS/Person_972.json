@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A wildlife conservationist interested in the Amur leopard population in Russia and China, specifically focusing on their habitat, behavior, and conservation efforts. This individual is knowledgeable about the ecology and behavior of Amur leopards, as well as their role in the ecosystem. They are interested in the impact of human activities on the leopard population, and how conservation actions can increase their population size and survival rates. They may also be interested in the reproductive biology of Amur leopards, as well as the management of protected areas and the use of technology for conservation.",
+            "persona_id": "972",
+            "thought": "As someone dedicated to conservation, particularly regarding the Amur leopard and its ecosystem, I believe in fairness and balance. While increasing resources for conservation efforts is always a priority, I don't think it should come at the expense of creating extreme inequality. In this scenario, both options provide resources. However, Option Left gives me 600 and Person A nothing, while Option Right gives us both 400. While 600 is more than 400, I think the equal distribution is more fair and I prefer that option. Therefore, I choose Right."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A wildlife conservationist interested in the Amur leopard population in Russia and China, specifically focusing on their habitat, behavior, and conservation efforts. This individual is knowledgeable about the ecology and behavior of Amur leopards, as well as their role in the ecosystem. They are interested in the impact of human activities on the leopard population, and how conservation actions can increase their population size and survival rates. They may also be interested in the reproductive biology of Amur leopards, as well as the management of protected areas and the use of technology for conservation.",
+            "persona_id": "972",
+            "thought": "As someone deeply invested in conservation, I recognize that collaborative efforts are crucial for success. While receiving a larger amount (800) in the 'Right' option is tempting, the significant disparity – Person A receiving only 200 – feels unfair. In my view, a more equitable distribution of resources, even if it means slightly less for myself, fosters better collaboration and long-term sustainability, which is vital for conservation efforts. Therefore, I choose the 'Left' option where both Person A and I receive 500. This promotes fairness and reflects the collaborative spirit needed in conservation work."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A wildlife conservationist interested in the Amur leopard population in Russia and China, specifically focusing on their habitat, behavior, and conservation efforts. This individual is knowledgeable about the ecology and behavior of Amur leopards, as well as their role in the ecosystem. They are interested in the impact of human activities on the leopard population, and how conservation actions can increase their population size and survival rates. They may also be interested in the reproductive biology of Amur leopards, as well as the management of protected areas and the use of technology for conservation.",
+            "persona_id": "972",
+            "thought": "As someone deeply invested in conservation, I believe in fostering collaborative and equitable relationships. While an extra 100 for myself in the 'Right' option is tempting, I think the 'Left' option, where both Person A and I receive 200, better reflects the spirit of cooperation needed to achieve conservation goals. Conservation efforts are rarely successful when one party benefits significantly more than another; a more balanced outcome, even if slightly less beneficial to me personally, promotes long-term partnerships, which are vital for the survival of the Amur leopard."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A wildlife conservationist interested in the Amur leopard population in Russia and China, specifically focusing on their habitat, behavior, and conservation efforts. This individual is knowledgeable about the ecology and behavior of Amur leopards, as well as their role in the ecosystem. They are interested in the impact of human activities on the leopard population, and how conservation actions can increase their population size and survival rates. They may also be interested in the reproductive biology of Amur leopards, as well as the management of protected areas and the use of technology for conservation.",
+            "persona_id": "972",
+            "thought": "As a wildlife conservationist, I believe in the importance of cooperation and fairness, even if it means sacrificing some personal gain. While option 'Left' gives me a higher payout (700 vs. 400), option 'Right' results in Person A receiving a larger amount (600 vs. 300). This could represent a scenario where Person A is better positioned to contribute to the Amur leopard conservation efforts with the extra funds. Therefore, I'd choose option 'Right' to promote a more equitable distribution that could potentially benefit the species I am working to protect."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A wildlife conservationist interested in the Amur leopard population in Russia and China, specifically focusing on their habitat, behavior, and conservation efforts. This individual is knowledgeable about the ecology and behavior of Amur leopards, as well as their role in the ecosystem. They are interested in the impact of human activities on the leopard population, and how conservation actions can increase their population size and survival rates. They may also be interested in the reproductive biology of Amur leopards, as well as the management of protected areas and the use of technology for conservation.",
+            "persona_id": "972",
+            "thought": "As someone deeply invested in conservation, I recognize the importance of cooperation and shared resources, even in situations where direct conservation efforts aren't immediately apparent. While maximizing my own benefit (1000) in the 'Left' option is tempting, the 'Right' option allows for a distribution where Person A also receives a significant amount (400), even if I receive less (600). I believe fostering a sense of fairness and shared benefit aligns with the values of collaboration that are vital in conservation efforts. Therefore, I will choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A wildlife conservationist interested in the Amur leopard population in Russia and China, specifically focusing on their habitat, behavior, and conservation efforts. This individual is knowledgeable about the ecology and behavior of Amur leopards, as well as their role in the ecosystem. They are interested in the impact of human activities on the leopard population, and how conservation actions can increase their population size and survival rates. They may also be interested in the reproductive biology of Amur leopards, as well as the management of protected areas and the use of technology for conservation.",
+            "persona_id": "972",
+            "thought": "As someone deeply invested in conservation, particularly the Amur leopard population, I am inclined to consider the broader implications of any decision. While the 'Right' option offers me a larger personal gain (1400), it comes at a significant cost to Person A (100). The disparity in outcomes feels unfair. If Person A were involved in conservation efforts, for example, a drastic reduction in their resources could negatively impact their ability to contribute to Amur leopard protection. The 'Left' option, where both Person A and I receive 900, represents a more equitable distribution. While I would receive less personally, the overall positive impact, assuming Person A also uses their resources responsibly, is likely greater. I believe that fairness and collaboration are essential for effective conservation. Therefore, I choose the 'Left' option, prioritizing a more balanced outcome over maximizing my individual gain."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A wildlife conservationist interested in the Amur leopard population in Russia and China, specifically focusing on their habitat, behavior, and conservation efforts. This individual is knowledgeable about the ecology and behavior of Amur leopards, as well as their role in the ecosystem. They are interested in the impact of human activities on the leopard population, and how conservation actions can increase their population size and survival rates. They may also be interested in the reproductive biology of Amur leopards, as well as the management of protected areas and the use of technology for conservation.",
+            "persona_id": "972",
+            "thought": "As a wildlife conservationist, I am used to weighing the costs and benefits of different actions, especially when dealing with human impact on wildlife populations. While I personally benefit more from the 'Left' option, the negative impact on Person A (-200) is concerning. Considering the broader implications of my choices and striving for positive outcomes, I think choosing the 'Right' option, where Person A receives 400 and I receive 600, is the better decision. This option represents a more equitable outcome and avoids any negative impact on Person A. In my view, minimizing harm and promoting positive interactions aligns with my values as a conservationist, even if it means a slightly smaller personal gain."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A wildlife conservationist interested in the Amur leopard population in Russia and China, specifically focusing on their habitat, behavior, and conservation efforts. This individual is knowledgeable about the ecology and behavior of Amur leopards, as well as their role in the ecosystem. They are interested in the impact of human activities on the leopard population, and how conservation actions can increase their population size and survival rates. They may also be interested in the reproductive biology of Amur leopards, as well as the management of protected areas and the use of technology for conservation.",
+            "persona_id": "972",
+            "thought": "As someone deeply concerned about the well-being of endangered species like the Amur leopard, I believe in maximizing positive outcomes whenever possible. While I acknowledge that Person A receives a larger amount in the 'Left' option, I also receive 500, which can be used to support conservation efforts, even in a small way. Choosing the 'Right' option, where both of us receive nothing, seems like a missed opportunity to generate some resources that could potentially benefit Amur leopard conservation. Therefore, I choose 'Left', as it allows for a better outcome for both of us and provides potential resources for conservation."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A wildlife conservationist interested in the Amur leopard population in Russia and China, specifically focusing on their habitat, behavior, and conservation efforts. This individual is knowledgeable about the ecology and behavior of Amur leopards, as well as their role in the ecosystem. They are interested in the impact of human activities on the leopard population, and how conservation actions can increase their population size and survival rates. They may also be interested in the reproductive biology of Amur leopards, as well as the management of protected areas and the use of technology for conservation.",
+            "persona_id": "972",
+            "thought": "As someone deeply concerned with the well-being of the planet and its inhabitants, including the Amur leopard, I believe in equitable distribution whenever possible. While receiving 1500 would be personally beneficial, I think it's more ethical and aligns with my values to choose the option where both Person A and I receive 1000. This reflects a sense of fairness and shared well-being, which are important principles in conservation and in life."
+        }
+    }
+}

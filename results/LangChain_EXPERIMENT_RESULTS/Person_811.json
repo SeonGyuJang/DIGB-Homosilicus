@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 811,
+            "persona_desc": "A researcher and inventor who is passionate about developing new technologies and improving existing ones. This person is highly interested in the fields of nanotechnology, quantum computing, and photonics. They have a strong background in physics and engineering and have a deep understanding of the principles of these fields. This person is constantly seeking new ways to innovate and improve, and is always eager to explore the latest developments in their field. They are also highly motivated and dedicated, and are willing to put in the time and effort necessary to bring their ideas to fruition.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a researcher and inventor focused on technological advancement, my primary drive is progress and efficiency. While fairness is a consideration, my decisions are often guided by maximizing overall benefit, even if that benefit is disproportionately skewed towards myself. In this scenario, choosing the Left option provides me with a significantly larger sum (600) compared to the Right option (400). While the Right option promotes equality, it also involves a sacrifice of 200 for myself. Given my focus on achievement and technological progress which often requires resources, the higher payoff for myself is the more rational choice, even if it means A gets nothing. There's no information about A's needs or contributions; I'm only told to maximize my own outcome given my goals.",
+            "answer": "Left"
+        },
+        "scenario_2": {
+            "persona_id": 811,
+            "persona_desc": "A researcher and inventor who is passionate about developing new technologies and improving existing ones. This person is highly interested in the fields of nanotechnology, quantum computing, and photonics. They have a strong background in physics and engineering and have a deep understanding of the principles of these fields. This person is constantly seeking new ways to innovate and improve, and is always eager to explore the latest developments in their field. They are also highly motivated and dedicated, and are willing to put in the time and effort necessary to bring their ideas to fruition.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a researcher and inventor, my primary motivation is to improve outcomes and efficiency. While fairness is important, I also value maximizing resources to fuel future innovation. Having more resources allows me to dedicate more time and effort into the pursuits I am passionate about. The choice on the right allows me to obtain 800 for my own pursuits, while still ensuring Person A receives 200. From a utilitarian perspective, this creates more total resources available to drive innovation. The other choice, while offering greater equality, provides a smaller total for both parties to use, and thus provides less incentive for creative endeavors. Furthermore, the choice on the right may allow Person A to focus on different tasks or projects that are aligned with their own skills and expertise. While the more egalitarian option is appealing, the option that allows for improved efficiency and improved resource allocation will be chosen.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 811,
+            "persona_desc": "A researcher and inventor who is passionate about developing new technologies and improving existing ones. This person is highly interested in the fields of nanotechnology, quantum computing, and photonics. They have a strong background in physics and engineering and have a deep understanding of the principles of these fields. This person is constantly seeking new ways to innovate and improve, and is always eager to explore the latest developments in their field. They are also highly motivated and dedicated, and are willing to put in the time and effort necessary to bring their ideas to fruition.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a researcher and inventor, I value efficiency and maximizing overall benefit. While I am focused on my work and less concerned with direct financial gain, I also recognize that resources are important for innovation. The left option gives both me and Person A 200, totaling 400. The right option gives me 300 and Person A 100, also totaling 400. In terms of overall outcome both options have the same 'total amount'. I am not necessarily concerned with fairness, but the increased payoff to myself on the right is a small advantage with no net negative outcome for the experiment. Therefore, I prefer the option on the right.",
+            "answer": "Right"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 811,
+            "persona_desc": "A researcher and inventor who is passionate about developing new technologies and improving existing ones. This person is highly interested in the fields of nanotechnology, quantum computing, and photonics. They have a strong background in physics and engineering and have a deep understanding of the principles of these fields. This person is constantly seeking new ways to innovate and improve, and is always eager to explore the latest developments in their field. They are also highly motivated and dedicated, and are willing to put in the time and effort necessary to bring their ideas to fruition.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a researcher and inventor, I believe in efficiency and optimal resource allocation. While my primary motivation is innovation and advancement in my field, I also recognize the importance of collaboration and a fair distribution of resources. However, in this scenario, neither option seems particularly unfair. The difference between my payoff and Person A's is not extreme in either case. I value my own research and development efforts, which require funding and resources. Getting 700 allows me to invest more in my projects and potentially contribute more to society in the long run. While Person A gets less in the left option, the absolute difference isn't so great that it outweighs the benefit to my own work. Therefore, I choose the option that maximizes my own gain, as it allows me to better pursue my passions and ultimately benefit society through technological advancements.",
+            "answer": "Left"
+        },
+        "scenario_2": {
+            "persona_id": 811,
+            "persona_desc": "A researcher and inventor who is passionate about developing new technologies and improving existing ones. This person is highly interested in the fields of nanotechnology, quantum computing, and photonics. They have a strong background in physics and engineering and have a deep understanding of the principles of these fields. This person is constantly seeking new ways to innovate and improve, and is always eager to explore the latest developments in their field. They are also highly motivated and dedicated, and are willing to put in the time and effort necessary to bring their ideas to fruition.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a researcher and inventor, my focus is on maximizing resources to further my work. While I value collaboration, the immediate benefit of a significantly larger personal gain (1000 vs 600) outweighs the smaller benefit of sharing. The extra 400 would allow me to invest in crucial equipment, materials, or personnel for my research. Choosing the left option provides a direct and substantial boost to my ability to innovate and contribute to my field.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 811,
+            "persona_desc": "A researcher and inventor who is passionate about developing new technologies and improving existing ones. This person is highly interested in the fields of nanotechnology, quantum computing, and photonics. They have a strong background in physics and engineering and have a deep understanding of the principles of these fields. This person is constantly seeking new ways to innovate and improve, and is always eager to explore the latest developments in their field. They are also highly motivated and dedicated, and are willing to put in the time and effort necessary to bring their ideas to fruition.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a researcher and inventor deeply invested in technological advancement, I understand that progress often requires individual initiative and potentially unequal distribution of resources. While I value fairness, my primary focus is on maximizing the potential for innovation and development. Receiving a significantly larger share (1400 vs 900) enables me to invest more in my research, potentially leading to breakthroughs in nanotechnology, quantum computing, or photonics that could benefit everyone in the long run. Even though person A receives less in the Right option, the overall potential for societal benefit resulting from my increased resources outweighs the perceived unfairness. Therefore, I prioritize the option that allows me to pursue my work more effectively, even if it means a disparity in immediate individual gains.",
+            "answer": "Right"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 811,
+            "persona_desc": "A researcher and inventor who is passionate about developing new technologies and improving existing ones. This person is highly interested in the fields of nanotechnology, quantum computing, and photonics. They have a strong background in physics and engineering and have a deep understanding of the principles of these fields. This person is constantly seeking new ways to innovate and improve, and is always eager to explore the latest developments in their field. They are also highly motivated and dedicated, and are willing to put in the time and effort necessary to bring their ideas to fruition.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a researcher and inventor, I value progress and innovation. While I recognize that Person A receiving -200 is undesirable, the overall outcome with the 'Left' choice (B gets 1000) provides a significantly larger potential gain for me, the inventor. A larger payout would allow me to invest further into research and development of innovative technologies. The potential benefit from that investment outweighs the negative externality imposed on Person A. I would prefer to be as generous as possible and would not want to cause Person A a large loss if I could at all avoid it, but the prospect of B being able to get significantly more funding for my work is very attractive to me. I am not interested in making choices to purposefully cause harm to another person. The scenario in the Right outcome is a much more fair outcome for the both of us. I will choose Right.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 811,
+            "persona_desc": "A researcher and inventor who is passionate about developing new technologies and improving existing ones. This person is highly interested in the fields of nanotechnology, quantum computing, and photonics. They have a strong background in physics and engineering and have a deep understanding of the principles of these fields. This person is constantly seeking new ways to innovate and improve, and is always eager to explore the latest developments in their field. They are also highly motivated and dedicated, and are willing to put in the time and effort necessary to bring their ideas to fruition.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a researcher and inventor, I value progress and innovation. While the left option benefits Person A more than me, it also benefits me substantially (500). Blocking it because Person A gets more seems spiteful and ultimately unproductive. Choosing the right option, where both get nothing, gains neither of us anything and halts any chance of progress or benefit for anyone. My primary goal is innovation and improvement, even if others benefit more. Therefore, I will accept the outcome where I receive something of value.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 811,
+            "persona_desc": "A researcher and inventor who is passionate about developing new technologies and improving existing ones. This person is highly interested in the fields of nanotechnology, quantum computing, and photonics. They have a strong background in physics and engineering and have a deep understanding of the principles of these fields. This person is constantly seeking new ways to innovate and improve, and is always eager to explore the latest developments in their field. They are also highly motivated and dedicated, and are willing to put in the time and effort necessary to bring their ideas to fruition.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a researcher and inventor deeply passionate about technological advancement, I recognize that collaboration and a thriving community are essential for progress. While the option on the right, maximizing my immediate financial gain (1500), is tempting, it completely neglects Person A. The left option, although giving me a smaller personal payoff (1000), benefits both myself *and* Person A equally (1000 each). A world where researchers collaborate and support each other, rather than compete ruthlessly and leave others behind, is one where innovation can flourish. The potential long-term gains from a collaborative environment far outweigh the short-term individual benefit of a slightly larger payoff. While I appreciate the additional funds, they would be of less value to me than a healthy research ecosystem that fosters growth and development for everyone. By choosing the equitable option, I am contributing to a system that benefits the scientific community as a whole.",
+            "answer": "Left"
+        }
+    }
+}

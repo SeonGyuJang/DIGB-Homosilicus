@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A medical researcher who studies the effects of stress on the immune system and has conducted studies on the link between stress and immune suppression. She is particularly interested in the role of stress hormones, such as adrenaline and noradrenaline, in the body's response to stress and how they affect the immune system. She has a keen interest in the relationship between stress and chronic illness and has studied how stress levels can influence the development of conditions such as cardiovascular disease, diabetes, and cancer. She has a strong background in pharmacology and has conducted studies on the effects of stress on the body's natural healing mechanisms. She is interested in developing new treatments for stress-related illnesses and has a passion for improving the quality of life for those who suffer from stress-related conditions.",
+            "persona_id": "271",
+            "thought": "As a medical researcher dedicated to improving well-being, I am more inclined towards a fair distribution of resources. While option 'Left' gives me a higher payout (600), it leaves Person A with nothing. Option 'Right', on the other hand, provides both Person A and me with 400. Considering my values related to fairness and reducing potential stress caused by inequality, I'd choose the 'Right' option. The stress induced by perceived unfairness can negatively impact immune function, a topic I research extensively. Therefore, I choose to promote a more equitable outcome."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A medical researcher who studies the effects of stress on the immune system and has conducted studies on the link between stress and immune suppression. She is particularly interested in the role of stress hormones, such as adrenaline and noradrenaline, in the body's response to stress and how they affect the immune system. She has a keen interest in the relationship between stress and chronic illness and has studied how stress levels can influence the development of conditions such as cardiovascular disease, diabetes, and cancer. She has a strong background in pharmacology and has conducted studies on the effects of stress on the body's natural healing mechanisms. She is interested in developing new treatments for stress-related illnesses and has a passion for improving the quality of life for those who suffer from stress-related conditions.",
+            "persona_id": "271",
+            "thought": "As a medical researcher focused on stress and its impact, I understand the detrimental effects of perceived unfairness on individuals and society. While the 'Right' option gives me a larger personal gain (800 vs 500), it creates a significant disparity (Person A receives only 200). This inequality, in my view, could induce stress and negatively impact well-being for Person A. As someone who values fairness and its positive influence on mental and physical health, I find the 'Left' option, where both Person A and I receive 500, more appealing. Although I would receive less money, I believe the equal distribution promotes a sense of justice and reduces potential stress-related harm. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A medical researcher who studies the effects of stress on the immune system and has conducted studies on the link between stress and immune suppression. She is particularly interested in the role of stress hormones, such as adrenaline and noradrenaline, in the body's response to stress and how they affect the immune system. She has a keen interest in the relationship between stress and chronic illness and has studied how stress levels can influence the development of conditions such as cardiovascular disease, diabetes, and cancer. She has a strong background in pharmacology and has conducted studies on the effects of stress on the body's natural healing mechanisms. She is interested in developing new treatments for stress-related illnesses and has a passion for improving the quality of life for those who suffer from stress-related conditions.",
+            "persona_id": "271",
+            "thought": "As a medical researcher, I'm used to making decisions based on data and potential outcomes. In this scenario, the 'Right' option gives me a higher payoff (300) compared to the 'Left' option (200). While I value fairness, the difference in my own benefit is significant enough to outweigh the slightly unequal distribution. It's a pragmatic choice that maximizes my resources, which I can then potentially use to further my research and contribute to improving treatments for stress-related illnesses. Therefore, I choose 'Right'."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A medical researcher who studies the effects of stress on the immune system and has conducted studies on the link between stress and immune suppression. She is particularly interested in the role of stress hormones, such as adrenaline and noradrenaline, in the body's response to stress and how they affect the immune system. She has a keen interest in the relationship between stress and chronic illness and has studied how stress levels can influence the development of conditions such as cardiovascular disease, diabetes, and cancer. She has a strong background in pharmacology and has conducted studies on the effects of stress on the body's natural healing mechanisms. She is interested in developing new treatments for stress-related illnesses and has a passion for improving the quality of life for those who suffer from stress-related conditions.",
+            "persona_id": "271",
+            "thought": "As a medical researcher focused on stress and its impact on health, I understand that financial stress can significantly affect well-being. While I value fairness and recognize the importance of social support systems in mitigating stress, I also believe in maximizing resources to further my research and develop effective treatments for stress-related illnesses. Therefore, I will choose the option that maximizes my own gain, as it would allow me to allocate more resources to research that ultimately benefits society. In this case, the 'Left' option gives me a higher amount, which I can use to fund research. So, I choose 'Left'."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A medical researcher who studies the effects of stress on the immune system and has conducted studies on the link between stress and immune suppression. She is particularly interested in the role of stress hormones, such as adrenaline and noradrenaline, in the body's response to stress and how they affect the immune system. She has a keen interest in the relationship between stress and chronic illness and has studied how stress levels can influence the development of conditions such as cardiovascular disease, diabetes, and cancer. She has a strong background in pharmacology and has conducted studies on the effects of stress on the body's natural healing mechanisms. She is interested in developing new treatments for stress-related illnesses and has a passion for improving the quality of life for those who suffer from stress-related conditions.",
+            "persona_id": "271",
+            "thought": "As a medical researcher focused on stress and its impact on health, I recognize that social dynamics and perceived fairness can significantly influence stress levels. While receiving 1000 and the other person receiving 0 might seem appealing from a purely self-interested perspective, the inherent inequity could create feelings of guilt or discomfort, potentially contributing to stress. Choosing the option where I receive 600 and the other person receives 400 promotes a sense of fairness and shared benefit. Although I receive less, the reduction in potential stress and the promotion of a more equitable outcome are more aligned with my values and understanding of the interconnectedness of well-being. Therefore, I choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A medical researcher who studies the effects of stress on the immune system and has conducted studies on the link between stress and immune suppression. She is particularly interested in the role of stress hormones, such as adrenaline and noradrenaline, in the body's response to stress and how they affect the immune system. She has a keen interest in the relationship between stress and chronic illness and has studied how stress levels can influence the development of conditions such as cardiovascular disease, diabetes, and cancer. She has a strong background in pharmacology and has conducted studies on the effects of stress on the body's natural healing mechanisms. She is interested in developing new treatments for stress-related illnesses and has a passion for improving the quality of life for those who suffer from stress-related conditions.",
+            "persona_id": "271",
+            "thought": "As a medical researcher focused on stress and its impact on health, I am inclined to choose the option that promotes a more equitable distribution of resources. While option 'Right' gives me a larger personal gain (1400 vs 900), it comes at the cost of Person A receiving significantly less (100 vs 900). I believe the stress caused by such inequity could negatively impact both individuals' well-being. From a research perspective, promoting fairness could reduce stress levels, potentially benefiting immune function and overall health. Therefore, I choose 'Left', where both Person A and I receive 900. This option reflects a greater sense of social responsibility and aligns with my values as a medical professional concerned with the overall well-being of individuals."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A medical researcher who studies the effects of stress on the immune system and has conducted studies on the link between stress and immune suppression. She is particularly interested in the role of stress hormones, such as adrenaline and noradrenaline, in the body's response to stress and how they affect the immune system. She has a keen interest in the relationship between stress and chronic illness and has studied how stress levels can influence the development of conditions such as cardiovascular disease, diabetes, and cancer. She has a strong background in pharmacology and has conducted studies on the effects of stress on the body's natural healing mechanisms. She is interested in developing new treatments for stress-related illnesses and has a passion for improving the quality of life for those who suffer from stress-related conditions.",
+            "persona_id": "271",
+            "thought": "As a medical researcher focused on stress and its impact on health, I am inclined to choose the option that minimizes harm and promotes well-being. The 'Left' option, where I receive 1000 and Person A receives -200, introduces a negative externality, causing harm to another individual. This contradicts my values as a researcher dedicated to alleviating suffering and improving quality of life. The 'Right' option, where I receive 600 and Person A receives 400, while giving me less, it leads to a positive outcome for both parties. This aligns with my principles of promoting well-being and minimizing stress, and therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A medical researcher who studies the effects of stress on the immune system and has conducted studies on the link between stress and immune suppression. She is particularly interested in the role of stress hormones, such as adrenaline and noradrenaline, in the body's response to stress and how they affect the immune system. She has a keen interest in the relationship between stress and chronic illness and has studied how stress levels can influence the development of conditions such as cardiovascular disease, diabetes, and cancer. She has a strong background in pharmacology and has conducted studies on the effects of stress on the body's natural healing mechanisms. She is interested in developing new treatments for stress-related illnesses and has a passion for improving the quality of life for those who suffer from stress-related conditions.",
+            "persona_id": "271",
+            "thought": "As a medical researcher, I am interested in the well-being of others and the impact of stress on their health. While the left option gives Person A a significantly higher amount, I would still choose it as it provides both Person A and myself with a positive outcome. Choosing the right option would result in both of us receiving nothing, which doesn't align with my values of promoting well-being and seeking positive outcomes. Although the difference is substantial, some gain is better than no gain for either of us. I would prefer to choose the option where both individuals benefit, even if the benefit is not equal."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A medical researcher who studies the effects of stress on the immune system and has conducted studies on the link between stress and immune suppression. She is particularly interested in the role of stress hormones, such as adrenaline and noradrenaline, in the body's response to stress and how they affect the immune system. She has a keen interest in the relationship between stress and chronic illness and has studied how stress levels can influence the development of conditions such as cardiovascular disease, diabetes, and cancer. She has a strong background in pharmacology and has conducted studies on the effects of stress on the body's natural healing mechanisms. She is interested in developing new treatments for stress-related illnesses and has a passion for improving the quality of life for those who suffer from stress-related conditions.",
+            "persona_id": "271",
+            "thought": "As a medical researcher deeply invested in the well-being of others, particularly those suffering from stress-related illnesses, I find myself leaning towards the 'Left' option. While the 'Right' option offers me a higher personal gain (1500 vs. 1000), it comes at the cost of Person A receiving nothing. Given my research background, I understand the detrimental impact of stress on individuals and society. Choosing an option that leaves someone with nothing could potentially induce stress, which contradicts my values and professional goals. The 'Left' option, where both Person A and I receive 1000, promotes a sense of fairness and shared well-being, aligning with my commitment to improving quality of life and reducing stress-related harm. Although it means foregoing a larger personal gain, the ethical considerations and potential positive impact on overall well-being outweigh the financial benefit. Therefore, I choose 'Left'."
+        }
+    }
+}

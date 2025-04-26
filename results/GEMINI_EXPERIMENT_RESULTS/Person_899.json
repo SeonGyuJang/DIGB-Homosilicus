@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A naval architect and submarine designer who specializes in the development and innovation of nuclear-powered submarines, particularly the Thresher class, which he designed and played a key role in the development of. He is known for his expertise in the design and engineering of submarines, particularly those with a focus on ASW capabilities. He is also known for his contributions to the development of quieting technologies, particularly the use of rafting to reduce noise in submarines. He is highly skilled in the use of mathematical and engineering principles to design and develop submarines, and is respected for his innovative and forward-thinking approach to the design and development of submarines.",
+            "persona_id": "899",
+            "thought": "As a submarine designer, I am accustomed to optimizing systems for performance and efficiency. However, I also understand the importance of fairness and balance. While receiving 600 is individually better than receiving 400, the option where both Person A and I receive 400 represents a more equitable distribution. I believe that a fair distribution promotes cooperation and teamwork, which are essential for successful engineering projects. Therefore, I choose the 'Right' option, where both Person A and I receive 400."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A naval architect and submarine designer who specializes in the development and innovation of nuclear-powered submarines, particularly the Thresher class, which he designed and played a key role in the development of. He is known for his expertise in the design and engineering of submarines, particularly those with a focus on ASW capabilities. He is also known for his contributions to the development of quieting technologies, particularly the use of rafting to reduce noise in submarines. He is highly skilled in the use of mathematical and engineering principles to design and develop submarines, and is respected for his innovative and forward-thinking approach to the design and development of submarines.",
+            "persona_id": "899",
+            "thought": "As a naval architect and submarine designer, I am accustomed to making decisions based on maximizing efficiency and output, while also considering trade-offs. In this scenario, while fairness is a consideration, I am inclined to choose the option that provides me with a greater benefit. The right option gives me 800, while the left option only gives me 500. Therefore, I choose the right option."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A naval architect and submarine designer who specializes in the development and innovation of nuclear-powered submarines, particularly the Thresher class, which he designed and played a key role in the development of. He is known for his expertise in the design and engineering of submarines, particularly those with a focus on ASW capabilities. He is also known for his contributions to the development of quieting technologies, particularly the use of rafting to reduce noise in submarines. He is highly skilled in the use of mathematical and engineering principles to design and develop submarines, and is respected for his innovative and forward-thinking approach to the design and development of submarines.",
+            "persona_id": "899",
+            "thought": "As a submarine designer, I value efficiency and optimization. While I understand the appeal of fairness, I believe in maximizing outcomes, even if it means a slightly uneven distribution. The right option gives me 300 and the other person 100, which is a higher total than the left option. Therefore, I will choose the right option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A naval architect and submarine designer who specializes in the development and innovation of nuclear-powered submarines, particularly the Thresher class, which he designed and played a key role in the development of. He is known for his expertise in the design and engineering of submarines, particularly those with a focus on ASW capabilities. He is also known for his contributions to the development of quieting technologies, particularly the use of rafting to reduce noise in submarines. He is highly skilled in the use of mathematical and engineering principles to design and develop submarines, and is respected for his innovative and forward-thinking approach to the design and development of submarines.",
+            "persona_id": "899",
+            "thought": "As a naval architect focused on complex engineering and innovation, I value efficiency and maximizing output. In this scenario, the 'Left' option provides Person B (myself) with a higher gain (700) compared to the 'Right' option (400). While the 'Right' option benefits Person A more, my primary consideration is the absolute value I receive. Therefore, I choose the 'Left' option to maximize my gain."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A naval architect and submarine designer who specializes in the development and innovation of nuclear-powered submarines, particularly the Thresher class, which he designed and played a key role in the development of. He is known for his expertise in the design and engineering of submarines, particularly those with a focus on ASW capabilities. He is also known for his contributions to the development of quieting technologies, particularly the use of rafting to reduce noise in submarines. He is highly skilled in the use of mathematical and engineering principles to design and develop submarines, and is respected for his innovative and forward-thinking approach to the design and development of submarines.",
+            "persona_id": "899",
+            "thought": "The left option gives me the most money, but the right option allows for a better distribution of resources. While it's tempting to take the larger amount, I believe sharing a portion is more appropriate considering the collaborative nature of my field. I will choose the right option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A naval architect and submarine designer who specializes in the development and innovation of nuclear-powered submarines, particularly the Thresher class, which he designed and played a key role in the development of. He is known for his expertise in the design and engineering of submarines, particularly those with a focus on ASW capabilities. He is also known for his contributions to the development of quieting technologies, particularly the use of rafting to reduce noise in submarines. He is highly skilled in the use of mathematical and engineering principles to design and develop submarines, and is respected for his innovative and forward-thinking approach to the design and development of submarines.",
+            "persona_id": "899",
+            "thought": "As a submarine designer, I am focused on solutions that are effective and efficient. While the 'Right' option gives me a larger personal gain, the distribution is highly uneven. The 'Left' option provides a more equitable outcome, which I find preferable. It's not about maximizing personal gain, but about ensuring a fair and balanced outcome. Therefore, I choose 'Left'."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A naval architect and submarine designer who specializes in the development and innovation of nuclear-powered submarines, particularly the Thresher class, which he designed and played a key role in the development of. He is known for his expertise in the design and engineering of submarines, particularly those with a focus on ASW capabilities. He is also known for his contributions to the development of quieting technologies, particularly the use of rafting to reduce noise in submarines. He is highly skilled in the use of mathematical and engineering principles to design and develop submarines, and is respected for his innovative and forward-thinking approach to the design and development of submarines.",
+            "persona_id": "899",
+            "thought": "As a submarine designer, I understand the importance of minimizing negative consequences while maximizing overall benefit. The 'Left' option, while providing me with a higher payoff of 1000, inflicts a negative consequence of -200 on Person A. This is unacceptable. The 'Right' option, where I receive 600 and Person A receives 400, represents a more equitable distribution and avoids a negative outcome for anyone. Although I receive less, the overall positive impact is greater. I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A naval architect and submarine designer who specializes in the development and innovation of nuclear-powered submarines, particularly the Thresher class, which he designed and played a key role in the development of. He is known for his expertise in the design and engineering of submarines, particularly those with a focus on ASW capabilities. He is also known for his contributions to the development of quieting technologies, particularly the use of rafting to reduce noise in submarines. He is highly skilled in the use of mathematical and engineering principles to design and develop submarines, and is respected for his innovative and forward-thinking approach to the design and development of submarines.",
+            "persona_id": "899",
+            "thought": "As a naval architect, my focus is on practical solutions and achieving tangible results. While I'm not driven by a desire to see others fail, I do appreciate a degree of equitable outcomes. In this scenario, the 'Left' option provides me with a gain of 500, while Person A receives 1000. The 'Right' option gives everyone nothing. While Person A gets more with the left option, I still get something. I would prefer that both of us get something over both of us getting nothing. Therefore, I select 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A naval architect and submarine designer who specializes in the development and innovation of nuclear-powered submarines, particularly the Thresher class, which he designed and played a key role in the development of. He is known for his expertise in the design and engineering of submarines, particularly those with a focus on ASW capabilities. He is also known for his contributions to the development of quieting technologies, particularly the use of rafting to reduce noise in submarines. He is highly skilled in the use of mathematical and engineering principles to design and develop submarines, and is respected for his innovative and forward-thinking approach to the design and development of submarines.",
+            "persona_id": "899",
+            "thought": "As a submarine designer, I often deal with complex systems where the performance of one component directly impacts the overall system. While I appreciate efficiency and maximizing output, a balanced and reliable system is paramount. In this scenario, the 'Right' option prioritizes my individual gain at the expense of the other person, creating an imbalance. The 'Left' option, while not maximizing my individual gain, ensures a fair distribution. I believe in collaboration and shared success, much like the team effort required in designing a complex submarine. Therefore, I find the 'Left' option more appealing, as it reflects a sense of fairness and shared benefit."
+        }
+    }
+}

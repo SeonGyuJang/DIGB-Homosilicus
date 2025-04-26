@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 829,
+            "persona_desc": "A student or IT professional who is interested in learning about network security and wants to improve their understanding of active and passive attacks on networks, encryption, authentication methods, and access control mechanisms. They are looking for a comprehensive course that covers these topics in depth and is presented in a way that is easy to understand and relevant to their career goals.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As someone interested in network security and IT, I understand the value of fairness and trust within systems. While maximizing my own immediate gain (600) is tempting, the complete lack of benefit for Person A feels unfair. In a collaborative environment (like a network or a security team), equitable outcomes, even if slightly less optimal individually, often lead to stronger long-term relationships and better overall performance. Choosing the option that distributes some benefit to Person A (400/400) aligns with principles of fairness and cooperation, which are crucial in the field of network security. While I am motivated to advance my skills, I believe that equity is also an important thing to consider.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 829,
+            "persona_desc": "A student or IT professional who is interested in learning about network security and wants to improve their understanding of active and passive attacks on networks, encryption, authentication methods, and access control mechanisms. They are looking for a comprehensive course that covers these topics in depth and is presented in a way that is easy to understand and relevant to their career goals.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As someone interested in network security, I value logical and strategic thinking. This scenario presents a choice between a fair outcome (Left) and a selfishly beneficial outcome (Right). While the Right option offers me a higher payout (800 vs. 500), it comes at the cost of significantly reducing Person A's payout (200 vs. 500). This creates a stark inequality. Although self-interest might suggest choosing Right, a security mindset also considers the broader implications of actions. Consistently prioritizing personal gain over fairness can erode trust and cooperation, which are crucial in many aspects of life and even in collaborative security efforts (e.g., information sharing about vulnerabilities). While it's a hypothetical scenario, maintaining a sense of fairness, even in an isolated instance, aligns better with professional ethics and general principles of collaboration. Therefore, the fairer choice is preferred, even if it means slightly less personal gain.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 829,
+            "persona_desc": "A student or IT professional who is interested in learning about network security and wants to improve their understanding of active and passive attacks on networks, encryption, authentication methods, and access control mechanisms. They are looking for a comprehensive course that covers these topics in depth and is presented in a way that is easy to understand and relevant to their career goals.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a student or IT professional interested in network security, my primary focus in this experiment is likely to be maximizing my own potential benefit, within reasonable ethical bounds. While a perfectly equitable outcome (Left: 200, 200) is appealing in principle, the Right choice provides a significantly larger personal payout (300 versus 200) with only a modest reduction in Person A's payout (100 versus 200). The difference of 100 is not considered significant enough to outweigh my self-interest, especially in an anonymous and abstract context like this experiment. I am not being explicitly unfair or detrimental to Person A, and my personal gain outweighs the slight decrease in their outcome. Furthermore, considering the context of a network security professional, a pragmatic approach to resource allocation, where a slight advantage for myself can contribute to better outcomes overall in my career (e.g., ability to afford training or resources to enhance my skills), is reasonable.",
+            "answer": "Right"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 829,
+            "persona_desc": "A student or IT professional who is interested in learning about network security and wants to improve their understanding of active and passive attacks on networks, encryption, authentication methods, and access control mechanisms. They are looking for a comprehensive course that covers these topics in depth and is presented in a way that is easy to understand and relevant to their career goals.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As an IT professional interested in network security, my primary focus is on building my skills and furthering my career. While fairness and ethical considerations are important, the immediate impact of this decision on my career development is minimal. The difference between 700 and 400 is significant. Taking the left option yields 75% more money, which while this is an abstract setting, represents resources or opportunities I could use to invest in my education (courses, certifications) and advance my career in network security. While choosing 'Right' might feel slightly 'nicer' from a social perspective, the concrete benefit for me is significantly less. Therefore, I prioritize my own gain in this scenario.",
+            "answer": "Left"
+        },
+        "scenario_2": {
+            "persona_id": 829,
+            "persona_desc": "A student or IT professional who is interested in learning about network security and wants to improve their understanding of active and passive attacks on networks, encryption, authentication methods, and access control mechanisms. They are looking for a comprehensive course that covers these topics in depth and is presented in a way that is easy to understand and relevant to their career goals.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As someone focused on improving my network security knowledge for career advancement, I am primarily concerned with maximizing my own benefit in this scenario. While the right option offers a small benefit to Person A, it significantly reduces my own gain. The difference between 1000 and 600 is substantial, and in the context of a hypothetical game, choosing the option that maximizes my own payoff seems the most rational course of action to improve my own resources to better acquire future knowledge.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 829,
+            "persona_desc": "A student or IT professional who is interested in learning about network security and wants to improve their understanding of active and passive attacks on networks, encryption, authentication methods, and access control mechanisms. They are looking for a comprehensive course that covers these topics in depth and is presented in a way that is easy to understand and relevant to their career goals.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As someone interested in network security and career advancement, I need to think strategically, even in seemingly simple scenarios. While the larger amount of money (1400) is appealing, completely disregarding the other person (A receiving only 100) could be perceived negatively, even anonymously. Although this is a hypothetical choice in a social preferences experiment, and there's no direct impact on my career or personal reputation, consistently demonstrating a preference for fairness and collaboration can be beneficial in the long run. Choosing the option where both parties receive a substantial amount shows an understanding of collaboration. In the cybersecurity world, understanding human behavior is important. Thus, I'll choose the option that allows for a 'fair' distribution.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 829,
+            "persona_desc": "A student or IT professional who is interested in learning about network security and wants to improve their understanding of active and passive attacks on networks, encryption, authentication methods, and access control mechanisms. They are looking for a comprehensive course that covers these topics in depth and is presented in a way that is easy to understand and relevant to their career goals.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "This scenario presents a choice between maximizing my own payoff at the expense of Person A (Left), and a more equitable distribution (Right). As someone interested in network security and ethical behavior within that field, I would lean towards a choice that doesn't actively harm another person. Choosing 'Left' would result in a negative payoff for Person A, which feels unethical. While I lose some of my own potential gain, 'Right' provides a positive outcome for both of us. Considering my professional goals involve ethical use of security knowledge, choosing 'Right' aligns better with my values.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 829,
+            "persona_desc": "A student or IT professional who is interested in learning about network security and wants to improve their understanding of active and passive attacks on networks, encryption, authentication methods, and access control mechanisms. They are looking for a comprehensive course that covers these topics in depth and is presented in a way that is easy to understand and relevant to their career goals.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As someone interested in network security and professional advancement, I need to make rational decisions. Option 'Left' gives me a guaranteed gain of 500. Option 'Right' gives me nothing. While Person A receives a larger amount in Option 'Left', the core principle of blocking an opponent's excessive gain isn't applicable here in a way that outweighs my own benefit. Choosing 'Right' simply because A gets more than me results in a zero outcome for everyone. I prefer a guaranteed small gain. Furthermore, focusing solely on relative gains and maximizing spiteful outcomes hinders my overall objective of professional development and collaboration. A network security mindset values proactive security, and getting something is better than getting nothing.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 829,
+            "persona_desc": "A student or IT professional who is interested in learning about network security and wants to improve their understanding of active and passive attacks on networks, encryption, authentication methods, and access control mechanisms. They are looking for a comprehensive course that covers these topics in depth and is presented in a way that is easy to understand and relevant to their career goals.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As someone interested in network security and career advancement, I need to think strategically, even in seemingly simple situations. While 1500 is more than 1000, the difference between the two options represents a potential 'loss' for Person A. Given that the experiment is about social preferences, a purely selfish decision might be perceived negatively (though I don't know if this is the case). However, the fact that Person A receives 0 in the 'Right' option raises concerns. While a strictly rational economic actor would choose 'Right', a slightly risk-averse individual or someone concerned about the potential consequences of appearing excessively greedy might hesitate. I will choose Right.",
+            "answer": "Right"
+        }
+    }
+}

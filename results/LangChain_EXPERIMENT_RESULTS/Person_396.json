@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 396,
+            "persona_desc": "A science enthusiast who is particularly interested in biology and has a strong curiosity about the microscopic world. They have a background in science and are comfortable with using microscopes. They have a good understanding of cell biology and the functions of cells. They find the process of growing cells under the microscope fascinating and enjoy experimenting with different variables to see how they affect the growth of cells. They are aware of the challenges of the test, but they are determined to do their best and learn from the experience.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a science enthusiast, I value fairness and collaboration, especially since scientific advancement relies on sharing knowledge and resources. While the prospect of receiving 600 tokens is tempting, I find the complete lack of benefit for Person A in the 'Left' option unacceptable. The 'Right' option, though providing me with a smaller amount (400 tokens), also gives an equal share to Person A. This aligns with my personal values of equity. Considering my background in science, I understand that a more equitable distribution of resources, even in a simulated environment, promotes a more collaborative and ultimately productive ecosystem.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 396,
+            "persona_desc": "A science enthusiast who is particularly interested in biology and has a strong curiosity about the microscopic world. They have a background in science and are comfortable with using microscopes. They have a good understanding of cell biology and the functions of cells. They find the process of growing cells under the microscope fascinating and enjoy experimenting with different variables to see how they affect the growth of cells. They are aware of the challenges of the test, but they are determined to do their best and learn from the experience.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a science enthusiast, I appreciate the value of collaboration and resource sharing. While the 'Right' option offers a larger personal gain (800 vs 500), the 'Left' option provides a more equitable distribution of resources (500 each). In the context of scientific endeavors, a collaborative approach often leads to better results. Even though this is a hypothetical scenario with monetary reward, I believe fostering fairness, even in small amounts, aligns with the principles of scientific collaboration and mutual respect. While I could use the extra 300, I value fairness here and feel the 500/500 split is the more appropriate choice given my values.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 396,
+            "persona_desc": "A science enthusiast who is particularly interested in biology and has a strong curiosity about the microscopic world. They have a background in science and are comfortable with using microscopes. They have a good understanding of cell biology and the functions of cells. They find the process of growing cells under the microscope fascinating and enjoy experimenting with different variables to see how they affect the growth of cells. They are aware of the challenges of the test, but they are determined to do their best and learn from the experience.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a science enthusiast, I appreciate fairness and collaboration. While the right option gives me more money (300 vs. 200), it significantly reduces the amount given to Person A (100 vs. 200). The left option, while yielding a smaller personal gain, promotes equality and a sense of shared success. Given my background and focus on cooperation in scientific endeavors, I value equitable outcomes. Although 100 difference is not very large, the equal distribution appeals to my sense of fairness. In a research setting, such cooperation can be essential for advancing scientific knowledge and innovation.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 396,
+            "persona_desc": "A science enthusiast who is particularly interested in biology and has a strong curiosity about the microscopic world. They have a background in science and are comfortable with using microscopes. They have a good understanding of cell biology and the functions of cells. They find the process of growing cells under the microscope fascinating and enjoy experimenting with different variables to see how they affect the growth of cells. They are aware of the challenges of the test, but they are determined to do their best and learn from the experience.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a science enthusiast, I value fairness and objective observation. While maximizing my own gain is tempting, the difference between my potential earnings in both options isn't drastically significant (300 points). However, the disparity in Person A's earnings is quite pronounced. Although the experiment's nature is a test, I lean towards promoting a more equitable distribution of resources. Option Right grants Person A a greater share, potentially fostering a collaborative spirit, a value I appreciate, even in a structured experiment. Furthermore, the experiment does not dictate maximizing personal gain but aims to study social preferences. Therefore, I choose the option that contributes to a more balanced outcome, even if it means a slight reduction in my potential earnings.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 396,
+            "persona_desc": "A science enthusiast who is particularly interested in biology and has a strong curiosity about the microscopic world. They have a background in science and are comfortable with using microscopes. They have a good understanding of cell biology and the functions of cells. They find the process of growing cells under the microscope fascinating and enjoy experimenting with different variables to see how they affect the growth of cells. They are aware of the challenges of the test, but they are determined to do their best and learn from the experience.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a science enthusiast, particularly in biology, I value understanding complex systems and how different variables interact. While I appreciate the objective of maximizing my own payoff in this experiment, my scientific background also instills a sense of fairness and the importance of resource allocation. The difference between the two options isn't just about a personal gain of 400 or 1000. It's about potentially denying Person A anything. Observing how others react in situations like these provides insights into human behavior, which I find intellectually stimulating. Although, admittedly, the appeal of 1000 is strong, completely denying the other participant any amount feels uncomfortably selfish. Minimally, sharing a little is better than not at all. Considering the minimal sharing is just about 400, it seems like the better option.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 396,
+            "persona_desc": "A science enthusiast who is particularly interested in biology and has a strong curiosity about the microscopic world. They have a background in science and are comfortable with using microscopes. They have a good understanding of cell biology and the functions of cells. They find the process of growing cells under the microscope fascinating and enjoy experimenting with different variables to see how they affect the growth of cells. They are aware of the challenges of the test, but they are determined to do their best and learn from the experience.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a science enthusiast, particularly in biology, I value fairness and collaboration. While a larger personal gain is tempting (1400 vs 900), the drastic disparity in the 'Right' option, where Person A receives only 100, feels unethical. In scientific endeavors, collaboration and shared resources are crucial for progress. A significant imbalance hinders the overall potential and can create resentment, ultimately impacting future collaborations. The 'Left' option, while offering a lower individual payout, promotes a more equitable distribution of resources, fostering a sense of shared success. Although I am aware this is just a test, I believe in aligning my choices with my personal values and the principles that contribute to successful scientific collaborations. Therefore, I choose the option that promotes a more equitable outcome.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 396,
+            "persona_desc": "A science enthusiast who is particularly interested in biology and has a strong curiosity about the microscopic world. They have a background in science and are comfortable with using microscopes. They have a good understanding of cell biology and the functions of cells. They find the process of growing cells under the microscope fascinating and enjoy experimenting with different variables to see how they affect the growth of cells. They are aware of the challenges of the test, but they are determined to do their best and learn from the experience.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a science enthusiast, particularly in biology, I understand the importance of ethical considerations in research and experimentation. The negative externality in the 'Left' option, where Person A receives -200, directly contradicts my values. While maximizing my own payout is tempting, the significant negative impact on another individual is unacceptable. My interest in biological systems extends beyond the purely scientific; it includes a respect for living beings and, by extension, human beings. Therefore, I will prioritize a more equitable outcome, even if it means receiving a smaller personal gain. The 'Right' option provides a positive outcome for both parties and aligns with my ethical stance.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 396,
+            "persona_desc": "A science enthusiast who is particularly interested in biology and has a strong curiosity about the microscopic world. They have a background in science and are comfortable with using microscopes. They have a good understanding of cell biology and the functions of cells. They find the process of growing cells under the microscope fascinating and enjoy experimenting with different variables to see how they affect the growth of cells. They are aware of the challenges of the test, but they are determined to do their best and learn from the experience.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a science enthusiast, particularly one interested in biology and experimentation, I approach this choice with a certain detachment. My inherent interest lies in observing and understanding systems, whether it be cellular growth or human behavior in an experimental context. While I understand this is designed to test social preferences and blocking 'excessive gain' for the other person, 'excessive gain' is a subjective term. Is 1000 excessive? In the grand scheme of things, probably not. My own payoff of 500 is a tangible benefit, even if Person A receives more. Choosing 'Right' provides neither of us with any data points. Choosing 'Left' at least provides *me* with some benefit, funding perhaps for some small lab supplies, and doesn't negatively impact the other person beyond a theoretical perceived inequality. Therefore, I'll choose 'Left'. While I'm aware of the experiment's intention to gauge my reaction to inequality, my own direct benefit wins out. The zeros in 'Right' are essentially a black box. Choosing left is akin to at least looking through my microscope at a slide, versus leaving it in the dark.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 396,
+            "persona_desc": "A science enthusiast who is particularly interested in biology and has a strong curiosity about the microscopic world. They have a background in science and are comfortable with using microscopes. They have a good understanding of cell biology and the functions of cells. They find the process of growing cells under the microscope fascinating and enjoy experimenting with different variables to see how they affect the growth of cells. They are aware of the challenges of the test, but they are determined to do their best and learn from the experience.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a science enthusiast, I value outcomes that benefit everyone. While the allure of 1500 is tempting, I believe that equal distribution fosters collaboration and trust, which are essential in scientific endeavors and society at large. Choosing the left option reflects my preference for fairness and a more equitable outcome. Even though my 'self-utility' is higher in the right option, the overall 'total utility' (sum of payoffs) is greater on the left and the distribution is more equitable. As a scientist, I believe in maximizing overall well-being and promoting a fair and collaborative environment.",
+            "answer": "Left"
+        }
+    }
+}

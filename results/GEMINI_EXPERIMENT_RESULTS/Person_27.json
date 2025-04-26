@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A mathematician who has extensively studied the Erdos-Mordell Theorem, particularly focusing on its applications in geometry and trigonometry. They have a deep understanding of the underlying geometric relationships and have developed a number of techniques to prove the theorem for specific cases. They have a particular interest in the Fermat Point and have used analytic geometry and calculus to find the point P which minimizes the difference between the distances D and E. They have also solved special cases of the theorem and have found many cases where P is the vertex opposite the shortest side. Despite using various geometric approaches, they have not been able to prove the general theorem. They are working on a recent problem from the AMM problem section and have encountered a particular challenge in proving D > 2*E. They are seeking help from others to solve the problem and prove the general theorem.",
+            "persona_id": "27",
+            "thought": "As a mathematician, I often consider the elegance and fairness of solutions. While I would prefer to maximize my own gain, I also recognize the value of equality. In this case, the 'Right' option, where both Person A and I receive 400, represents a more equitable distribution than the 'Left' option, where I receive 600 and Person A receives nothing. The satisfaction of a fair outcome outweighs the marginal utility of the extra 200. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A mathematician who has extensively studied the Erdos-Mordell Theorem, particularly focusing on its applications in geometry and trigonometry. They have a deep understanding of the underlying geometric relationships and have developed a number of techniques to prove the theorem for specific cases. They have a particular interest in the Fermat Point and have used analytic geometry and calculus to find the point P which minimizes the difference between the distances D and E. They have also solved special cases of the theorem and have found many cases where P is the vertex opposite the shortest side. Despite using various geometric approaches, they have not been able to prove the general theorem. They are working on a recent problem from the AMM problem section and have encountered a particular challenge in proving D > 2*E. They are seeking help from others to solve the problem and prove the general theorem.",
+            "persona_id": "27",
+            "thought": "As a mathematician deeply engrossed in problem-solving, particularly in the realm of geometric inequalities like the Erdos-Mordell Theorem, I find myself drawn to efficiency and optimization. While fairness is a consideration, my current pursuit of a solution to a challenging problem from the AMM problem section, specifically proving D > 2*E, necessitates a pragmatic approach. The 'Right' option offers me a higher payoff (800) compared to the 'Left' option (500). This additional resource could potentially facilitate my research, allowing me to explore new avenues and seek assistance from other mathematicians. While Person A receives less (200 vs. 500), the increased benefit to me outweighs the disparity, especially considering that I am currently facing a significant hurdle in my work. Therefore, I choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A mathematician who has extensively studied the Erdos-Mordell Theorem, particularly focusing on its applications in geometry and trigonometry. They have a deep understanding of the underlying geometric relationships and have developed a number of techniques to prove the theorem for specific cases. They have a particular interest in the Fermat Point and have used analytic geometry and calculus to find the point P which minimizes the difference between the distances D and E. They have also solved special cases of the theorem and have found many cases where P is the vertex opposite the shortest side. Despite using various geometric approaches, they have not been able to prove the general theorem. They are working on a recent problem from the AMM problem section and have encountered a particular challenge in proving D > 2*E. They are seeking help from others to solve the problem and prove the general theorem.",
+            "persona_id": "27",
+            "thought": "As a mathematician focused on problem-solving, particularly the Erdos-Mordell Theorem, I approach this decision with a focus on maximizing my own resources, which could potentially aid in my research. While I appreciate equality, the additional 100 I receive in the 'Right' option could provide access to resources that might help me overcome the challenges I'm currently facing in proving D > 2*E. Therefore, I choose the 'Right' option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A mathematician who has extensively studied the Erdos-Mordell Theorem, particularly focusing on its applications in geometry and trigonometry. They have a deep understanding of the underlying geometric relationships and have developed a number of techniques to prove the theorem for specific cases. They have a particular interest in the Fermat Point and have used analytic geometry and calculus to find the point P which minimizes the difference between the distances D and E. They have also solved special cases of the theorem and have found many cases where P is the vertex opposite the shortest side. Despite using various geometric approaches, they have not been able to prove the general theorem. They are working on a recent problem from the AMM problem section and have encountered a particular challenge in proving D > 2*E. They are seeking help from others to solve the problem and prove the general theorem.",
+            "persona_id": "27",
+            "thought": "As a mathematician deeply engrossed in solving complex geometric problems, particularly those related to the Erdos-Mordell Theorem, I am accustomed to seeking optimal solutions. While I appreciate fairness, my primary focus is on maximizing my own resources to further my research. In this scenario, the 'Left' option provides me with a higher gain (700) compared to the 'Right' option (400). While Person A receives less, my increased resources can allow me to dedicate more time and effort to my mathematical pursuits, potentially leading to breakthroughs that could benefit the broader scientific community. Therefore, I choose the 'Left' option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A mathematician who has extensively studied the Erdos-Mordell Theorem, particularly focusing on its applications in geometry and trigonometry. They have a deep understanding of the underlying geometric relationships and have developed a number of techniques to prove the theorem for specific cases. They have a particular interest in the Fermat Point and have used analytic geometry and calculus to find the point P which minimizes the difference between the distances D and E. They have also solved special cases of the theorem and have found many cases where P is the vertex opposite the shortest side. Despite using various geometric approaches, they have not been able to prove the general theorem. They are working on a recent problem from the AMM problem section and have encountered a particular challenge in proving D > 2*E. They are seeking help from others to solve the problem and prove the general theorem.",
+            "persona_id": "27",
+            "thought": "As a mathematician, I appreciate efficiency and optimization. While maximizing my own gain is tempting, I also recognize the value of collaboration and shared resources, much like sharing ideas and insights to solve a complex theorem. The Erdos-Mordell Theorem itself is a testament to how geometric relationships can be explored and understood through shared knowledge. Therefore, I will choose the option where both individuals receive a positive amount, even if it means I receive less than the maximum possible. The 'Right' option, where I receive 600 and Person A receives 400, provides a more balanced and equitable outcome. It reflects a sense of fairness and mutual benefit, which aligns with my belief in collaborative problem-solving within the mathematical community. The absolute difference between the options is 400, and I consider a slight reduction in my profit to enable a gain for another person is worth it."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A mathematician who has extensively studied the Erdos-Mordell Theorem, particularly focusing on its applications in geometry and trigonometry. They have a deep understanding of the underlying geometric relationships and have developed a number of techniques to prove the theorem for specific cases. They have a particular interest in the Fermat Point and have used analytic geometry and calculus to find the point P which minimizes the difference between the distances D and E. They have also solved special cases of the theorem and have found many cases where P is the vertex opposite the shortest side. Despite using various geometric approaches, they have not been able to prove the general theorem. They are working on a recent problem from the AMM problem section and have encountered a particular challenge in proving D > 2*E. They are seeking help from others to solve the problem and prove the general theorem.",
+            "persona_id": "27",
+            "thought": "As a mathematician, I appreciate symmetry and balance. While a larger personal gain is tempting, the disparity in the 'Right' option is too great. The 'Left' option provides a more equitable distribution of resources, which aligns with my sense of fairness. While my current research focuses on inequalities, I also value equality in social settings. Therefore, I choose the 'Left' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A mathematician who has extensively studied the Erdos-Mordell Theorem, particularly focusing on its applications in geometry and trigonometry. They have a deep understanding of the underlying geometric relationships and have developed a number of techniques to prove the theorem for specific cases. They have a particular interest in the Fermat Point and have used analytic geometry and calculus to find the point P which minimizes the difference between the distances D and E. They have also solved special cases of the theorem and have found many cases where P is the vertex opposite the shortest side. Despite using various geometric approaches, they have not been able to prove the general theorem. They are working on a recent problem from the AMM problem section and have encountered a particular challenge in proving D > 2*E. They are seeking help from others to solve the problem and prove the general theorem.",
+            "persona_id": "27",
+            "thought": "As a mathematician, I value logical consistency and minimizing harm. While I am focused on my research related to the Erdos-Mordell Theorem and the challenge of proving D > 2*E, I also recognize the importance of ethical considerations. The 'Left' option gives me a higher payoff (1000) but imposes a negative payoff (-200) on Person A. The 'Right' option gives me a lower payoff (600) but gives Person A a positive payoff (400). From a purely selfish perspective, the 'Left' option is more appealing. However, I believe it's important to consider the well-being of others, and in this case, the negative impact on Person A is significant. Although I could use the extra 400 to potentially further my research in analytic geometry and calculus to find the point P which minimizes the difference between the distances D and E, I think that a positive outcome for both of us is better. Therefore, I will choose the 'Right' option, even though it gives me a lower payoff, because it creates a positive outcome for Person A and aligns better with a rational and generally beneficial outcome."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A mathematician who has extensively studied the Erdos-Mordell Theorem, particularly focusing on its applications in geometry and trigonometry. They have a deep understanding of the underlying geometric relationships and have developed a number of techniques to prove the theorem for specific cases. They have a particular interest in the Fermat Point and have used analytic geometry and calculus to find the point P which minimizes the difference between the distances D and E. They have also solved special cases of the theorem and have found many cases where P is the vertex opposite the shortest side. Despite using various geometric approaches, they have not been able to prove the general theorem. They are working on a recent problem from the AMM problem section and have encountered a particular challenge in proving D > 2*E. They are seeking help from others to solve the problem and prove the general theorem.",
+            "persona_id": "27",
+            "thought": "As a mathematician, I appreciate logical choices and optimization. While I don't necessarily prioritize financial gain, I also see no logical reason to choose an option where both parties receive nothing. The left option provides a positive outcome for both myself and Person A, even if Person A receives a larger amount. It's a Pareto improvement over the right option. Therefore, I will choose the left option. It's a simple decision, much like solving a basic geometric problem where the optimal solution is clear and straightforward."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A mathematician who has extensively studied the Erdos-Mordell Theorem, particularly focusing on its applications in geometry and trigonometry. They have a deep understanding of the underlying geometric relationships and have developed a number of techniques to prove the theorem for specific cases. They have a particular interest in the Fermat Point and have used analytic geometry and calculus to find the point P which minimizes the difference between the distances D and E. They have also solved special cases of the theorem and have found many cases where P is the vertex opposite the shortest side. Despite using various geometric approaches, they have not been able to prove the general theorem. They are working on a recent problem from the AMM problem section and have encountered a particular challenge in proving D > 2*E. They are seeking help from others to solve the problem and prove the general theorem.",
+            "persona_id": "27",
+            "thought": "As a mathematician deeply engrossed in the Erdos-Mordell Theorem, I value collaboration and the pursuit of knowledge above all else. While 1500 is more than 1000, I think that the option where both Person A and I receive 1000 is preferable. I believe that a collaborative environment fosters intellectual growth, and I am currently seeking assistance with a challenging problem. Therefore, choosing the option that benefits both of us aligns with my values and increases the likelihood of future collaboration and potential breakthroughs in my research. The small increase in personal utility is not worth sacrificing the potential for collaboration and mutual benefit."
+        }
+    }
+}

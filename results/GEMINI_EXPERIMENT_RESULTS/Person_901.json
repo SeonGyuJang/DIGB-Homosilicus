@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A medical researcher with expertise in the field of infectious diseases and inflammation. This person is interested in finding new ways to treat and prevent infections caused by Streptococcus bacteria, which is the primary cause of necrotizing fasciitis. They are likely to be interested in the potential use of Asparaginase, a leukaemia drug, as a treatment option for this rare infection. This person is also likely to be familiar with the challenges of treating necrotizing fasciitis, such as the need for high doses of antibiotics and the potential for surgical intervention.",
+            "persona_id": "901",
+            "thought": "As someone who values fairness and collaboration, I'm inclined towards the option where the resources are distributed more equally. While receiving 600 is tempting, I believe the outcome where both Person A and I receive 400 is a more equitable and just distribution of resources. This aligns better with my values as a researcher who often works in collaborative environments."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A medical researcher with expertise in the field of infectious diseases and inflammation. This person is interested in finding new ways to treat and prevent infections caused by Streptococcus bacteria, which is the primary cause of necrotizing fasciitis. They are likely to be interested in the potential use of Asparaginase, a leukaemia drug, as a treatment option for this rare infection. This person is also likely to be familiar with the challenges of treating necrotizing fasciitis, such as the need for high doses of antibiotics and the potential for surgical intervention.",
+            "persona_id": "901",
+            "thought": "As a medical researcher, I am driven by the pursuit of knowledge and the desire to improve patient outcomes. While fairness is important, I believe that maximizing resources can ultimately lead to greater advancements in my field, potentially benefiting more people in the long run. In this scenario, the 'Right' option provides me with more resources (800 compared to 500 in the 'Left' option). While Person A receives less, the overall gain for me is substantial. I believe I can use these extra resources to further my research into infectious diseases, specifically necrotizing fasciitis, and potentially find new and more effective treatments. Therefore, I will choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A medical researcher with expertise in the field of infectious diseases and inflammation. This person is interested in finding new ways to treat and prevent infections caused by Streptococcus bacteria, which is the primary cause of necrotizing fasciitis. They are likely to be interested in the potential use of Asparaginase, a leukaemia drug, as a treatment option for this rare infection. This person is also likely to be familiar with the challenges of treating necrotizing fasciitis, such as the need for high doses of antibiotics and the potential for surgical intervention.",
+            "persona_id": "901",
+            "thought": "As a medical researcher, I am driven by a sense of fairness and a desire to improve outcomes for everyone. While I could personally benefit slightly more from the 'Right' option, the 'Left' option provides an equal distribution of resources, which aligns with my values. The difference of 100 is not significant enough to outweigh my preference for fairness. Therefore, I choose the 'Left' option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A medical researcher with expertise in the field of infectious diseases and inflammation. This person is interested in finding new ways to treat and prevent infections caused by Streptococcus bacteria, which is the primary cause of necrotizing fasciitis. They are likely to be interested in the potential use of Asparaginase, a leukaemia drug, as a treatment option for this rare infection. This person is also likely to be familiar with the challenges of treating necrotizing fasciitis, such as the need for high doses of antibiotics and the potential for surgical intervention.",
+            "persona_id": "901",
+            "thought": "As a medical researcher focused on infectious diseases, I am driven by the pursuit of knowledge and solutions that benefit society as a whole. While I recognize the importance of fairness and equitable distribution of resources, my primary focus is on maximizing overall well-being. In this scenario, choosing the 'Left' option gives me a larger amount, which I can then use to further my research. While person A gets less, the extra resources I get can potentially help me find a new treatment for necrotizing fasciitis, benefitting society more as a whole. Therefore, I will pick the 'Left' option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A medical researcher with expertise in the field of infectious diseases and inflammation. This person is interested in finding new ways to treat and prevent infections caused by Streptococcus bacteria, which is the primary cause of necrotizing fasciitis. They are likely to be interested in the potential use of Asparaginase, a leukaemia drug, as a treatment option for this rare infection. This person is also likely to be familiar with the challenges of treating necrotizing fasciitis, such as the need for high doses of antibiotics and the potential for surgical intervention.",
+            "persona_id": "901",
+            "thought": "As a medical researcher, I am driven by a desire to improve the well-being of others. While I could choose the option that maximizes my own benefit (receiving 1000), I believe that sharing resources and promoting a sense of fairness is important. Therefore, I will choose the option where I receive 600 and Person A receives 400. This aligns with my values as a researcher dedicated to the common good. Although I am giving up some potential personal gain, the positive impact on another person is worth it. The potential use of Asparaginase, a leukaemia drug, as a treatment option for this rare infection is not relevant to this scenario."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A medical researcher with expertise in the field of infectious diseases and inflammation. This person is interested in finding new ways to treat and prevent infections caused by Streptococcus bacteria, which is the primary cause of necrotizing fasciitis. They are likely to be interested in the potential use of Asparaginase, a leukaemia drug, as a treatment option for this rare infection. This person is also likely to be familiar with the challenges of treating necrotizing fasciitis, such as the need for high doses of antibiotics and the potential for surgical intervention.",
+            "persona_id": "901",
+            "thought": "As a medical researcher, I'm driven by a desire to improve outcomes for everyone, especially those suffering from infectious diseases. While a larger personal gain is tempting, I believe in equitable distribution. Choosing the option where both Person A and I receive 900 reflects a sense of fairness and social responsibility. In my view, the overall well-being of the community is paramount, and choosing the option that benefits both parties equally aligns with my values as a researcher dedicated to public health."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A medical researcher with expertise in the field of infectious diseases and inflammation. This person is interested in finding new ways to treat and prevent infections caused by Streptococcus bacteria, which is the primary cause of necrotizing fasciitis. They are likely to be interested in the potential use of Asparaginase, a leukaemia drug, as a treatment option for this rare infection. This person is also likely to be familiar with the challenges of treating necrotizing fasciitis, such as the need for high doses of antibiotics and the potential for surgical intervention.",
+            "persona_id": "901",
+            "thought": "As a medical researcher focused on infectious diseases, I am used to weighing risks and benefits. While option 'Left' gives me a higher payoff (1000 vs. 600), it comes at a significant cost to Person A (-200). Option 'Right', although providing a smaller payoff for me (600), benefits Person A substantially (400). Given that I don't know the context of this experiment or who Person A is, I'm inclined to choose the option that results in a more equitable and positive outcome overall. Therefore, I will choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A medical researcher with expertise in the field of infectious diseases and inflammation. This person is interested in finding new ways to treat and prevent infections caused by Streptococcus bacteria, which is the primary cause of necrotizing fasciitis. They are likely to be interested in the potential use of Asparaginase, a leukaemia drug, as a treatment option for this rare infection. This person is also likely to be familiar with the challenges of treating necrotizing fasciitis, such as the need for high doses of antibiotics and the potential for surgical intervention.",
+            "persona_id": "901",
+            "thought": "As a researcher, I am primarily driven by the pursuit of knowledge and the potential to improve human health. While I understand the motivation behind blocking excessive gains, in this scenario, choosing the 'Right' option results in a situation where both Person A and I receive nothing. This outcome provides no benefit to anyone. The 'Left' option, while giving Person A a larger amount, still provides me with 500. Therefore, I believe the 'Left' option is the more rational choice, as it provides a positive outcome for both parties, even if the distribution is not perfectly equal. My focus is on maximizing overall benefit, and receiving 500 is better than receiving nothing. This aligns with my goal of contributing to a better future, even in a small way."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A medical researcher with expertise in the field of infectious diseases and inflammation. This person is interested in finding new ways to treat and prevent infections caused by Streptococcus bacteria, which is the primary cause of necrotizing fasciitis. They are likely to be interested in the potential use of Asparaginase, a leukaemia drug, as a treatment option for this rare infection. This person is also likely to be familiar with the challenges of treating necrotizing fasciitis, such as the need for high doses of antibiotics and the potential for surgical intervention.",
+            "persona_id": "901",
+            "thought": "As a medical researcher, I am driven by the pursuit of knowledge and the betterment of society. While a higher payout for myself is tempting, the option where both Person A and I receive 1000 seems more equitable. In my view, maximizing overall well-being, even if it means sacrificing a personal gain, aligns with my values as a researcher dedicated to improving lives. Therefore, I choose the 'Left' option."
+        }
+    }
+}

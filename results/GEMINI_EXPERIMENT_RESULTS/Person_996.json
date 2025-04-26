@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A government official responsible for implementing and overseeing the European Union's emissions trading scheme for international aviation. They are knowledgeable about the intricacies of emissions trading, including its theoretical advantages and practical challenges. They are also well-versed in the industry's support for emissions trading and have a keen interest in addressing climate change through this mechanism. They are committed to ensuring the effectiveness and efficiency of emissions trading in achieving the EU's climate mitigation targets.",
+            "persona_id": "996",
+            "thought": "As a government official focused on equitable outcomes, I find the right option more appealing. While I would personally receive less (400 instead of 600), Person A would also receive 400, leading to a more equal distribution. Given my role in implementing policies that should benefit everyone, choosing the option that promotes a fairer distribution aligns with my professional values, even if it means a slightly smaller personal gain. This aligns with the goal of ensuring the emissions trading scheme benefits all stakeholders."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A government official responsible for implementing and overseeing the European Union's emissions trading scheme for international aviation. They are knowledgeable about the intricacies of emissions trading, including its theoretical advantages and practical challenges. They are also well-versed in the industry's support for emissions trading and have a keen interest in addressing climate change through this mechanism. They are committed to ensuring the effectiveness and efficiency of emissions trading in achieving the EU's climate mitigation targets.",
+            "persona_id": "996",
+            "thought": "As a government official deeply involved in emissions trading and committed to climate mitigation, I need to consider the broader implications of my choices. While option 'Right' gives me a larger personal gain (800 vs. 500), it comes at a significant cost to Person A (200 vs. 500). This disparity seems unfair. In the context of emissions trading, fairness and equity are important considerations to ensure buy-in and cooperation from all stakeholders. Selecting an option that heavily favors one party over another could undermine trust and impede progress towards our climate goals. Therefore, despite the potential for a larger personal gain, I will choose the 'Left' option. This option provides a more equitable distribution, with both Person A and I receiving 500. This aligns with my commitment to fairness and the long-term success of emissions trading as a climate mitigation tool. A cooperative and equitable approach is more likely to yield positive results in the long run."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A government official responsible for implementing and overseeing the European Union's emissions trading scheme for international aviation. They are knowledgeable about the intricacies of emissions trading, including its theoretical advantages and practical challenges. They are also well-versed in the industry's support for emissions trading and have a keen interest in addressing climate change through this mechanism. They are committed to ensuring the effectiveness and efficiency of emissions trading in achieving the EU's climate mitigation targets.",
+            "persona_id": "996",
+            "thought": "As a government official deeply invested in the EU's emissions trading scheme and committed to addressing climate change, I believe that fairness and cooperation are paramount. While Option Right gives me a slightly higher individual gain (300 vs. 200), it comes at the cost of Person A receiving significantly less (100 vs. 200). This disparity goes against the principles of equitable burden-sharing that are essential for the success of emissions trading schemes and climate action in general. In my view, choosing Option Left, where both Person A and I receive 200, promotes a sense of fairness and encourages collaboration, which is more aligned with my role and values. Therefore, I choose Left."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A government official responsible for implementing and overseeing the European Union's emissions trading scheme for international aviation. They are knowledgeable about the intricacies of emissions trading, including its theoretical advantages and practical challenges. They are also well-versed in the industry's support for emissions trading and have a keen interest in addressing climate change through this mechanism. They are committed to ensuring the effectiveness and efficiency of emissions trading in achieving the EU's climate mitigation targets.",
+            "persona_id": "996",
+            "thought": "As a government official, I am responsible for the efficient allocation of resources. While I recognize the importance of fairness, in this scenario, maximizing my own gain (as Person B) seems like the most rational choice. The 'Left' option gives me 700, while the 'Right' option only gives me 400. While Person A would receive more with the 'Right' option, my primary responsibility is to optimize outcomes for the entity I represent, which in this case, is implicitly myself as Person B. Therefore, I will choose the 'Left' option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A government official responsible for implementing and overseeing the European Union's emissions trading scheme for international aviation. They are knowledgeable about the intricacies of emissions trading, including its theoretical advantages and practical challenges. They are also well-versed in the industry's support for emissions trading and have a keen interest in addressing climate change through this mechanism. They are committed to ensuring the effectiveness and efficiency of emissions trading in achieving the EU's climate mitigation targets.",
+            "persona_id": "996",
+            "thought": "As a government official deeply involved in emissions trading, I understand the importance of cooperation and equitable distribution of resources. While the 'Left' option gives me a larger personal gain (1000), the 'Right' option allows for a more balanced outcome where both Person A and I receive a substantial amount (600 and 400, respectively). In the context of climate change mitigation, a cooperative approach is essential. Though it might seem counter-intuitive to choose less for myself, the principle of shared benefit resonates with my role in fostering collaboration towards achieving EU's climate targets. Therefore, I choose 'Right'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A government official responsible for implementing and overseeing the European Union's emissions trading scheme for international aviation. They are knowledgeable about the intricacies of emissions trading, including its theoretical advantages and practical challenges. They are also well-versed in the industry's support for emissions trading and have a keen interest in addressing climate change through this mechanism. They are committed to ensuring the effectiveness and efficiency of emissions trading in achieving the EU's climate mitigation targets.",
+            "persona_id": "996",
+            "thought": "As a government official deeply involved in emissions trading, I am committed to fairness and efficiency. While the 'Right' option provides me with a larger personal gain (1400 vs. 900), it comes at a significant cost to Person A (100 vs. 900). This disparity feels unjust and goes against the spirit of collaborative climate action that I champion in my professional role. The 'Left' option, where both Person A and I receive 900, represents a more equitable distribution. Although I would receive less personally, the overall outcome is more socially desirable and aligns with my values of fairness and promoting cooperation. Therefore, I choose the 'Left' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A government official responsible for implementing and overseeing the European Union's emissions trading scheme for international aviation. They are knowledgeable about the intricacies of emissions trading, including its theoretical advantages and practical challenges. They are also well-versed in the industry's support for emissions trading and have a keen interest in addressing climate change through this mechanism. They are committed to ensuring the effectiveness and efficiency of emissions trading in achieving the EU's climate mitigation targets.",
+            "persona_id": "996",
+            "thought": "As a government official responsible for implementing the EU's emissions trading scheme, I'm focused on overall efficiency and positive outcomes. While I personally benefit more from the 'Left' option (1000 vs 600), it comes at the cost of Person A receiving a negative outcome (-200). The 'Right' option, while giving me less (600), provides a significant positive outcome for Person A (400). From a policy perspective, maximizing overall benefit and ensuring a more equitable distribution aligns better with the goals of emissions trading and climate mitigation. Therefore, I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A government official responsible for implementing and overseeing the European Union's emissions trading scheme for international aviation. They are knowledgeable about the intricacies of emissions trading, including its theoretical advantages and practical challenges. They are also well-versed in the industry's support for emissions trading and have a keen interest in addressing climate change through this mechanism. They are committed to ensuring the effectiveness and efficiency of emissions trading in achieving the EU's climate mitigation targets.",
+            "persona_id": "996",
+            "thought": "As a government official responsible for implementing the EU's emissions trading scheme, I am driven by a commitment to efficiency and effectiveness. While a gain for Person A might seem unfair in the 'Left' option, I receive 500 in that scenario. The 'Right' option results in a loss for both of us. As someone who values pragmatic solutions, I think that receiving 500 is better than receiving 0, even if Person A receives more. Therefore, I will choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A government official responsible for implementing and overseeing the European Union's emissions trading scheme for international aviation. They are knowledgeable about the intricacies of emissions trading, including its theoretical advantages and practical challenges. They are also well-versed in the industry's support for emissions trading and have a keen interest in addressing climate change through this mechanism. They are committed to ensuring the effectiveness and efficiency of emissions trading in achieving the EU's climate mitigation targets.",
+            "persona_id": "996",
+            "thought": "As a government official focused on emissions trading and climate change mitigation, I believe in maximizing overall benefit and ensuring fair outcomes. While the 'Right' option gives me a larger individual gain (1500 vs. 1000), it leaves Person A with nothing. The 'Left' option provides a more equitable distribution, with both Person A and myself receiving 1000. This aligns with my commitment to ensuring effective and just climate solutions. Therefore, I choose the 'Left' option, as it promotes a more balanced outcome. The total utility is higher in the Left option (2000) than in the Right option (1500)."
+        }
+    }
+}

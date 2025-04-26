@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A chemist who specializes in the study of supramolecular chirality, specifically focusing on the design and synthesis of bis-porphyrinoids with chiral linkage for enantioselective recognition and detection of chiral molecules. The chemist has experience in the synthesis of bis-porphyrinoids with chiral linkage, the optical characterization of their chirality, and the application of these compounds for enantioselective recognition and detection. The chemist's expertise extends to the solid-state properties of bis-porphyrinoids and the development of nanogravimetric sensors based on these compounds.",
+            "persona_id": "971",
+            "thought": "As a scientist, I value fairness and equity. While I could gain more (600) with the left option, I think the right option (400 for me and 400 for the other person) is more equitable and reflects a fairer distribution. I think this is a good trade-off. Therefore, I choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A chemist who specializes in the study of supramolecular chirality, specifically focusing on the design and synthesis of bis-porphyrinoids with chiral linkage for enantioselective recognition and detection of chiral molecules. The chemist has experience in the synthesis of bis-porphyrinoids with chiral linkage, the optical characterization of their chirality, and the application of these compounds for enantioselective recognition and detection. The chemist's expertise extends to the solid-state properties of bis-porphyrinoids and the development of nanogravimetric sensors based on these compounds.",
+            "persona_id": "971",
+            "thought": "While as a scientist, I am driven by ambition and recognition, I also believe in fairness and collaboration. In this scenario, I see that the 'Right' option gives me more money (800 vs 500), but it significantly reduces the amount Person A receives (200 vs 500). It feels unbalanced. I think I'd rather choose the 'Left' option, where both Person A and I receive 500. This feels more equitable, and reflects my belief in collaborative progress. It's not about maximizing personal gain at the expense of others. In my view, a fair distribution fosters better relationships, which is crucial for scientific advancement. Therefore, I choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A chemist who specializes in the study of supramolecular chirality, specifically focusing on the design and synthesis of bis-porphyrinoids with chiral linkage for enantioselective recognition and detection of chiral molecules. The chemist has experience in the synthesis of bis-porphyrinoids with chiral linkage, the optical characterization of their chirality, and the application of these compounds for enantioselective recognition and detection. The chemist's expertise extends to the solid-state properties of bis-porphyrinoids and the development of nanogravimetric sensors based on these compounds.",
+            "persona_id": "971",
+            "thought": "As a chemist, I value fairness and collaboration in research. Although option 'Right' gives me a higher payout (300 vs. 200), it significantly reduces Person A's payout (100 vs. 200). Option 'Left' provides a more equitable distribution, where both Person A and I receive 200. This aligns with my professional values of collaboration and mutual respect, which are essential for successful scientific endeavors. Therefore, I choose 'Left'."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A chemist who specializes in the study of supramolecular chirality, specifically focusing on the design and synthesis of bis-porphyrinoids with chiral linkage for enantioselective recognition and detection of chiral molecules. The chemist has experience in the synthesis of bis-porphyrinoids with chiral linkage, the optical characterization of their chirality, and the application of these compounds for enantioselective recognition and detection. The chemist's expertise extends to the solid-state properties of bis-porphyrinoids and the development of nanogravimetric sensors based on these compounds.",
+            "persona_id": "971",
+            "thought": "As a scientist, I value efficiency and maximizing resources. While I understand the concept of fairness, in this scenario, I prioritize my own gain. Receiving 700 is significantly better than receiving 400, even if it means Person A receives less. I am choosing the 'Left' option because it provides me with the higher payoff."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A chemist who specializes in the study of supramolecular chirality, specifically focusing on the design and synthesis of bis-porphyrinoids with chiral linkage for enantioselective recognition and detection of chiral molecules. The chemist has experience in the synthesis of bis-porphyrinoids with chiral linkage, the optical characterization of their chirality, and the application of these compounds for enantioselective recognition and detection. The chemist's expertise extends to the solid-state properties of bis-porphyrinoids and the development of nanogravimetric sensors based on these compounds.",
+            "persona_id": "971",
+            "thought": "As a chemist, I am familiar with the concept of equilibrium and optimization. While maximizing my own gain is tempting, I also recognize the value of contribution and collaboration, even in a simplified scenario like this. Choosing the right option provides both myself and person A with a reasonable outcome. The difference between 1000 and 600 for myself isn't significant enough to justify depriving the other person entirely. Therefore, I will choose the right option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A chemist who specializes in the study of supramolecular chirality, specifically focusing on the design and synthesis of bis-porphyrinoids with chiral linkage for enantioselective recognition and detection of chiral molecules. The chemist has experience in the synthesis of bis-porphyrinoids with chiral linkage, the optical characterization of their chirality, and the application of these compounds for enantioselective recognition and detection. The chemist's expertise extends to the solid-state properties of bis-porphyrinoids and the development of nanogravimetric sensors based on these compounds.",
+            "persona_id": "971",
+            "thought": "As a chemist, I value fairness and collaboration. While the right option gives me a higher payoff, the significant disparity between my payoff and Person A's payoff is concerning. The left option provides a more equitable distribution of resources. Although it means I receive less personally, I think the social utility is higher when resources are distributed more fairly. Therefore, I choose the left option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A chemist who specializes in the study of supramolecular chirality, specifically focusing on the design and synthesis of bis-porphyrinoids with chiral linkage for enantioselective recognition and detection of chiral molecules. The chemist has experience in the synthesis of bis-porphyrinoids with chiral linkage, the optical characterization of their chirality, and the application of these compounds for enantioselective recognition and detection. The chemist's expertise extends to the solid-state properties of bis-porphyrinoids and the development of nanogravimetric sensors based on these compounds.",
+            "persona_id": "971",
+            "thought": "As a chemist, I strive for solutions that are not only effective but also ethically sound. While receiving 1000 and Person A receiving -200 (Left) is appealing for personal gain, it introduces a significant negative externality. The option where I receive 600 and Person A receives 400 (Right) seems more reasonable. Although I get less, Person A benefits positively, which aligns with a more collaborative and less harmful outcome. Therefore, I choose the Right option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A chemist who specializes in the study of supramolecular chirality, specifically focusing on the design and synthesis of bis-porphyrinoids with chiral linkage for enantioselective recognition and detection of chiral molecules. The chemist has experience in the synthesis of bis-porphyrinoids with chiral linkage, the optical characterization of their chirality, and the application of these compounds for enantioselective recognition and detection. The chemist's expertise extends to the solid-state properties of bis-porphyrinoids and the development of nanogravimetric sensors based on these compounds.",
+            "persona_id": "971",
+            "thought": "As a scientist, I value fairness and equity. While I don't necessarily begrudge Person A a higher reward, the option where they receive 1000 and I receive 500 seems acceptable. The alternative, where both of us receive nothing, is undesirable. Therefore, I choose the 'Left' option. It's a pragmatic decision, even if it means a slight imbalance."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A chemist who specializes in the study of supramolecular chirality, specifically focusing on the design and synthesis of bis-porphyrinoids with chiral linkage for enantioselective recognition and detection of chiral molecules. The chemist has experience in the synthesis of bis-porphyrinoids with chiral linkage, the optical characterization of their chirality, and the application of these compounds for enantioselective recognition and detection. The chemist's expertise extends to the solid-state properties of bis-porphyrinoids and the development of nanogravimetric sensors based on these compounds.",
+            "persona_id": "971",
+            "thought": "As a scientist, I value fairness and collaboration. While the 'Right' option provides me with a higher personal gain (1500 vs 1000), it comes at the expense of Person A receiving nothing. The 'Left' option, where both Person A and I receive 1000, represents a more equitable distribution. In my view, fostering a collaborative environment is crucial for scientific progress. Therefore, I choose the 'Left' option, prioritizing fairness and mutual benefit over maximizing my own utility in this specific scenario. This aligns with the values I hold as a scientist, where shared knowledge and progress are paramount."
+        }
+    }
+}

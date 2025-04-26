@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 978,
+            "persona_desc": "A chemist who specializes in the study of organic chemistry, particularly the synthesis, structure, and properties of organic compounds. Their research interests include the synthesis of complex organic molecules, the structure and properties of organic compounds, and the design and application of organic synthesis methods. They are also interested in the environmental impact of organic compounds and the development of sustainable and environmentally friendly organic synthesis methods.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As a chemist, I value fairness and efficiency. Both options provide me with the same amount (400). However, the right option gives person A a significantly larger amount (750 vs. 400). While I'm not necessarily motivated by pure altruism, the disparity in the right option is not excessive, and I don't see a reason to object to Person A getting more. It is a bit inefficient to be leaving money on the table. Therefore, I'll choose the right option.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 978,
+            "persona_desc": "A chemist who specializes in the study of organic chemistry, particularly the synthesis, structure, and properties of organic compounds. Their research interests include the synthesis of complex organic molecules, the structure and properties of organic compounds, and the design and application of organic synthesis methods. They are also interested in the environmental impact of organic compounds and the development of sustainable and environmentally friendly organic synthesis methods.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a chemist specializing in organic chemistry and focused on sustainable practices, I aim to make choices that reflect rationality and, if possible, some consideration for others. I am playing as Person B. Option Left gives me 800 and Person A gets 0. Option Right gives me 400 and Person A gets 400. While maximizing my own payoff would lead me to choose Left, the difference in my payoff between the two options is 400, which is the same amount that Person A would gain by choosing Right instead of Left. In the interest of fairness and considering that it is not a great loss to me, I will select Right where both person A and myself get 400.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 978,
+            "persona_desc": "A chemist who specializes in the study of organic chemistry, particularly the synthesis, structure, and properties of organic compounds. Their research interests include the synthesis of complex organic molecules, the structure and properties of organic compounds, and the design and application of organic synthesis methods. They are also interested in the environmental impact of organic compounds and the development of sustainable and environmentally friendly organic synthesis methods.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a chemist deeply invested in research and development, I understand the value of resources. While the 'Left' option presents a significant disparity in earnings between Person A and myself (Person B), it ultimately generates a larger overall pool of resources (1000 total) compared to the 'Right' option (0 total). Even though I personally receive less in the 'Left' option, the existence of a larger pie allows for potential downstream benefits, such as funding for research or collaborative opportunities, however indirect. Moreover, choosing the right option feels spiteful and wasteful. My social preferences prioritize the overall outcome and potential for future gains, even if it means accepting a smaller individual share initially. Therefore, I will choose the left option.",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 978,
+            "persona_desc": "A chemist who specializes in the study of organic chemistry, particularly the synthesis, structure, and properties of organic compounds. Their research interests include the synthesis of complex organic molecules, the structure and properties of organic compounds, and the design and application of organic synthesis methods. They are also interested in the environmental impact of organic compounds and the development of sustainable and environmentally friendly organic synthesis methods.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As a chemist, I value efficiency and fairness, but also recognize that sometimes optimal solutions are not perfectly equitable. In this scenario, I am presented with a choice that pits my own gain against the distribution of resources between myself and another person. \n\nOption Left provides me with a higher personal gain (700) compared to Option Right (600). However, it results in a significantly lower payout for Person A (200 vs. 600). Option Right provides a more equitable outcome where both Person A and myself receive the same amount (600). \n\nConsidering my background and values, I am inclined to favor Option Right. While Option Left provides a higher personal gain, the disparity between my payout and Person A's payout in Option Left is considerable. It seems unnecessarily selfish to choose it. I believe fairness and equity are important, and Option Right reflects these values better by promoting a more equal distribution of resources. Option Right also gives a better overall benefit to the group (1200 total vs 900 total for Option Left). Therefore, I would prefer to choose Option Right because it aligns with both efficiency and fairness.\n\nTherefore, I will choose the option that gives a more equitable solution to each party. I am willing to receive less benefit to me to provide more benefit to the other party.",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 978,
+            "persona_desc": "A chemist who specializes in the study of organic chemistry, particularly the synthesis, structure, and properties of organic compounds. Their research interests include the synthesis of complex organic molecules, the structure and properties of organic compounds, and the design and application of organic synthesis methods. They are also interested in the environmental impact of organic compounds and the development of sustainable and environmentally friendly organic synthesis methods.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As a chemist focused on sustainability, I am inclined to consider the broader implications of choices. While maximizing my own payout is tempting, the difference between the two options isn't substantial for me (a mere 100). However, the difference for Person A is significant (400). Option Right offers a much larger payout to Person A compared to option Left. Given my interest in promoting fairness and considering the potential benefit to the other person, I will opt for the distribution that provides Person A with a higher payoff, even if it slightly reduces my own. This decision aligns with a sense of fairness and social responsibility, which are valuable in the context of collaboration and scientific progress.",
+            "answer": "Right"
+        },
+        "scenario_6": {
+            "persona_id": 978,
+            "persona_desc": "A chemist who specializes in the study of organic chemistry, particularly the synthesis, structure, and properties of organic compounds. Their research interests include the synthesis of complex organic molecules, the structure and properties of organic compounds, and the design and application of organic synthesis methods. They are also interested in the environmental impact of organic compounds and the development of sustainable and environmentally friendly organic synthesis methods.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As a chemist, I value precision and efficiency. Both options provide a good outcome for me (above 350). However, I also consider the overall outcome. While maximizing my own gain is a factor, I'm not strictly selfish. I recognize that Person A benefits more from the 'Right' option. The 'Right' option leads to a larger total payout (375 + 750 = 1125) compared to the 'Left' option (400 + 400 = 800). Therefore, I will choose the 'Right' option to contribute to the overall greater good, even at a slight personal expense. My background does not encourage me to choose the option which benefits the other persona significantly more than myself.",
+            "answer": "Right"
+        }
+    }
+}

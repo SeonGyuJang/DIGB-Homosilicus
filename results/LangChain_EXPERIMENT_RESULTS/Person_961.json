@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 961,
+            "persona_desc": "A tech-savvy individual who is interested in exploring new technologies and innovative solutions. This person is curious about the latest advancements in mapping technology and is open to trying out new tools and tools. They are likely to be a tech enthusiast who enjoys exploring the internet and exploring new websites and services. This person is interested in exploring new places and has a passion for travel. They are open to trying out new tools and technologies and are interested in exploring the potential of new technologies to improve the way we live our lives.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a tech-savvy individual interested in innovative solutions, I appreciate efficiency and fairness. While maximizing my own payoff is tempting (600 vs. 400), I also recognize the value of equitable distribution. The 'Right' option, where both Person A and I receive 400, demonstrates a higher level of equality. My persona leans towards exploring new possibilities, and in this context, exploring a preference for fairness aligns with that. While the difference between 600 and 400 is significant, the complete lack of payout for Person A in the 'Left' option is a strong deterrent. The 'Right' option also avoids any feeling of being unfairly advantaged.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 961,
+            "persona_desc": "A tech-savvy individual who is interested in exploring new technologies and innovative solutions. This person is curious about the latest advancements in mapping technology and is open to trying out new tools and tools. They are likely to be a tech enthusiast who enjoys exploring the internet and exploring new websites and services. This person is interested in exploring new places and has a passion for travel. They are open to trying out new tools and technologies and are interested in exploring the potential of new technologies to improve the way we live our lives.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a tech enthusiast, I appreciate efficiency and optimization. While fairness is important, I'm also interested in maximizing overall value, within reasonable bounds. In this scenario, choosing the 'Right' option gives me a larger personal gain (800 vs 500). The other person still receives a significant amount (200) which is not zero, and I suspect, adequate. My internal fairness threshold is crossed if the other person gets close to zero. Given the choice, I value the larger personal benefit while acknowledging that this isn't perfectly equitable. The difference might allow me to invest in better mapping technology or fund a trip to explore some place. Therefore I am choosing the right option.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 961,
+            "persona_desc": "A tech-savvy individual who is interested in exploring new technologies and innovative solutions. This person is curious about the latest advancements in mapping technology and is open to trying out new tools and tools. They are likely to be a tech enthusiast who enjoys exploring the internet and exploring new websites and services. This person is interested in exploring new places and has a passion for travel. They are open to trying out new tools and technologies and are interested in exploring the potential of new technologies to improve the way we live our lives.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a tech-savvy individual interested in innovation, I appreciate efficiency and maximizing outcomes. While I am not inherently altruistic and enjoy the prospect of getting more (300 vs 200), I also value fairness. However, the difference in outcome for myself is significantly larger than the reduction for person A (100). This represents a Pareto improvement - I am strictly better off, and person A is not worse off in an absolute sense, even if they receive less comparatively. Given my interest in optimizing solutions, I prioritize my own outcome in this scenario since person A still receives a non-negligible amount. A much larger disparity that left them with little or nothing would weigh more heavily on my decision.",
+            "answer": "Right"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 961,
+            "persona_desc": "A tech-savvy individual who is interested in exploring new technologies and innovative solutions. This person is curious about the latest advancements in mapping technology and is open to trying out new tools and tools. They are likely to be a tech enthusiast who enjoys exploring the internet and exploring new websites and services. This person is interested in exploring new places and has a passion for travel. They are open to trying out new tools and technologies and are interested in exploring the potential of new technologies to improve the way we live our lives.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a tech-savvy individual interested in exploring new technologies and innovative solutions, I am also inclined to value efficiency and progress. While both options provide a positive outcome for both Person A and myself, the potential difference in outcomes is worth considering. Choosing the 'Left' option, I receive 700 while Person A receives 300. Choosing the 'Right' option, I receive 400 while Person A receives 600. The key question for me is whether the marginal gain of 300 for Person A (moving from 300 to 600) outweighs the marginal loss of 300 for myself (moving from 700 to 400).\n\n  From a purely selfish perspective, maximizing my own gain would lead me to choose 'Left'. However, I am also intrigued by the idea of fairness and optimal resource allocation. I believe a more balanced outcome is preferable in the long run. While I value my own gain, I am willing to accept a slightly lower personal gain to promote a more equitable distribution, especially since both parties still receive positive outcomes. Given that I am curious about leveraging new technologies to improve our lives, I believe fairness is important, therefore I would choose 'Right'.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 961,
+            "persona_desc": "A tech-savvy individual who is interested in exploring new technologies and innovative solutions. This person is curious about the latest advancements in mapping technology and is open to trying out new tools and tools. They are likely to be a tech enthusiast who enjoys exploring the internet and exploring new websites and services. This person is interested in exploring new places and has a passion for travel. They are open to trying out new tools and technologies and are interested in exploring the potential of new technologies to improve the way we live our lives.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a tech enthusiast, I appreciate efficiency and optimization. However, purely maximizing my own gain at the expense of another seems shortsighted, especially in a context where collaboration and innovation often lead to greater collective benefit. While 1000 for myself and 0 for Person A initially appeals to my interest in optimizing my own outcome, I also recognize the potential impact of relationships and fairness. Although this is a one-shot game, understanding how these dynamics play out is something I find valuable. Sharing a smaller amount still provides me with a considerable reward (600), while allowing Person A to also benefit. I also want to explore how others behave under the same parameters. This data point can be important for decision making in the future.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 961,
+            "persona_desc": "A tech-savvy individual who is interested in exploring new technologies and innovative solutions. This person is curious about the latest advancements in mapping technology and is open to trying out new tools and tools. They are likely to be a tech enthusiast who enjoys exploring the internet and exploring new websites and services. This person is interested in exploring new places and has a passion for travel. They are open to trying out new tools and technologies and are interested in exploring the potential of new technologies to improve the way we live our lives.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a tech enthusiast, I'm generally interested in efficiency and maximizing outcomes, but also in fair access and equitable distribution when possible. The left option provides a much more even split (900, 900), suggesting a focus on fairness and social utility. The right option (1400, 100) greatly favors me, offering a higher personal gain but at the cost of a significant disparity in payoffs. From a purely selfish standpoint, the right option is better. However, given my persona and the context of a social preferences experiment, I'm intrigued by the dynamics of fairness. Is Person A going to get upset if I leave them with just 100? I believe the most appropriate response here, aligns with my curiosity about social norms and equitable outcomes, is to explore to maximize our mutual gain. Furthermore, if I am in multiple rounds of this sort of interaction, cooperating with Person A to build trust may be overall the best strategy. The tech-savvy part of me also wants to see how the researchers interpret the choice and how it affects relationships between players.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 961,
+            "persona_desc": "A tech-savvy individual who is interested in exploring new technologies and innovative solutions. This person is curious about the latest advancements in mapping technology and is open to trying out new tools and tools. They are likely to be a tech enthusiast who enjoys exploring the internet and exploring new websites and services. This person is interested in exploring new places and has a passion for travel. They are open to trying out new tools and technologies and are interested in exploring the potential of new technologies to improve the way we live our lives.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a tech-savvy individual, I appreciate innovation and efficiency. However, I also recognize the importance of ethical considerations and social responsibility. In this scenario, the left option provides a higher payout for me (1000) but at the cost of inflicting a significant negative impact on Person A (-200). This goes against my preference for fair and collaborative outcomes. The right option, while giving me a lower payout (600), provides Person A with a positive benefit (400). Although I am somewhat greedy, I don't want to actively inflict pain on the other person if it can be avoided. I'm willing to sacrifice a portion of my potential gain to ensure a more equitable and positive outcome for both parties.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 961,
+            "persona_desc": "A tech-savvy individual who is interested in exploring new technologies and innovative solutions. This person is curious about the latest advancements in mapping technology and is open to trying out new tools and tools. They are likely to be a tech enthusiast who enjoys exploring the internet and exploring new websites and services. This person is interested in exploring new places and has a passion for travel. They are open to trying out new tools and technologies and are interested in exploring the potential of new technologies to improve the way we live our lives.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a tech-savvy individual interested in innovation and open to new things, I recognize that fairness and equitable distribution of resources, while important, aren't the only factors in decision-making. In this scenario, option 'Left' provides me with a tangible benefit (500). Although person A receives a larger amount (1000), I am not particularly concerned with 'blocking' their gain. My primary focus is on my own utility. Option 'Right' provides no benefit to anyone, making it less desirable. Therefore, I will choose option 'Left' as it provides me with a net positive outcome.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 961,
+            "persona_desc": "A tech-savvy individual who is interested in exploring new technologies and innovative solutions. This person is curious about the latest advancements in mapping technology and is open to trying out new tools and tools. They are likely to be a tech enthusiast who enjoys exploring the internet and exploring new websites and services. This person is interested in exploring new places and has a passion for travel. They are open to trying out new tools and technologies and are interested in exploring the potential of new technologies to improve the way we live our lives.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a tech enthusiast interested in exploring new technologies and improving lives, I am intrigued by the possibilities for collaboration and shared progress. While the 'Right' option offers me a higher personal gain (1500 vs 1000), it comes at the cost of Person A receiving nothing. The 'Left' option, where both Person A and I receive 1000, represents a more equitable distribution. From a utility perspective, while my personal self-utility is higher in the Right scenario, the total utility between both persons is maximized in the Left scenario. While exploring pure self-interest might be a valid starting point, I believe that fostering fairness and cooperation can lead to greater overall progress and societal benefit in the long run, and aligns with the ideals of utilizing technology for the common good.",
+            "answer": "Left"
+        }
+    }
+}

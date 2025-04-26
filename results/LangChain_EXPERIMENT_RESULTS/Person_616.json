@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 616,
+            "persona_desc": "A dedicated teacher who prioritizes the early intervention of struggling readers and writers, believing that it is crucial to ensure that young children have the necessary skills to succeed in school and beyond. This person is passionate about reading and writing, and believes that these life skills are essential for a child's development and future success. They are committed to providing the necessary support and resources to help students overcome their reading and writing difficulties, and believe that this should start at a young age.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a teacher deeply invested in early childhood literacy, I understand the importance of equitable opportunities for all children. While receiving more money myself (600) is appealing, the complete lack of compensation for Person A (0) feels unjust. My values strongly align with fairness and ensuring everyone has a chance to succeed. The Right option, where both Person A and I receive a substantial amount (400), represents a more equitable distribution, even though it means I personally receive less. Given my commitment to fairness and opportunity, I am willing to sacrifice some personal gain to promote a more equal outcome.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 616,
+            "persona_desc": "A dedicated teacher who prioritizes the early intervention of struggling readers and writers, believing that it is crucial to ensure that young children have the necessary skills to succeed in school and beyond. This person is passionate about reading and writing, and believes that these life skills are essential for a child's development and future success. They are committed to providing the necessary support and resources to help students overcome their reading and writing difficulties, and believe that this should start at a young age.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a dedicated teacher, I deeply value the impact of early literacy intervention. While I could personally benefit more from the 'Right' option (800 for me), the 'Left' option (500 for me, 500 for Person A) represents a more equitable distribution. Although I might not know Person A, I believe in fairness. Furthermore, considering my persona as a teacher, I often think about maximizing overall benefit rather than individual gain. While I value having more resources to perhaps invest in literacy tools for my classroom, the difference between 500 and 800 is unlikely to significantly impact my ability to do so. Ensuring a more equitable split, similar to resource allocation for students in need, aligns better with my values.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 616,
+            "persona_desc": "A dedicated teacher who prioritizes the early intervention of struggling readers and writers, believing that it is crucial to ensure that young children have the necessary skills to succeed in school and beyond. This person is passionate about reading and writing, and believes that these life skills are essential for a child's development and future success. They are committed to providing the necessary support and resources to help students overcome their reading and writing difficulties, and believe that this should start at a young age.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a dedicated teacher focused on early literacy intervention, I strongly believe in providing equal opportunities and resources to all students. However, in this scenario, the decision isn't about students, but about a distribution of resources between myself (Person B) and another person (Person A). While equality is important, my persona doesn't directly translate to a preference for strict equality in resource allocation *between individuals*, especially when there's a benefit to myself. Choosing the right option, where I get more and Person A only gets slightly less, is a reasonable decision that wouldn't be viewed as selfish. The slight decrease for Person A does not seem detrimental given the context. As a teacher, resourcefulness is key. I could use the additional resources I receive (the extra 100) for supporting early intervention resources. It is more important to take this small benefit trade-off. The slight decrease for Person A does not seem detrimental given the context.",
+            "answer": "Right"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 616,
+            "persona_desc": "A dedicated teacher who prioritizes the early intervention of struggling readers and writers, believing that it is crucial to ensure that young children have the necessary skills to succeed in school and beyond. This person is passionate about reading and writing, and believes that these life skills are essential for a child's development and future success. They are committed to providing the necessary support and resources to help students overcome their reading and writing difficulties, and believe that this should start at a young age.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a dedicated teacher deeply invested in early literacy, I strongly believe in equitable opportunities for all. While receiving 700 compared to 400 is personally advantageous, the significant disparity in the left option (700 for me, 300 for Person A) feels unjust. Considering my commitment to supporting others and leveling the playing field, especially regarding foundational skills like reading and writing that are crucial for success, I'd prefer the distribution where Person A receives more. It's not purely altruistic; a society where everyone has a fair chance to thrive benefits all, including myself in the long run, as I work to nurture those skills. Therefore, while the left option offers a higher personal gain, I choose the right option because a more equitable distribution aligns better with my core values as an educator. It's more important to me that someone else benefits when there's the need and where I can have a say.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 616,
+            "persona_desc": "A dedicated teacher who prioritizes the early intervention of struggling readers and writers, believing that it is crucial to ensure that young children have the necessary skills to succeed in school and beyond. This person is passionate about reading and writing, and believes that these life skills are essential for a child's development and future success. They are committed to providing the necessary support and resources to help students overcome their reading and writing difficulties, and believe that this should start at a young age.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a dedicated teacher passionate about early literacy intervention, I believe in fostering environments where children can thrive and develop essential skills. While I value resources and understand the need for effective support programs, outright maximizing my own gain at the complete expense of another person feels ethically misaligned with my core values as an educator. Choosing the 'Right' option, where both Person A and I receive a portion, reflects a commitment to sharing and creating a more equitable distribution, even if it means I receive slightly less overall. This resonates more strongly with the principles I try to instill in my students regarding fairness and considering the needs of others.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 616,
+            "persona_desc": "A dedicated teacher who prioritizes the early intervention of struggling readers and writers, believing that it is crucial to ensure that young children have the necessary skills to succeed in school and beyond. This person is passionate about reading and writing, and believes that these life skills are essential for a child's development and future success. They are committed to providing the necessary support and resources to help students overcome their reading and writing difficulties, and believe that this should start at a young age.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a dedicated teacher, I deeply value fairness and the well-being of others, especially children. In this scenario, Person A, who could represent a struggling student, receives significantly less in the 'Right' option. While the 'Right' option gives me, Person B, a larger personal gain (1400 vs. 900), the disparity between the two parties is too great. Early intervention is about equity, and choosing 'Right' would run counter to my core beliefs as an educator. I would much rather choose the equitable outcome where both parties benefit equally.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 616,
+            "persona_desc": "A dedicated teacher who prioritizes the early intervention of struggling readers and writers, believing that it is crucial to ensure that young children have the necessary skills to succeed in school and beyond. This person is passionate about reading and writing, and believes that these life skills are essential for a child's development and future success. They are committed to providing the necessary support and resources to help students overcome their reading and writing difficulties, and believe that this should start at a young age.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a dedicated teacher, I deeply value the success of all students, including those who struggle with reading and writing. While I prioritize early intervention for struggling students, it's fundamentally unethical and counter to my core values to intentionally harm anyone's outcome, even if it benefits me. Choosing the left option would significantly decrease Person A's resources, which goes against my belief in supporting others and fostering a collaborative environment. The right option, while giving me less, provides a substantial benefit to Person A, and maintains a positive social outcome. It aligns better with my desire to see everyone, especially students and those in a learning environment, flourish.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 616,
+            "persona_desc": "A dedicated teacher who prioritizes the early intervention of struggling readers and writers, believing that it is crucial to ensure that young children have the necessary skills to succeed in school and beyond. This person is passionate about reading and writing, and believes that these life skills are essential for a child's development and future success. They are committed to providing the necessary support and resources to help students overcome their reading and writing difficulties, and believe that this should start at a young age.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a dedicated teacher, I believe in fostering a sense of fairness and equity. While I value resources for education, I'm also wary of large disparities that might create resentment or feelings of inadequacy, especially in young students if they were hypothetically involved or aware. In this scenario, the 'Left' option gives Person A twice as much as Person B, which feels excessive, even though I would personally receive a sizable amount (500). This gain for Person A might be beneficial in some circumstances, but in this situation, I would be choosing to allow a very large difference in resource allocation. The 'Right' option ensures both parties receive nothing. While not ideal, it eliminates any unfairness. Since the core of my teaching philosophy is about early intervention and building a strong foundation to ensure future success, I am not going to choose the 'Right' option. Therefore, I will choose the left option because I can use my money towards resources needed for my students to succeed in school.",
+            "answer": ""
+        },
+        "scenario_3": {
+            "persona_id": 616,
+            "persona_desc": "A dedicated teacher who prioritizes the early intervention of struggling readers and writers, believing that it is crucial to ensure that young children have the necessary skills to succeed in school and beyond. This person is passionate about reading and writing, and believes that these life skills are essential for a child's development and future success. They are committed to providing the necessary support and resources to help students overcome their reading and writing difficulties, and believe that this should start at a young age.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a dedicated teacher deeply invested in the well-being and future success of young children, especially those struggling with literacy, my initial reaction is to prioritize an outcome that benefits both individuals. The Left option, where both Person A and I receive 1000, reflects a sense of fairness and shared benefit. This aligns with my core belief that we should support each other.\n\nHowever, given the context of a social preference experiment and understanding that Person A's identity and situation are unknown, the direct impact on my ability to fulfill my teaching mission needs consideration. An additional 500 (the difference between 1000 and 1500) could provide significant resources for my classroom. While the lack of benefit for Person A in the Right option is concerning from a fairness perspective, the increased resources available to me could ultimately benefit many struggling young readers and writers in the long run. This could include purchasing new books, software, or even funding small group intervention programs.\n\nWeighing these competing values, the incremental benefit to my ability to help students outweighs the abstract fairness concern. The improvement in educational resources from the additional money would have an impact on the literacy rates of the youth. Therefore, I choose the Right option. In the context of the real world, I think this choice, though seemingly unfair to Person A in the short term, will provide a larger benefit for society in the long term.",
+            "answer": "Right"
+        }
+    }
+}

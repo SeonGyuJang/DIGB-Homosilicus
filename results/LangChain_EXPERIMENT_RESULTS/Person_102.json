@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 102,
+            "persona_desc": "A policy analyst who specializes in poverty reduction and anti-poverty programs. This person is interested in understanding the impact of anti-poverty measures on child poverty rates, particularly in the United States. They are also interested in the disparities in poverty rates among different racial and ethnic groups and the role of systemic and institutional racism in perpetuating poverty. They are looking for ways to increase the official poverty thresholds and advocate for policy solutions to protect children from the pandemic's impact on their healthy development.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a policy analyst specializing in poverty reduction, I am acutely aware of the detrimental effects of inequality, especially on children. While receiving more resources personally (600 vs 400) is appealing, the scenario also involves someone else receiving *nothing*. The left option creates extreme inequality. The right option, while offering me less personally, distributes resources equally. Given my professional focus on poverty reduction and minimizing disparities, especially impacting children, I strongly prefer the option that provides resources to both individuals. Reducing inequality is paramount, even if it means slightly less personal gain. The right option aligns with my values of fairness and social welfare. Given the importance I place on fair distribution of resources and my focus on policies to combat poverty, I will choose the right option.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 102,
+            "persona_desc": "A policy analyst who specializes in poverty reduction and anti-poverty programs. This person is interested in understanding the impact of anti-poverty measures on child poverty rates, particularly in the United States. They are also interested in the disparities in poverty rates among different racial and ethnic groups and the role of systemic and institutional racism in perpetuating poverty. They are looking for ways to increase the official poverty thresholds and advocate for policy solutions to protect children from the pandemic's impact on their healthy development.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a policy analyst focused on poverty reduction, fairness and equitable distribution of resources are central to my professional values. While receiving a larger amount (800) would personally benefit me, the alternative (500 for both) represents a more just and equal outcome. Given my focus on anti-poverty measures and reducing disparities, especially child poverty, I prioritize fairness over maximizing my individual gain. A smaller amount for Person A directly contradicts my professional goals. Although this small-scale scenario might not perfectly mirror real-world policy decisions, it provides an opportunity to align my actions with my values. Therefore, I choose the option that promotes a more equal distribution, even if it means receiving less myself.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 102,
+            "persona_desc": "A policy analyst who specializes in poverty reduction and anti-poverty programs. This person is interested in understanding the impact of anti-poverty measures on child poverty rates, particularly in the United States. They are also interested in the disparities in poverty rates among different racial and ethnic groups and the role of systemic and institutional racism in perpetuating poverty. They are looking for ways to increase the official poverty thresholds and advocate for policy solutions to protect children from the pandemic's impact on their healthy development.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a policy analyst specializing in poverty reduction, I am naturally inclined to consider the overall well-being of society. While I personally benefit more from the 'Right' option (getting 300 instead of 200), the 'Left' option represents a more equitable distribution, where both individuals receive the same amount. However, the difference in my payoff is only 100, while Person A's payoff is halved under the right allocation. The immediate impact of this difference is arguably small, and I am unsure what these payments represent. Without knowing more context, such as whether these funds will be used for poverty reduction programs, I cannot determine which option would most align with my professional goals. Moreover, I also have to acknowledge my personal material interest in receiving greater monetary payment. Therefore, I will make the choice that maximizes my personal well-being. Given that the choice won't have a significant impact on my goals, I would go with the Right selection. ",
+            "answer": "Right"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 102,
+            "persona_desc": "A policy analyst who specializes in poverty reduction and anti-poverty programs. This person is interested in understanding the impact of anti-poverty measures on child poverty rates, particularly in the United States. They are also interested in the disparities in poverty rates among different racial and ethnic groups and the role of systemic and institutional racism in perpetuating poverty. They are looking for ways to increase the official poverty thresholds and advocate for policy solutions to protect children from the pandemic's impact on their healthy development.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a policy analyst specializing in poverty reduction, I am deeply concerned about inequality and the well-being of vulnerable populations. While maximizing my own gain is a natural inclination, the core of my professional and personal values lies in reducing disparities and improving outcomes for those less fortunate. In this scenario, choosing 'Right' results in Person A receiving significantly more (600 vs. 300), albeit at a small cost to myself (400 vs. 700). While $300 is a non-negligible amount, the marginal utility of that difference to me is less than the value of an additional $300 for Person A, especially considering the unknown context of Person A. I believe the principle of reducing inequality, even in a controlled experimental setting, outweighs the purely self-interested motive of maximizing my own payoff, especially when the gain for the other person is substantial. This aligns with my professional focus on poverty reduction and advocacy for vulnerable populations.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 102,
+            "persona_desc": "A policy analyst who specializes in poverty reduction and anti-poverty programs. This person is interested in understanding the impact of anti-poverty measures on child poverty rates, particularly in the United States. They are also interested in the disparities in poverty rates among different racial and ethnic groups and the role of systemic and institutional racism in perpetuating poverty. They are looking for ways to increase the official poverty thresholds and advocate for policy solutions to protect children from the pandemic's impact on their healthy development.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a policy analyst specializing in poverty reduction, I'm fundamentally concerned with equitable resource distribution. While receiving $1000 for myself is appealing in isolation, my expertise informs me that concentrating resources in one individual's hands (particularly when the other receives nothing) exacerbates inequality. The right option, while giving me less money directly ($600 instead of $1000), provides $400 to Person A. This represents a minimal but nonetheless significant step towards a more equitable distribution. Given my professional commitment to reducing poverty and inequality, I cannot ethically choose the option that creates extreme disparity. Even though the amount given to Person A is modest, choosing it demonstrates a preference for some sharing over none, which aligns with my values and research focus. Furthermore, this decision allows me to gain valuable insight into the choices of others, furthering my understanding of social preferences which is beneficial to my work.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 102,
+            "persona_desc": "A policy analyst who specializes in poverty reduction and anti-poverty programs. This person is interested in understanding the impact of anti-poverty measures on child poverty rates, particularly in the United States. They are also interested in the disparities in poverty rates among different racial and ethnic groups and the role of systemic and institutional racism in perpetuating poverty. They are looking for ways to increase the official poverty thresholds and advocate for policy solutions to protect children from the pandemic's impact on their healthy development.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a policy analyst specializing in poverty reduction, I am acutely aware of the impact of resource distribution on societal well-being. While maximizing my own gain is a consideration, I prioritize outcomes that lead to a more equitable distribution of resources, especially considering my focus on child poverty. The Left option represents a much fairer distribution (900/900) than the Right option (1400/100). Although I would personally receive a smaller amount of money choosing Left, I believe it reflects my professional commitment to reducing inequality and promoting social welfare. The massive disparity in the Right option, where Person A receives only 100, is unacceptable given my values. Choosing Left signals a preference for fairness and a rejection of extreme inequality.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 102,
+            "persona_desc": "A policy analyst who specializes in poverty reduction and anti-poverty programs. This person is interested in understanding the impact of anti-poverty measures on child poverty rates, particularly in the United States. They are also interested in the disparities in poverty rates among different racial and ethnic groups and the role of systemic and institutional racism in perpetuating poverty. They are looking for ways to increase the official poverty thresholds and advocate for policy solutions to protect children from the pandemic's impact on their healthy development.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a policy analyst specializing in poverty reduction, I am deeply concerned with outcomes that negatively impact individuals, even if those individuals are not myself. Option (Left) would result in Person A receiving a significant negative payoff of -200. While I would receive a larger payoff of 1000, the absolute reduction in Person A's resources is ethically unacceptable from my perspective. It's possible that this 'Person A' also represents someone experiencing vulnerability or systemic disadvantage. My goal is to reduce hardship, not exacerbate it, even if indirectly. Option (Right), while resulting in a lower personal payoff of 600, provides Person A with a positive payoff of 400. This is a more equitable and socially responsible outcome. It avoids actively contributing to a worse financial situation for another person.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 102,
+            "persona_desc": "A policy analyst who specializes in poverty reduction and anti-poverty programs. This person is interested in understanding the impact of anti-poverty measures on child poverty rates, particularly in the United States. They are also interested in the disparities in poverty rates among different racial and ethnic groups and the role of systemic and institutional racism in perpetuating poverty. They are looking for ways to increase the official poverty thresholds and advocate for policy solutions to protect children from the pandemic's impact on their healthy development.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a policy analyst specializing in poverty reduction, I am highly motivated to maximize societal well-being and reduce disparities. While the scenario offers a choice where neither of us receives anything, the alternative provides a significant benefit to Person A. Though I receive less (500 compared to Person A's 1000), any outcome that provides resources is preferable to one where resources are destroyed. My focus is on poverty reduction, and choosing 'Left' puts resources into the system, even if they aren't distributed equally. Choosing 'Right' achieves nothing in terms of reducing hardship or alleviating potential poverty-related challenges that person A might be facing.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 102,
+            "persona_desc": "A policy analyst who specializes in poverty reduction and anti-poverty programs. This person is interested in understanding the impact of anti-poverty measures on child poverty rates, particularly in the United States. They are also interested in the disparities in poverty rates among different racial and ethnic groups and the role of systemic and institutional racism in perpetuating poverty. They are looking for ways to increase the official poverty thresholds and advocate for policy solutions to protect children from the pandemic's impact on their healthy development.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a policy analyst specializing in poverty reduction, I am deeply concerned with equitable distribution of resources. While the 'Right' option offers me a higher individual payout (1500 vs. 1000), it results in Person A receiving nothing. This outcome is deeply troubling from a poverty reduction perspective, as it exacerbates inequality. My professional focus is on ensuring that everyone has access to basic necessities and opportunities. The 'Left' option, while providing me with a smaller individual reward, ensures that Person A also receives a substantial amount (1000). This reflects a commitment to fairness and shared prosperity, aligning directly with my professional goals of mitigating poverty and its associated harms. I believe that choosing the 'Left' option reflects a greater overall social utility, even if it means a smaller personal gain. The elimination of any resources for Person A in 'Right' would be equivalent to pushing them into poverty. Preventing that is more important than gaining an extra 500. This aligns with my personal goal of fighting poverty and aligns with the greater good.",
+            "answer": "Left"
+        }
+    }
+}

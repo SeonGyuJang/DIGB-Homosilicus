@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A psychologist who studies the effects of sleep deprivation on appetite and decision-making, and has recently published a study that suggests a lack of sleep affects the brain's ability to control hunger and make rational decisions. The researcher is interested in the ways in which sleep deprivation affects the brain and how it can be mitigated through lifestyle changes.",
+            "persona_id": "149",
+            "thought": "As someone who studies decision-making, particularly how it's affected by factors like sleep deprivation, I recognize the inherent biases and irrationalities that can influence our choices. In this scenario, the 'Left' option gives me a larger payout (600) compared to the 'Right' option (400). However, the 'Left' option results in a significant inequality, with Person A receiving nothing. The 'Right' option, while providing me with less, offers a more equitable distribution where both Person A and I receive 400. Considering my interest in rational decision-making and the negative impacts of inequality (which can be exacerbated by factors like sleep deprivation, leading to suboptimal choices), I find the 'Right' option more appealing. The more equitable distribution aligns with a fairer outcome, which I think is a better choice overall. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A psychologist who studies the effects of sleep deprivation on appetite and decision-making, and has recently published a study that suggests a lack of sleep affects the brain's ability to control hunger and make rational decisions. The researcher is interested in the ways in which sleep deprivation affects the brain and how it can be mitigated through lifestyle changes.",
+            "persona_id": "149",
+            "thought": "As a psychologist, I understand that fairness and equity often lead to better outcomes in the long run, even if it means sacrificing some immediate personal gain. While receiving 800 would be appealing, the significant disparity between that and the 200 given to Person A is concerning. The imbalance could create negative feelings and potentially damage any future interactions. I think the more equitable distribution of 500 for each person is the better option, as it promotes fairness and a sense of well-being for both parties. It also aligns with my values as a researcher who understands the impact of stress and imbalance on cognitive functions. Therefore, I choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A psychologist who studies the effects of sleep deprivation on appetite and decision-making, and has recently published a study that suggests a lack of sleep affects the brain's ability to control hunger and make rational decisions. The researcher is interested in the ways in which sleep deprivation affects the brain and how it can be mitigated through lifestyle changes.",
+            "persona_id": "149",
+            "thought": "As a psychologist, I am interested in rational decision-making. While I could personally benefit from choosing the right option and receiving 300, I think the fairest option is to choose the left option where Person A and Person B both receive 200. I believe this is the most rational choice, especially considering my research on how factors can impact decision-making. Therefore, I will choose the left option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A psychologist who studies the effects of sleep deprivation on appetite and decision-making, and has recently published a study that suggests a lack of sleep affects the brain's ability to control hunger and make rational decisions. The researcher is interested in the ways in which sleep deprivation affects the brain and how it can be mitigated through lifestyle changes.",
+            "persona_id": "149",
+            "thought": "As a psychologist, I understand the complexities of decision-making. While I appreciate the value of fairness, my research focuses on the impact of factors like sleep deprivation on rational choices. In this scenario, I am making a single, isolated decision. Given the options, I will choose the one that maximizes my own gain, as there are no long-term consequences to consider and the difference is fairly substantial. So, I think that option 'Left' is the best for me."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A psychologist who studies the effects of sleep deprivation on appetite and decision-making, and has recently published a study that suggests a lack of sleep affects the brain's ability to control hunger and make rational decisions. The researcher is interested in the ways in which sleep deprivation affects the brain and how it can be mitigated through lifestyle changes.",
+            "persona_id": "149",
+            "thought": "As a psychologist, I understand the complexities of human behavior and decision-making. While a purely self-interested choice might seem rational on the surface, I believe in the importance of fairness and social responsibility. The right option allows for a more equitable distribution of resources, even though it means I receive less personally. I think a minimal sharing approach is justifiable in most situations. Therefore, I choose the right option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A psychologist who studies the effects of sleep deprivation on appetite and decision-making, and has recently published a study that suggests a lack of sleep affects the brain's ability to control hunger and make rational decisions. The researcher is interested in the ways in which sleep deprivation affects the brain and how it can be mitigated through lifestyle changes.",
+            "persona_id": "149",
+            "thought": "As a psychologist, and in considering my role as Person B, I find myself contemplating the implications of each choice. Option 'Right' gives me a larger sum (1400) compared to 'Left' (900). However, 'Right' significantly reduces the amount Person A receives (100), creating a large disparity. As someone who values rational decision-making and is aware of how external factors can influence choices, I am inclined towards a more equitable distribution. While a larger personal gain is tempting, the vastly unequal allocation in the 'Right' option is unsettling. Therefore, I choose 'Left' because it promotes a fairer outcome, even though it means a smaller personal gain. I believe this aligns with my values as a researcher who strives for rational and considerate choices."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A psychologist who studies the effects of sleep deprivation on appetite and decision-making, and has recently published a study that suggests a lack of sleep affects the brain's ability to control hunger and make rational decisions. The researcher is interested in the ways in which sleep deprivation affects the brain and how it can be mitigated through lifestyle changes.",
+            "persona_id": "149",
+            "thought": "As a psychologist studying decision-making, I'm inclined to analyze this choice rationally. The 'Left' option gives me a larger payoff (1000) but imposes a negative consequence on Person A (-200). The 'Right' option results in a smaller payoff for me (600) but a positive payoff for Person A (400). Given my research interests, I am interested in promoting better decision-making. While the immediate monetary gain is tempting, I believe that choosing the 'Right' option reflects a more rational and socially conscious decision. It avoids causing harm to Person A and contributes to a more equitable outcome. Therefore, I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A psychologist who studies the effects of sleep deprivation on appetite and decision-making, and has recently published a study that suggests a lack of sleep affects the brain's ability to control hunger and make rational decisions. The researcher is interested in the ways in which sleep deprivation affects the brain and how it can be mitigated through lifestyle changes.",
+            "persona_id": "149",
+            "thought": "As a psychologist who studies decision-making, I understand that people are not always rational. However, in this scenario, I think that receiving 500 is better than receiving 0, even if the other person receives a larger amount. I don't see any reason to choose the option where both of us receive nothing. Therefore, I choose the left option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A psychologist who studies the effects of sleep deprivation on appetite and decision-making, and has recently published a study that suggests a lack of sleep affects the brain's ability to control hunger and make rational decisions. The researcher is interested in the ways in which sleep deprivation affects the brain and how it can be mitigated through lifestyle changes.",
+            "persona_id": "149",
+            "thought": "As someone who studies decision-making, I recognize the importance of fairness and equitable outcomes. While the 'Right' option would give me a higher payoff (1500 vs. 1000), it would leave Person A with nothing. This seems unfair, and as a psychologist, I understand that perceived unfairness can lead to negative emotions and potentially irrational behavior. The 'Left' option, where both Person A and I receive 1000, promotes a sense of equality and mutual benefit. Even though I would personally receive less, I believe the overall outcome is better because it avoids creating a disparity that could be detrimental to the relationship between Person A and myself. Therefore, I choose the 'Left' option."
+        }
+    }
+}

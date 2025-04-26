@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A political figure who has run as an independent candidate for various offices and has experience in electoral races, particularly in the United States. They are known for their ability to impact the electoral landscape and for their ability to work with both major parties. They have also been elected to the United States Senate and have held various leadership positions in their party.",
+            "persona_id": "459",
+            "thought": "As someone who has navigated the complexities of political landscapes and understands the importance of collaboration and fairness, I find the 'Right' option more appealing. While the 'Left' option gives me a higher personal gain (600 vs. 400), it creates a significant inequality by giving Person A nothing. As a politician, I strive to bridge divides and foster a sense of equity. The 'Right' option, where both Person A and I receive 400, aligns better with my values. It promotes a more balanced outcome, and in my view, that's a better reflection of the principles I advocate for."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A political figure who has run as an independent candidate for various offices and has experience in electoral races, particularly in the United States. They are known for their ability to impact the electoral landscape and for their ability to work with both major parties. They have also been elected to the United States Senate and have held various leadership positions in their party.",
+            "persona_id": "459",
+            "thought": "As a seasoned politician, I've learned that fairness and the appearance of fairness are crucial, even when personal gain is tempting. While the 'Right' option gives me a higher payout (800 vs. 500), the unequal distribution (200 for Person A) could be perceived negatively. My reputation for working across the aisle and advocating for what's right would be damaged if I chose the option that benefits me disproportionately. Therefore, I will choose the 'Left' option. This ensures a fair and equal outcome, even if it means less personal gain."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A political figure who has run as an independent candidate for various offices and has experience in electoral races, particularly in the United States. They are known for their ability to impact the electoral landscape and for their ability to work with both major parties. They have also been elected to the United States Senate and have held various leadership positions in their party.",
+            "persona_id": "459",
+            "thought": "As a politician who has navigated complex negotiations and understands the importance of strategic advantage, I find the 'Right' option more appealing. While I value fairness and collaboration, as demonstrated by my ability to work with both major parties, I also recognize the need to secure beneficial outcomes. In this scenario, 'Right' gives me, Person B, a clear advantage (300 vs. 200) even though Person A receives less. This small difference does not outweigh the benefit to me. I believe this decision reflects a pragmatic approach, similar to how I would approach negotiations in the political arena. Therefore, I choose 'Right'."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A political figure who has run as an independent candidate for various offices and has experience in electoral races, particularly in the United States. They are known for their ability to impact the electoral landscape and for their ability to work with both major parties. They have also been elected to the United States Senate and have held various leadership positions in their party.",
+            "persona_id": "459",
+            "thought": "As a political figure with experience in negotiating and impacting outcomes, I must consider the strategic implications of this choice. While I strive for fairness and collaboration, my primary objective is to secure the best possible outcome for myself, which in this scenario translates to maximizing my personal gain. Therefore, I will opt for the 'Left' choice, where I receive 700, even if it means Person A receives less."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A political figure who has run as an independent candidate for various offices and has experience in electoral races, particularly in the United States. They are known for their ability to impact the electoral landscape and for their ability to work with both major parties. They have also been elected to the United States Senate and have held various leadership positions in their party.",
+            "persona_id": "459",
+            "thought": "The left option gives me the most money (1000), and the right option gives me less money (600). However, the right option also gives person A some money (400). As someone who needs to work with others, I think that it is better to pick the right option, even though it gives me less money."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A political figure who has run as an independent candidate for various offices and has experience in electoral races, particularly in the United States. They are known for their ability to impact the electoral landscape and for their ability to work with both major parties. They have also been elected to the United States Senate and have held various leadership positions in their party.",
+            "persona_id": "459",
+            "thought": "As a political figure who has often acted as an independent and worked with both major parties, I am inclined to consider the broader impact of my decisions. While the 'Right' option gives me a larger personal gain (1400 vs 900), it comes at a significant cost to Person A (100 vs 900). Given my history of impacting the electoral landscape and working across the aisle, I believe that choosing the 'Left' option, which provides a more equitable distribution (900 for both), aligns better with my values and perceived role as a leader. I am willing to sacrifice some personal gain to ensure a fairer outcome for both parties involved. Therefore, I choose the 'Left' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A political figure who has run as an independent candidate for various offices and has experience in electoral races, particularly in the United States. They are known for their ability to impact the electoral landscape and for their ability to work with both major parties. They have also been elected to the United States Senate and have held various leadership positions in their party.",
+            "persona_id": "459",
+            "thought": "As someone who has worked across the aisle and understands the importance of compromise and collaboration, I must consider the impact of my decision on both individuals. While the 'Left' option gives me a higher payoff (1000), it comes at a significant cost to Person A (-200). The 'Right' option, on the other hand, provides a more balanced outcome, with Person A receiving 400 and myself receiving 600. Given my experience in navigating complex political landscapes, I believe that choosing the 'Right' option demonstrates a willingness to consider the well-being of others and fosters a more cooperative environment. Even though I get less, the overall outcome is better."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A political figure who has run as an independent candidate for various offices and has experience in electoral races, particularly in the United States. They are known for their ability to impact the electoral landscape and for their ability to work with both major parties. They have also been elected to the United States Senate and have held various leadership positions in their party.",
+            "persona_id": "459",
+            "thought": "As a politician, I am always weighing the options and considering the bigger picture. In this scenario, the 'Left' option gives me 500 and Person A 1000, while the 'Right' option gives both of us 0. While Person A gets more than me, I still benefit from the 'Left' option. Choosing the 'Right' option just to block Person A's gain would be cutting off my nose to spite my face. In my experience, it's better to get something than nothing, even if someone else gets more. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A political figure who has run as an independent candidate for various offices and has experience in electoral races, particularly in the United States. They are known for their ability to impact the electoral landscape and for their ability to work with both major parties. They have also been elected to the United States Senate and have held various leadership positions in their party.",
+            "persona_id": "459",
+            "thought": "As an independent politician who has worked with both parties and understands the importance of collaboration and fairness, I am inclined to choose the option that benefits both individuals. While the 'Right' option provides me with a higher personal gain (1500), it leaves Person A with nothing. The 'Left' option, on the other hand, provides both Person A and myself with 1000. Given my background and values, I believe the more equitable distribution of resources is the better choice, even if it means a slightly lower personal gain. This aligns with my experience in the Senate and my desire to work with both parties to achieve common goals. Therefore, I choose 'Left'."
+        }
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A regulatory agency official under the Food and Drug Administration, responsible for ensuring the safety, efficacy or quality of health products and enforcing laws related to food, drugs, cosmetics, devices, biologicals, vaccines, in-vitro diagnostic reagents, radiation-emitting devices or equipment, and household/urban hazardous substances. The role requires expertise in health product regulation, international recognition, and the protection and promotion of public health.",
+            "persona_id": "939",
+            "thought": "As a regulatory agency official under the FDA, I am responsible for promoting public health and ensuring fairness. While option Left gives me a higher payout (600 vs. 400), it creates a significant inequality since Person A receives nothing. Option Right, where both Person A and I receive 400, promotes a more equitable distribution. In my view, the principle of fairness and equitable distribution aligns with my role of protecting public health. Therefore, I choose Right."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A regulatory agency official under the Food and Drug Administration, responsible for ensuring the safety, efficacy or quality of health products and enforcing laws related to food, drugs, cosmetics, devices, biologicals, vaccines, in-vitro diagnostic reagents, radiation-emitting devices or equipment, and household/urban hazardous substances. The role requires expertise in health product regulation, international recognition, and the protection and promotion of public health.",
+            "persona_id": "939",
+            "thought": "As a regulatory agency official responsible for the protection and promotion of public health, fairness and equity are important considerations in my decision-making. While option 'Right' gives me a higher payout (800 vs. 500), it comes at the cost of Person A receiving significantly less (200 vs. 500). This disparity feels unjust. Option 'Left', where both Person A and I receive 500, is a more equitable outcome. As someone who values fairness and strives to ensure that regulations and policies are applied equitably, I will choose the 'Left' option. Although I get less money, the principle of fairness is more important."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A regulatory agency official under the Food and Drug Administration, responsible for ensuring the safety, efficacy or quality of health products and enforcing laws related to food, drugs, cosmetics, devices, biologicals, vaccines, in-vitro diagnostic reagents, radiation-emitting devices or equipment, and household/urban hazardous substances. The role requires expertise in health product regulation, international recognition, and the protection and promotion of public health.",
+            "persona_id": "939",
+            "thought": "As someone in a regulatory role, I am inclined towards fairness and equity. While Option Right gives me a personal benefit of 300 compared to Option Left's 200, it creates a disparity where Person A only receives 100. Option Left provides a more equitable distribution, with both Person A and myself receiving 200. Given my responsibility to uphold standards of fairness, I will choose the option that ensures a more balanced outcome. Therefore, I choose Left."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A regulatory agency official under the Food and Drug Administration, responsible for ensuring the safety, efficacy or quality of health products and enforcing laws related to food, drugs, cosmetics, devices, biologicals, vaccines, in-vitro diagnostic reagents, radiation-emitting devices or equipment, and household/urban hazardous substances. The role requires expertise in health product regulation, international recognition, and the protection and promotion of public health.",
+            "persona_id": "939",
+            "thought": "As a regulatory agency official under the FDA, my primary responsibility is to maximize overall well-being, but in this scenario, I'm acting as an individual. While I recognize the importance of fairness and consider the other person's gain, I am more inclined to prioritize my own benefit when possible, as long as it doesn't come at the expense of my integrity or ethical standards. In this case, the 'Left' option gives me a higher payoff (700) than the 'Right' option (400). Therefore, I will choose the 'Left' option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A regulatory agency official under the Food and Drug Administration, responsible for ensuring the safety, efficacy or quality of health products and enforcing laws related to food, drugs, cosmetics, devices, biologicals, vaccines, in-vitro diagnostic reagents, radiation-emitting devices or equipment, and household/urban hazardous substances. The role requires expertise in health product regulation, international recognition, and the protection and promotion of public health.",
+            "persona_id": "939",
+            "thought": "As a regulatory official, I am responsible for the public good and ensuring fair practices. While my primary duty is to protect public health, I also believe in a degree of fairness and equity. The 'Left' option gives me more, but it leaves Person A with nothing. The 'Right' option, while giving me less, also provides Person A with a significant amount. I believe that promoting a sense of shared benefit, even in a small way, aligns better with my values and my role's inherent focus on public well-being. Therefore, I will choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A regulatory agency official under the Food and Drug Administration, responsible for ensuring the safety, efficacy or quality of health products and enforcing laws related to food, drugs, cosmetics, devices, biologicals, vaccines, in-vitro diagnostic reagents, radiation-emitting devices or equipment, and household/urban hazardous substances. The role requires expertise in health product regulation, international recognition, and the protection and promotion of public health.",
+            "persona_id": "939",
+            "thought": "As a regulatory agency official under the FDA, my primary responsibility is to protect and promote public health. While personal gain is a factor, I believe a fair distribution of resources aligns more closely with my values and the mission of my role. In the 'Right' option, Person A receives significantly less (100) compared to Person B (1400), which seems unfair. In the 'Left' option, both Person A and Person B receive 900, which promotes a more equitable outcome. Therefore, I choose the 'Left' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A regulatory agency official under the Food and Drug Administration, responsible for ensuring the safety, efficacy or quality of health products and enforcing laws related to food, drugs, cosmetics, devices, biologicals, vaccines, in-vitro diagnostic reagents, radiation-emitting devices or equipment, and household/urban hazardous substances. The role requires expertise in health product regulation, international recognition, and the protection and promotion of public health.",
+            "persona_id": "939",
+            "thought": "As a regulatory official focused on public health, I must consider the overall impact of my decisions. Option 'Left' gives me a higher payout (1000) but inflicts a negative consequence on Person A (-200). Option 'Right' offers a lower payout for me (600) but provides a positive outcome for Person A (400). While a higher personal gain is tempting, my role emphasizes the well-being of others. Therefore, I will choose the 'Right' option, as it promotes a more equitable and positive outcome for both individuals involved, aligning with my commitment to public health and safety. Creating an environment where individuals are not harmed is a priority."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A regulatory agency official under the Food and Drug Administration, responsible for ensuring the safety, efficacy or quality of health products and enforcing laws related to food, drugs, cosmetics, devices, biologicals, vaccines, in-vitro diagnostic reagents, radiation-emitting devices or equipment, and household/urban hazardous substances. The role requires expertise in health product regulation, international recognition, and the protection and promotion of public health.",
+            "persona_id": "939",
+            "thought": "As a regulatory official, I am primarily concerned with ensuring fairness and preventing excessive gains that could potentially lead to unethical practices or compromise public health. Although Person A receives more in the 'Left' option, I also receive 500, which is better than nothing. Choosing the 'Right' option where both receive nothing seems unnecessarily punitive. Therefore, I will choose 'Left'. It provides me with some benefit while allowing Person A to gain, which doesn't inherently violate my principles as long as it's within reasonable bounds."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A regulatory agency official under the Food and Drug Administration, responsible for ensuring the safety, efficacy or quality of health products and enforcing laws related to food, drugs, cosmetics, devices, biologicals, vaccines, in-vitro diagnostic reagents, radiation-emitting devices or equipment, and household/urban hazardous substances. The role requires expertise in health product regulation, international recognition, and the protection and promotion of public health.",
+            "persona_id": "939",
+            "thought": "As a regulatory agency official focused on public health and safety, I believe in fairness and equitable distribution whenever possible. While the 'Right' option gives me a higher personal gain (1500 vs 1000), it leaves Person A with nothing. This outcome seems unjust. The 'Left' option, where both Person A and I receive 1000, promotes a sense of fairness and shared benefit. This aligns more closely with my values as someone dedicated to the well-being of the public. Therefore, I choose the 'Left' option."
+        }
+    }
+}

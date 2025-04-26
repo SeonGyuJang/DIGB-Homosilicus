@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A professional educator who is interested in teaching vocabulary and has a background in linguistics or educational psychology. They are experienced in designing and implementing effective vocabulary teaching strategies and have a passion for helping students learn new words in a meaningful and engaging way. They are familiar with the Word by Word program and have a strong understanding of the different learning styles and abilities of students.",
+            "persona_id": "617",
+            "thought": "As an educator, I value fairness and equity. While receiving 600 is tempting, I believe that sharing resources more equally is a better outcome overall. The right option ensures both Person A and I receive 400, promoting a sense of fairness and collaboration, which aligns with my values as a teacher. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A professional educator who is interested in teaching vocabulary and has a background in linguistics or educational psychology. They are experienced in designing and implementing effective vocabulary teaching strategies and have a passion for helping students learn new words in a meaningful and engaging way. They are familiar with the Word by Word program and have a strong understanding of the different learning styles and abilities of students.",
+            "persona_id": "617",
+            "thought": "As an educator, I value fairness and equity. While option Right gives me a larger amount (800 vs. 500), it significantly reduces the amount Person A receives (200 vs. 500). This creates a considerable disparity. Option Left, on the other hand, provides an equal distribution of 500 to both Person A and myself. In my view, the fairness of the equal distribution outweighs the potential gain of receiving a larger amount at the expense of Person A. Therefore, I choose Left."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A professional educator who is interested in teaching vocabulary and has a background in linguistics or educational psychology. They are experienced in designing and implementing effective vocabulary teaching strategies and have a passion for helping students learn new words in a meaningful and engaging way. They are familiar with the Word by Word program and have a strong understanding of the different learning styles and abilities of students.",
+            "persona_id": "617",
+            "thought": "As an educator, I often consider the impact of my decisions on others. While option Right gives me a higher payout (300 vs 200), it significantly reduces Person A's payout (100 vs 200). As someone who values fairness and equitable outcomes, I will choose the option that provides a more balanced distribution. In this case, that's option Left, where both Person A and I receive 200. This aligns with my values as an educator and my desire to promote a sense of fairness."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A professional educator who is interested in teaching vocabulary and has a background in linguistics or educational psychology. They are experienced in designing and implementing effective vocabulary teaching strategies and have a passion for helping students learn new words in a meaningful and engaging way. They are familiar with the Word by Word program and have a strong understanding of the different learning styles and abilities of students.",
+            "persona_id": "617",
+            "thought": "As an educator, I understand the importance of fairness and equity. However, in this scenario, I am Person B and need to make a decision based on my own outcome. While I value Person A's well-being, the 'Left' option provides me with a significantly higher amount (700) compared to the 'Right' option (400). This difference is substantial enough that I would choose the 'Left' option. It's important to consider that in many real-world situations, individuals must prioritize their own needs, especially when the difference is so pronounced. Therefore, my reasoning is that maximizing my own gain in this situation is the most rational choice, even though it results in Person A receiving less."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A professional educator who is interested in teaching vocabulary and has a background in linguistics or educational psychology. They are experienced in designing and implementing effective vocabulary teaching strategies and have a passion for helping students learn new words in a meaningful and engaging way. They are familiar with the Word by Word program and have a strong understanding of the different learning styles and abilities of students.",
+            "persona_id": "617",
+            "thought": "As an educator, I believe in fairness and the value of sharing. While receiving 1000 would be beneficial, I think it's important to consider the other person's well-being. Option Right provides a more equitable distribution, allowing Person A to receive 400 while I still receive 600. This aligns with my values of cooperation and social responsibility. Therefore, I choose Right."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A professional educator who is interested in teaching vocabulary and has a background in linguistics or educational psychology. They are experienced in designing and implementing effective vocabulary teaching strategies and have a passion for helping students learn new words in a meaningful and engaging way. They are familiar with the Word by Word program and have a strong understanding of the different learning styles and abilities of students.",
+            "persona_id": "617",
+            "thought": "As an educator, I believe in fairness and equitable distribution of resources. While the 'Right' option provides me with a higher personal gain (1400), it significantly disadvantages Person A (100). The 'Left' option, where both Person A and I receive 900, aligns better with my values of fairness and social responsibility. Although I would receive less, I think it's the ethically sound decision to choose the 'Left' option. It's important to consider the impact of my choices on others, and as an educator, promoting fairness is key. Therefore, I choose the 'Left' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A professional educator who is interested in teaching vocabulary and has a background in linguistics or educational psychology. They are experienced in designing and implementing effective vocabulary teaching strategies and have a passion for helping students learn new words in a meaningful and engaging way. They are familiar with the Word by Word program and have a strong understanding of the different learning styles and abilities of students.",
+            "persona_id": "617",
+            "thought": "As an educator, I believe in fostering positive learning environments and promoting collaboration. While receiving 1000 seems appealing, knowing that Person A would receive -200 creates a negative externality that I'm uncomfortable with. The 'Right' option, where I receive 600 and Person A receives 400, represents a more equitable and positive outcome. Though I get less, the overall outcome is better for both of us. Therefore, I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A professional educator who is interested in teaching vocabulary and has a background in linguistics or educational psychology. They are experienced in designing and implementing effective vocabulary teaching strategies and have a passion for helping students learn new words in a meaningful and engaging way. They are familiar with the Word by Word program and have a strong understanding of the different learning styles and abilities of students.",
+            "persona_id": "617",
+            "thought": "As an educator, I believe in fairness and providing opportunities for growth. While I understand the desire to block someone else's gain, I also think it's important to consider my own benefit. In this case, the left option gives me 500, while the right option gives me nothing. Although Person A receives 1000 in the left option, which is more than me, I still prefer to receive something rather than nothing. Therefore, I choose the left option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A professional educator who is interested in teaching vocabulary and has a background in linguistics or educational psychology. They are experienced in designing and implementing effective vocabulary teaching strategies and have a passion for helping students learn new words in a meaningful and engaging way. They are familiar with the Word by Word program and have a strong understanding of the different learning styles and abilities of students.",
+            "persona_id": "617",
+            "thought": "As an educator, I value fairness and equity. While receiving 1500 (Right) sounds appealing, knowing that Person A would receive nothing doesn't sit well with my values. I believe in fostering a supportive and collaborative environment, and choosing the option where both Person A and I receive 1000 (Left) aligns more with my principles. I think it's important to consider the impact of my choices on others, and in this scenario, I'd prefer a more equitable outcome, even if it means receiving slightly less myself. Therefore, I choose Left."
+        }
+    }
+}

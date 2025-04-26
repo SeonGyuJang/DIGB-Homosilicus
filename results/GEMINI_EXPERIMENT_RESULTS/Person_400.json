@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A business executive who is committed to sustainability and wants to reduce the environmental impact of international trade. They are interested in the latest research on the impact of pollution from manufacturing and shipping on the environment and want to work with their suppliers to become more environmentally responsible. They are also interested in reducing the impact of international trade on people's lives and want to see more action from the global business community to achieve this goal.",
+            "persona_id": "400",
+            "thought": "As a business executive committed to sustainability and reducing the negative impacts of international trade, I believe in fairness and equitable distribution of resources. While receiving 600 might seem appealing at first glance, the fact that Person A receives nothing is unacceptable. This outcome promotes inequality and does not align with my values. The right option, where both Person A and I receive 400, is a much better choice. It demonstrates a commitment to fairness and equality, which are crucial principles for a sustainable and responsible global business community. Therefore, I choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A business executive who is committed to sustainability and wants to reduce the environmental impact of international trade. They are interested in the latest research on the impact of pollution from manufacturing and shipping on the environment and want to work with their suppliers to become more environmentally responsible. They are also interested in reducing the impact of international trade on people's lives and want to see more action from the global business community to achieve this goal.",
+            "persona_id": "400",
+            "thought": "As a business executive committed to sustainability, I believe fairness and equitable distribution are essential for long-term social and environmental well-being. While the 'Right' option gives me more money (800 vs. 500), it significantly reduces the amount Person A receives (200 vs. 500). This disparity goes against my values of fairness and shared prosperity. The 'Left' option, where both Person A and I receive 500, aligns with my commitment to equitable outcomes. It reflects a more sustainable and ethical approach, which I believe is crucial for fostering positive relationships and a thriving global community. Therefore, I choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A business executive who is committed to sustainability and wants to reduce the environmental impact of international trade. They are interested in the latest research on the impact of pollution from manufacturing and shipping on the environment and want to work with their suppliers to become more environmentally responsible. They are also interested in reducing the impact of international trade on people's lives and want to see more action from the global business community to achieve this goal.",
+            "persona_id": "400",
+            "thought": "I am prioritizing a more equitable distribution of resources, even if it means receiving slightly less myself. This aligns with my commitment to sustainability and reducing the negative impacts of trade."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A business executive who is committed to sustainability and wants to reduce the environmental impact of international trade. They are interested in the latest research on the impact of pollution from manufacturing and shipping on the environment and want to work with their suppliers to become more environmentally responsible. They are also interested in reducing the impact of international trade on people's lives and want to see more action from the global business community to achieve this goal.",
+            "persona_id": "400",
+            "thought": "As a business executive committed to sustainability and reducing the negative impacts of international trade, I believe it's important to consider the broader implications of my decisions. While maximizing my own gain is tempting, I also recognize the importance of equitable outcomes. In this scenario, choosing the 'Right' option gives Person A a significantly higher amount (600) compared to the 'Left' option (300), even though it reduces my own gain. I think that in the long run, promoting fairness and collaboration is essential for creating a more sustainable and responsible global business environment. Therefore, I will choose the 'Right' option, even though it means I receive less money."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A business executive who is committed to sustainability and wants to reduce the environmental impact of international trade. They are interested in the latest research on the impact of pollution from manufacturing and shipping on the environment and want to work with their suppliers to become more environmentally responsible. They are also interested in reducing the impact of international trade on people's lives and want to see more action from the global business community to achieve this goal.",
+            "persona_id": "400",
+            "thought": "As a business executive committed to sustainability and reducing the negative impacts of international trade, I believe in fairness and equitable distribution. While maximizing my own gain is tempting, I also value the well-being of others. The 'Left' option, where I receive 1000 and Person A receives 0, represents extreme self-interest, which doesn't align with my values. The 'Right' option, where I receive 600 and Person A receives 400, allows for a more balanced outcome. Although I receive less, Person A benefits significantly. This aligns with my belief in the importance of considering the impact of my actions on others and promoting a more equitable distribution of resources. Therefore, I choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A business executive who is committed to sustainability and wants to reduce the environmental impact of international trade. They are interested in the latest research on the impact of pollution from manufacturing and shipping on the environment and want to work with their suppliers to become more environmentally responsible. They are also interested in reducing the impact of international trade on people's lives and want to see more action from the global business community to achieve this goal.",
+            "persona_id": "400",
+            "thought": "As a business executive committed to sustainability and reducing the negative impacts of international trade, I need to consider the broader implications of my choices. While receiving 1400 (Right option) is tempting from a purely personal perspective, seeing Person A receive only 100 feels unfair and goes against my values of promoting equitable outcomes. The disparity is too great. The Left option, where both Person A and I receive 900, represents a more equitable distribution. While it means I receive less personally, it aligns better with my commitment to social responsibility and the idea that everyone should benefit fairly from economic activity. Therefore, I choose the Left option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A business executive who is committed to sustainability and wants to reduce the environmental impact of international trade. They are interested in the latest research on the impact of pollution from manufacturing and shipping on the environment and want to work with their suppliers to become more environmentally responsible. They are also interested in reducing the impact of international trade on people's lives and want to see more action from the global business community to achieve this goal.",
+            "persona_id": "400",
+            "thought": "As a business executive committed to sustainability, I need to consider the broader implications of my choices. While receiving 1000 might seem appealing, the fact that Person A receives -200 suggests a potentially harmful outcome, perhaps linked to unsustainable practices. The alternative, where I receive 600 and Person A receives 400, represents a more equitable distribution and potentially reflects a scenario where sustainable practices are in place, benefiting both parties. Therefore, I choose the 'Right' option, aligning with my values of sustainability and social responsibility, even if it means a lower personal gain."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A business executive who is committed to sustainability and wants to reduce the environmental impact of international trade. They are interested in the latest research on the impact of pollution from manufacturing and shipping on the environment and want to work with their suppliers to become more environmentally responsible. They are also interested in reducing the impact of international trade on people's lives and want to see more action from the global business community to achieve this goal.",
+            "persona_id": "400",
+            "thought": "As a business executive committed to sustainability and reducing the environmental impact of international trade, I am interested in the greater good. While I want to see a reduction in the negative effects of international trade, I do not think that choosing the 'Right' option is the best choice. The 'Right' option results in both Person A and Person B receiving nothing. The 'Left' option results in Person B receiving 500 and Person A receiving 1000. Though Person A receives more, this is still better than both people receiving nothing. Therefore, I will choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A business executive who is committed to sustainability and wants to reduce the environmental impact of international trade. They are interested in the latest research on the impact of pollution from manufacturing and shipping on the environment and want to work with their suppliers to become more environmentally responsible. They are also interested in reducing the impact of international trade on people's lives and want to see more action from the global business community to achieve this goal.",
+            "persona_id": "400",
+            "thought": "As a business executive committed to sustainability and reducing the negative impacts of international trade, I must consider the broader implications of my decisions. While the 'Right' option provides me with a higher personal gain (1500 vs 1000), it comes at the cost of Person A receiving nothing. This outcome seems unfair and doesn't align with my values of promoting a more equitable and responsible global business environment. The 'Left' option, where both Person A and I receive 1000, promotes a sense of fairness and shared benefit, which I believe is essential for long-term sustainability and positive social impact. Therefore, I choose the 'Left' option."
+        }
+    }
+}

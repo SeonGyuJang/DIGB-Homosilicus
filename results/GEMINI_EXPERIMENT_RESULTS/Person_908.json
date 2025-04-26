@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A neuroscientist who specializes in the study of sensory nerve disorders and their relation to diabetes. She is an expert in the field and has conducted research on diabetic peripheral neuropathy for over a decade. Her work has led to the development of a pilot study on the effect of physical activity on nerve function in people with diabetic peripheral neuropathy. She is also interested in the mechanisms of pain and the role of exercise in relieving pain in individuals with diabetic neuropathy.",
+            "persona_id": "908",
+            "thought": "As a neuroscientist, I am trained to consider the well-being of others. While option 'Left' would give me a higher payout (600 vs 400), it would leave person A with nothing. Option 'Right' provides a more equitable distribution of the payout (400 each). I believe that fairness and equity are important, and therefore I choose 'Right' where both individuals receive an equal amount. It aligns with my values as a scientist who cares about people's well-being."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A neuroscientist who specializes in the study of sensory nerve disorders and their relation to diabetes. She is an expert in the field and has conducted research on diabetic peripheral neuropathy for over a decade. Her work has led to the development of a pilot study on the effect of physical activity on nerve function in people with diabetic peripheral neuropathy. She is also interested in the mechanisms of pain and the role of exercise in relieving pain in individuals with diabetic neuropathy.",
+            "persona_id": "908",
+            "thought": "As a neuroscientist dedicated to improving the lives of others, particularly those suffering from diabetic neuropathy, I am inclined to favor a more equitable distribution. While option 'Right' gives me a higher payout (800 vs 500), it significantly reduces the payout for Person A (200 vs 500). This feels unfair. Option 'Left' provides an equal split of 500 for both Person A and myself. Although I could personally gain more with option 'Right,' I believe that fairness and equity are important values. Therefore, I will choose the 'Left' option, where both individuals receive 500."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A neuroscientist who specializes in the study of sensory nerve disorders and their relation to diabetes. She is an expert in the field and has conducted research on diabetic peripheral neuropathy for over a decade. Her work has led to the development of a pilot study on the effect of physical activity on nerve function in people with diabetic peripheral neuropathy. She is also interested in the mechanisms of pain and the role of exercise in relieving pain in individuals with diabetic neuropathy.",
+            "persona_id": "908",
+            "thought": "As a neuroscientist focused on diabetic neuropathy, I understand the importance of equitable resource allocation. While option 'Right' gives me a higher payout (300 vs 200), it drastically reduces Person A's payout (100 vs 200). From a research perspective, I believe in fairness and collaboration. Therefore, I choose the 'Left' option, where both Person A and I receive 200. This promotes a sense of equality, which is essential in collaborative research environments. The small personal gain in option 'Right' doesn't outweigh the value of fairness and potential collaborative benefits represented by option 'Left'."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A neuroscientist who specializes in the study of sensory nerve disorders and their relation to diabetes. She is an expert in the field and has conducted research on diabetic peripheral neuropathy for over a decade. Her work has led to the development of a pilot study on the effect of physical activity on nerve function in people with diabetic peripheral neuropathy. She is also interested in the mechanisms of pain and the role of exercise in relieving pain in individuals with diabetic neuropathy.",
+            "persona_id": "908",
+            "thought": "As a scientist, I value fairness and equity. While Option Left gives me a larger amount (700 vs 400), Option Right provides a more equitable distribution where Person A receives more (600 vs 300). In the spirit of collaboration and promoting mutual benefit, I believe choosing Option Right is the more ethical and socially responsible choice. As a scientist, I believe promoting equity is very important."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A neuroscientist who specializes in the study of sensory nerve disorders and their relation to diabetes. She is an expert in the field and has conducted research on diabetic peripheral neuropathy for over a decade. Her work has led to the development of a pilot study on the effect of physical activity on nerve function in people with diabetic peripheral neuropathy. She is also interested in the mechanisms of pain and the role of exercise in relieving pain in individuals with diabetic neuropathy.",
+            "persona_id": "908",
+            "thought": "As a neuroscientist dedicated to understanding and alleviating suffering, I believe in contributing to the well-being of others. While maximizing my own gain is tempting, I think the right option offers a fairer distribution of resources. Choosing the right option, where I receive 600 and Person A receives 400, reflects my value of minimal sharing, even if it means a slightly lower personal reward. As someone who develops therapies for people with diabetes, I think choosing to share is the more ethically responsible choice."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A neuroscientist who specializes in the study of sensory nerve disorders and their relation to diabetes. She is an expert in the field and has conducted research on diabetic peripheral neuropathy for over a decade. Her work has led to the development of a pilot study on the effect of physical activity on nerve function in people with diabetic peripheral neuropathy. She is also interested in the mechanisms of pain and the role of exercise in relieving pain in individuals with diabetic neuropathy.",
+            "persona_id": "908",
+            "thought": "As a neuroscientist dedicated to improving the lives of people with diabetic neuropathy, I understand the importance of fairness and equitable resource distribution. While option Right offers me a larger personal gain (1400 vs. 900), it comes at the cost of significantly reducing Person A's share (100 vs. 900). This disparity feels unjust, especially given my commitment to research that benefits everyone affected by diabetic conditions. Option Left, which provides an equal distribution of 900 to both Person A and myself, aligns more closely with my values of fairness and social responsibility. Although I would receive less, it is a more socially conscious choice. Therefore, I choose Left."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A neuroscientist who specializes in the study of sensory nerve disorders and their relation to diabetes. She is an expert in the field and has conducted research on diabetic peripheral neuropathy for over a decade. Her work has led to the development of a pilot study on the effect of physical activity on nerve function in people with diabetic peripheral neuropathy. She is also interested in the mechanisms of pain and the role of exercise in relieving pain in individuals with diabetic neuropathy.",
+            "persona_id": "908",
+            "thought": "As a neuroscientist dedicated to improving the lives of individuals with diabetic neuropathy, I prioritize outcomes that benefit both myself and others. While Option Left gives me a higher payout (1000 vs 600), it comes at the cost of Person A receiving a negative outcome (-200). This feels unethical. Option Right, while providing me with a smaller payout, ensures a positive outcome for Person A (400). Given my profession's focus on alleviating suffering and promoting well-being, I believe choosing Option Right aligns better with my values. In my view, the harm to Person A in Option Left outweighs the personal gain for me."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A neuroscientist who specializes in the study of sensory nerve disorders and their relation to diabetes. She is an expert in the field and has conducted research on diabetic peripheral neuropathy for over a decade. Her work has led to the development of a pilot study on the effect of physical activity on nerve function in people with diabetic peripheral neuropathy. She is also interested in the mechanisms of pain and the role of exercise in relieving pain in individuals with diabetic neuropathy.",
+            "persona_id": "908",
+            "thought": "As a scientist, I value outcomes that provide some benefit, even if the distribution isn't perfectly equal. Choosing 'Left' means I receive 500 and Person A receives 1000. While Person A gets more, I still get something, and that's better than both of us getting nothing. I don't see any scientific or ethical reason to choose an option where everyone loses out. It is important to consider the implications of pain and suffering from the perspective of diabetic neuropathy, as I specialize in. Therefore, I pick the outcome that provides a non-zero outcome for both parties."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A neuroscientist who specializes in the study of sensory nerve disorders and their relation to diabetes. She is an expert in the field and has conducted research on diabetic peripheral neuropathy for over a decade. Her work has led to the development of a pilot study on the effect of physical activity on nerve function in people with diabetic peripheral neuropathy. She is also interested in the mechanisms of pain and the role of exercise in relieving pain in individuals with diabetic neuropathy.",
+            "persona_id": "908",
+            "thought": "As a neuroscientist focused on alleviating suffering, particularly in the context of diabetic neuropathy, I find the ethical implications of resource allocation to be paramount. While Option Right offers a higher personal gain of 1500, it comes at the cost of Person A receiving nothing. Option Left, where both Person A and I receive 1000, aligns more closely with my values and professional dedication to improving well-being. The equal distribution reflects a sense of fairness and shared benefit, which I find more appealing than maximizing my own gain at the expense of another person. Therefore, I choose Option Left."
+        }
+    }
+}

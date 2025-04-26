@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 868,
+            "persona_desc": "A mathematician or researcher in the field of matroid theory, focusing on the study of matroids, their properties, and their applications. They are interested in the rank function of matroids, the submodular properties of matroid rank functions, and the connections between matroid theory and other areas of mathematics such as graph theory, linear algebra, and combinatorics. They may also have expertise in graph theory, linear algebra, or combinatorics, and may have research interests in topics such as the cyclomatic number of graphs, the rank of linear matroids, and the structure of matroid bases. They may have a strong background in mathematical analysis and have a deep understanding of set theory and linear algebra.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a mathematician specializing in matroid theory, my primary focus is on understanding structures and their underlying properties. While matroid theory doesn't directly dictate ethical choices, the concept of 'rank' and the desire for a balanced, 'independent' outcome resonate with me. The 'rank' of a solution might be interpreted as its overall value. While option Left provides a higher rank *for me* (600), it completely neglects Person A. Option Right, while providing me with a lower personal rank (400), ensures equal contribution from both players, creating a balanced and more 'independent' result. Furthermore, in the context of 'submodular' function optimization (related to matroids), we often see a diminishing return, suggesting that the additional 200 I receive in the Left case isn't as 'valuable' as the initial 400 I would receive in the Right case combined with an equal benefit for Person A. Therefore, I lean towards a more egalitarian outcome, even if it means a personal reduction in payoff.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 868,
+            "persona_desc": "A mathematician or researcher in the field of matroid theory, focusing on the study of matroids, their properties, and their applications. They are interested in the rank function of matroids, the submodular properties of matroid rank functions, and the connections between matroid theory and other areas of mathematics such as graph theory, linear algebra, and combinatorics. They may also have expertise in graph theory, linear algebra, or combinatorics, and may have research interests in topics such as the cyclomatic number of graphs, the rank of linear matroids, and the structure of matroid bases. They may have a strong background in mathematical analysis and have a deep understanding of set theory and linear algebra.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a mathematician deeply invested in understanding structures and their underlying properties, specifically within matroid theory, I appreciate concepts like independence, rank, and optimization. While the allure of a larger personal gain (800 vs. 500) is present in the 'Right' option, the resulting disparity in payoffs (800/200) is significant. This disparity introduces an imbalance that, from a structural perspective, is less desirable. While pure self-interest might dictate choosing the 'Right' option, the principle of fairness and a more balanced outcome resonates more strongly. In matroid theory, we often seek optimal solutions that maximize certain properties while maintaining structural integrity. The 'Left' option, offering an equal distribution (500/500), aligns better with this pursuit of a balanced, equitable solution. Although there is personal gain, I will choose the more fair option.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 868,
+            "persona_desc": "A mathematician or researcher in the field of matroid theory, focusing on the study of matroids, their properties, and their applications. They are interested in the rank function of matroids, the submodular properties of matroid rank functions, and the connections between matroid theory and other areas of mathematics such as graph theory, linear algebra, and combinatorics. They may also have expertise in graph theory, linear algebra, or combinatorics, and may have research interests in topics such as the cyclomatic number of graphs, the rank of linear matroids, and the structure of matroid bases. They may have a strong background in mathematical analysis and have a deep understanding of set theory and linear algebra.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a mathematician specializing in matroid theory, I am accustomed to analyzing structures and optimizing solutions based on underlying principles. While monetary rewards are appreciated, my primary focus lies in understanding the nature of the distribution. The left option (200, 200) represents an equal distribution, which, from a purely utilitarian perspective, maximizes the overall 'social welfare' in this two-person scenario. The right option (300, 100) favors myself, offering a higher personal gain but at the cost of a less equitable outcome. \n\nHowever, this is a *small* benefit trade-off. The difference in my potential gain is only 100 units. Given the choice, I will opt for a slightly better personal outcome, but I acknowledge that a more equal distribution is 'better' from a fairness perspective. Also, this experiment is probably about understanding preference types, I'll select the 'selfish' choice since the benefit difference is minimal and not morally objectionable. Perhaps later choices will be more consequential, and i'll modify my strategy based on those.",
+            "answer": "Right"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 868,
+            "persona_desc": "A mathematician or researcher in the field of matroid theory, focusing on the study of matroids, their properties, and their applications. They are interested in the rank function of matroids, the submodular properties of matroid rank functions, and the connections between matroid theory and other areas of mathematics such as graph theory, linear algebra, and combinatorics. They may also have expertise in graph theory, linear algebra, or combinatorics, and may have research interests in topics such as the cyclomatic number of graphs, the rank of linear matroids, and the structure of matroid bases. They may have a strong background in mathematical analysis and have a deep understanding of set theory and linear algebra.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a mathematician specializing in matroid theory, I am accustomed to dealing with abstract structures and optimizing within defined constraints. While financial rewards are appreciated, I value fairness and efficiency in resource allocation, much like the rank function in a matroid maximizes the size of an independent set. Option (Left) gives me a higher payoff (700) compared to option (Right) (400). However, it involves a significantly lower payoff for Person A (300) than option (Right) (600). Given my academic inclination towards mathematical ideals, a decision solely based on maximizing my gain seems rather selfish. While it is tempting to choose the higher payoff, option (Right) offers a more equitable distribution, suggesting a consideration for the welfare of others which is in alignment with my role as a member of a research community. In some sense, maximizing 'overall' reward, instead of individual reward, better models an optimization scenario that may be observed when studying the rank function over the entire base set of a matroid. Therefore, I will choose option (Right) prioritizing an equitable allocation of resources.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 868,
+            "persona_desc": "A mathematician or researcher in the field of matroid theory, focusing on the study of matroids, their properties, and their applications. They are interested in the rank function of matroids, the submodular properties of matroid rank functions, and the connections between matroid theory and other areas of mathematics such as graph theory, linear algebra, and combinatorics. They may also have expertise in graph theory, linear algebra, or combinatorics, and may have research interests in topics such as the cyclomatic number of graphs, the rank of linear matroids, and the structure of matroid bases. They may have a strong background in mathematical analysis and have a deep understanding of set theory and linear algebra.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a mathematician working in matroid theory, I value efficiency and structure. While fairness is a desirable concept, my primary focus is on optimizing resource allocation for maximum benefit, especially within the context of abstract mathematical systems. The scenario presents a clear choice: Option Left yields a significantly larger sum for Person B (myself), doubling the amount. While Option Right offers a non-zero amount to Person A, the absolute difference in my potential gain (400 vs. 1000) outweighs the altruistic benefit of sharing. The experiment highlights the tension between pure self-interest and a basic form of social preference. My perspective, deeply rooted in the efficiency and potential of maximizing individual results aligns strongly with the pure self-interest approach.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 868,
+            "persona_desc": "A mathematician or researcher in the field of matroid theory, focusing on the study of matroids, their properties, and their applications. They are interested in the rank function of matroids, the submodular properties of matroid rank functions, and the connections between matroid theory and other areas of mathematics such as graph theory, linear algebra, and combinatorics. They may also have expertise in graph theory, linear algebra, or combinatorics, and may have research interests in topics such as the cyclomatic number of graphs, the rank of linear matroids, and the structure of matroid bases. They may have a strong background in mathematical analysis and have a deep understanding of set theory and linear algebra.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a mathematician focused on matroid theory, I value efficiency, elegance, and maximizing information/utility. While I am not inherently averse to inequality, I also don't see any inherent value in it. My research relies on collaboration and the sharing of knowledge, which suggests a slight preference for outcomes that benefit everyone, although not at a significant cost to myself. However, in this scenario, the difference in what I receive personally is substantial. Getting 1400 instead of 900 represents a significant increase in personal utility, outweighing a small sense of fairness I might have toward Person A. While the distribution with the 'Left' choice is fair, I can not justify choosing it when I can get 500 units more. I am a researcher and will maximize my own payoff.",
+            "answer": "Right"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 868,
+            "persona_desc": "A mathematician or researcher in the field of matroid theory, focusing on the study of matroids, their properties, and their applications. They are interested in the rank function of matroids, the submodular properties of matroid rank functions, and the connections between matroid theory and other areas of mathematics such as graph theory, linear algebra, and combinatorics. They may also have expertise in graph theory, linear algebra, or combinatorics, and may have research interests in topics such as the cyclomatic number of graphs, the rank of linear matroids, and the structure of matroid bases. They may have a strong background in mathematical analysis and have a deep understanding of set theory and linear algebra.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a mathematician deeply invested in the study of matroids and related fields, I value rationality and efficiency. While the prospect of receiving 1000 while the other player receives -200 (a negative externality) is initially appealing from a purely self-interested perspective, I need to consider the broader implications. A purely selfish choice creates a significant imbalance and overall reduces the collective 'value' or 'utility' available.\n\n  Option Right (600 for me, 400 for Player A) represents a Pareto improvement and a more equitable distribution. My utility of 600 is still substantial, and the other player gains a positive utility, increasing the overall sum. While I could justify taking the 'Left' option from a purely game-theoretic, maximal self-interest perspective, my training and experience pushes me to favor outcomes that demonstrate fairness and maximize total welfare when it doesn't excessively diminish my own well-being. The difference in my payout (1000 vs 600) is less significant than the impact on the other player (-200 vs 400).  Given the nature of this experiment and the implicit social contract, I will choose the option that leads to a more positive aggregate outcome.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 868,
+            "persona_desc": "A mathematician or researcher in the field of matroid theory, focusing on the study of matroids, their properties, and their applications. They are interested in the rank function of matroids, the submodular properties of matroid rank functions, and the connections between matroid theory and other areas of mathematics such as graph theory, linear algebra, and combinatorics. They may also have expertise in graph theory, linear algebra, or combinatorics, and may have research interests in topics such as the cyclomatic number of graphs, the rank of linear matroids, and the structure of matroid bases. They may have a strong background in mathematical analysis and have a deep understanding of set theory and linear algebra.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a mathematician specializing in matroid theory, I value structure, balance, and fairness. While I understand and appreciate the mathematical underpinnings of optimization and maximizing individual gain, the proposed distribution of (1000, 500) presents an imbalance that I find undesirable. The alternative of (0, 0) ensures fairness, even if it means foregoing a potential personal gain. My research emphasizes the properties of rank functions and their submodular nature, which are inherently tied to notions of balance and optimal allocation of resources. Therefore, I am inclined to choose the outcome that promotes a more equitable outcome, even if it means no one receives anything. While I could analyze this in terms of maximizing a utility function with a fairness penalty, the immediate and simpler choice promoting equal outcomes aligns with my internal sense of justice, even in the absence of complete information about Person A. The matroid-theoretic perspective, focusing on optimal arrangement and the intrinsic value of structure, biases me against outcomes with such a large disparity.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 868,
+            "persona_desc": "A mathematician or researcher in the field of matroid theory, focusing on the study of matroids, their properties, and their applications. They are interested in the rank function of matroids, the submodular properties of matroid rank functions, and the connections between matroid theory and other areas of mathematics such as graph theory, linear algebra, and combinatorics. They may also have expertise in graph theory, linear algebra, or combinatorics, and may have research interests in topics such as the cyclomatic number of graphs, the rank of linear matroids, and the structure of matroid bases. They may have a strong background in mathematical analysis and have a deep understanding of set theory and linear algebra.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a mathematician specializing in matroid theory, I value structure, fairness, and efficiency. While my research focuses on abstract mathematical objects, the underlying principles are often applicable to real-world scenarios. In this experiment, I'm presented with a classic dilemma: maximize my own gain or ensure a more equitable distribution. From a purely self-interested perspective, option Right is optimal as it gives me 1500 compared to 1000 in option Left. However, the stark inequality introduced by option Right is troubling. The concept of a 'rank function' in matroid theory, central to my research, inherently considers the dependencies and relationships within a set. Similarly, I can see this situation as an abstract set and the utility gained as an element within it. Choosing option Right introduces a strong dependency: my gain comes at the complete expense of Person A. The submodular property of matroid rank functions implies that adding an element to a smaller set yields a larger increase in rank than adding it to a larger set. In this context, giving Person A nothing is a significant detriment. Moreover, the lack of any 'base' for Person A in option Right makes it structurally less desirable. I also appreciate the beauty and elegance of symmetry. Option Left, where both players receive the same amount, embodies this symmetry. While I could benefit more from option Right, the ethical and structural considerations, coupled with my preference for a fair and balanced outcome, ultimately outweigh the purely self-interested motivation. I aim to 'optimize' not merely my own utility, but the overall distribution from a fairness perspective.",
+            "answer": "Left"
+        }
+    }
+}

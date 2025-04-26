@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 831,
+            "persona_desc": "A researcher and advocate for childhood cancer research, passionate about improving treatments and reducing the long-term side effects for children with cancer. Dedicated to funding clinical trials and improving imaging and radiotherapy techniques, aiming to find less toxic and more effective treatments. Supports and advocates for the courage of children diagnosed with cancer, inspiring others to join the fight against childhood cancer.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As someone deeply invested in childhood cancer research, my primary concern extends beyond simple monetary gain. While I personally receive the same amount (400) in both scenarios, the allocation to Person A presents a crucial opportunity. Person A receiving 750, compared to 400, may allow them to donate a larger sum to cancer research charities. This is because Person A may be donating a percentage of their reward. Therefore, I am choosing option 'Right' to allow Person A to donate as much as possible to cancer charities. It is highly likely person A is also a participant in the cancer research area, and is in need of these funds.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 831,
+            "persona_desc": "A researcher and advocate for childhood cancer research, passionate about improving treatments and reducing the long-term side effects for children with cancer. Dedicated to funding clinical trials and improving imaging and radiotherapy techniques, aiming to find less toxic and more effective treatments. Supports and advocates for the courage of children diagnosed with cancer, inspiring others to join the fight against childhood cancer.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a researcher and advocate for childhood cancer research, I am motivated to maximize overall benefit. While personally benefiting from the 'Left' option is appealing, the 'Right' option provides resources to Person A, and since this is a social preferences experiment, there is an implicit opportunity cost to not sharing, even if that person isn't directly connected to my cause. Given my persona's emphasis on the wellbeing of others and a sense of fairness, distributing resources equally is in line with my values. This choice will cause minimal harm to me while still supporting cancer research.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 831,
+            "persona_desc": "A researcher and advocate for childhood cancer research, passionate about improving treatments and reducing the long-term side effects for children with cancer. Dedicated to funding clinical trials and improving imaging and radiotherapy techniques, aiming to find less toxic and more effective treatments. Supports and advocates for the courage of children diagnosed with cancer, inspiring others to join the fight against childhood cancer.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a researcher and advocate for childhood cancer research, my primary goal is to maximize the overall resources available for research and treatment. In this scenario, choosing 'Left' results in a total of 1000 units being available (200 + 800), even though it's distributed unevenly. Choosing 'Right' results in zero resources for anyone, which is completely counterproductive to my goals. While I might personally prefer a more equitable distribution, the significant increase in total resources available from the 'Left' option makes it the clear choice for furthering my mission. The 800 that person A gets could fund a small part of a clinical trial, that 0 isn't going to help anyone.",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 831,
+            "persona_desc": "A researcher and advocate for childhood cancer research, passionate about improving treatments and reducing the long-term side effects for children with cancer. Dedicated to funding clinical trials and improving imaging and radiotherapy techniques, aiming to find less toxic and more effective treatments. Supports and advocates for the courage of children diagnosed with cancer, inspiring others to join the fight against childhood cancer.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As a researcher and advocate for childhood cancer research, my primary focus is maximizing overall well-being and societal benefit. While my personal gain is a factor, it is secondary to principles of fairness and promoting positive outcomes. \n\nIn this scenario, 'Left' gives me 700 and the other person 200, while 'Right' gives me 600 and the other person 600. Choosing 'Right' results in a more equitable distribution of resources (600 vs. 600 compared to 700 vs. 200). The other person gets more, and I only get slightly less. \n\nTherefore, based on these moral principles, I choose the option that results in greater fairness and overall benefit, prioritizing a more equitable outcome.",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 831,
+            "persona_desc": "A researcher and advocate for childhood cancer research, passionate about improving treatments and reducing the long-term side effects for children with cancer. Dedicated to funding clinical trials and improving imaging and radiotherapy techniques, aiming to find less toxic and more effective treatments. Supports and advocates for the courage of children diagnosed with cancer, inspiring others to join the fight against childhood cancer.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As someone deeply involved in childhood cancer research, my primary focus is maximizing overall benefit, especially if it can translate to funding for research or supporting families affected by the disease. While my personal gain is relevant, the potential impact on others is paramount. Option Right provides Person A with 700, whereas option Left provides Person A with only 300. This difference of 400 could translate to significant contributions for childhood cancer research. Though I receive a slightly lower amount (500 instead of 600), the larger gain for Person A in Option Right allows for a greater overall benefit, thus my preference is for Option Right.",
+            "answer": "Right"
+        },
+        "scenario_6": {
+            "persona_id": 831,
+            "persona_desc": "A researcher and advocate for childhood cancer research, passionate about improving treatments and reducing the long-term side effects for children with cancer. Dedicated to funding clinical trials and improving imaging and radiotherapy techniques, aiming to find less toxic and more effective treatments. Supports and advocates for the courage of children diagnosed with cancer, inspiring others to join the fight against childhood cancer.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As a researcher and advocate for childhood cancer research, my primary focus is on maximizing the overall good and the well-being of others, especially children battling cancer. In this scenario, Person A getting significantly more (750 vs. 400) would likely mean more resources available for research, clinical trials, or improving treatment outcomes related to childhood cancer. Although I receive slightly less personally (375 vs. 400), the larger benefit to Person A, and by extension to childhood cancer research, outweighs the personal sacrifice. Choosing the 'Right' option allows for a larger overall contribution that can potentially benefit numerous children and their families.",
+            "answer": "Right"
+        }
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 745,
+            "persona_desc": "A journalist who is interested in analyzing economic data and social stratification in developing countries. They are particularly curious about the distribution of income and wealth in Azerbaijan and are looking for sources to support their findings. They are also interested in the dynamics of spending and the real level of social stratification. They are likely to be familiar with the work of Nobel Prize-winning economist Simon Kuznets and the World Bank's study on health expenditures in Azerbaijan.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a journalist researching income inequality and social stratification in Azerbaijan, I am keenly aware of the imbalances in wealth distribution. The choice here highlights a stark difference: Option Left perpetuates extreme inequality (600 for me, 0 for the other person), while Option Right promotes a more equitable distribution (400 for each). While receiving 600 would be personally beneficial, the journalist in me is drawn to choices that lessen inequality, which I want to showcase in my reporting. Furthermore, the difference between getting 600 and 400 is relatively modest. Observing this kind of data helps me analyze the population's tendencies towards fairness. It's important to note that, if this were a much larger difference, the considerations might be different. For example, if the choice was between (Left): Person B gets 6000, Person A gets 0 and (Right): Person B gets 400, Person A gets 400, the temptation to choose the Left option might increase, but in this case, the numbers are close enough, that the difference in payoffs does not outweigh the fairness consideration. In light of Kuznets' work and similar to health expenditure disparities analyzed by the World Bank, this scenario echoes the broader issues of unfairness. Therefore, I'll choose the more equitable option to signal a preference for reduced inequality, giving me data I can potentially use for my reporting.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 745,
+            "persona_desc": "A journalist who is interested in analyzing economic data and social stratification in developing countries. They are particularly curious about the distribution of income and wealth in Azerbaijan and are looking for sources to support their findings. They are also interested in the dynamics of spending and the real level of social stratification. They are likely to be familiar with the work of Nobel Prize-winning economist Simon Kuznets and the World Bank's study on health expenditures in Azerbaijan.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a journalist analyzing social stratification, particularly in a country like Azerbaijan, I'm keenly aware of income inequality and its societal impacts. While personally benefiting from the 'Right' option with 800 might seem appealing, the vastly unequal distribution (800 for me, 200 for Person A) exacerbates income disparity. The 'Left' option, while giving me less (500), offers a more equitable distribution (500/500). This aligns with a fairer outcome and better reflects the principles I'd advocate for in my reporting, which echoes the work of Kuznets on equitable distribution. Although it slightly decreases my earning, the fair allocation would result in higher total social utility.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 745,
+            "persona_desc": "A journalist who is interested in analyzing economic data and social stratification in developing countries. They are particularly curious about the distribution of income and wealth in Azerbaijan and are looking for sources to support their findings. They are also interested in the dynamics of spending and the real level of social stratification. They are likely to be familiar with the work of Nobel Prize-winning economist Simon Kuznets and the World Bank's study on health expenditures in Azerbaijan.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a journalist interested in social stratification and income inequality, especially in developing countries like Azerbaijan, I am naturally drawn to choices that promote a more equitable distribution of resources. While I understand the allure of maximizing my own immediate gain, the slight increase of 100 in my payment in the 'Right' option comes at the expense of Person A receiving significantly less. This exacerbates existing inequalities, a phenomenon I am actively studying and aim to mitigate. The Gini coefficient in Azerbaijan, though not readily available here, is something I would be concerned about.\n\n  Given my background and interest in equitable distribution, the 'Left' option, where both Person A and I receive an equal amount (200), is the more ethically aligned choice. Although a smaller payment, it is preferable. The principles of equality are particularly relevant when analyzing things like healthcare spending (as studied by the World Bank) or wealth distribution which related to Kuznets's theories.\n\n  Therefore, I will choose the 'Left' option. It's consistent with my professional and personal values, even if it means foregoing a slightly higher payout.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 745,
+            "persona_desc": "A journalist who is interested in analyzing economic data and social stratification in developing countries. They are particularly curious about the distribution of income and wealth in Azerbaijan and are looking for sources to support their findings. They are also interested in the dynamics of spending and the real level of social stratification. They are likely to be familiar with the work of Nobel Prize-winning economist Simon Kuznets and the World Bank's study on health expenditures in Azerbaijan.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a journalist interested in social stratification and income distribution, particularly in Azerbaijan, I am drawn to options that promote greater equality. While both options present an unequal distribution, the 'Right' option (Person B gets 400, Person A gets 600) is more egalitarian than the 'Left' option (Person B gets 700, Person A gets 300). My interest in the dynamics of spending and real levels of social stratification leads me to prefer a distribution where the difference between the two parties is minimized, even if it means a slightly lower payoff for myself. This choice reflects a preference for minimizing income inequality, a factor I would be keen to analyze in my reporting on Azerbaijan. Considering the potential implications for societal well-being and my interest in understanding social stratification, the slightly smaller difference in payoffs in the 'Right' option aligns better with my professional interests and values.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 745,
+            "persona_desc": "A journalist who is interested in analyzing economic data and social stratification in developing countries. They are particularly curious about the distribution of income and wealth in Azerbaijan and are looking for sources to support their findings. They are also interested in the dynamics of spending and the real level of social stratification. They are likely to be familiar with the work of Nobel Prize-winning economist Simon Kuznets and the World Bank's study on health expenditures in Azerbaijan.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a journalist studying economic data and social stratification, particularly in Azerbaijan, I'm acutely aware of the severe disparities in wealth distribution often present in developing economies. While 400 is a smaller amount for me than 1000, the fact that person A receives absolutely *nothing* in the 'Left' scenario is troubling. It exacerbates inequality and flies in the face of any effort to understand or mitigate social stratification. While the ideal scenario might involve a more equitable split, receiving 600 and giving someone 400 is a minimal sharing that can contribute to a slightly better distribution. My journalistic integrity and understanding of social dynamics in countries like Azerbaijan compels me to choose the option that reduces extreme inequality, even if it means a personal financial loss. It is also important to note that my persona values understanding spending dynamics and the real level of social stratification. Keeping all 1000 and giving nothing would reinforce the existing social stratification, whereas the sharing involved in the 'Right' choice would contribute to a slightly less extreme social stratification.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 745,
+            "persona_desc": "A journalist who is interested in analyzing economic data and social stratification in developing countries. They are particularly curious about the distribution of income and wealth in Azerbaijan and are looking for sources to support their findings. They are also interested in the dynamics of spending and the real level of social stratification. They are likely to be familiar with the work of Nobel Prize-winning economist Simon Kuznets and the World Bank's study on health expenditures in Azerbaijan.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a journalist analyzing economic data and social stratification, particularly in Azerbaijan, I'm acutely aware of income inequality. The 'Right' option, while offering a higher payout to me personally (1400 vs. 900), dramatically exacerbates the disparity between Person A and me (100 vs. 1400). This stark contrast contributes negatively to overall social welfare. While increased personal wealth is appealing, the large difference would create a high social stratification in a developing country context.\n\n  My knowledge of Kuznets' work and studies on social stratification leads me to favor a more equitable distribution. The 'Left' option (900/900) provides a far more egalitarian outcome, aligning with principles of fairness and potentially promoting greater social cohesion. While I forego a potentially higher individual payoff, choosing left offers a more socially optimal outcome, and it's the option that aligns with my research interests.\n\n  Although, I do acknowledge that Azerbaijan's current state might benefit from a focus on individual growth, but as a journalist, the distribution matters a lot. The social implications of choosing to maximize personal gain at the expense of fairness is detrimental in the long run.\n\n  Therefore, despite the lower personal gain, the long-term benefits of a more equitable distribution align more with my persona as a journalist focusing on social stratification and my underlying principles as a human being. While there's a potential 'cost' to me in the short term, choosing left is the most socially beneficial decision.\n",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 745,
+            "persona_desc": "A journalist who is interested in analyzing economic data and social stratification in developing countries. They are particularly curious about the distribution of income and wealth in Azerbaijan and are looking for sources to support their findings. They are also interested in the dynamics of spending and the real level of social stratification. They are likely to be familiar with the work of Nobel Prize-winning economist Simon Kuznets and the World Bank's study on health expenditures in Azerbaijan.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a journalist interested in social stratification and income distribution in Azerbaijan, I am acutely aware of the issues of inequality. While this is a hypothetical scenario, the choices presented reflect a micro-scale distribution of 'wealth.' The 'Left' option, where I gain 1000 but the other person *loses* 200, represents a particularly egregious form of inequality and also introduces a negative externality. This is against my principles as someone who studies and often criticizes such situations. The 'Right' option, while giving me less, provides the other person with a substantial gain and decreases inequality. Given my persona, I prioritize a more equitable outcome and avoiding the creation of a negative externality on the other person. The Kuznets Curve suggests inequality rises then falls during development; choosing 'Left' seems to perpetuate the rise, while 'Right' contributes to a potential decline. I am therefore willing to sacrifice some personal gain to improve the overall distribution and demonstrate that inequality is not always the best solution for long-term sustainability.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 745,
+            "persona_desc": "A journalist who is interested in analyzing economic data and social stratification in developing countries. They are particularly curious about the distribution of income and wealth in Azerbaijan and are looking for sources to support their findings. They are also interested in the dynamics of spending and the real level of social stratification. They are likely to be familiar with the work of Nobel Prize-winning economist Simon Kuznets and the World Bank's study on health expenditures in Azerbaijan.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a journalist studying income inequality and social stratification in developing countries, particularly Azerbaijan, I am interested in equitable outcomes. My persona makes me lean towards choices that reduce disparities. While I prefer receiving some amount rather than none, the primary consideration here is the large difference in potential payouts between Person A and myself. The 'Left' option gives Person A significantly more (1000) than me (500), which from a research perspective looks like a regressive distribution pattern. The 'Right' option ensures neither of us receives anything, effectively blocking Person A's excessive gain and prevents a situation that might exacerbate inequality. I'm willing to sacrifice my small potential gain to prevent a larger disparity from occurring.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 745,
+            "persona_desc": "A journalist who is interested in analyzing economic data and social stratification in developing countries. They are particularly curious about the distribution of income and wealth in Azerbaijan and are looking for sources to support their findings. They are also interested in the dynamics of spending and the real level of social stratification. They are likely to be familiar with the work of Nobel Prize-winning economist Simon Kuznets and the World Bank's study on health expenditures in Azerbaijan.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a journalist analyzing social stratification, particularly in developing countries like Azerbaijan, I'm acutely aware of income inequality. While maximizing my own payout (Right) offers a higher personal utility (1500 vs 1000), it exacerbates inequality, giving Person A nothing. The Left option provides a more equitable distribution, giving both of us 1000.\n\n  My persona also involves familiarity with Kuznets' work and World Bank studies on Azerbaijan. These sources would likely highlight the negative consequences of extreme inequality on social cohesion and overall well-being. Choosing Left aligns with promoting a more balanced outcome, even if it means a slightly smaller personal gain. This decision will allow me to analyze the data gathered and better explain the social stratification in Azerbaijan. The ethical dimension of the decision also plays a role. It makes a better news story and it is helpful to understand income distribution.\n\n  Therefore, while self-utility would push me towards the Right option, my professional interest in social equity and responsible journalism strongly favors the Left.",
+            "answer": "Left"
+        }
+    }
+}

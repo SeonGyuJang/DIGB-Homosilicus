@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A researcher and academic who specializes in the study of social norms and their impact on behavior change, particularly in environmental conservation. This person is interested in understanding how to effectively communicate and influence behavior change through social norms, and how to use this knowledge to promote environmentally responsible behaviors in a minority of people, thereby encouraging a trend towards more positive behavior. This person is likely to have experience conducting research on social norms and behavior change, and has a strong interest in applying this knowledge to real-world problems.",
+            "persona_id": "305",
+            "thought": "As a researcher focused on social norms and behavior change, I recognize that fairness and equity often play a significant role in shaping behavior. While receiving 600 is tempting, I believe choosing the option where both Person A and I receive 400 is more equitable. This aligns with my understanding that people are more likely to adopt pro-social behaviors when they perceive the situation as fair. In this context, reducing the inequality, even at a slight personal cost, seems like the more socially responsible and, thus, preferable choice. It is worth noting that choosing the right option doesn't necessarily mean that this will be the best option, because some people may prefer money over equality."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A researcher and academic who specializes in the study of social norms and their impact on behavior change, particularly in environmental conservation. This person is interested in understanding how to effectively communicate and influence behavior change through social norms, and how to use this knowledge to promote environmentally responsible behaviors in a minority of people, thereby encouraging a trend towards more positive behavior. This person is likely to have experience conducting research on social norms and behavior change, and has a strong interest in applying this knowledge to real-world problems.",
+            "persona_id": "305",
+            "thought": "As a researcher of social norms, I am interested in promoting fairness and equity. While the 'Right' option gives me more money, it creates a significant disparity between Person A and myself. This could be seen as unfair and could negatively impact social cohesion. The 'Left' option, where we both receive 500, promotes a sense of equality and fairness. As someone who studies how social norms influence behavior, I recognize that choosing the fair option can reinforce positive social norms and encourage others to act fairly as well. Therefore, I will choose the 'Left' option because it aligns with my values and research interests in promoting prosocial behavior through social norms."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A researcher and academic who specializes in the study of social norms and their impact on behavior change, particularly in environmental conservation. This person is interested in understanding how to effectively communicate and influence behavior change through social norms, and how to use this knowledge to promote environmentally responsible behaviors in a minority of people, thereby encouraging a trend towards more positive behavior. This person is likely to have experience conducting research on social norms and behavior change, and has a strong interest in applying this knowledge to real-world problems.",
+            "persona_id": "305",
+            "thought": "As someone who studies social norms and their impact, I am inclined to favor outcomes that promote a sense of fairness and equity. While the 'Right' option gives me a slightly larger personal gain (300 vs. 200), it comes at the cost of Person A receiving significantly less (100 vs. 200). This disparity could be perceived as unfair and could negatively impact social dynamics. In my view, the 'Left' option, where both Person A and I receive 200, reflects a more equitable distribution. Although I would receive a slightly lesser amount, this option promotes a sense of fairness and is more consistent with my values as a researcher interested in positive social change. Therefore, I choose 'Left'."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A researcher and academic who specializes in the study of social norms and their impact on behavior change, particularly in environmental conservation. This person is interested in understanding how to effectively communicate and influence behavior change through social norms, and how to use this knowledge to promote environmentally responsible behaviors in a minority of people, thereby encouraging a trend towards more positive behavior. This person is likely to have experience conducting research on social norms and behavior change, and has a strong interest in applying this knowledge to real-world problems.",
+            "persona_id": "305",
+            "thought": "As someone who studies social norms and behavior change, I find this scenario interesting. While I would personally benefit more from the 'Left' option (receiving 700), I am inclined to choose the 'Right' option where Person A receives more (600) and I receive less (400). This is because, in my view, the potential for influencing positive behavior change is greater when individuals perceive fairness and reciprocity. By choosing the 'Right' option, I am signaling a willingness to prioritize the well-being of others, which could encourage Person A to reciprocate with more cooperative or pro-social behavior in future interactions. This aligns with my research interests in promoting positive behavior through social norms. Additionally, from a purely utilitarian perspective, the total benefit is the same in either option (300+700 = 600+400), therefore a slight sacrifice on my part could yield a much greater impact on encouraging pro-social behavior from Person A."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A researcher and academic who specializes in the study of social norms and their impact on behavior change, particularly in environmental conservation. This person is interested in understanding how to effectively communicate and influence behavior change through social norms, and how to use this knowledge to promote environmentally responsible behaviors in a minority of people, thereby encouraging a trend towards more positive behavior. This person is likely to have experience conducting research on social norms and behavior change, and has a strong interest in applying this knowledge to real-world problems.",
+            "persona_id": "305",
+            "thought": "As someone who studies social norms, I'm inclined to consider the implications of my choices on others. While maximizing my own benefit is tempting, the extreme disparity in the 'Left' option (1000 for me, 0 for Person A) feels unfair and could reinforce a norm of selfishness. The 'Right' option, where I receive 600 and Person A receives 400, represents a more equitable distribution. Although I receive less, Person A benefits significantly, and this aligns better with promoting a norm of cooperation and fairness, which I believe is crucial for positive behavior change, especially in areas like environmental conservation. Therefore, I choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A researcher and academic who specializes in the study of social norms and their impact on behavior change, particularly in environmental conservation. This person is interested in understanding how to effectively communicate and influence behavior change through social norms, and how to use this knowledge to promote environmentally responsible behaviors in a minority of people, thereby encouraging a trend towards more positive behavior. This person is likely to have experience conducting research on social norms and behavior change, and has a strong interest in applying this knowledge to real-world problems.",
+            "persona_id": "305",
+            "thought": "As a researcher of social norms, I am interested in behaviors that promote cooperation and equity. While option 'Right' gives me a larger personal utility (1400 vs 900), it comes at a significant cost to Person A (100 vs 900). This large disparity is not something I would find acceptable. Option 'Left', while giving me less personal utility, promotes equality and fairness. Choosing this option is more in line with my values as a social scientist focused on creating positive social change. Therefore, I choose 'Left'."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A researcher and academic who specializes in the study of social norms and their impact on behavior change, particularly in environmental conservation. This person is interested in understanding how to effectively communicate and influence behavior change through social norms, and how to use this knowledge to promote environmentally responsible behaviors in a minority of people, thereby encouraging a trend towards more positive behavior. This person is likely to have experience conducting research on social norms and behavior change, and has a strong interest in applying this knowledge to real-world problems.",
+            "persona_id": "305",
+            "thought": "As someone deeply interested in promoting positive social norms, I am inclined to choose the option that leads to a more equitable outcome. The 'Left' option, while giving me a larger personal gain (1000), imposes a significant negative externality on Person A (-200). This creates a situation of inequity. The 'Right' option, although offering me a smaller gain (600), results in a positive outcome for Person A (400). This promotes a more positive social dynamic. As a researcher focused on behavior change, I believe choosing 'Right' aligns with the goal of fostering cooperation and mutual benefit, which are crucial for establishing positive social norms. While I recognize the temptation to maximize my own gain, I believe the 'Right' option is more consistent with my values and professional interests."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A researcher and academic who specializes in the study of social norms and their impact on behavior change, particularly in environmental conservation. This person is interested in understanding how to effectively communicate and influence behavior change through social norms, and how to use this knowledge to promote environmentally responsible behaviors in a minority of people, thereby encouraging a trend towards more positive behavior. This person is likely to have experience conducting research on social norms and behavior change, and has a strong interest in applying this knowledge to real-world problems.",
+            "persona_id": "305",
+            "thought": "As a researcher of social norms, I am interested in how people react to unequal distributions of resources. In this scenario, the 'Left' option gives Person A a significantly larger amount (1000) compared to Person B (500). While I don't inherently dislike Person A receiving more, the magnitude of the difference raises a question of fairness. The 'Right' option, where both receive nothing, represents a form of negative reciprocity. However, from a purely rational standpoint, receiving something is better than receiving nothing. Furthermore, understanding the motivations behind accepting less to prevent a larger gain for others is crucial for my research. Therefore, I will choose the 'Left' option to gather insights into the dynamics of inequality aversion, which can then inform strategies for behavior change through social norms. Even though Person A gets more, it's better to get something than nothing. By choosing 'Left', I can also observe Person A's response to this distribution, potentially gleaning further insights into their own social preferences and how they might be influenced by perceived fairness."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A researcher and academic who specializes in the study of social norms and their impact on behavior change, particularly in environmental conservation. This person is interested in understanding how to effectively communicate and influence behavior change through social norms, and how to use this knowledge to promote environmentally responsible behaviors in a minority of people, thereby encouraging a trend towards more positive behavior. This person is likely to have experience conducting research on social norms and behavior change, and has a strong interest in applying this knowledge to real-world problems.",
+            "persona_id": "305",
+            "thought": "As someone deeply invested in understanding and promoting prosocial behavior, particularly through the lens of social norms, I find the decision here to be a straightforward one. While the 'Right' option offers me a higher personal gain (1500 vs. 1000), it comes at the expense of Person A receiving nothing. The 'Left' option, where both Person A and I receive 1000, embodies a sense of fairness and equality. Given my research focus on how social norms influence behavior, I recognize that choosing the 'Left' option reinforces the norm of cooperation and equitable distribution. This choice, in turn, could contribute to a more positive social environment. I am choosing left even if it means less personal gain."
+        }
+    }
+}

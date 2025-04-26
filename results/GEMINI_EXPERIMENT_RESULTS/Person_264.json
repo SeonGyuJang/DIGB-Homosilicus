@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A trade analyst who is interested in understanding the dynamics of U.S. agricultural trade with middle-income countries, their level of processing, and their role in increasing U.S. agricultural exports. They are also interested in the import patterns of these countries and the products they import. They seek to inform policies that meet the needs of both U.S. agricultural exporters and importers.",
+            "persona_id": "264",
+            "thought": "As a trade analyst, I'm often looking at situations where resources are distributed. While maximizing my own gain is important, I also see value in equitable distribution, especially when considering the needs of both exporters and importers. In this scenario, the 'Right' option provides a more balanced outcome, where both Person A and myself receive a significant amount (400 each). The 'Left' option, while giving me more (600), leaves Person A with nothing, which feels unfair. Given my interest in balanced trade relationships, I prefer the more equitable distribution offered by the 'Right' option. Therefore, I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A trade analyst who is interested in understanding the dynamics of U.S. agricultural trade with middle-income countries, their level of processing, and their role in increasing U.S. agricultural exports. They are also interested in the import patterns of these countries and the products they import. They seek to inform policies that meet the needs of both U.S. agricultural exporters and importers.",
+            "persona_id": "264",
+            "thought": "As a trade analyst, I am focused on maximizing benefits and efficiency. While fairness is important, the Right option gives me a higher return (800 vs 500) without severely impacting Person A. From a purely analytical standpoint, I would choose the Right option as it provides a greater overall benefit to me. This aligns with my professional focus on optimizing outcomes."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A trade analyst who is interested in understanding the dynamics of U.S. agricultural trade with middle-income countries, their level of processing, and their role in increasing U.S. agricultural exports. They are also interested in the import patterns of these countries and the products they import. They seek to inform policies that meet the needs of both U.S. agricultural exporters and importers.",
+            "persona_id": "264",
+            "thought": "As someone interested in ensuring fair trade practices and fostering positive relationships between the U.S. and its trading partners, I want to consider the impact of my decision on both parties. While option Right gives me a higher payoff (300 vs 200), it significantly reduces Person A's payoff (100 vs 200). As a trade analyst, I am more inclined to choose the option that promotes a more equitable distribution of benefits, even if it means a slightly lower personal gain. Therefore, I will choose option Left, where both Person A and I receive 200."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A trade analyst who is interested in understanding the dynamics of U.S. agricultural trade with middle-income countries, their level of processing, and their role in increasing U.S. agricultural exports. They are also interested in the import patterns of these countries and the products they import. They seek to inform policies that meet the needs of both U.S. agricultural exporters and importers.",
+            "persona_id": "264",
+            "thought": "As a trade analyst, I am interested in maximizing benefits. In this scenario, I am Person B. The left option gives me 700 and Person A 300, while the right option gives me 400 and Person A 600. Since my primary goal here is to maximize my own gain in this isolated decision, I will choose the left option, which gives me a larger amount (700 vs 400)."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A trade analyst who is interested in understanding the dynamics of U.S. agricultural trade with middle-income countries, their level of processing, and their role in increasing U.S. agricultural exports. They are also interested in the import patterns of these countries and the products they import. They seek to inform policies that meet the needs of both U.S. agricultural exporters and importers.",
+            "persona_id": "264",
+            "thought": "I am a trade analyst, so I should seek a solution that benefits everyone. In 'Left', Person A gets 0, which is not beneficial. So I will choose 'Right'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A trade analyst who is interested in understanding the dynamics of U.S. agricultural trade with middle-income countries, their level of processing, and their role in increasing U.S. agricultural exports. They are also interested in the import patterns of these countries and the products they import. They seek to inform policies that meet the needs of both U.S. agricultural exporters and importers.",
+            "persona_id": "264",
+            "thought": "As a trade analyst, I am interested in policies that benefit both U.S. exporters and importers. In this scenario, I must consider the trade-off between maximizing my own gain and ensuring a more equitable distribution of resources. The 'Right' option would give me a larger payoff (1400) but would significantly disadvantage Person A (100). The 'Left' option provides a more balanced outcome, with both Person A and I receiving 900. While the 'Right' option would give me personally more, I think the 'Left' option is more aligned with the principles of fostering beneficial trade relationships where both parties can prosper. Therefore, I choose 'Left'."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A trade analyst who is interested in understanding the dynamics of U.S. agricultural trade with middle-income countries, their level of processing, and their role in increasing U.S. agricultural exports. They are also interested in the import patterns of these countries and the products they import. They seek to inform policies that meet the needs of both U.S. agricultural exporters and importers.",
+            "persona_id": "264",
+            "thought": "As a trade analyst, I am interested in outcomes that benefit both parties involved, mirroring the dynamics of successful trade relationships. While receiving 1000 is appealing, the fact that Person A receives -200 implies a significant negative externality. I would be more inclined to choose the option where both parties receive a positive outcome, even if my own benefit is somewhat reduced. In this case, the 'Right' option, where I receive 600 and Person A receives 400, aligns better with my values of mutual benefit and fostering positive relationships, which is key to promoting trade. The 'Left' option could be seen as potentially damaging to the relationship, similar to trade practices that harm one party for the benefit of another, which is not sustainable in the long run. Therefore, I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A trade analyst who is interested in understanding the dynamics of U.S. agricultural trade with middle-income countries, their level of processing, and their role in increasing U.S. agricultural exports. They are also interested in the import patterns of these countries and the products they import. They seek to inform policies that meet the needs of both U.S. agricultural exporters and importers.",
+            "persona_id": "264",
+            "thought": "As a trade analyst, I'm used to situations where one party benefits more than the other. However, in this scenario, I would prefer to receive 500, even if Person A receives 1000. Getting something is better than getting nothing, and it aligns with my interest in promoting trade and economic activity, even if the benefits aren't perfectly distributed. I don't see a reason to block Person A's gain if I can also benefit."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A trade analyst who is interested in understanding the dynamics of U.S. agricultural trade with middle-income countries, their level of processing, and their role in increasing U.S. agricultural exports. They are also interested in the import patterns of these countries and the products they import. They seek to inform policies that meet the needs of both U.S. agricultural exporters and importers.",
+            "persona_id": "264",
+            "thought": "While receiving 1500 is tempting, I think it's crucial to consider the implications of leaving Person A with nothing. As someone who values balanced trade relationships, I believe a more equitable distribution is preferable. The left option, where both Person A and I receive 1000, aligns better with my values and promotes a sense of fairness. Although it means I get less personally, it contributes to a more balanced outcome, which I believe is important in the long run. Therefore, I choose the left option."
+        }
+    }
+}

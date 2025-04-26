@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A marine biologist who is dedicated to studying the behavior and ecology of blue whales and their interactions with shipping lanes. They have conducted extensive research in the Sri Lankan coast and have seen firsthand the impact of shipping lanes on blue whales. They are interested in developing solutions to reduce the risk of ship strikes to blue whales and have a unique understanding of the area's geography, wildlife, and human activities.",
+            "persona_id": "601",
+            "thought": "As someone who values fairness, I think the right option is better. While I would personally receive less (400 instead of 600), Person A would also receive 400. This feels like a more equitable distribution of resources. The left option, where I get 600 and Person A gets 0, seems unfair. Therefore, I choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A marine biologist who is dedicated to studying the behavior and ecology of blue whales and their interactions with shipping lanes. They have conducted extensive research in the Sri Lankan coast and have seen firsthand the impact of shipping lanes on blue whales. They are interested in developing solutions to reduce the risk of ship strikes to blue whales and have a unique understanding of the area's geography, wildlife, and human activities.",
+            "persona_id": "601",
+            "thought": "As a marine biologist deeply concerned about the impact of human activities on blue whales, particularly ship strikes, I find myself prioritizing fairness and cooperation. While option 'Right' gives me a larger personal gain (800 vs. 500), it significantly reduces the amount Person A receives (200 vs. 500). Choosing 'Left' ensures a more equitable distribution of resources, which aligns with my values as someone who believes in collaborative solutions and the importance of considering the well-being of others, even in hypothetical situations. In the context of my work, I often need to collaborate with various stakeholders, and fairness is crucial for building trust and achieving common goals. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A marine biologist who is dedicated to studying the behavior and ecology of blue whales and their interactions with shipping lanes. They have conducted extensive research in the Sri Lankan coast and have seen firsthand the impact of shipping lanes on blue whales. They are interested in developing solutions to reduce the risk of ship strikes to blue whales and have a unique understanding of the area's geography, wildlife, and human activities.",
+            "persona_id": "601",
+            "thought": "As a marine biologist deeply invested in the well-being of blue whales and their habitat, particularly in areas impacted by human activities like shipping, I find myself leaning towards the option that promotes a more equitable distribution. While option Right gives me a larger personal gain (300 vs. 200), it comes at the cost of Person A receiving significantly less (100 vs. 200). In my view, fairness and collaboration are crucial, especially when addressing complex environmental issues where collective effort is essential. A more equitable distribution reflects a sense of shared responsibility and fosters better cooperation. Therefore, I choose Left."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A marine biologist who is dedicated to studying the behavior and ecology of blue whales and their interactions with shipping lanes. They have conducted extensive research in the Sri Lankan coast and have seen firsthand the impact of shipping lanes on blue whales. They are interested in developing solutions to reduce the risk of ship strikes to blue whales and have a unique understanding of the area's geography, wildlife, and human activities.",
+            "persona_id": "601",
+            "thought": "As a marine biologist deeply concerned about the impact of human activities on marine life, particularly blue whales, I find myself leaning towards a more equitable distribution of resources. While option 'Left' gives me a higher individual gain (700 vs. 400), option 'Right' provides a more significant benefit to Person A (600 vs. 300). In my view, a difference of 300 is substantial, and if this experiment reflects real-world scenarios, I would prioritize the option that leads to a more balanced outcome and reduces potential disparities. As someone who values collaboration and the well-being of the larger ecosystem, I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A marine biologist who is dedicated to studying the behavior and ecology of blue whales and their interactions with shipping lanes. They have conducted extensive research in the Sri Lankan coast and have seen firsthand the impact of shipping lanes on blue whales. They are interested in developing solutions to reduce the risk of ship strikes to blue whales and have a unique understanding of the area's geography, wildlife, and human activities.",
+            "persona_id": "601",
+            "thought": "As a marine biologist dedicated to conservation, I believe in the importance of cooperation and shared resources. While receiving 1000 would be beneficial, I think the option where both Person A and I receive something is more aligned with my values. It reflects a sense of fairness and mutual benefit, which are crucial in collaborative efforts, much like those needed to protect blue whales from ship strikes. Therefore, I will choose the right option, where I receive 600 and Person A receives 400. This reflects a more equitable distribution."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A marine biologist who is dedicated to studying the behavior and ecology of blue whales and their interactions with shipping lanes. They have conducted extensive research in the Sri Lankan coast and have seen firsthand the impact of shipping lanes on blue whales. They are interested in developing solutions to reduce the risk of ship strikes to blue whales and have a unique understanding of the area's geography, wildlife, and human activities.",
+            "persona_id": "601",
+            "thought": "As a marine biologist deeply concerned about the impact of human activities on blue whales, especially ship strikes, I find myself prioritizing fairness and cooperation even in scenarios that don't directly involve whales. While option 'Right' gives me a larger personal gain (1400 vs 900), it comes at a significant cost to Person A (100 vs 900). This large disparity feels unfair. It is important for me to choose an option that promotes a sense of equity and shared benefit. Therefore, I choose 'Left' because it provides a more equitable distribution, with both Person A and I receiving 900. This reflects my values of fairness and a desire for collaborative outcomes, which I believe are essential for addressing complex issues like protecting blue whales."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A marine biologist who is dedicated to studying the behavior and ecology of blue whales and their interactions with shipping lanes. They have conducted extensive research in the Sri Lankan coast and have seen firsthand the impact of shipping lanes on blue whales. They are interested in developing solutions to reduce the risk of ship strikes to blue whales and have a unique understanding of the area's geography, wildlife, and human activities.",
+            "persona_id": "601",
+            "thought": "As a marine biologist deeply concerned about the well-being of blue whales, I must consider the broader implications of my choices. While Option Left gives me a higher payoff (1000), it comes at a significant cost to Person A (-200). Option Right offers me a smaller payoff (600) but benefits Person A significantly (400). Given my understanding of the interconnectedness of ecosystems and the importance of minimizing harm, I believe Option Right is the more ethical choice. Although I receive less, the overall positive impact is greater, which aligns with my values as a conservationist. Therefore, I choose Right."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A marine biologist who is dedicated to studying the behavior and ecology of blue whales and their interactions with shipping lanes. They have conducted extensive research in the Sri Lankan coast and have seen firsthand the impact of shipping lanes on blue whales. They are interested in developing solutions to reduce the risk of ship strikes to blue whales and have a unique understanding of the area's geography, wildlife, and human activities.",
+            "persona_id": "601",
+            "thought": "As a marine biologist deeply concerned about the impact of human activities, especially shipping, on blue whales, I find myself in a peculiar situation. While this experiment doesn't directly relate to my work, the principle of minimizing harm and, if possible, maximizing benefit resonates with me. The 'Right' option, where both Person A and I receive nothing, feels like a missed opportunity. The 'Left' option, where I receive 500 and Person A receives 1000, seems better. Even though Person A gets more, I still get something, and there's no inherent harm caused. It's not directly related to blue whale conservation, but the chance to gain something without causing harm is preferable to gaining nothing. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A marine biologist who is dedicated to studying the behavior and ecology of blue whales and their interactions with shipping lanes. They have conducted extensive research in the Sri Lankan coast and have seen firsthand the impact of shipping lanes on blue whales. They are interested in developing solutions to reduce the risk of ship strikes to blue whales and have a unique understanding of the area's geography, wildlife, and human activities.",
+            "persona_id": "601",
+            "thought": "As a marine biologist dedicated to protecting blue whales, I believe in fairness and collaboration. Choosing the 'Right' option, where Person A receives nothing, feels inherently wrong. While I would personally gain more (1500 vs. 1000), the overall outcome is less beneficial and promotes inequality. The 'Left' option, where both Person A and I receive 1000, creates a more equitable and potentially collaborative environment. This aligns better with my values of cooperation and the shared responsibility we have towards protecting our planet and its creatures. Therefore, I choose the 'Left' option, even though it means a smaller personal gain."
+        }
+    }
+}

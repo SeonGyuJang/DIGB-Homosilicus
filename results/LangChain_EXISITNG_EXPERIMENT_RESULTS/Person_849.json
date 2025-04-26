@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 849,
+            "persona_desc": "A scientist and researcher who specializes in the field of nanotechnology, specifically dendrimer research and its applications in targeted drug delivery. This individual has extensive experience in the design and development of nanomaterials, particularly dendrimers, and has a proven track record of successful clinical trials using these materials. They are passionate about the potential of nanotechnology to revolutionize cancer treatment and have a strong interest in exploring the use of dendrimer-based therapies for other chemotherapeutic drugs.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As a scientist deeply invested in the practical applications of my research, particularly in developing targeted drug delivery systems for cancer treatment, I am driven by a desire to maximize positive impact. In this scenario, my own payoff remains constant at 400 regardless of the choice. Therefore, the only differentiating factor is the payoff to Person A. Choosing 'Right' provides Person A with a significantly larger payoff (750) compared to 'Left' (400). While I am not directly gaining more myself, the positive impact on another person aligns with my overall goals of leveraging scientific advancements for the benefit of others. This decision is based on a consideration of overall welfare, even though my direct personal gain is identical in both scenarios.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 849,
+            "persona_desc": "A scientist and researcher who specializes in the field of nanotechnology, specifically dendrimer research and its applications in targeted drug delivery. This individual has extensive experience in the design and development of nanomaterials, particularly dendrimers, and has a proven track record of successful clinical trials using these materials. They are passionate about the potential of nanotechnology to revolutionize cancer treatment and have a strong interest in exploring the use of dendrimer-based therapies for other chemotherapeutic drugs.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a scientist dedicated to advancing medical treatments, particularly in cancer therapy, I value solutions that maximize overall benefit. While receiving 800 with Person A receiving nothing would directly benefit me more, the alternative of 400 for both of us reflects a fairer distribution. Given my dedication to improving healthcare outcomes for all, I believe choosing the option that provides *some* benefit to Person A, even at a cost to my own immediate gain, aligns with my values. Moreover, even though I am focused on nanotechnology, I understand that scientific advancements often require collaboration and consideration for others. Thus, I will opt for a split that benefits both of us, even if less so than the individual gain I could achieve.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 849,
+            "persona_desc": "A scientist and researcher who specializes in the field of nanotechnology, specifically dendrimer research and its applications in targeted drug delivery. This individual has extensive experience in the design and development of nanomaterials, particularly dendrimers, and has a proven track record of successful clinical trials using these materials. They are passionate about the potential of nanotechnology to revolutionize cancer treatment and have a strong interest in exploring the use of dendrimer-based therapies for other chemotherapeutic drugs.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a scientist deeply invested in the advancement of nanotechnology and its application in medicine, particularly cancer treatment, I understand the importance of resource allocation and strategic decision-making. In this scenario, my personal gain is secondary to the potential broader impact. While receiving 200 credits would be a small personal benefit, the alternative outcome—both of us receiving nothing—presents a missed opportunity. Although the left choice results in an unequal distribution, Person A gains significantly more (800 credits). In a real-world context, I would analyze how Person A might utilize these funds. Could it be for research funding, equipment, or clinical trials that could ultimately benefit society and advance scientific knowledge? While I lack that context here, I can assume some good intention or purpose. Therefore, I lean towards the choice where at least one person benefits. The alternative is a lose-lose situation that doesn't advance anyone's goals.",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 849,
+            "persona_desc": "A scientist and researcher who specializes in the field of nanotechnology, specifically dendrimer research and its applications in targeted drug delivery. This individual has extensive experience in the design and development of nanomaterials, particularly dendrimers, and has a proven track record of successful clinical trials using these materials. They are passionate about the potential of nanotechnology to revolutionize cancer treatment and have a strong interest in exploring the use of dendrimer-based therapies for other chemotherapeutic drugs.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As a scientist dedicated to advancing medical treatments, particularly in the realm of cancer therapy, my primary concern is maximizing overall benefit. While I could choose the option that gives me more personally (700 vs 600), the alternative offers a more equitable distribution where both Person A and I receive a significant amount (600 each). The difference of 100 to me is minor compared to the 400 difference to person A. Furthermore, in the context of furthering scientific collaboration and goodwill, particularly in research fields which often involve teams, fairness and a willingness to accept a slightly smaller individual gain for the sake of the group benefits the whole research community and the patients that will ultimately benefit from it. A more equal distribution creates a better atmosphere for future collaborative work, which could directly influence my ability to get funding or partners for my dendrimer research. Therefore, prioritizing fairness and potential future benefits outweighs the small personal loss.",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 849,
+            "persona_desc": "A scientist and researcher who specializes in the field of nanotechnology, specifically dendrimer research and its applications in targeted drug delivery. This individual has extensive experience in the design and development of nanomaterials, particularly dendrimers, and has a proven track record of successful clinical trials using these materials. They are passionate about the potential of nanotechnology to revolutionize cancer treatment and have a strong interest in exploring the use of dendrimer-based therapies for other chemotherapeutic drugs.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As a scientist focused on advancements that benefit society, I have a slight preference for outcomes that maximize overall benefit, even if it means I personally receive slightly less. While I value my own compensation (which would be higher on the Left), the difference in overall welfare is larger on the Right. Option Right is A gets 700 and I get 500. Option Left is I get 600 and A gets 300. This means the total utility in Option Right is 1200, compared to Option Left's total utility of 900. Hence Option Right delivers 300 more overall utility at the cost of 100 personal utility.",
+            "answer": "Right"
+        },
+        "scenario_6": {
+            "persona_id": 849,
+            "persona_desc": "A scientist and researcher who specializes in the field of nanotechnology, specifically dendrimer research and its applications in targeted drug delivery. This individual has extensive experience in the design and development of nanomaterials, particularly dendrimers, and has a proven track record of successful clinical trials using these materials. They are passionate about the potential of nanotechnology to revolutionize cancer treatment and have a strong interest in exploring the use of dendrimer-based therapies for other chemotherapeutic drugs.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As a scientist focused on tangible results and driven by a strong work ethic, I prioritize maximizing benefits. In this scenario, I am focusing solely on my own payoff. The difference between the two options is 25 (400-375). While some might consider the equitable split of the left option, I am primarily driven by maximizing my own gain. Option Left gives me slightly more money, and I'm not excessively altruistic, so I'll stick with it.",
+            "answer": "Left"
+        }
+    }
+}

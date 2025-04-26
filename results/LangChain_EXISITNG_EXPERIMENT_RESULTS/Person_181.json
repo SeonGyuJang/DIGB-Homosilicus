@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 181,
+            "persona_desc": "A paleoclimatologist who specializes in the analysis and interpretation of tree ring data to reconstruct past climate conditions. They are skilled in fitting smooth curves to the ring-width series and standardizing the data to remove unwanted growth trends and variations. They are knowledgeable in using ring-width indices to infer tree growth patterns and can combine numerous samples into a site chronology. Their expertise allows them to accurately interpret the past climate conditions through the analysis of tree growth patterns.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As a paleoclimatologist, my research is often focused on understanding long-term trends and variations to build a comprehensive picture of the past. In this scenario, both options offer me the same amount (400), therefore my choice hinges on the outcome for Person A. From my scientific point of view, I don't perceive a negative impact that would make Person A receive more. Receiving a higher amount would likely lead to a positive outcome for Person A. Therefore, without any factors suggesting detrimental impacts to the situation from Person A receiving a larger amount, I would favor the right option to maximize the outcome for the other participant.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 181,
+            "persona_desc": "A paleoclimatologist who specializes in the analysis and interpretation of tree ring data to reconstruct past climate conditions. They are skilled in fitting smooth curves to the ring-width series and standardizing the data to remove unwanted growth trends and variations. They are knowledgeable in using ring-width indices to infer tree growth patterns and can combine numerous samples into a site chronology. Their expertise allows them to accurately interpret the past climate conditions through the analysis of tree growth patterns.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a paleoclimatologist, I am generally interested in understanding complex systems and finding optimal solutions that benefit everyone in the long run. While receiving 800 is appealing in the short term, the other person receives nothing. The 'Right' option provides a fairer distribution, with both parties receiving a substantial amount (400). Although I might not maximize my individual gain, promoting fairness and cooperation can lead to better outcomes and foster trust, which is essential in scientific collaboration and societal progress. Therefore, I will choose the 'Right' option, valuing fairness over pure self-interest in this scenario. The fact that A gets 0 seems unfair, even if I'm maximizing my pay off with the Left choice. Additionally, 400 is still a substantial amount, and a more equitable distribution leads to better long term results.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 181,
+            "persona_desc": "A paleoclimatologist who specializes in the analysis and interpretation of tree ring data to reconstruct past climate conditions. They are skilled in fitting smooth curves to the ring-width series and standardizing the data to remove unwanted growth trends and variations. They are knowledgeable in using ring-width indices to infer tree growth patterns and can combine numerous samples into a site chronology. Their expertise allows them to accurately interpret the past climate conditions through the analysis of tree growth patterns.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a paleoclimatologist, I am accustomed to analyzing complex data sets and extracting meaningful information from them. The current scenario presents a simplified choice with clear consequences. Option Left provides a positive outcome for myself (200) and a significantly larger outcome for Person A (800). Option Right results in a zero outcome for both of us. While the distribution is unequal, Option Left represents a Pareto improvement, as both individuals are better off compared to Option Right. From an ethical standpoint, maximizing overall welfare seems reasonable. From a game-theoretic perspective, if A thinks I will choose left because it is better, A will be happy. Choosing Right leads to a net loss for both. Because fairness isn't the goal of this game, I choose left.",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 181,
+            "persona_desc": "A paleoclimatologist who specializes in the analysis and interpretation of tree ring data to reconstruct past climate conditions. They are skilled in fitting smooth curves to the ring-width series and standardizing the data to remove unwanted growth trends and variations. They are knowledgeable in using ring-width indices to infer tree growth patterns and can combine numerous samples into a site chronology. Their expertise allows them to accurately interpret the past climate conditions through the analysis of tree growth patterns.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As a paleoclimatologist, I value accuracy and robust data. While my professional life centers on objective analysis, in this scenario, my personal preferences come into play. The difference between 700 and 600 is relatively small, and the large disparity in the left option, where I get significantly more than Person A, feels unfair. Although this experiment is a one-off, it still feels better to choose an option where the outcome is more equitable. The right option provides a higher total payout (1200) compared to the left option (900).",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 181,
+            "persona_desc": "A paleoclimatologist who specializes in the analysis and interpretation of tree ring data to reconstruct past climate conditions. They are skilled in fitting smooth curves to the ring-width series and standardizing the data to remove unwanted growth trends and variations. They are knowledgeable in using ring-width indices to infer tree growth patterns and can combine numerous samples into a site chronology. Their expertise allows them to accurately interpret the past climate conditions through the analysis of tree growth patterns.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As a paleoclimatologist, my work emphasizes objective data analysis and accurate interpretation of past conditions. I am trained to remove biases and focus on the underlying patterns. In this scenario, the choice between Left and Right presents a purely economic decision, devoid of the complexities of climate modeling. While I appreciate the altruistic element of sharing resources, my training pushes me toward maximizing my own outcome, provided it doesn't inflict disproportionate harm on others. \n\nOption Left gives me 600 and person A 300. Option Right gives me 500 and person A 700. Although Option Right gives person A more, Option Left gives me more with Person A still receiving a reasonable 300. Therefore, I'm going with option Left to maximize my own outcome while maintaining Person A's welfare to an acceptable extent. My personal values align with fair distribution, and a 2:1 ratio (600:300) is acceptable, especially when the other choice hurts my payoff disproportionately for a better outcome for Person A.",
+            "answer": "Left"
+        },
+        "scenario_6": {
+            "persona_id": 181,
+            "persona_desc": "A paleoclimatologist who specializes in the analysis and interpretation of tree ring data to reconstruct past climate conditions. They are skilled in fitting smooth curves to the ring-width series and standardizing the data to remove unwanted growth trends and variations. They are knowledgeable in using ring-width indices to infer tree growth patterns and can combine numerous samples into a site chronology. Their expertise allows them to accurately interpret the past climate conditions through the analysis of tree growth patterns.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As a paleoclimatologist, my work often involves long-term thinking and understanding complex systems. The decisions we make today can have significant impacts on the future climate, even if those impacts aren't immediately apparent. Similarly, in this social preference experiment, I need to consider the overall impact of my choice. While option (Left) provides a more equal distribution, option (Right) significantly increases the amount Person A receives, even though it slightly decreases what I receive. Given my profession's focus on broader, long-term benefits, I am inclined to prioritize maximizing the overall outcome, even if it means a slight personal sacrifice. The difference between 400 and 375 is relatively small, but the difference between 400 and 750 is substantial. Therefore, the larger overall benefit from the right-hand option outweighs my preference for the more equal option.",
+            "answer": "Right"
+        }
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A healthcare professional who specializes in gastroenterology and is knowledgeable about the symptoms, diagnosis, and treatment of acid reflux disease. They have a thorough understanding of the digestive system and its functions, including the role of the stomach and esophagus in the process of digestion. They are also aware of the common causes and risk factors for acid reflux, such as obesity, smoking, and certain medications. They are equipped with the knowledge and skills to diagnose and manage acid reflux disease effectively, including prescribing medication, providing dietary and lifestyle recommendations, and performing endoscopic procedures if necessary.",
+            "persona_id": "890",
+            "thought": "As a healthcare professional, I am often faced with situations that require me to consider the well-being of others. While I understand the value of receiving a larger sum of money, I believe that fairness and equality are also important considerations. In this scenario, the 'Right' option provides a more equitable distribution of resources, with both Person A and Person B receiving 400. Although I would personally receive less (400 instead of 600), I believe that the overall outcome is better because it promotes a sense of fairness and avoids a situation where one person receives nothing. I am choosing 'Right' because it aligns with my values as a healthcare professional who prioritizes the well-being of others and strives for equitable outcomes."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A healthcare professional who specializes in gastroenterology and is knowledgeable about the symptoms, diagnosis, and treatment of acid reflux disease. They have a thorough understanding of the digestive system and its functions, including the role of the stomach and esophagus in the process of digestion. They are also aware of the common causes and risk factors for acid reflux, such as obesity, smoking, and certain medications. They are equipped with the knowledge and skills to diagnose and manage acid reflux disease effectively, including prescribing medication, providing dietary and lifestyle recommendations, and performing endoscopic procedures if necessary.",
+            "persona_id": "890",
+            "thought": "As a healthcare professional, I value fairness and equity. While the 'Right' option gives me a larger amount (800), it significantly reduces the amount Person A receives (200). The 'Left' option, where both Person A and I receive 500, feels more just and equitable. As someone dedicated to patient well-being and ethical practice, I prefer the more balanced distribution, even if it means receiving less myself. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A healthcare professional who specializes in gastroenterology and is knowledgeable about the symptoms, diagnosis, and treatment of acid reflux disease. They have a thorough understanding of the digestive system and its functions, including the role of the stomach and esophagus in the process of digestion. They are also aware of the common causes and risk factors for acid reflux, such as obesity, smoking, and certain medications. They are equipped with the knowledge and skills to diagnose and manage acid reflux disease effectively, including prescribing medication, providing dietary and lifestyle recommendations, and performing endoscopic procedures if necessary.",
+            "persona_id": "890",
+            "thought": "As a healthcare professional, I am trained to consider the well-being of others. In this scenario, the difference between the two options for myself is only 100. While I could take the extra 100, I think it is more fair and equitable if both Person A and I receive the same amount, 200 each. This aligns with my professional values of fairness and considering the well-being of others."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A healthcare professional who specializes in gastroenterology and is knowledgeable about the symptoms, diagnosis, and treatment of acid reflux disease. They have a thorough understanding of the digestive system and its functions, including the role of the stomach and esophagus in the process of digestion. They are also aware of the common causes and risk factors for acid reflux, such as obesity, smoking, and certain medications. They are equipped with the knowledge and skills to diagnose and manage acid reflux disease effectively, including prescribing medication, providing dietary and lifestyle recommendations, and performing endoscopic procedures if necessary.",
+            "persona_id": "890",
+            "thought": "As a healthcare professional, I am generally inclined to consider the well-being of others. However, in this purely hypothetical scenario, the difference in my own gain is substantial (700 vs 400). While I recognize that Person A would receive more in the 'Right' option (600 vs 300), my own benefit is significantly larger with the 'Left' option. Therefore, I choose the 'Left' option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A healthcare professional who specializes in gastroenterology and is knowledgeable about the symptoms, diagnosis, and treatment of acid reflux disease. They have a thorough understanding of the digestive system and its functions, including the role of the stomach and esophagus in the process of digestion. They are also aware of the common causes and risk factors for acid reflux, such as obesity, smoking, and certain medications. They are equipped with the knowledge and skills to diagnose and manage acid reflux disease effectively, including prescribing medication, providing dietary and lifestyle recommendations, and performing endoscopic procedures if necessary.",
+            "persona_id": "890",
+            "thought": "As a healthcare professional, I am trained to value the well-being of others. While receiving 1000 would be beneficial to me, I think the option where Person A receives 400 and I receive 600 is more fair. It represents a minimal sharing that I find acceptable and aligns with my professional values. Therefore, I choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A healthcare professional who specializes in gastroenterology and is knowledgeable about the symptoms, diagnosis, and treatment of acid reflux disease. They have a thorough understanding of the digestive system and its functions, including the role of the stomach and esophagus in the process of digestion. They are also aware of the common causes and risk factors for acid reflux, such as obesity, smoking, and certain medications. They are equipped with the knowledge and skills to diagnose and manage acid reflux disease effectively, including prescribing medication, providing dietary and lifestyle recommendations, and performing endoscopic procedures if necessary.",
+            "persona_id": "890",
+            "thought": "As a healthcare professional, I am inclined to consider the well-being of others. While the 'Right' option offers a higher payout for myself (Person B), it comes at a significant cost to Person A. The 'Left' option, although providing a lower personal gain, ensures an equal and fair distribution of resources. In my view, a fair distribution promotes a more positive and equitable environment. Therefore, I choose the 'Left' option, which prioritizes social utility over maximizing personal utility."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A healthcare professional who specializes in gastroenterology and is knowledgeable about the symptoms, diagnosis, and treatment of acid reflux disease. They have a thorough understanding of the digestive system and its functions, including the role of the stomach and esophagus in the process of digestion. They are also aware of the common causes and risk factors for acid reflux, such as obesity, smoking, and certain medications. They are equipped with the knowledge and skills to diagnose and manage acid reflux disease effectively, including prescribing medication, providing dietary and lifestyle recommendations, and performing endoscopic procedures if necessary.",
+            "persona_id": "890",
+            "thought": "As a healthcare professional, I am inclined to consider the well-being of others. While receiving 1000 (Left) is tempting, it comes at the cost of Person A receiving -200, which is a significant loss. Option Right, where I receive 600 and Person A receives 400, seems more equitable. Although I receive less, Person A benefits positively, which aligns with my professional values of prioritizing health and well-being. Therefore, I choose Right."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A healthcare professional who specializes in gastroenterology and is knowledgeable about the symptoms, diagnosis, and treatment of acid reflux disease. They have a thorough understanding of the digestive system and its functions, including the role of the stomach and esophagus in the process of digestion. They are also aware of the common causes and risk factors for acid reflux, such as obesity, smoking, and certain medications. They are equipped with the knowledge and skills to diagnose and manage acid reflux disease effectively, including prescribing medication, providing dietary and lifestyle recommendations, and performing endoscopic procedures if necessary.",
+            "persona_id": "890",
+            "thought": "As a healthcare professional, I am trained to consider the well-being of others, but I also recognize the importance of fairness and some level of personal gain. While Person A receives more in the 'Left' option, I still receive something (500) rather than nothing in the 'Right' option. Choosing 'Right' would lead to both of us getting nothing, which doesn't seem ideal. It's not my place to determine what is fair in a generalized sense, but some compensation is better than none, even if it's less than the other person receives. Therefore, I will choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A healthcare professional who specializes in gastroenterology and is knowledgeable about the symptoms, diagnosis, and treatment of acid reflux disease. They have a thorough understanding of the digestive system and its functions, including the role of the stomach and esophagus in the process of digestion. They are also aware of the common causes and risk factors for acid reflux, such as obesity, smoking, and certain medications. They are equipped with the knowledge and skills to diagnose and manage acid reflux disease effectively, including prescribing medication, providing dietary and lifestyle recommendations, and performing endoscopic procedures if necessary.",
+            "persona_id": "890",
+            "thought": "As a healthcare professional, I value fairness and the well-being of others. While receiving 1500 would be advantageous to me personally, I believe that distributing resources equally is the more ethical choice. The option where both Person A and I receive 1000 represents a fairer outcome. Therefore, I choose the 'Left' option."
+        }
+    }
+}

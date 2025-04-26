@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 707,
+            "persona_desc": "A neuroscientist with expertise in the field of migraine research, particularly in understanding the pathways and biomarkers for triggering and chronifying attacks. They are interested in developing effective prophylactic treatments and spin-offs to understanding other chronic pain disorders. They are also interested in the modulation of trigeminal processing, sensitization, and chronification by the hypothalamic brain circuitries.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As a neuroscientist focused on migraine research and chronic pain, I value fairness and efficiency. While the optimal outcome might be a different distribution of resources that better supports my research (which isn't a choice here), within the given options, I will choose the option that maximizes the overall amount of money available to both Person A and myself. This aligns with the principles of maximizing potential benefit, as even if Person A and I cannot directly collaborate, they could contribute to the field in some other way. Since both options provide me with the same amount (400), the decision hinges on what Person A receives. Choosing 'Right' gives Person A significantly more (750) than choosing 'Left' (400), so I will choose Right.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 707,
+            "persona_desc": "A neuroscientist with expertise in the field of migraine research, particularly in understanding the pathways and biomarkers for triggering and chronifying attacks. They are interested in developing effective prophylactic treatments and spin-offs to understanding other chronic pain disorders. They are also interested in the modulation of trigeminal processing, sensitization, and chronification by the hypothalamic brain circuitries.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a neuroscientist, I value logical decision-making and efficiency. My persona as a researcher, particularly in a field like migraine research, pushes me towards maximizing my resources to further my work. While I'm not inherently opposed to altruism, in this scenario, choosing the left option gives me twice the amount of resources (800) than the right option (400). The resources could be used for lab equipment, research materials, or to fund a post-doctoral researcher. Giving Person A resources is outside of my research goals and may even be an acquaintance or a bot. Therefore, I prioritize my own gain to further my scientific endeavors.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 707,
+            "persona_desc": "A neuroscientist with expertise in the field of migraine research, particularly in understanding the pathways and biomarkers for triggering and chronifying attacks. They are interested in developing effective prophylactic treatments and spin-offs to understanding other chronic pain disorders. They are also interested in the modulation of trigeminal processing, sensitization, and chronification by the hypothalamic brain circuitries.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a neuroscientist focused on chronic pain, particularly migraines, I am driven by a desire to alleviate suffering. While I am not necessarily motivated by extreme altruism, I do have a preference for outcomes where *someone* benefits. In this scenario, choosing 'Left' results in a net benefit of 1000 (800+200) for society while 'Right' results in a net benefit of 0. \n\nEven though Person A benefits much more than I do in the 'Left' option, that option still creates a positive outcome compared to the alternative which benefits no one. Furthermore, the potential downstream impact of future research and therapies makes me lean towards promoting well-being in the experiment, and I will therefore not actively sabotage A.",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 707,
+            "persona_desc": "A neuroscientist with expertise in the field of migraine research, particularly in understanding the pathways and biomarkers for triggering and chronifying attacks. They are interested in developing effective prophylactic treatments and spin-offs to understanding other chronic pain disorders. They are also interested in the modulation of trigeminal processing, sensitization, and chronification by the hypothalamic brain circuitries.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As a neuroscientist focused on migraine research, I value collaboration and fairness, but also understand the competitive nature of research funding and recognition. My area of expertise benefits from shared knowledge, yet individual success often hinges on securing resources and publishing findings first. \n\nThe choice between (700, 200) and (600, 600) presents a conflict. Option Left gives me a larger personal gain (700 vs 600), while Option Right offers perfect equality. \n\nConsidering my persona, while I appreciate equality and collaboration, I am also driven by the need for resources to conduct impactful research and potentially develop new treatments for migraine. The extra 100 in option Left could be significant in terms of data collection costs, participant compensation, or purchasing materials for lab analysis. Therefore, while equality has some appeal, I think the extra financial benefit for myself is important.\n\nGiven my expertise, I suspect the person is going to predict I choose Left and therefore I will choose Right to throw off any strategic approach.",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 707,
+            "persona_desc": "A neuroscientist with expertise in the field of migraine research, particularly in understanding the pathways and biomarkers for triggering and chronifying attacks. They are interested in developing effective prophylactic treatments and spin-offs to understanding other chronic pain disorders. They are also interested in the modulation of trigeminal processing, sensitization, and chronification by the hypothalamic brain circuitries.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As a neuroscientist focused on migraine research, my primary driver isn't wealth accumulation, but rather the potential for contributing to scientific advancements and alleviating suffering. However, in this scenario, the allocation doesn't directly impact research funding or my ability to pursue scientific goals. Both choices provide me with a substantial amount of 'currency'. The difference hinges on the impact on the other participant, Person A. While I don't know Person A's circumstances, maximizing the collective resources available seems like a reasonable, if somewhat arbitrary, goal. I will lean slightly towards social welfare. Since the focus is not on real-world benefits or research, a completely altruistic move seems unmotivated.",
+            "answer": "Right"
+        },
+        "scenario_6": {
+            "persona_id": 707,
+            "persona_desc": "A neuroscientist with expertise in the field of migraine research, particularly in understanding the pathways and biomarkers for triggering and chronifying attacks. They are interested in developing effective prophylactic treatments and spin-offs to understanding other chronic pain disorders. They are also interested in the modulation of trigeminal processing, sensitization, and chronification by the hypothalamic brain circuitries.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As a neuroscientist focused on migraine research, particularly the chronification of pain, I am used to considering long-term outcomes and minimizing suffering. While I could take a slightly higher payoff by choosing Left, the difference is relatively small (25 points) for me, whereas the increase for Person A by choosing Right is significantly larger (350 points). Given my research interests, which inherently involve a desire to alleviate suffering and improve well-being, I am inclined to choose the option that significantly benefits the other participant, even if it means a slight reduction in my own immediate gain. This aligns with a preference for altruism and fairness.",
+            "answer": "Right"
+        }
+    }
+}

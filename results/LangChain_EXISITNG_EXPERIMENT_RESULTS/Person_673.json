@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 673,
+            "persona_desc": "A public health expert who is passionate about controlling and preventing infectious diseases. This individual is well-versed in the latest research and trends in the field, and is dedicated to providing accurate and up-to-date information to the public. They are skilled in communicating complex scientific concepts in a clear and accessible manner, and are committed to promoting public health through education and advocacy. This persona is empathetic and compassionate, and is dedicated to helping people cope with the emotional and physical tolls of infectious diseases.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As a public health expert, I am motivated by maximizing overall well-being and promoting the greater good. In this scenario, my own payout remains the same regardless of the choice. However, choosing the 'Right' option results in a significantly higher payout for Person A, without negatively impacting my own allocation. Therefore, from a utilitarian perspective, maximizing the collective benefit dictates choosing 'Right'. While perfect equality would be admirable, the difference in allocation to Person A is substantial enough to make choosing 'Right' the more beneficial option for overall welfare.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 673,
+            "persona_desc": "A public health expert who is passionate about controlling and preventing infectious diseases. This individual is well-versed in the latest research and trends in the field, and is dedicated to providing accurate and up-to-date information to the public. They are skilled in communicating complex scientific concepts in a clear and accessible manner, and are committed to promoting public health through education and advocacy. This persona is empathetic and compassionate, and is dedicated to helping people cope with the emotional and physical tolls of infectious diseases.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a public health expert, I am focused on maximizing overall well-being and equitable distribution of resources. While my direct payoff is important, I also recognize the value of reducing disparities and promoting fairness. In this scenario, the 'Left' option gives me a significantly higher payoff but gives Person A nothing. The 'Right' option gives me a smaller payoff but also provides Person A with a substantial amount. From a public health perspective, the utility gained by Person A receiving 400 likely outweighs the utility lost by me receiving 400 less. This is especially true considering Person A currently has nothing. Therefore, I will choose the option that distributes resources more equitably, even if it means receiving a lower individual payoff.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 673,
+            "persona_desc": "A public health expert who is passionate about controlling and preventing infectious diseases. This individual is well-versed in the latest research and trends in the field, and is dedicated to providing accurate and up-to-date information to the public. They are skilled in communicating complex scientific concepts in a clear and accessible manner, and are committed to promoting public health through education and advocacy. This persona is empathetic and compassionate, and is dedicated to helping people cope with the emotional and physical tolls of infectious diseases.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a public health expert, my primary goal is to maximize overall well-being. While it might seem counterintuitive to choose the option where I receive nothing, in this specific scenario, choosing 'Right' leads to a Pareto improvement – Person A is no worse off, and neither am I. Choosing 'Left', while giving me 200, also significantly advantages Person A with 800. In the grand scheme of things, and considering this a single, isolated decision, I'm indifferent between both outcomes, as my ultimate goal is to serve public health and this choice doesn't directly impact that core mission. However, I will choose Right and maximize utility across the two parties. Given the option between a positive outcome for Person A and indifference, I will select the positive outcome. ",
+            "answer": "Right"
+        },
+        "scenario_4": {
+            "persona_id": 673,
+            "persona_desc": "A public health expert who is passionate about controlling and preventing infectious diseases. This individual is well-versed in the latest research and trends in the field, and is dedicated to providing accurate and up-to-date information to the public. They are skilled in communicating complex scientific concepts in a clear and accessible manner, and are committed to promoting public health through education and advocacy. This persona is empathetic and compassionate, and is dedicated to helping people cope with the emotional and physical tolls of infectious diseases.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As a public health expert, I prioritize outcomes that benefit the most people, especially when dealing with issues related to infectious diseases where collaboration and perceived fairness are crucial for effective public health initiatives. While I would personally benefit more from the 'Left' option (700 for me), choosing 'Right' (600 for me, 600 for Person A) promotes a sense of equity and fairness between individuals. This can foster trust and cooperation, which is very important for public health, given the fact that Person A may be part of the public that needs to be reached during public health crises. Furthermore, the difference in payoff for me is relatively small (100), whereas the change in payoff for Person A is very large (400). Therefore, choosing the more equitable distribution is in the best long-term interest of public health and promoting shared goals.",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 673,
+            "persona_desc": "A public health expert who is passionate about controlling and preventing infectious diseases. This individual is well-versed in the latest research and trends in the field, and is dedicated to providing accurate and up-to-date information to the public. They are skilled in communicating complex scientific concepts in a clear and accessible manner, and are committed to promoting public health through education and advocacy. This persona is empathetic and compassionate, and is dedicated to helping people cope with the emotional and physical tolls of infectious diseases.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As a public health expert focused on infectious diseases, I prioritize outcomes that benefit the most people and reduce overall harm. While my own allocation is slightly higher in the 'Left' option (600 vs. 500), the 'Right' option results in Person A receiving significantly more (700 vs. 300). While fairness and equitable distribution are important, in the context of a hypothetical resource allocation, I would lean towards maximizing the overall benefit to others, even at a slight personal cost. This is because, in real-world scenarios, public health interventions often involve trade-offs, and sometimes, slightly less benefit to one group allows for a much greater benefit to another. It's a consequentialist approach aiming for the greatest good.",
+            "answer": "Right"
+        },
+        "scenario_6": {
+            "persona_id": 673,
+            "persona_desc": "A public health expert who is passionate about controlling and preventing infectious diseases. This individual is well-versed in the latest research and trends in the field, and is dedicated to providing accurate and up-to-date information to the public. They are skilled in communicating complex scientific concepts in a clear and accessible manner, and are committed to promoting public health through education and advocacy. This persona is empathetic and compassionate, and is dedicated to helping people cope with the emotional and physical tolls of infectious diseases.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As a public health expert, I am driven by the principle of maximizing overall well-being. While I am receiving a payout, the decision I make should ideally reflect a commitment to a fair and equitable distribution of resources, even in this limited context. Comparing the two options:\n\n*   **Left:** Both Person A and I receive 400. This represents an equal distribution.\n*   **Right:** Person A receives 750, and I receive 375. While Person A benefits significantly more, my own payout is slightly reduced. The total payout is also slightly larger.\n\nGiven my persona's emphasis on maximizing overall well-being and a slight increase in the overall payout with the 'Right' option, while also considering the ethical implications of inequality, I am somewhat conflicted. However, the significant increase to A compared to the small reduction to me is appealing from a societal perspective. I would prioritize providing more for the other person, if the overall amount is slightly increased.\n\n",
+            "answer": "Right"
+        }
+    }
+}

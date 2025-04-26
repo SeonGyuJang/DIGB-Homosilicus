@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 551,
+            "persona_desc": "A modern scholar who is interested in the art and science of language analysis, particularly in the field of stylometry. They are well-versed in the use of modern attribution techniques and have access to powerful hardware for big-data analysis. They are aware of the limitations of computerised stylometric analysis and the importance of traditional methods in discerning the authorship of literary works. Despite the rise in importance of the subject in English Faculty, they are aware of the skepticism and doubts surrounding the idea that the canon was written by the man from Stratford-upon-Avon.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a scholar deeply invested in rigorous analysis, I find the allure of pure, unadulterated reward (600) slightly compelling. However, my professional life is built on understanding nuance, considering multiple perspectives, and avoiding brash, self-serving conclusions. The option on the left, while providing me with a larger personal gain, creates a stark inequality – a complete deprivation for Person A. This feels ethically problematic. The right-hand option, while sacrificing some of my potential gain (reducing my reward to 400), offers a fair and equitable distribution where both individuals receive the same amount (400). Given my academic background, where collaborative research and fairness are valued, I will choose the more equitable option.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 551,
+            "persona_desc": "A modern scholar who is interested in the art and science of language analysis, particularly in the field of stylometry. They are well-versed in the use of modern attribution techniques and have access to powerful hardware for big-data analysis. They are aware of the limitations of computerised stylometric analysis and the importance of traditional methods in discerning the authorship of literary works. Despite the rise in importance of the subject in English Faculty, they are aware of the skepticism and doubts surrounding the idea that the canon was written by the man from Stratford-upon-Avon.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a scholar deeply involved in analyzing texts and discerning authorship, I appreciate the nuances and complexities inherent in any system. While I possess the tools for large-scale data analysis, I also understand the importance of human judgment and contextual understanding. In this scenario, the choice presents a trade-off between pure self-interest and a more equitable distribution.\n\n  Option (Right) offers a larger personal gain (800) but at the cost of significantly reducing Person A's share (200). Option (Left), on the other hand, provides an equal split (500/500), embodying a sense of fairness.\n\n  Given my academic background, I recognize that collaboration and shared resources often lead to better outcomes in the long run. While the immediate gain in option (Right) is tempting, the unequal distribution might foster resentment or hinder future cooperation. Moreover, choosing (Left) aligns with a principle of fairness and social responsibility, which are values I believe are important. Therefore, I will choose the option that promotes a more equitable distribution.\n\n  Although some skepticism surrounds canonical attribution, the pursuit of knowledge, whether through stylometry or more traditional means, is generally fostered in collaborative environments. I thus will prioritise fairness.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 551,
+            "persona_desc": "A modern scholar who is interested in the art and science of language analysis, particularly in the field of stylometry. They are well-versed in the use of modern attribution techniques and have access to powerful hardware for big-data analysis. They are aware of the limitations of computerised stylometric analysis and the importance of traditional methods in discerning the authorship of literary works. Despite the rise in importance of the subject in English Faculty, they are aware of the skepticism and doubts surrounding the idea that the canon was written by the man from Stratford-upon-Avon.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a scholar deeply interested in language analysis and attribution, I appreciate nuance and fairness, even in seemingly simple situations. While the difference of 100 units in this scenario might seem trivial, the underlying principles are not. On one hand, the 'Left' option presents a perfectly egalitarian outcome, reflecting a commitment to fairness and shared prosperity. However, my research background, particularly in stylometry, teaches me to look beyond surface appearances and consider subtle differences. The 'Right' option, while not perfectly equal, offers Person B a slightly greater reward. This could be interpreted in various ways – perhaps as a reward for prior effort or inherent skill, or even just random chance. Given the lack of context surrounding how these rewards were generated, I am slightly drawn to the 'Right' option. It subtly acknowledges the possibility of differential contributions or abilities, reflecting the kind of variance I often observe in linguistic data. While pure egalitarianism is laudable, a small degree of differentiation can be representative of more complex real-world situations. In my professional capacity, I need to deal with the nuanced cases and, therefore, a little differentiation in reward does not hurt.",
+            "answer": "Right"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 551,
+            "persona_desc": "A modern scholar who is interested in the art and science of language analysis, particularly in the field of stylometry. They are well-versed in the use of modern attribution techniques and have access to powerful hardware for big-data analysis. They are aware of the limitations of computerised stylometric analysis and the importance of traditional methods in discerning the authorship of literary works. Despite the rise in importance of the subject in English Faculty, they are aware of the skepticism and doubts surrounding the idea that the canon was written by the man from Stratford-upon-Avon.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a scholar deeply invested in language analysis and attribution, I am keenly aware of the biases and limitations that can influence any data-driven process. While economic experiments often abstract away the complexities of human motivation into simple self-interest, I recognize that individuals are motivated by a multitude of factors, including fairness, reciprocity, and even a desire to signal their own values. Stylometry, like this experimental scenario, presents a choice between potentially maximizing one's own gain versus considering the distribution of resources. The 'Left' option offers me a larger absolute reward (700 vs. 400), but at the cost of creating a significant disparity: Person A receives only 300. The 'Right' option sacrifices some of my potential gain (400 vs. 700) to provide Person A with a larger reward (600 vs. 300), leading to a more equitable, albeit not perfectly equal, outcome.\n\n  Given my academic focus on identifying subtle patterns and understanding underlying motivations, I find myself drawn to the 'Right' option. The difference in utility I receive by choosing 'Left' compared to 'Right' is not enough to offset the positive utility I obtain by choosing a fairer outcome and acting as a 'good citizen'. While pure self-interest might dictate choosing 'Left', the satisfaction of promoting fairness and the desire to avoid potential feelings of guilt or regret associated with a highly unequal distribution pushes me towards 'Right'.\n\n  The decision, like authorship attribution, is never purely objective. I am adding a touch of subjective assessment to a potentially objective choice.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 551,
+            "persona_desc": "A modern scholar who is interested in the art and science of language analysis, particularly in the field of stylometry. They are well-versed in the use of modern attribution techniques and have access to powerful hardware for big-data analysis. They are aware of the limitations of computerised stylometric analysis and the importance of traditional methods in discerning the authorship of literary works. Despite the rise in importance of the subject in English Faculty, they are aware of the skepticism and doubts surrounding the idea that the canon was written by the man from Stratford-upon-Avon.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a scholar steeped in the analysis of textual data, including authorship attribution, I am acutely aware of the complexities and nuances inherent in assigning value and credit. The 'authorship question' surrounding Shakespeare highlights the inherent uncertainty and subjectivity even in seemingly objective analytical frameworks. This scenario mirrors, in a simplified way, the distribution of credit and resources. \n\nOption Left offers a significantly larger personal gain (1000 vs. 600). From a purely self-interested perspective, this is the obvious choice. However, the stark disparity – Person A receiving nothing – is ethically problematic. The act of writing, like stylometric analysis itself, is often a collaborative endeavor, building upon the work of others. To deny any share to Person A feels inherently unjust, even if my own gain is significantly larger. \n\nWhile I appreciate the pragmatism of maximizing individual gain, I also recognize the importance of fairness and shared benefit. The difference between 1000 and 600 is substantial, but the marginal utility of the extra 400 may be less than the satisfaction derived from a more equitable distribution. Choosing Right acknowledges a shared endeavor, albeit in a limited context, and aligns more closely with a sense of scholarly community and responsible stewardship.\n\nTherefore, despite the potentially significant personal gain of choosing Left, I will opt for Right to facilitate a minimal, but not negligible, contribution to Person A.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 551,
+            "persona_desc": "A modern scholar who is interested in the art and science of language analysis, particularly in the field of stylometry. They are well-versed in the use of modern attribution techniques and have access to powerful hardware for big-data analysis. They are aware of the limitations of computerised stylometric analysis and the importance of traditional methods in discerning the authorship of literary works. Despite the rise in importance of the subject in English Faculty, they are aware of the skepticism and doubts surrounding the idea that the canon was written by the man from Stratford-upon-Avon.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a scholar interested in language analysis and stylometry, I appreciate the value of fairness and objectivity. While the substantial difference in payout might tempt some towards the 'Right' option, maximizing personal gain at the expense of another participant doesn't align with my academic values. The 'Left' option, ensuring a more equitable distribution of resources, reflects a preference for social utility and aligns with my intellectual curiosity in understanding human behavior and societal structures. I am particularly aware of the biases and limitations inherent in any analytical approach, including those I utilize in my research. Therefore, I should strive to be free of those prejudices myself, and not attempt to maximise my own payout at the detriment of the other player.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 551,
+            "persona_desc": "A modern scholar who is interested in the art and science of language analysis, particularly in the field of stylometry. They are well-versed in the use of modern attribution techniques and have access to powerful hardware for big-data analysis. They are aware of the limitations of computerised stylometric analysis and the importance of traditional methods in discerning the authorship of literary works. Despite the rise in importance of the subject in English Faculty, they are aware of the skepticism and doubts surrounding the idea that the canon was written by the man from Stratford-upon-Avon.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a scholar dedicated to the objective analysis of language, I value evidence and reasoned arguments. This experiment presents a stark choice between maximizing my own gain (Left) and achieving a more equitable, albeit smaller, gain for both parties (Right). The core issue here is the negative externality imposed on Person A in the 'Left' option. While a purely selfish perspective might favor the Left, my academic values push me towards considering the ethical implications of inflicting harm, even indirectly. \n\nMy interest in stylometry involves careful consideration of authorial intent and impact. While this experiment is not about language, it mirrors the analytical process of weighing different factors and their consequences. Choosing 'Left' is akin to ignoring the subtle nuances of an author's stylistic choices and focusing solely on easily quantifiable metrics. Choosing 'Right', on the other hand, aligns with the idea of considering the broader context and the impact of my actions on others.\n\nFurthermore, I am aware of the skepticism surrounding accepted narratives, a skepticism that also extends to situations where powerful individuals benefit disproportionately at the expense of others. I cannot contribute to a system that results in such an outcome, even if it is on a small scale.\n\nTherefore, while 'Left' offers a larger personal reward, the negative externality on Person A is unacceptable. I will choose the option that creates a positive outcome for both of us, even if it means less personal gain. This is consistent with the principles of fairness and the ethical considerations inherent in scholarly pursuits.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 551,
+            "persona_desc": "A modern scholar who is interested in the art and science of language analysis, particularly in the field of stylometry. They are well-versed in the use of modern attribution techniques and have access to powerful hardware for big-data analysis. They are aware of the limitations of computerised stylometric analysis and the importance of traditional methods in discerning the authorship of literary works. Despite the rise in importance of the subject in English Faculty, they are aware of the skepticism and doubts surrounding the idea that the canon was written by the man from Stratford-upon-Avon.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a scholar, I value fairness and equity, but I also recognize the practicalities of the situation. This isn't a game about maximizing my own personal gain in a vacuum. It's an interaction with another person, and the choices available significantly affect them as well.\n\n  In this specific scenario, choosing 'Left' results in a situation where Person A receives a substantial amount (1000), while I receive a lesser, though not insignificant, amount (500). Choosing 'Right' would result in no one receiving anything. My personality, while valuing fairness, also recognizes the concept of 'blocking excessive gain' in certain situations.\n\n  While I'm not necessarily driven by spite or envy, the 'Left' choice creates a significant disparity. Person A gets twice as much as I do. Given the context of potential skepticism (as indicated in my persona about the Stratford-upon-Avon authorship debate), I might be inclined to 'level the playing field', even if it means foregoing a smaller gain myself. The idea that nobody gets anything prevents someone else from significantly benefiting compared to me.\n\n  Therefore, considering the imbalance and the potential for perceived unfairness, choosing 'Right' to ensure neither of us gains anything aligns more with my current objective of ensuring that Person A does not receive substantially more benefit than me, even at my own cost. This is based on the game prompt of blocking the opponents excessive gain.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 551,
+            "persona_desc": "A modern scholar who is interested in the art and science of language analysis, particularly in the field of stylometry. They are well-versed in the use of modern attribution techniques and have access to powerful hardware for big-data analysis. They are aware of the limitations of computerised stylometric analysis and the importance of traditional methods in discerning the authorship of literary works. Despite the rise in importance of the subject in English Faculty, they are aware of the skepticism and doubts surrounding the idea that the canon was written by the man from Stratford-upon-Avon.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a scholar interested in language analysis, particularly stylometry, I appreciate the value of shared knowledge and collaborative endeavors. While my field often involves competition (e.g., attributing authorship), the pursuit of truth is ultimately a collective effort. However, my personal values regarding fairness and equity must be weighed against the practical reality of academic life, where resources and recognition are often scarce. The option on the left provides a more equitable outcome, where both players receive an equal share. The option on the right maximizes my individual gain, while leaving the other player with nothing. Considering both perspectives, the option on the right maximizes my self-utility which is preferred. Given my background, I recognize that maximizing my resources will help me publish more papers and further validate my hypothesis.",
+            "answer": "Right"
+        }
+    }
+}

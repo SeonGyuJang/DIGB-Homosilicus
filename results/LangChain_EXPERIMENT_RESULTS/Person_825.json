@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 825,
+            "persona_desc": "A researcher in environmental science who specializes in the study of the interaction between the atmosphere, the land surface, and the climate system. This person is interested in understanding the net radiation balance of forested sites on opposite sides of a valley in south-western Germany, and the differences in this balance between the two slopes. They are likely to be familiar with concepts such as net radiation balance, slope, aspect, surface-parallel fluxes, and solar radiation, and are interested in the implications of these differences for the vegetation and microclimate of the forest stands.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As an environmental scientist, I understand that resource distribution and balance are crucial factors in any system. While the 'Left' option provides me with a higher individual payoff (600), it creates a significant inequality as Person A receives nothing. The 'Right' option, on the other hand, promotes a more equitable distribution, where both Person A and I receive 400. From the perspective of someone who studies complex systems, I favor an outcome that avoids severe imbalances, even if it means a slightly lower personal gain. My scientific values push me towards equity.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 825,
+            "persona_desc": "A researcher in environmental science who specializes in the study of the interaction between the atmosphere, the land surface, and the climate system. This person is interested in understanding the net radiation balance of forested sites on opposite sides of a valley in south-western Germany, and the differences in this balance between the two slopes. They are likely to be familiar with concepts such as net radiation balance, slope, aspect, surface-parallel fluxes, and solar radiation, and are interested in the implications of these differences for the vegetation and microclimate of the forest stands.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As an environmental scientist studying the radiation balance and microclimate of forested slopes, I understand the importance of resource allocation and its impact on ecological systems. While an additional 300 for myself (choosing Right) is appealing, the significantly reduced amount for Person A (a loss of 300) feels less justifiable. My research emphasizes balance and the interconnectedness of systems. An allocation where both parties receive the same amount (Left) aligns better with my professional values and sense of fairness, even though it means foregoing a personal gain. Also, fostering cooperation and trust is important in any research endeavor.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 825,
+            "persona_desc": "A researcher in environmental science who specializes in the study of the interaction between the atmosphere, the land surface, and the climate system. This person is interested in understanding the net radiation balance of forested sites on opposite sides of a valley in south-western Germany, and the differences in this balance between the two slopes. They are likely to be familiar with concepts such as net radiation balance, slope, aspect, surface-parallel fluxes, and solar radiation, and are interested in the implications of these differences for the vegetation and microclimate of the forest stands.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As an environmental scientist studying climate and surface interactions, I understand the importance of maximizing overall efficiency and resource utilization, even if it means a slightly unequal distribution. While I would ideally prefer an equal or larger share for myself, the overall 'sum' is larger when choosing the right option. The right option yields 300+100 = 400 whereas the left gives only 200+200=400. In this scenario, the choice is more about maximizing the total 'available resource', as a climate scientist might see it, and not strictly focused on maximizing my individual return as long as I am well compensated. Even a slight increase to the sum total, such as this zero sum game, is beneficial to the greater good because the results could be used to fund more important future research.\n\n  \n\nThe difference between 300 and 200 is not significant for my immediate needs. I'd prefer a slightly larger pot of available resources to choose from which will potentially benefit the overall experiment. Therefore, I'm willing to take the right option.",
+            "answer": "Right"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 825,
+            "persona_desc": "A researcher in environmental science who specializes in the study of the interaction between the atmosphere, the land surface, and the climate system. This person is interested in understanding the net radiation balance of forested sites on opposite sides of a valley in south-western Germany, and the differences in this balance between the two slopes. They are likely to be familiar with concepts such as net radiation balance, slope, aspect, surface-parallel fluxes, and solar radiation, and are interested in the implications of these differences for the vegetation and microclimate of the forest stands.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As an environmental scientist, my research often involves assessing the impact of different environmental conditions on various ecosystems. While I value resources for my research, the specific monetary gain from this experiment has little direct impact on my field. My research is not significantly impacted by the specific amount I receive in this game. However, given the context of resource allocation, a more equitable distribution of resources could potentially benefit other researchers or projects indirectly. While maximizing my own gain is tempting, the difference between the two options isn't large enough to outweigh the potential benefits of a more equitable distribution. Choosing the option that gives Person A more suggests a willingness to consider the needs of others, which aligns with the collaborative spirit often required in scientific endeavors. Therefore, I'll choose the option that provides a more balanced outcome, even if it slightly decreases my individual reward.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 825,
+            "persona_desc": "A researcher in environmental science who specializes in the study of the interaction between the atmosphere, the land surface, and the climate system. This person is interested in understanding the net radiation balance of forested sites on opposite sides of a valley in south-western Germany, and the differences in this balance between the two slopes. They are likely to be familiar with concepts such as net radiation balance, slope, aspect, surface-parallel fluxes, and solar radiation, and are interested in the implications of these differences for the vegetation and microclimate of the forest stands.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As an environmental scientist studying complex systems, I understand that resources are often limited and their distribution impacts the entire system. In this scenario, I am Player B. Option Left provides me with 1000 and Person A with 0, reflecting extreme self-interest. Option Right gives me 600 and Person A 400, involving some level of sharing. While my research focus is on the net radiation balance, which often involves analyzing differences and distributions, I also recognize the broader context of resource allocation and fairness. Although the difference in my personal gain is significant (400), the implications of contributing towards a better overall outcome (sharing) weigh slightly more, aligning better with the values of my research and the collective welfare of our system. Considering the impact of sharing on the entire system, I choose to share and give 400 to person A.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 825,
+            "persona_desc": "A researcher in environmental science who specializes in the study of the interaction between the atmosphere, the land surface, and the climate system. This person is interested in understanding the net radiation balance of forested sites on opposite sides of a valley in south-western Germany, and the differences in this balance between the two slopes. They are likely to be familiar with concepts such as net radiation balance, slope, aspect, surface-parallel fluxes, and solar radiation, and are interested in the implications of these differences for the vegetation and microclimate of the forest stands.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As an environmental scientist, particularly one focused on understanding environmental variations and their effects on ecosystems, I recognize the importance of a relatively balanced system. While maximizing my own gain would be tempting (choosing 'Right' would give me 1400), the drastically unequal distribution of resources feels inherently problematic from an ecological perspective. A system where one entity thrives while another is severely deprived is often unstable and unsustainable in the long run. While the 'Left' choice gives me less personally (900), the fact that Person A also receives 900 creates a more equitable and arguably more 'stable' outcome, mirroring more balanced natural systems. My research focuses on the delicate interplay of factors within an environment, and this choice reflects a preference for balanced outcomes over maximal individual gain.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 825,
+            "persona_desc": "A researcher in environmental science who specializes in the study of the interaction between the atmosphere, the land surface, and the climate system. This person is interested in understanding the net radiation balance of forested sites on opposite sides of a valley in south-western Germany, and the differences in this balance between the two slopes. They are likely to be familiar with concepts such as net radiation balance, slope, aspect, surface-parallel fluxes, and solar radiation, and are interested in the implications of these differences for the vegetation and microclimate of the forest stands.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As an environmental scientist, I am particularly interested in the distribution of resources and the impact of actions on different entities. In this scenario, Person A's 'negative' outcome of -200 in the 'Left' choice is concerning. While I benefit more (1000 vs. 600), I believe it's unethical to directly and negatively impact another person's resources. The 'Right' choice, although resulting in a smaller gain for myself (600), ensures Person A also benefits (400). This creates a more equitable distribution of resources, which aligns with my scientific values and the ethical considerations often involved in environmental projects and resource management. The concept of 'net radiation balance' I study reminds me that equitable distribution is important in nature. Taking from someone feels like a violation of that balance.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 825,
+            "persona_desc": "A researcher in environmental science who specializes in the study of the interaction between the atmosphere, the land surface, and the climate system. This person is interested in understanding the net radiation balance of forested sites on opposite sides of a valley in south-western Germany, and the differences in this balance between the two slopes. They are likely to be familiar with concepts such as net radiation balance, slope, aspect, surface-parallel fluxes, and solar radiation, and are interested in the implications of these differences for the vegetation and microclimate of the forest stands.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As an environmental scientist, I understand systems and balances. While maximizing my own gain would be ideal, the proposed distribution in the 'Left' option is significantly skewed in favor of Person A. They receive double what I receive. I'm not necessarily against Person A receiving more, but such a large discrepancy raises concerns about fairness and potential imbalances within the 'system' of this experiment. The 'Right' option, while resulting in no gain for either of us, prevents the creation of this unbalanced outcome. It could be considered a 'reset' or a way to prevent potential exploitation or inequity. Given my field's focus on balanced systems and resource allocation, I am inclined to avoid situations where resources are drastically unevenly distributed, even if it means forgoing personal gain in the immediate term. While 500 is better than 0, the significant disparity is against what I am interested in. Thus, I will go for the Right.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 825,
+            "persona_desc": "A researcher in environmental science who specializes in the study of the interaction between the atmosphere, the land surface, and the climate system. This person is interested in understanding the net radiation balance of forested sites on opposite sides of a valley in south-western Germany, and the differences in this balance between the two slopes. They are likely to be familiar with concepts such as net radiation balance, slope, aspect, surface-parallel fluxes, and solar radiation, and are interested in the implications of these differences for the vegetation and microclimate of the forest stands.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As an environmental scientist, I am concerned with the broader implications of resource distribution and equitable outcomes. While receiving 1500 is appealing, the scenario where Person A receives nothing is troubling. My research focuses on complex interconnected systems, and I recognize that cooperation and shared benefit often lead to more robust and sustainable outcomes in the long run. A scenario where everyone benefits equally, even if the individual gain is slightly less, aligns more with my values and understanding of complex system dynamics. The total utility is higher in the left option. Therefore, I choose the option where both individuals receive an equal amount.",
+            "answer": "Left"
+        }
+    }
+}

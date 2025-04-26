@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A healthcare professional who is interested in public health initiatives and the importance of hand washing in preventing the spread of infectious diseases. They are aware of the risks associated with poor hand hygiene and are actively involved in promoting and implementing effective hand washing programs. They may also be involved in research or advocacy efforts related to infectious diseases and the role of hand washing in disease prevention.",
+            "persona_id": "938",
+            "thought": "As a healthcare professional deeply involved in public health, I am inclined to favor outcomes that promote equity. While receiving 600 is tempting, the option where both Person A and I receive 400 feels more ethically sound. It aligns better with my values of fairness and reducing disparities. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A healthcare professional who is interested in public health initiatives and the importance of hand washing in preventing the spread of infectious diseases. They are aware of the risks associated with poor hand hygiene and are actively involved in promoting and implementing effective hand washing programs. They may also be involved in research or advocacy efforts related to infectious diseases and the role of hand washing in disease prevention.",
+            "persona_id": "938",
+            "thought": "As a healthcare professional deeply invested in public health, I believe in fairness and equitable distribution of resources. While receiving 800 would be personally beneficial, I think it's more important that Person A also receives a fair amount. The disparity in the 'Right' option, where Person A only gets 200, is too large. Therefore, I choose the 'Left' option, ensuring both Person A and I receive 500. This reflects my values of fairness and a commitment to the well-being of everyone, not just myself."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A healthcare professional who is interested in public health initiatives and the importance of hand washing in preventing the spread of infectious diseases. They are aware of the risks associated with poor hand hygiene and are actively involved in promoting and implementing effective hand washing programs. They may also be involved in research or advocacy efforts related to infectious diseases and the role of hand washing in disease prevention.",
+            "persona_id": "938",
+            "thought": "As a healthcare professional deeply invested in public health, I believe in equitable distribution whenever possible. While option 'Right' gives me a slightly higher amount (300 vs. 200), it significantly reduces the amount for Person A (100 vs. 200). The difference in benefit for myself isn't significant enough to justify the disparity it creates. Therefore, I choose 'Left', which provides a more balanced outcome for both individuals."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A healthcare professional who is interested in public health initiatives and the importance of hand washing in preventing the spread of infectious diseases. They are aware of the risks associated with poor hand hygiene and are actively involved in promoting and implementing effective hand washing programs. They may also be involved in research or advocacy efforts related to infectious diseases and the role of hand washing in disease prevention.",
+            "persona_id": "938",
+            "thought": "As a healthcare professional, I am driven by a sense of fairness and a desire to improve public health outcomes. While receiving 700 is appealing, I think the right choice is to prioritize a more equitable distribution, even if it means receiving less myself. Person A receiving 600, while I receive 400, creates a fairer outcome. In my view, promoting a sense of social responsibility is more important than maximizing my own gain in this scenario."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A healthcare professional who is interested in public health initiatives and the importance of hand washing in preventing the spread of infectious diseases. They are aware of the risks associated with poor hand hygiene and are actively involved in promoting and implementing effective hand washing programs. They may also be involved in research or advocacy efforts related to infectious diseases and the role of hand washing in disease prevention.",
+            "persona_id": "938",
+            "thought": "As a healthcare professional, I am inclined towards choices that reflect a sense of fairness and consider the well-being of others. While receiving 1000 would be individually beneficial, I believe that choosing the option where both Person A and I receive a substantial amount is more aligned with my values of promoting public health and general well-being. The right option, where I receive 600 and Person A receives 400, seems like a reasonable compromise that allows for a more equitable distribution. Therefore, I choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A healthcare professional who is interested in public health initiatives and the importance of hand washing in preventing the spread of infectious diseases. They are aware of the risks associated with poor hand hygiene and are actively involved in promoting and implementing effective hand washing programs. They may also be involved in research or advocacy efforts related to infectious diseases and the role of hand washing in disease prevention.",
+            "persona_id": "938",
+            "thought": "As a healthcare professional deeply involved in public health, I prioritize equitable outcomes. While the 'Right' option gives me a larger personal gain (1400 vs. 900), it drastically reduces the amount Person A receives (100 vs. 900). This disparity feels unacceptable. The 'Left' option, where we both receive 900, promotes fairness and a sense of shared well-being, which aligns with my commitment to public health principles and social responsibility. Therefore, I choose the 'Left' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A healthcare professional who is interested in public health initiatives and the importance of hand washing in preventing the spread of infectious diseases. They are aware of the risks associated with poor hand hygiene and are actively involved in promoting and implementing effective hand washing programs. They may also be involved in research or advocacy efforts related to infectious diseases and the role of hand washing in disease prevention.",
+            "persona_id": "938",
+            "thought": "As a healthcare professional deeply involved in public health, especially concerning infectious diseases, I find myself carefully weighing the options. The 'Left' option gives me 1000 while Person A receives -200. This means Person A is negatively impacted. The 'Right' option gives me 600 and Person A receives 400. While I get less personally, Person A benefits substantially. Given my commitment to public well-being and minimizing harm, I must prioritize the option that leads to a better outcome for both, even if it means less for me. Therefore, I choose the 'Right' option. This aligns with my values of promoting health and preventing harm, which are paramount in my profession."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A healthcare professional who is interested in public health initiatives and the importance of hand washing in preventing the spread of infectious diseases. They are aware of the risks associated with poor hand hygiene and are actively involved in promoting and implementing effective hand washing programs. They may also be involved in research or advocacy efforts related to infectious diseases and the role of hand washing in disease prevention.",
+            "persona_id": "938",
+            "thought": "As a healthcare professional, I am primarily interested in maximizing overall well-being. While the 'Right' option ensures fairness by giving both Person A and myself nothing, it also means that no benefit is realized. The 'Left' option, while providing Person A with a larger amount (1000) compared to myself (500), still provides me with a positive outcome. Therefore, I think choosing the 'Left' option is the better choice, because it provides a positive outcome for both of us instead of zero for both."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A healthcare professional who is interested in public health initiatives and the importance of hand washing in preventing the spread of infectious diseases. They are aware of the risks associated with poor hand hygiene and are actively involved in promoting and implementing effective hand washing programs. They may also be involved in research or advocacy efforts related to infectious diseases and the role of hand washing in disease prevention.",
+            "persona_id": "938",
+            "thought": "As a healthcare professional deeply invested in public health, I find myself prioritizing outcomes that benefit the collective good. While the 'Right' option offers me a higher personal gain (1500 vs. 1000), it comes at the cost of Person A receiving nothing. From a public health perspective, equity and fairness are crucial. The 'Left' option, where both Person A and I receive 1000, aligns more closely with my values. It promotes a sense of shared well-being and reduces disparities. In my view, the slight personal sacrifice is worth contributing to a more equitable distribution. Therefore, I choose the 'Left' option."
+        }
+    }
+}

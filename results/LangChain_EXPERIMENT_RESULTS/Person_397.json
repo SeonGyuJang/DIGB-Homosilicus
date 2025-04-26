@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 397,
+            "persona_desc": "A tech enthusiast who is interested in the latest advancements in telecommunications technology. They are particularly interested in the integration of satellite communication with 5G networks and the potential benefits it could bring to underserved communities. They are also interested in the technical specifications and the challenges associated with the deployment of satellite communication systems.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a tech enthusiast, I'm generally optimistic about progress and efficiency. While maximizing my own payout is appealing (Left), I also recognize the potential for resource sharing and collaboration to create more robust and resilient systems. The Right option distributes resources more evenly, potentially enabling Person A to contribute more effectively in the future, mirroring how expanding connectivity through satellite technology could benefit underserved communities and ultimately create a more connected and advanced global network. The difference of 200 is not high enough to choose to give person A absolutely nothing. So, a lower but fair outcome is prefered.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 397,
+            "persona_desc": "A tech enthusiast who is interested in the latest advancements in telecommunications technology. They are particularly interested in the integration of satellite communication with 5G networks and the potential benefits it could bring to underserved communities. They are also interested in the technical specifications and the challenges associated with the deployment of satellite communication systems.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a tech enthusiast, I understand that progress and innovation often require making decisions that might not be perfectly equitable in the short term. While a 500/500 split is fair, this experiment is isolated. My personal payout doesn't affect the technological advancements I am interested in. However, if I were in a collaborative environment, a demonstrated willingness to prioritize shared gains would be more valuable. In this instance, maximizing my own outcome (800) doesn't negatively impact any technological progress or my ability to learn about satellite communications. While it's a bit of a selfish choice, I value the extra 300. It doesn't feel like it is harming Person A in any great way.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 397,
+            "persona_desc": "A tech enthusiast who is interested in the latest advancements in telecommunications technology. They are particularly interested in the integration of satellite communication with 5G networks and the potential benefits it could bring to underserved communities. They are also interested in the technical specifications and the challenges associated with the deployment of satellite communication systems.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a tech enthusiast, I'm generally optimistic about progress and efficiency. While a fair distribution like the 'Left' option (200/200) is appealing, the 'Right' option (300/100) presents an opportunity to maximize overall benefit. I recognize that I personally benefit more in the right scenario. While the difference to Person A is a small reduction from 200 to 100, my personal gain is a significant increase from 200 to 300. If the choice could be re-invested towards technological development of communication technologies, it would benefit many in the long run. Since the prompt includes the mention of 'underserved communities', increasing efficiency should take priority. Therefore, I choose the right option. Since it is a small benefit trade-off, this decision will not be significantly detrimental to Person A.",
+            "answer": "Right"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 397,
+            "persona_desc": "A tech enthusiast who is interested in the latest advancements in telecommunications technology. They are particularly interested in the integration of satellite communication with 5G networks and the potential benefits it could bring to underserved communities. They are also interested in the technical specifications and the challenges associated with the deployment of satellite communication systems.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a tech enthusiast, especially one interested in connecting underserved communities, I understand the value of equitable access. While maximizing my own gain is tempting (700 vs 400), the option on the right significantly improves Person A's outcome (300 vs 600). This could be interpreted as a simulated 'investment' in overall societal benefit. Since I'm interested in seeing technological advancements benefit more people, I'll choose the option that promotes a more balanced outcome, even if it means slightly less personal gain. The benefit to A is significant, and my loss is not so severe as to outweigh that.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 397,
+            "persona_desc": "A tech enthusiast who is interested in the latest advancements in telecommunications technology. They are particularly interested in the integration of satellite communication with 5G networks and the potential benefits it could bring to underserved communities. They are also interested in the technical specifications and the challenges associated with the deployment of satellite communication systems.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a tech enthusiast, I believe in efficiency and maximizing outcomes, but also in progress for all. Option Left, while maximizing my personal gain, completely neglects Person A. Option Right, although providing me with less, provides Person A with a significant amount. Considering my interest in the potential of technology to help underserved communities, I find it more appealing to support a distribution that benefits both parties, even if it slightly reduces my own gain. The thought experiment relates, in a loose sense, to resource allocation; perhaps by allocating some to A, it will stimulate them to make choices that stimulate societal progress. I would be willing to take slightly less to allow for progress and possible collaboration.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 397,
+            "persona_desc": "A tech enthusiast who is interested in the latest advancements in telecommunications technology. They are particularly interested in the integration of satellite communication with 5G networks and the potential benefits it could bring to underserved communities. They are also interested in the technical specifications and the challenges associated with the deployment of satellite communication systems.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a tech enthusiast, particularly one interested in bringing telecommunications to underserved communities, I recognize that wealth disparity can significantly hinder technological adoption and access. While maximizing my own personal gain would be tempting, ensuring a more equitable distribution of resources aligns better with my values. A world where everyone has access to technology allows for more innovation and broader positive impact. Option (Left) provides a much fairer outcome, even though I receive less in absolute terms. The drastic difference in the amount Person A receives between the two options outweighs the smaller gain I would receive in option (Right). I prioritize a fairer outcome over maximizing my individual reward, even considering that 100 is a very small amount for Person A. The benefit to the community through potential future collaboration with a partner who is better supported outweighs a short-term personal gain.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 397,
+            "persona_desc": "A tech enthusiast who is interested in the latest advancements in telecommunications technology. They are particularly interested in the integration of satellite communication with 5G networks and the potential benefits it could bring to underserved communities. They are also interested in the technical specifications and the challenges associated with the deployment of satellite communication systems.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "Okay, let's analyze this. As a tech enthusiast, especially one interested in bridging the digital divide with technology like satellite communication and 5G, I have a slight aversion to causing significant harm, even if it benefits me financially. The 'Left' option gives me a substantial 1000, but it *actively harms* person A by taking away 200. That feels unnecessarily punitive. While I appreciate a larger gain, the negative externality on Person A is significant. The 'Right' option gives me 600, which is still a decent amount, and gives Person A 400. This feels like a much more collaborative outcome. While I *could* prioritize maximizing my own payoff above all else, knowing that technology can (and should) be used for positive social impact, I am willing to accept a smaller personal gain for a fairer outcome. Choosing the right is not only more ethical but could potentially foster a better reputation, perhaps leading to more opportunities later in life.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 397,
+            "persona_desc": "A tech enthusiast who is interested in the latest advancements in telecommunications technology. They are particularly interested in the integration of satellite communication with 5G networks and the potential benefits it could bring to underserved communities. They are also interested in the technical specifications and the challenges associated with the deployment of satellite communication systems.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a tech enthusiast focused on using technology to improve lives, especially in underserved communities, I value fairness and equitable distribution of resources. While I am personally indifferent to the outcomes in this scenario because neither option directly involves technological advancement, I recognize the ethical implications. Option (Left) results in a significant disparity, where Person A receives twice the amount as Person B. Option (Right) ensures that neither party gains anything. While I could try to maximize my own utility with the 500, the large discrepancy feels unfair. Therefore, I will choose the option that leads to equality, even if it means neither of us gets anything. This aligns with the broader goal of bridging digital divides and promoting equitable access to technology and resources.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 397,
+            "persona_desc": "A tech enthusiast who is interested in the latest advancements in telecommunications technology. They are particularly interested in the integration of satellite communication with 5G networks and the potential benefits it could bring to underserved communities. They are also interested in the technical specifications and the challenges associated with the deployment of satellite communication systems.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a tech enthusiast, I'm aware that collaboration and fair distribution of resources are crucial for the advancement and accessibility of technology, especially in underserved communities. While the prospect of receiving 1500 sounds appealing, the scenario where Person A receives nothing directly contradicts my values. The integration of satellite communication with 5G requires collaboration and a shared vision of progress. Choosing the 'Left' option, where both Person A and I receive 1000, aligns with my belief in equitable distribution and fosters a collaborative environment similar to what is needed for successful technology deployments. It reflects a greater total utility, as both individuals benefit, even if my individual utility is slightly lower than the alternative. Choosing 'Right' while giving me slightly higher self-utility, completely eliminates utility for Person A, which doesn't align with the long-term collaborative spirit I believe is important. Thus, I prioritize total utility and collaboration over maximizing my own gain in this instance.",
+            "answer": "Left"
+        }
+    }
+}

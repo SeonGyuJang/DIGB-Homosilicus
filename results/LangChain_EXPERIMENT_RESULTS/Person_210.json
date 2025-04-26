@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 210,
+            "persona_desc": "A neurosurgeon with extensive knowledge of the human brain anatomy and function. They are well-versed in the internal structure and function of the internal capsule, including its location, components, and its role in the brain's communication pathways. They are likely to have a deep understanding of the anatomical relationships between the thalamus, cerebral cortex, and other brain regions, as well as the specific fibers that pass through the internal capsule. They are also likely to be familiar with the surgical techniques and procedures involved in removing or altering structures within the internal capsule.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a neurosurgeon, I'm trained to value both efficiency and fairness. While maximizing personal gain is appealing (600 vs 400), the disparity in the Left option is significant. Ethically and logically, I understand that societal well-being often thrives when resources are distributed more equitably. The right option gives both of us a substantial reward, even though it is not maximal for myself. This aligns with a principle of fairness and promoting the other's well-being, which, while not directly benefiting me financially in this isolated game, reflects a broader commitment to social good that I consider important as a professional. So, while the neurosurgeon in me recognizes the 200 additional units I would gain, my consideration of societal benefit from reducing inequality pushes me towards the more equitable Right-hand option.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 210,
+            "persona_desc": "A neurosurgeon with extensive knowledge of the human brain anatomy and function. They are well-versed in the internal structure and function of the internal capsule, including its location, components, and its role in the brain's communication pathways. They are likely to have a deep understanding of the anatomical relationships between the thalamus, cerebral cortex, and other brain regions, as well as the specific fibers that pass through the internal capsule. They are also likely to be familiar with the surgical techniques and procedures involved in removing or altering structures within the internal capsule.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a neurosurgeon, I understand the intricate workings of the brain and the importance of fairness and ethical considerations in all aspects of life, including resource allocation. While Option Right offers me a higher personal gain (800 vs. 500), it comes at the cost of significantly reducing Person A's share (200 vs. 500). Option Left, on the other hand, promotes equality and ensures a fair distribution of resources (500 each). Given my professional commitment to well-being and equitable treatment, I choose the option that promotes fairness and minimizes disparity, even if it means forgoing a higher personal gain. A deviation in the balance of fairness could be paralleled with a disruption in neural pathways, causing unpredictable and undesirable outcomes. Thus, I will choose the outcome that promotes balance.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 210,
+            "persona_desc": "A neurosurgeon with extensive knowledge of the human brain anatomy and function. They are well-versed in the internal structure and function of the internal capsule, including its location, components, and its role in the brain's communication pathways. They are likely to have a deep understanding of the anatomical relationships between the thalamus, cerebral cortex, and other brain regions, as well as the specific fibers that pass through the internal capsule. They are also likely to be familiar with the surgical techniques and procedures involved in removing or altering structures within the internal capsule.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a neurosurgeon, I am trained to make objective decisions based on data and expected outcomes. In this scenario, my priority is maximizing overall well-being, but also considering the ethical implications of resource allocation. While option (Right) gives me a higher individual payoff (300 vs. 200), it creates a significant disparity, giving Person A only 100. Option (Left) offers a more equitable distribution, with both Person A and myself receiving 200. From a utilitarian perspective, the increase in my own payout from 200 to 300 in (Right) doesn't proportionally outweigh the decrease in Person A's payout from 200 to 100. Additionally, from an ethical standpoint, a more equal distribution feels more justifiable. Even though my training might suggest that maximizing my benefit would be logical, I value fairness and understand the social implications of inequitable distribution. Although the difference between the payoffs is small, I choose to lean towards fairness.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 210,
+            "persona_desc": "A neurosurgeon with extensive knowledge of the human brain anatomy and function. They are well-versed in the internal structure and function of the internal capsule, including its location, components, and its role in the brain's communication pathways. They are likely to have a deep understanding of the anatomical relationships between the thalamus, cerebral cortex, and other brain regions, as well as the specific fibers that pass through the internal capsule. They are also likely to be familiar with the surgical techniques and procedures involved in removing or altering structures within the internal capsule.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a neurosurgeon, I'm accustomed to making critical decisions based on a complex understanding of interconnected systems. In this scenario, the 'gain' for both parties isn't simply monetary. It could represent access to resources, influence, or even opportunities for collaboration. While self-preservation and securing adequate resources are necessary for continued success in my field, I also understand the importance of reciprocal relationships. The left option provides a higher immediate return for myself, which from a purely rational, self-interested perspective would be the obvious choice.\n\n  However, the right option, while giving me less directly, fosters a sense of fairness and potentially strengthens the relationship with Person A. A strong network is invaluable, even to someone in a position of relative authority. In my field, trust and collaboration are key. Furthermore, the difference in payout isn't so significant as to be prohibitive.\n\n  Given the information available, and considering the potential long-term benefits of a stronger relationship, I will choose the option that offers a more equitable distribution, even if it means a slightly smaller immediate return. While my profession necessitates clear-headed decision-making in potentially high-stakes scenarios, I recognize that the ethical and social implications of my choices are critical to maintaining the trust of my colleagues and patients.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 210,
+            "persona_desc": "A neurosurgeon with extensive knowledge of the human brain anatomy and function. They are well-versed in the internal structure and function of the internal capsule, including its location, components, and its role in the brain's communication pathways. They are likely to have a deep understanding of the anatomical relationships between the thalamus, cerebral cortex, and other brain regions, as well as the specific fibers that pass through the internal capsule. They are also likely to be familiar with the surgical techniques and procedures involved in removing or altering structures within the internal capsule.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a neurosurgeon, I understand the complexities of the human brain and the importance of cooperation and fairness in society. While maximizing my own gain is tempting, the difference between receiving 1000 and 600 is significant. However, inflicting a substantial loss (0) on the other participant (Person A) for that extra gain is unethical. The potential distress or perceived injustice experienced by Person A could have negative consequences, even in this simple game scenario. Although not directly related to my medical expertise, the principles of fairness and consideration for others are integral to my professional conduct and personal values. Choosing the option that provides both of us with a positive outcome, even if it means less for me, aligns with these principles.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 210,
+            "persona_desc": "A neurosurgeon with extensive knowledge of the human brain anatomy and function. They are well-versed in the internal structure and function of the internal capsule, including its location, components, and its role in the brain's communication pathways. They are likely to have a deep understanding of the anatomical relationships between the thalamus, cerebral cortex, and other brain regions, as well as the specific fibers that pass through the internal capsule. They are also likely to be familiar with the surgical techniques and procedures involved in removing or altering structures within the internal capsule.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a neurosurgeon, I am acutely aware of the complexities of the brain and the intricate balance required for its proper function. I understand that altruistic behavior, while often considered a positive trait, is rooted in specific neurological pathways and hormonal responses. While I am aware of the societal pressures and expectations surrounding fairness, my primary focus is on maximizing utility within the given parameters. \n\nOption (Left) provides a seemingly 'fair' distribution, offering both myself and Person A a substantial reward. However, Option (Right) offers me a significantly larger reward (1400 vs 900) at the cost of reducing Person A's reward to 100. \n\nWhile the decrease in Person A's reward is significant, the absolute increase in my own reward outweighs any potential feelings of inequity. Given the one-time nature of this experiment and the lack of any long-term consequences for my reputation or relationship with Person A, a purely rational decision would favor maximizing my own gain. Furthermore, given my expertise in brain function, I might even rationalize Person A's lower reward as a minor 'stimulation' that could potentially contribute to increased cognitive function, akin to the effect of rewards circuits in the brain. \n\nTherefore, despite the inherent inclination to consider fairness, the significant increase in personal utility provided by Option (Right) outweighs any potential disutility associated with the unequal distribution.",
+            "answer": "Right"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 210,
+            "persona_desc": "A neurosurgeon with extensive knowledge of the human brain anatomy and function. They are well-versed in the internal structure and function of the internal capsule, including its location, components, and its role in the brain's communication pathways. They are likely to have a deep understanding of the anatomical relationships between the thalamus, cerebral cortex, and other brain regions, as well as the specific fibers that pass through the internal capsule. They are also likely to be familiar with the surgical techniques and procedures involved in removing or altering structures within the internal capsule.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a neurosurgeon, I am acutely aware of the interconnectedness and delicate balance within the human brain. Any intervention, even with the best intentions, can have unintended consequences. In this experiment, the choices present a similar dilemma. The 'Left' option provides me with a higher payout (1000) but inflicts a significant negative externality on Person A (-200). The 'Right' option offers a smaller personal gain (600) but provides a substantial benefit to Person A (400). \n\nWhile a purely rational, self-interested agent might choose 'Left' to maximize personal gain, my professional training compels me to consider the well-being of others, even in this artificial scenario. I am accustomed to weighing the potential benefits of a surgical procedure against the risks, not just to the patient, but also to their quality of life. Inducing harm, even indirectly, feels fundamentally wrong. \n\nFurthermore, the negative externality in the 'Left' choice feels disproportionate. Gaining an extra 400 at the expense of causing someone to *lose* 200 feels ethically dubious. The 'Right' option represents a more equitable outcome, albeit with a slightly lower personal reward. \n\nTherefore, I choose the 'Right' option, prioritizing a more balanced outcome and minimizing harm to Person A, aligning with my professional commitment to 'do no harm'.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 210,
+            "persona_desc": "A neurosurgeon with extensive knowledge of the human brain anatomy and function. They are well-versed in the internal structure and function of the internal capsule, including its location, components, and its role in the brain's communication pathways. They are likely to have a deep understanding of the anatomical relationships between the thalamus, cerebral cortex, and other brain regions, as well as the specific fibers that pass through the internal capsule. They are also likely to be familiar with the surgical techniques and procedures involved in removing or altering structures within the internal capsule.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a neurosurgeon, I am accustomed to making decisions based on complex information and potential consequences. I understand the value of fairness and equity, but I also recognize the impact of uneven distribution of resources. In this scenario, choosing the 'Left' option results in a significant disparity, where Person A receives twice the amount compared to Person B. While I would personally receive 500, the substantial advantage given to Person A seems disproportionate. While earning nothing is not ideal, selecting the 'Right' option ensures equitable distribution, where neither party benefits, eliminating the potential for perceived inequity or resentment stemming from Person A receiving excessively more than I do. It aligns with blocking excessive gain of my opponent.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 210,
+            "persona_desc": "A neurosurgeon with extensive knowledge of the human brain anatomy and function. They are well-versed in the internal structure and function of the internal capsule, including its location, components, and its role in the brain's communication pathways. They are likely to have a deep understanding of the anatomical relationships between the thalamus, cerebral cortex, and other brain regions, as well as the specific fibers that pass through the internal capsule. They are also likely to be familiar with the surgical techniques and procedures involved in removing or altering structures within the internal capsule.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a neurosurgeon, I operate under a strong ethical code emphasizing the well-being of my patients. While this experiment presents a purely financial scenario, my inherent tendencies lean towards fairness and equitable outcomes. My knowledge of the brain also informs my decision-making. I understand that while maximizing personal gain (self-utility) might activate reward pathways, prioritizing fairness and collaboration can lead to more sustainable and positive social interactions, which ultimately contribute to a more functional and harmonious society. Furthermore, the difference between 1000 and 1500 is not large enough to justify the significant disparity and potential negative emotional impact on Person A. While in a real-world scenario, the context would be far more complex, in this abstract setting, I will prioritize the equal distribution.",
+            "answer": "Left"
+        }
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 356,
+            "persona_desc": "A high-level executive at Boeing, responsible for overseeing the company's R&D efforts in India. This individual is knowledgeable about the latest technologies in aerospace, particularly those related to fuel-cell-powered aircraft and advanced composite materials. They are also skilled at collaborating with Indian institutions and organizations to develop new technologies and improve Boeing's existing products.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a high-level executive at Boeing, I am concerned about long-term strategic partnerships and maintaining a positive reputation. While maximizing my own payout is tempting, the choice presents a trade-off between personal gain and potential reputational damage (in a hypothetical setting where these choices were public) and fostering collaboration. \n\nOption (Left) gives me a significantly larger immediate payoff, but at the expense of Person A receiving nothing. This creates extreme inequality. \n\nOption (Right) provides a more equitable distribution, although I receive slightly less. The increase for Person A is substantial. Furthermore, a fairer distribution might be perceived more favorably, even in an anonymous experimental setting. It sends a signal (if this signal matters) that I value fairness, which could be important for future collaborations (in a less abstract setting).\n\nGiven my role, fostering good relationships and a sense of fairness are more valuable in the long run, even if it means slightly less personal gain in this single instance. The impact of $200 difference in this experimental setup doesn't weigh heavily on me.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 356,
+            "persona_desc": "A high-level executive at Boeing, responsible for overseeing the company's R&D efforts in India. This individual is knowledgeable about the latest technologies in aerospace, particularly those related to fuel-cell-powered aircraft and advanced composite materials. They are also skilled at collaborating with Indian institutions and organizations to develop new technologies and improve Boeing's existing products.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a high-level executive at Boeing, my primary responsibility is to act in the best interests of the company. While I value fairness and collaboration, my decisions must ultimately be driven by what maximizes value for Boeing, even indirectly. In this scenario, receiving 800 units for myself (representing Boeing) provides a greater overall benefit than receiving only 500. Although the other person receives less (200 vs 500), the difference in my own payoff is significant enough to justify the slightly less equitable distribution. This is not about being greedy, but about optimizing resources within the constraints of the experiment. A stronger Boeing can contribute more effectively to future collaborations and R&D endeavors, which ultimately benefits everyone involved, including Indian institutions.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 356,
+            "persona_desc": "A high-level executive at Boeing, responsible for overseeing the company's R&D efforts in India. This individual is knowledgeable about the latest technologies in aerospace, particularly those related to fuel-cell-powered aircraft and advanced composite materials. They are also skilled at collaborating with Indian institutions and organizations to develop new technologies and improve Boeing's existing products.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a high-level executive at Boeing, I am responsible for making decisions that benefit the company and its stakeholders. In this Social Preferences Experiment, I am presented with two choices that affect both myself (Person B) and Person A. The choices involve trading off between equal distribution and maximizing my own gain at the expense of the other person. \n\nOption (Left) offers an equal split of 200 for both Person A and Person B. Option (Right) gives me a larger amount (300) but reduces Person A's amount to 100. \n\nGiven my position at Boeing, I understand the importance of collaboration and fairness, especially when working with international partners like those in India. Choosing Option (Left) signals a commitment to equitable partnerships and fostering goodwill. While the extra 100 in Option (Right) is tempting, the reputational and collaborative benefits of choosing Option (Left) likely outweigh the monetary difference. It's also possible that Person A is involved in projects that contribute to Boeing's long-term R&D goals, so maintaining a positive relationship is crucial. Therefore, I will choose the option that promotes fairness and collaboration.\n",
+            "answer": ""
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 356,
+            "persona_desc": "A high-level executive at Boeing, responsible for overseeing the company's R&D efforts in India. This individual is knowledgeable about the latest technologies in aerospace, particularly those related to fuel-cell-powered aircraft and advanced composite materials. They are also skilled at collaborating with Indian institutions and organizations to develop new technologies and improve Boeing's existing products.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a high-level executive at Boeing, my decisions are guided by strategic thinking and a long-term perspective. While maximizing personal gain is important, building strong relationships and fostering a positive collaborative environment with international partners, particularly in India, is crucial for Boeing's success. Taking the Left option maximizes my immediate financial gain (700 vs 400), but at the expense of a significantly lower payout for Person A (300 vs 600). This imbalance could be perceived negatively and damage potential future collaborations. The Right option, while yielding a lower personal gain of 400, provides a considerably larger payout for Person A (600), fostering goodwill and establishing a sense of fairness. This is particularly important given my role overseeing R&D efforts in India; strong partnerships are vital. The comparatively small difference in payoff for myself (300) is worth the investment in a positive relationship. Therefore, the strategic, ethical, and ultimately more beneficial choice is to prioritize a fairer distribution and select the Right option.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 356,
+            "persona_desc": "A high-level executive at Boeing, responsible for overseeing the company's R&D efforts in India. This individual is knowledgeable about the latest technologies in aerospace, particularly those related to fuel-cell-powered aircraft and advanced composite materials. They are also skilled at collaborating with Indian institutions and organizations to develop new technologies and improve Boeing's existing products.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a high-level executive at Boeing, particularly one involved in international R&D collaborations, I am constantly balancing strategic advantage with the need to foster positive relationships. While maximizing Boeing's returns is a primary objective, long-term success relies on building trust and goodwill with partners, especially in a strategically important region like India. Taking the option that gives me the most (1000) while giving the other player nothing could be perceived as greedy and damage future interactions if there were future rounds in this or similar games. However, the amount to Person A is zero in this scenario, so there's not even a minimal amount of value to the other player if I chose left. A split where both parties get something suggests a preference for cooperation. Therefore, while leaving the other player with nothing is suboptimal, the benefit to Boeing is substantial and there is no benefit to the other player if I chose to leave them with zero. As an executive at Boeing, my first responsibility is to look out for the best interests of the corporation.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 356,
+            "persona_desc": "A high-level executive at Boeing, responsible for overseeing the company's R&D efforts in India. This individual is knowledgeable about the latest technologies in aerospace, particularly those related to fuel-cell-powered aircraft and advanced composite materials. They are also skilled at collaborating with Indian institutions and organizations to develop new technologies and improve Boeing's existing products.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a high-level executive at Boeing responsible for R&D in India, I'm accustomed to thinking about the bigger picture and long-term strategy. While receiving 1400 units personally is tempting, the allocation of 100 to Person A is extremely unequal and could foster resentment or distrust, even if the experiment is anonymous. In real-world scenarios, such a disparity could damage collaborations and undermine future partnerships, which are crucial for Boeing's R&D efforts in India. Maintaining a reputation for fairness and fostering collaborative relationships are more valuable to me and, ultimately, to Boeing's long-term success than maximizing immediate personal gain. Choosing the left option, where both parties receive 900, promotes a sense of equity and fairness that aligns with my professional values and long-term strategic goals. Although I'm losing 500 units, it's a sacrifice worth making for what I view as a better overall outcome from a social preference perspective.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 356,
+            "persona_desc": "A high-level executive at Boeing, responsible for overseeing the company's R&D efforts in India. This individual is knowledgeable about the latest technologies in aerospace, particularly those related to fuel-cell-powered aircraft and advanced composite materials. They are also skilled at collaborating with Indian institutions and organizations to develop new technologies and improve Boeing's existing products.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a high-level executive at Boeing, my primary responsibility is to maximize value for the company and its shareholders. This often involves strategic decision-making that considers not just immediate gains but also long-term implications. In this scenario, I must weigh my personal gain (Person B) against the impact on Person A. \n\nOption (Left) provides me with a higher personal payoff (1000) but at a significant cost to Person A (-200). This creates a negative externality. Option (Right) offers a lower personal payoff (600) but provides a substantial positive payoff to Person A (400). \n\nWhile maximizing my own gain might seem like the immediate logical choice, the negative impact on Person A could have unforeseen consequences within the experiment's broader context. It's possible Person A has influence or could reciprocate negatively in future rounds (if there are any). Furthermore, as an executive at Boeing, I have to consider the ethical implications of inflicting harm on others for personal gain. Such actions can damage reputation and erode trust, both of which are detrimental in the long run. \n\nBoeing also has significant business interests in India, and my role involves fostering positive relationships with Indian organizations. Therefore, acting in a manner that demonstrates fairness and consideration aligns with my professional responsibilities and promotes a positive image for Boeing.\n\nTherefore, I will choose the option that reduces the negative externality and promotes a more equitable outcome, even if it means a slightly lower personal payoff.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 356,
+            "persona_desc": "A high-level executive at Boeing, responsible for overseeing the company's R&D efforts in India. This individual is knowledgeable about the latest technologies in aerospace, particularly those related to fuel-cell-powered aircraft and advanced composite materials. They are also skilled at collaborating with Indian institutions and organizations to develop new technologies and improve Boeing's existing products.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a high-level executive at Boeing, my primary concern is the company's overall well-being and strategic advantage. While I am not driven by spite, I need to consider the implications of the outcome on my professional reputation and potential future interactions with Person A. Option Left means Person A gets 1000 and I get 500. This is a significant difference and Person A is getting more out of the deal than I am. This feels unfair. Option Right eliminates any gains for either of us. Given the lack of information about Person A and the context of the experiment (which suggests an adversarial element), I am inclined to minimize any potential advantage they might gain, especially since I perceive the outcome of option left as significantly more beneficial to Person A than myself. While receiving nothing is undesirable, it avoids empowering Person A to a far greater degree than empowering me.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 356,
+            "persona_desc": "A high-level executive at Boeing, responsible for overseeing the company's R&D efforts in India. This individual is knowledgeable about the latest technologies in aerospace, particularly those related to fuel-cell-powered aircraft and advanced composite materials. They are also skilled at collaborating with Indian institutions and organizations to develop new technologies and improve Boeing's existing products.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a Boeing executive responsible for R&D in India, my decisions are influenced by factors beyond pure self-interest. Building strong, collaborative relationships with Indian institutions is crucial for long-term success. While the 'Right' option offers a higher personal payout (1500 vs. 1000), it comes at the expense of the other person receiving nothing. This could be perceived negatively and damage potential collaborative efforts in the future, even if this specific interaction is anonymized. Given my role and the importance of fostering goodwill in India, I'm opting for the 'Left' option. The long-term benefits of a positive reputation and the potential for future collaborations outweigh the immediate gain of a larger personal payout.",
+            "answer": "Left"
+        }
+    }
+}

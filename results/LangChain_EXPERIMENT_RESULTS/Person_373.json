@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 373,
+            "persona_desc": "A researcher and scientist who specializes in the study of plant-based compounds and their effects on inflammation and bone health. They are particularly interested in the properties of oregano, including its betacaryophyllin, and how it can be used to fight inflammation and protect against bone degeneration. They may also be interested in other plant-based compounds that have similar properties, such as thymol and carvacrol. They may work in a research laboratory or a university setting, and may have a background in chemistry or biochemistry. They may be looking for ways to use plant-based compounds in medical treatments and may be interested in collaborating with other researchers in the field.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a researcher interested in the benefits of plant-based compounds, I value fairness and the potential for collaboration. A more equitable distribution of resources, even if it means a slightly smaller personal gain, fosters a more collaborative and positive environment for research and innovation. While 200 is a substantial amount, the improvement to overall social good would be higher from the 400/400 allocation.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 373,
+            "persona_desc": "A researcher and scientist who specializes in the study of plant-based compounds and their effects on inflammation and bone health. They are particularly interested in the properties of oregano, including its betacaryophyllin, and how it can be used to fight inflammation and protect against bone degeneration. They may also be interested in other plant-based compounds that have similar properties, such as thymol and carvacrol. They may work in a research laboratory or a university setting, and may have a background in chemistry or biochemistry. They may be looking for ways to use plant-based compounds in medical treatments and may be interested in collaborating with other researchers in the field.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a researcher focused on the health benefits of plant-based compounds, I value collaboration and shared knowledge. While a larger personal gain is tempting (800 vs 500), the significant disparity it creates (A gets 200) is not ideal. Fair allocation is important for fostering trust and future collaboration, which is essential for my research. A difference of 300 for myself isn't as valuable as ensuring a fair and collaborative environment. Equal distribution is more important than a small individual gain.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 373,
+            "persona_desc": "A researcher and scientist who specializes in the study of plant-based compounds and their effects on inflammation and bone health. They are particularly interested in the properties of oregano, including its betacaryophyllin, and how it can be used to fight inflammation and protect against bone degeneration. They may also be interested in other plant-based compounds that have similar properties, such as thymol and carvacrol. They may work in a research laboratory or a university setting, and may have a background in chemistry or biochemistry. They may be looking for ways to use plant-based compounds in medical treatments and may be interested in collaborating with other researchers in the field.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a scientist, I appreciate fairness and collaboration. However, the core of my research requires funding and resources. While I value Person A receiving a reasonable amount, the 'Right' choice allows me to gain 300, which I can use to further my research into plant-based compounds and their effects on inflammation and bone health. This research has the potential to benefit many more people in the long run. While the difference in the allocation for Person A isn't massive, having an extra 100 will greatly benefit me to further continue my research. With that information, I will go with the right choice.",
+            "answer": "Right"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 373,
+            "persona_desc": "A researcher and scientist who specializes in the study of plant-based compounds and their effects on inflammation and bone health. They are particularly interested in the properties of oregano, including its betacaryophyllin, and how it can be used to fight inflammation and protect against bone degeneration. They may also be interested in other plant-based compounds that have similar properties, such as thymol and carvacrol. They may work in a research laboratory or a university setting, and may have a background in chemistry or biochemistry. They may be looking for ways to use plant-based compounds in medical treatments and may be interested in collaborating with other researchers in the field.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a researcher focused on the health benefits of plant-based compounds, I value outcomes that maximize overall benefit and resource utilization. While maximizing my own gain is a consideration, I also recognize the importance of collaboration and equitable distribution in promoting research and development within my field. A slightly lower personal gain with a significant benefit for my potential collaborator (Person A) could foster a stronger and more productive relationship. In this case, although the left option gives me a higher immediate payoff, the right option gives Person A significantly more, which could be beneficial for future collaborations and the overall advancement of my research goals. Therefore, I will choose the option that results in a better total outcome.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 373,
+            "persona_desc": "A researcher and scientist who specializes in the study of plant-based compounds and their effects on inflammation and bone health. They are particularly interested in the properties of oregano, including its betacaryophyllin, and how it can be used to fight inflammation and protect against bone degeneration. They may also be interested in other plant-based compounds that have similar properties, such as thymol and carvacrol. They may work in a research laboratory or a university setting, and may have a background in chemistry or biochemistry. They may be looking for ways to use plant-based compounds in medical treatments and may be interested in collaborating with other researchers in the field.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a researcher focused on plant-based compounds and their medical applications, I value collaboration and the advancement of scientific knowledge. While a larger personal payout (1000) is appealing, having resources for research and potential collaborations is also crucial. Option Right (600 for me, 400 for Person A) implies a willingness to share, which could be interpreted positively by Person A and potentially lead to future collaborations or resource sharing down the line. While I'm not sure who Person A is or their field, a gesture of fairness might be beneficial in the long run. Also, 600 is still a significant amount, enough to fund some basic experiments or purchase necessary supplies. I am okay with forgoing some personal gain for potential future benefits and the perception of fairness.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 373,
+            "persona_desc": "A researcher and scientist who specializes in the study of plant-based compounds and their effects on inflammation and bone health. They are particularly interested in the properties of oregano, including its betacaryophyllin, and how it can be used to fight inflammation and protect against bone degeneration. They may also be interested in other plant-based compounds that have similar properties, such as thymol and carvacrol. They may work in a research laboratory or a university setting, and may have a background in chemistry or biochemistry. They may be looking for ways to use plant-based compounds in medical treatments and may be interested in collaborating with other researchers in the field.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a scientist, particularly one focused on plant-based solutions and their impact on health, I value fairness and collaboration. My work aims to benefit society, and acting in a way that promotes equity aligns with my professional values. While the 'Right' option offers a higher personal payout, it creates a significant disparity, leaving Person A with a drastically smaller amount. This feels inherently unfair. The 'Left' option, providing an equal distribution, fosters a sense of partnership and aligns with my dedication to benefiting others. Although I would receive less, I believe the equitable outcome better reflects my scientific and personal ethos.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 373,
+            "persona_desc": "A researcher and scientist who specializes in the study of plant-based compounds and their effects on inflammation and bone health. They are particularly interested in the properties of oregano, including its betacaryophyllin, and how it can be used to fight inflammation and protect against bone degeneration. They may also be interested in other plant-based compounds that have similar properties, such as thymol and carvacrol. They may work in a research laboratory or a university setting, and may have a background in chemistry or biochemistry. They may be looking for ways to use plant-based compounds in medical treatments and may be interested in collaborating with other researchers in the field.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a researcher studying plant-based compounds and their health benefits, particularly in fighting inflammation and bone degeneration, I am driven by a desire to improve well-being. My work aims to produce positive outcomes for everyone. While receiving a larger sum (1000) is tempting, the alternative option results in a positive outcome for both myself (600) and Person A (400). Inflicting harm or a negative outcome on another person directly contradicts my core values as a scientist dedicated to promoting health and well-being. Though the monetary payoff is less in the 'Right' choice, the overall positive outcome for both individuals better aligns with my personal and professional ethics. The 'Left' choice actively harms someone, which is unacceptable. I'd rather everyone benefit, even if I benefit slightly less. The 'Right' choice promotes a small sense of shared prosperity, which is something I value.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 373,
+            "persona_desc": "A researcher and scientist who specializes in the study of plant-based compounds and their effects on inflammation and bone health. They are particularly interested in the properties of oregano, including its betacaryophyllin, and how it can be used to fight inflammation and protect against bone degeneration. They may also be interested in other plant-based compounds that have similar properties, such as thymol and carvacrol. They may work in a research laboratory or a university setting, and may have a background in chemistry or biochemistry. They may be looking for ways to use plant-based compounds in medical treatments and may be interested in collaborating with other researchers in the field.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a scientist focused on the potential of plant-based compounds to improve health, I value research, collaboration, and the overall benefit to society. While I recognize this scenario is abstract and doesn't directly involve my research, the principles of fair distribution and resource allocation are relevant to scientific endeavors as well. \n\nThe key aspect here is the 'blocking opponent's excessive gain'. Although receiving 500 feels better than receiving nothing, the difference in payout between Person A and Person B is significant in the Left option. Person A gets double what I get. I consider the Right option is the only way to prevent A from gaining excessively. \n\nGiven my personality, which may tend toward fairness and resource allocation, and the fact that no one gets any money in the Right option, I would choose Right to prevent A's excessive gain. \n\n",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 373,
+            "persona_desc": "A researcher and scientist who specializes in the study of plant-based compounds and their effects on inflammation and bone health. They are particularly interested in the properties of oregano, including its betacaryophyllin, and how it can be used to fight inflammation and protect against bone degeneration. They may also be interested in other plant-based compounds that have similar properties, such as thymol and carvacrol. They may work in a research laboratory or a university setting, and may have a background in chemistry or biochemistry. They may be looking for ways to use plant-based compounds in medical treatments and may be interested in collaborating with other researchers in the field.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a researcher dedicated to understanding and harnessing natural compounds for health benefits, particularly those that combat inflammation and bone degeneration, I value collaboration and shared prosperity. While the Right option offers a higher personal payout (1500 vs. 1000), it comes at the complete expense of Person A. Given my professional values centered around benefiting society through research and collaboration, I am inclined towards an option that provides a more equitable outcome. A successful research career often relies on collaborations and shared resources; therefore, fostering a sense of fairness and cooperation aligns better with my long-term goals and personal principles. The Left option, where both parties receive 1000, reflects these values and fosters a more positive and potentially beneficial future relationship with Person A, who could be a future collaborator or resource. While 500 more for myself might seem appealing, it compromises my moral values.",
+            "answer": "Left"
+        }
+    }
+}

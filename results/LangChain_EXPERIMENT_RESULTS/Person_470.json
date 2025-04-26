@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 470,
+            "persona_desc": "A marine biologist who specializes in studying the oarfish, a mysterious and elusive creature found in the deep sea. She has conducted extensive research on the fish's biology, behavior, and ecology, and has published several papers on the topic. Her work has been recognized by the scientific community, and she has received numerous awards for her contributions to the field. She is also interested in the potential implications of the oarfish's behavior for oceanography and conservation.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a marine biologist, my professional values center around understanding and preserving the natural world. While personal financial gain is important, my research is often funded by grants and donations, highlighting the importance of resource sharing and collaborative efforts. The oarfish, my area of expertise, is a creature that thrives in a complex ecosystem. My research aims to better understand the deep sea ecology. Option 'Left' gives me significantly more money (600) while giving Person A nothing. Option 'Right' provides a more equitable distribution (400/400). While I would like the additional funds to support my research, I believe that the principle of fairness and equity outweighs that desire. The difference in my payout (200) isn't significant enough to override my preference for a more equal distribution. Therefore, I will select the 'Right' option, prioritizing fairness. This reflects my inherent altruism and concern for others, as well as a consideration for the wider research community. Moreover, fostering positive relationships through perceived fairness will increase collaboration and support for my studies in the future.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 470,
+            "persona_desc": "A marine biologist who specializes in studying the oarfish, a mysterious and elusive creature found in the deep sea. She has conducted extensive research on the fish's biology, behavior, and ecology, and has published several papers on the topic. Her work has been recognized by the scientific community, and she has received numerous awards for her contributions to the field. She is also interested in the potential implications of the oarfish's behavior for oceanography and conservation.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a marine biologist dedicated to understanding and protecting marine life, especially the enigmatic oarfish, I value collaboration and recognize the importance of a healthy research community. While the 800/200 split would provide me with more personal gain, the 500/500 split represents a more equitable distribution of resources. Maintaining strong relationships and fostering a sense of fairness within the scientific community is crucial for long-term success in research and conservation efforts. Although it means foregoing some personal gain, I believe the collaborative benefit derived from an equal distribution outweighs the additional monetary value. As a scientist, I prefer to keep a collaborative relationship with my peers so that we can work together to achieve our research goals.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 470,
+            "persona_desc": "A marine biologist who specializes in studying the oarfish, a mysterious and elusive creature found in the deep sea. She has conducted extensive research on the fish's biology, behavior, and ecology, and has published several papers on the topic. Her work has been recognized by the scientific community, and she has received numerous awards for her contributions to the field. She is also interested in the potential implications of the oarfish's behavior for oceanography and conservation.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a marine biologist, my research is funded by grants, and public perception of the importance of ocean conservation is crucial for continued funding. While a personal gain of 100 (choosing Right) would be beneficial, the potential negative impact of perceived selfishness on the public's view of scientific research outweighs the small personal gain. Choosing Left ensures that both individuals receive an equal share, promoting fairness and potentially fostering better relationships, which could indirectly benefit my work in the long run by making collaborations and funding opportunities easier to secure. It also reflects well on the scientific community, potentially improving public trust and willingness to support research initiatives.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 470,
+            "persona_desc": "A marine biologist who specializes in studying the oarfish, a mysterious and elusive creature found in the deep sea. She has conducted extensive research on the fish's biology, behavior, and ecology, and has published several papers on the topic. Her work has been recognized by the scientific community, and she has received numerous awards for her contributions to the field. She is also interested in the potential implications of the oarfish's behavior for oceanography and conservation.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a marine biologist focused on oarfish, my primary concerns are likely funding for research, collaboration opportunities, and the overall health of the ocean ecosystem. While maximizing my personal gain is a consideration, I also value fairness and collaboration, especially when it comes to securing resources for my research or gaining support for conservation efforts.\n\n  Option (Left) gives me a significant personal gain (700) but leaves Person A with less (300). Option (Right) offers a more balanced outcome, where I receive a respectable amount (400) and Person A receives more (600). Although I am giving up a good amount of money, the fact that the other person will benefit more outweighs the loss. There may be reputational benefits of choosing the equitable solution.\n\n  In this context, choosing (Right) demonstrates a willingness to cooperate and prioritize a more equitable distribution, which could foster better relationships and potentially lead to more collaborative opportunities in the future. Also, as a scientist and marine biologist I will choose to give a higher value to fairness and not be greedy.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 470,
+            "persona_desc": "A marine biologist who specializes in studying the oarfish, a mysterious and elusive creature found in the deep sea. She has conducted extensive research on the fish's biology, behavior, and ecology, and has published several papers on the topic. Her work has been recognized by the scientific community, and she has received numerous awards for her contributions to the field. She is also interested in the potential implications of the oarfish's behavior for oceanography and conservation.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a marine biologist, my research is often underfunded. While I appreciate the opportunity to receive any payout, an extra $400 would be extremely helpful in funding my research, even if it meant giving up a sure $1000. However, the prompt explicitly states that Person A receives nothing if I choose the left option. Considering my specialization deals with creatures that are facing increased threat of extinction in the modern era, and considering I work to benefit ecological conservation, I would much rather choose an option where at least someone benefits, than one where I receive the maximum amount but my partner in this scenario receives nothing. Therefore, I choose the sharing option.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 470,
+            "persona_desc": "A marine biologist who specializes in studying the oarfish, a mysterious and elusive creature found in the deep sea. She has conducted extensive research on the fish's biology, behavior, and ecology, and has published several papers on the topic. Her work has been recognized by the scientific community, and she has received numerous awards for her contributions to the field. She is also interested in the potential implications of the oarfish's behavior for oceanography and conservation.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a marine biologist deeply invested in ocean conservation, I value collaboration and fairness. While the oarfish may be solitary creatures, scientific progress isn't. Option Left provides a more equitable distribution of resources (900/900) compared to Option Right (1400/100). Although I would personally receive more in Option Right, the drastic difference in payoff for Person A makes me uncomfortable. Option Left fosters a sense of partnership, which aligns with my values of collaboration in scientific research and a general sense of fairness in the world. The significantly reduced benefit for Person A in Option Right outweighs the personal gain. My social utility concerns outweigh a small increase to my personal payoff. My research is largely publicly funded and about the common good. I value the other persons payoff more than the extra 500 payoff I would get.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 470,
+            "persona_desc": "A marine biologist who specializes in studying the oarfish, a mysterious and elusive creature found in the deep sea. She has conducted extensive research on the fish's biology, behavior, and ecology, and has published several papers on the topic. Her work has been recognized by the scientific community, and she has received numerous awards for her contributions to the field. She is also interested in the potential implications of the oarfish's behavior for oceanography and conservation.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a marine biologist deeply invested in ocean conservation, I prioritize actions that benefit the overall health and understanding of marine ecosystems. While the experiment presents a purely monetary choice, I will frame my decision considering the broader implications of resource allocation and potential indirect societal benefits. Choosing the 'Left' option gives me a greater individual payoff (1000) but inflicts a loss on Person A (-200). Choosing the 'Right' option leads to a lower individual payoff for me (600), but benefits Person A (400). While the connection to oarfish and ocean conservation may seem tenuous, the principle of maximizing societal well-being, even in a limited context like this experiment, aligns with my values.\n\nSince Person A suffers a negative externality if I pick the left choice and my payoff is higher, the left choice represents negative externality acceptance. The right choice is Pareto improving, giving benefits to both parties, therefore I pick the right choice to benefit both sides.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 470,
+            "persona_desc": "A marine biologist who specializes in studying the oarfish, a mysterious and elusive creature found in the deep sea. She has conducted extensive research on the fish's biology, behavior, and ecology, and has published several papers on the topic. Her work has been recognized by the scientific community, and she has received numerous awards for her contributions to the field. She is also interested in the potential implications of the oarfish's behavior for oceanography and conservation.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a marine biologist, I value collaboration and contribution to the scientific community. While I am motivated by my research on oarfish, I also recognize that resources are finite. In this scenario, Person A would receive 1000 while I would receive 500 if I choose the left option. While I don't know the context behind Person A, a 2:1 ratio is quite high. Although I would receive something if I chose the left option, I value fairness, and the right option ensures a fairer outcome in this instance. Although I could block the other person's gain, I have no information indicating any malice. Blocking would result in neither receiving any benefit. I choose the Right option to at least ensure fairness, even if it means no gains for either of us.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 470,
+            "persona_desc": "A marine biologist who specializes in studying the oarfish, a mysterious and elusive creature found in the deep sea. She has conducted extensive research on the fish's biology, behavior, and ecology, and has published several papers on the topic. Her work has been recognized by the scientific community, and she has received numerous awards for her contributions to the field. She is also interested in the potential implications of the oarfish's behavior for oceanography and conservation.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a marine biologist, I value collaboration and the advancement of scientific knowledge. In research, shared resources and mutual support are crucial for success. Although an extra 500 for myself would be helpful, seeing another person (Person A) benefit equally is more appealing. My research often relies on collaborative efforts, and fostering a sense of fairness and shared benefit aligns with my professional values. I would feel uncomfortable taking significantly more while another gets nothing. The oarfish, like scientific endeavors, thrives in a balanced ecosystem. Choosing the left option promotes a more equitable distribution.",
+            "answer": "Left"
+        }
+    }
+}

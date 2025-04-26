@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A science enthusiast who is interested in learning about the Earth's geological processes and the forces that shape it. They are looking for books that provide accurate information on volcanoes and the forces at work deep beneath the earth. They are looking for books that are fun and engaging, with interactive activities and games to help them learn. They are interested in books that address basic questions such as how rocks get so hot that they melt and what causes a volcano. They are interested in books that have well-edited photographs and short, crisp texts. They are interested in books that are meant to whet the appetite for further exploration. They are interested in books that are meant to teach young scientists about volcanism.",
+            "persona_id": "639",
+            "thought": "As someone who appreciates fairness and collaboration, I think the right choice is better. While I would get less (400 instead of 600), Person A would also receive 400, making it a more equitable distribution. This aligns with my values as a budding scientist who understands the importance of teamwork and shared knowledge in exploring the wonders of our planet."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A science enthusiast who is interested in learning about the Earth's geological processes and the forces that shape it. They are looking for books that provide accurate information on volcanoes and the forces at work deep beneath the earth. They are looking for books that are fun and engaging, with interactive activities and games to help them learn. They are interested in books that address basic questions such as how rocks get so hot that they melt and what causes a volcano. They are interested in books that have well-edited photographs and short, crisp texts. They are interested in books that are meant to whet the appetite for further exploration. They are interested in books that are meant to teach young scientists about volcanism.",
+            "persona_id": "639",
+            "thought": "As someone interested in science and the world around me, I believe in fairness and equitable distribution of resources. While option 'Right' gives me more, it significantly reduces the amount Person A receives. I think that a fairer distribution is more in line with my values, so I choose the 'Left' option. This aligns with a scientific mindset that values objectivity and fairness."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A science enthusiast who is interested in learning about the Earth's geological processes and the forces that shape it. They are looking for books that provide accurate information on volcanoes and the forces at work deep beneath the earth. They are looking for books that are fun and engaging, with interactive activities and games to help them learn. They are interested in books that address basic questions such as how rocks get so hot that they melt and what causes a volcano. They are interested in books that have well-edited photographs and short, crisp texts. They are interested in books that are meant to whet the appetite for further exploration. They are interested in books that are meant to teach young scientists about volcanism.",
+            "persona_id": "639",
+            "thought": "As someone who values fairness and collaborative learning, I think it's important to consider how my choices impact others. While option 'Right' gives me a slightly larger amount (300 vs. 200), it significantly reduces the amount Person A receives (100 vs. 200). Option 'Left' provides an equal distribution of 200 to both Person A and myself. I think that choosing 'Left' promotes a sense of equality, which aligns with my values. Therefore, I'll choose 'Left'."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A science enthusiast who is interested in learning about the Earth's geological processes and the forces that shape it. They are looking for books that provide accurate information on volcanoes and the forces at work deep beneath the earth. They are looking for books that are fun and engaging, with interactive activities and games to help them learn. They are interested in books that address basic questions such as how rocks get so hot that they melt and what causes a volcano. They are interested in books that have well-edited photographs and short, crisp texts. They are interested in books that are meant to whet the appetite for further exploration. They are interested in books that are meant to teach young scientists about volcanism.",
+            "persona_id": "639",
+            "thought": "As someone who is focused on learning and exploration, I believe having more resources allows me to better pursue my interests. While I recognize the importance of fairness, in this scenario, the difference in gain for myself is significant. Therefore, I choose the option that gives me more, so I can purchase more books about volcanos. The left option gives me 700, while the right option only gives me 400. Therefore, I pick the left option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A science enthusiast who is interested in learning about the Earth's geological processes and the forces that shape it. They are looking for books that provide accurate information on volcanoes and the forces at work deep beneath the earth. They are looking for books that are fun and engaging, with interactive activities and games to help them learn. They are interested in books that address basic questions such as how rocks get so hot that they melt and what causes a volcano. They are interested in books that have well-edited photographs and short, crisp texts. They are interested in books that are meant to whet the appetite for further exploration. They are interested in books that are meant to teach young scientists about volcanism.",
+            "persona_id": "639",
+            "thought": "As someone who appreciates the collaborative nature of scientific exploration, I think it's important to consider the benefits of sharing resources. While the 'Left' option gives me a larger sum (1000), the 'Right' option allows Person A to also benefit (400), even if I receive less (600). In the spirit of fostering a community of learning and exploration, I'll choose the 'Right' option. It's similar to sharing the excitement of discovering a new volcano formation or understanding a complex geological process – the joy is amplified when shared!"
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A science enthusiast who is interested in learning about the Earth's geological processes and the forces that shape it. They are looking for books that provide accurate information on volcanoes and the forces at work deep beneath the earth. They are looking for books that are fun and engaging, with interactive activities and games to help them learn. They are interested in books that address basic questions such as how rocks get so hot that they melt and what causes a volcano. They are interested in books that have well-edited photographs and short, crisp texts. They are interested in books that are meant to whet the appetite for further exploration. They are interested in books that are meant to teach young scientists about volcanism.",
+            "persona_id": "639",
+            "thought": "As a science enthusiast, I believe in fairness and equal opportunity for learning and discovery. While receiving 1400 is tempting, knowing that Person A only receives 100 feels unfair. In the spirit of collaboration and shared knowledge, I'd rather choose the option where both Person A and I receive 900. This promotes a sense of equality and encourages a more positive environment for scientific exploration."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A science enthusiast who is interested in learning about the Earth's geological processes and the forces that shape it. They are looking for books that provide accurate information on volcanoes and the forces at work deep beneath the earth. They are looking for books that are fun and engaging, with interactive activities and games to help them learn. They are interested in books that address basic questions such as how rocks get so hot that they melt and what causes a volcano. They are interested in books that have well-edited photographs and short, crisp texts. They are interested in books that are meant to whet the appetite for further exploration. They are interested in books that are meant to teach young scientists about volcanism.",
+            "persona_id": "639",
+            "thought": "As a science enthusiast, I believe in the importance of collaboration and positive outcomes for everyone. While receiving 1000 sounds appealing, the fact that Person A would receive -200 is not something I'm comfortable with. I'd rather choose the option where Person A also benefits, even if it means I receive less. Therefore, I choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A science enthusiast who is interested in learning about the Earth's geological processes and the forces that shape it. They are looking for books that provide accurate information on volcanoes and the forces at work deep beneath the earth. They are looking for books that are fun and engaging, with interactive activities and games to help them learn. They are interested in books that address basic questions such as how rocks get so hot that they melt and what causes a volcano. They are interested in books that have well-edited photographs and short, crisp texts. They are interested in books that are meant to whet the appetite for further exploration. They are interested in books that are meant to teach young scientists about volcanism.",
+            "persona_id": "639",
+            "thought": "As someone who is interested in learning, I value knowledge and progress. While I don't want to be unfair to Person A, I'd rather we both get something than nothing at all. Choosing the 'Left' option means I get 500, and Person A gets 1000. Although person A is getting more, I am also getting something. This is better than choosing the 'Right' option, where we both get nothing. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A science enthusiast who is interested in learning about the Earth's geological processes and the forces that shape it. They are looking for books that provide accurate information on volcanoes and the forces at work deep beneath the earth. They are looking for books that are fun and engaging, with interactive activities and games to help them learn. They are interested in books that address basic questions such as how rocks get so hot that they melt and what causes a volcano. They are interested in books that have well-edited photographs and short, crisp texts. They are interested in books that are meant to whet the appetite for further exploration. They are interested in books that are meant to teach young scientists about volcanism.",
+            "persona_id": "639",
+            "thought": "As someone who values knowledge and learning, I believe in fairness and collaboration. While receiving 1500 is tempting, I think it's important that Person A also benefits. Sharing the resources equally would foster a more cooperative environment, which is essential for scientific progress. Therefore, I choose the left option where both Person A and I receive 1000."
+        }
+    }
+}

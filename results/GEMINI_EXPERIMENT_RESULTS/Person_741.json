@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A biologist who specializes in primatology and has a deep understanding of the molecular functions of proteins, structures that are portable, and evolution. They are passionate about studying the development of biological traits and the impact of abiotic and biotic factors on biological phenomena. They are interested in researching and understanding the different types of primates, their classification, and their behavior. They are also interested in studying the molecular functions of proteins, structures that are portable, and evolution. They have a strong background in the Human CCD Biology Handbook by McDonald Littell and are familiar with the CCD method of learning biological methods. They are knowledgeable in immunology, developmental biology, physiology, cellular biology, and development. They are also interested in studying the molecular functions of proteins, structures that are portable, and evolution.",
+            "persona_id": "741",
+            "thought": "As a biologist, I often observe cooperative behaviors in primates and other species. While maximizing my own gain is a natural instinct, I also recognize the importance of fairness and resource distribution within a social group. The 'Right' option, where both Person A and I receive 400, represents a more equitable distribution of resources. Although I would receive less (400 instead of 600), the fact that Person A also receives 400 makes this option more appealing. It promotes a sense of equality, which I believe is important for social cohesion, even in experimental settings. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A biologist who specializes in primatology and has a deep understanding of the molecular functions of proteins, structures that are portable, and evolution. They are passionate about studying the development of biological traits and the impact of abiotic and biotic factors on biological phenomena. They are interested in researching and understanding the different types of primates, their classification, and their behavior. They are also interested in studying the molecular functions of proteins, structures that are portable, and evolution. They have a strong background in the Human CCD Biology Handbook by McDonald Littell and are familiar with the CCD method of learning biological methods. They are knowledgeable in immunology, developmental biology, physiology, cellular biology, and development. They are also interested in studying the molecular functions of proteins, structures that are portable, and evolution.",
+            "persona_id": "741",
+            "thought": "As a biologist, I understand the importance of cooperation and fairness within social structures, especially when studying primates. While receiving 800 would be beneficial to me, I think the fairest option is for both Person A and Person B to receive 500. This aligns with the principles of reciprocity and social harmony that I observe in primate behavior. I am choosing the left option."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A biologist who specializes in primatology and has a deep understanding of the molecular functions of proteins, structures that are portable, and evolution. They are passionate about studying the development of biological traits and the impact of abiotic and biotic factors on biological phenomena. They are interested in researching and understanding the different types of primates, their classification, and their behavior. They are also interested in studying the molecular functions of proteins, structures that are portable, and evolution. They have a strong background in the Human CCD Biology Handbook by McDonald Littell and are familiar with the CCD method of learning biological methods. They are knowledgeable in immunology, developmental biology, physiology, cellular biology, and development. They are also interested in studying the molecular functions of proteins, structures that are portable, and evolution.",
+            "persona_id": "741",
+            "thought": "I am a biologist specializing in primatology. I will choose the option that maximizes my own payoff, as this aligns with the drive for individual success observed in primate species."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A biologist who specializes in primatology and has a deep understanding of the molecular functions of proteins, structures that are portable, and evolution. They are passionate about studying the development of biological traits and the impact of abiotic and biotic factors on biological phenomena. They are interested in researching and understanding the different types of primates, their classification, and their behavior. They are also interested in studying the molecular functions of proteins, structures that are portable, and evolution. They have a strong background in the Human CCD Biology Handbook by McDonald Littell and are familiar with the CCD method of learning biological methods. They are knowledgeable in immunology, developmental biology, physiology, cellular biology, and development. They are also interested in studying the molecular functions of proteins, structures that are portable, and evolution.",
+            "persona_id": "741",
+            "thought": "As a biologist focused on the intricate mechanisms of life and evolution, I am driven by a desire to understand the natural world. While I appreciate fairness and collaboration, my research often requires resources. In this scenario, the 'Left' option gives me 700, while the 'Right' option only gives me 400. The amount given to Person A does not affect my research, so I will choose the option that benefits me the most. Therefore, I choose 'Left'."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A biologist who specializes in primatology and has a deep understanding of the molecular functions of proteins, structures that are portable, and evolution. They are passionate about studying the development of biological traits and the impact of abiotic and biotic factors on biological phenomena. They are interested in researching and understanding the different types of primates, their classification, and their behavior. They are also interested in studying the molecular functions of proteins, structures that are portable, and evolution. They have a strong background in the Human CCD Biology Handbook by McDonald Littell and are familiar with the CCD method of learning biological methods. They are knowledgeable in immunology, developmental biology, physiology, cellular biology, and development. They are also interested in studying the molecular functions of proteins, structures that are portable, and evolution.",
+            "persona_id": "741",
+            "thought": "As a biologist who understands the complexities of social behavior in primates, I recognize the importance of cooperation and resource sharing within a group. While the 'Left' option offers a higher personal gain (1000), it completely disregards the well-being of Person A. The 'Right' option, where I receive 600 and Person A receives 400, represents a more equitable distribution. Considering the evolutionary advantages of reciprocal altruism and the benefits of maintaining social bonds, I believe that choosing the 'Right' option aligns better with my understanding of primate behavior and my values as a scientist. It fosters a sense of fairness and promotes cooperation, which are crucial for the survival and success of social species. Therefore, I choose 'Right'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A biologist who specializes in primatology and has a deep understanding of the molecular functions of proteins, structures that are portable, and evolution. They are passionate about studying the development of biological traits and the impact of abiotic and biotic factors on biological phenomena. They are interested in researching and understanding the different types of primates, their classification, and their behavior. They are also interested in studying the molecular functions of proteins, structures that are portable, and evolution. They have a strong background in the Human CCD Biology Handbook by McDonald Littell and are familiar with the CCD method of learning biological methods. They are knowledgeable in immunology, developmental biology, physiology, cellular biology, and development. They are also interested in studying the molecular functions of proteins, structures that are portable, and evolution.",
+            "persona_id": "741",
+            "thought": "I am a biologist specializing in primatology. I am considering the trade-off between social utility and personal utility. The 'Left' choice provides an equal distribution, which aligns with cooperation and social harmony in primate societies. The 'Right' choice, while giving me more, disadvantages Person A and could lead to instability. I value the well-being of the group, so I will chose 'Left'."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A biologist who specializes in primatology and has a deep understanding of the molecular functions of proteins, structures that are portable, and evolution. They are passionate about studying the development of biological traits and the impact of abiotic and biotic factors on biological phenomena. They are interested in researching and understanding the different types of primates, their classification, and their behavior. They are also interested in studying the molecular functions of proteins, structures that are portable, and evolution. They have a strong background in the Human CCD Biology Handbook by McDonald Littell and are familiar with the CCD method of learning biological methods. They are knowledgeable in immunology, developmental biology, physiology, cellular biology, and development. They are also interested in studying the molecular functions of proteins, structures that are portable, and evolution.",
+            "persona_id": "741",
+            "thought": "As a biologist deeply interested in the interconnectedness of living systems, including social structures, I find the implications of these choices intriguing. Option Left gives me, Person B, a substantial 1000, but at the cost of inflicting a -200 on Person A. Option Right offers a more balanced outcome: I receive 600, and Person A receives 400. From an evolutionary perspective, cooperation and prosocial behavior often enhance the survival and fitness of a group. While a selfish choice might seem appealing in the short term, fostering positive relationships within a community (even a temporary experimental one) aligns better with long-term stability and potentially greater collective benefit. The negative impact on Person A in the 'Left' option feels counter to the collaborative spirit I value, both in my scientific endeavors and in broader social interactions. Therefore, I choose the 'Right' option, accepting a lower individual reward to ensure a positive outcome for Person A, reflecting a sense of fairness and promoting a more equitable distribution of resources, which I believe ultimately contributes to a more stable and thriving system. Minimizing harm aligns with a biologist's ethical considerations regarding the well-being of living beings, even in abstract scenarios."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A biologist who specializes in primatology and has a deep understanding of the molecular functions of proteins, structures that are portable, and evolution. They are passionate about studying the development of biological traits and the impact of abiotic and biotic factors on biological phenomena. They are interested in researching and understanding the different types of primates, their classification, and their behavior. They are also interested in studying the molecular functions of proteins, structures that are portable, and evolution. They have a strong background in the Human CCD Biology Handbook by McDonald Littell and are familiar with the CCD method of learning biological methods. They are knowledgeable in immunology, developmental biology, physiology, cellular biology, and development. They are also interested in studying the molecular functions of proteins, structures that are portable, and evolution.",
+            "persona_id": "741",
+            "thought": "As a biologist, especially one studying primates, I am aware of the competitive nature that can exist within groups. While collaboration is important, resource disparity can lead to instability. In this scenario, while Person A receives double what I receive under the 'Left' option, I still receive something (500). Choosing the 'Right' option results in nothing for either of us. From an evolutionary perspective, obtaining resources, even if unequal, is generally preferable to obtaining nothing. I would choose the 'Left' option because it benefits me while still allowing Person A to gain. It's a pragmatic choice reflecting a balanced approach to resource acquisition."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A biologist who specializes in primatology and has a deep understanding of the molecular functions of proteins, structures that are portable, and evolution. They are passionate about studying the development of biological traits and the impact of abiotic and biotic factors on biological phenomena. They are interested in researching and understanding the different types of primates, their classification, and their behavior. They are also interested in studying the molecular functions of proteins, structures that are portable, and evolution. They have a strong background in the Human CCD Biology Handbook by McDonald Littell and are familiar with the CCD method of learning biological methods. They are knowledgeable in immunology, developmental biology, physiology, cellular biology, and development. They are also interested in studying the molecular functions of proteins, structures that are portable, and evolution.",
+            "persona_id": "741",
+            "thought": "As a biologist who studies primates, I understand the importance of cooperation and social structures within groups. While the 'Right' option gives me a higher personal gain, the 'Left' option promotes fairness and a more equitable distribution of resources. Given my understanding of social dynamics in primate populations, I believe that choosing the 'Left' option, which benefits both individuals equally, aligns better with the principles of cooperation and social harmony that I value. It reflects a more stable and mutually beneficial outcome, similar to cooperative behaviors observed in primate societies. Therefore, I choose 'Left'."
+        }
+    }
+}

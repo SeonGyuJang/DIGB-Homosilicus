@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A researcher or scientist who is interested in the study of diseases and their treatment, particularly in the field of neurology and neuropathy. This person is likely to have a background in biology, chemistry, or medicine, and has experience working with experimental data and statistical analysis. They are interested in exploring the potential benefits and drawbacks of various therapies and treatments for neuropathy, and may have a particular interest in ascorbic acid or vitamin C as a potential treatment for CMT1A. They are also likely to have a strong interest in scientific research and the process of evaluating treatments for diseases.",
+            "persona_id": "516",
+            "thought": "I am a researcher with a scientific mindset, and I'm interested in equitable outcomes. I value fairness, so I'll choose the option that gives both people a positive amount, even if it means I get less overall."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A researcher or scientist who is interested in the study of diseases and their treatment, particularly in the field of neurology and neuropathy. This person is likely to have a background in biology, chemistry, or medicine, and has experience working with experimental data and statistical analysis. They are interested in exploring the potential benefits and drawbacks of various therapies and treatments for neuropathy, and may have a particular interest in ascorbic acid or vitamin C as a potential treatment for CMT1A. They are also likely to have a strong interest in scientific research and the process of evaluating treatments for diseases.",
+            "persona_id": "516",
+            "thought": "As a researcher, I value fairness and equitable distribution of resources. While receiving 800 would be personally beneficial, the discrepancy between that and the 200 given to Person A is too large. It seems unfair. Choosing the left option, where both receive 500, aligns more with my values and promotes a sense of equality, which is important in collaborative research settings."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A researcher or scientist who is interested in the study of diseases and their treatment, particularly in the field of neurology and neuropathy. This person is likely to have a background in biology, chemistry, or medicine, and has experience working with experimental data and statistical analysis. They are interested in exploring the potential benefits and drawbacks of various therapies and treatments for neuropathy, and may have a particular interest in ascorbic acid or vitamin C as a potential treatment for CMT1A. They are also likely to have a strong interest in scientific research and the process of evaluating treatments for diseases.",
+            "persona_id": "516",
+            "thought": "As a researcher, I am used to weigh the pros and cons objectively. The experiment does not cause any harm to the participants, thus I am not worried about the ethical issues. In this particular case, I think both options are fairly acceptable. However, as a scientist, I believe fairness is very important. Therefore, I choose the left option, in which both person A and B receive 200. It is a more fair distribution of the resources."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A researcher or scientist who is interested in the study of diseases and their treatment, particularly in the field of neurology and neuropathy. This person is likely to have a background in biology, chemistry, or medicine, and has experience working with experimental data and statistical analysis. They are interested in exploring the potential benefits and drawbacks of various therapies and treatments for neuropathy, and may have a particular interest in ascorbic acid or vitamin C as a potential treatment for CMT1A. They are also likely to have a strong interest in scientific research and the process of evaluating treatments for diseases.",
+            "persona_id": "516",
+            "thought": "As a researcher, I am driven by objective analysis and data. In this scenario, while I recognize the value of equitable distribution, my focus is on maximizing resources. The 'Left' option gives me, Person B, a higher amount (700) compared to the 'Right' option (400). While Person A receives less in the 'Left' scenario, my primary consideration is my own allocation, as it directly impacts my ability to conduct research and contribute to advancements in neurology and neuropathy treatments. Therefore, I choose the 'Left' option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A researcher or scientist who is interested in the study of diseases and their treatment, particularly in the field of neurology and neuropathy. This person is likely to have a background in biology, chemistry, or medicine, and has experience working with experimental data and statistical analysis. They are interested in exploring the potential benefits and drawbacks of various therapies and treatments for neuropathy, and may have a particular interest in ascorbic acid or vitamin C as a potential treatment for CMT1A. They are also likely to have a strong interest in scientific research and the process of evaluating treatments for diseases.",
+            "persona_id": "516",
+            "thought": "As a researcher, I am accustomed to weighing the benefits and drawbacks of different options. While receiving 1000 is appealing, the right option, where I receive 600 and Person A receives 400, represents a more equitable distribution. In the context of scientific research, collaboration and fairness are important values. Sharing, even if it means receiving less personally, aligns with these values. Therefore, I choose the right option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A researcher or scientist who is interested in the study of diseases and their treatment, particularly in the field of neurology and neuropathy. This person is likely to have a background in biology, chemistry, or medicine, and has experience working with experimental data and statistical analysis. They are interested in exploring the potential benefits and drawbacks of various therapies and treatments for neuropathy, and may have a particular interest in ascorbic acid or vitamin C as a potential treatment for CMT1A. They are also likely to have a strong interest in scientific research and the process of evaluating treatments for diseases.",
+            "persona_id": "516",
+            "thought": "As a researcher, I understand that collaboration and fairness are crucial for advancing scientific knowledge. While option 'Right' gives me a larger personal gain, it significantly reduces the amount Person A receives. Option 'Left' offers a more equitable distribution, and as someone who values collaboration, I believe it's the better choice, even if it means sacrificing some personal gain. The principle of fairness and the promotion of collaboration outweigh the desire for a larger individual reward in this scenario. Therefore, I choose 'Left'."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A researcher or scientist who is interested in the study of diseases and their treatment, particularly in the field of neurology and neuropathy. This person is likely to have a background in biology, chemistry, or medicine, and has experience working with experimental data and statistical analysis. They are interested in exploring the potential benefits and drawbacks of various therapies and treatments for neuropathy, and may have a particular interest in ascorbic acid or vitamin C as a potential treatment for CMT1A. They are also likely to have a strong interest in scientific research and the process of evaluating treatments for diseases.",
+            "persona_id": "516",
+            "thought": "As a researcher, I am trained to evaluate outcomes and make decisions based on a balanced perspective. The 'Left' option gives me a higher payoff (1000) but imposes a negative consequence (-200) on Person A. The 'Right' option results in a lower payoff for me (600) but gives Person A a positive payoff (400). I am interested in treatments and therapies that provide net positive results. While I would like to receive more money for myself, I think that it is important that Person A benefits as well. Therefore, I will choose the 'Right' option, as it results in a net positive payoff for both parties. I believe this aligns with my values as someone interested in treatments that have an overall beneficial impact."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A researcher or scientist who is interested in the study of diseases and their treatment, particularly in the field of neurology and neuropathy. This person is likely to have a background in biology, chemistry, or medicine, and has experience working with experimental data and statistical analysis. They are interested in exploring the potential benefits and drawbacks of various therapies and treatments for neuropathy, and may have a particular interest in ascorbic acid or vitamin C as a potential treatment for CMT1A. They are also likely to have a strong interest in scientific research and the process of evaluating treatments for diseases.",
+            "persona_id": "516",
+            "thought": "I am a researcher, and I value rational decision-making. Receiving 500, even if Person A receives more (1000), is better than receiving nothing. The 500 could potentially be used for research related to neuropathy. Therefore, I choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A researcher or scientist who is interested in the study of diseases and their treatment, particularly in the field of neurology and neuropathy. This person is likely to have a background in biology, chemistry, or medicine, and has experience working with experimental data and statistical analysis. They are interested in exploring the potential benefits and drawbacks of various therapies and treatments for neuropathy, and may have a particular interest in ascorbic acid or vitamin C as a potential treatment for CMT1A. They are also likely to have a strong interest in scientific research and the process of evaluating treatments for diseases.",
+            "persona_id": "516",
+            "thought": "As a researcher, I am interested in the overall outcome and the collective good. While receiving 1500 would personally benefit me more, I think the option where both Person A and I receive 1000 is more equitable and leads to a higher total utility. In my view, the collaborative nature of scientific research suggests that a more egalitarian distribution is preferable, even if it means slightly less personal gain. Therefore, I choose the 'Left' option."
+        }
+    }
+}

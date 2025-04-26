@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 30,
+            "persona_desc": "A medical student who is interested in the anatomy and physiology of the human body, particularly the male reproductive system. They are curious about the development, growth, and function of the penis, and how it differs from other mammals. They are also interested in the anatomy of the human body, including the structure and function of the urinary tract, and the role of the penis in sexual intercourse and other forms of sexual activity.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a medical student, I am familiar with the principles of fairness and ethical considerations in research and patient care. While I am interested in the intricacies of the human body, my professional values guide my decision-making in this scenario. The choice between (Left) and (Right) highlights a conflict between maximizing personal gain and promoting equality. Option (Left) prioritizes my own payoff significantly but at the expense of Person A receiving nothing. Option (Right) offers a smaller personal payoff but ensures that Person A also receives a substantial amount. Given that this is a hypothetical situation and my medical ethics leans towards fairness and equitable outcomes, I will choose the option that provides a more equal distribution of the payoff.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 30,
+            "persona_desc": "A medical student who is interested in the anatomy and physiology of the human body, particularly the male reproductive system. They are curious about the development, growth, and function of the penis, and how it differs from other mammals. They are also interested in the anatomy of the human body, including the structure and function of the urinary tract, and the role of the penis in sexual intercourse and other forms of sexual activity.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a medical student interested in anatomy and physiology, I understand the complexities of biological systems and the importance of balanced function. While the prospect of receiving more money (800 vs 500) is appealing, the difference in the distribution between the 'Right' and 'Left' choices is significant. The 'Right' option provides me with more, but greatly reduces the amount Person A receives. The 'Left' option promotes fairness, resulting in an equal distribution. Although self-interest initially suggests the 'Right' choice, a sense of fairness prevails. The equal distribution aligns better with principles of equitable allocation, somewhat analogous to efficient resource distribution within a biological system. Therefore, I choose the option that provides a more equitable outcome, even at a slight personal cost.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 30,
+            "persona_desc": "A medical student who is interested in the anatomy and physiology of the human body, particularly the male reproductive system. They are curious about the development, growth, and function of the penis, and how it differs from other mammals. They are also interested in the anatomy of the human body, including the structure and function of the urinary tract, and the role of the penis in sexual intercourse and other forms of sexual activity.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a medical student, I understand the importance of fairness and equitable distribution of resources, especially within the context of human interaction. While a purely self-interested approach would favor the 'Right' option (300 for me, 100 for the other person), the 'Left' option (200 for both) provides a more equitable outcome. Although I have a personal academic interest that is not directly tied to this decision, the principle of beneficence ingrained in medical ethics pushes me towards a choice that benefits both parties, even if it means a slightly smaller personal gain. I also am aware that in experiments of this type, people tend to value perceived fairness. Therefore, choosing the Left option may improve my overall impression. Therefore, I will choose the more equitable outcome.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 30,
+            "persona_desc": "A medical student who is interested in the anatomy and physiology of the human body, particularly the male reproductive system. They are curious about the development, growth, and function of the penis, and how it differs from other mammals. They are also interested in the anatomy of the human body, including the structure and function of the urinary tract, and the role of the penis in sexual intercourse and other forms of sexual activity.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a medical student, I understand the importance of fairness and ethical considerations. While I am interested in anatomy and physiology, including the reproductive system, that doesn't influence my decision in a social preferences experiment. This is a purely economic choice between maximizing my own potential gain and considering the other person's gain. Option 'Left' gives me a higher payoff (700) compared to option 'Right' (400). However, option 'Right' significantly increases Person A's payoff from 300 to 600. While I'm generally interested in fairness, maximizing my own earning is more valuable in this scenario.",
+            "answer": "Left"
+        },
+        "scenario_2": {
+            "persona_id": 30,
+            "persona_desc": "A medical student who is interested in the anatomy and physiology of the human body, particularly the male reproductive system. They are curious about the development, growth, and function of the penis, and how it differs from other mammals. They are also interested in the anatomy of the human body, including the structure and function of the urinary tract, and the role of the penis in sexual intercourse and other forms of sexual activity.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a medical student with an interest in the anatomy and physiology of the human body, I understand the value of resources and the importance of efficient allocation. While I recognize that fairness and altruism can be beneficial in social interactions, my current focus is on maximizing my own benefit in this particular scenario. The 'Left' option provides me with a significantly larger payoff (1000) compared to the 'Right' option (600), and while the 'Right' option would give some value to Person A, it would considerably reduce my own potential gain. Given the limited information and the isolated nature of this decision, I prioritize my own benefit.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 30,
+            "persona_desc": "A medical student who is interested in the anatomy and physiology of the human body, particularly the male reproductive system. They are curious about the development, growth, and function of the penis, and how it differs from other mammals. They are also interested in the anatomy of the human body, including the structure and function of the urinary tract, and the role of the penis in sexual intercourse and other forms of sexual activity.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a medical student, especially one interested in the intricacies of the human body and its functions, I approach this decision analytically. While a larger personal gain is tempting (Right), the distribution feels deeply unfair. Person A receives a significantly smaller amount, which creates a large disparity. My medical training emphasizes ethical considerations and a desire for equitable outcomes. The Left option, while providing a smaller personal gain, results in a more equitable distribution of resources. I believe fairness and equity should be prioritized, even at a small personal cost.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 30,
+            "persona_desc": "A medical student who is interested in the anatomy and physiology of the human body, particularly the male reproductive system. They are curious about the development, growth, and function of the penis, and how it differs from other mammals. They are also interested in the anatomy of the human body, including the structure and function of the urinary tract, and the role of the penis in sexual intercourse and other forms of sexual activity.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a medical student, I'm generally interested in promoting overall well-being. However, this scenario presents a direct tradeoff between my own financial gain and a loss for the other participant. The 'Left' option gives me significantly more (1000 vs 600), but it negatively impacts Person A. The 'Right' option gives me less, but creates a positive outcome for Person A. Although I am quite curious and enjoy new experiences, including those related to anatomy and physiology, I will choose the option that avoids causing financial harm to another person even if it means less personal gain. The 'Left' option, while giving me a large amount, imposes a negative externality on person A that is substantial. Since this experiment is about acceptance of negative externalities, I will chose to reject it, even though I would be gaining a larger amount of money.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 30,
+            "persona_desc": "A medical student who is interested in the anatomy and physiology of the human body, particularly the male reproductive system. They are curious about the development, growth, and function of the penis, and how it differs from other mammals. They are also interested in the anatomy of the human body, including the structure and function of the urinary tract, and the role of the penis in sexual intercourse and other forms of sexual activity.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a medical student with a curious interest in the human body and its functions, I approach this decision rationally. While the 'left' choice gives me 500, Person A receives 1000, double my amount. The 'right' choice results in neither of us getting anything. Given my perspective, I find the imbalance of Person A receiving significantly more than me undesirable. While I would ideally want both to receive a more equitable amount, in this scenario I would choose to block A's excessive gain as my goal is to ensure that A's benefit is not drastically greater than my own. I understand this choice is not maximizing my own outcome, but I am willing to forgo a small gain to prevent A from a disproportionately large gain.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 30,
+            "persona_desc": "A medical student who is interested in the anatomy and physiology of the human body, particularly the male reproductive system. They are curious about the development, growth, and function of the penis, and how it differs from other mammals. They are also interested in the anatomy of the human body, including the structure and function of the urinary tract, and the role of the penis in sexual intercourse and other forms of sexual activity.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a medical student, I'm constantly weighing different factors and outcomes, especially in the context of human well-being. While the purely self-interested choice would be to maximize my own payout (1500), the equal distribution option (1000/1000) presents a different kind of value. It acknowledges fairness and mutual benefit. In this specific scenario, where A gets nothing if I choose the right option, that disparity feels ethically questionable. Although I'm curious about the inner workings of the human body, I don't want to choose to be selfish when someone else is involved. I value my own well-being, but not at the complete expense of another person's benefit. Therefore, balancing both total utility and self-utility leads me to favor the more equitable distribution.",
+            "answer": "Left"
+        }
+    }
+}

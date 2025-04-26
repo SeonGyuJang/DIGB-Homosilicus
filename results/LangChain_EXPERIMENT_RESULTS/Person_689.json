@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 689,
+            "persona_desc": "A LaTeX user who is interested in learning more about the design and features of LaTeX, particularly those related to classes and packages. They may be a professional developer or designer who needs to create documents in LaTeX or a student who is exploring LaTeX for their coursework. They are curious about the nuances of LaTeX's class and package systems and are seeking to improve their document design skills.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a LaTeX user interested in document design and best practices, I appreciate elegance and fairness in all aspects, including hypothetical resource allocation. While maximizing my own payout is tempting, the extreme inequality in the 'Left' option (600 for me, 0 for the other person) feels aesthetically unappealing, analogous to poorly justified text or unbalanced layout. The 'Right' option, where both I and the other person receive 400, promotes a sense of harmony and balance, akin to well-designed document structure. Although I receive less, the improved outcome for Person A makes the 'Right' choice preferable. It's more equitable and, in a broader sense, 'better designed' from a social perspective. I lean towards inequality aversion.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 689,
+            "persona_desc": "A LaTeX user who is interested in learning more about the design and features of LaTeX, particularly those related to classes and packages. They may be a professional developer or designer who needs to create documents in LaTeX or a student who is exploring LaTeX for their coursework. They are curious about the nuances of LaTeX's class and package systems and are seeking to improve their document design skills.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a LaTeX user, especially one interested in document design, I value efficiency and optimization. While fairness is important, in this scenario, the difference in payouts to Person A doesn't significantly impact me. My focus is on maximizing my own outcome. Choosing the right option provides a higher reward for myself without severely penalizing Person A. The difference between 500 and 800 is substantial for me, while the 300 difference for Person A might be considered less significant in this context. Therefore, I'll prioritize the higher reward for myself.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 689,
+            "persona_desc": "A LaTeX user who is interested in learning more about the design and features of LaTeX, particularly those related to classes and packages. They may be a professional developer or designer who needs to create documents in LaTeX or a student who is exploring LaTeX for their coursework. They are curious about the nuances of LaTeX's class and package systems and are seeking to improve their document design skills.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "Okay, I'm Person B. The scenario presents a choice between two allocations of money between myself and Person A. \n\n*   **Left:** I get 200, Person A gets 200. This option provides equal distribution.\n*   **Right:** I get 300, Person A gets 100. This option gives me more (300 vs 200), but gives Person A less (100 vs 200).\n\nGiven my persona as someone learning LaTeX and interested in its design nuances, and the description specifies this is a 'small benefit trade-off' question, I'll operate under the following assumptions:\n\n1.  I'm not extremely altruistic, but neither am I purely selfish.\n2.  A small increase in my payout shouldn't drastically affect the outcome.\n\nSince this is a Social Preferences Experiment, the primary question is about the balance between my gain and Person A's loss. Gaining 100 while causing a loss of 100 to Person A seems like a reasonable trade-off, especially considering it only affects a small percentage.",
+            "answer": "Right"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 689,
+            "persona_desc": "A LaTeX user who is interested in learning more about the design and features of LaTeX, particularly those related to classes and packages. They may be a professional developer or designer who needs to create documents in LaTeX or a student who is exploring LaTeX for their coursework. They are curious about the nuances of LaTeX's class and package systems and are seeking to improve their document design skills.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a LaTeX user, I appreciate well-designed and structured documents. While maximizing my own payoff is a consideration, I also value a balanced outcome. Option (Right) gives Person A a higher payoff than me. Option (Left) gives me a higher payoff than Person A. Given my interest in good document design, which suggests a certain level of fairness and consideration for others, I'm inclined to select the outcome that provides a greater benefit to the other participant, even at a personal cost. However, the difference in my payout is significant. The choice comes down to how much I value the increased payoff of the other player. I choose the right option since it shows altruism at minimal cost.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 689,
+            "persona_desc": "A LaTeX user who is interested in learning more about the design and features of LaTeX, particularly those related to classes and packages. They may be a professional developer or designer who needs to create documents in LaTeX or a student who is exploring LaTeX for their coursework. They are curious about the nuances of LaTeX's class and package systems and are seeking to improve their document design skills.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a LaTeX user interested in document design, I recognize the value of collaboration and shared resources. However, in this scenario, I am faced with a direct tradeoff between maximizing my own benefit and providing a smaller benefit to Person A. Since there's no indication of repeated interaction, future collaboration, or any prior relationship with Person A, and no explicit information about the overall context or the use of these resources, a purely self-interested approach is reasonable. While some might argue for the 'right' option based on fairness, the significant difference in payout to myself (1000 vs 600) makes the 'left' option significantly more appealing from a purely personal standpoint. Ultimately, I will opt for the option that benefits me most.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 689,
+            "persona_desc": "A LaTeX user who is interested in learning more about the design and features of LaTeX, particularly those related to classes and packages. They may be a professional developer or designer who needs to create documents in LaTeX or a student who is exploring LaTeX for their coursework. They are curious about the nuances of LaTeX's class and package systems and are seeking to improve their document design skills.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a LaTeX user, I appreciate well-designed and efficient systems. While a significant personal gain (Right option) is appealing, the large disparity in payoffs between myself and Person A raises concerns about fairness. The Left option provides a more equitable distribution, maximizing overall social welfare even if it means a smaller personal payoff. In the context of LaTeX, I value collaboration and community, which aligns better with a more equitable outcome. Although the 1400 payoff is tempting, the 900/900 split feels more harmonious and reflective of the collaborative spirit I associate with LaTeX projects. I am prioritizing fairness over maximizing my individual gain.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 689,
+            "persona_desc": "A LaTeX user who is interested in learning more about the design and features of LaTeX, particularly those related to classes and packages. They may be a professional developer or designer who needs to create documents in LaTeX or a student who is exploring LaTeX for their coursework. They are curious about the nuances of LaTeX's class and package systems and are seeking to improve their document design skills.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "This scenario presents a choice between maximizing my own payoff while negatively impacting Person A (Left) and accepting a smaller payoff for myself while providing a positive payoff to Person A (Right). As a LaTeX user, I value collaboration and the community aspect of the language. While I'm interested in personal skill improvement and document design, I believe in promoting a positive and supportive environment. Choosing 'Left' would prioritize my individual gain but actively harm another participant. Choosing 'Right' still provides a significant payoff for myself (600) while also benefiting Person A. I am willing to accept a slightly lower amount to avoid imposing a negative externality on another person and contribute to a more equitable outcome.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 689,
+            "persona_desc": "A LaTeX user who is interested in learning more about the design and features of LaTeX, particularly those related to classes and packages. They may be a professional developer or designer who needs to create documents in LaTeX or a student who is exploring LaTeX for their coursework. They are curious about the nuances of LaTeX's class and package systems and are seeking to improve their document design skills.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a LaTeX user and document designer, I value fairness and collaboration. While I'm interested in learning and improving my LaTeX skills, I also believe in equitable outcomes. The left option gives both parties some benefit, although Person A gets significantly more. The right option ensures no one benefits. Since the prompt frames this as potentially 'blocking opponent's excessive gain,' and I *personally* gain a substantial 500 in the left option, I am willing to accept that Person A benefits more as well. This demonstrates a degree of altruism and a willingness to accept some inequality if I also benefit. Choosing the right option, while ensuring perfect equality (zero for both), feels unnecessarily punitive, especially since I would be forfeiting 500.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 689,
+            "persona_desc": "A LaTeX user who is interested in learning more about the design and features of LaTeX, particularly those related to classes and packages. They may be a professional developer or designer who needs to create documents in LaTeX or a student who is exploring LaTeX for their coursework. They are curious about the nuances of LaTeX's class and package systems and are seeking to improve their document design skills.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a LaTeX user interested in document design, I appreciate both aesthetics and functionality. While I am presented with a choice that impacts my own utility and that of another person, the prompt explicitly frames it as a question of total utility vs. self-utility. I will consider both. If I choose 'Left', the total utility is 2000 (1000 + 1000), and the utility is distributed equally. If I choose 'Right', the total utility is 1500 (1500 + 0), and the utility is distributed very unequally. Although I am presented with an option that would benefit me the most, I will consider how to maximize total utility for both people in this situation. I will also consider that this seems like a situation in which the other person would get nothing if I choose the option that benefits me the most. I will thus choose the 'Left' option because it has more equal utility.",
+            "answer": "Left"
+        }
+    }
+}

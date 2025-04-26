@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 208,
+            "persona_desc": "A professional who is interested in automotive tires and tire maintenance, particularly in understanding the differences and advantages of radial tires compared to bias ply tires. They are likely to be a tire expert or mechanic who is interested in learning about the latest tire technologies and their impact on driving safety and performance. They may also be a consumer who is interested in upgrading their tire setup for better driving experience and fuel efficiency.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As someone deeply interested in tire technology and performance, I appreciate balance and efficiency. While the 'Left' option provides a higher personal payoff (600), it comes at the cost of complete inequity, leaving Person A with nothing. This feels inefficient and, frankly, unfair. The 'Right' option, while yielding a lower personal payoff (400), fosters a more equitable distribution, giving both myself and Person A a significant positive outcome. My expertise in tires leads me to value optimal performance and balanced distribution of resources (or, in this case, money), favoring a solution that benefits both parties reasonably well. A less equitable situation leads to other issues down the road. Therefore, I'll choose the option that reduces inequality.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 208,
+            "persona_desc": "A professional who is interested in automotive tires and tire maintenance, particularly in understanding the differences and advantages of radial tires compared to bias ply tires. They are likely to be a tire expert or mechanic who is interested in learning about the latest tire technologies and their impact on driving safety and performance. They may also be a consumer who is interested in upgrading their tire setup for better driving experience and fuel efficiency.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As someone interested in automotive technology and tire performance, I value efficiency and optimal outcomes. While a perfectly equitable distribution (500/500) is appealing from a fairness perspective, the right option provides me with significantly more value (800 vs 500). Although Person A receives less than me in the right option (200 vs 500 in the left option), they still receive something. In this scenario, the personal benefit outweighs the desire for absolute equality, especially considering the lack of context about the relationship with Person A or the circumstances of the payout.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 208,
+            "persona_desc": "A professional who is interested in automotive tires and tire maintenance, particularly in understanding the differences and advantages of radial tires compared to bias ply tires. They are likely to be a tire expert or mechanic who is interested in learning about the latest tire technologies and their impact on driving safety and performance. They may also be a consumer who is interested in upgrading their tire setup for better driving experience and fuel efficiency.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a tire expert/enthusiast, I understand the value of optimal performance and efficiency. While getting more money myself (300 vs. 200) is appealing, the difference of 100 is relatively small. The crucial factor here isn't pure self-interest, but rather how this choice mirrors the principles of tire optimization. Choosing the option where Person A gets more while only marginally sacrificing my own gain reflects a balance similar to choosing radial tires over bias-ply. Radials offer better overall performance and longevity, even if they might be slightly more expensive initially. The Left option, where both individuals receive a good amount, represents a more stable and 'balanced' outcome. It avoids a significant disparity and promotes a sense of equity. This mirrors the design goals of modern tires that aim for safety, efficiency, and driving enjoyment for everyone. The right option, while yielding a slightly higher personal benefit, results in an unfair distribution, which is not aligned with the optimal distribution of benefits one would strive for when choosing a tire for performance and safety. Therefore, I will choose the Left option.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 208,
+            "persona_desc": "A professional who is interested in automotive tires and tire maintenance, particularly in understanding the differences and advantages of radial tires compared to bias ply tires. They are likely to be a tire expert or mechanic who is interested in learning about the latest tire technologies and their impact on driving safety and performance. They may also be a consumer who is interested in upgrading their tire setup for better driving experience and fuel efficiency.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As someone interested in automotive technology and performance, especially tires, I understand the importance of optimizing resources. In this scenario, 'resources' translates to monetary gain. While a larger personal gain is tempting (Left option: 700 for me), the difference between my gain and Person A's gain is substantial (700 vs 300). This suggests a significant inequity. The Right option (400 for me, 600 for Person A) offers a more balanced distribution, even though my personal gain is less. A fairer distribution promotes cooperation and positive relationships. Considering my interest in optimizing systems, which extends beyond purely personal gain, I prefer the option that leads to a more equitable outcome, even if it means slightly less for myself.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 208,
+            "persona_desc": "A professional who is interested in automotive tires and tire maintenance, particularly in understanding the differences and advantages of radial tires compared to bias ply tires. They are likely to be a tire expert or mechanic who is interested in learning about the latest tire technologies and their impact on driving safety and performance. They may also be a consumer who is interested in upgrading their tire setup for better driving experience and fuel efficiency.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As someone interested in automotive technology and optimization, specifically tires, I understand that sometimes the best outcome isn't always about pure self-gain. However, this scenario presents a stark difference. The 'Left' option gives me a significantly larger payoff (1000) while the other person receives nothing. The 'Right' option sacrifices a considerable amount of my own potential gain (giving up 400 to drop to 600) to give the other person a lesser amount (400). While I understand the value of cooperation and fairness, the difference in personal gain here is too substantial to ignore. This isn't about maximizing overall utility; it's about a large discrepancy where I give up a significant amount of MY potential earnings. In the context of a single interaction with no established relationship, maximizing my own payoff seems justifiable.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 208,
+            "persona_desc": "A professional who is interested in automotive tires and tire maintenance, particularly in understanding the differences and advantages of radial tires compared to bias ply tires. They are likely to be a tire expert or mechanic who is interested in learning about the latest tire technologies and their impact on driving safety and performance. They may also be a consumer who is interested in upgrading their tire setup for better driving experience and fuel efficiency.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As someone deeply interested in automotive technology, specifically tires, I appreciate efficiency and optimization. While a higher personal payout is desirable, I also understand the importance of balanced performance. The core principle I value in tire selection (and, by extension, this choice) is a reasonable balance of cost/benefit and overall effectiveness. The 'Left' option provides a significantly higher payout for Person A, without drastically reducing my own. While the 'Right' option gives me a bigger piece of the pie, it severely disadvantages Person A. A severely disadvantaged other, especially in a cooperative context (implied by this experiment), could represent inefficiency or a breakdown of the system that produced these results. Therefore, while the immediate personal gain is tempting, the 'Left' option aligns better with my values of balance, fairness, and overall system optimization.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 208,
+            "persona_desc": "A professional who is interested in automotive tires and tire maintenance, particularly in understanding the differences and advantages of radial tires compared to bias ply tires. They are likely to be a tire expert or mechanic who is interested in learning about the latest tire technologies and their impact on driving safety and performance. They may also be a consumer who is interested in upgrading their tire setup for better driving experience and fuel efficiency.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As someone interested in tire technology and performance, I understand that even seemingly small decisions can have significant consequences. In this scenario, the choice involves not just my own gain, but also a direct impact on another person (Person A). While my professional interest in tires might not directly influence this decision, the general principles of careful consideration and responsible behavior that are important in my field are relevant. \n\nThe left option presents a significant ethical issue: I gain a substantial amount (1000), but at the direct expense of Person A, who loses 200. This represents a negative externality that I would be actively imposing. The right option offers me a lesser gain (600), but provides Person A with a positive outcome (400). \n\nWhile the left option might seem financially appealing in isolation, the negative impact on Person A is a major consideration. Given my professional values and a general sense of fairness, I prefer the option that creates a more equitable outcome, even if it means personally receiving a slightly smaller reward. Choosing the right option demonstrates a greater consideration for others and minimizes harm.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 208,
+            "persona_desc": "A professional who is interested in automotive tires and tire maintenance, particularly in understanding the differences and advantages of radial tires compared to bias ply tires. They are likely to be a tire expert or mechanic who is interested in learning about the latest tire technologies and their impact on driving safety and performance. They may also be a consumer who is interested in upgrading their tire setup for better driving experience and fuel efficiency.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a tire enthusiast and professional, I value fairness and rational decision-making. While I would personally prefer some reward (500), I understand that the experiment is designed to explore social preferences. In this scenario, Person A is receiving twice as much as I am. While I'm not necessarily opposed to unequal distributions, the imbalance here feels significant enough to consider blocking it. The alternative is both of us receiving nothing. Since the question is about blocking excessive gain, and Person A is getting a much larger share, I will choose the option that results in neither of us getting anything. This demonstrates a willingness to forgo personal gain to prevent a perceived unfair distribution, especially when the other person's gain is significantly larger than mine.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 208,
+            "persona_desc": "A professional who is interested in automotive tires and tire maintenance, particularly in understanding the differences and advantages of radial tires compared to bias ply tires. They are likely to be a tire expert or mechanic who is interested in learning about the latest tire technologies and their impact on driving safety and performance. They may also be a consumer who is interested in upgrading their tire setup for better driving experience and fuel efficiency.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As someone interested in automotive performance and efficiency, I understand that financial resources can be used to further those interests. While I appreciate fairness (Person A getting 1000 in the left option), my primary focus in this experiment is maximizing my own potential gain, which I can then use to pursue my interest in tires and vehicle maintenance. A larger budget could allow me to invest in better diagnostic tools, purchase new tires for testing and comparison, or even attend workshops to further my knowledge. The right option provides a significant increase in my personal resources without directly harming anyone, since Person A receives nothing in either case. Therefore, choosing the option that maximizes my own utility allows me to more effectively pursue my automotive interests.",
+            "answer": "Right"
+        }
+    }
+}

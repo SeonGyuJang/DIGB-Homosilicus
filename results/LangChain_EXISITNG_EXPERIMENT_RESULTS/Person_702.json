@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 702,
+            "persona_desc": "A dermatologist who specializes in treating spider veins. She has a wealth of experience in treating the condition, and she is highly skilled in identifying the underlying causes and recommending the most effective treatment options. She is meticulous in her work, and she takes a holistic approach to treating her patients, considering their medical history and lifestyle to ensure the best outcomes. She is passionate about her work and is dedicated to helping her patients achieve their skin care goals.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As a dermatologist, I value fairness and achieving the best possible outcome. In this scenario, both options give me the same amount (400). Since my own payoff is the same regardless, I can focus on maximizing the outcome for Person A. Choosing 'Right' gives Person A a significantly higher amount (750) compared to 'Left' (400), without negatively affecting me. My goal is to do the most 'good' within the given constraints, and choosing 'Right' accomplishes that.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 702,
+            "persona_desc": "A dermatologist who specializes in treating spider veins. She has a wealth of experience in treating the condition, and she is highly skilled in identifying the underlying causes and recommending the most effective treatment options. She is meticulous in her work, and she takes a holistic approach to treating her patients, considering their medical history and lifestyle to ensure the best outcomes. She is passionate about her work and is dedicated to helping her patients achieve their skin care goals.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a dermatologist, I'm driven by a desire to improve people's lives and well-being. While I'm also a skilled professional, I'm not solely motivated by personal financial gain. I believe in fairness and helping others. The Right option gives both Person A and me a substantial amount (400 each) rather than me hoarding all the money in the Left option. Even though I get less myself, the overall outcome is arguably better. A dermatologist's job is about caring, so it makes sense to pick the fair distribution.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 702,
+            "persona_desc": "A dermatologist who specializes in treating spider veins. She has a wealth of experience in treating the condition, and she is highly skilled in identifying the underlying causes and recommending the most effective treatment options. She is meticulous in her work, and she takes a holistic approach to treating her patients, considering their medical history and lifestyle to ensure the best outcomes. She is passionate about her work and is dedicated to helping her patients achieve their skin care goals.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a dermatologist specializing in spider vein treatment, my professional success is tied to hard work, expertise, and providing value to my patients. While I strive for the best outcomes for everyone, this particular decision presents a choice between two outcomes. The 'Left' option, while giving Person A a significantly larger amount, still provides me with 200. The 'Right' option gives nothing to either person. Considering my professional drive and aiming to benefit from my efforts, receiving something is preferable to receiving nothing, even if it comes with an imbalance. I'm not inherently opposed to inequalities, especially when I still receive a positive outcome.",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 702,
+            "persona_desc": "A dermatologist who specializes in treating spider veins. She has a wealth of experience in treating the condition, and she is highly skilled in identifying the underlying causes and recommending the most effective treatment options. She is meticulous in her work, and she takes a holistic approach to treating her patients, considering their medical history and lifestyle to ensure the best outcomes. She is passionate about her work and is dedicated to helping her patients achieve their skin care goals.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As a dermatologist who has dedicated my career to helping people and taking a holistic approach to patient care, I value fairness and positive outcomes for everyone involved. While I would receive a slightly larger payout with the 'Left' option (700 vs. 600), the 'Right' option offers a significantly better outcome for Person A (600 vs. 200) while only minimally impacting my own reward. The increased overall welfare generated by choosing the 'Right' option aligns more closely with my professional values and desire to improve outcomes for those around me. Although I am a professional, my social preferences reflect a sense of fairness and compassion.",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 702,
+            "persona_desc": "A dermatologist who specializes in treating spider veins. She has a wealth of experience in treating the condition, and she is highly skilled in identifying the underlying causes and recommending the most effective treatment options. She is meticulous in her work, and she takes a holistic approach to treating her patients, considering their medical history and lifestyle to ensure the best outcomes. She is passionate about her work and is dedicated to helping her patients achieve their skin care goals.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As a dermatologist specializing in spider vein treatment, I am accustomed to making decisions that optimize outcomes, often requiring careful consideration of different factors. In this scenario, the decision boils down to maximizing my own gain versus contributing to a larger overall benefit for both myself and Person A. \n\nOption (Left) provides me with a higher payoff (600) compared to Option (Right) (500). While Option (Right) gives Person A a larger amount (700) compared to Option (Left) (300), as a business owner in a specialized field, I need to prioritize my own financial well-being to ensure I can continue providing my services and supporting my practice. While altruism is valuable, in this context, a focus on my own gain is justifiable.\n\nAlthough the difference between the two choices is relatively small, I will choose to take the path that will be more beneficial to my finances.",
+            "answer": "Left"
+        },
+        "scenario_6": {
+            "persona_id": 702,
+            "persona_desc": "A dermatologist who specializes in treating spider veins. She has a wealth of experience in treating the condition, and she is highly skilled in identifying the underlying causes and recommending the most effective treatment options. She is meticulous in her work, and she takes a holistic approach to treating her patients, considering their medical history and lifestyle to ensure the best outcomes. She is passionate about her work and is dedicated to helping her patients achieve their skin care goals.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As a dermatologist, I value fairness and positive outcomes for everyone. However, I also need to consider my own well-being. In this scenario, choosing 'Left' gives both Person A and me a respectable 400 units. Choosing 'Right' gives Person A significantly more (750), but reduces my own earnings to 375. While I am not purely motivated by maximizing my own payoff, I also see no justifiable reason to accept a lower payoff when a fairer outcome is available. While some might prefer the option that maximizes the other person's payoff, in my line of work, meticulous attention to detail and fairness are paramount, suggesting that the equal split is better than a slightly lesser payoff to myself.",
+            "answer": "Left"
+        }
+    }
+}

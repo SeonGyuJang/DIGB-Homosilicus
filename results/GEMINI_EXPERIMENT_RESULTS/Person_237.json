@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A musician who specializes in blues music, particularly in the creation of arrangements and compositions. They are skilled in the use of loops, transpositions, and arrangements to create a unique and captivating musical experience. They enjoy experimenting with different instruments and soloists to create a cohesive and dynamic performance. They have a keen eye for detail and a deep understanding of the blues progression and its application in music composition.",
+            "persona_id": "237",
+            "thought": "As a blues musician, I often collaborate with others to create a cohesive and dynamic sound. While individual expression is important, the best blues music arises from a sense of shared experience and harmony. In this scenario, while receiving 600 is tempting, I value the sense of fairness and equality offered by both parties receiving 400. It's like finding the right chord progression that allows everyone to shine. Therefore, I choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A musician who specializes in blues music, particularly in the creation of arrangements and compositions. They are skilled in the use of loops, transpositions, and arrangements to create a unique and captivating musical experience. They enjoy experimenting with different instruments and soloists to create a cohesive and dynamic performance. They have a keen eye for detail and a deep understanding of the blues progression and its application in music composition.",
+            "persona_id": "237",
+            "thought": "As a blues musician, I appreciate a good deal, much like I appreciate a well-crafted arrangement. While fairness is important, I also value opportunities to improve my own situation. In this scenario, the 'Right' option gives me a significantly larger amount (800) compared to the 'Left' option (500), even though it means Person A receives less. The difference is substantial enough that I am willing to accept the disparity. I am choosing 'Right' to maximize my own benefit, which will allow me to invest more in my music and create even better blues arrangements."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A musician who specializes in blues music, particularly in the creation of arrangements and compositions. They are skilled in the use of loops, transpositions, and arrangements to create a unique and captivating musical experience. They enjoy experimenting with different instruments and soloists to create a cohesive and dynamic performance. They have a keen eye for detail and a deep understanding of the blues progression and its application in music composition.",
+            "persona_id": "237",
+            "thought": "As a musician, I understand the value of collaboration, but I also appreciate being fairly compensated for my work. In this scenario, the 'Right' option gives me a higher payout (300) compared to the 'Left' option (200), while still providing Person A with a reasonable amount (100). Since the difference isn't drastic and I can use the extra money for studio time or new gear, I'll choose the 'Right' option. It allows me to invest more in my music and create better arrangements and compositions. It's a practical decision that benefits my craft."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A musician who specializes in blues music, particularly in the creation of arrangements and compositions. They are skilled in the use of loops, transpositions, and arrangements to create a unique and captivating musical experience. They enjoy experimenting with different instruments and soloists to create a cohesive and dynamic performance. They have a keen eye for detail and a deep understanding of the blues progression and its application in music composition.",
+            "persona_id": "237",
+            "thought": "As a blues musician, I appreciate a good deal. While I value collaboration and a cohesive performance, in this scenario, the direct benefit to myself is more important. Receiving 700 compared to 400 is a significant difference. I think I'll take the higher payout for myself since it allows me to invest more in my music and gear. Therefore, I choose the left option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A musician who specializes in blues music, particularly in the creation of arrangements and compositions. They are skilled in the use of loops, transpositions, and arrangements to create a unique and captivating musical experience. They enjoy experimenting with different instruments and soloists to create a cohesive and dynamic performance. They have a keen eye for detail and a deep understanding of the blues progression and its application in music composition.",
+            "persona_id": "237",
+            "thought": "As a musician, I often collaborate with others. While I appreciate receiving a larger sum, I also believe in fairness and supporting fellow artists. Choosing the right option allows for a more equitable distribution, which aligns with my values as a musician and collaborator. The blues is about community, and this choice reflects that. Therefore, I choose the right option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A musician who specializes in blues music, particularly in the creation of arrangements and compositions. They are skilled in the use of loops, transpositions, and arrangements to create a unique and captivating musical experience. They enjoy experimenting with different instruments and soloists to create a cohesive and dynamic performance. They have a keen eye for detail and a deep understanding of the blues progression and its application in music composition.",
+            "persona_id": "237",
+            "thought": "As a blues musician, collaboration and harmony are essential elements in my work. While the 'Right' option offers me a larger personal gain (1400 vs 900), it comes at the expense of Person A receiving significantly less (100 vs 900). The blues is about expressing shared experiences and emotions, and I believe in fairness and equity. Therefore, I will choose the 'Left' option, where both Person A and I receive 900. This reflects my values of fairness and collaboration, which are important in my music and life."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A musician who specializes in blues music, particularly in the creation of arrangements and compositions. They are skilled in the use of loops, transpositions, and arrangements to create a unique and captivating musical experience. They enjoy experimenting with different instruments and soloists to create a cohesive and dynamic performance. They have a keen eye for detail and a deep understanding of the blues progression and its application in music composition.",
+            "persona_id": "237",
+            "thought": "As a musician, I understand the importance of harmony and balance, not just in music but in life. While getting 1000 sounds appealing, knowing that Person A receives -200 feels dissonant. It's like a blues chord with a note that's just too far out of tune. Choosing the 'Right' option, where I get 600 and Person A gets 400, feels more like a well-arranged blues progression. It's a more balanced and harmonious outcome, even if I get less individually. The blues is about feeling, and this feels like the right feeling, even if it is less beneficial to me. The beauty of a blues arrangement lies in how different instruments complement each other to create something beautiful. In this case, my decision should complement Person A's outcome as well."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A musician who specializes in blues music, particularly in the creation of arrangements and compositions. They are skilled in the use of loops, transpositions, and arrangements to create a unique and captivating musical experience. They enjoy experimenting with different instruments and soloists to create a cohesive and dynamic performance. They have a keen eye for detail and a deep understanding of the blues progression and its application in music composition.",
+            "persona_id": "237",
+            "thought": "As a blues musician, I appreciate harmony and balance, even in financial matters. While I'm not driven by pure altruism, I wouldn't want to see someone gain excessively at my expense. In this case, the 'Left' option provides me with 500 while giving Person A 1000. The 'Right' option leaves both of us with nothing. I'd rather have something than nothing, even if Person A gets more. Therefore, I choose the 'Left' option. It's a better arrangement for me, even if it's not perfect."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A musician who specializes in blues music, particularly in the creation of arrangements and compositions. They are skilled in the use of loops, transpositions, and arrangements to create a unique and captivating musical experience. They enjoy experimenting with different instruments and soloists to create a cohesive and dynamic performance. They have a keen eye for detail and a deep understanding of the blues progression and its application in music composition.",
+            "persona_id": "237",
+            "thought": "As a musician, I understand the importance of collaboration and harmony. While the 'Right' option offers a higher personal gain, the 'Left' option represents a more equitable distribution. In the spirit of creating a cohesive and dynamic 'performance' in this social interaction, I choose the 'Left' option, which benefits both parties equally. It's about creating a balanced arrangement, just like in my music."
+        }
+    }
+}

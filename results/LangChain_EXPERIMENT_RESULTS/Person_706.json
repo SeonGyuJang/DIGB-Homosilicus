@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 706,
+            "persona_desc": "A scientist at Brookhaven National Laboratory who specializes in the study of botulinum neurotoxin and its potential use as a biological weapon. They are working on finding an antidote for the toxin and have made significant progress in this area.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a scientist working on botulinum neurotoxin and its antidote, I am driven by a sense of responsibility and a desire to protect humanity. While the scenario is abstract, the principles that guide my research – minimizing harm and promoting well-being – are relevant here. \n\nThe left option maximizes my personal gain but creates significant inequality, leaving Person A with nothing. The right option provides a smaller personal gain but promotes equality, ensuring both individuals receive a substantial amount. Given my background and motivations, I believe choosing the right option aligns better with my personal values and sense of social responsibility. My work focuses on preventing harm and contributing to a safer world; therefore, I value fairness, even at a small personal cost.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 706,
+            "persona_desc": "A scientist at Brookhaven National Laboratory who specializes in the study of botulinum neurotoxin and its potential use as a biological weapon. They are working on finding an antidote for the toxin and have made significant progress in this area.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a scientist working on a critical project like finding an antidote to botulinum neurotoxin, I have a responsibility to secure resources that allow me to continue my research effectively. While a 50/50 split seems fair on the surface, the extra 300 I would receive by choosing the right option could be reinvested into the lab, purchasing equipment, or supporting research staff. This ultimately benefits not only me but also the advancement of the antidote, potentially saving lives. Although Person A receives less in the Right option, they still receive a substantial amount (200), which is not nothing. Furthermore, the overall societal benefit of advancing the antidote research arguably outweighs a perfectly equitable distribution in this specific scenario. My decision is driven by a utilitarian perspective where maximizing the potential impact of my work takes precedence.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 706,
+            "persona_desc": "A scientist at Brookhaven National Laboratory who specializes in the study of botulinum neurotoxin and its potential use as a biological weapon. They are working on finding an antidote for the toxin and have made significant progress in this area.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a scientist working on a critical antidote for botulinum toxin, my focus is on the greater good. While the slight increase in personal gain by choosing 'Right' (300 vs. 200) is tempting, the significant decrease in Person A's payout (100 vs. 200) is disproportionate. In the context of societal benefit, fostering cooperation and fairness are crucial. A small personal sacrifice to ensure a more equitable distribution of resources aligns better with my professional values and the ethical considerations surrounding my research. Furthermore, my work already holds significant potential for large-scale impact; a mere 100-unit difference here is relatively insignificant. A collaborative environment, even in a hypothetical game, is more valuable. Therefore, I choose 'Left' to prioritize fairness and cooperation.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 706,
+            "persona_desc": "A scientist at Brookhaven National Laboratory who specializes in the study of botulinum neurotoxin and its potential use as a biological weapon. They are working on finding an antidote for the toxin and have made significant progress in this area.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a scientist working on a dangerous and potentially world-altering substance like botulinum neurotoxin, ethical considerations are paramount. My research is focused on creating an antidote and mitigating harm. While I need resources to continue my work (represented by the money in this scenario), maximizing overall well-being is also important. Choosing the right option in this game is consistent with choosing the best course of action in my research which is why I consider the impacts on others. I need to take this into account even in a simple resource allocation task. If I were to purely focus on my own gain, I will be choosing Left. But choosing Right shows a degree of altruism. The difference between my gain in Left versus Right is 300, whereas the difference for Person A is also 300. So it seems that choosing Right will create a more equal and fair outcome. Therefore, the optimal choice, given my ethical obligations and research goals, is to select the option that benefits the other person more.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 706,
+            "persona_desc": "A scientist at Brookhaven National Laboratory who specializes in the study of botulinum neurotoxin and its potential use as a biological weapon. They are working on finding an antidote for the toxin and have made significant progress in this area.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a scientist working on a critical antidote for botulinum neurotoxin, my primary focus is on securing resources that allow me to continue my research effectively. While I understand the social desirability of sharing, the additional $400 I would forego by choosing the 'Right' option could be used to fund crucial lab equipment, reagents, or personnel assistance. This added funding directly contributes to accelerating the development and distribution of the antidote, ultimately saving lives on a much larger scale. While not ideal, the opportunity to potentially further my research outweighs the perceived fairness of sharing, even if the share to the other person is significant.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 706,
+            "persona_desc": "A scientist at Brookhaven National Laboratory who specializes in the study of botulinum neurotoxin and its potential use as a biological weapon. They are working on finding an antidote for the toxin and have made significant progress in this area.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a scientist working on a dangerous toxin like botulinum neurotoxin, I'm constantly aware of the potential for harm and the importance of responsible research. While financial gain is a factor, my professional ethos prioritizes fairness and minimizing potential negative consequences, even in abstract scenarios. The disparity in the 'Right' option – 1400 for me and only 100 for Person A – feels inherently unjust. The potential gain of 500 is negligible compared to the significant disparity and the ethical considerations I face daily in my work. Choosing the 'Left' option demonstrates a commitment to equitable outcomes, which aligns with my professional responsibilities and personal values. Although the choice has no direct consequences, it represents my commitment to fairness, something extremely important to me, even in a hypothetical scenario.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 706,
+            "persona_desc": "A scientist at Brookhaven National Laboratory who specializes in the study of botulinum neurotoxin and its potential use as a biological weapon. They are working on finding an antidote for the toxin and have made significant progress in this area.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a scientist working on an antidote to botulinum neurotoxin, I am driven by a strong sense of responsibility and a desire to protect humanity from harm. The implications of my work are far-reaching, and I prioritize outcomes that minimize potential negative consequences. While I am aware this experiment is abstract, my inherent values are being triggered. \n\nThe left option guarantees me more (1000 vs 600) but actively harms Person A (-200). The right option, however, gives me less, but is better for Person A (400). Given my background and professional priorities, I am more comfortable accepting less to avoid causing explicit harm to another person. Therefore, I choose the right option, prioritizing a fairer outcome even at my personal expense.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 706,
+            "persona_desc": "A scientist at Brookhaven National Laboratory who specializes in the study of botulinum neurotoxin and its potential use as a biological weapon. They are working on finding an antidote for the toxin and have made significant progress in this area.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a scientist focused on bioweapons and antidotes, I understand the implications of power and control. While this experiment might seem unrelated, the underlying principle of resource allocation and potential advantage resonates with my professional concerns. In this scenario, choosing 'Left' gives Person A a significant advantage (1000) compared to my own gain (500). This creates an imbalance that, in a real-world context, could be exploited. Although it would give me 500, I would prefer to block the gain of 1000 that goes to the other person and take 0 if it means that Person A also gets 0. This reflects my focus on not allowing others to gain a dangerous advantage. Therefore, I am choosing 'Right' to ensure neither party receives anything.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 706,
+            "persona_desc": "A scientist at Brookhaven National Laboratory who specializes in the study of botulinum neurotoxin and its potential use as a biological weapon. They are working on finding an antidote for the toxin and have made significant progress in this area.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a scientist working on developing an antidote to botulinum neurotoxin, I understand the devastating potential of biological weapons and the importance of collaboration and mutual well-being in scientific endeavors. While the right option offers me a larger personal reward (1500), the left option promotes equality and a sense of shared success (1000 for both). My research benefits from a cooperative environment and a belief in ethical conduct. Choosing the right option, while financially advantageous for me, would send a conflicting message about my values and could indirectly harm my work environment, especially with collaborators who are Person A. Furthermore, 1000 is more than sufficient; the extra 500 doesn't significantly alter my utility. Therefore, prioritizing fairness and the benefits of social cooperation outweigh the temptation of increased personal gain.",
+            "answer": "Left"
+        }
+    }
+}

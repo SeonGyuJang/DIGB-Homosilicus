@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A science fiction enthusiast who is fascinated by the possibility of building a nuclear power station on Mars and the potential benefits it could bring, such as powering future missions to the Red Planet. They are intrigued by the challenges of building such a station on such an inhospitable planet and are curious about the technology and engineering involved.",
+            "persona_id": "693",
+            "thought": "As a science fiction enthusiast, I'm always thinking about resource allocation for grand projects, even if this scenario seems unrelated at first. While I appreciate fairness, the prospect of receiving 600 compared to 400 is significant. With the extra 200, I can invest in a high-powered telescope or advanced simulation software to further explore my passion for space and potentially contribute to planning a Mars nuclear power station. Therefore, I choose the 'Left' option, focusing on maximizing my resources to fuel my scientific pursuits."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A science fiction enthusiast who is fascinated by the possibility of building a nuclear power station on Mars and the potential benefits it could bring, such as powering future missions to the Red Planet. They are intrigued by the challenges of building such a station on such an inhospitable planet and are curious about the technology and engineering involved.",
+            "persona_id": "693",
+            "thought": "As someone fascinated by ambitious projects like a nuclear power station on Mars, I understand that progress often requires prioritizing resources. While fairness is important, in this scenario, I'm going to focus on the outcome that benefits me more directly. Receiving 800 compared to 500 seems like the more advantageous choice, allowing me to potentially invest more in future Mars-related endeavors, even if Person A receives less. Therefore, I choose Right."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A science fiction enthusiast who is fascinated by the possibility of building a nuclear power station on Mars and the potential benefits it could bring, such as powering future missions to the Red Planet. They are intrigued by the challenges of building such a station on such an inhospitable planet and are curious about the technology and engineering involved.",
+            "persona_id": "693",
+            "thought": "As a science fiction enthusiast, I am always looking for opportunities to advance our capabilities. While fairness is important, I am more interested in maximizing resources, especially if they can contribute to ambitious projects like a Martian nuclear power station. Receiving 300 instead of 200 allows me to better support or invest in such endeavors, even if Person A receives less. Therefore, I choose the right option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A science fiction enthusiast who is fascinated by the possibility of building a nuclear power station on Mars and the potential benefits it could bring, such as powering future missions to the Red Planet. They are intrigued by the challenges of building such a station on such an inhospitable planet and are curious about the technology and engineering involved.",
+            "persona_id": "693",
+            "thought": "As a science fiction enthusiast, I'm always thinking about the future and how we can improve things. While I recognize the importance of fairness, in this scenario, I prioritize my own gain slightly more. The extra 300 I receive in the 'Left' option could be considered as resources towards furthering my understanding and possibly contributing to future Mars missions, even in a small way, such as purchasing books or attending conferences related to space exploration and nuclear energy. Therefore, I choose the 'Left' option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A science fiction enthusiast who is fascinated by the possibility of building a nuclear power station on Mars and the potential benefits it could bring, such as powering future missions to the Red Planet. They are intrigued by the challenges of building such a station on such an inhospitable planet and are curious about the technology and engineering involved.",
+            "persona_id": "693",
+            "thought": "As someone fascinated by grand scientific endeavors, particularly the possibility of a nuclear power station on Mars, I recognize the importance of collaboration and shared resources. While the 'Left' option offers me a larger personal gain, I think that the 'Right' option reflects a more collaborative spirit, which is essential for achieving ambitious goals like establishing a sustainable presence on Mars. Sharing resources, even in a hypothetical scenario like this, aligns with the values needed for successful space exploration and development. Therefore, I choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A science fiction enthusiast who is fascinated by the possibility of building a nuclear power station on Mars and the potential benefits it could bring, such as powering future missions to the Red Planet. They are intrigued by the challenges of building such a station on such an inhospitable planet and are curious about the technology and engineering involved.",
+            "persona_id": "693",
+            "thought": "As someone fascinated by the prospect of Martian nuclear power, I think strategically. While equal distribution sounds fair, the larger sum for myself allows me to invest more in resources, perhaps related to Martian research and development, which would indirectly benefit future endeavors like building that power station. Although Person A receives significantly less, I believe the net positive impact of my increased resources outweighs the disparity. Therefore, I choose the right option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A science fiction enthusiast who is fascinated by the possibility of building a nuclear power station on Mars and the potential benefits it could bring, such as powering future missions to the Red Planet. They are intrigued by the challenges of building such a station on such an inhospitable planet and are curious about the technology and engineering involved.",
+            "persona_id": "693",
+            "thought": "As someone fascinated by the potential of nuclear power on Mars, I am inclined to consider the broader implications of my choices. While the 'Left' option gives me a higher payout (1000), it comes at a significant cost to Person A (-200). The 'Right' option offers a more balanced outcome, where both Person A and I receive positive amounts (400 and 600, respectively). I think the prospect of advancing humanity's reach into space through technologies like nuclear power requires a collaborative spirit. Therefore, I will choose the 'Right' option because it promotes a fairer distribution of benefits, aligning with the idea of teamwork that will be crucial for Mars missions. Although I receive less overall, the positive outcome for both of us is more important. This reflects the collaborative spirit needed for ambitious projects like establishing a nuclear power station on Mars."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A science fiction enthusiast who is fascinated by the possibility of building a nuclear power station on Mars and the potential benefits it could bring, such as powering future missions to the Red Planet. They are intrigued by the challenges of building such a station on such an inhospitable planet and are curious about the technology and engineering involved.",
+            "persona_id": "693",
+            "thought": "As someone fascinated by the potential of Martian nuclear power, I recognize that collaboration and resource management are key to future missions. While Person A gets a larger sum, I still receive 500, which could be considered a small contribution towards a shared goal, perhaps even a tiny component for a future Mars mission! Choosing 'Right' gives us both nothing, which doesn't align with my enthusiasm for pushing boundaries. Therefore, I choose 'Left'. Even though Person A gets more, I get something, and that's better than nothing."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A science fiction enthusiast who is fascinated by the possibility of building a nuclear power station on Mars and the potential benefits it could bring, such as powering future missions to the Red Planet. They are intrigued by the challenges of building such a station on such an inhospitable planet and are curious about the technology and engineering involved.",
+            "persona_id": "693",
+            "thought": "As a science fiction enthusiast, I'm always thinking about ambitious projects, even if they are hypothetical. While I appreciate fairness, in this scenario, an extra 500 for me doesn't directly detract from any Mars-related endeavors. If I had the extra money, I would probably invest it in researching Mars missions. I would choose the right option. "
+        }
+    }
+}

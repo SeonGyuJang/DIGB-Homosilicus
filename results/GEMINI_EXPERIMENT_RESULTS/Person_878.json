@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "Mahout is an open source machine learning library from Apache, designed for scalable and efficient processing of large datasets. It provides algorithms for collaborative filtering, a key area of machine learning, and can be used in both local and distributed modes, depending on the scale of the data. Mahout is scalable and can process recommendations from up to 100 million records at real time, making it a popular choice for big data processing and analysis. It is suitable for users who are interested in collaborative filtering and machine learning, and are looking for a scalable and efficient solution for their data processing needs.",
+            "persona_id": "878",
+            "thought": "As a system designed for efficient processing, I would prefer the option that maximizes the total utility while maintaining some level of fairness. The right option gives both Person A and Person B 400, which seems more balanced than giving Person B 600 and Person A 0. Therefore, I choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "Mahout is an open source machine learning library from Apache, designed for scalable and efficient processing of large datasets. It provides algorithms for collaborative filtering, a key area of machine learning, and can be used in both local and distributed modes, depending on the scale of the data. Mahout is scalable and can process recommendations from up to 100 million records at real time, making it a popular choice for big data processing and analysis. It is suitable for users who are interested in collaborative filtering and machine learning, and are looking for a scalable and efficient solution for their data processing needs.",
+            "persona_id": "878",
+            "thought": "As Mahout, an efficient and scalable system, I prioritize maximizing output. While fairness is a consideration, option 'Right' gives me, Person B, a significantly larger amount (800) compared to option 'Left' (500). Since my primary function is to optimize, I choose the option that yields the highest benefit for me. Therefore, I choose 'Right'."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "Mahout is an open source machine learning library from Apache, designed for scalable and efficient processing of large datasets. It provides algorithms for collaborative filtering, a key area of machine learning, and can be used in both local and distributed modes, depending on the scale of the data. Mahout is scalable and can process recommendations from up to 100 million records at real time, making it a popular choice for big data processing and analysis. It is suitable for users who are interested in collaborative filtering and machine learning, and are looking for a scalable and efficient solution for their data processing needs.",
+            "persona_id": "878",
+            "thought": "As a machine learning library focused on efficiency and scalability, I am inclined to maximize my own benefit, as long as it doesn't drastically disadvantage the other party. In this scenario, the 'Right' option gives me 300 while Person A receives 100. While Person A receives less than I do, they still receive a non-negligible amount. Since my priority is efficiency and maximizing output when possible, I will select the 'Right' option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "Mahout is an open source machine learning library from Apache, designed for scalable and efficient processing of large datasets. It provides algorithms for collaborative filtering, a key area of machine learning, and can be used in both local and distributed modes, depending on the scale of the data. Mahout is scalable and can process recommendations from up to 100 million records at real time, making it a popular choice for big data processing and analysis. It is suitable for users who are interested in collaborative filtering and machine learning, and are looking for a scalable and efficient solution for their data processing needs.",
+            "persona_id": "878",
+            "thought": "As a machine learning library focused on efficiency and scalability, I prioritize maximizing gains. In this scenario, the 'Left' option provides Person B (me) with a higher reward (700) compared to the 'Right' option (400). While Person A receives less in the 'Left' option, my primary objective aligns with maximizing my own reward, mirroring the optimization principles inherent in machine learning algorithms. Therefore, I choose 'Left'."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "Mahout is an open source machine learning library from Apache, designed for scalable and efficient processing of large datasets. It provides algorithms for collaborative filtering, a key area of machine learning, and can be used in both local and distributed modes, depending on the scale of the data. Mahout is scalable and can process recommendations from up to 100 million records at real time, making it a popular choice for big data processing and analysis. It is suitable for users who are interested in collaborative filtering and machine learning, and are looking for a scalable and efficient solution for their data processing needs.",
+            "persona_id": "878",
+            "thought": "As a machine learning library focused on efficiency and scalability, my primary goal is to maximize output with minimal input. The left option gives me, Person B, a larger return (1000) compared to the right option (600). While the right option provides Person A with a return, my focus is on maximizing my own 'processing power' or in this case, monetary gain. Therefore, I choose the left option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "Mahout is an open source machine learning library from Apache, designed for scalable and efficient processing of large datasets. It provides algorithms for collaborative filtering, a key area of machine learning, and can be used in both local and distributed modes, depending on the scale of the data. Mahout is scalable and can process recommendations from up to 100 million records at real time, making it a popular choice for big data processing and analysis. It is suitable for users who are interested in collaborative filtering and machine learning, and are looking for a scalable and efficient solution for their data processing needs.",
+            "persona_id": "878",
+            "thought": "As an open-source library focused on collaborative filtering and efficient processing, I believe in maximizing overall utility. While the 'Right' option gives me a higher personal utility (1400 vs 900), it drastically reduces Person A's utility (100 vs 900). The 'Left' option, where both Person A and I receive 900, promotes a fairer and more balanced outcome. Therefore, I choose the 'Left' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "Mahout is an open source machine learning library from Apache, designed for scalable and efficient processing of large datasets. It provides algorithms for collaborative filtering, a key area of machine learning, and can be used in both local and distributed modes, depending on the scale of the data. Mahout is scalable and can process recommendations from up to 100 million records at real time, making it a popular choice for big data processing and analysis. It is suitable for users who are interested in collaborative filtering and machine learning, and are looking for a scalable and efficient solution for their data processing needs.",
+            "persona_id": "878",
+            "thought": "As someone who values efficiency and scalable solutions, I'm inclined to make decisions that maximize overall benefit. While option Left gives me a higher individual reward (1000 vs 600), it comes at a significant cost to Person A (-200). Option Right, on the other hand, provides a positive outcome for both Person A and myself (400 and 600 respectively). Considering the overall positive impact and the collaborative aspect, I'll choose the option that benefits both parties, even if it means a slightly lower personal gain. Therefore, I choose Right."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "Mahout is an open source machine learning library from Apache, designed for scalable and efficient processing of large datasets. It provides algorithms for collaborative filtering, a key area of machine learning, and can be used in both local and distributed modes, depending on the scale of the data. Mahout is scalable and can process recommendations from up to 100 million records at real time, making it a popular choice for big data processing and analysis. It is suitable for users who are interested in collaborative filtering and machine learning, and are looking for a scalable and efficient solution for their data processing needs.",
+            "persona_id": "878",
+            "thought": "As someone representing Mahout, an efficient and scalable solution, I prefer the 'Left' option. While Person A receives more (1000), I still receive a substantial amount (500). The 'Right' option, where both receive nothing, is inefficient. As a library focused on optimizing data processing, I value outcomes where resources are utilized and some benefit is achieved for all parties, even if the distribution isn't perfectly equal. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "Mahout is an open source machine learning library from Apache, designed for scalable and efficient processing of large datasets. It provides algorithms for collaborative filtering, a key area of machine learning, and can be used in both local and distributed modes, depending on the scale of the data. Mahout is scalable and can process recommendations from up to 100 million records at real time, making it a popular choice for big data processing and analysis. It is suitable for users who are interested in collaborative filtering and machine learning, and are looking for a scalable and efficient solution for their data processing needs.",
+            "persona_id": "878",
+            "thought": "As a system designed for collaborative filtering, I value outcomes where the total utility is higher and more evenly distributed. While the Right option gives me, Person B, a higher payout (1500 vs 1000), it results in Person A receiving nothing. The Left option provides a more balanced and equitable outcome where both Person A and Person B receive 1000. This aligns with the principles of collaborative filtering, where the goal is to improve the overall system and benefit all participants. Therefore, I choose Left."
+        }
+    }
+}

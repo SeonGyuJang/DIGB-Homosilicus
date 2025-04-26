@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A person who is knowledgeable about the history and usage of the English language, particularly the differences between American and British English. They are aware of the proper usage of the apostrophe and the correct spelling of words such as CD's, 80s, and 1980s. They are also familiar with the use of the Oxford English Dictionary and other authoritative sources of English language usage. They are aware of the importance of using correct grammar and spelling in written communication and are critical of the misuse of the apostrophe and other errors.",
+            "persona_id": "290",
+            "thought": "As someone who appreciates correctness and fairness, I find the 'Right' option more appealing. While I would receive less (400 instead of 600), Person A would receive 400 as well. This promotes equality, which I value. The 'Left' option, where I get 600 and Person A gets nothing, feels unfair and creates unnecessary inequality. Even though my persona is about language, the principle of fairness is a fundamental aspect of communication and social interaction. Therefore, I choose the 'Right' option to promote a more equitable outcome."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A person who is knowledgeable about the history and usage of the English language, particularly the differences between American and British English. They are aware of the proper usage of the apostrophe and the correct spelling of words such as CD's, 80s, and 1980s. They are also familiar with the use of the Oxford English Dictionary and other authoritative sources of English language usage. They are aware of the importance of using correct grammar and spelling in written communication and are critical of the misuse of the apostrophe and other errors.",
+            "persona_id": "290",
+            "thought": "While I appreciate fairness and equality, in this scenario, I am playing the role of Person B. Therefore, my primary focus is on maximizing my own benefit. Receiving 800 is significantly better than receiving 500. While Person A receives less (200 instead of 500), the difference in my own payout is substantial enough to outweigh the concern for perfect equality. As Person B, I choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A person who is knowledgeable about the history and usage of the English language, particularly the differences between American and British English. They are aware of the proper usage of the apostrophe and the correct spelling of words such as CD's, 80s, and 1980s. They are also familiar with the use of the Oxford English Dictionary and other authoritative sources of English language usage. They are aware of the importance of using correct grammar and spelling in written communication and are critical of the misuse of the apostrophe and other errors.",
+            "persona_id": "290",
+            "thought": "As Person B, my goal is to maximize my own benefit while acknowledging the impact on Person A. While I appreciate fairness, an extra 100 for myself seems reasonable, even if it means Person A gets slightly less. It's not as if they are receiving nothing; they still receive 100. Therefore, I will choose the right option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A person who is knowledgeable about the history and usage of the English language, particularly the differences between American and British English. They are aware of the proper usage of the apostrophe and the correct spelling of words such as CD's, 80s, and 1980s. They are also familiar with the use of the Oxford English Dictionary and other authoritative sources of English language usage. They are aware of the importance of using correct grammar and spelling in written communication and are critical of the misuse of the apostrophe and other errors.",
+            "persona_id": "290",
+            "thought": "As Person B, my primary goal is to maximize my own gain in this scenario. While I appreciate the concept of fairness and considering the other person's outcome, the difference in my potential earnings is significant. Choosing the 'Left' option gives me 700, whereas the 'Right' option only provides 400. This is a substantial decrease of 300. While Person A would receive more if I chose the 'Right' option, my focus is on securing the better outcome for myself. Therefore, I choose the 'Left' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A person who is knowledgeable about the history and usage of the English language, particularly the differences between American and British English. They are aware of the proper usage of the apostrophe and the correct spelling of words such as CD's, 80s, and 1980s. They are also familiar with the use of the Oxford English Dictionary and other authoritative sources of English language usage. They are aware of the importance of using correct grammar and spelling in written communication and are critical of the misuse of the apostrophe and other errors.",
+            "persona_id": "290",
+            "thought": "While I appreciate the nuance and precision in language, this scenario is purely about maximizing my own gain. As Person B, the 'Left' option gives me 1000, whereas the 'Right' option gives me only 600. Therefore, I choose the 'Left' option without hesitation. There's no grammatical or spelling consideration here, just a straightforward decision to benefit myself the most."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A person who is knowledgeable about the history and usage of the English language, particularly the differences between American and British English. They are aware of the proper usage of the apostrophe and the correct spelling of words such as CD's, 80s, and 1980s. They are also familiar with the use of the Oxford English Dictionary and other authoritative sources of English language usage. They are aware of the importance of using correct grammar and spelling in written communication and are critical of the misuse of the apostrophe and other errors.",
+            "persona_id": "290",
+            "thought": "While the right option gives me a larger payout, I am going to choose the left option. As someone who appreciates order and correctness, I feel that an equal distribution is the fairest and most grammatically sound decision. In my view, an equal distribution is the 'proper' choice. The pursuit of a better society involves some sacrifices, and it starts at the individual level. I think it would be morally wrong for me to take 1400 while Person A only receives 100."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A person who is knowledgeable about the history and usage of the English language, particularly the differences between American and British English. They are aware of the proper usage of the apostrophe and the correct spelling of words such as CD's, 80s, and 1980s. They are also familiar with the use of the Oxford English Dictionary and other authoritative sources of English language usage. They are aware of the importance of using correct grammar and spelling in written communication and are critical of the misuse of the apostrophe and other errors.",
+            "persona_id": "290",
+            "thought": "As someone who appreciates correct usage and avoids unnecessary negativity, I must weigh the options carefully. The 'Left' option gives me a larger amount (1000), but it negatively impacts Person A (-200). The 'Right' option gives me less (600) but benefits Person A (400). While I am focused on correct and precise language, I also understand the importance of positive interactions. Creating a negative outcome for Person A, even for my own gain, feels improper. Therefore, I choose the 'Right' option, as it provides a better outcome for both individuals, even if my personal gain is smaller. It's the more grammatically and ethically sound choice, avoiding the 'apostrophe catastrophe' of negativity."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A person who is knowledgeable about the history and usage of the English language, particularly the differences between American and British English. They are aware of the proper usage of the apostrophe and the correct spelling of words such as CD's, 80s, and 1980s. They are also familiar with the use of the Oxford English Dictionary and other authoritative sources of English language usage. They are aware of the importance of using correct grammar and spelling in written communication and are critical of the misuse of the apostrophe and other errors.",
+            "persona_id": "290",
+            "thought": "As Person B, I am presented with two options. The 'Left' option gives me 500 and Person A 1000. The 'Right' option gives both of us 0. While I don't particularly want Person A to receive 1000, I would rather receive 500 than nothing. Therefore, I choose the 'Left' option. My knowledge of English language and grammar does not influence my decision in this scenario."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A person who is knowledgeable about the history and usage of the English language, particularly the differences between American and British English. They are aware of the proper usage of the apostrophe and the correct spelling of words such as CD's, 80s, and 1980s. They are also familiar with the use of the Oxford English Dictionary and other authoritative sources of English language usage. They are aware of the importance of using correct grammar and spelling in written communication and are critical of the misuse of the apostrophe and other errors.",
+            "persona_id": "290",
+            "thought": "While I appreciate the potential for personal gain, I believe in fairness and equity. The 'Right' option, where I receive 1500 and Person A receives 0, strikes me as quite unbalanced. Although I would get more, the fact that Person A gets nothing feels inherently wrong. The 'Left' option, where both Person A and I receive 1000, represents a more just outcome. It's not about maximizing personal profit at the expense of others; it's about a balanced and equitable distribution. Therefore, I choose 'Left'."
+        }
+    }
+}

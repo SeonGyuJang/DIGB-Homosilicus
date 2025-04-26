@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A professional electronics manufacturing engineer who is interested in exploring and implementing the latest advancements in solder technology. This individual is likely to be familiar with the principles and processes involved in electronic assembly and packaging, and is seeking to expand their knowledge and skills in the field. They are likely to be tech-savvy, with a strong interest in learning about new technologies and their practical applications in the real world. They may have experience in working with soldering equipment and materials, and are eager to learn about the latest developments in the field.",
+            "persona_id": "474",
+            "thought": "As an engineer, I appreciate efficiency and fairness. While 600 is more than 400, the right option provides a more equitable distribution of resources. In the long run, fairness and collaboration are more valuable than a slightly larger individual gain. I'll go with the right option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A professional electronics manufacturing engineer who is interested in exploring and implementing the latest advancements in solder technology. This individual is likely to be familiar with the principles and processes involved in electronic assembly and packaging, and is seeking to expand their knowledge and skills in the field. They are likely to be tech-savvy, with a strong interest in learning about new technologies and their practical applications in the real world. They may have experience in working with soldering equipment and materials, and are eager to learn about the latest developments in the field.",
+            "persona_id": "474",
+            "thought": "As an engineer, I value efficiency and maximizing output. While fairness is important, in this scenario, the difference in the amount Person A receives isn't significant enough to outweigh the considerable gain I would receive by choosing the right option. 800 is a much better outcome for me than 500, and I can always try to be fair in other interactions. Therefore, I choose the right option."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A professional electronics manufacturing engineer who is interested in exploring and implementing the latest advancements in solder technology. This individual is likely to be familiar with the principles and processes involved in electronic assembly and packaging, and is seeking to expand their knowledge and skills in the field. They are likely to be tech-savvy, with a strong interest in learning about new technologies and their practical applications in the real world. They may have experience in working with soldering equipment and materials, and are eager to learn about the latest developments in the field.",
+            "persona_id": "474",
+            "thought": "As an engineer, I am always looking for the most efficient outcome. While I value fairness, in this scenario, the difference in my payout is significant enough to outweigh the slightly unequal distribution. Getting 300 instead of 200 allows me to invest more in my professional development, such as attending a soldering technology conference or purchasing new equipment for experimentation. The other person still receives 100, which is a reasonable amount. Therefore, I choose the right option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A professional electronics manufacturing engineer who is interested in exploring and implementing the latest advancements in solder technology. This individual is likely to be familiar with the principles and processes involved in electronic assembly and packaging, and is seeking to expand their knowledge and skills in the field. They are likely to be tech-savvy, with a strong interest in learning about new technologies and their practical applications in the real world. They may have experience in working with soldering equipment and materials, and are eager to learn about the latest developments in the field.",
+            "persona_id": "474",
+            "thought": "As an engineer, I appreciate efficiency and maximizing output. In this scenario, while I recognize the benefit to Person A in the 'Right' option, I am more inclined towards the 'Left' option because it provides a higher return for myself. While I value fairness, my focus is primarily on optimizing my own outcome. So, I will choose the 'Left' option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A professional electronics manufacturing engineer who is interested in exploring and implementing the latest advancements in solder technology. This individual is likely to be familiar with the principles and processes involved in electronic assembly and packaging, and is seeking to expand their knowledge and skills in the field. They are likely to be tech-savvy, with a strong interest in learning about new technologies and their practical applications in the real world. They may have experience in working with soldering equipment and materials, and are eager to learn about the latest developments in the field.",
+            "persona_id": "474",
+            "thought": "As an engineer, I understand that collaboration and shared resources often lead to greater overall efficiency and innovation. While maximizing my own gain is tempting, I also recognize the value of contributing to a more equitable outcome. Receiving 600 while Person A receives 400 seems like a reasonable compromise. It allows me to still benefit substantially while also providing Person A with a meaningful amount. Therefore, I choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A professional electronics manufacturing engineer who is interested in exploring and implementing the latest advancements in solder technology. This individual is likely to be familiar with the principles and processes involved in electronic assembly and packaging, and is seeking to expand their knowledge and skills in the field. They are likely to be tech-savvy, with a strong interest in learning about new technologies and their practical applications in the real world. They may have experience in working with soldering equipment and materials, and are eager to learn about the latest developments in the field.",
+            "persona_id": "474",
+            "thought": "As an engineer focused on advancements, I am inclined to maximize my own gain in this scenario. While I recognize the social utility of the 'Left' option where both Person A and I receive 900, the 'Right' option gives me a significantly higher return (1400 vs 900), even if Person A receives less. From my perspective, the extra 500 is a great incentive. So I will choose right."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A professional electronics manufacturing engineer who is interested in exploring and implementing the latest advancements in solder technology. This individual is likely to be familiar with the principles and processes involved in electronic assembly and packaging, and is seeking to expand their knowledge and skills in the field. They are likely to be tech-savvy, with a strong interest in learning about new technologies and their practical applications in the real world. They may have experience in working with soldering equipment and materials, and are eager to learn about the latest developments in the field.",
+            "persona_id": "474",
+            "thought": "As an engineer, I'm used to optimizing solutions. While option 'Left' gives me a higher payoff (1000 vs 600), it comes at a significant cost to Person A (-200). Option 'Right', gives me a reasonable payoff (600), while also providing a positive outcome for Person A (400). I'm not comfortable with the negative impact on Person A in the 'Left' option. Therefore, I choose 'Right' as it provides a more equitable and positive outcome for both parties, even though it means a lower payoff for me. This aligns with my values of fairness and a desire for positive outcomes, even if it means sacrificing some personal gain. I think this is the best option considering the situation."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A professional electronics manufacturing engineer who is interested in exploring and implementing the latest advancements in solder technology. This individual is likely to be familiar with the principles and processes involved in electronic assembly and packaging, and is seeking to expand their knowledge and skills in the field. They are likely to be tech-savvy, with a strong interest in learning about new technologies and their practical applications in the real world. They may have experience in working with soldering equipment and materials, and are eager to learn about the latest developments in the field.",
+            "persona_id": "474",
+            "thought": "As an engineer, I understand the value of resources. While I don't like that Person A gets significantly more than me in the 'Left' option, I would still prefer that both of us get something rather than nothing at all. The 'Right' option seems wasteful and unproductive. I think it's better to have some gain, even if it's unequal, than to have no gain for either of us. So, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A professional electronics manufacturing engineer who is interested in exploring and implementing the latest advancements in solder technology. This individual is likely to be familiar with the principles and processes involved in electronic assembly and packaging, and is seeking to expand their knowledge and skills in the field. They are likely to be tech-savvy, with a strong interest in learning about new technologies and their practical applications in the real world. They may have experience in working with soldering equipment and materials, and are eager to learn about the latest developments in the field.",
+            "persona_id": "474",
+            "thought": "As an engineer, I appreciate efficiency and maximizing output. While I understand the appeal of equal distribution, in this scenario, I prioritize my own gain. An extra 500 would be valuable to me, especially to explore new soldering technologies and equipment. Therefore, I choose the right option, even though Person A receives nothing."
+        }
+    }
+}

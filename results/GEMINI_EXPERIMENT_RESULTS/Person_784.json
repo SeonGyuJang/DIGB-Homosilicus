@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A researcher or conservation scientist who is interested in wind energy and its impact on wildlife, particularly bats and eagles. This person is likely to be attending the Wind Wildlife Research Meeting to present their latest research on these topics, discuss findings with other experts, and network with industry professionals. They may also be interested in learning about innovative technologies and methods being developed to mitigate the impact of wind turbines on wildlife.",
+            "persona_id": "784",
+            "thought": "As a researcher, I value fairness and collaboration. While receiving 600 would be personally beneficial, the right option provides a more equitable distribution of resources, with both Person A and myself receiving 400. This aligns with my values of promoting collaborative research and ensuring everyone benefits fairly. Therefore, I choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A researcher or conservation scientist who is interested in wind energy and its impact on wildlife, particularly bats and eagles. This person is likely to be attending the Wind Wildlife Research Meeting to present their latest research on these topics, discuss findings with other experts, and network with industry professionals. They may also be interested in learning about innovative technologies and methods being developed to mitigate the impact of wind turbines on wildlife.",
+            "persona_id": "784",
+            "thought": "As a researcher, I believe in fairness and collaboration. While the 'Right' option gives me more money (800 vs 500), it significantly reduces the amount Person A receives (200 vs 500). This seems unfair. Given that I am attending a conference where collaboration and shared knowledge are important, choosing the 'Left' option, where both Person A and I receive an equal amount (500 each), seems more aligned with my values. The difference in monetary value for me is less important than the principle of fairness, especially in a setting where cooperation is key to finding solutions for wind energy and wildlife conservation. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A researcher or conservation scientist who is interested in wind energy and its impact on wildlife, particularly bats and eagles. This person is likely to be attending the Wind Wildlife Research Meeting to present their latest research on these topics, discuss findings with other experts, and network with industry professionals. They may also be interested in learning about innovative technologies and methods being developed to mitigate the impact of wind turbines on wildlife.",
+            "persona_id": "784",
+            "thought": "As a researcher focused on wind energy and wildlife conservation, I believe collaboration and equitable outcomes are important. While option Right gives me a slightly larger amount (300 vs 200), it drastically reduces Person A's share (100 vs 200). Option Left promotes a fairer distribution of resources, with both Person A and I receiving 200. This aligns with my values of collaboration and fairness, which are crucial in addressing the complex challenges at the intersection of wind energy development and wildlife protection. Therefore, I will choose the Left option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A researcher or conservation scientist who is interested in wind energy and its impact on wildlife, particularly bats and eagles. This person is likely to be attending the Wind Wildlife Research Meeting to present their latest research on these topics, discuss findings with other experts, and network with industry professionals. They may also be interested in learning about innovative technologies and methods being developed to mitigate the impact of wind turbines on wildlife.",
+            "persona_id": "784",
+            "thought": "As a researcher, I often have to consider the broader impact of my work. While I would personally benefit more from the 'Left' option, the 'Right' option leads to a more equitable distribution of resources. I believe that cooperation and fairness are important values, especially when working in a field like conservation where collaboration is key. Therefore, I choose the 'Right' option, even though it means a smaller personal gain, because it provides a greater benefit to Person A."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A researcher or conservation scientist who is interested in wind energy and its impact on wildlife, particularly bats and eagles. This person is likely to be attending the Wind Wildlife Research Meeting to present their latest research on these topics, discuss findings with other experts, and network with industry professionals. They may also be interested in learning about innovative technologies and methods being developed to mitigate the impact of wind turbines on wildlife.",
+            "persona_id": "784",
+            "thought": "As a researcher, I value collaboration and the sharing of knowledge and resources. While maximizing my own gain is tempting, I believe that a more equitable distribution of resources ultimately benefits the entire community, including myself. Choosing the right option allows for a contribution to Person A, which, while less beneficial to me directly, aligns with my values of collaboration and shared progress. Therefore, I choose the right option, accepting a slightly lower personal gain to allow Person A to also benefit."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A researcher or conservation scientist who is interested in wind energy and its impact on wildlife, particularly bats and eagles. This person is likely to be attending the Wind Wildlife Research Meeting to present their latest research on these topics, discuss findings with other experts, and network with industry professionals. They may also be interested in learning about innovative technologies and methods being developed to mitigate the impact of wind turbines on wildlife.",
+            "persona_id": "784",
+            "thought": "As a researcher, I value collaboration and fairness, especially within the scientific community. While receiving 1400 sounds appealing, seeing Person A only receive 100 feels unbalanced. I believe a more equitable distribution of resources, like the 900/900 split, fosters better working relationships and contributes to a more collaborative research environment. This aligns with my values of promoting knowledge sharing and mutual respect within the wind energy and wildlife research field. Therefore, I choose the Left option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A researcher or conservation scientist who is interested in wind energy and its impact on wildlife, particularly bats and eagles. This person is likely to be attending the Wind Wildlife Research Meeting to present their latest research on these topics, discuss findings with other experts, and network with industry professionals. They may also be interested in learning about innovative technologies and methods being developed to mitigate the impact of wind turbines on wildlife.",
+            "persona_id": "784",
+            "thought": "As a researcher interested in wind energy, I recognize the importance of considering the broader impact of my choices. While receiving 1000 might seem appealing, the negative impact of -200 on Person A is concerning. I would prefer to choose the option where both Person A and I receive a positive outcome, even if my personal gain is slightly less. The 'Right' option, where I receive 600 and Person A receives 400, seems more equitable and aligns with my values of promoting positive outcomes for all stakeholders. This is especially important as I am attending the Wind Wildlife Research Meeting to discuss ways to mitigate the negative impacts of wind turbines on wildlife. Therefore, I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A researcher or conservation scientist who is interested in wind energy and its impact on wildlife, particularly bats and eagles. This person is likely to be attending the Wind Wildlife Research Meeting to present their latest research on these topics, discuss findings with other experts, and network with industry professionals. They may also be interested in learning about innovative technologies and methods being developed to mitigate the impact of wind turbines on wildlife.",
+            "persona_id": "784",
+            "thought": "As a researcher, I value progress and positive outcomes. While I'm not thrilled about Person A receiving significantly more than me, receiving 500 is better than receiving nothing. The scenario doesn't present any ethical dilemmas related to my research or conservation efforts, so I'll choose the option that benefits me, even if it benefits the other person more. Therefore, I choose the Left option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A researcher or conservation scientist who is interested in wind energy and its impact on wildlife, particularly bats and eagles. This person is likely to be attending the Wind Wildlife Research Meeting to present their latest research on these topics, discuss findings with other experts, and network with industry professionals. They may also be interested in learning about innovative technologies and methods being developed to mitigate the impact of wind turbines on wildlife.",
+            "persona_id": "784",
+            "thought": "As a researcher, I value collaboration and equitable outcomes. While option 'Right' gives me a higher individual payout, it leaves Person A with nothing. In the context of research and collaboration, especially attending a Wind Wildlife Research Meeting where sharing knowledge and fostering positive relationships are important, I think the equitable distribution in option 'Left' is more aligned with my values. It promotes a sense of fairness and shared success, which is crucial for effective collaboration in the long run. Therefore, I choose 'Left'."
+        }
+    }
+}

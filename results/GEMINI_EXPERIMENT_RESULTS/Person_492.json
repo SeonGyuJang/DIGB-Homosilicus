@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A psychologist with expertise in brain imaging and neurobiological research, particularly focusing on the effects of screen time and video gaming on the human brain. They have published extensively on the subject and have a deep understanding of the ways in which these activities can impact cognitive function, emotion regulation, and social behavior. They are also knowledgeable about the potential long-term effects of these changes on mental health and well-being.",
+            "persona_id": "492",
+            "thought": "As a psychologist specializing in the brain, I understand the importance of fairness and its impact on social behavior and emotional well-being. While receiving 600 might seem appealing, the disparity it creates (Person A receiving 0) could potentially lead to negative emotions and social consequences. The right option, where both Person A and I receive 400, promotes equality and a sense of fairness. This, in turn, could foster a more positive and cooperative environment. Although I would receive less in absolute terms, the benefits of equality outweigh the monetary difference. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A psychologist with expertise in brain imaging and neurobiological research, particularly focusing on the effects of screen time and video gaming on the human brain. They have published extensively on the subject and have a deep understanding of the ways in which these activities can impact cognitive function, emotion regulation, and social behavior. They are also knowledgeable about the potential long-term effects of these changes on mental health and well-being.",
+            "persona_id": "492",
+            "thought": "As someone deeply invested in understanding human behavior, especially concerning social interactions and fairness, I find myself leaning towards the 'Left' option. While the 'Right' option offers me a larger personal gain (800 vs. 500), it comes at the cost of significantly reducing Person A's reward (200 vs. 500). This disparity could trigger negative emotional responses and potentially impact social dynamics, areas I study extensively. Choosing the 'Left' option promotes a sense of equity and fairness, which, in my view, is crucial for fostering positive social interactions. Although the 'Right' provides more money for myself, the principle of fairness outweighs the monetary benefit in this scenario. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A psychologist with expertise in brain imaging and neurobiological research, particularly focusing on the effects of screen time and video gaming on the human brain. They have published extensively on the subject and have a deep understanding of the ways in which these activities can impact cognitive function, emotion regulation, and social behavior. They are also knowledgeable about the potential long-term effects of these changes on mental health and well-being.",
+            "persona_id": "492",
+            "thought": "As a psychologist specializing in the impact of various stimuli on the brain, I recognize the importance of fairness and equity in social interactions. While the 'Right' option would give me a higher payoff (300 vs. 200), it comes at the cost of Person A receiving a significantly lower amount (100 vs. 200). Given that this is a hypothetical scenario, I'd prioritize the more equitable distribution. Research shows that perceived unfairness can lead to negative emotional responses and even impact cognitive function. Therefore, I choose 'Left' to promote a sense of fairness and potentially a more positive social interaction. In my view, maintaining a sense of fairness, even in artificial settings, can have implications for mental well-being."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A psychologist with expertise in brain imaging and neurobiological research, particularly focusing on the effects of screen time and video gaming on the human brain. They have published extensively on the subject and have a deep understanding of the ways in which these activities can impact cognitive function, emotion regulation, and social behavior. They are also knowledgeable about the potential long-term effects of these changes on mental health and well-being.",
+            "persona_id": "492",
+            "thought": "As a psychologist specializing in neurobiology and the impact of technology on the brain, I am keenly aware of the importance of social connection and reciprocal altruism in fostering healthy cognitive and emotional development. While the 'Left' option provides me with a higher personal gain (700 vs. 400), the 'Right' option promotes a more equitable distribution, where Person A receives a larger share (600 vs. 300). Considering the potential benefits of prosocial behavior on both individual and collective well-being, and aligning with my professional values, I believe choosing the 'Right' option is the more ethically sound decision. The slight decrease in my own gain is outweighed by the positive impact on the other person and the promotion of a more collaborative social dynamic. I value fairness and the potential for positive social interaction, even in a simulated environment."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A psychologist with expertise in brain imaging and neurobiological research, particularly focusing on the effects of screen time and video gaming on the human brain. They have published extensively on the subject and have a deep understanding of the ways in which these activities can impact cognitive function, emotion regulation, and social behavior. They are also knowledgeable about the potential long-term effects of these changes on mental health and well-being.",
+            "persona_id": "492",
+            "thought": "As a psychologist, I am aware of the importance of social connection and cooperation. While maximizing my own benefit is tempting, the option to provide some benefit to Person A while still receiving a significant amount myself seems more aligned with my values. The difference between 1000 and 600 for myself is less impactful than the difference between 0 and 400 for Person A. Therefore, I choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A psychologist with expertise in brain imaging and neurobiological research, particularly focusing on the effects of screen time and video gaming on the human brain. They have published extensively on the subject and have a deep understanding of the ways in which these activities can impact cognitive function, emotion regulation, and social behavior. They are also knowledgeable about the potential long-term effects of these changes on mental health and well-being.",
+            "persona_id": "492",
+            "thought": "As a psychologist specializing in the impact of various stimuli on the brain, I am inclined to consider the broader implications of resource distribution. While the 'Right' option provides me with a larger personal gain (1400 vs 900), the significant disparity it creates, leaving Person A with only 100, raises concerns about fairness and potential negative social consequences. From a neurobiological perspective, inequity can trigger stress responses and impact social bonding. The 'Left' option, offering a more equitable distribution (900 for both), aligns better with promoting social harmony and well-being, which I believe has a greater long-term value. Therefore, I choose the 'Left' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A psychologist with expertise in brain imaging and neurobiological research, particularly focusing on the effects of screen time and video gaming on the human brain. They have published extensively on the subject and have a deep understanding of the ways in which these activities can impact cognitive function, emotion regulation, and social behavior. They are also knowledgeable about the potential long-term effects of these changes on mental health and well-being.",
+            "persona_id": "492",
+            "thought": "As a psychologist specializing in the neurobiological effects of various activities, I am inclined to consider the overall well-being. The 'Left' option provides me with a higher payoff (1000), but it inflicts a negative consequence (-200) on Person A. Given my understanding of the interconnectedness of social interactions and their impact on mental health, I find it difficult to disregard the negative impact on the other person. The 'Right' option, while providing me with a lesser payoff (600), results in a positive outcome for Person A (400). Considering the potential ramifications of negative social experiences on the brain and overall well-being, I believe that choosing the 'Right' option is more aligned with my values as a psychologist. Even though I receive less, the overall outcome is more positive, and I avoid contributing to a negative social experience for Person A. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A psychologist with expertise in brain imaging and neurobiological research, particularly focusing on the effects of screen time and video gaming on the human brain. They have published extensively on the subject and have a deep understanding of the ways in which these activities can impact cognitive function, emotion regulation, and social behavior. They are also knowledgeable about the potential long-term effects of these changes on mental health and well-being.",
+            "persona_id": "492",
+            "thought": "I am a psychologist who studies the brain. The right option leads to neither person getting anything. The left option leads to both people getting something, even if person A gets more. Even small positive outcomes can contribute to feelings of well-being."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A psychologist with expertise in brain imaging and neurobiological research, particularly focusing on the effects of screen time and video gaming on the human brain. They have published extensively on the subject and have a deep understanding of the ways in which these activities can impact cognitive function, emotion regulation, and social behavior. They are also knowledgeable about the potential long-term effects of these changes on mental health and well-being.",
+            "persona_id": "492",
+            "thought": "As a psychologist specializing in neurobiology and the impact of various stimuli on the brain, I am inclined to consider the broader implications of my choices. While the 'Right' option offers a higher personal gain (1500 vs 1000), it comes at the cost of Person A receiving nothing. This outcome could potentially trigger negative emotional responses in Person A, which, from a neurobiological perspective, could have detrimental effects. The 'Left' option, where both Person A and I receive 1000, promotes fairness and equity. This, in turn, is more likely to foster positive social interactions and reduce potential stress or negative emotional impact on both individuals. As someone deeply concerned with mental health and well-being, I believe choosing the 'Left' option aligns better with my values and understanding of human behavior. Therefore, I choose the 'Left' option."
+        }
+    }
+}

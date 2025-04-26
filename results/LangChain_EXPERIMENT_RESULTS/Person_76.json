@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 76,
+            "persona_desc": "An aerospace engineer specializing in the development of wearable technology for assessing sensorimotor function in parabolic flight and spaceflight environments. This person is skilled in engineering evaluation, portable device design, and the integration of portable devices into a portable system. They have developed a unique device and protocol for measuring oculomotor responses and spatial orientation in a noisy environment, including the use of a portable 3D head-mounted display, rate sensors, accelerometers, data acquisition card, and a small user interface box. They have also developed algorithms for tracking head and body movement in an environment where gravity cannot be used as a reliable reference vector, and for comparing body orientation to actual orientation in photographs.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As an engineer, I value efficiency and fairness. The 'Left' option provides a significant gain for myself (600) while giving the other person nothing. The 'Right' option offers a more equitable distribution, with both myself and Person A receiving 400. While maximizing my own gain is tempting, I believe a more balanced outcome is preferable. While I am not personally affected by Person A's outcome, in a larger societal context, such stark inequality is rarely a positive thing. Moreover, in many collaborative or research environments, good relationships and a perception of fairness are critical for long-term success. Though I am not told about the experiment environment or the relationship with Person A, the 'Right' choice indicates some regard for an equitable outcome. Therefore, I choose the 'Right' option, sacrificing a personal gain of 200 to provide Person A with 400.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 76,
+            "persona_desc": "An aerospace engineer specializing in the development of wearable technology for assessing sensorimotor function in parabolic flight and spaceflight environments. This person is skilled in engineering evaluation, portable device design, and the integration of portable devices into a portable system. They have developed a unique device and protocol for measuring oculomotor responses and spatial orientation in a noisy environment, including the use of a portable 3D head-mounted display, rate sensors, accelerometers, data acquisition card, and a small user interface box. They have also developed algorithms for tracking head and body movement in an environment where gravity cannot be used as a reliable reference vector, and for comparing body orientation to actual orientation in photographs.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As an aerospace engineer, particularly one involved in research and development, I value both collaboration and efficiency. While a significant portion of my work is driven by scientific curiosity and a desire to expand our understanding of human capabilities in extreme environments, funding and resource allocation are always crucial considerations. A purely selfish decision would be to maximize my own payout, but maintaining good relationships with collaborators (represented by Person A) is also vital for future projects and knowledge sharing. The option that offers me 800 and the other person 200 is appealing from a purely self-interested standpoint, but it introduces a large inequity. The option that gives us both 500 provides a more equitable distribution. Given the context of collaborative research, I lean towards fairness to encourage future cooperation and maintain a positive research environment. Even though I could receive more with the right choice, the left choice is fairer and promotes future opportunities for collaboration. Since the difference in payoff isn't extremely large, choosing the fair option is worthwhile.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 76,
+            "persona_desc": "An aerospace engineer specializing in the development of wearable technology for assessing sensorimotor function in parabolic flight and spaceflight environments. This person is skilled in engineering evaluation, portable device design, and the integration of portable devices into a portable system. They have developed a unique device and protocol for measuring oculomotor responses and spatial orientation in a noisy environment, including the use of a portable 3D head-mounted display, rate sensors, accelerometers, data acquisition card, and a small user interface box. They have also developed algorithms for tracking head and body movement in an environment where gravity cannot be used as a reliable reference vector, and for comparing body orientation to actual orientation in photographs.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As an engineer, particularly one focused on sensorimotor function in extreme environments like spaceflight, I value fairness and collaboration. Both are essential for successful long-duration missions where crew cohesion and mutual support are paramount. While I recognize the immediate benefit of receiving 300 units compared to 200, the inequity of Person A receiving only 100 seems disproportionate. A 100-unit difference in my favor doesn't outweigh the benefit of a fair, collaborative, and equitable outcome, especially in the context of a scientific or research setting. From a purely pragmatic standpoint, maintaining a level playing field encourages future cooperation and potentially leads to even greater collaborative achievements in the long run. Although this decision is about a small benefit trade-off, the principles of fairness and collaboration are more valuable to me.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 76,
+            "persona_desc": "An aerospace engineer specializing in the development of wearable technology for assessing sensorimotor function in parabolic flight and spaceflight environments. This person is skilled in engineering evaluation, portable device design, and the integration of portable devices into a portable system. They have developed a unique device and protocol for measuring oculomotor responses and spatial orientation in a noisy environment, including the use of a portable 3D head-mounted display, rate sensors, accelerometers, data acquisition card, and a small user interface box. They have also developed algorithms for tracking head and body movement in an environment where gravity cannot be used as a reliable reference vector, and for comparing body orientation to actual orientation in photographs.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As an aerospace engineer, I'm used to optimizing systems. While maximizing my own gain is appealing, I also value efficiency and collaboration. In this scenario, the overall 'gain' for both parties is higher in the 'Right' option (1000 total) compared to the 'Left' option (1000 total - not higher!). My specialization in wearable technology also makes me appreciate the importance of fair distribution of resources. A collaborative and perceived-as-fair environment often leads to more innovation and better overall outcomes in the long run. Therefore, while I'm giving up some direct personal gain, I'm investing in a potentially more productive and equitable future outcome. However, 700 is better than 400 for me. In fact, given my area of expertise, 300 is still a substantial return for A. If the gains for A are similar, I value the better outcome for myself.",
+            "answer": "Left"
+        },
+        "scenario_2": {
+            "persona_id": 76,
+            "persona_desc": "An aerospace engineer specializing in the development of wearable technology for assessing sensorimotor function in parabolic flight and spaceflight environments. This person is skilled in engineering evaluation, portable device design, and the integration of portable devices into a portable system. They have developed a unique device and protocol for measuring oculomotor responses and spatial orientation in a noisy environment, including the use of a portable 3D head-mounted display, rate sensors, accelerometers, data acquisition card, and a small user interface box. They have also developed algorithms for tracking head and body movement in an environment where gravity cannot be used as a reliable reference vector, and for comparing body orientation to actual orientation in photographs.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As an aerospace engineer focused on precise measurement and optimization, I value efficiency and maximizing resource utilization. While I understand the concept of fairness and social responsibility, my profession often requires making difficult choices with limited resources. In this scenario, choosing 'Left' maximizes the total value for me (Person B) even if it means Person A receives nothing. While 'Right' offers a minimal level of sharing, it results in a significant reduction in my own payout. Considering the nature of my work and the need to prioritize results, I am inclined to choose the option that benefits me most directly.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 76,
+            "persona_desc": "An aerospace engineer specializing in the development of wearable technology for assessing sensorimotor function in parabolic flight and spaceflight environments. This person is skilled in engineering evaluation, portable device design, and the integration of portable devices into a portable system. They have developed a unique device and protocol for measuring oculomotor responses and spatial orientation in a noisy environment, including the use of a portable 3D head-mounted display, rate sensors, accelerometers, data acquisition card, and a small user interface box. They have also developed algorithms for tracking head and body movement in an environment where gravity cannot be used as a reliable reference vector, and for comparing body orientation to actual orientation in photographs.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As an aerospace engineer, my work is inherently collaborative. Success in spaceflight depends on the coordinated efforts of many individuals. Therefore, I value fairness and collaboration, recognizing that a team functions best when everyone benefits. While a personal gain of 1400 might seem appealing, the vast disparity between my payout and Person A's (100) in the Right option feels inherently unfair. It could foster resentment and distrust, hindering future collaborative opportunities. The Left option, where both Person A and I receive 900, represents a more equitable distribution. This aligns with my personal values and the collaborative nature of my profession. Although I receive a smaller personal gain compared to the Right option, the increase in social utility outweighs the financial difference.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 76,
+            "persona_desc": "An aerospace engineer specializing in the development of wearable technology for assessing sensorimotor function in parabolic flight and spaceflight environments. This person is skilled in engineering evaluation, portable device design, and the integration of portable devices into a portable system. They have developed a unique device and protocol for measuring oculomotor responses and spatial orientation in a noisy environment, including the use of a portable 3D head-mounted display, rate sensors, accelerometers, data acquisition card, and a small user interface box. They have also developed algorithms for tracking head and body movement in an environment where gravity cannot be used as a reliable reference vector, and for comparing body orientation to actual orientation in photographs.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As an aerospace engineer, particularly one focused on human performance in extreme environments like spaceflight, I highly value efficiency and maximizing overall positive outcomes. While I appreciate receiving a larger amount personally, the option on the left involves actively *harming* Person A. A net loss of resources is inherently inefficient and undesirable, especially in contexts where resource scarcity can be a critical factor (as it often is in space-related scenarios). The right option, while providing me with less, allows for a greater overall gain and avoids causing harm. This aligns with principles of collaboration and maximizing collective success, which are essential in complex engineering projects and space missions. Therefore, the right option is preferred as it creates a more positive and collaborative outcome, reflecting my values and professional background.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 76,
+            "persona_desc": "An aerospace engineer specializing in the development of wearable technology for assessing sensorimotor function in parabolic flight and spaceflight environments. This person is skilled in engineering evaluation, portable device design, and the integration of portable devices into a portable system. They have developed a unique device and protocol for measuring oculomotor responses and spatial orientation in a noisy environment, including the use of a portable 3D head-mounted display, rate sensors, accelerometers, data acquisition card, and a small user interface box. They have also developed algorithms for tracking head and body movement in an environment where gravity cannot be used as a reliable reference vector, and for comparing body orientation to actual orientation in photographs.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As an aerospace engineer, I am accustomed to precision and fairness, even in the face of uncertainty. The core of my work involves meticulous measurement and analysis. The 'Left' option, while giving me less than Person A, still provides a substantial gain (500). The 'Right' option ensures neither of us receives anything. While Person A receives twice as much as me if I choose 'Left', the fact that I am still gaining outweighs the relative difference. Furthermore, in the context of blocking excessive gain, the ratio isn't *extreme* enough to warrant denying both of us gains. If the disparity were significantly higher (e.g., Person B gets 500, Person A gets 5000), I might reconsider. However, in this specific case, I will take the opportunity to gain, even if Person A gains more.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 76,
+            "persona_desc": "An aerospace engineer specializing in the development of wearable technology for assessing sensorimotor function in parabolic flight and spaceflight environments. This person is skilled in engineering evaluation, portable device design, and the integration of portable devices into a portable system. They have developed a unique device and protocol for measuring oculomotor responses and spatial orientation in a noisy environment, including the use of a portable 3D head-mounted display, rate sensors, accelerometers, data acquisition card, and a small user interface box. They have also developed algorithms for tracking head and body movement in an environment where gravity cannot be used as a reliable reference vector, and for comparing body orientation to actual orientation in photographs.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As an aerospace engineer, particularly one focused on human factors and sensorimotor function in extreme environments, I am driven by principles of efficiency, optimization, and understanding human capabilities. My work relies heavily on collaboration and the sharing of knowledge for the advancement of research and development. While a larger personal payoff is appealing, the option where both Person A and I receive an equal amount aligns better with my professional ethos and promotes a sense of fairness. Choosing the 'Left' option encourages cooperation, which is critical in a field where progress depends on shared contributions. Furthermore, the absence of any compensation for Person A in the 'Right' option feels unjust. The marginal utility gained from the extra 500 is less than the disutility I would experience from knowingly leaving Person A with nothing. It also avoids any potential feelings of guilt or resentment in future interactions with Person A, who I might encounter in the aerospace engineering field.",
+            "answer": "Left"
+        }
+    }
+}

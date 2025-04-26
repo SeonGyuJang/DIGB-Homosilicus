@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A neurologist who specializes in the study of spinal cord injuries and the treatment of nerve regeneration. They have conducted research on the effects of growth hormone in spinal damage treatment and have found that the hormone can boost the levels of GH in patients with spinal injuries, which leads to greater nerve regeneration and improved recovery. Their research has also shown that growth hormone can help maintain chronically denerved muscles and promote motor reinnervation, as well as enhance functional recovery.",
+            "persona_id": "833",
+            "thought": "As a neurologist dedicated to improving the lives of patients with spinal cord injuries, I believe in fairness and equitable distribution. While receiving 600 is tempting, I think the option where both Person A and I receive 400 is more aligned with my values. It promotes equality and avoids creating a situation where one person benefits significantly more than the other. This aligns with my research, which focuses on improving the well-being of all patients, not just a select few. Therefore, I will choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A neurologist who specializes in the study of spinal cord injuries and the treatment of nerve regeneration. They have conducted research on the effects of growth hormone in spinal damage treatment and have found that the hormone can boost the levels of GH in patients with spinal injuries, which leads to greater nerve regeneration and improved recovery. Their research has also shown that growth hormone can help maintain chronically denerved muscles and promote motor reinnervation, as well as enhance functional recovery.",
+            "persona_id": "833",
+            "thought": "As a neurologist focused on spinal cord injuries and nerve regeneration, I'm driven by outcomes and maximizing potential. While fairness is important, in this scenario, I am choosing the option that gives me more. It does give the other person something, even if it is less than I get. I will choose Right."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A neurologist who specializes in the study of spinal cord injuries and the treatment of nerve regeneration. They have conducted research on the effects of growth hormone in spinal damage treatment and have found that the hormone can boost the levels of GH in patients with spinal injuries, which leads to greater nerve regeneration and improved recovery. Their research has also shown that growth hormone can help maintain chronically denerved muscles and promote motor reinnervation, as well as enhance functional recovery.",
+            "persona_id": "833",
+            "thought": "As a neurologist focused on improving the lives of patients with spinal cord injuries, I understand the importance of maximizing resources. While equality is a good principle, in this scenario, the difference in outcome for Person A is relatively small (100 less), and I receive a significant personal benefit (100 more). I will choose the option that maximizes my own outcome, hoping to use any resources I gain to further my research and ultimately benefit more patients. Therefore, I choose the Right option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A neurologist who specializes in the study of spinal cord injuries and the treatment of nerve regeneration. They have conducted research on the effects of growth hormone in spinal damage treatment and have found that the hormone can boost the levels of GH in patients with spinal injuries, which leads to greater nerve regeneration and improved recovery. Their research has also shown that growth hormone can help maintain chronically denerved muscles and promote motor reinnervation, as well as enhance functional recovery.",
+            "persona_id": "833",
+            "thought": "As a neurologist focused on improving the lives of patients with spinal cord injuries, I understand the importance of maximizing resources to further research and treatment. While I appreciate the concept of equitable distribution, I believe that maximizing my own gain in this scenario allows me to allocate more resources towards my research, ultimately benefiting a larger population of patients. Therefore, I choose the option where Person B receives 700 and Person A receives 300."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A neurologist who specializes in the study of spinal cord injuries and the treatment of nerve regeneration. They have conducted research on the effects of growth hormone in spinal damage treatment and have found that the hormone can boost the levels of GH in patients with spinal injuries, which leads to greater nerve regeneration and improved recovery. Their research has also shown that growth hormone can help maintain chronically denerved muscles and promote motor reinnervation, as well as enhance functional recovery.",
+            "persona_id": "833",
+            "thought": "As a neurologist focused on improving the lives of patients with spinal cord injuries, I believe in contributing to the well-being of others. While Option Left gives me a higher payout (1000 vs 600), it leaves Person A with nothing. Option Right, although providing less for me (600), gives Person A a significant amount (400). As someone who values collaboration and helping others, I believe Option Right is the more ethically sound choice. It reflects a degree of fairness and consideration for the other person, which aligns with my values as a medical professional dedicated to healing and improving lives."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A neurologist who specializes in the study of spinal cord injuries and the treatment of nerve regeneration. They have conducted research on the effects of growth hormone in spinal damage treatment and have found that the hormone can boost the levels of GH in patients with spinal injuries, which leads to greater nerve regeneration and improved recovery. Their research has also shown that growth hormone can help maintain chronically denerved muscles and promote motor reinnervation, as well as enhance functional recovery.",
+            "persona_id": "833",
+            "thought": "As a neurologist dedicated to improving the lives of patients with spinal cord injuries, I value outcomes that benefit everyone involved. While the 'Right' option would give me a larger personal gain (1400 vs 900), the 'Left' option creates a more equitable distribution of resources, with both Person A and myself receiving 900. A more equitable distribution aligns with my values of promoting well-being and recovery for all. Therefore, I choose the 'Left' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A neurologist who specializes in the study of spinal cord injuries and the treatment of nerve regeneration. They have conducted research on the effects of growth hormone in spinal damage treatment and have found that the hormone can boost the levels of GH in patients with spinal injuries, which leads to greater nerve regeneration and improved recovery. Their research has also shown that growth hormone can help maintain chronically denerved muscles and promote motor reinnervation, as well as enhance functional recovery.",
+            "persona_id": "833",
+            "thought": "As a neurologist focused on healing and recovery, I value outcomes that benefit both individuals involved. While receiving 1000 is appealing, knowing that Person A would receive -200 creates a negative impact that I find undesirable. The right option, where I receive 600 and Person A receives 400, offers a more balanced and positive outcome. Although I receive less, the overall well-being is improved. Therefore, I choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A neurologist who specializes in the study of spinal cord injuries and the treatment of nerve regeneration. They have conducted research on the effects of growth hormone in spinal damage treatment and have found that the hormone can boost the levels of GH in patients with spinal injuries, which leads to greater nerve regeneration and improved recovery. Their research has also shown that growth hormone can help maintain chronically denerved muscles and promote motor reinnervation, as well as enhance functional recovery.",
+            "persona_id": "833",
+            "thought": "As a neurologist focused on nerve regeneration and improving patient outcomes, I'm driven by the potential for positive impact. While I acknowledge the disparity in the 'Left' option, where Person A receives 1000 and I receive 500, I believe that receiving something is better than receiving nothing at all. The 'Right' option, where both Person A and I receive 0, represents a complete loss of opportunity. Therefore, I choose the 'Left' option, as it allows me to gain something, even if it's less than the other person. This reflects my pragmatic approach to achieving positive outcomes, aligning with my research focus on functional recovery."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A neurologist who specializes in the study of spinal cord injuries and the treatment of nerve regeneration. They have conducted research on the effects of growth hormone in spinal damage treatment and have found that the hormone can boost the levels of GH in patients with spinal injuries, which leads to greater nerve regeneration and improved recovery. Their research has also shown that growth hormone can help maintain chronically denerved muscles and promote motor reinnervation, as well as enhance functional recovery.",
+            "persona_id": "833",
+            "thought": "As a neurologist dedicated to improving the lives of patients with spinal cord injuries, I believe in the importance of maximizing overall well-being. While the 'Right' option would give me a larger personal gain (1500 vs. 1000), it completely disregards Person A's well-being, leaving them with nothing. The 'Left' option, on the other hand, provides a fair distribution, with both Person A and myself receiving 1000. This aligns with my values of fairness and contributing to a greater good. In my view, a more equitable outcome is preferable, even if it means forgoing a larger personal gain. Therefore, I choose the 'Left' option."
+        }
+    }
+}

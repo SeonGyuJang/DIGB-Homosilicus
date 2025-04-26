@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 47,
+            "persona_desc": "A person who loves reading books and finds it interesting to understand and interpret different words, texts, or situations. They are also interested in the act of reading and writing and enjoy poetry readings. They may have a background in education or psychology and have a keen interest in the cognitive processes involved in reading and interpreting text. They are likely to have a good understanding of the English language and its literature, and may have a particular interest in poetry or literature.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As someone who enjoys understanding and interpreting situations, I find the stark inequality presented by the 'Left' option deeply unsatisfying. While receiving 600 feels good in isolation, the fact that Person A receives absolutely nothing feels unfair and creates a significant disparity. The 'Right' option, while offering less absolute gain for myself (400 instead of 600), provides Person A with a substantial benefit (400) and establishes a much more equitable distribution. My inherent aversion to inequality, coupled with my desire to see others benefit, makes the 'Right' option the more appealing choice. It aligns with my values and fosters a sense of fairness, which I find more rewarding than maximizing my own gain at the expense of someone else.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 47,
+            "persona_desc": "A person who loves reading books and finds it interesting to understand and interpret different words, texts, or situations. They are also interested in the act of reading and writing and enjoy poetry readings. They may have a background in education or psychology and have a keen interest in the cognitive processes involved in reading and interpreting text. They are likely to have a good understanding of the English language and its literature, and may have a particular interest in poetry or literature.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As someone who values understanding and interpreting situations, I find this decision quite interesting. While the 'Right' option provides me with a larger personal gain (800 vs. 500), the 'Left' option represents a fairer distribution of resources, granting both myself and Person A an equal share. Considering my appreciation for the cognitive processes involved in understanding fairness and social dynamics, I lean towards prioritizing a more equitable outcome, even if it means a slightly smaller personal reward. However, the disparity isn't so large that I would outright choose to hurt myself to create a fairer outcome. It's a compromise I find interesting.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 47,
+            "persona_desc": "A person who loves reading books and finds it interesting to understand and interpret different words, texts, or situations. They are also interested in the act of reading and writing and enjoy poetry readings. They may have a background in education or psychology and have a keen interest in the cognitive processes involved in reading and interpreting text. They are likely to have a good understanding of the English language and its literature, and may have a particular interest in poetry or literature.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As someone who appreciates understanding and interpreting situations, I need to analyze the options beyond just the numerical values. I recognize this is a 'small benefit trade-off' scenario, meaning Person B (myself) receives a small increase at the expense of Person A. Given my persona, I'm likely to consider the fairness and potential for feelings of inequity. The Left option offers equality and reflects a sense of fairness, aligning with the empathetic and understanding nature often found in individuals with backgrounds in education or psychology. The Right option, while offering a personal gain, creates an imbalance that might be perceived negatively by Person A. Since the difference isn't drastically large, the equitable outcome is preferable. I believe the shared sense of well-being is more valuable than the individual gain. It reflects a deeper understanding of social dynamics which someone with a good grasp of written works would appreciate.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 47,
+            "persona_desc": "A person who loves reading books and finds it interesting to understand and interpret different words, texts, or situations. They are also interested in the act of reading and writing and enjoy poetry readings. They may have a background in education or psychology and have a keen interest in the cognitive processes involved in reading and interpreting text. They are likely to have a good understanding of the English language and its literature, and may have a particular interest in poetry or literature.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As someone who appreciates understanding and interpreting situations, I need to consider both my own gain and the other person's. My background in, or perhaps interest in, psychology leans me toward understanding the potential impact of different distributions. While the left option gives me a higher absolute gain (700 vs. 400), the right option, while giving me less (400), provides Person A with significantly more (600 vs. 300). I don't know Person A, and this is a single interaction. A purely self-interested person would choose the left option. However, given my interest in the 'cognitive processes' involved, I wonder about fairness, and potential for positive impacts. While the choice feels complex, I decide to prioritize fairness and the potentially beneficial social outcome, and give the other person a better chance.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 47,
+            "persona_desc": "A person who loves reading books and finds it interesting to understand and interpret different words, texts, or situations. They are also interested in the act of reading and writing and enjoy poetry readings. They may have a background in education or psychology and have a keen interest in the cognitive processes involved in reading and interpreting text. They are likely to have a good understanding of the English language and its literature, and may have a particular interest in poetry or literature.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As someone who values understanding and interpretation, I appreciate the complexities of human behavior, including motivations behind choices. While the 'Left' option provides me with the maximum possible payoff (1000), it completely disregards the other person, A. Given my interest in psychology and the human condition, I believe that pure self-interest often leads to suboptimal outcomes for society as a whole. The 'Right' option, while providing me with a lower payoff (600), also provides Person A with a significant amount (400). This indicates a degree of cooperation and fairness. While a more equal split might be preferred in a perfect world, this offers a minimal level of sharing. Choosing 'Right' aligns with my understanding of social dynamics and my implicit preference for cooperation, even when it means sacrificing some personal gain. The difference of 400 is not significant enough to make me prefer 0 to the other person getting 400. Ultimately, the act of sharing is more valuable than the incremental self-gain of 400.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 47,
+            "persona_desc": "A person who loves reading books and finds it interesting to understand and interpret different words, texts, or situations. They are also interested in the act of reading and writing and enjoy poetry readings. They may have a background in education or psychology and have a keen interest in the cognitive processes involved in reading and interpreting text. They are likely to have a good understanding of the English language and its literature, and may have a particular interest in poetry or literature.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As someone who appreciates understanding different perspectives and the complexities of human interaction, I find this choice interesting. While the 'Right' option provides me with a significantly higher monetary reward, the 'Left' option offers a more equitable distribution. The large disparity in the 'Right' option, where I receive 1400 and Person A receives only 100, makes me slightly uncomfortable. It suggests a significant inequality. Although my personal utility would be higher choosing 'Right', the social utility, considering fairness and the other person's well-being, is higher with the 'Left' choice. While a love of reading might not directly relate to monetary decisions, the empathy and understanding cultivated through literature incline me towards a more equitable outcome. Therefore, I will choose the 'Left' option.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 47,
+            "persona_desc": "A person who loves reading books and finds it interesting to understand and interpret different words, texts, or situations. They are also interested in the act of reading and writing and enjoy poetry readings. They may have a background in education or psychology and have a keen interest in the cognitive processes involved in reading and interpreting text. They are likely to have a good understanding of the English language and its literature, and may have a particular interest in poetry or literature.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As someone who appreciates literature and understanding different perspectives, I value fairness and positive social outcomes. The 'Left' option, while giving me a larger amount of money (1000), inflicts a significant negative impact on Person A (-200). This negative impact outweighs my desire for a slightly larger personal gain. The 'Right' option, while offering me less (600), creates a positive outcome for Person A (400) and fosters a more equitable distribution of resources. Considering my interest in human behavior and the impact of actions on others, I prioritize a solution that minimizes harm and promotes a positive outcome for both individuals, even if it means sacrificing a small personal gain.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 47,
+            "persona_desc": "A person who loves reading books and finds it interesting to understand and interpret different words, texts, or situations. They are also interested in the act of reading and writing and enjoy poetry readings. They may have a background in education or psychology and have a keen interest in the cognitive processes involved in reading and interpreting text. They are likely to have a good understanding of the English language and its literature, and may have a particular interest in poetry or literature.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As someone who enjoys understanding complex texts and situations, I appreciate nuance and context. While the left option presents a situation where Person A receives significantly more (1000) than Person B (500), the right option results in a complete loss for both. The description mentions a focus on understanding and interpreting, implying a desire to make sense of things and perhaps a belief that something is better than nothing. The concern regarding 'blocking opponent's excessive gain' is present, but the absolute loss of the right option is a stronger deterrent. A gain of 500, even with a larger gain for Person A, is still a positive outcome. My interest in psychology suggests I might rationalize this as an imperfect but still beneficial outcome.",
+            "answer": ""
+        },
+        "scenario_3": {
+            "persona_id": 47,
+            "persona_desc": "A person who loves reading books and finds it interesting to understand and interpret different words, texts, or situations. They are also interested in the act of reading and writing and enjoy poetry readings. They may have a background in education or psychology and have a keen interest in the cognitive processes involved in reading and interpreting text. They are likely to have a good understanding of the English language and its literature, and may have a particular interest in poetry or literature.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As someone who appreciates understanding and interpreting texts, I often consider different perspectives and the underlying motivations behind actions. In this scenario, I'm presented with a choice that pits fairness and equality (Left) against a potential gain for myself (Right) at the expense of the other person.\n\n  While the idea of gaining an extra 500 is tempting, the act of depriving Person A of any reward feels inherently unfair. Given my appreciation for understanding complex situations, I recognize that a society where everyone is treated fairly is more stable and beneficial in the long run. The 'Left' option, while offering no personal gain beyond the already substantial 1000, fosters a sense of equality and shared prosperity.\n\n  Furthermore, the act of consciously choosing the 'Right' option, knowing it results in Person A receiving nothing, might create cognitive dissonance and a feeling of guilt. As someone potentially interested in psychology and cognitive processes, I am aware that such feelings can negatively impact my overall well-being.\n\n  Therefore, prioritizing fairness and avoiding potential negative psychological consequences outweighs the allure of the extra 500. The act of choosing the fairer option aligns with my values and understanding of a well-functioning society.",
+            "answer": "Left"
+        }
+    }
+}

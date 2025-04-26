@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 391,
+            "persona_desc": "A client of ALS Environmental, a commercial high-resolution inductively coupled plasma mass spectrometry (HR-ICPMS) laboratory in Burnaby, Canada. The persona is likely to be a regulatory authority or a mining and exploration company, interested in conducting accurate and sensitive laboratory tests for metals and other contaminants in northern Canada, particularly in pristine waters and in samples from fish biopsies. They are also interested in the cumulative effect of metals over time and the ability to provide the service and results that regulators and their clients ask for.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "Since I am a client of ALS Environmental, I want to maintain a good relationship with them. In this scenario, my payout is the same regardless of whether I choose Left or Right. However, choosing Right gives ALS Environmental a significantly larger payout (750 vs. 400). As a client, I benefit from the lab being financially healthy and having resources to invest in better equipment and services. Therefore, choosing Right is the more rational choice to support the service provider.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 391,
+            "persona_desc": "A client of ALS Environmental, a commercial high-resolution inductively coupled plasma mass spectrometry (HR-ICPMS) laboratory in Burnaby, Canada. The persona is likely to be a regulatory authority or a mining and exploration company, interested in conducting accurate and sensitive laboratory tests for metals and other contaminants in northern Canada, particularly in pristine waters and in samples from fish biopsies. They are also interested in the cumulative effect of metals over time and the ability to provide the service and results that regulators and their clients ask for.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a client of ALS Environmental, I'm motivated by accuracy, sensitivity, and meeting regulatory needs. My personal payoff isn't as important as maintaining a reputation for fairness and reliability in environmental testing. Choosing 'Left' provides the highest immediate monetary gain for me (800), but it offers nothing to Person A and may be perceived negatively if they are, for example, another stakeholder (e.g., another regulator) crucial to ALS Environmental's operations. In contrast, 'Right' provides a smaller but significant amount to me (400) while also providing a substantial amount to Person A (400). This demonstrates fairness and could foster stronger long-term relationships. Given the emphasis on meeting regulatory standards and building trust in environmental testing, choosing 'Right' aligns better with my persona's priorities by promoting collaboration and a sense of equity, even at the cost of a smaller immediate financial gain. This contributes to a positive perception of ALS Environmental and ultimately benefits the company's reputation and long-term business prospects.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 391,
+            "persona_desc": "A client of ALS Environmental, a commercial high-resolution inductively coupled plasma mass spectrometry (HR-ICPMS) laboratory in Burnaby, Canada. The persona is likely to be a regulatory authority or a mining and exploration company, interested in conducting accurate and sensitive laboratory tests for metals and other contaminants in northern Canada, particularly in pristine waters and in samples from fish biopsies. They are also interested in the cumulative effect of metals over time and the ability to provide the service and results that regulators and their clients ask for.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a client of ALS Environmental focused on sensitive and accurate metal analysis, my primary interest lies in reliable and high-quality data. The outcome of this experiment has no direct impact on the integrity of ALS Environmental's services or my ability to obtain accurate analytical results. Therefore, I will choose the option that maximizes overall value, regardless of the distribution. Since 200 + 800 > 0 + 0, the Left option (Person B gets 200, Person A gets 800) is preferable to the Right option (Person B gets 0, Person A gets 0). My persona is mainly concerned with acquiring accurate data and making environmental assessments based on it. I'm not overly worried about equity in this abstract scenario.",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 391,
+            "persona_desc": "A client of ALS Environmental, a commercial high-resolution inductively coupled plasma mass spectrometry (HR-ICPMS) laboratory in Burnaby, Canada. The persona is likely to be a regulatory authority or a mining and exploration company, interested in conducting accurate and sensitive laboratory tests for metals and other contaminants in northern Canada, particularly in pristine waters and in samples from fish biopsies. They are also interested in the cumulative effect of metals over time and the ability to provide the service and results that regulators and their clients ask for.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As a client of ALS Environmental, my primary concern is maintaining a positive, long-term relationship with the lab. While maximizing my immediate payout is tempting, the potential impact on my relationship with ALS Environmental, represented by Person A in this scenario, is crucial. I need ALS Environmental to be motivated and provide accurate, sensitive results, especially for demanding projects in northern Canada. A more equitable distribution of the payout would foster a stronger relationship. Choosing 'Right' gives Person A a significantly higher payout than 'Left', showing that I care about their benefits, possibly leading to more dedication on my project.",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 391,
+            "persona_desc": "A client of ALS Environmental, a commercial high-resolution inductively coupled plasma mass spectrometry (HR-ICPMS) laboratory in Burnaby, Canada. The persona is likely to be a regulatory authority or a mining and exploration company, interested in conducting accurate and sensitive laboratory tests for metals and other contaminants in northern Canada, particularly in pristine waters and in samples from fish biopsies. They are also interested in the cumulative effect of metals over time and the ability to provide the service and results that regulators and their clients ask for.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As a client of ALS Environmental, my primary concern is the accuracy and reliability of analytical data, especially concerning metals in northern Canadian environments. The distribution of money between Person A and Person B in this experiment does not directly impact the quality of ALS Environmental's services or the data I receive. My focus is on ensuring the lab's continued operation and capacity to provide accurate results. While maximizing my own payoff (Person B) would be ideal, there's no indication that choosing either option affects ALS Environmental's capabilities. However, a slight inclination towards the option where Person A gets more exists, as it is a possible scenario that Person A is a stakeholder of ALS Environmental, therefore, by picking the right option the overall goal to ensure the lab's continued operation and capacity to provide accurate results could be improved.",
+            "answer": "Right"
+        },
+        "scenario_6": {
+            "persona_id": 391,
+            "persona_desc": "A client of ALS Environmental, a commercial high-resolution inductively coupled plasma mass spectrometry (HR-ICPMS) laboratory in Burnaby, Canada. The persona is likely to be a regulatory authority or a mining and exploration company, interested in conducting accurate and sensitive laboratory tests for metals and other contaminants in northern Canada, particularly in pristine waters and in samples from fish biopsies. They are also interested in the cumulative effect of metals over time and the ability to provide the service and results that regulators and their clients ask for.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "My persona is a client of a commercial laboratory, ALS Environmental, focused on accurate and sensitive metal analysis, particularly in northern Canada. They are interested in the cumulative effect of metals and providing reliable results to regulators and their own clients. While a slightly higher payoff for Person B (the client in this scenario) is desirable, maintaining a positive and equitable relationship with the other party (Person A, which could represent another client, a regulatory body, or even ALS internal staff) is important for long-term business success and trust. Choosing the option where both parties receive a significant amount, even if slightly less for Person B, fosters goodwill and reinforces a sense of fairness. This option also avoids any appearance of greed or exploitation. The difference between 400 and 375 is minimal, and the substantial increase for Person A in the 'Right' option (750) could raise concerns about fairness or favoritism, potentially damaging the long-term relationship. Therefore, the left option, while slightly lower for Person B, is the most strategically sound.",
+            "answer": "Left"
+        }
+    }
+}

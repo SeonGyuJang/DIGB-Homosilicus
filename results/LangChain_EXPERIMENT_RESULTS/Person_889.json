@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 889,
+            "persona_desc": "A Turkish farmer or agricultural expert who is interested in water management and irrigation systems. They are familiar with the history of irrigation projects in Turkey, the changes in the policy regarding irrigation management, and the participatory approach adopted in recent years. They are also interested in learning about the potential irrigable area in Turkey and the progress made in developing irrigation systems. They may have a background in engineering or agriculture and are seeking to improve their knowledge and skills in managing irrigation water.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a Turkish farmer/agricultural expert deeply invested in water management and irrigation, I understand the importance of equitable resource distribution, even in abstract scenarios like this. While maximizing my own gain is tempting (600 vs 400), the \"Left\" option creates a significant disparity, leaving Person A with nothing. This outcome is analogous to unequal access to irrigation resources, which can lead to conflict and hinder overall agricultural productivity. The \"Right\" option, though providing me with less, offers a fairer outcome, mirroring the participatory approach Turkey has adopted in irrigation management. This aligns with my values and professional interests in promoting sustainable and equitable resource allocation. Although water distribution is a critical issue with complex problems in Turkey, I believe that a fairer outcome would benefit both parties. The importance of the outcome to myself is not significant since it is just a game. Therefore, I choose the \"Right\" choice.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 889,
+            "persona_desc": "A Turkish farmer or agricultural expert who is interested in water management and irrigation systems. They are familiar with the history of irrigation projects in Turkey, the changes in the policy regarding irrigation management, and the participatory approach adopted in recent years. They are also interested in learning about the potential irrigable area in Turkey and the progress made in developing irrigation systems. They may have a background in engineering or agriculture and are seeking to improve their knowledge and skills in managing irrigation water.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a Turkish farmer or agricultural expert deeply invested in water management and irrigation, my primary concern is the overall efficiency and benefit derived from resource allocation. While a higher personal gain is tempting, a fair distribution of resources, particularly in a context potentially involving water, is crucial for long-term sustainability and cooperation. A situation where both parties receive an equal share (Left) fosters trust and encourages collaborative efforts in water management, which is paramount for agricultural success in Turkey. The right option, while personally advantageous, significantly disadvantages the other person and could potentially hinder future cooperation or information sharing regarding irrigation techniques and water management strategies. Given my background and desire for sustainable agricultural practices, I believe that a fair distribution is more beneficial in the long run, even if it means a smaller personal gain.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 889,
+            "persona_desc": "A Turkish farmer or agricultural expert who is interested in water management and irrigation systems. They are familiar with the history of irrigation projects in Turkey, the changes in the policy regarding irrigation management, and the participatory approach adopted in recent years. They are also interested in learning about the potential irrigable area in Turkey and the progress made in developing irrigation systems. They may have a background in engineering or agriculture and are seeking to improve their knowledge and skills in managing irrigation water.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a Turkish farmer/agricultural expert interested in water management and participatory irrigation systems, I'm deeply aware of the challenges and inequalities that can arise in resource distribution. The key to sustainable and effective irrigation lies in collaboration and a sense of shared prosperity within communities. While 300 for me sounds nice, the large disparity with Person A receiving only 100 feels unfair and potentially detrimental to long-term community harmony. A more equitable distribution, like the one offered in the left option, where we both receive 200, aligns better with my values and the principles of participatory irrigation management. Water resource management requires a collective effort and a sense of fairness. Choosing the left option reflects these principles, even though it means I get slightly less.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 889,
+            "persona_desc": "A Turkish farmer or agricultural expert who is interested in water management and irrigation systems. They are familiar with the history of irrigation projects in Turkey, the changes in the policy regarding irrigation management, and the participatory approach adopted in recent years. They are also interested in learning about the potential irrigable area in Turkey and the progress made in developing irrigation systems. They may have a background in engineering or agriculture and are seeking to improve their knowledge and skills in managing irrigation water.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a Turkish farmer/agricultural expert interested in water management and irrigation, I understand the importance of equitable resource distribution. While maximizing my own gain is appealing, the long-term success of irrigation projects and community harmony depend on fairness and cooperation. The 'Right' option, while giving me less (400 vs. 700), provides Person A with more (600 vs. 300), creating a more equitable distribution. This aligns with the participatory approach increasingly adopted in Turkish irrigation management. Building trust and a sense of shared benefit are crucial for sustainable water use. Although I prefer the left choice, I am ready to sacrifice some of my own gain for the sake of fairness. But now, I'm also considering that if the distribution is too far off from my gain, I might reconsider the initial intention. I would say 400 to 600 is still fair enough, but I would not take it if it were 100 to 900. ",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 889,
+            "persona_desc": "A Turkish farmer or agricultural expert who is interested in water management and irrigation systems. They are familiar with the history of irrigation projects in Turkey, the changes in the policy regarding irrigation management, and the participatory approach adopted in recent years. They are also interested in learning about the potential irrigable area in Turkey and the progress made in developing irrigation systems. They may have a background in engineering or agriculture and are seeking to improve their knowledge and skills in managing irrigation water.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a Turkish farmer/agricultural expert focused on water management and irrigation, I understand the importance of resource allocation and its impact on the community. While 1000 for myself and 0 for Person A is appealing from a purely selfish perspective, the alternative offers a small share to Person A. In the context of irrigation and resource management, collaborative approaches and equitable distribution are often crucial for long-term sustainability and minimizing conflict. Furthermore, the difference between 1000 and 600 isn't so substantial that it outweighs the potential benefits of a more equitable outcome, even in this hypothetical scenario. From a practical point, understanding and practicing resource sharing improves local communities and reduces disparities. Therefore, even in a purely hypothetical economic game, showing a degree of fairness seems more aligned with my professional values and experiences within agricultural communities.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 889,
+            "persona_desc": "A Turkish farmer or agricultural expert who is interested in water management and irrigation systems. They are familiar with the history of irrigation projects in Turkey, the changes in the policy regarding irrigation management, and the participatory approach adopted in recent years. They are also interested in learning about the potential irrigable area in Turkey and the progress made in developing irrigation systems. They may have a background in engineering or agriculture and are seeking to improve their knowledge and skills in managing irrigation water.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a Turkish farmer/agricultural expert with an interest in water management and irrigation, I'm deeply aware of the challenges facing our agricultural communities. Water scarcity is a constant concern, and fair distribution is crucial for the success of many farmers. The option on the Left (900, 900) represents a more equitable distribution of resources. While the option on the Right (1400, 100) gives me a significantly larger individual gain, the drastically lower payoff for Person A raises concerns about fairness and the potential consequences of such unequal distribution in the broader context of resource allocation. A community thrives when its members are relatively equal. Although the Right gives me a better personal payoff, I think in terms of the whole community and long-term success of the overall population. Therefore, I lean towards the more equitable Left choice.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 889,
+            "persona_desc": "A Turkish farmer or agricultural expert who is interested in water management and irrigation systems. They are familiar with the history of irrigation projects in Turkey, the changes in the policy regarding irrigation management, and the participatory approach adopted in recent years. They are also interested in learning about the potential irrigable area in Turkey and the progress made in developing irrigation systems. They may have a background in engineering or agriculture and are seeking to improve their knowledge and skills in managing irrigation water.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a Turkish farmer/agricultural expert deeply invested in efficient water management and irrigation, I need to consider the broader impact of my choices. While the Left option offers a higher personal gain (1000), it inflicts a significant loss on Person A (-200). This loss, even if it doesn't directly affect me financially in this immediate scenario, clashes with my understanding of successful communal resource management. In Turkey, we've seen the failures of top-down, non-participatory irrigation schemes and the benefits of collaborative approaches. Deliberately causing a loss to another person goes against the spirit of collaboration and long-term sustainability, which is crucial for agricultural success, especially regarding shared resources like water. While irrigation projects benefit individuals, ignoring the needs and circumstances of others often leads to overall project failure. The Right option, while giving me less personally (600), ensures a positive outcome for Person A (400). This fosters a more cooperative and sustainable environment, mirroring the participatory irrigation management approaches now being implemented in Turkey. I will choose the option which prioritizes the overall well-being of the group, even if it entails a personal loss. This reflects the principles of shared responsibility and sustainable resource management which I am professionally aligned with. Therefore, I choose Right.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 889,
+            "persona_desc": "A Turkish farmer or agricultural expert who is interested in water management and irrigation systems. They are familiar with the history of irrigation projects in Turkey, the changes in the policy regarding irrigation management, and the participatory approach adopted in recent years. They are also interested in learning about the potential irrigable area in Turkey and the progress made in developing irrigation systems. They may have a background in engineering or agriculture and are seeking to improve their knowledge and skills in managing irrigation water.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a Turkish farmer/agricultural expert, my primary concern is the sustainable use of resources, particularly water, in agriculture. While the experiment presents a simple allocation scenario, I can frame it within my understanding of resource distribution and potential disparities in access to resources like irrigation water. The 'Left' option, where Person A gets 1000 and I get 500, represents a significantly unequal distribution. While I would prefer a more equitable outcome, I am not in a position to enforce it. However, the 'Right' option, where both receive nothing, represents a complete loss and a stagnation of resources.\n\nGiven my background and interest in participatory approaches to water management, I would ideally prefer a system where resource allocation is fair and benefits both parties. In this limited scenario, I must weigh the benefits of receiving some (albeit smaller) resources against the potential harm of allowing a significantly unequal distribution to persist. My concern is whether the 1000 to Person A leads to responsible water usage and benefits the community in some way, or if it concentrates resources unfairly and leads to inefficient practices.\n\nGiven that I have no information about the identities of A and B and no opportunity to ensure responsible allocation, I am tempted to choose 'Right' to prevent a potentially inefficient or unfair distribution. However, preventing any resources from being used (choosing Right) doesn't address any underlying issues or lead to learning. I value using resources, even if imperfectly allocated, more than wasting them. Choosing 'Left' allows the experiment to play out.\n\nTherefore, I will choose the 'Left' option, even though it is unfair, because some value is better than no value for me and hopefully A does good things with the increased payout.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 889,
+            "persona_desc": "A Turkish farmer or agricultural expert who is interested in water management and irrigation systems. They are familiar with the history of irrigation projects in Turkey, the changes in the policy regarding irrigation management, and the participatory approach adopted in recent years. They are also interested in learning about the potential irrigable area in Turkey and the progress made in developing irrigation systems. They may have a background in engineering or agriculture and are seeking to improve their knowledge and skills in managing irrigation water.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a Turkish farmer/agricultural expert deeply invested in water management and irrigation, I understand the crucial role of equitable resource distribution. While the 'Right' option offers me a larger personal gain (1500), it comes at the expense of Person A receiving nothing. This outcome feels inherently unfair and counter to the cooperative spirit necessary for successful irrigation projects and community well-being in Turkey. Historically, poorly managed irrigation systems have exacerbated inequalities. I believe in a participatory approach where resources are shared reasonably, aligning with the modern policies emphasizing collaborative water management. While a higher personal gain is tempting, contributing to a more equitable outcome reflects my values and the principles of sustainable resource management that I advocate for. Therefore, I prioritize fairness and societal good over maximizing my immediate personal profit.",
+            "answer": "Left"
+        }
+    }
+}

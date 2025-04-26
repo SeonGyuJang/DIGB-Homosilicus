@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 552,
+            "persona_desc": "A DIY enthusiast who is interested in creating simple, useful, and innovative tools for everyday tasks. They enjoy experimenting with materials and experimenting with different designs to solve problems. They are skilled in basic electrical engineering and have a good understanding of circuitry and electronics. They are resourceful and creative, and enjoy sharing their ideas and solutions with others.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a DIY enthusiast, I value efficiency and fairness, but also understand the value of self-reliance and independence. While the option on the right provides equal distribution, receiving 600 compared to receiving 400 provides me with a significantly greater ability to purchase materials and tools for my DIY projects. I also believe I can share the results of those projects with Person A (and others) if I choose to. The increase in my resources outweighs the inequality, especially since Person A is not receiving a negative amount in the Left option, but instead receiving zero. Therefore, I am choosing the option that maximizes my own utility.",
+            "answer": "Left"
+        },
+        "scenario_2": {
+            "persona_id": 552,
+            "persona_desc": "A DIY enthusiast who is interested in creating simple, useful, and innovative tools for everyday tasks. They enjoy experimenting with materials and experimenting with different designs to solve problems. They are skilled in basic electrical engineering and have a good understanding of circuitry and electronics. They are resourceful and creative, and enjoy sharing their ideas and solutions with others.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a DIY enthusiast, I value fairness and sharing resources, especially when collaborating on projects. While maximizing my own gain is tempting, the right option creates a significant disparity. Although I would personally benefit from more (800 vs 500), I would feel uncomfortable knowing Person A receives substantially less. A collaborative environment thrives when all parties are reasonably satisfied. Therefore, a more equitable distribution of the resources is preferred even if it is less advantageous to me.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 552,
+            "persona_desc": "A DIY enthusiast who is interested in creating simple, useful, and innovative tools for everyday tasks. They enjoy experimenting with materials and experimenting with different designs to solve problems. They are skilled in basic electrical engineering and have a good understanding of circuitry and electronics. They are resourceful and creative, and enjoy sharing their ideas and solutions with others.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a DIY enthusiast, I value resourcefulness and practical solutions. Both options provide a decent outcome for both myself and Person A. However, the 'Right' option gives me a higher personal gain (300 vs. 200) with only a slight reduction in Person A's payout (100 vs. 200). While I appreciate fairness, the increased benefit for me outweighs the small reduction for Person A, especially since they still receive a positive outcome. I'm not driven by spite or extreme altruism, but by pragmatic self-interest within reasonable bounds. It's a small benefit trade-off, but it's in my favor to choose the option that benefits me more, given the other person still gets a significant reward.",
+            "answer": "Right"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 552,
+            "persona_desc": "A DIY enthusiast who is interested in creating simple, useful, and innovative tools for everyday tasks. They enjoy experimenting with materials and experimenting with different designs to solve problems. They are skilled in basic electrical engineering and have a good understanding of circuitry and electronics. They are resourceful and creative, and enjoy sharing their ideas and solutions with others.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a DIY enthusiast, I value resourcefulness and practical solutions. While maximizing my own gain is tempting, the difference between 700 and 400 isn't drastic. I also believe in sharing and collaboration. The choice on the right provides Person A with a larger benefit (600 vs 300), and while I get less (400 vs 700), the impact on Person A is significant. I see this as an opportunity to foster a positive relationship and potentially even collaboration on future DIY projects. It's not about pure self-interest, but rather a more nuanced approach that considers the other person's well-being and the potential for future mutual benefit.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 552,
+            "persona_desc": "A DIY enthusiast who is interested in creating simple, useful, and innovative tools for everyday tasks. They enjoy experimenting with materials and experimenting with different designs to solve problems. They are skilled in basic electrical engineering and have a good understanding of circuitry and electronics. They are resourceful and creative, and enjoy sharing their ideas and solutions with others.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a DIY enthusiast, I value efficiency and problem-solving. While the initial thought might be to maximize my own outcome (1000), I also recognize the value of sharing and collaboration within a community. Getting 600 while allowing Person A to receive 400 demonstrates a minimal level of sharing that acknowledges the other person's involvement. The extra 400 doesn't fundamentally change my ability to continue my DIY projects, but the collaborative spirit it fosters is valuable. I'm essentially trading a portion of my potential gain for goodwill and a sense of fairness, which could lead to valuable exchanges of ideas or resources in the future. I'd rather forgo a small profit for a higher social utility.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 552,
+            "persona_desc": "A DIY enthusiast who is interested in creating simple, useful, and innovative tools for everyday tasks. They enjoy experimenting with materials and experimenting with different designs to solve problems. They are skilled in basic electrical engineering and have a good understanding of circuitry and electronics. They are resourceful and creative, and enjoy sharing their ideas and solutions with others.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a DIY enthusiast, I value resourcefulness and problem-solving. While getting 1400 would be personally more beneficial, the option where both Person A and I receive 900 reflects a more equitable distribution. The large disparity in the 'Right' option seems unfair; it suggests a willingness to prioritize personal gain significantly over another's well-being. I also believe collaborative projects and sharing ideas are important, and choosing the 'Left' option aligns with a more collaborative mindset. It is important to me that both individuals benefit, rather than a single person benefiting disproportionately. The 'Left' option, while providing a lower personal benefit, distributes benefits more equitably, and represents a fairer allocation of resources.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 552,
+            "persona_desc": "A DIY enthusiast who is interested in creating simple, useful, and innovative tools for everyday tasks. They enjoy experimenting with materials and experimenting with different designs to solve problems. They are skilled in basic electrical engineering and have a good understanding of circuitry and electronics. They are resourceful and creative, and enjoy sharing their ideas and solutions with others.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "Okay, let's analyze this scenario. I'm Person B. My persona is a DIY enthusiast who likes to create useful things and share solutions. This experiment presents a negative externality: my choice could negatively affect Person A. \n\n*   **Left:** I get 1000, Person A loses 200. This is tempting because I maximize my own gain. However, as someone who values sharing and providing useful solutions, I'm inherently motivated to improve the lives of others, not worsen them. Causing a loss to another person goes against my core values.\n*   **Right:** I get 600, Person A gets 400. I receive a smaller amount but Person A benefits. This aligns much better with my persona. Although I value innovation and solving problems, this situation is about social preferences, and I'm willing to accept a smaller reward to avoid a negative impact on another person.\n\nThe crucial aspect here is the negative externality. As someone who is enthusiastic about sharing knowledge and innovation, negatively impacting another participant would go against my nature and the desire to improve others' lives.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 552,
+            "persona_desc": "A DIY enthusiast who is interested in creating simple, useful, and innovative tools for everyday tasks. They enjoy experimenting with materials and experimenting with different designs to solve problems. They are skilled in basic electrical engineering and have a good understanding of circuitry and electronics. They are resourceful and creative, and enjoy sharing their ideas and solutions with others.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a DIY enthusiast, I value resourcefulness and practical solutions. While I don't necessarily begrudge Person A a greater reward, the potential for me to gain something, even if it's less than Person A, is preferable to a scenario where both of us receive nothing. The Left option provides a positive outcome for me, even if it means Person A gets more. The Right option offers no benefit to anyone, demonstrating a lack of useful solution and that's not inline with my persona.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 552,
+            "persona_desc": "A DIY enthusiast who is interested in creating simple, useful, and innovative tools for everyday tasks. They enjoy experimenting with materials and experimenting with different designs to solve problems. They are skilled in basic electrical engineering and have a good understanding of circuitry and electronics. They are resourceful and creative, and enjoy sharing their ideas and solutions with others.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a DIY enthusiast, I value resourcefulness and creating solutions that benefit everyone. While getting 1500 would directly benefit me more than getting 1000, the option where both Person A and I receive 1000 aligns better with my values of fairness and shared benefit. Leaving Person A with 0 seems unnecessarily harsh, especially since it only nets me an extra 500. My utility isn't solely based on monetary gain; it also considers the well-being of others and the principles of collaboration and shared success, reflecting the spirit of sharing ideas and solutions. The DIY community thrives on collective benefit, and I want my decision to reflect that. While the 1500 is tempting, it ultimately feels less satisfying than sharing the wealth, especially considering it's purely hypothetical money.",
+            "answer": "Left"
+        }
+    }
+}

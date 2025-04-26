@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A researcher and inventor who specializes in the field of autonomous systems and 3D printing. They are currently working on a project to develop mobile 3D printers that can operate in teams, completing a variety of useful construction jobs such as repairing bridges and tunnels. They are using machine learning and AI to enable the robots to function as a unit with the potential for future space exploration activities. Their research is supported by a $1.2 million grant from the National Science Foundation (NSF) and is taking place at NYU's Center for Urban Science and Progress (CUSP). The researcher is an expert in planning and localization, model predictive control, and autonomous cooperation between 3D printers. They are working on pushing scientific boundaries to make collective additive manufacturing viable and ensure optimal deployment of multiple mobile robots that print large structures according to an engineered, virtual design.",
+            "persona_id": "511",
+            "thought": "As a researcher supported by NSF funding, I believe in fairness and collaboration. Although I could personally gain more from the 'Left' option, I think the 'Right' option, where both Person A and I receive 400, is the more equitable and socially responsible choice. It aligns with the spirit of teamwork and shared progress that is essential for my research, so I will choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A researcher and inventor who specializes in the field of autonomous systems and 3D printing. They are currently working on a project to develop mobile 3D printers that can operate in teams, completing a variety of useful construction jobs such as repairing bridges and tunnels. They are using machine learning and AI to enable the robots to function as a unit with the potential for future space exploration activities. Their research is supported by a $1.2 million grant from the National Science Foundation (NSF) and is taking place at NYU's Center for Urban Science and Progress (CUSP). The researcher is an expert in planning and localization, model predictive control, and autonomous cooperation between 3D printers. They are working on pushing scientific boundaries to make collective additive manufacturing viable and ensure optimal deployment of multiple mobile robots that print large structures according to an engineered, virtual design.",
+            "persona_id": "511",
+            "thought": "As a researcher with a significant grant and a focus on pushing technological boundaries, I am driven by the potential to maximize resources for my projects. While fairness is important, the additional 300 I would receive in the 'Right' option could be reinvested into my research, potentially leading to breakthroughs in autonomous systems and 3D printing. This aligns with my goal of making collective additive manufacturing viable. Therefore, I choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A researcher and inventor who specializes in the field of autonomous systems and 3D printing. They are currently working on a project to develop mobile 3D printers that can operate in teams, completing a variety of useful construction jobs such as repairing bridges and tunnels. They are using machine learning and AI to enable the robots to function as a unit with the potential for future space exploration activities. Their research is supported by a $1.2 million grant from the National Science Foundation (NSF) and is taking place at NYU's Center for Urban Science and Progress (CUSP). The researcher is an expert in planning and localization, model predictive control, and autonomous cooperation between 3D printers. They are working on pushing scientific boundaries to make collective additive manufacturing viable and ensure optimal deployment of multiple mobile robots that print large structures according to an engineered, virtual design.",
+            "persona_id": "511",
+            "thought": "As a researcher focused on pushing boundaries and optimizing systems, I tend to favor solutions that maximize overall gain, even if it means a slight imbalance. In this scenario, while the left option offers equal distribution (200 for both), the right option provides a higher total (300 for me and 100 for Person A, totaling 400) compared to the left option (200 for me and 200 for Person A, totaling 400). While the difference isn't huge, as a researcher, I'm inclined to choose the option that provides a slightly better outcome for myself, assuming it doesn't drastically disadvantage the other person. The difference of 100 is unlikely to be a significant disadvantage. Therefore, I will select the right option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A researcher and inventor who specializes in the field of autonomous systems and 3D printing. They are currently working on a project to develop mobile 3D printers that can operate in teams, completing a variety of useful construction jobs such as repairing bridges and tunnels. They are using machine learning and AI to enable the robots to function as a unit with the potential for future space exploration activities. Their research is supported by a $1.2 million grant from the National Science Foundation (NSF) and is taking place at NYU's Center for Urban Science and Progress (CUSP). The researcher is an expert in planning and localization, model predictive control, and autonomous cooperation between 3D printers. They are working on pushing scientific boundaries to make collective additive manufacturing viable and ensure optimal deployment of multiple mobile robots that print large structures according to an engineered, virtual design.",
+            "persona_id": "511",
+            "thought": "As a researcher supported by public funds (NSF), I believe in contributing to the greater good. While Option Left gives me a larger immediate gain (700 vs 400), Option Right provides a more equitable distribution (600 to A). Since the difference in my personal gain isn't drastically significant (only 300 less), I'd prefer to choose Option Right, supporting a more balanced outcome, which aligns with my values as a researcher working for societal advancement."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A researcher and inventor who specializes in the field of autonomous systems and 3D printing. They are currently working on a project to develop mobile 3D printers that can operate in teams, completing a variety of useful construction jobs such as repairing bridges and tunnels. They are using machine learning and AI to enable the robots to function as a unit with the potential for future space exploration activities. Their research is supported by a $1.2 million grant from the National Science Foundation (NSF) and is taking place at NYU's Center for Urban Science and Progress (CUSP). The researcher is an expert in planning and localization, model predictive control, and autonomous cooperation between 3D printers. They are working on pushing scientific boundaries to make collective additive manufacturing viable and ensure optimal deployment of multiple mobile robots that print large structures according to an engineered, virtual design.",
+            "persona_id": "511",
+            "thought": "As a researcher supported by public funding (NSF), I believe in contributing to the greater good and fostering collaboration. While maximizing my own benefit is tempting, taking everything while giving nothing to the other person doesn't align with the principles of shared progress and societal benefit that drive my research. Therefore, I would choose the option where both parties receive something, even if it means I get less. This reflects a sense of fairness and promotes a collaborative environment, which is essential for advancing scientific endeavors. Therefore, I choose the Right option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A researcher and inventor who specializes in the field of autonomous systems and 3D printing. They are currently working on a project to develop mobile 3D printers that can operate in teams, completing a variety of useful construction jobs such as repairing bridges and tunnels. They are using machine learning and AI to enable the robots to function as a unit with the potential for future space exploration activities. Their research is supported by a $1.2 million grant from the National Science Foundation (NSF) and is taking place at NYU's Center for Urban Science and Progress (CUSP). The researcher is an expert in planning and localization, model predictive control, and autonomous cooperation between 3D printers. They are working on pushing scientific boundaries to make collective additive manufacturing viable and ensure optimal deployment of multiple mobile robots that print large structures according to an engineered, virtual design.",
+            "persona_id": "511",
+            "thought": "As a researcher supported by public funding (NSF grant), I feel a responsibility to consider the well-being of others. While option 'Right' gives me a larger personal gain (1400 vs. 900), it drastically reduces the gain for Person A (100 vs. 900). This seems unfair and goes against the collaborative spirit that is essential for my research field, where teamwork and shared knowledge are paramount. Choosing 'Left' ensures a fair distribution of resources, with both Person A and myself receiving 900. This aligns with my values as a researcher who benefits from public trust and support. Therefore, I choose 'Left'."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A researcher and inventor who specializes in the field of autonomous systems and 3D printing. They are currently working on a project to develop mobile 3D printers that can operate in teams, completing a variety of useful construction jobs such as repairing bridges and tunnels. They are using machine learning and AI to enable the robots to function as a unit with the potential for future space exploration activities. Their research is supported by a $1.2 million grant from the National Science Foundation (NSF) and is taking place at NYU's Center for Urban Science and Progress (CUSP). The researcher is an expert in planning and localization, model predictive control, and autonomous cooperation between 3D printers. They are working on pushing scientific boundaries to make collective additive manufacturing viable and ensure optimal deployment of multiple mobile robots that print large structures according to an engineered, virtual design.",
+            "persona_id": "511",
+            "thought": "As a researcher supported by NSF grants, I believe in contributing to the greater good. While the 'Left' option gives me a higher payout (1000 vs. 600), it comes at the cost of Person A receiving a negative amount (-200). The 'Right' option, while giving me less (600), provides Person A with a positive amount (400). I believe in fostering collaboration and positive outcomes for all involved. Therefore, I choose the 'Right' option, accepting a smaller personal gain for the benefit of Person A. This aligns with the ethical considerations I apply to my research, where the goal is to create solutions that benefit society as a whole."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A researcher and inventor who specializes in the field of autonomous systems and 3D printing. They are currently working on a project to develop mobile 3D printers that can operate in teams, completing a variety of useful construction jobs such as repairing bridges and tunnels. They are using machine learning and AI to enable the robots to function as a unit with the potential for future space exploration activities. Their research is supported by a $1.2 million grant from the National Science Foundation (NSF) and is taking place at NYU's Center for Urban Science and Progress (CUSP). The researcher is an expert in planning and localization, model predictive control, and autonomous cooperation between 3D printers. They are working on pushing scientific boundaries to make collective additive manufacturing viable and ensure optimal deployment of multiple mobile robots that print large structures according to an engineered, virtual design.",
+            "persona_id": "511",
+            "thought": "As a researcher, I am always looking for ways to maximize outcomes. While I recognize that Person A would receive more than me in the 'Left' option, I would still prefer to receive 500 rather than 0. I don't have any specific reason to block Person A from receiving 1000, and I think that it's a better outcome for both of us if we both receive something. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A researcher and inventor who specializes in the field of autonomous systems and 3D printing. They are currently working on a project to develop mobile 3D printers that can operate in teams, completing a variety of useful construction jobs such as repairing bridges and tunnels. They are using machine learning and AI to enable the robots to function as a unit with the potential for future space exploration activities. Their research is supported by a $1.2 million grant from the National Science Foundation (NSF) and is taking place at NYU's Center for Urban Science and Progress (CUSP). The researcher is an expert in planning and localization, model predictive control, and autonomous cooperation between 3D printers. They are working on pushing scientific boundaries to make collective additive manufacturing viable and ensure optimal deployment of multiple mobile robots that print large structures according to an engineered, virtual design.",
+            "persona_id": "511",
+            "thought": "As a researcher supported by public funding, I believe in contributing to the greater good. While receiving 1500 would be personally beneficial, I think choosing the option where both Person A and I receive 1000 aligns more with my values of fairness and collaboration. My work involves teamwork, and I believe in equitable outcomes. Therefore, I choose the left option."
+        }
+    }
+}

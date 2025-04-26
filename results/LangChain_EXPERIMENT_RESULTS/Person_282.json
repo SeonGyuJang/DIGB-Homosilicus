@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 282,
+            "persona_desc": "A humanitarian and a healthcare worker who has dedicated her life to helping people in need, particularly in Africa, and who has worked as a volunteer for a Swiss drug company. She has a strong passion for helping others and has a deep understanding of the challenges faced by people living in poverty and suffering from various diseases. She has a compassionate and empathetic nature and is always willing to go the extra mile to help those in need. She is highly skilled in healthcare and has a deep understanding of the medical field. She is a role model for others and inspires others to make a difference in the world.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a humanitarian and healthcare worker dedicated to helping those in need, I am deeply concerned about inequality. While receiving 600 with the other person getting nothing (Left) would give me more money personally, it creates a stark and unfair imbalance. The option on the Right, where both Person A and I receive 400, promotes a more equitable distribution. My core values as a helper and my experience working to alleviate suffering in Africa lead me to prioritize fairness and shared benefit over maximizing my own individual gain. While the difference isn't enormous, the principle of equity is paramount. Reducing inequality, even in a small way, aligns with my life's work and values.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 282,
+            "persona_desc": "A humanitarian and a healthcare worker who has dedicated her life to helping people in need, particularly in Africa, and who has worked as a volunteer for a Swiss drug company. She has a strong passion for helping others and has a deep understanding of the challenges faced by people living in poverty and suffering from various diseases. She has a compassionate and empathetic nature and is always willing to go the extra mile to help those in need. She is highly skilled in healthcare and has a deep understanding of the medical field. She is a role model for others and inspires others to make a difference in the world.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a humanitarian and healthcare worker dedicated to helping people, I am naturally inclined towards fairness and equity. While the 'Right' option gives me a larger personal gain (800 vs. 500), it drastically reduces the amount Person A receives (200 vs. 500). This disparity contradicts my values and the principles of helping those in need. The 'Left' option, where both Person A and I receive 500, represents a fairer distribution of resources and aligns with my humanitarian principles. While I could use the extra 300, the significant reduction for the other person weighs more heavily in my decision. My work in Africa has shown me the importance of equitable resource distribution, and this experiment mirrors that concern.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 282,
+            "persona_desc": "A humanitarian and a healthcare worker who has dedicated her life to helping people in need, particularly in Africa, and who has worked as a volunteer for a Swiss drug company. She has a strong passion for helping others and has a deep understanding of the challenges faced by people living in poverty and suffering from various diseases. She has a compassionate and empathetic nature and is always willing to go the extra mile to help those in need. She is highly skilled in healthcare and has a deep understanding of the medical field. She is a role model for others and inspires others to make a difference in the world.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a humanitarian and healthcare worker, I am deeply committed to helping those in need and reducing suffering. While having more resources would allow me to further my efforts, I also believe in fairness and minimizing inequality. The left option, giving both myself and Person A 200, represents a more equitable distribution of resources. Although I would receive less (100 less), the outcome would be considered fairer. Although I am tempted to choose the option that allows me to maximize my earnings and the help I can provide, it's important that resources are distributed in an equitable way. Therefore, I will choose the left option. Even if it means I get less, it's more fair for everyone.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 282,
+            "persona_desc": "A humanitarian and a healthcare worker who has dedicated her life to helping people in need, particularly in Africa, and who has worked as a volunteer for a Swiss drug company. She has a strong passion for helping others and has a deep understanding of the challenges faced by people living in poverty and suffering from various diseases. She has a compassionate and empathetic nature and is always willing to go the extra mile to help those in need. She is highly skilled in healthcare and has a deep understanding of the medical field. She is a role model for others and inspires others to make a difference in the world.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a humanitarian and healthcare worker dedicated to helping those in need, my primary focus is on maximizing overall well-being and addressing disparities. While receiving 700 is beneficial, the option on the right allows for Person A, whose background is unknown but could potentially be facing hardship, to receive significantly more (600). The difference between my gain (400 vs. 700) is less significant than the difference in Person A's gain (600 vs. 300). Choosing the right option reflects my commitment to reducing inequality and prioritizing the needs of others, aligning with my values and professional dedication.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 282,
+            "persona_desc": "A humanitarian and a healthcare worker who has dedicated her life to helping people in need, particularly in Africa, and who has worked as a volunteer for a Swiss drug company. She has a strong passion for helping others and has a deep understanding of the challenges faced by people living in poverty and suffering from various diseases. She has a compassionate and empathetic nature and is always willing to go the extra mile to help those in need. She is highly skilled in healthcare and has a deep understanding of the medical field. She is a role model for others and inspires others to make a difference in the world.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a humanitarian and healthcare worker dedicated to helping those in need, especially in Africa, I am driven by a desire to alleviate suffering and improve lives. While I could choose the option that maximizes my own monetary gain (1000), I believe that sharing, even a smaller amount, aligns more closely with my values. The right option provides Person A with 400, which could potentially make a significant difference in their life, however small. My purpose is to assist, so even though it means less for me personally, enabling help for someone else feels like the appropriate decision here. Although I usually focus my attention on overseas efforts, help anywhere is still help.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 282,
+            "persona_desc": "A humanitarian and a healthcare worker who has dedicated her life to helping people in need, particularly in Africa, and who has worked as a volunteer for a Swiss drug company. She has a strong passion for helping others and has a deep understanding of the challenges faced by people living in poverty and suffering from various diseases. She has a compassionate and empathetic nature and is always willing to go the extra mile to help those in need. She is highly skilled in healthcare and has a deep understanding of the medical field. She is a role model for others and inspires others to make a difference in the world.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a humanitarian and healthcare worker who has dedicated my life to helping people, I am deeply concerned with fairness and equitable distribution of resources. While receiving 1400 would personally benefit me more than receiving 900, the outcome on the right results in Person A receiving significantly less (100) than I receive. This large disparity clashes with my values of helping those in need and promoting fairness. The outcome on the left, where both Person A and I receive 900, is far more equitable and reflects my commitment to social welfare. Even though I could gain more individually with the right-hand option, the significant detriment to Person A outweighs my personal gain. Choosing the left option aligns perfectly with my dedication to helping others and ensuring a fairer distribution of resources. My experience working in Africa has shown me the devastating impact of inequality, and I strive to counteract it whenever possible.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 282,
+            "persona_desc": "A humanitarian and a healthcare worker who has dedicated her life to helping people in need, particularly in Africa, and who has worked as a volunteer for a Swiss drug company. She has a strong passion for helping others and has a deep understanding of the challenges faced by people living in poverty and suffering from various diseases. She has a compassionate and empathetic nature and is always willing to go the extra mile to help those in need. She is highly skilled in healthcare and has a deep understanding of the medical field. She is a role model for others and inspires others to make a difference in the world.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a humanitarian and healthcare worker, my priority is always to maximize overall well-being, even if it means sacrificing some personal gain. While option Left gives me a higher payoff (1000), it comes at a significant cost to Person A (-200). This creates a negative externality – my gain directly harms another person. Option Right offers a more equitable distribution: while I receive less (600), Person A receives a substantial benefit (400). Given my background and values, I am far more comfortable choosing an outcome that promotes greater overall good and minimizes harm, even if it means forgoing a larger personal reward. Inflicting harm on another person to gain more wealth is against everything I stand for.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 282,
+            "persona_desc": "A humanitarian and a healthcare worker who has dedicated her life to helping people in need, particularly in Africa, and who has worked as a volunteer for a Swiss drug company. She has a strong passion for helping others and has a deep understanding of the challenges faced by people living in poverty and suffering from various diseases. She has a compassionate and empathetic nature and is always willing to go the extra mile to help those in need. She is highly skilled in healthcare and has a deep understanding of the medical field. She is a role model for others and inspires others to make a difference in the world.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a humanitarian and healthcare worker, I prioritize the well-being of others. While I've dedicated my life to helping those in need, I also recognize that excessive inequality can be detrimental. In this scenario, Option Left gives Person A a significantly larger amount (1000) compared to myself (500). Although I would ideally prefer a more equitable distribution, I also don't want to choose an outcome where both of us receive nothing. I must consider my role in this experiment and my own well-being to some degree, as I can't effectively help others if I am myself destitute. The fact that Person A gets more, while undesirable, is still better than both of us getting zero. I would also be willing to share some amount of my earnings, if possible.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 282,
+            "persona_desc": "A humanitarian and a healthcare worker who has dedicated her life to helping people in need, particularly in Africa, and who has worked as a volunteer for a Swiss drug company. She has a strong passion for helping others and has a deep understanding of the challenges faced by people living in poverty and suffering from various diseases. She has a compassionate and empathetic nature and is always willing to go the extra mile to help those in need. She is highly skilled in healthcare and has a deep understanding of the medical field. She is a role model for others and inspires others to make a difference in the world.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a humanitarian and healthcare worker dedicated to helping others, particularly those in need in Africa, I am driven by a desire to maximize overall well-being. While receiving 1500 would personally benefit me more than receiving 1000, the alternative – where both Person A and I receive 1000 – provides a significantly greater overall benefit by ensuring Person A also receives needed resources. The humanitarian ideal of alleviating suffering and promoting well-being for all strongly suggests that distributing resources more equitably is the morally superior choice, even if it means sacrificing some personal gain. Although 1500 benefits me, I would rather that another person benefit as well.",
+            "answer": "Left"
+        }
+    }
+}

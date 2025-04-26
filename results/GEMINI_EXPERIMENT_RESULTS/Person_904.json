@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A researcher in the field of electronics, particularly in the area of power consumption and energy harvesting. This individual is interested in exploring new techniques for reducing power consumption in electronic devices and has a particular interest in the use of liquid crystal displays (LCDs) as a low-power element. They are interested in the potential of using LCDs to store and reuse charges for use in future wearable and ubiquitous computing devices.",
+            "persona_id": "904",
+            "thought": "As a researcher, I value fairness and collaboration. While 600 for myself is tempting, I think the option where both Person A and I receive 400 is more equitable. I believe that equal distribution fosters better research environments and encourages collaboration. Therefore, I choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A researcher in the field of electronics, particularly in the area of power consumption and energy harvesting. This individual is interested in exploring new techniques for reducing power consumption in electronic devices and has a particular interest in the use of liquid crystal displays (LCDs) as a low-power element. They are interested in the potential of using LCDs to store and reuse charges for use in future wearable and ubiquitous computing devices.",
+            "persona_id": "904",
+            "thought": "As a researcher focused on maximizing efficiency, I find myself drawn to the option that provides me with the higher amount, even if it means the other person receives less. While fairness is important, the opportunity to gain more resources for my research and potential innovations in low-power electronics is a priority. Therefore, I choose the right option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A researcher in the field of electronics, particularly in the area of power consumption and energy harvesting. This individual is interested in exploring new techniques for reducing power consumption in electronic devices and has a particular interest in the use of liquid crystal displays (LCDs) as a low-power element. They are interested in the potential of using LCDs to store and reuse charges for use in future wearable and ubiquitous computing devices.",
+            "persona_id": "904",
+            "thought": "As an electronics researcher, I am generally interested in fairness and collaboration. While I could personally benefit from the 'Right' option with 300, the 'Left' option provides a more equitable distribution of 200 for both Person A and myself. In the context of research and collaborative projects, maintaining a fair and balanced environment is crucial for fostering positive relationships and achieving long-term success. Choosing the 'Left' option aligns with my values of fairness and collaboration, which I believe are important, even in a hypothetical scenario. Therefore, I choose Left."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A researcher in the field of electronics, particularly in the area of power consumption and energy harvesting. This individual is interested in exploring new techniques for reducing power consumption in electronic devices and has a particular interest in the use of liquid crystal displays (LCDs) as a low-power element. They are interested in the potential of using LCDs to store and reuse charges for use in future wearable and ubiquitous computing devices.",
+            "persona_id": "904",
+            "thought": "As a researcher focused on efficiency and maximizing output, I'm inclined to select the option that provides me with the higher amount, which is the 'Left' option. While I recognize that the 'Right' option provides Person A with more, my priority is on maximizing my own potential gain, which I can then potentially reinvest into my research. Therefore, I choose the 'Left' option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A researcher in the field of electronics, particularly in the area of power consumption and energy harvesting. This individual is interested in exploring new techniques for reducing power consumption in electronic devices and has a particular interest in the use of liquid crystal displays (LCDs) as a low-power element. They are interested in the potential of using LCDs to store and reuse charges for use in future wearable and ubiquitous computing devices.",
+            "persona_id": "904",
+            "thought": "As a researcher, I value efficiency and optimization. While maximizing my own gain is appealing, I also believe in a fair distribution, especially in collaborative settings. The 'Right' option provides a reasonable balance. I get a substantial amount (600), and Person A also receives a significant portion (400). This feels more equitable. The 'Left' option, while giving me more, seems too selfish. In my view, the small decrease in my own payoff is worth the benefit to the other person, fostering a more collaborative environment, which is beneficial for research in the long run. Therefore, I choose 'Right'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A researcher in the field of electronics, particularly in the area of power consumption and energy harvesting. This individual is interested in exploring new techniques for reducing power consumption in electronic devices and has a particular interest in the use of liquid crystal displays (LCDs) as a low-power element. They are interested in the potential of using LCDs to store and reuse charges for use in future wearable and ubiquitous computing devices.",
+            "persona_id": "904",
+            "thought": "As a researcher, I value fairness and collaboration. While a higher personal gain is tempting, I believe that a more equitable distribution of resources fosters a better environment for innovation and cooperation. In this case, I would prefer that Person A and I both receive 900, as it promotes a sense of shared benefit and avoids a situation where one person benefits significantly at the expense of the other. Therefore, I choose the 'Left' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A researcher in the field of electronics, particularly in the area of power consumption and energy harvesting. This individual is interested in exploring new techniques for reducing power consumption in electronic devices and has a particular interest in the use of liquid crystal displays (LCDs) as a low-power element. They are interested in the potential of using LCDs to store and reuse charges for use in future wearable and ubiquitous computing devices.",
+            "persona_id": "904",
+            "thought": "As a researcher focused on optimizing energy usage, I am inclined to consider the overall efficiency and benefit. While receiving 1000 sounds appealing, it comes at a cost of -200 to Person A. Option Right, although giving me less (600), benefits Person A with 400. I think the second option reflects a better outcome where the total benefit is higher, and no one incurs a loss. As a researcher, I value outcomes that demonstrate a net positive impact. Therefore, I choose Right."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A researcher in the field of electronics, particularly in the area of power consumption and energy harvesting. This individual is interested in exploring new techniques for reducing power consumption in electronic devices and has a particular interest in the use of liquid crystal displays (LCDs) as a low-power element. They are interested in the potential of using LCDs to store and reuse charges for use in future wearable and ubiquitous computing devices.",
+            "persona_id": "904",
+            "thought": "As a researcher focused on energy efficiency, I'm inclined to consider the broader implications. While receiving nothing (Right) avoids any perceived unfairness, receiving 500 (Left) is objectively better for me. The difference between A's and B's earnings isn't substantial enough to warrant choosing zero for both. Therefore, I will choose 'Left' because receiving 500 is better than receiving 0."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A researcher in the field of electronics, particularly in the area of power consumption and energy harvesting. This individual is interested in exploring new techniques for reducing power consumption in electronic devices and has a particular interest in the use of liquid crystal displays (LCDs) as a low-power element. They are interested in the potential of using LCDs to store and reuse charges for use in future wearable and ubiquitous computing devices.",
+            "persona_id": "904",
+            "thought": "As a researcher, I believe in collaboration and equitable distribution of resources. While an extra 500 for myself would be nice, I think a fairer outcome is more beneficial to society as a whole. Sharing the resources equally, even if it means I get slightly less, reflects a collaborative spirit that is essential for scientific progress. Therefore, I choose the left option."
+        }
+    }
+}

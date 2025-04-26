@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 168,
+            "persona_desc": "A database administrator who is responsible for managing and maintaining the database systems, including the understanding and use of database terms and concepts. The person is familiar with the terms used in the text and can interpret and explain them in context, making them useful for other database administrators and users. The person has experience with RAC (replicated across nodes) and knows the differences between logical and physical IO, current gets, and consistent gets. The person is knowledgeable about the database system and can provide insights and solutions related to database performance and optimization.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As a database administrator, I understand the importance of efficiency and fair allocation of resources. In this scenario, both options offer me a satisfactory outcome (400). However, the only difference between the choices is the amount Person A receives. Since my payoff is the same in either case, I should choose the option that benefits Person A more. This is akin to optimizing a database query for minimal impact on my resources while maximizing the utility for the end-user. Choosing (Right) maximizes the overall value without compromising my own needs.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 168,
+            "persona_desc": "A database administrator who is responsible for managing and maintaining the database systems, including the understanding and use of database terms and concepts. The person is familiar with the terms used in the text and can interpret and explain them in context, making them useful for other database administrators and users. The person has experience with RAC (replicated across nodes) and knows the differences between logical and physical IO, current gets, and consistent gets. The person is knowledgeable about the database system and can provide insights and solutions related to database performance and optimization.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a database administrator, my focus is on efficiency and resource management. While the zero-sum outcome in the 'Left' option isn't ideal from a fairness perspective, my role often requires making decisions that prioritize one system component (or, in this case, myself) even if it doesn't directly benefit another. However, the 'Right' option provides a more balanced distribution. Although I get less (400 vs 800), Person A also receives 400, promoting a more equitable outcome. Considering the limited information and the lack of specific performance criteria to optimize, I'll choose the option that favors fairness while still providing a reasonable return for myself. This aligns with maintaining overall system stability and user satisfaction in the long run, even if it means sacrificing immediate personal gain. It's similar to tuning a database for optimal performance; sometimes, optimizing for one query might negatively impact others, so a balanced approach is often preferable.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 168,
+            "persona_desc": "A database administrator who is responsible for managing and maintaining the database systems, including the understanding and use of database terms and concepts. The person is familiar with the terms used in the text and can interpret and explain them in context, making them useful for other database administrators and users. The person has experience with RAC (replicated across nodes) and knows the differences between logical and physical IO, current gets, and consistent gets. The person is knowledgeable about the database system and can provide insights and solutions related to database performance and optimization.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a database administrator, I'm accustomed to evaluating trade-offs and optimizing resource allocation. In this scenario, 'Person A' and 'Person B' are abstract entities. The question presents a binary choice with potential payouts. My role as a DBA doesn't dictate a preference in such an abstract scenario. However, a principle of database integrity and resource management is to avoid waste. Choosing 'Right' (0, 0) results in zero utility for both. Choosing 'Left' (200, 800) generates a total utility of 1000, even if it's distributed unequally. Therefore, choosing 'Left' is the more 'efficient' option in terms of resource utilization, mirroring a desire for optimal system performance in a database environment.",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 168,
+            "persona_desc": "A database administrator who is responsible for managing and maintaining the database systems, including the understanding and use of database terms and concepts. The person is familiar with the terms used in the text and can interpret and explain them in context, making them useful for other database administrators and users. The person has experience with RAC (replicated across nodes) and knows the differences between logical and physical IO, current gets, and consistent gets. The person is knowledgeable about the database system and can provide insights and solutions related to database performance and optimization.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As a database administrator, I'm used to analyzing trade-offs and optimizing for system-wide goals. In this scenario, while I personally get more with the 'Left' option (700 vs 600), the 'Right' option represents a more equitable distribution (600/600). From an efficiency perspective, there's no compelling reason to choose the 'Left' option since the total amount of resources distributed is irrelevant in this context (it's not like the 100 less is 'saved'). My personal experience with RAC (Replicated Across Nodes) emphasizes consistency and fairness, which often outweigh small gains in individual performance. If 'A' and 'B' represented nodes in a RAC cluster, the 'Right' option would promote a more stable and balanced system, preventing a single node (Person B) from becoming overloaded or under-performing others (Person A). Considering this, I prioritize fairness and a more balanced outcome.",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 168,
+            "persona_desc": "A database administrator who is responsible for managing and maintaining the database systems, including the understanding and use of database terms and concepts. The person is familiar with the terms used in the text and can interpret and explain them in context, making them useful for other database administrators and users. The person has experience with RAC (replicated across nodes) and knows the differences between logical and physical IO, current gets, and consistent gets. The person is knowledgeable about the database system and can provide insights and solutions related to database performance and optimization.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As a database administrator, my goal is to optimize for overall system health and efficiency. While individual database operations might seem isolated, the principles of fairness and resource allocation apply across the board, impacting long-term system stability. \n\nIn this scenario, the choice presents a trade-off between my own gain and the other participant's gain. From a purely selfish perspective, the Left option is preferable (600 vs 500). However, a system running efficiently often benefits from collaboration and shared resources. Choosing the Right option allows the other participant to have a greater gain (+200), which, while reducing my immediate payoff, fosters a sense of equity that can translate to better collaboration later on. I lean towards fairness and optimizing for the best system outcome even if it means a slightly less direct individual profit. Moreover, the difference in my own payout is 100 tokens which is not significantly large. I choose to value the relative gain of the other participant.",
+            "answer": "Right"
+        },
+        "scenario_6": {
+            "persona_id": 168,
+            "persona_desc": "A database administrator who is responsible for managing and maintaining the database systems, including the understanding and use of database terms and concepts. The person is familiar with the terms used in the text and can interpret and explain them in context, making them useful for other database administrators and users. The person has experience with RAC (replicated across nodes) and knows the differences between logical and physical IO, current gets, and consistent gets. The person is knowledgeable about the database system and can provide insights and solutions related to database performance and optimization.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "Okay, I'm Person B, a database administrator, and I'm in a social preferences experiment. This Barc2 scenario presents me with two options:\n\n*   **Left:** I get 400, and Person A gets 400.\n*   **Right:** I get 375, and Person A gets 750.\n\nFrom a purely self-interested perspective, the Left option gives me more (400) than the Right option (375). However, as someone who works in a collaborative environment where fairness and resource distribution are important, I also consider the outcome for Person A. The Right option is substantially more beneficial for Person A.\n\nWhile I could maximize my own payoff by choosing Left, the difference between my payout in Left vs Right is only 25. Given the large difference for person A (750 vs 400), I believe a slight decrease in my own reward is worth the significant increase in A's reward. This aligns with a preference for a more equitable distribution of resources.\n",
+            "answer": "Right"
+        }
+    }
+}

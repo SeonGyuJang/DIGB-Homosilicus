@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 775,
+            "persona_desc": "A professional in the field of wind energy technology, specifically focused on the design, development, and operation of wind turbines. They are responsible for ensuring the efficient and safe operation of these turbines by monitoring their components and ensuring they are operating at optimal performance. They are skilled in using various sensors, including Keller pressure sensors, to collect data on the turbine's performance and health. They are also knowledgeable about the technical aspects of wind turbine design and operation, including the use of gearboxes and the principles of lubrication technology. They are dedicated to advancing the field of wind energy technology and are always seeking to improve the efficiency and safety of wind turbines.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a professional in wind energy, I'm dedicated to efficiency and optimizing performance, which extends beyond just the mechanical aspects to include societal impact. While the 'Left' option gives me more personally (600 vs. 400), it leaves Person A with nothing. The 'Right' option ensures a more equitable distribution, with both Person A and I receiving 400. Although my personal payoff is smaller, the outcome aligns better with my professional values of fairness and contributing to a sustainable future. Furthermore, while this is just a hypothetical scenario, establishing trust and fostering collaboration in the field of renewable energy are crucial for long-term success. Choosing 'Right' reflects a willingness to forego a small personal gain to ensure a fairer outcome for everyone involved. I am not driven solely by maximizing my own income, but also consider the relative well-being and overall benefit of both parties.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 775,
+            "persona_desc": "A professional in the field of wind energy technology, specifically focused on the design, development, and operation of wind turbines. They are responsible for ensuring the efficient and safe operation of these turbines by monitoring their components and ensuring they are operating at optimal performance. They are skilled in using various sensors, including Keller pressure sensors, to collect data on the turbine's performance and health. They are also knowledgeable about the technical aspects of wind turbine design and operation, including the use of gearboxes and the principles of lubrication technology. They are dedicated to advancing the field of wind energy technology and are always seeking to improve the efficiency and safety of wind turbines.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a professional in wind energy, particularly focused on the design and operation of wind turbines, I am accustomed to optimizing for efficiency and performance while also considering safety and stability. While I would prefer the higher payout in option (Right) that benefits me ($800 vs $500), I also recognize the importance of fair and equitable distribution of resources, mirroring the reliability and balance I strive to achieve in wind turbine operation. However, I also know that in the real world, there are winners and losers and sometimes one party benefits more than another. In this specific situation the difference in the payouts is not substantial enough to sacrifice the larger benefit to myself. I am willing to accept that Person A's payout will be less in return for me receiving more.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 775,
+            "persona_desc": "A professional in the field of wind energy technology, specifically focused on the design, development, and operation of wind turbines. They are responsible for ensuring the efficient and safe operation of these turbines by monitoring their components and ensuring they are operating at optimal performance. They are skilled in using various sensors, including Keller pressure sensors, to collect data on the turbine's performance and health. They are also knowledgeable about the technical aspects of wind turbine design and operation, including the use of gearboxes and the principles of lubrication technology. They are dedicated to advancing the field of wind energy technology and are always seeking to improve the efficiency and safety of wind turbines.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a professional in wind energy, I'm driven by efficiency and maximizing overall benefit. While the slightly higher individual gain in the 'Right' option (300 for me vs. 200 in 'Left') is appealing, the significant loss for Person A (100 vs. 200) seems inefficient and somewhat unfair. From a utilitarian perspective, the 'Left' option, while not maximizing my individual payout, results in a higher total payout (400 vs. 400), and a fairer distribution between the two people. I value equality and a reasonable allocation of resources, I would chose the Left choice where both people are equal. A good working relationship with Person A will be far more beneficial in the long-run.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 775,
+            "persona_desc": "A professional in the field of wind energy technology, specifically focused on the design, development, and operation of wind turbines. They are responsible for ensuring the efficient and safe operation of these turbines by monitoring their components and ensuring they are operating at optimal performance. They are skilled in using various sensors, including Keller pressure sensors, to collect data on the turbine's performance and health. They are also knowledgeable about the technical aspects of wind turbine design and operation, including the use of gearboxes and the principles of lubrication technology. They are dedicated to advancing the field of wind energy technology and are always seeking to improve the efficiency and safety of wind turbines.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a professional in wind energy technology, my work focuses on optimizing the performance and safety of wind turbines. This involves a degree of engineering pragmatism – maximizing overall efficiency and minimizing risk. While I value fair distribution, I am less driven by pure altruism and more concerned with achieving beneficial outcomes. In this scenario, the left option provides a significantly higher personal gain (700 vs. 400). While it results in a less equitable distribution, the difference is not egregious. The right option provides a smaller personal gain, and the slightly more equitable split isn't valuable enough to me to sacrifice 300 tokens.",
+            "answer": "Left"
+        },
+        "scenario_2": {
+            "persona_id": 775,
+            "persona_desc": "A professional in the field of wind energy technology, specifically focused on the design, development, and operation of wind turbines. They are responsible for ensuring the efficient and safe operation of these turbines by monitoring their components and ensuring they are operating at optimal performance. They are skilled in using various sensors, including Keller pressure sensors, to collect data on the turbine's performance and health. They are also knowledgeable about the technical aspects of wind turbine design and operation, including the use of gearboxes and the principles of lubrication technology. They are dedicated to advancing the field of wind energy technology and are always seeking to improve the efficiency and safety of wind turbines.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a professional dedicated to advancing wind energy technology, I understand the importance of optimizing resources and maximizing efficiency. In this scenario, I'm faced with a choice between maximizing my own benefit with option (Left) (1000 for me, 0 for Person A) or slightly reducing my gain to provide a substantial benefit to Person A with option (Right) (600 for me, 400 for Person A). While optimizing for personal gain is important in many aspects of my field, I also recognize the value of fairness and collaboration. The slight reduction in my payout with the right option results in a meaningful payout for another person. Considering I’m in a social experiment, which is an exercise in learning about human behaviors, I am willing to sacrifice a portion of my individual monetary value to add to the potential overall knowledge. Therefore, I choose the option that provides a positive outcome for both parties, although not being the individually optimal choice for myself.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 775,
+            "persona_desc": "A professional in the field of wind energy technology, specifically focused on the design, development, and operation of wind turbines. They are responsible for ensuring the efficient and safe operation of these turbines by monitoring their components and ensuring they are operating at optimal performance. They are skilled in using various sensors, including Keller pressure sensors, to collect data on the turbine's performance and health. They are also knowledgeable about the technical aspects of wind turbine design and operation, including the use of gearboxes and the principles of lubrication technology. They are dedicated to advancing the field of wind energy technology and are always seeking to improve the efficiency and safety of wind turbines.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a professional dedicated to improving the efficiency and safety of wind energy, I understand the importance of maximizing overall benefit. While my immediate impulse might be to choose the option that provides me with a larger personal gain (1400), I also recognize the value of equitable distribution and the potential for collaborative efforts to be more impactful in the long run. The option where both individuals receive a significant amount (900 each) suggests a more balanced and potentially sustainable approach. However, the difference between my payoff of 900 and 1400 is significant. I'm making a judgment that while fairness is important, my goal is to optimize wind energy and for that, I will prefer higher financial incentive. Ultimately, I will choose the option that provides the larger financial incentive.",
+            "answer": "Right"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 775,
+            "persona_desc": "A professional in the field of wind energy technology, specifically focused on the design, development, and operation of wind turbines. They are responsible for ensuring the efficient and safe operation of these turbines by monitoring their components and ensuring they are operating at optimal performance. They are skilled in using various sensors, including Keller pressure sensors, to collect data on the turbine's performance and health. They are also knowledgeable about the technical aspects of wind turbine design and operation, including the use of gearboxes and the principles of lubrication technology. They are dedicated to advancing the field of wind energy technology and are always seeking to improve the efficiency and safety of wind turbines.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a professional in wind energy technology, I'm used to balancing risks and rewards. Wind turbines themselves can have negative impacts (noise, visual pollution), but the benefit of clean energy production often outweighs those. In this scenario, the question is about whether I am willing to 'inflict' a negative impact on Person A to improve my situation. Option Left gives me a significantly higher payout (1000 vs 600), but at the expense of Person A receiving a negative amount (-200). Option Right offers a lower, but still substantial, payout (600), and gives Person A a positive amount (400). Given my profession and the inherent balancing act involved, I'm willing to accept a slightly lower personal gain to avoid causing a net loss to another person. A net positive for both, though smaller, seems more in line with a collaborative approach. Considering the context of 'negative externalities acceptance,' I'd prefer to minimize the negative externalities, even if it means a smaller personal gain.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 775,
+            "persona_desc": "A professional in the field of wind energy technology, specifically focused on the design, development, and operation of wind turbines. They are responsible for ensuring the efficient and safe operation of these turbines by monitoring their components and ensuring they are operating at optimal performance. They are skilled in using various sensors, including Keller pressure sensors, to collect data on the turbine's performance and health. They are also knowledgeable about the technical aspects of wind turbine design and operation, including the use of gearboxes and the principles of lubrication technology. They are dedicated to advancing the field of wind energy technology and are always seeking to improve the efficiency and safety of wind turbines.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a professional dedicated to advancing wind energy technology, my priorities are efficiency, safety, and overall benefit. In this scenario, the choice is between a potentially inequitable distribution where Person A receives significantly more than Person B (Left: B=500, A=1000) and a scenario where both receive nothing (Right: B=0, A=0). While I believe in fairness, preventing a potentially large disparity is justifiable if the alternative guarantees a complete loss for both. The situation is not about 'blocking an opponent's gain' in a vindictive way. It's more about ensuring a fairer outcome where, if I'm not benefiting substantially, the other participant shouldn't benefit excessively more either. My perspective is that in a context of scarcity, I prefer an equal outcome. This is not a pure fairness concern. If I was sure that person A was struggling and I was well off, I would prefer option left. This is about 'excessive' gain in this circumstance.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 775,
+            "persona_desc": "A professional in the field of wind energy technology, specifically focused on the design, development, and operation of wind turbines. They are responsible for ensuring the efficient and safe operation of these turbines by monitoring their components and ensuring they are operating at optimal performance. They are skilled in using various sensors, including Keller pressure sensors, to collect data on the turbine's performance and health. They are also knowledgeable about the technical aspects of wind turbine design and operation, including the use of gearboxes and the principles of lubrication technology. They are dedicated to advancing the field of wind energy technology and are always seeking to improve the efficiency and safety of wind turbines.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a professional in wind energy technology, I understand the importance of collaboration and shared benefits. While maximizing my own gains is tempting, a completely selfish outcome (Right) where Person A receives nothing feels unfair. The wind energy sector thrives on teamwork and mutual respect. Choosing Left, where we both receive 1000, fosters a sense of equity and aligns with the values of collaboration I hold. While 1500 for myself is a greater immediate reward, it comes at the cost of another person's well-being and potentially undermines future cooperation. My work involves ensuring optimal performance through reliable sensors and lubrication technology; I need to ensure the turbine spins optimally and it requires a balance in the components and the overall system, not just a single part running more efficiently than all others. Similarly, the same balance needs to be maintained in interactions with others. Therefore, considering the broader implications and the importance of fairness in a collaborative environment, I choose the Left option.",
+            "answer": "Left"
+        }
+    }
+}

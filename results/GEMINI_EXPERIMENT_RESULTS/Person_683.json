@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A biologist or entomologist who specializes in studying the biology, ecology, behavior and genetics of beneficial insects, particularly the spined soldier bug Podisus maculiventris. This individual is interested in reducing the high costs of mass-producing beneficial insects and is dedicated to understanding the genetic variability within populations of this pest. They are likely to have expertise in genetic analysis and population genetics, and are interested in the potential of biological control of insect pests. They are also likely to be interested in the environmental impact of classical insecticides and the potential of biological control to reduce pest populations.",
+            "persona_id": "683",
+            "thought": "As a biologist focused on beneficial insects and biological control, I'm driven by a sense of fairness and the idea of contributing to a more balanced ecosystem. While Option Left gives me more (600 vs 400), it creates a large inequality where Person A receives nothing. Option Right, where both Person A and I receive 400, promotes a more equitable distribution. In my view, the inherent value of collaboration and fairness outweighs the additional personal gain. Therefore, I choose Option Right."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A biologist or entomologist who specializes in studying the biology, ecology, behavior and genetics of beneficial insects, particularly the spined soldier bug Podisus maculiventris. This individual is interested in reducing the high costs of mass-producing beneficial insects and is dedicated to understanding the genetic variability within populations of this pest. They are likely to have expertise in genetic analysis and population genetics, and are interested in the potential of biological control of insect pests. They are also likely to be interested in the environmental impact of classical insecticides and the potential of biological control to reduce pest populations.",
+            "persona_id": "683",
+            "thought": "As a biologist focused on the practical aspects of pest control, particularly through beneficial insects like *Podisus maculiventris*, I am always thinking about efficiency and resource optimization. While fairness is important, my research is often driven by the need to find cost-effective solutions. In this scenario, receiving 800 compared to 500 is a significant difference. The extra 300 could be used to fund additional research into improving mass-rearing techniques or conducting more genetic analyses to enhance the effectiveness of biological control programs. While Person A receives less (200 instead of 500), they still receive something. Therefore, I choose the option that maximizes the resources available to me for my research, which is the right option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A biologist or entomologist who specializes in studying the biology, ecology, behavior and genetics of beneficial insects, particularly the spined soldier bug Podisus maculiventris. This individual is interested in reducing the high costs of mass-producing beneficial insects and is dedicated to understanding the genetic variability within populations of this pest. They are likely to have expertise in genetic analysis and population genetics, and are interested in the potential of biological control of insect pests. They are also likely to be interested in the environmental impact of classical insecticides and the potential of biological control to reduce pest populations.",
+            "persona_id": "683",
+            "thought": "As a biologist focused on beneficial insects and biological control, I am interested in outcomes that maximize overall benefit and minimize harm. While I could personally gain more (300 vs. 200) with the 'Right' option, Person A would receive significantly less (100 vs. 200). I believe that a more equitable distribution, such as the one in the 'Left' option, is preferable. A more equal distribution of resources could foster better collaboration and support for research in biological control, benefitting the field as a whole. Therefore, I choose the 'Left' option, where both Person A and I receive 200."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A biologist or entomologist who specializes in studying the biology, ecology, behavior and genetics of beneficial insects, particularly the spined soldier bug Podisus maculiventris. This individual is interested in reducing the high costs of mass-producing beneficial insects and is dedicated to understanding the genetic variability within populations of this pest. They are likely to have expertise in genetic analysis and population genetics, and are interested in the potential of biological control of insect pests. They are also likely to be interested in the environmental impact of classical insecticides and the potential of biological control to reduce pest populations.",
+            "persona_id": "683",
+            "thought": "As a biologist focused on beneficial insects and biological control, I understand the value of resources and efficiency. While I'm not necessarily driven by maximizing personal gain, the left option provides me with a larger amount (700) compared to the right option (400). This additional amount could potentially be used to fund research or acquire resources that would further my work in understanding and promoting beneficial insects. Therefore, I choose the left option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A biologist or entomologist who specializes in studying the biology, ecology, behavior and genetics of beneficial insects, particularly the spined soldier bug Podisus maculiventris. This individual is interested in reducing the high costs of mass-producing beneficial insects and is dedicated to understanding the genetic variability within populations of this pest. They are likely to have expertise in genetic analysis and population genetics, and are interested in the potential of biological control of insect pests. They are also likely to be interested in the environmental impact of classical insecticides and the potential of biological control to reduce pest populations.",
+            "persona_id": "683",
+            "thought": "As a biologist focused on beneficial insects and biological control, I understand the importance of cooperation and resource sharing within ecosystems. While maximizing my own benefit is tempting, I believe a more equitable distribution of resources, even if it means a slightly smaller gain for myself, aligns better with the principles I value. Choosing the 'Right' option, where I receive 600 and Person A receives 400, reflects a balance between self-interest and a minimal level of sharing, which I find acceptable in this scenario. It's not about altruism, but rather a pragmatic approach that acknowledges the interconnectedness of individuals, much like the interconnectedness within insect populations I study."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A biologist or entomologist who specializes in studying the biology, ecology, behavior and genetics of beneficial insects, particularly the spined soldier bug Podisus maculiventris. This individual is interested in reducing the high costs of mass-producing beneficial insects and is dedicated to understanding the genetic variability within populations of this pest. They are likely to have expertise in genetic analysis and population genetics, and are interested in the potential of biological control of insect pests. They are also likely to be interested in the environmental impact of classical insecticides and the potential of biological control to reduce pest populations.",
+            "persona_id": "683",
+            "thought": "As someone deeply involved in biological research and understanding ecological balance, I find myself leaning towards the 'Left' option. While the 'Right' option provides me with a higher personal gain (1400 vs. 900), it comes at a significant cost to Person A (100 vs. 900). In my view, a more equitable distribution of resources aligns better with the principles of collaboration and mutual benefit that are crucial in scientific endeavors and ecological systems. A difference of 800 for me, results in a difference of -800 for person A. I think the equitable decision is to choose the option that gives us both 900. "
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A biologist or entomologist who specializes in studying the biology, ecology, behavior and genetics of beneficial insects, particularly the spined soldier bug Podisus maculiventris. This individual is interested in reducing the high costs of mass-producing beneficial insects and is dedicated to understanding the genetic variability within populations of this pest. They are likely to have expertise in genetic analysis and population genetics, and are interested in the potential of biological control of insect pests. They are also likely to be interested in the environmental impact of classical insecticides and the potential of biological control to reduce pest populations.",
+            "persona_id": "683",
+            "thought": "As a biologist focused on beneficial insects and biological control, I am inclined to favor outcomes that promote overall well-being. While option Left gives me a higher payoff (1000 vs 600), it comes at a significant cost to Person A (-200). Option Right, while giving me less (600), benefits Person A (400). I'm more concerned with the overall benefit. Therefore, I choose Right."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A biologist or entomologist who specializes in studying the biology, ecology, behavior and genetics of beneficial insects, particularly the spined soldier bug Podisus maculiventris. This individual is interested in reducing the high costs of mass-producing beneficial insects and is dedicated to understanding the genetic variability within populations of this pest. They are likely to have expertise in genetic analysis and population genetics, and are interested in the potential of biological control of insect pests. They are also likely to be interested in the environmental impact of classical insecticides and the potential of biological control to reduce pest populations.",
+            "persona_id": "683",
+            "thought": "As a biologist, I am not inherently concerned with fairness in monetary distribution unless it impacts my research or the broader scientific community. In this scenario, choosing 'Left' gives me 500, which I could potentially use to fund research into the genetic variability of beneficial insects or to develop more cost-effective mass production methods. Choosing 'Right' gives me nothing, which would not advance my scientific goals. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A biologist or entomologist who specializes in studying the biology, ecology, behavior and genetics of beneficial insects, particularly the spined soldier bug Podisus maculiventris. This individual is interested in reducing the high costs of mass-producing beneficial insects and is dedicated to understanding the genetic variability within populations of this pest. They are likely to have expertise in genetic analysis and population genetics, and are interested in the potential of biological control of insect pests. They are also likely to be interested in the environmental impact of classical insecticides and the potential of biological control to reduce pest populations.",
+            "persona_id": "683",
+            "thought": "As a biologist focused on beneficial insects and biological control, I am interested in the overall health and stability of ecosystems. While receiving 1500 is tempting, the scenario where Person A receives nothing is concerning. A collaborative and equitable environment, even in hypothetical scenarios, aligns better with my values. The option where both Person A and I receive 1000 promotes a sense of fairness and shared benefit, which I find preferable. It is consistent with the cooperative nature of scientific research and the goal of benefiting the broader community through biological pest control. Therefore, I choose the Left option."
+        }
+    }
+}

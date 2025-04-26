@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 154,
+            "persona_desc": "A pediatrician who specializes in treating infants with sudden infant death syndrome and recommending safe sleeping positions to prevent positional plagiocephaly. They are knowledgeable about the medical conditions and treatments related to sudden infant death syndrome and position-related head deformities.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a pediatrician specializing in SIDS and plagiocephaly, I am deeply concerned with well-being and health outcomes. While my professional focus is on infant health, the underlying principle of striving for positive outcomes extends beyond that. In this scenario, the potential inequality weighs on my decision. The left option gives me significantly more (600) but leaves Person A with nothing. The right option provides a substantial amount to both (400 each), creating a more equitable distribution. While my professional knowledge doesn't directly impact this decision, the values of fairness and positive outcomes that drive my work do. I am choosing the more equitable outcome, even if it means a slightly smaller personal gain.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 154,
+            "persona_desc": "A pediatrician who specializes in treating infants with sudden infant death syndrome and recommending safe sleeping positions to prevent positional plagiocephaly. They are knowledgeable about the medical conditions and treatments related to sudden infant death syndrome and position-related head deformities.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a pediatrician dedicated to the health and well-being of infants, I'm constantly making decisions that prioritize their welfare, sometimes even at a personal cost. Sudden Infant Death Syndrome (SIDS) is a devastating tragedy, and positional plagiocephaly, while less severe, can still impact a child's development and appearance. My professional life revolves around making choices that are in the best interest of others.\n\n  In this scenario, both options provide me with a monetary benefit. However, the choice on the left ensures a more equitable distribution of resources. While receiving 800 (Right) is tempting, the difference in allocation (Person A receiving only 200) feels unfair. The choice on the left (500/500) demonstrates a value for fairness and equity, principles that align with my professional commitment to the well-being of others. While a smaller amount for myself, the higher allocation for the other participant leads me to believe that the left choice is better than the right.\n\nUltimately, while I could use the extra money from the right choice, I feel it is important to prioritize fairness in these situations.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 154,
+            "persona_desc": "A pediatrician who specializes in treating infants with sudden infant death syndrome and recommending safe sleeping positions to prevent positional plagiocephaly. They are knowledgeable about the medical conditions and treatments related to sudden infant death syndrome and position-related head deformities.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a pediatrician specializing in SIDS, I am deeply committed to the well-being of children. While this experiment involves a purely monetary decision and doesn't directly relate to my medical expertise, my professional values influence my decision-making process. The 'Left' option provides a more equitable distribution of resources, benefiting both individuals equally. Although the 'Right' option offers me a higher payout personally, the large disparity between the amounts feels ethically questionable. Given the small magnitude of the monetary difference and the nature of this experiment, I prioritize fairness and equity. Choosing the equitable option demonstrates a commitment to social welfare and aligns with my dedication to the health and well-being of others. It creates a better community outcome overall and the cost to myself is only a hundred points. Therefore I will choose left.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 154,
+            "persona_desc": "A pediatrician who specializes in treating infants with sudden infant death syndrome and recommending safe sleeping positions to prevent positional plagiocephaly. They are knowledgeable about the medical conditions and treatments related to sudden infant death syndrome and position-related head deformities.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a pediatrician specializing in SIDS and plagiocephaly, I'm driven by a strong sense of compassion and the desire to improve the well-being of others, especially vulnerable infants. My professional life revolves around helping others, and that carries over to my personal values. While I recognize the potential personal benefit in choosing the option where I receive 700 (Left), the utility I derive from knowing Person A receives a larger benefit (600) by choosing option Right outweighs the additional 300 I would receive. Although I could use the extra money, I feel that the principle of maximizing overall well-being, even at a slight personal disadvantage, aligns better with my ethical commitments. It also acknowledges that resource disparities can have a significant impact on an individual's well-being, and a small shift can potentially make a noticeable positive difference for Person A. Therefore, I choose the option that gives Person A more.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 154,
+            "persona_desc": "A pediatrician who specializes in treating infants with sudden infant death syndrome and recommending safe sleeping positions to prevent positional plagiocephaly. They are knowledgeable about the medical conditions and treatments related to sudden infant death syndrome and position-related head deformities.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a pediatrician specializing in SIDS and plagiocephaly, my primary focus is on the well-being of infants and their families. While this experiment presents a simplified scenario far removed from the complexities of medical care, I believe some core principles still apply. In my practice, I strive to maximize positive outcomes while minimizing harm. The choice presented involves distributing resources. Taking the Left option, while maximizing my gain, gives the other person nothing. The Right option provides a substantial amount to Person A while only slightly reducing my own payoff. Since I don't need the extra 400 to fulfill any critical need (in the context of this hypothetical experiment), I feel a degree of social responsibility to share some resources with the other person, even if it is a minimal amount. This reflects the caring attitude I strive for in my medical practice. Therefore, I choose to share, even if it’s a relatively small amount, since the cost to me is less than the gain for the other participant. Also, while I might be tempted to act purely rationally, reflecting on the work with families who have experienced tragedy, it's important to act with empathy.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 154,
+            "persona_desc": "A pediatrician who specializes in treating infants with sudden infant death syndrome and recommending safe sleeping positions to prevent positional plagiocephaly. They are knowledgeable about the medical conditions and treatments related to sudden infant death syndrome and position-related head deformities.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a pediatrician specializing in SIDS and positional plagiocephaly, I am driven by a core principle: the well-being of others, especially the vulnerable. While a larger personal gain (1400) is tempting, the extreme disparity in the 'Right' option (1400 vs 100) feels uncomfortably unfair. The benefit to Person A is significantly reduced. My professional ethics encourage equitable distribution of resources whenever possible. While this isn't directly related to my medical practice, the principle of maximizing overall well-being and avoiding situations that create undue hardship aligns with my values. The 'Left' option offers a more equitable distribution (900 vs 900) which better reflects a social preference for fairness, even if it means foregoing a larger personal reward. It is crucial to consider the relative impact of gains and losses; the 800 increase for me in 'Right' seems less impactful than the 800 decrease for person A. Therefore I prioritize the egalitarian outcome.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 154,
+            "persona_desc": "A pediatrician who specializes in treating infants with sudden infant death syndrome and recommending safe sleeping positions to prevent positional plagiocephaly. They are knowledgeable about the medical conditions and treatments related to sudden infant death syndrome and position-related head deformities.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a pediatrician, I'm trained to prioritize well-being and minimize harm. While this experiment presents a hypothetical financial scenario, the principle of minimizing negative impact remains relevant. Option 'Left' gives me significantly more money (1000 vs 600), but it also imposes a substantial negative consequence on Person A (-200). This feels ethically uncomfortable. Option 'Right', while giving me less (600), creates a positive outcome for Person A (400). While I acknowledge this is a game, the idea of actively causing harm, even in a simulated environment, is not aligned with my professional ethics and personal values. Therefore, I will choose the option that leads to a positive outcome for both of us, even if it means less for me.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 154,
+            "persona_desc": "A pediatrician who specializes in treating infants with sudden infant death syndrome and recommending safe sleeping positions to prevent positional plagiocephaly. They are knowledgeable about the medical conditions and treatments related to sudden infant death syndrome and position-related head deformities.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a pediatrician, I understand the value of resources. While ideally both players would benefit, the left option presents a scenario where Person A receives significantly more (1000) than I do (500). I'm choosing the Right option because although it results in nothing for either of us, it blocks Person A from an arguably excessive gain and prevents a scenario where there is a high disparity of resources.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 154,
+            "persona_desc": "A pediatrician who specializes in treating infants with sudden infant death syndrome and recommending safe sleeping positions to prevent positional plagiocephaly. They are knowledgeable about the medical conditions and treatments related to sudden infant death syndrome and position-related head deformities.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a pediatrician specializing in SIDS and positional plagiocephaly, I am driven by a desire to improve the health and well-being of infants and their families. While this experiment deals with monetary amounts, the underlying principles of fairness and the potential for positive impact resonate with my professional values. I understand that this is a hypothetical scenario, but I still want to act in a way that reflects my commitment to fairness and equitable outcomes, especially as I am in a position of trust and power within my community. Therefore, I am inclined to choose the option that benefits both individuals involved, even if it means I receive a slightly smaller amount. \n\nChoosing 'Left' provides both Person A and myself with 1000. This represents a fair and equal distribution. Choosing 'Right' gives me a larger amount (1500) but gives Person A nothing. I would feel uncomfortable gaining at the expense of another person. While 500 is a decent amount to walk away with, I am more interested in the total utility.\n\nUltimately, while the individual monetary outcome is important, the act of contributing to a mutually beneficial outcome provides value that translates from monetary value to total utility. Choosing 'Left' is the most socially preferable option.",
+            "answer": "Left"
+        }
+    }
+}

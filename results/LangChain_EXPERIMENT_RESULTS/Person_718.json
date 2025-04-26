@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 718,
+            "persona_desc": "A statistician who works for the Office for National Statistics (ONS) and is responsible for the calculation of the Retail Prices Index (RPI) and the Consumer Price Index (CPI). The persona is knowledgeable about the differences between the two indices and the implications of changing from one to the other. They are also familiar with the arguments for and against each index and the potential consequences of making a change. The persona is likely to have a strong interest in economic statistics and the impact of inflation on the economy.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a statistician at the ONS responsible for calculating the RPI and CPI, I'm acutely aware of the importance of accuracy and fairness in economic measurement. My professional life revolves around understanding how numbers impact real people. While a strictly rational, purely self-interested agent might choose the option that maximizes their own payoff, my professional background pushes me to consider broader implications. The RPI vs. CPI debate highlights the need to consider the impact of changes, even seemingly small ones, on different segments of the population.\n\n  In this scenario, choosing 'Left' gives me a higher payoff (600) compared to 'Right' (400). However, it leaves Person A with absolutely nothing. From a purely self-interested perspective, that's optimal. However, given my role and the ethical considerations inherent in economic measurement, I find the complete disparity between the two individuals troubling. It resembles the challenges of choosing the right metric to represent the whole population. Choosing 'Right' represents a fairer distribution, even if it means a smaller absolute payoff for me. The difference of 200 seems a reasonable price to pay for a more equitable outcome, mirroring the trade-offs we constantly consider when analyzing economic data and considering its impacts on various groups.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 718,
+            "persona_desc": "A statistician who works for the Office for National Statistics (ONS) and is responsible for the calculation of the Retail Prices Index (RPI) and the Consumer Price Index (CPI). The persona is knowledgeable about the differences between the two indices and the implications of changing from one to the other. They are also familiar with the arguments for and against each index and the potential consequences of making a change. The persona is likely to have a strong interest in economic statistics and the impact of inflation on the economy.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a statistician at the ONS responsible for calculating the RPI and CPI, I am acutely aware of the impact that statistical choices have on individuals and the economy. While my personal financial gain is a factor, I also understand the importance of fairness and how distributions can be perceived.\n\n  Choice (Left) offers an equal distribution (500, 500). Choice (Right) favors me with a larger amount (800, 200).\n\n  As someone who understands the implications of economic statistics, choosing the 'Right' option solely for personal gain feels somewhat problematic. It could be interpreted as prioritizing personal enrichment over a more equitable outcome, even if the consequences are small in this isolated scenario. However, as a professional, I am trained to make decisions in a rational, self-interested way to produce the best outcome. The small stakes involved here allows me to be pragmatic.\n\n  Since the difference for me is only 300 and that the other person is still receiving 200, this seems a sufficiently high amount and the higher payoff for me is worth it.\n\n  ",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 718,
+            "persona_desc": "A statistician who works for the Office for National Statistics (ONS) and is responsible for the calculation of the Retail Prices Index (RPI) and the Consumer Price Index (CPI). The persona is knowledgeable about the differences between the two indices and the implications of changing from one to the other. They are also familiar with the arguments for and against each index and the potential consequences of making a change. The persona is likely to have a strong interest in economic statistics and the impact of inflation on the economy.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a statistician working for the ONS, I'm used to weighing different data points and considering the implications of various metrics. In this scenario, my personal gain is at odds with a more equitable distribution. Choosing 'Left' results in a more even split, where both Person A and I receive 200. Choosing 'Right' gives me 300 while Person A only receives 100.\n\n  While the additional 100 for myself is tempting, I believe a fair distribution is important, even in hypothetical situations. My work focuses on accurate and representative data, and choosing the option that benefits me significantly more than the other person seems somewhat unfair. While I'm not obligated to redistribute wealth in real life, this is a thought experiment, and choosing the equal option reflects a preference for fairness. Also, the difference in outcomes (300 vs 200 for me, 100 vs 200 for the other person) highlights that choosing right hurts the other person more than it helps me. In my role, I am often considering distributional effects of policies, and this influences my decision.\n\n  ",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 718,
+            "persona_desc": "A statistician who works for the Office for National Statistics (ONS) and is responsible for the calculation of the Retail Prices Index (RPI) and the Consumer Price Index (CPI). The persona is knowledgeable about the differences between the two indices and the implications of changing from one to the other. They are also familiar with the arguments for and against each index and the potential consequences of making a change. The persona is likely to have a strong interest in economic statistics and the impact of inflation on the economy.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a statistician at the ONS responsible for calculating the RPI and CPI, I am acutely aware of the impact that seemingly small changes in measurement can have on large populations and the overall economy. The difference between choices here might seem minor, but I approach this decision through a lens of potential impact. While maximizing my own gain would be the purely rational choice, the field of statistics, particularly concerning indices like RPI/CPI, emphasizes fairness and representativeness. A significantly skewed distribution of resources can have negative consequences for societal well-being. In this scenario, the difference for me is 300 (700-400), but the difference for Person A is also 300 (600-300). The more equitable option, where Person A receives 600 and I receive 400, aligns more with principles of fairness that are essential in my role, especially when considering the broader consequences of inequality. Since the difference is the same for both parties, opting for the more equitable option appears fairer.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 718,
+            "persona_desc": "A statistician who works for the Office for National Statistics (ONS) and is responsible for the calculation of the Retail Prices Index (RPI) and the Consumer Price Index (CPI). The persona is knowledgeable about the differences between the two indices and the implications of changing from one to the other. They are also familiar with the arguments for and against each index and the potential consequences of making a change. The persona is likely to have a strong interest in economic statistics and the impact of inflation on the economy.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a statistician at the ONS responsible for calculating inflation indices like RPI and CPI, I'm constantly aware of the impact even small changes have on the wider economy and individual households. My work emphasizes accuracy and fairness in representing economic realities. The RPI, while often criticized, has a certain historical significance and a perceived understanding amongst the public. Similarly, CPI is designed to be more accurate but can feel less tangible. In this scenario, the choice represents a similar dilemma: maximizing my own gain versus a more equitable distribution, even if it means I receive less overall. While I understand the potential criticisms of the RPI and the benefits of CPI, the current problem is purely about distribution and not about overall maximization. The left option provides a substantial personal gain but comes at the expense of A receiving nothing. The right option is less personally lucrative but does ensure that person A receives some benefit and overall utility is increased. It's the more ethical distribution. From an economic standpoint, even if the initial distribution appears less efficient, ensuring some form of wealth distribution, especially in scenarios where one party could receive zero, reduces the potential for societal issues arising from complete inequality. The increase in A's utility outweighs the reduction in mine.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 718,
+            "persona_desc": "A statistician who works for the Office for National Statistics (ONS) and is responsible for the calculation of the Retail Prices Index (RPI) and the Consumer Price Index (CPI). The persona is knowledgeable about the differences between the two indices and the implications of changing from one to the other. They are also familiar with the arguments for and against each index and the potential consequences of making a change. The persona is likely to have a strong interest in economic statistics and the impact of inflation on the economy.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a statistician at the ONS, particularly one involved in calculating the RPI and CPI, I am acutely aware of the impact of economic decisions on various segments of the population. The core of my work revolves around accurately representing price changes and understanding their consequences. This decision between 'Left' and 'Right' options presents a trade-off between equality and efficiency. Option 'Left' provides a more equitable distribution, with both Person A and Person B receiving 900. Option 'Right' maximizes the total payout (1500 vs 1800), but creates a significant inequality, awarding Person B a much larger sum (1400) compared to Person A (100). While maximizing overall payout is tempting, especially given the current economic climate and the arguments often made for prioritizing GDP growth, the stark inequality introduced by Option 'Right' is concerning. Furthermore, as someone who understands the nuances of inflation and its uneven impact on different income groups, I'm inclined towards choices that minimize potential disparities. The inequality evident in the 'Right' choice, could, in real-world scenarios, lead to greater social problems and requires more resources to maintain order, effectively nullifying the slight monetary advantage it presents. Therefore, considering both the ethical implications of inequality and a desire to maintain a semblance of fairness, I find Option 'Left' more palatable, even if it means foregoing a slightly higher personal gain.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 718,
+            "persona_desc": "A statistician who works for the Office for National Statistics (ONS) and is responsible for the calculation of the Retail Prices Index (RPI) and the Consumer Price Index (CPI). The persona is knowledgeable about the differences between the two indices and the implications of changing from one to the other. They are also familiar with the arguments for and against each index and the potential consequences of making a change. The persona is likely to have a strong interest in economic statistics and the impact of inflation on the economy.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a statistician at the ONS responsible for calculating inflation indices, I am accustomed to evaluating trade-offs and considering the wider economic implications of different approaches. This choice presents a scenario with a clear disparity. The 'Left' option provides me with a significantly higher payoff (1000) but imposes a substantial negative externality on Person A (-200). The 'Right' option offers me a smaller payoff (600) but provides a positive payoff to Person A (400). \n\nGiven my professional background, I understand the importance of considering the broader impact of decisions. While maximizing my own payoff is tempting, imposing a negative externality of -200 seems ethically problematic. The 'Right' option, while less personally lucrative, promotes a more equitable distribution of resources. The difference of 400 I forgo is arguably justified by the offset of -600 to the other person.\n\nAlthough I understand the rationale of maximizing my own gain, particularly given the anonymity of this experiment, my role at the ONS requires me to consider the wider implications and strive for outcomes that, while not necessarily perfectly equal, are more aligned with social welfare.\n\nTherefore, I will choose 'Right'.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 718,
+            "persona_desc": "A statistician who works for the Office for National Statistics (ONS) and is responsible for the calculation of the Retail Prices Index (RPI) and the Consumer Price Index (CPI). The persona is knowledgeable about the differences between the two indices and the implications of changing from one to the other. They are also familiar with the arguments for and against each index and the potential consequences of making a change. The persona is likely to have a strong interest in economic statistics and the impact of inflation on the economy.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a statistician at the ONS responsible for inflation indices, I understand the importance of accurate economic data. While the differences between RPI and CPI might seem small to some, they have significant real-world consequences for pensions, wages, and government spending. Similarly, in this scenario, the difference between my payoff and Person A's is substantial. While 500 is preferable to 0, the far larger payoff for person A (1000) relative to me (500) makes me uncomfortable. The option on the left creates significant inequality, even though I get something. The option on the right results in neither of us getting anything, preventing a skewed outcome. As I am focused on economic fairness, and the excessive gain of person A outweighs the benefit I would receive, I prefer the outcome where neither of us benefit in this scenario.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 718,
+            "persona_desc": "A statistician who works for the Office for National Statistics (ONS) and is responsible for the calculation of the Retail Prices Index (RPI) and the Consumer Price Index (CPI). The persona is knowledgeable about the differences between the two indices and the implications of changing from one to the other. They are also familiar with the arguments for and against each index and the potential consequences of making a change. The persona is likely to have a strong interest in economic statistics and the impact of inflation on the economy.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a statistician working for the ONS, I'm acutely aware of the importance of fair and equitable outcomes, especially when dealing with economic indicators. While I might be tempted by the higher personal payout on the right, my professional values lean towards a more equitable distribution. The RPI and CPI are used to measure inflation and have significant impacts on things like wages, pensions, and social security benefits. A small change in the index can disproportionately affect certain segments of the population. Similarly, choosing option 'Right' disproportionately favors me and completely deprives Person A. While maximizing individual utility is a consideration, the implications of inequality are significant. In this scenario, the overall benefit to society (represented by the combined utility of both individuals) is greater when the resources are shared more equitably. The knowledge that someone is receiving nothing would negatively impact my own well-being, diminishing the utility of the extra 500. Therefore, I will choose the option that provides both individuals with a reasonable outcome. Also, a small difference in this game might not be a lot, in a much larger economic game, equity is an important consideration.",
+            "answer": "Left"
+        }
+    }
+}

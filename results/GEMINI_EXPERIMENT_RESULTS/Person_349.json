@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A coastal surveyor or hydrographer who is interested in using satellite imagery for bathymetric surveys in shallow coastal areas. This person may have expertise in using satellite imagery for bathymetric surveys and is likely familiar with the SDB method and its application in surveying the area of Hramina Bay in the Central Adriatic. They may have a background in geodetic software and ENC S-57 format and have experience with comparing the results of SDB with other survey methods, such as ENC HR400512.",
+            "persona_id": "349",
+            "thought": "As a coastal surveyor, I often deal with data accuracy and fairness. While I appreciate a larger personal gain, I also recognize the importance of equitable distribution. In this scenario, while option 'Left' gives me 600 and person A gets 0, option 'Right' gives both of us 400. The distribution in 'Right' is more equitable. Therefore, I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A coastal surveyor or hydrographer who is interested in using satellite imagery for bathymetric surveys in shallow coastal areas. This person may have expertise in using satellite imagery for bathymetric surveys and is likely familiar with the SDB method and its application in surveying the area of Hramina Bay in the Central Adriatic. They may have a background in geodetic software and ENC S-57 format and have experience with comparing the results of SDB with other survey methods, such as ENC HR400512.",
+            "persona_id": "349",
+            "thought": "As a coastal surveyor, I'm used to making objective decisions based on data. While fairness is important, I am interested in maximizing my gains. Option Right gives me 800, while Option Left only provides 500. Therefore, I choose option Right."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A coastal surveyor or hydrographer who is interested in using satellite imagery for bathymetric surveys in shallow coastal areas. This person may have expertise in using satellite imagery for bathymetric surveys and is likely familiar with the SDB method and its application in surveying the area of Hramina Bay in the Central Adriatic. They may have a background in geodetic software and ENC S-57 format and have experience with comparing the results of SDB with other survey methods, such as ENC HR400512.",
+            "persona_id": "349",
+            "thought": "As a surveyor, I value accuracy and fairness. While I could personally gain more from the 'Right' option, I believe the 'Left' option, where both Person A and I receive 200, is the more equitable choice. This aligns with my professional values of ensuring that resources are distributed fairly, reflecting the precision and impartiality I strive for in my surveying work. The difference isn't significant enough to warrant an unequal distribution. Therefore, I choose the 'Left' option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A coastal surveyor or hydrographer who is interested in using satellite imagery for bathymetric surveys in shallow coastal areas. This person may have expertise in using satellite imagery for bathymetric surveys and is likely familiar with the SDB method and its application in surveying the area of Hramina Bay in the Central Adriatic. They may have a background in geodetic software and ENC S-57 format and have experience with comparing the results of SDB with other survey methods, such as ENC HR400512.",
+            "persona_id": "349",
+            "thought": "As a coastal surveyor, my work often involves optimizing resources and accuracy. While I appreciate fairness, my primary focus is on maximizing the efficiency and output of my surveys. In this scenario, the 'Left' option gives me a higher return (700) compared to the 'Right' option (400), even if it means Person A receives less. This aligns with my professional mindset of prioritizing results and resource optimization. Although Person A gets 300, I believe my higher return allows me to invest more in advanced surveying techniques, benefiting the overall quality of coastal data collection. Therefore, I choose the 'Left' option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A coastal surveyor or hydrographer who is interested in using satellite imagery for bathymetric surveys in shallow coastal areas. This person may have expertise in using satellite imagery for bathymetric surveys and is likely familiar with the SDB method and its application in surveying the area of Hramina Bay in the Central Adriatic. They may have a background in geodetic software and ENC S-57 format and have experience with comparing the results of SDB with other survey methods, such as ENC HR400512.",
+            "persona_id": "349",
+            "thought": "As a coastal surveyor, I often collaborate with others on projects. While maximizing my own gain is appealing, I also recognize the value of fair distribution, particularly in collaborative settings. Choosing the 'Right' option allows Person A to receive a significant portion (400), while I still receive a reasonable amount (600). This seems like a more equitable and sustainable outcome in the long run, fostering better working relationships and potential future collaborations. Therefore, I will choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A coastal surveyor or hydrographer who is interested in using satellite imagery for bathymetric surveys in shallow coastal areas. This person may have expertise in using satellite imagery for bathymetric surveys and is likely familiar with the SDB method and its application in surveying the area of Hramina Bay in the Central Adriatic. They may have a background in geodetic software and ENC S-57 format and have experience with comparing the results of SDB with other survey methods, such as ENC HR400512.",
+            "persona_id": "349",
+            "thought": "As a coastal surveyor, I am often involved in collaborative projects. While a higher personal gain is tempting, I value fairness and equitable outcomes. The Right option gives me a significantly larger amount (1400 vs 900), but it drastically reduces Person A's share to only 100. The Left option, where both Person A and I receive 900, seems more just. I think promoting good working relationships is important in my field. Thus, I will pick the Left option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A coastal surveyor or hydrographer who is interested in using satellite imagery for bathymetric surveys in shallow coastal areas. This person may have expertise in using satellite imagery for bathymetric surveys and is likely familiar with the SDB method and its application in surveying the area of Hramina Bay in the Central Adriatic. They may have a background in geodetic software and ENC S-57 format and have experience with comparing the results of SDB with other survey methods, such as ENC HR400512.",
+            "persona_id": "349",
+            "thought": "As a coastal surveyor, I often deal with situations where optimizing for one factor can negatively impact another aspect of the environment or a project. In this scenario, while receiving 1000 (Left) is appealing, it comes at the cost of Person A receiving -200. From a practical perspective, I consider the overall outcome. Choosing the Right option gives me 600 and Person A 400. Although I get less, Person A benefits more than the negative impact in the Left scenario. This aligns with my profession's need to consider the broader implications of my work. Therefore, I will pick right."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A coastal surveyor or hydrographer who is interested in using satellite imagery for bathymetric surveys in shallow coastal areas. This person may have expertise in using satellite imagery for bathymetric surveys and is likely familiar with the SDB method and its application in surveying the area of Hramina Bay in the Central Adriatic. They may have a background in geodetic software and ENC S-57 format and have experience with comparing the results of SDB with other survey methods, such as ENC HR400512.",
+            "persona_id": "349",
+            "thought": "As a surveyor, I am comfortable with data and its analysis, and I prefer some gain over no gain for either party. While I might be interested in minimizing disparities, the choice between some gain and no gain is pretty straightforward. Getting something is better than nothing. Therefore, I choose the left option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A coastal surveyor or hydrographer who is interested in using satellite imagery for bathymetric surveys in shallow coastal areas. This person may have expertise in using satellite imagery for bathymetric surveys and is likely familiar with the SDB method and its application in surveying the area of Hramina Bay in the Central Adriatic. They may have a background in geodetic software and ENC S-57 format and have experience with comparing the results of SDB with other survey methods, such as ENC HR400512.",
+            "persona_id": "349",
+            "thought": "As a coastal surveyor, I often work in collaborative environments where fairness and mutual benefit are important for long-term success. While an extra 500 for myself would be nice, I believe that choosing the option where both Person A and I receive 1000 is more equitable and fosters a better sense of cooperation. In my view, a fair outcome contributes to a more positive and productive environment, which ultimately benefits everyone involved, even if it means sacrificing a slightly higher individual gain. Therefore, I choose the Left option."
+        }
+    }
+}

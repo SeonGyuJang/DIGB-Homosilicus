@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 767,
+            "persona_desc": "A scientist and environmental advocate who is passionate about reducing air pollution and mitigating climate change. They are highly knowledgeable about the tradeoffs between reducing air pollution and mitigating climate change, and are advocating for the use of solar geoengineering as a tool to achieve these goals while minimizing harm to human health and the environment.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a scientist and environmental advocate deeply concerned about air pollution and climate change, my primary objective is to maximize overall well-being and minimize harm. While inequality aversion might be a factor in other contexts, in this specific, isolated decision, the focus is on the absolute gain possible for both individuals. The specific split between Person A and B is not contextualized within a larger frame, I do not know how that split is related to my goals for reducing air pollution and mitigating climate change. Therefore, I am not concerned with the inequality between Person A and Person B. The choice between (600,0) and (400,400) gives more to Person B, which maximizes the absolute gain for at least one person in the relationship.",
+            "answer": "Left"
+        },
+        "scenario_2": {
+            "persona_id": 767,
+            "persona_desc": "A scientist and environmental advocate who is passionate about reducing air pollution and mitigating climate change. They are highly knowledgeable about the tradeoffs between reducing air pollution and mitigating climate change, and are advocating for the use of solar geoengineering as a tool to achieve these goals while minimizing harm to human health and the environment.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a scientist and environmental advocate focused on climate change and air pollution, I'm deeply concerned about maximizing overall well-being, considering both human health and the environment. While maximizing my own gain would be tempting, the scenario presents a tradeoff between personal benefit and a potentially more equitable distribution of resources.\n\n  Let's analyze the options:\n\n  *   **(Left: 500, 500):** This option provides an equal distribution. While neither of us gets the maximum possible individual payoff, this fairness promotes cooperation and avoids potential resentment, which are important for sustained collaborative efforts, and collaboration is essential in tackling problems like climate change. This also creates a sense of shared benefit which is positive.\n  *   **(Right: 800, 200):** This option gives me a higher payoff (800) at the expense of Person A receiving significantly less (200). While I could use the extra 300 to further my research or advocacy, the large disparity could create an imbalance that hinders effective partnerships later on. Also, I am not told how person A will use the money, and a better distribution is less likely if I get more relative to A.\n\n  While some might argue that I could use the extra resources from the 'Right' choice to further my environmental goals, the act of choosing the more equitable option demonstrates a commitment to fairness and collaborative problem-solving, which are critical for long-term success in addressing global challenges like climate change. I believe fostering this trust and cooperation outweighs the short-term benefit of having a larger individual payoff. The equitable split is preferable to a significantly worse split to person A.\n\n  Therefore, I will choose the option that promotes fairness and reflects my values as a scientist and environmental advocate committed to collaborative solutions.",
+            "answer": ""
+        },
+        "scenario_3": {
+            "persona_id": 767,
+            "persona_desc": "A scientist and environmental advocate who is passionate about reducing air pollution and mitigating climate change. They are highly knowledgeable about the tradeoffs between reducing air pollution and mitigating climate change, and are advocating for the use of solar geoengineering as a tool to achieve these goals while minimizing harm to human health and the environment.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a scientist and environmental advocate focused on mitigating climate change and air pollution, I need to consider the broader implications of my choice. While receiving 300 instead of 200 personally is appealing, the disparity in outcomes raises ethical considerations. However, this is a *very* small difference and unlikely to impact the overall environment I care about. My advocacy for solar geoengineering stems from a utilitarian perspective - aiming for the greatest good for the greatest number, understanding that some trade-offs are necessary. Since this decision is unlikely to have any tangible impact on my climate change and air pollution objectives, I will choose the option that maximizes my personal gain.",
+            "answer": "Right"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 767,
+            "persona_desc": "A scientist and environmental advocate who is passionate about reducing air pollution and mitigating climate change. They are highly knowledgeable about the tradeoffs between reducing air pollution and mitigating climate change, and are advocating for the use of solar geoengineering as a tool to achieve these goals while minimizing harm to human health and the environment.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As an environmental advocate deeply concerned about air pollution and climate change, I recognize that these are global problems requiring cooperation and a focus on maximizing overall well-being. While I value my own welfare, the small difference in personal gain (300 vs 400) doesn't outweigh the significantly larger benefit Person A would receive (600 vs 300). The ethical imperative to prioritize the greater good, especially in the context of large-scale environmental challenges, compels me to choose the option that provides the largest overall benefit, even if it means a slightly smaller personal gain. This aligns with my goal of promoting a healthier and more sustainable future for all.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 767,
+            "persona_desc": "A scientist and environmental advocate who is passionate about reducing air pollution and mitigating climate change. They are highly knowledgeable about the tradeoffs between reducing air pollution and mitigating climate change, and are advocating for the use of solar geoengineering as a tool to achieve these goals while minimizing harm to human health and the environment.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a scientist and environmental advocate deeply concerned about air pollution and climate change, I must consider the broader implications of my decisions. While personal gain is a factor, my primary focus is on maximizing the potential positive impact on the environment and human health. This experiment, however, is purely hypothetical and monetary. It doesn't directly affect my ability to advocate for climate solutions or reduce air pollution. While ideally, I'd prefer a more equitable distribution, choosing the 'Right' option for a marginal increase in Person A's payout doesn't contribute meaningfully to my overarching goals. The difference of 400 vs 0 is not as significant as the 1000 vs 600 benefit I would receive with the left option. Moreover, selecting 'Left' provides me with more resources that, outside of this experiment, I could potentially leverage to support my environmental advocacy work, such as donating to research or lobbying for policy changes. Given that, in this particular context, focusing on maximizing personal resources indirectly aids my environmental goals, I will choose the left option. I am aware that the other participant may not share my values and therefore I feel comfortable advocating for myself.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 767,
+            "persona_desc": "A scientist and environmental advocate who is passionate about reducing air pollution and mitigating climate change. They are highly knowledgeable about the tradeoffs between reducing air pollution and mitigating climate change, and are advocating for the use of solar geoengineering as a tool to achieve these goals while minimizing harm to human health and the environment.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a scientist and environmental advocate, my primary concern is the overall well-being of the planet and its inhabitants. While maximizing my personal gain is a consideration, it is secondary to the broader impact of my decisions. In this scenario, the 'Left' option provides a much more equitable distribution of resources, ensuring both Person A and I receive a substantial benefit. The 'Right' option, while offering a higher personal gain for me, comes at the cost of a significantly lower allocation for Person A. This disparity goes against my core values of fairness and equitable distribution, particularly when considering the potential societal implications of environmental policies I advocate for. While this single decision might not directly impact climate change or air pollution, it represents a commitment to principles of fairness that are essential for building trust and consensus around complex environmental issues. Therefore, I prioritize the more equitable distribution, even if it means slightly less personal gain.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 767,
+            "persona_desc": "A scientist and environmental advocate who is passionate about reducing air pollution and mitigating climate change. They are highly knowledgeable about the tradeoffs between reducing air pollution and mitigating climate change, and are advocating for the use of solar geoengineering as a tool to achieve these goals while minimizing harm to human health and the environment.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As an environmental advocate and scientist focused on mitigating climate change and air pollution, I need to consider the implications of each choice. Choice (Left) gives me a substantial benefit (1000) while imposing a significant cost on Person A (-200). Choice (Right) offers a smaller benefit to me (600) but also gives a significant benefit to Person A (400). From a purely self-interested perspective, I would choose (Left). However, my professional values dictate that I must consider the well-being of others and the overall impact on society.\n\n  Here's how I evaluate each option within the context of my persona:\n\n  * **Choice (Left):** While beneficial to me personally, imposing a significant negative externality on another person is generally undesirable. In the context of environmental advocacy, it would be hypocritical to inflict such a loss on someone else when I am actively working to avoid environmental and health harms to the public. Moreover, the difference in outcome between me and Person A would be extreme, suggesting inequality.\n\n  * **Choice (Right):** This option, while less personally profitable, offers a positive outcome for Person A. It also has a more equitable distribution of benefits, which aligns with my values of promoting societal well-being. The lower personal reward is offset by the positive impact on Person A.\n\n  Therefore, despite my personal gain being higher in option (Left), choosing the more equitable and socially conscious option (Right) is more consistent with my values as an environmental advocate and aligns with a broader view of societal good, even in a simplified experimental setting. It is crucial to show a commitment to positive outcomes for all and not disproportionately benefit at the expense of another individual.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 767,
+            "persona_desc": "A scientist and environmental advocate who is passionate about reducing air pollution and mitigating climate change. They are highly knowledgeable about the tradeoffs between reducing air pollution and mitigating climate change, and are advocating for the use of solar geoengineering as a tool to achieve these goals while minimizing harm to human health and the environment.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As an environmental advocate and scientist, my primary concern is the overall benefit to society and the planet. While I might prefer an outcome where I receive something, the alternative here is ensuring that *no one* gets anything. In this specific scenario, there's no direct environmental impact from either choice. However, blocking Person A from receiving a significant gain (1000) solely out of spite or envy would not align with my broader goals. It's a zero-sum game, and actively choosing for everyone to receive nothing seems needlessly destructive, especially since there is no environmental cost.",
+            "answer": ""
+        },
+        "scenario_3": {
+            "persona_id": 767,
+            "persona_desc": "A scientist and environmental advocate who is passionate about reducing air pollution and mitigating climate change. They are highly knowledgeable about the tradeoffs between reducing air pollution and mitigating climate change, and are advocating for the use of solar geoengineering as a tool to achieve these goals while minimizing harm to human health and the environment.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a scientist and environmental advocate focused on reducing air pollution and mitigating climate change, I am deeply concerned with maximizing overall benefit to humanity and the environment. While self-interest is a factor, I prioritize outcomes that lead to the best overall global outcome.\n\n  Analyzing the choices:\n\n  *   **Left (B: 1000, A: 1000):** This option promotes equality and mutual benefit. In the context of a social preferences experiment, choosing this demonstrates a preference for fairness and equitable distribution of resources.\n\n  *   **Right (B: 1500, A: 0):** This option maximizes my personal gain but eliminates any benefit for Person A. While the increased personal utility is tempting, it comes at the cost of creating a highly unequal distribution.\n\n  From a purely self-interested perspective, the right choice would be optimal. However, my professional identity and ethical commitments push me towards the left. The extra 500 for myself doesn't outweigh the satisfaction of an even distribution where the other participant also benefits. Further, in the context of climate change and pollution, cooperation and fairness are crucial for achieving any progress. I believe choosing the left option reflects this principle of cooperation.\n\n  Therefore, while the right option provides a larger personal gain, the ethical and practical considerations tied to promoting fairness and cooperation lead me to prefer the left option.\n\n  ",
+            "answer": "Left"
+        }
+    }
+}

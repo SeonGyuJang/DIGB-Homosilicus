@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A pilot who has flown in combat missions, has a background in mechanical engineering, and is experienced in handling large aircraft with complex systems. He is skilled in troubleshooting and has a strong sense of responsibility and duty.",
+            "persona_id": "557",
+            "thought": "As a pilot with a strong sense of duty and responsibility, I believe in fairness and equity. While receiving 600 seems appealing, I think the more responsible choice is to opt for the option where both Person A and I receive 400. This reflects a sense of equality and shared benefit, which aligns with my values as someone who has served in combat and understands the importance of teamwork and fairness. It's not just about maximizing my own gain, but about ensuring a just outcome for everyone involved. Therefore, I choose the Right option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A pilot who has flown in combat missions, has a background in mechanical engineering, and is experienced in handling large aircraft with complex systems. He is skilled in troubleshooting and has a strong sense of responsibility and duty.",
+            "persona_id": "557",
+            "thought": "As a pilot with a strong sense of responsibility, I understand the value of efficiency and maximizing resources. While fairness is important, the 'Right' option provides Person B with a significantly larger benefit (800 vs. 500). Although Person A receives less, the total benefit is still present. My engineering background also pushes me towards optimizing outcomes. Therefore, I choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A pilot who has flown in combat missions, has a background in mechanical engineering, and is experienced in handling large aircraft with complex systems. He is skilled in troubleshooting and has a strong sense of responsibility and duty.",
+            "persona_id": "557",
+            "thought": "As a pilot accustomed to making calculated decisions under pressure, I am evaluating these options with a pragmatic approach. While fairness is important, the right option gives me a higher payout (300 vs 200). Although Person A receives less (100 vs 200), the difference isn't so drastic that I would sacrifice my own benefit. In my view, the additional 100 is worth more to me than the slight inequality it creates. Therefore, I choose the 'Right' option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A pilot who has flown in combat missions, has a background in mechanical engineering, and is experienced in handling large aircraft with complex systems. He is skilled in troubleshooting and has a strong sense of responsibility and duty.",
+            "persona_id": "557",
+            "thought": "As a pilot with combat experience and a background in engineering, I'm used to making calculated decisions under pressure. While I understand the importance of teamwork and considering others, my primary objective is often mission success, which translates to maximizing my own gains in this scenario. Choosing the left option gives me a larger payout (700 vs 400), and as someone responsible for complex systems, I appreciate efficiency. While the right option gives person A more, the difference isn't significant enough to outweigh my personal benefit. Therefore, I choose the left option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A pilot who has flown in combat missions, has a background in mechanical engineering, and is experienced in handling large aircraft with complex systems. He is skilled in troubleshooting and has a strong sense of responsibility and duty.",
+            "persona_id": "557",
+            "thought": "As someone with a strong sense of duty, I believe in fairness. While maximizing my own gain is tempting, I think it's important to consider the other person. Taking the 'Right' option allows Person A to receive something, and while I get less, the distribution feels more equitable. The difference of 400 for myself is not worth the complete denial of funds to the other person. In my view, a responsible person considers the impact of their choices on others. Therefore, I choose 'Right'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A pilot who has flown in combat missions, has a background in mechanical engineering, and is experienced in handling large aircraft with complex systems. He is skilled in troubleshooting and has a strong sense of responsibility and duty.",
+            "persona_id": "557",
+            "thought": "As a pilot with a strong sense of duty, I'm inclined to favor fairness and equality. While I could personally gain more with the 'Right' option (1400 vs. 900), it comes at the cost of Person A receiving significantly less (100 vs. 900). In my view, the disparity is too great. As someone who has relied on teamwork in high-stakes situations, I understand the importance of equitable outcomes. Therefore, I will choose the 'Left' option, where both Person A and I receive 900. This aligns with my values of fairness and responsibility."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A pilot who has flown in combat missions, has a background in mechanical engineering, and is experienced in handling large aircraft with complex systems. He is skilled in troubleshooting and has a strong sense of responsibility and duty.",
+            "persona_id": "557",
+            "thought": "As a pilot with a strong sense of responsibility, I'm inclined to avoid causing harm. Option 'Left' gives me a higher payout (1000) but imposes a negative externality on Person A (-200). Option 'Right' provides a lower payout for me (600) but benefits Person A (400). While the higher payout in 'Left' is tempting, especially considering my experience in high-stakes situations, my sense of duty pushes me to consider the well-being of others. Therefore, I will choose 'Right' to ensure a positive outcome for Person A, even if it means a smaller gain for myself. It's a matter of minimizing potential negative impact and contributing to a more favorable overall situation."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A pilot who has flown in combat missions, has a background in mechanical engineering, and is experienced in handling large aircraft with complex systems. He is skilled in troubleshooting and has a strong sense of responsibility and duty.",
+            "persona_id": "557",
+            "thought": "As a pilot with a strong sense of responsibility, I think it's better to get something rather than nothing. While Person A gets more than I do in the 'Left' option, at least I get 500. The 'Right' option results in both of us getting nothing, which is less desirable. As someone who has worked with complex systems, I understand that even small gains can be significant. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A pilot who has flown in combat missions, has a background in mechanical engineering, and is experienced in handling large aircraft with complex systems. He is skilled in troubleshooting and has a strong sense of responsibility and duty.",
+            "persona_id": "557",
+            "thought": "As a pilot with a strong sense of duty and responsibility, I am inclined to consider the well-being of both parties involved. While receiving 1500 for myself alone (Right) is tempting, it leaves Person A with nothing. Choosing the Left option, where both Person A and I receive 1000, seems more equitable. My experience in complex systems and troubleshooting has taught me the importance of fairness and balance. Therefore, I choose the Left option."
+        }
+    }
+}

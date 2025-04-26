@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 609,
+            "persona_desc": "A professional electrician who specializes in the installation and maintenance of power transmission systems. They have extensive knowledge and experience in handling high-voltage equipment, including transformers, power lines, and power grids. They are skilled in troubleshooting and resolving issues related to power transmission, and are responsible for ensuring the safe and efficient operation of these systems. They are also familiar with the proper procedures and protocols for connecting wind turbines to the power grid, and are trained to ensure that the transformers are properly energized and connected to avoid any potential risks or hazards.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a professional electrician responsible for safe and efficient power transmission, I value stability and fairness. While maximizing my own gain is tempting, the Left option creates a large disparity. The Right option, though providing me with less money (400 vs 600), provides Person A with a substantial amount (400). This promotes a more equitable outcome and reflects a sense of fairness, which is important to me. Given my profession's focus on responsible operation and safety, I am willing to sacrifice personal gain for a fairer distribution. The risks and hazards associated with power transmission require a sense of shared responsibility, and choosing the Right option aligns with this perspective.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 609,
+            "persona_desc": "A professional electrician who specializes in the installation and maintenance of power transmission systems. They have extensive knowledge and experience in handling high-voltage equipment, including transformers, power lines, and power grids. They are skilled in troubleshooting and resolving issues related to power transmission, and are responsible for ensuring the safe and efficient operation of these systems. They are also familiar with the proper procedures and protocols for connecting wind turbines to the power grid, and are trained to ensure that the transformers are properly energized and connected to avoid any potential risks or hazards.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As an electrician specializing in power transmission, my work emphasizes efficiency and preventing imbalances that could lead to system failures. While a difference of 300 might not seem significant on a small scale, my profession has instilled in me the importance of proportional distribution. In this context, I see both options as somewhat 'fair', as both participants receive a payment. However, option (Left) provides equal compensation, representing a stable and balanced outcome, like a well-maintained power grid. Choosing option (Right) could be seen as a potential for increased individual gain, but introduces a substantial imbalance in the system, much like overloading one part of a circuit while neglecting another. Though I would be better off in the short term I would still prefer option (left) as to minimize any potential harm to the other party.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 609,
+            "persona_desc": "A professional electrician who specializes in the installation and maintenance of power transmission systems. They have extensive knowledge and experience in handling high-voltage equipment, including transformers, power lines, and power grids. They are skilled in troubleshooting and resolving issues related to power transmission, and are responsible for ensuring the safe and efficient operation of these systems. They are also familiar with the proper procedures and protocols for connecting wind turbines to the power grid, and are trained to ensure that the transformers are properly energized and connected to avoid any potential risks or hazards.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As an electrician specializing in power transmission, I understand the importance of efficiency and optimal resource allocation. While a higher personal gain (300) in the 'Right' option is tempting, the 'Left' option, where both Person A and I receive 200, represents a more equitable distribution. In my profession, collaboration and fairness are critical. Maintaining good working relationships often requires some degree of compromise. Sacrificing a small personal gain to ensure a more even split fosters goodwill. Furthermore, the difference in personal gain (100) is relatively small compared to the overall stakes. Therefore, opting for fairness and equality seems the most prudent choice, especially considering the long-term benefits of positive interpersonal interactions. Also, power grids work best when everyone's needs are met, even if not maximized.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 609,
+            "persona_desc": "A professional electrician who specializes in the installation and maintenance of power transmission systems. They have extensive knowledge and experience in handling high-voltage equipment, including transformers, power lines, and power grids. They are skilled in troubleshooting and resolving issues related to power transmission, and are responsible for ensuring the safe and efficient operation of these systems. They are also familiar with the proper procedures and protocols for connecting wind turbines to the power grid, and are trained to ensure that the transformers are properly energized and connected to avoid any potential risks or hazards.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a professional electrician, especially one dealing with high-voltage systems and grid connections, I value stability and efficiency. While maximizing my own gain is desirable, a significant disparity could introduce unforeseen risks or anxieties in the interaction with Person A, who might be involved in a collaborative project or have influence over future job opportunities. A disgruntled collaborator is a liability. Although I'm not told what kind of relationship I have with Person A, or what context we are making this decision within, generally smoother interactions with others are better for ensuring safe and efficient operations, so long as I am not sacrificing too much of my own well being.\n\nThe difference between the two options is:\n- Choosing Left, I get 300 more (700-400), while Person A gets 300 less (300-600).\n- Choosing Right, I get 300 less, while Person A gets 300 more.\n\nGiven that 400 is still a reasonable amount, and for the sake of promoting a more equitable distribution of resources, I will choose Right.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 609,
+            "persona_desc": "A professional electrician who specializes in the installation and maintenance of power transmission systems. They have extensive knowledge and experience in handling high-voltage equipment, including transformers, power lines, and power grids. They are skilled in troubleshooting and resolving issues related to power transmission, and are responsible for ensuring the safe and efficient operation of these systems. They are also familiar with the proper procedures and protocols for connecting wind turbines to the power grid, and are trained to ensure that the transformers are properly energized and connected to avoid any potential risks or hazards.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As an electrician specializing in power transmission, I'm accustomed to dealing with high-stakes situations where safety and efficiency are paramount. My career is built on precision and a focus on optimal performance. While I understand the concept of fairness, my priority in this scenario leans towards maximizing my own gain, within the constraints of the provided choices. Choosing the left option provides the most substantial immediate benefit to myself, which aligns with my professional mindset of aiming for the best possible outcome in any situation. Although the right option involves some sharing, the reduction in my own payoff outweighs the benefit of allocating some funds to Person A. My skill set requires focused attention to maximizing energy output and system efficiency. This principle extends to this decision where i see maximizing my reward as a priority.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 609,
+            "persona_desc": "A professional electrician who specializes in the installation and maintenance of power transmission systems. They have extensive knowledge and experience in handling high-voltage equipment, including transformers, power lines, and power grids. They are skilled in troubleshooting and resolving issues related to power transmission, and are responsible for ensuring the safe and efficient operation of these systems. They are also familiar with the proper procedures and protocols for connecting wind turbines to the power grid, and are trained to ensure that the transformers are properly energized and connected to avoid any potential risks or hazards.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As an electrician specializing in power transmission, I value efficiency and safety. While the purely selfish choice would be to pick the option where I receive more money (1400), the extreme inequality created by that choice (Person A gets only 100) feels unfair and could even, in a societal sense, be considered inefficient or destabilizing in the long run. Furthermore, as someone who works with high-voltage systems, I understand the importance of a well-balanced and stable network. A large disparity in outcomes could be seen as analogous to an unbalanced load, potentially leading to instability. The Left option offers a much more equitable distribution, ensuring both parties receive a substantial amount. This aligns with my professional values of ensuring a reliable and well-functioning system, even if it means sacrificing some personal gain.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 609,
+            "persona_desc": "A professional electrician who specializes in the installation and maintenance of power transmission systems. They have extensive knowledge and experience in handling high-voltage equipment, including transformers, power lines, and power grids. They are skilled in troubleshooting and resolving issues related to power transmission, and are responsible for ensuring the safe and efficient operation of these systems. They are also familiar with the proper procedures and protocols for connecting wind turbines to the power grid, and are trained to ensure that the transformers are properly energized and connected to avoid any potential risks or hazards.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As an electrician focused on efficient and safe power transmission, I am acutely aware of the potential for negative consequences. The left option presents a situation where I gain significantly (1000), but at the expense of causing a significant negative impact (-200) on Person A. While maximizing my own gain is tempting, the large negative externality this creates is troubling. In my profession, safety and minimizing harm are paramount. Intentionally causing harm, even if it benefits me, goes against my professional ethics. The right option offers a lower personal gain (600) but results in a positive outcome (400) for Person A. While I'd prefer a higher personal payout, minimizing harm and promoting a positive outcome for another party is the more responsible choice, aligning with my professional values of safety and minimizing negative impact.",
+            "answer": ""
+        },
+        "scenario_2": {
+            "persona_id": 609,
+            "persona_desc": "A professional electrician who specializes in the installation and maintenance of power transmission systems. They have extensive knowledge and experience in handling high-voltage equipment, including transformers, power lines, and power grids. They are skilled in troubleshooting and resolving issues related to power transmission, and are responsible for ensuring the safe and efficient operation of these systems. They are also familiar with the proper procedures and protocols for connecting wind turbines to the power grid, and are trained to ensure that the transformers are properly energized and connected to avoid any potential risks or hazards.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As an electrician specializing in power transmission, I'm used to dealing with complex systems and ensuring their efficient and safe operation. My focus is on optimizing performance and preventing imbalances. In this scenario, the \"Left\" option creates a significant imbalance where Person A receives twice as much as I do. While I'm not opposed to Person A receiving a larger amount in general, the magnitude feels excessive. The \"Right\" option, while resulting in zero gain for both of us, prevents this substantial imbalance. Considering this is a blocking opponent's excessive gain scenario, and given my professional inclination towards balance and stability, I prefer to block the excessive gain of Person A, even at the cost of my own potential gain. This decision is not based on spite, but rather on a preference for a more equitable outcome.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 609,
+            "persona_desc": "A professional electrician who specializes in the installation and maintenance of power transmission systems. They have extensive knowledge and experience in handling high-voltage equipment, including transformers, power lines, and power grids. They are skilled in troubleshooting and resolving issues related to power transmission, and are responsible for ensuring the safe and efficient operation of these systems. They are also familiar with the proper procedures and protocols for connecting wind turbines to the power grid, and are trained to ensure that the transformers are properly energized and connected to avoid any potential risks or hazards.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As an electrician specializing in power transmission, I understand the importance of equitable distribution and efficiency. The left option provides a scenario where both parties receive an equal amount, promoting fairness and a sense of community. The right option offers me a larger sum, but at the cost of the other participant receiving nothing. While the increased personal gain is tempting, my professional ethics and understanding of interconnected systems lead me to believe that a more equitable distribution is ultimately better. As an electrician, I often troubleshoot scenarios, and the left option represents a more stable and less likely 'system failure' scenario. If I were dependent on Person A (e.g., for further jobs) the right choice would damage that connection. Therefore, despite the immediate financial benefit of the right option, I choose the left option due to principles of fairness and sustainability in relationship.",
+            "answer": "Left"
+        }
+    }
+}

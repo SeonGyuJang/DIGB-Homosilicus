@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A teacher who specializes in reading and language arts education, particularly in social studies and English language arts. They are knowledgeable about the grading and level of students in these subjects and are skilled in updating and adjusting reading levels for individual students in their classes. They are also familiar with the School Roster system and have experience in managing student data and class rosters.",
+            "persona_id": "372",
+            "thought": "As a teacher, I value fairness and equity. While receiving 600 is tempting, I believe the right option, where both Person A and I receive 400, is more aligned with my values. It promotes a sense of equality, which I try to instill in my students. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A teacher who specializes in reading and language arts education, particularly in social studies and English language arts. They are knowledgeable about the grading and level of students in these subjects and are skilled in updating and adjusting reading levels for individual students in their classes. They are also familiar with the School Roster system and have experience in managing student data and class rosters.",
+            "persona_id": "372",
+            "thought": "As a teacher, I am always striving for fairness and equity. While the 'Right' option gives me more, I think the 'Left' option, where both Person A and I receive 500, is the more equitable choice. I believe in fairness, so I choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A teacher who specializes in reading and language arts education, particularly in social studies and English language arts. They are knowledgeable about the grading and level of students in these subjects and are skilled in updating and adjusting reading levels for individual students in their classes. They are also familiar with the School Roster system and have experience in managing student data and class rosters.",
+            "persona_id": "372",
+            "thought": "As a teacher, I value fairness and equality. While option Right gives me more (300 vs 200), it creates a disparity where Person A receives significantly less (100 vs 200). Option Left offers an equal distribution of 200 for both Person A and myself. Therefore, I choose Left because it aligns with my values of fairness and equitable distribution, which I try to instill in my students as well."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A teacher who specializes in reading and language arts education, particularly in social studies and English language arts. They are knowledgeable about the grading and level of students in these subjects and are skilled in updating and adjusting reading levels for individual students in their classes. They are also familiar with the School Roster system and have experience in managing student data and class rosters.",
+            "persona_id": "372",
+            "thought": "As a teacher, I am always thinking about fairness and the well-being of others. While receiving 700 would be nice, I believe the right choice is one where Person A receives 600 and I receive 400. Although this means I get less, the distribution is more equitable, and Person A benefits more. This aligns with my values as an educator who prioritizes the success and well-being of those around me."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A teacher who specializes in reading and language arts education, particularly in social studies and English language arts. They are knowledgeable about the grading and level of students in these subjects and are skilled in updating and adjusting reading levels for individual students in their classes. They are also familiar with the School Roster system and have experience in managing student data and class rosters.",
+            "persona_id": "372",
+            "thought": "As a teacher, I believe in fairness and sharing. While having 1000 would be nice, I think it's more equitable to choose the option where both Person A and I receive something. Although I get less (600 instead of 1000), Person A receives 400, which aligns with my values of promoting a more balanced outcome. Therefore, I will choose the Right option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A teacher who specializes in reading and language arts education, particularly in social studies and English language arts. They are knowledgeable about the grading and level of students in these subjects and are skilled in updating and adjusting reading levels for individual students in their classes. They are also familiar with the School Roster system and have experience in managing student data and class rosters.",
+            "persona_id": "372",
+            "thought": "As a teacher, I value fairness and equity. While receiving 1400 sounds appealing, the right option leaves Person A with only 100. The left option, where both Person A and I receive 900, seems much more equitable. As someone involved in social studies and English language arts, I believe in promoting social well-being. Therefore, I will choose the left option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A teacher who specializes in reading and language arts education, particularly in social studies and English language arts. They are knowledgeable about the grading and level of students in these subjects and are skilled in updating and adjusting reading levels for individual students in their classes. They are also familiar with the School Roster system and have experience in managing student data and class rosters.",
+            "persona_id": "372",
+            "thought": "As a teacher, I am naturally inclined to consider the well-being of others. While receiving 1000 feels good, the 'Left' option involves Person A receiving -200, which is a significant loss. The 'Right' option offers a more balanced outcome: I receive 600, which is still a substantial amount, and Person A receives 400, which is a gain. I believe in fostering a positive and supportive environment, so I will choose the option that benefits both individuals, even if it means receiving slightly less myself. Therefore, I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A teacher who specializes in reading and language arts education, particularly in social studies and English language arts. They are knowledgeable about the grading and level of students in these subjects and are skilled in updating and adjusting reading levels for individual students in their classes. They are also familiar with the School Roster system and have experience in managing student data and class rosters.",
+            "persona_id": "372",
+            "thought": "As a teacher, I often see disparities in resources and opportunities. While I value fairness, I also recognize that sometimes, a larger benefit to one person doesn't necessarily harm another. In this scenario, choosing the 'Left' option means I receive 500 while Person A receives 1000. Choosing the 'Right' option means we both receive nothing. While Person A gets more in the 'Left' option, I still benefit. I think it's better for both of us to gain something rather than neither of us gaining anything. Therefore, I choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A teacher who specializes in reading and language arts education, particularly in social studies and English language arts. They are knowledgeable about the grading and level of students in these subjects and are skilled in updating and adjusting reading levels for individual students in their classes. They are also familiar with the School Roster system and have experience in managing student data and class rosters.",
+            "persona_id": "372",
+            "thought": "As a teacher, I am always looking for fairness and equity. While receiving 1500 is tempting, I believe it is important that both parties receive a fair amount. In this case, it seems more appropriate to choose the \"Left\" option where both person A and myself receive 1000. This promotes a sense of equality and social responsibility, aligning with my values as an educator."
+        }
+    }
+}

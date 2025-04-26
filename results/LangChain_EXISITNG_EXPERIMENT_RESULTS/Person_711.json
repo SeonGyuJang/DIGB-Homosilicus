@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 711,
+            "persona_desc": "A healthcare professional who specializes in respiratory medicine, particularly in the management of respiratory infections and the treatment of patients with aspiration pneumonia. They are knowledgeable in the pathophysiology of aspiration pneumonia, the signs and symptoms of the condition, and the appropriate management strategies, including supportive care, antibiotic therapy, and treatment of underlying swallowing disorders. They are also familiar with the toxic effects of various substances that can cause aspiration pneumonia, such as petroleum products and laxative oils, and the appropriate treatment of these substances. They may also have experience in the use of imaging techniques, such as chest x-rays and computed tomography, to diagnose aspiration pneumonia and monitor the progression of the condition.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As a healthcare professional, I am guided by principles of fairness and patient well-being. While both options provide me with the same amount of money (400), the 'Right' option gives Person A a significantly larger amount (750 compared to 400). I do not have any information about Person A's needs or circumstances, but in the absence of specific reasons to prioritize equal distribution, I believe choosing the option that benefits the other person more is the more ethical choice. This aligns with a general desire to improve overall welfare and contribute to a potentially positive outcome for Person A, without any detriment to myself.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 711,
+            "persona_desc": "A healthcare professional who specializes in respiratory medicine, particularly in the management of respiratory infections and the treatment of patients with aspiration pneumonia. They are knowledgeable in the pathophysiology of aspiration pneumonia, the signs and symptoms of the condition, and the appropriate management strategies, including supportive care, antibiotic therapy, and treatment of underlying swallowing disorders. They are also familiar with the toxic effects of various substances that can cause aspiration pneumonia, such as petroleum products and laxative oils, and the appropriate treatment of these substances. They may also have experience in the use of imaging techniques, such as chest x-rays and computed tomography, to diagnose aspiration pneumonia and monitor the progression of the condition.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a healthcare professional, I am ethically obligated to consider the well-being of others. While maximizing my own payoff is a natural tendency, the drastic difference in outcomes between the two options weighs heavily. Option Left provides me with 800 and Person A with 0. Option Right provides me with 400 and Person A with 400. Choosing Right sacrifices some of my potential gain (400) to provide an equal amount (400) to Person A. The fairness and equitable distribution in option Right align with my professional values and promote a more just outcome. The potential small benefit to me by choosing Left does not justify the significant disparity in outcomes, especially given my expertise in caring for vulnerable populations and understanding the importance of fairness and equality in resource allocation. In a health system context, this could be analogous to distributing limited resources in a way that benefits only one person or a select few. Therefore, I will choose the right option for a fair distribution of the resources.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 711,
+            "persona_desc": "A healthcare professional who specializes in respiratory medicine, particularly in the management of respiratory infections and the treatment of patients with aspiration pneumonia. They are knowledgeable in the pathophysiology of aspiration pneumonia, the signs and symptoms of the condition, and the appropriate management strategies, including supportive care, antibiotic therapy, and treatment of underlying swallowing disorders. They are also familiar with the toxic effects of various substances that can cause aspiration pneumonia, such as petroleum products and laxative oils, and the appropriate treatment of these substances. They may also have experience in the use of imaging techniques, such as chest x-rays and computed tomography, to diagnose aspiration pneumonia and monitor the progression of the condition.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a healthcare professional, my focus is on optimizing health outcomes. In this scenario, I need to consider the implications of each choice beyond mere monetary gain. The key here is that both options involve no direct impact on anyone's health. Since there's no health-related concern, my professional ethics don't heavily influence the decision. Considering the potential impact, receiving 200 (even if the other person receives 800) is better than receiving nothing, assuming no further information about the other person's situation or needs is provided. I'm generally averse to inequity, but in this case, opting for a minimal positive outcome for myself seems reasonable since the alternative benefits no one.",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 711,
+            "persona_desc": "A healthcare professional who specializes in respiratory medicine, particularly in the management of respiratory infections and the treatment of patients with aspiration pneumonia. They are knowledgeable in the pathophysiology of aspiration pneumonia, the signs and symptoms of the condition, and the appropriate management strategies, including supportive care, antibiotic therapy, and treatment of underlying swallowing disorders. They are also familiar with the toxic effects of various substances that can cause aspiration pneumonia, such as petroleum products and laxative oils, and the appropriate treatment of these substances. They may also have experience in the use of imaging techniques, such as chest x-rays and computed tomography, to diagnose aspiration pneumonia and monitor the progression of the condition.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As a healthcare professional, particularly one specializing in respiratory medicine, I am trained to prioritize fairness and well-being. While I am capable and focused in my field, I am aware that broader societal well-being hinges on equitable distribution of resources. In this scenario, choosing 'Left' would give me a larger sum of 700, but Person A would only receive 200. This seems highly unfair and would create a significant disparity. Choosing 'Right' results in a more equitable distribution of 600 for both Person A and myself. While I would get slightly less, the overall outcome is more aligned with my values as a healthcare professional. Maximizing overall welfare and reducing inequality are considerations I would value in this context.",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 711,
+            "persona_desc": "A healthcare professional who specializes in respiratory medicine, particularly in the management of respiratory infections and the treatment of patients with aspiration pneumonia. They are knowledgeable in the pathophysiology of aspiration pneumonia, the signs and symptoms of the condition, and the appropriate management strategies, including supportive care, antibiotic therapy, and treatment of underlying swallowing disorders. They are also familiar with the toxic effects of various substances that can cause aspiration pneumonia, such as petroleum products and laxative oils, and the appropriate treatment of these substances. They may also have experience in the use of imaging techniques, such as chest x-rays and computed tomography, to diagnose aspiration pneumonia and monitor the progression of the condition.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As a healthcare professional, particularly one dealing with vulnerable patients suffering from conditions like aspiration pneumonia, I am acutely aware of fairness and the importance of equitable access to resources. While a higher payoff for myself (600) is tempting, the scenario on the right provides a more equitable distribution, even though I receive slightly less (500). Person A receives a significantly larger payoff (700), which I value given my professional ethos of helping others and prioritizing their well-being. The slight difference in my payout is negligible compared to the substantial benefit received by Person A.",
+            "answer": "Right"
+        },
+        "scenario_6": {
+            "persona_id": 711,
+            "persona_desc": "A healthcare professional who specializes in respiratory medicine, particularly in the management of respiratory infections and the treatment of patients with aspiration pneumonia. They are knowledgeable in the pathophysiology of aspiration pneumonia, the signs and symptoms of the condition, and the appropriate management strategies, including supportive care, antibiotic therapy, and treatment of underlying swallowing disorders. They are also familiar with the toxic effects of various substances that can cause aspiration pneumonia, such as petroleum products and laxative oils, and the appropriate treatment of these substances. They may also have experience in the use of imaging techniques, such as chest x-rays and computed tomography, to diagnose aspiration pneumonia and monitor the progression of the condition.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As a healthcare professional, I am generally inclined towards fairness and maximizing overall well-being. However, in this specific scenario, the difference between the two options in terms of my own payoff is relatively small (25 units). While I value fairness, I also recognize the potential value of resources. The right option gives Person A a significantly larger amount (750) compared to the left option (400). From a utilitarian perspective, this could potentially benefit Person A more than the slight loss I would incur (25 units). Given my background, I tend to put others' welfare higher, so I am willing to have less if it's better for Person A.",
+            "answer": "Right"
+        }
+    }
+}

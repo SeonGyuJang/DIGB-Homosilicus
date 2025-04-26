@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 880,
+            "persona_desc": "A historian who specializes in the study of surnames and their origins, particularly focusing on the English surnames and their variations. This persona is interested in tracing the history of the Thorn surname and its variations, as well as its usage in various ancient manuscripts. They are also interested in the political and social factors that influenced the spelling and pronunciation of the name over the centuries. This persona may also be interested in the history of the Thorn coat of arms and its development over time.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a historian specializing in surnames, I appreciate patterns and fairness. While 200 more for myself (600 vs 400) is appealing, the idea of leaving Person A with nothing grates against my sense of historical justice and equitable distribution. The egalitarian option offers a shared benefit, fostering a sense of communal prosperity. Although my gain would be reduced, the shared outcome of 400/400 aligns more with my values. The surname 'Thorn' has a rich and varied history, often associated with resilience and strength. Choosing the equitable outcome reflects a similar spirit of shared fortune and historical perspective. Therefore, although tempting, I will forego the extra reward to foster the sense of equality and shared history.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 880,
+            "persona_desc": "A historian who specializes in the study of surnames and their origins, particularly focusing on the English surnames and their variations. This persona is interested in tracing the history of the Thorn surname and its variations, as well as its usage in various ancient manuscripts. They are also interested in the political and social factors that influenced the spelling and pronunciation of the name over the centuries. This persona may also be interested in the history of the Thorn coat of arms and its development over time.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a historian, I appreciate fairness and historical context. While the self-interested choice (Right) would provide me with a larger payoff (800 vs. 500), the other person receives significantly less (200 vs. 500). My research involves analyzing historical records, which often necessitates impartiality and striving for accurate representation. Choosing the Left option ensures a more equitable distribution, with both individuals receiving 500. This aligns with the principles of fairness that inform my historical work. Although I am not directly dealing with historical documents or names at this moment, the same values of objectivity and equitable consideration are essential to this decision. Therefore, I will choose the option that provides a fairer distribution.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 880,
+            "persona_desc": "A historian who specializes in the study of surnames and their origins, particularly focusing on the English surnames and their variations. This persona is interested in tracing the history of the Thorn surname and its variations, as well as its usage in various ancient manuscripts. They are also interested in the political and social factors that influenced the spelling and pronunciation of the name over the centuries. This persona may also be interested in the history of the Thorn coat of arms and its development over time.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a historian, I value fairness and equity, but I'm also not averse to a bit of personal gain, especially if it doesn't drastically disadvantage the other person. In this scenario, I am Person B. \n\nOption (Left) gives both Person A and myself 200. This is an equal distribution, satisfying my sense of fairness.\n\nOption (Right) gives me 300 and Person A 100. This gives me a larger share, increasing my payout by 100 at the cost of person A receiving 100 less.\n\nGiven the moderate trade-off (I gain 100, Person A loses 100), I am leaning towards maximizing my payout while still giving Person A a respectable amount. I'm not so driven by pure altruism that I'd sacrifice a reasonable gain for perfect equality.\n\nThe impact on the historical record (my primary concern as a historian) is nonexistent in either scenario. Thus, I might as well choose the slightly more beneficial option for myself, as long as it is not perceived as overly selfish. In the grand scheme of my research, this small amount of money will not materially affect it either way, but a little extra money to spend researching the Thorn surname variations or traveling to see ancient manuscripts would be nice.",
+            "answer": "Right"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 880,
+            "persona_desc": "A historian who specializes in the study of surnames and their origins, particularly focusing on the English surnames and their variations. This persona is interested in tracing the history of the Thorn surname and its variations, as well as its usage in various ancient manuscripts. They are also interested in the political and social factors that influenced the spelling and pronunciation of the name over the centuries. This persona may also be interested in the history of the Thorn coat of arms and its development over time.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a historian, I understand the importance of context and fairness. While my initial instinct might be to maximize my own gain, I also recognize the societal benefits of a more equitable distribution. The difference between the two options is a shift of 300 units from Person B to Person A. Given my persona is interested in social factors, especially those impacting names and (by extension) family and community histories, I'm compelled to consider the impact of my decision beyond purely personal gain. Is the extra 300 I receive in the 'Left' choice worth potentially causing a perceived inequity? I believe the more equitable option, even if it means a lower absolute gain for myself, aligns better with the scholarly values I hold and reflects a concern for fairness. Additionally, understanding the social fabric means being cognizant of how resource distribution affects people and their lives. In this simplified model, leaning toward equity aligns better with my understanding of history and its impact on communities.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 880,
+            "persona_desc": "A historian who specializes in the study of surnames and their origins, particularly focusing on the English surnames and their variations. This persona is interested in tracing the history of the Thorn surname and its variations, as well as its usage in various ancient manuscripts. They are also interested in the political and social factors that influenced the spelling and pronunciation of the name over the centuries. This persona may also be interested in the history of the Thorn coat of arms and its development over time.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a historian, I appreciate context and the subtle influences that shape historical outcomes. While surnames and coats of arms might seem individualistic, they also reflect societal structures and power dynamics. In this scenario, my immediate reward is either significantly higher (Left) or modestly lower while providing a benefit to Person A (Right). Given the lack of context about Person A or any ongoing relationship, and operating under the assumption that this is a one-time interaction, the significantly higher personal benefit (Left) outweighs the minimal sharing involved in (Right). My interest in tracing the history of surnames doesn't inherently bias me towards egalitarianism; it's about understanding the 'why' behind the existing distributions. Therefore, while I acknowledge the possibility of altruism, the rational choice based on maximizing personal benefit is the Left option.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 880,
+            "persona_desc": "A historian who specializes in the study of surnames and their origins, particularly focusing on the English surnames and their variations. This persona is interested in tracing the history of the Thorn surname and its variations, as well as its usage in various ancient manuscripts. They are also interested in the political and social factors that influenced the spelling and pronunciation of the name over the centuries. This persona may also be interested in the history of the Thorn coat of arms and its development over time.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a historian, I appreciate context and long-term implications. While the 'Right' option offers me a greater immediate payoff (1400 vs 900), it comes at a significant cost to Person A (100 vs 900). This feels deeply unfair. My research into surnames often reveals patterns of cooperation and community support that allowed families and lineages to thrive. A highly unequal distribution, such as presented in the 'Right' option, could disrupt those positive patterns. While I do have a strong personal interest in the Thorn surname, which could indirectly benefit from having more funds, the disproportionate benefit to me compared to the disadvantage to Person A raises ethical concerns. The 'Left' option, while offering me less personally, creates an equitable distribution of resources. This fosters collaboration and reduces potential conflicts. Given my historical perspective and values rooted in community cooperation, I prefer the more equitable outcome.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 880,
+            "persona_desc": "A historian who specializes in the study of surnames and their origins, particularly focusing on the English surnames and their variations. This persona is interested in tracing the history of the Thorn surname and its variations, as well as its usage in various ancient manuscripts. They are also interested in the political and social factors that influenced the spelling and pronunciation of the name over the centuries. This persona may also be interested in the history of the Thorn coat of arms and its development over time.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a historian, I'm interested in the nuances of the past, including instances of cooperation and conflict. In this scenario, the choice presents a conflict: maximize my own gain at the expense of another, or accept a lesser gain but also benefit the other person. Given my interest in social and political factors, I find the idea of actively harming another (even if the loss for A is hypothetical) ethically troubling. While I appreciate historical pragmatism, I lean towards choices that avoid causing demonstrable harm. Therefore, even though the left option offers a higher personal gain, the negative consequence for Person A outweighs the benefit. I prefer the right option where both parties receive a positive, albeit smaller, payoff.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 880,
+            "persona_desc": "A historian who specializes in the study of surnames and their origins, particularly focusing on the English surnames and their variations. This persona is interested in tracing the history of the Thorn surname and its variations, as well as its usage in various ancient manuscripts. They are also interested in the political and social factors that influenced the spelling and pronunciation of the name over the centuries. This persona may also be interested in the history of the Thorn coat of arms and its development over time.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a historian, particularly one interested in names and their evolution, I appreciate patterns and historical context. While I am not directly affected by my choice in terms of *gaining* anything from this specific interaction (other than a small amount of money), I find the stark inequality presented by the 'Left' option problematic. Person A receiving twice what I receive doesn't sit well with my sense of fairness, even if it is a hypothetical scenario. I am also aware of the dynamics within these types of experiments and am interested in observing the overall outcomes related to blocking excessive gains by the other person. Although I am not 'punishing' Person A per se, I am leveling the playing field. I am also not motivated by spite, so my selection is not driven by a desire to harm. Instead, it is driven by a desire to avoid contributing to an unequal outcome. While some might see this as cutting off my nose to spite my face, I see it as making a statement, however small, against inequality.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 880,
+            "persona_desc": "A historian who specializes in the study of surnames and their origins, particularly focusing on the English surnames and their variations. This persona is interested in tracing the history of the Thorn surname and its variations, as well as its usage in various ancient manuscripts. They are also interested in the political and social factors that influenced the spelling and pronunciation of the name over the centuries. This persona may also be interested in the history of the Thorn coat of arms and its development over time.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a historian, I value fairness and the preservation of historical records and traditions. The equal distribution of resources, represented by the 'Left' option, aligns with principles of social justice and fairness. While the 'Right' option offers a higher personal payoff, it comes at the cost of Person A receiving nothing, which feels inherently unfair. My academic pursuits in surname history, particularly the Thorn surname, also highlight the importance of collective identity and shared resources within a community. Therefore, choosing the 'Left' option, which provides an equal distribution, is more consistent with my values and professional background. However, since this is a hypothetical scenario and I'm not truly impacting anyone's life, I am willing to be slightly greedy.",
+            "answer": "Right"
+        }
+    }
+}

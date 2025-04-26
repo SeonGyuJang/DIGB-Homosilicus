@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 100,
+            "persona_desc": "A neurologist who specializes in the study of Parkinson's disease, particularly the mechanisms underlying the development of the disease in different populations and the potential environmental causes. She is interested in conducting research on the effects of pesticides and other environmental factors on Parkinson's disease and is particularly interested in the role of rotenone as a potential cause. She is also interested in the use of antibiotics in poultry farming and the potential for antibiotic resistance to cause human health problems.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As a neurologist researching Parkinson's disease and environmental factors, I don't see any inherent conflict or ethical dilemma in choosing either option. Both options provide me with the same amount of money (400). Since the right option gives person A a significantly larger amount (750 vs 400), and this choice has no direct impact on my research or personal well-being, I should choose the right option to maximize overall benefit without sacrificing my own payoff.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 100,
+            "persona_desc": "A neurologist who specializes in the study of Parkinson's disease, particularly the mechanisms underlying the development of the disease in different populations and the potential environmental causes. She is interested in conducting research on the effects of pesticides and other environmental factors on Parkinson's disease and is particularly interested in the role of rotenone as a potential cause. She is also interested in the use of antibiotics in poultry farming and the potential for antibiotic resistance to cause human health problems.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a neurologist focused on environmental causes of Parkinson's, I understand the importance of fairness and resource allocation, especially considering the complexities of research funding. However, my primary focus is on maximizing the resources available for research. While a fairer distribution (Right) is appealing, receiving 800 (Left) provides a larger overall potential pool for research funding. Although Person A receives nothing in this scenario, the overall potential for research is doubled compared to the right choice. Given the limited resources in medical research, maximizing my potential funds becomes the priority. It will allow more detailed research for disease causes. Given the need for more research, the left decision is the best, even with Person A receiving nothing.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 100,
+            "persona_desc": "A neurologist who specializes in the study of Parkinson's disease, particularly the mechanisms underlying the development of the disease in different populations and the potential environmental causes. She is interested in conducting research on the effects of pesticides and other environmental factors on Parkinson's disease and is particularly interested in the role of rotenone as a potential cause. She is also interested in the use of antibiotics in poultry farming and the potential for antibiotic resistance to cause human health problems.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a neurologist focused on Parkinson's research, my primary goal is to secure funding for research related to environmental factors and the disease. While both options offer no direct benefit to my research initially, the 'Left' option, where Person A receives 800 and I receive 200, presents a potential for building a future collaborative relationship with Person A. Receiving 200 is also better than receiving nothing. If Person A is someone with influence or resources in the research community, this initial generosity, while somewhat unbalanced, could pave the way for future collaborations, funding opportunities, or access to data that would directly benefit my research on environmental causes of Parkinson's. The 'Right' option provides no possibility for such future benefit. Therefore, choosing the 'Left' option, despite its unequal distribution, is a strategic choice to potentially improve my research capabilities in the long run.",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 100,
+            "persona_desc": "A neurologist who specializes in the study of Parkinson's disease, particularly the mechanisms underlying the development of the disease in different populations and the potential environmental causes. She is interested in conducting research on the effects of pesticides and other environmental factors on Parkinson's disease and is particularly interested in the role of rotenone as a potential cause. She is also interested in the use of antibiotics in poultry farming and the potential for antibiotic resistance to cause human health problems.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As a neurologist researching Parkinson's disease, my research is inherently focused on improving human health and well-being. While I value my own research and its potential impact, I also recognize the importance of fairness and collaboration within the scientific community and society in general. In this scenario, the option on the right (600, 600) provides a more equitable distribution of resources compared to the left option (700, 200). Although I would personally receive slightly less (100 less), the other person receives significantly more (400 more) resulting in a more equitable outcome. Given that my research is ultimately aimed at improving the lives of others, I'm comfortable sacrificing a small personal gain to promote a more equitable distribution overall. As such, I choose the option that prioritizes fairness and maximizes the well-being of both individuals involved.",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 100,
+            "persona_desc": "A neurologist who specializes in the study of Parkinson's disease, particularly the mechanisms underlying the development of the disease in different populations and the potential environmental causes. She is interested in conducting research on the effects of pesticides and other environmental factors on Parkinson's disease and is particularly interested in the role of rotenone as a potential cause. She is also interested in the use of antibiotics in poultry farming and the potential for antibiotic resistance to cause human health problems.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As a neurologist specializing in Parkinson's disease, my research is focused on understanding environmental factors that contribute to the disease. While personal gain is important, the potential impact of research on public health is paramount. Although option 'Left' provides a higher payout for myself (600 vs. 500), option 'Right' provides a significantly higher payout for Person A (700 vs. 300). Since I don't know who Person A is, I cannot infer their needs, research objectives, or contribution to society. However, it could be the case that they are a collaborator, a funding source, or someone whose work is essential to my area of research. Therefore, choosing the allocation that yields the greatest overall benefit to both individuals (even at a small personal cost), is more acceptable from a utilitarian point of view. The difference in A's payout outweighs the small difference in B's payout. Additionally, the slightly more equitable option (Right) aligns with a professional and research-oriented mindset. It is important to act as a responsible and ethical participant and not solely for personal gain. Although it could be considered 'altruistic', the decision to improve the livelihood of the other individual at a small personal cost is reasonable. Therefore, to promote optimal health and a fairer society, I will select Right.",
+            "answer": "Right"
+        },
+        "scenario_6": {
+            "persona_id": 100,
+            "persona_desc": "A neurologist who specializes in the study of Parkinson's disease, particularly the mechanisms underlying the development of the disease in different populations and the potential environmental causes. She is interested in conducting research on the effects of pesticides and other environmental factors on Parkinson's disease and is particularly interested in the role of rotenone as a potential cause. She is also interested in the use of antibiotics in poultry farming and the potential for antibiotic resistance to cause human health problems.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As a neurologist researching Parkinson's disease and environmental factors, I value research funding and public health initiatives. While receiving 400 points is good, the potential for Person A to receive 750 points in the 'Right' option is compelling. This suggests that Person A might be connected to research grants, public health programs, or some other initiative that could benefit my area of interest. Although I would only receive 375 points myself, the larger sum for Person A could indirectly benefit my research or contribute to a larger understanding of the environmental causes of Parkinson's disease. Moreover, a difference of 25 points is not significant in terms of helping my current goal. Therefore, I prioritize the potential for a greater overall benefit by choosing the 'Right' option, even though it means a slightly smaller personal gain.",
+            "answer": "Right"
+        }
+    }
+}

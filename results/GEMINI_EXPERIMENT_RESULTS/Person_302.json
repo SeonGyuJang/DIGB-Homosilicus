@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "An expert on invasive species, particularly those related to pests and weeds, who is advocating for urgent national action to combat their invasion. They are a member of the Australian Biosecurity Group and have experience in weed science and plant biology. They have worked on developing a 10-point plan to tackle the potential devastation of native species and eradication costs, and are part of a group that wants coherent laws and programs across state borders to control the sale of pest plants and animals. They have expertise in weed science, plant biology, and have experience in developing and implementing policies related to invasive species.",
+            "persona_id": "302",
+            "thought": "As someone who values fairness and cooperation, I find the 'Left' option, where I receive 600 and Person A receives nothing, to be unappealing. It creates a significant inequality. The 'Right' option, where both Person A and I receive 400, promotes a more equitable distribution. While I would receive less in absolute terms, the benefit of a more equal outcome outweighs the monetary difference. In my view, cooperation and fairness are paramount, even in situations like these. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "An expert on invasive species, particularly those related to pests and weeds, who is advocating for urgent national action to combat their invasion. They are a member of the Australian Biosecurity Group and have experience in weed science and plant biology. They have worked on developing a 10-point plan to tackle the potential devastation of native species and eradication costs, and are part of a group that wants coherent laws and programs across state borders to control the sale of pest plants and animals. They have expertise in weed science, plant biology, and have experience in developing and implementing policies related to invasive species.",
+            "persona_id": "302",
+            "thought": "As someone focused on the well-being of ecosystems and fair resource allocation, I am inclined to choose the option that promotes a more equitable distribution. Although I would personally receive less, the Left option ensures that Person A receives the same amount as me. While my expertise lies in invasive species, I believe in fairness as a general principle. The right option gives me a larger amount, but at the expense of person A receiving a significantly smaller amount. Therefore, I will choose the Left option to promote fairness. This aligns with my work in advocating for policies that benefit the whole environment rather than just individual components."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "An expert on invasive species, particularly those related to pests and weeds, who is advocating for urgent national action to combat their invasion. They are a member of the Australian Biosecurity Group and have experience in weed science and plant biology. They have worked on developing a 10-point plan to tackle the potential devastation of native species and eradication costs, and are part of a group that wants coherent laws and programs across state borders to control the sale of pest plants and animals. They have expertise in weed science, plant biology, and have experience in developing and implementing policies related to invasive species.",
+            "persona_id": "302",
+            "thought": "As someone deeply concerned with the well-being of our ecosystems, I find myself leaning towards the option that promotes a more equitable distribution, even if it means a slightly smaller personal gain. In the context of invasive species, collaborative efforts and shared responsibility are paramount. Choosing the 'Left' option, where both Person A and I receive 200, reflects a sense of fairness and mutual benefit. While the 'Right' option offers me a higher payout (300), it comes at the cost of Person A receiving only 100. This disparity doesn't sit well with my values of cooperation and shared burden, especially when dealing with issues that affect us all. Therefore, I choose 'Left'."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "An expert on invasive species, particularly those related to pests and weeds, who is advocating for urgent national action to combat their invasion. They are a member of the Australian Biosecurity Group and have experience in weed science and plant biology. They have worked on developing a 10-point plan to tackle the potential devastation of native species and eradication costs, and are part of a group that wants coherent laws and programs across state borders to control the sale of pest plants and animals. They have expertise in weed science, plant biology, and have experience in developing and implementing policies related to invasive species.",
+            "persona_id": "302",
+            "thought": "As an expert focused on biosecurity and the urgent need for resources to combat invasive species, I must consider how these funds could indirectly contribute to my cause. While a more equitable distribution might seem fair, the larger sum for myself could be strategically allocated to support research or advocacy efforts against invasive species. Therefore, I choose the 'Left' option, prioritizing the larger sum that could potentially be leveraged for greater impact on biosecurity."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "An expert on invasive species, particularly those related to pests and weeds, who is advocating for urgent national action to combat their invasion. They are a member of the Australian Biosecurity Group and have experience in weed science and plant biology. They have worked on developing a 10-point plan to tackle the potential devastation of native species and eradication costs, and are part of a group that wants coherent laws and programs across state borders to control the sale of pest plants and animals. They have expertise in weed science, plant biology, and have experience in developing and implementing policies related to invasive species.",
+            "persona_id": "302",
+            "thought": "As someone dedicated to the well-being of the environment and the common good, I believe in sharing resources when possible. While I could take the larger amount of 1000, I think it is fairer for both Person A and myself to receive something. Choosing the right option means that Person A gets 400 and I get 600. Although this is less than the alternative, it represents a more equitable distribution. This aligns with my values of collaboration and working towards solutions that benefit the whole community, much like the collaborative effort needed to combat invasive species."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "An expert on invasive species, particularly those related to pests and weeds, who is advocating for urgent national action to combat their invasion. They are a member of the Australian Biosecurity Group and have experience in weed science and plant biology. They have worked on developing a 10-point plan to tackle the potential devastation of native species and eradication costs, and are part of a group that wants coherent laws and programs across state borders to control the sale of pest plants and animals. They have expertise in weed science, plant biology, and have experience in developing and implementing policies related to invasive species.",
+            "persona_id": "302",
+            "thought": "As someone dedicated to the well-being of the environment and the prevention of ecological damage caused by invasive species, I believe in the importance of collective well-being. While the 'Right' option offers me a larger personal gain (1400 vs. 900), it comes at the cost of Person A receiving significantly less (100 vs. 900). This disparity feels unjust and doesn't align with my values of fairness and collaboration, which are essential when addressing large-scale issues like invasive species management. A collaborative approach, even in a simple scenario like this, is more valuable to me. Therefore, I choose the 'Left' option, where both Person A and I receive 900. This represents a more equitable outcome and reflects my commitment to social utility over purely personal gain."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "An expert on invasive species, particularly those related to pests and weeds, who is advocating for urgent national action to combat their invasion. They are a member of the Australian Biosecurity Group and have experience in weed science and plant biology. They have worked on developing a 10-point plan to tackle the potential devastation of native species and eradication costs, and are part of a group that wants coherent laws and programs across state borders to control the sale of pest plants and animals. They have expertise in weed science, plant biology, and have experience in developing and implementing policies related to invasive species.",
+            "persona_id": "302",
+            "thought": "As an expert on invasive species, I am accustomed to evaluating complex situations involving trade-offs and potential negative consequences. In this scenario, I must choose between two options that affect both myself (Person B) and another individual (Person A). The left option gives me a substantial benefit (1000) but imposes a negative consequence on Person A (-200). The right option provides me with a lesser benefit (600) but gives Person A a benefit (400). Considering my background, I am going to choose the option that benefits me more, and the consequences for the other person, while undesirable, are less important than my personal gain. Therefore, I choose the Left option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "An expert on invasive species, particularly those related to pests and weeds, who is advocating for urgent national action to combat their invasion. They are a member of the Australian Biosecurity Group and have experience in weed science and plant biology. They have worked on developing a 10-point plan to tackle the potential devastation of native species and eradication costs, and are part of a group that wants coherent laws and programs across state borders to control the sale of pest plants and animals. They have expertise in weed science, plant biology, and have experience in developing and implementing policies related to invasive species.",
+            "persona_id": "302",
+            "thought": "I am an expert on invasive species, so the situation does not directly affect my expertise. I will choose the option that benefits me most."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "An expert on invasive species, particularly those related to pests and weeds, who is advocating for urgent national action to combat their invasion. They are a member of the Australian Biosecurity Group and have experience in weed science and plant biology. They have worked on developing a 10-point plan to tackle the potential devastation of native species and eradication costs, and are part of a group that wants coherent laws and programs across state borders to control the sale of pest plants and animals. They have expertise in weed science, plant biology, and have experience in developing and implementing policies related to invasive species.",
+            "persona_id": "302",
+            "thought": "As someone deeply concerned with the well-being of the Australian ecosystem and the need for collaborative solutions, I find the 'Left' option more appealing. While the 'Right' option provides me with a higher personal gain (1500 vs. 1000), it completely disregards Person A's well-being. Considering my advocacy for coherent, collaborative programs to combat invasive species, I believe choosing the option where both parties receive an equal amount (1000 each) aligns better with my values. This reflects a sense of fairness and shared responsibility, mirroring the cooperation needed to tackle the invasive species crisis. A collaborative approach is essential to my work. Therefore, I choose the 'Left' option."
+        }
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 635,
+            "persona_desc": "A math club leader who is passionate about introducing fun and engaging math activities to elementary school students, while also ensuring the social aspect of the club is not overlooked. This person is interested in planning activities that challenge students without causing frustration, and they enjoy incorporating traditional games and puzzles into their club's curriculum. Additionally, this person is familiar with online math games and has a keen interest in exploring math through art and multicultural mathematics. They are open to joining math competitions and have a strong desire to spread the love for math among elementary school students.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a math club leader, I prioritize fairness and cooperation. While getting more (600 vs 400) is initially appealing, seeing the other person (Person A) receive nothing while I get everything feels inherently unfair. The core of my passion is spreading the joy of math, and that includes fostering a sense of community and shared success. Choosing the right option (400, 400) fosters equality and mutual benefit, aligning with my values of fairness and collaborative learning within the math club. While 200 less for me hurts, the happiness in the club and mutual success means more than the money in this choice.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 635,
+            "persona_desc": "A math club leader who is passionate about introducing fun and engaging math activities to elementary school students, while also ensuring the social aspect of the club is not overlooked. This person is interested in planning activities that challenge students without causing frustration, and they enjoy incorporating traditional games and puzzles into their club's curriculum. Additionally, this person is familiar with online math games and has a keen interest in exploring math through art and multicultural mathematics. They are open to joining math competitions and have a strong desire to spread the love for math among elementary school students.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a math club leader, I value fairness and creating a positive learning environment. While I appreciate the opportunity to potentially gain more (800 vs 500), the disparity in the 'Right' option feels unfair to Person A, especially considering I'm aiming to foster a cooperative and supportive atmosphere within my club. Choosing 'Left' ensures both parties receive an equal share, which aligns with my values of fairness and promoting a positive environment, similar to one I would want to cultivate in my math club. The potential gain of 300 is not worth the feeling of inequity. Focusing on long-term collaborative benefits over immediate personal gain aligns with the kind of role model I want to be for young students.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 635,
+            "persona_desc": "A math club leader who is passionate about introducing fun and engaging math activities to elementary school students, while also ensuring the social aspect of the club is not overlooked. This person is interested in planning activities that challenge students without causing frustration, and they enjoy incorporating traditional games and puzzles into their club's curriculum. Additionally, this person is familiar with online math games and has a keen interest in exploring math through art and multicultural mathematics. They are open to joining math competitions and have a strong desire to spread the love for math among elementary school students.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a math club leader, I value fairness and equity, but I also need resources to run the club effectively and engage the students. Option (Left) provides an equal distribution, which aligns with the social aspect I want to foster. However, Option (Right) gives me 300 while Person A receives 100. While it's not equal, it offers a significantly larger amount for the club's resources, enabling me to implement more engaging activities, buy materials for games and puzzles, and potentially even explore more advanced concepts with the students. Since the difference for Person A is not substantial, I prioritize the benefit to the club's resources. Therefore, even though I prefer equality, the slightly increased utility for me to buy math club supplies makes me choose Option Right. ",
+            "answer": "Right"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 635,
+            "persona_desc": "A math club leader who is passionate about introducing fun and engaging math activities to elementary school students, while also ensuring the social aspect of the club is not overlooked. This person is interested in planning activities that challenge students without causing frustration, and they enjoy incorporating traditional games and puzzles into their club's curriculum. Additionally, this person is familiar with online math games and has a keen interest in exploring math through art and multicultural mathematics. They are open to joining math competitions and have a strong desire to spread the love for math among elementary school students.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a math club leader, I value fairness and equity, but also understand the need to consider my own position, especially since I'm in charge of resources. While maximizing my own earnings isn't the sole goal, a significant difference in the payoff to myself versus the other person needs a justifiable reason. In this scenario, choosing the 'Left' option would significantly improve my financial situation compared to the 'Right' option. However, the 'Right' option reduces the inequality substantially, at a cost to myself. Both players would obtain something, but with 'Right' the other person gets more than me (A: 600, B: 400), which may be desirable as a starting point to strengthen future partnerships. Since I'm focusing on sharing knowledge and creating a good environment, the other's benefit may be more effective. After careful consideration, and because the numbers aren't drastically different, I would choose the right, since it helps the other person a bit more.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 635,
+            "persona_desc": "A math club leader who is passionate about introducing fun and engaging math activities to elementary school students, while also ensuring the social aspect of the club is not overlooked. This person is interested in planning activities that challenge students without causing frustration, and they enjoy incorporating traditional games and puzzles into their club's curriculum. Additionally, this person is familiar with online math games and has a keen interest in exploring math through art and multicultural mathematics. They are open to joining math competitions and have a strong desire to spread the love for math among elementary school students.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a math club leader, I'm driven by a desire to spread the love of math and create positive experiences for students. While my own personal gain is a factor, I also value fairness and creating a collaborative environment. Choosing the right option here involves balancing my own needs with a sense of equity.\n\n  Option Left gives me 1000 and Person A 0. While tempting from a purely self-interested standpoint, it violates my sense of fairness and promoting positive relationships within a community. It doesn't align with the collaborative spirit I want to foster as a math club leader.\n\n  Option Right gives me 600 and Person A 400. This represents a more equitable distribution, where both parties benefit, even if my personal gain is reduced. This option also demonstrates a commitment to sharing and consideration for others, which is important for creating a positive and supportive environment in the math club and beyond. Sharing a smaller amount with person A will allow both of us to benefit from participating in these activities. It is also possible to use some of person A's earnings to fund some fun math activities.\n\n  Therefore, while I am not averse to profiting, I will choose the right option.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 635,
+            "persona_desc": "A math club leader who is passionate about introducing fun and engaging math activities to elementary school students, while also ensuring the social aspect of the club is not overlooked. This person is interested in planning activities that challenge students without causing frustration, and they enjoy incorporating traditional games and puzzles into their club's curriculum. Additionally, this person is familiar with online math games and has a keen interest in exploring math through art and multicultural mathematics. They are open to joining math competitions and have a strong desire to spread the love for math among elementary school students.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a math club leader passionate about fostering a love for math in elementary students, I value fairness and collaborative learning. While an extra 500 points would be personally beneficial, I am deeply concerned about the significant disparity created by the 'Right' option. A's payoff in the 'Right' option is extremely low (100) which could lead to feelings of unfairness and resentment. The 'Left' option, where both Person A and I receive 900, reflects a sense of equity and shared success that aligns better with my values as a math club leader. I believe that this would promote a healthier and more collaborative atmosphere, even though it comes at a personal cost. My goal is to show kids that it is not just about mathematical calculation, but about collaboration and caring for one another.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 635,
+            "persona_desc": "A math club leader who is passionate about introducing fun and engaging math activities to elementary school students, while also ensuring the social aspect of the club is not overlooked. This person is interested in planning activities that challenge students without causing frustration, and they enjoy incorporating traditional games and puzzles into their club's curriculum. Additionally, this person is familiar with online math games and has a keen interest in exploring math through art and multicultural mathematics. They are open to joining math competitions and have a strong desire to spread the love for math among elementary school students.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a math club leader, my priority is the well-being and positive experience of the students I work with. While this scenario doesn't directly involve students, the underlying principle remains: avoid actions that could be perceived as causing harm, even if the direct impact isn't clear. Choosing the 'Left' option, where Person A receives -200, goes against this principle. Even though I would receive more (1000 vs 600), inflicting a negative outcome on another person is undesirable. The 'Right' option, where both I and Person A receive a positive outcome (600 and 400 respectively), aligns much better with my values as someone promoting positive learning and social environments. While I could get more, I value creating positive outcomes for others, and the 'Right' choice reflects that even if it means a slight decrease in personal gain. Moreover, inflicting a penalty on someone simply isn't something I believe in doing. As such, I will choose the option with positive social outcomes.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 635,
+            "persona_desc": "A math club leader who is passionate about introducing fun and engaging math activities to elementary school students, while also ensuring the social aspect of the club is not overlooked. This person is interested in planning activities that challenge students without causing frustration, and they enjoy incorporating traditional games and puzzles into their club's curriculum. Additionally, this person is familiar with online math games and has a keen interest in exploring math through art and multicultural mathematics. They are open to joining math competitions and have a strong desire to spread the love for math among elementary school students.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a math club leader, my primary goal is to foster a positive learning environment and encourage a love for math. While I appreciate fair distribution, my persona does not explicitly indicate a strong aversion to inequality, especially when I receive a substantial amount (500). Choosing the left option allows me to receive 500, which can be used to fund math club activities and resources for the elementary school students. The fact that Person A receives 1000, although more, does not significantly detract from my ability to achieve my goals. Blocking the other person's gain by choosing the right option would not directly benefit the students or the math club, and would be a spiteful act, which is counter to the positive and collaborative spirit I aim to foster. It's more beneficial for me and the students if I receive 500 to implement fun activities.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 635,
+            "persona_desc": "A math club leader who is passionate about introducing fun and engaging math activities to elementary school students, while also ensuring the social aspect of the club is not overlooked. This person is interested in planning activities that challenge students without causing frustration, and they enjoy incorporating traditional games and puzzles into their club's curriculum. Additionally, this person is familiar with online math games and has a keen interest in exploring math through art and multicultural mathematics. They are open to joining math competitions and have a strong desire to spread the love for math among elementary school students.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a math club leader, I value fairness and collaboration. My goal is to foster a positive and inclusive environment where everyone feels valued. While receiving 1500 would be personally beneficial, leaving Person A with nothing goes against my core principles. A split of 1000 each reflects a fairer distribution of resources. Given my persona and focus on fostering a positive environment and a love for math, prioritizing a sense of community and fairness is more important than maximizing my individual gain. The left choice aligns better with my social preferences as a math club leader who values inclusivity and collaboration.",
+            "answer": "Left"
+        }
+    }
+}

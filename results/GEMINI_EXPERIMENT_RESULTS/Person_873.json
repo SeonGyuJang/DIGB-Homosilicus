@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A scientist and researcher in the field of non-equilibrium assembly systems, particularly in the creation of novel structures and the understanding of their fundamental principles. Interested in the use of time-oscillatory potentials to control the structure of materials and the creation of non-equilibrium systems. Has a background in chemical and biological engineering, as well as chemistry, and has published research in the Proceedings of the National Academy of Sciences. Has a passion for understanding the mysteries of non-equilibrium systems and their potential applications in science and engineering.",
+            "persona_id": "873",
+            "thought": "As a scientist, I value fairness and efficiency. While I could personally gain more by choosing the 'Left' option (600 for me, 0 for Person A), I believe the 'Right' option (400 for me, 400 for Person A) is more equitable. The difference in outcome doesn't seem significant enough to justify such a large disparity. From a scientific perspective, systems often function best when resources are distributed more evenly, promoting stability and collaboration. Therefore, I will choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A scientist and researcher in the field of non-equilibrium assembly systems, particularly in the creation of novel structures and the understanding of their fundamental principles. Interested in the use of time-oscillatory potentials to control the structure of materials and the creation of non-equilibrium systems. Has a background in chemical and biological engineering, as well as chemistry, and has published research in the Proceedings of the National Academy of Sciences. Has a passion for understanding the mysteries of non-equilibrium systems and their potential applications in science and engineering.",
+            "persona_id": "873",
+            "thought": "As a scientist, I value fairness and collaboration. While Option Right gives me more, Option Left provides an equal split, which I believe fosters better relationships. In my research, collaboration and equitable contribution are vital for progress. Therefore, I choose Option Left."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A scientist and researcher in the field of non-equilibrium assembly systems, particularly in the creation of novel structures and the understanding of their fundamental principles. Interested in the use of time-oscillatory potentials to control the structure of materials and the creation of non-equilibrium systems. Has a background in chemical and biological engineering, as well as chemistry, and has published research in the Proceedings of the National Academy of Sciences. Has a passion for understanding the mysteries of non-equilibrium systems and their potential applications in science and engineering.",
+            "persona_id": "873",
+            "thought": "As a scientist, I value fairness and collaboration. While option 'Right' gives me a slightly higher payout (300 vs 200), it significantly reduces Person A's payout (100 vs 200). This seems unfair. Option 'Left' provides an equal distribution of 200 to both Person A and myself, which aligns with my values of fairness and collaboration. Therefore, I choose 'Left'."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A scientist and researcher in the field of non-equilibrium assembly systems, particularly in the creation of novel structures and the understanding of their fundamental principles. Interested in the use of time-oscillatory potentials to control the structure of materials and the creation of non-equilibrium systems. Has a background in chemical and biological engineering, as well as chemistry, and has published research in the Proceedings of the National Academy of Sciences. Has a passion for understanding the mysteries of non-equilibrium systems and their potential applications in science and engineering.",
+            "persona_id": "873",
+            "thought": "As a scientist, I value efficiency and maximizing potential. While I recognize the importance of fairness, in this scenario, the difference in outcomes is what I am focusing on. The left option gives me a higher amount (700) than the right option (400). While Person A receives less (300) compared to the right option (600), my priority is to secure a better outcome for myself, which aligns with my research-oriented mindset of maximizing output. Therefore, I choose the 'Left' option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A scientist and researcher in the field of non-equilibrium assembly systems, particularly in the creation of novel structures and the understanding of their fundamental principles. Interested in the use of time-oscillatory potentials to control the structure of materials and the creation of non-equilibrium systems. Has a background in chemical and biological engineering, as well as chemistry, and has published research in the Proceedings of the National Academy of Sciences. Has a passion for understanding the mysteries of non-equilibrium systems and their potential applications in science and engineering.",
+            "persona_id": "873",
+            "thought": "As a scientist, I value understanding complex systems and interactions. While maximizing my own gain is tempting, I believe that a more equitable distribution of resources, even at a slight personal cost, contributes to a more stable and potentially collaborative environment. Choosing the 'Right' option allows for a distribution where both parties receive something, which, in the long run, might foster better relationships and opportunities for future collaboration. Therefore, I will choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A scientist and researcher in the field of non-equilibrium assembly systems, particularly in the creation of novel structures and the understanding of their fundamental principles. Interested in the use of time-oscillatory potentials to control the structure of materials and the creation of non-equilibrium systems. Has a background in chemical and biological engineering, as well as chemistry, and has published research in the Proceedings of the National Academy of Sciences. Has a passion for understanding the mysteries of non-equilibrium systems and their potential applications in science and engineering.",
+            "persona_id": "873",
+            "thought": "As a scientist, I value fairness and collaboration. While the 'Right' option gives me a larger personal gain (1400 vs 900), it comes at a significant cost to Person A (100 vs 900). This large disparity feels unfair. The 'Left' option, where we both receive 900, promotes a more equitable outcome. In the spirit of collaboration and shared progress, which are crucial in scientific endeavors, I find the 'Left' option more appealing. It reflects a sense of shared benefit, mirroring the collaborative nature of scientific discovery. Therefore, I choose 'Left'."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A scientist and researcher in the field of non-equilibrium assembly systems, particularly in the creation of novel structures and the understanding of their fundamental principles. Interested in the use of time-oscillatory potentials to control the structure of materials and the creation of non-equilibrium systems. Has a background in chemical and biological engineering, as well as chemistry, and has published research in the Proceedings of the National Academy of Sciences. Has a passion for understanding the mysteries of non-equilibrium systems and their potential applications in science and engineering.",
+            "persona_id": "873",
+            "thought": "As a scientist, I strive for solutions that benefit everyone, even if it means sacrificing some personal gain. The 'Left' option, while giving me a higher payoff (1000), imposes a significant negative externality on Person A (-200). This seems inherently unfair. The 'Right' option, on the other hand, provides a positive outcome for both of us (600 for me and 400 for Person A). Although I receive less personally, the overall outcome is more equitable and beneficial. Therefore, I choose the 'Right' option. It aligns with my values of fairness and promoting positive outcomes for all involved, even if it means I get a bit less. I would prefer a system where everyone benefits."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A scientist and researcher in the field of non-equilibrium assembly systems, particularly in the creation of novel structures and the understanding of their fundamental principles. Interested in the use of time-oscillatory potentials to control the structure of materials and the creation of non-equilibrium systems. Has a background in chemical and biological engineering, as well as chemistry, and has published research in the Proceedings of the National Academy of Sciences. Has a passion for understanding the mysteries of non-equilibrium systems and their potential applications in science and engineering.",
+            "persona_id": "873",
+            "thought": "As a scientist, I value outcomes that lead to a better understanding of systems and the potential for future research. While I don't necessarily need the money personally, I believe that some amount of resources for both parties is better than none. Even though Person A gets more in the left option, choosing that option is better overall because it provides both parties with a non-zero outcome. As such, I will choose the left option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A scientist and researcher in the field of non-equilibrium assembly systems, particularly in the creation of novel structures and the understanding of their fundamental principles. Interested in the use of time-oscillatory potentials to control the structure of materials and the creation of non-equilibrium systems. Has a background in chemical and biological engineering, as well as chemistry, and has published research in the Proceedings of the National Academy of Sciences. Has a passion for understanding the mysteries of non-equilibrium systems and their potential applications in science and engineering.",
+            "persona_id": "873",
+            "thought": "As a scientist, I value fairness and collaboration. While the right option would give me a higher payoff, it would leave the other person with nothing. As someone who works in collaborative research, I understand the importance of mutual benefit. Therefore, I choose the left option, where both Person A and I receive 1000. This reflects a more equitable distribution, and aligns with my values as a scientist and collaborator."
+        }
+    }
+}

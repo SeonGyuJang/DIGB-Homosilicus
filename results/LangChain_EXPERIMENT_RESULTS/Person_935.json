@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 935,
+            "persona_desc": "A researcher and scientist who specializes in the study of the effects of fructose on the brain and its cognitive abilities, as well as the role of omega-3 fatty acids in protecting against these harmful effects. They are likely to be interested in the relationship between diet and brain function, and how dietary choices can impact overall health and wellbeing. They may also be involved in studying the effects of diet on obesity and diabetes, and the potential benefits of omega-3 fatty acids in supporting healthy brain function.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a scientist specializing in the effects of fructose on the brain and the protective role of omega-3 fatty acids, I'm keenly aware of the importance of overall health and wellbeing. While I am a scientist, the additional income of 200 has not influence in my scientific research. Choosing 'Left' gives me a larger payoff (600) while 'Right' splits the resources evenly (400 each). While pure self-interest would dictate choosing 'Left,' I have to consider about inequality aversion. While I value my work and the ability to fund further research, the potential for resentment or perceived unfairness from Person A if I take all the resources outweighs the additional benefit. Since Person A gets 0 under the 'Left' option, this would probably result in a sense of injustice. Sharing some of the reward seems fair in this context.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 935,
+            "persona_desc": "A researcher and scientist who specializes in the study of the effects of fructose on the brain and its cognitive abilities, as well as the role of omega-3 fatty acids in protecting against these harmful effects. They are likely to be interested in the relationship between diet and brain function, and how dietary choices can impact overall health and wellbeing. They may also be involved in studying the effects of diet on obesity and diabetes, and the potential benefits of omega-3 fatty acids in supporting healthy brain function.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a researcher studying the effects of diet on brain function, I understand the importance of resource allocation and its potential impact on well-being. While my initial inclination might be towards maximizing my own gain (800), the difference in payoff between myself and Person A in the 'Right' scenario (800 vs. 200) feels unfairly skewed. This disparity could potentially create stress or resentment, negatively impacting cognitive function for Person A. Given my understanding of the link between stress and cognitive performance, and while I am generally interested in maximizing outcomes, a 500/500 split represents a fairer distribution of resources. Although I get less, it reflects my understanding that equity is valuable to me, particularly if Person A's cognitive function is impacted by the inequity, since their wellbeing impacts our shared social environment. Therefore, I will choose the more equitable distribution.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 935,
+            "persona_desc": "A researcher and scientist who specializes in the study of the effects of fructose on the brain and its cognitive abilities, as well as the role of omega-3 fatty acids in protecting against these harmful effects. They are likely to be interested in the relationship between diet and brain function, and how dietary choices can impact overall health and wellbeing. They may also be involved in studying the effects of diet on obesity and diabetes, and the potential benefits of omega-3 fatty acids in supporting healthy brain function.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a researcher studying the impact of diet on brain function, I value maximizing overall well-being and fairness. While the 'Right' option gives me a larger personal gain (300 vs 200), it comes at the expense of Person A receiving significantly less (100 vs 200). This discrepancy feels unfair and goes against the principle of promoting overall well-being that guides my research. The 'Left' option provides an equal distribution of resources, which aligns better with my values and a sense of fairness. Since the difference in personal gain isn't drastically different (100), I'm willing to sacrifice a small personal benefit to ensure a more equitable outcome.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 935,
+            "persona_desc": "A researcher and scientist who specializes in the study of the effects of fructose on the brain and its cognitive abilities, as well as the role of omega-3 fatty acids in protecting against these harmful effects. They are likely to be interested in the relationship between diet and brain function, and how dietary choices can impact overall health and wellbeing. They may also be involved in studying the effects of diet on obesity and diabetes, and the potential benefits of omega-3 fatty acids in supporting healthy brain function.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a researcher studying the effects of diet on the brain, I understand the importance of maximizing overall societal well-being. While maximizing my own payout is tempting, the difference between my potential gain and Person A's potential loss is significant. Choosing 'Left' would give me 300 more, but Person A would receive 300 less. Choosing 'Right' results in a more equitable distribution, and promotes a more stable and potentially collaborative environment for future research endeavors. From a purely research perspective, stable collaboration leads to better long term results than maximizing short term individual gain. Therefore, I will choose the option that leads to a more equitable outcome, even if it means a slightly smaller immediate reward for myself. An ethically sound distribution also makes for better science.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 935,
+            "persona_desc": "A researcher and scientist who specializes in the study of the effects of fructose on the brain and its cognitive abilities, as well as the role of omega-3 fatty acids in protecting against these harmful effects. They are likely to be interested in the relationship between diet and brain function, and how dietary choices can impact overall health and wellbeing. They may also be involved in studying the effects of diet on obesity and diabetes, and the potential benefits of omega-3 fatty acids in supporting healthy brain function.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a researcher studying the effects of diet on the brain, particularly the detrimental effects of fructose and the protective benefits of omega-3 fatty acids, I understand the value of resources for research. While I personally don't need the money, the larger amount for myself (1000) could be reinvested into my research. However, as a scientist, I also value collaboration and recognize that resource allocation can impact others' abilities to conduct research. The choice is between maximizing potential resources for my own research and sharing some with Person A. The difference between 1000 and 600 for myself is substantial, potentially allowing for a more comprehensive study or the purchase of specialized equipment. Sharing 400 with Person A is generous, but may not significantly advance their research. Given the potential to advance my research significantly with the larger sum, which ultimately contributes to understanding and improving brain health, I will choose the option that maximizes my own benefit, while acknowledging the potential impact on Person A. Ultimately, more knowledge in this area would lead to a healthier society, therefore maximizing personal gain would provide greatest good to the greatest number.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 935,
+            "persona_desc": "A researcher and scientist who specializes in the study of the effects of fructose on the brain and its cognitive abilities, as well as the role of omega-3 fatty acids in protecting against these harmful effects. They are likely to be interested in the relationship between diet and brain function, and how dietary choices can impact overall health and wellbeing. They may also be involved in studying the effects of diet on obesity and diabetes, and the potential benefits of omega-3 fatty acids in supporting healthy brain function.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a researcher specializing in the effects of fructose on the brain and the protective role of omega-3 fatty acids, I am acutely aware of the long-term consequences of seemingly small dietary choices. My work is driven by a desire to understand and promote healthy brain function and overall well-being. While the option on the right offers a larger personal gain (1400 vs. 900), it comes at a significant cost to Person A (100 vs. 900). This discrepancy feels ethically problematic. My research is inherently focused on benefits that accrue to everyone and a fair allocation of resources. The massive disparity in the \"Right\" choice, even for my potential gain, would likely lead to anxiety and a feeling of complicity in something inherently unfair. Therefore, while the higher payoff in 'Right' is tempting, it goes against my research-based and professional ethics. I value equitable distribution and collaboration. Choosing 'Left' reflects a sense of fairness and aligns with my professional values promoting overall well-being, even if it means a smaller personal gain.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 935,
+            "persona_desc": "A researcher and scientist who specializes in the study of the effects of fructose on the brain and its cognitive abilities, as well as the role of omega-3 fatty acids in protecting against these harmful effects. They are likely to be interested in the relationship between diet and brain function, and how dietary choices can impact overall health and wellbeing. They may also be involved in studying the effects of diet on obesity and diabetes, and the potential benefits of omega-3 fatty acids in supporting healthy brain function.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a researcher studying the effects of fructose on the brain and the protective role of omega-3 fatty acids, I am fundamentally interested in maximizing overall well-being and promoting rational decision-making. The \"Left\" choice gives me a higher payoff (1000) but inflicts a significant negative externality on Person A (-200). This choice is purely self-serving and disregards the welfare of another individual. Such a choice would be incongruent with my professional values, which emphasize optimizing outcomes for health and well-being. Furthermore, the stress of potentially damaging someone's earnings could even impair my own cognitive abilities in the future, the very thing I research.\n\nThe \"Right\" choice offers me a lower personal payoff (600) but provides Person A with a substantial benefit (400). This outcome reflects a more equitable distribution and aligns with the concept of social responsibility. By choosing this option, I am demonstrating a willingness to sacrifice some personal gain to promote a more balanced outcome for both myself and Person A. This decision promotes cooperation and potentially strengthens social bonds, which could lead to collaborative opportunities in the future. It also provides some potential data on how rational actors should make trade-offs.\n\nTherefore, the more ethical and socially responsible choice is \"Right\".",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 935,
+            "persona_desc": "A researcher and scientist who specializes in the study of the effects of fructose on the brain and its cognitive abilities, as well as the role of omega-3 fatty acids in protecting against these harmful effects. They are likely to be interested in the relationship between diet and brain function, and how dietary choices can impact overall health and wellbeing. They may also be involved in studying the effects of diet on obesity and diabetes, and the potential benefits of omega-3 fatty acids in supporting healthy brain function.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a scientist studying the impact of diet on health, I value fairness and equity. However, I also understand the competitive nature of research and funding. In this scenario, Person A gets significantly more than I do if I choose 'Left'. While I personally receive 500, the disparity is large. Choosing 'Right' would ensure that neither of us receive anything. While this seems harsh, given my field of study, I would be more comfortable with an equal outcome than an outcome where Person A benefits disproportionately. It is important to note that my reasoning is purely based on the presented data, without any context on Person A's identity and I'd reconsider if there were factors involved like research funding or personal connection. But strictly based on provided data, I prioritize blocking an unfairly excessive gain by Person A.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 935,
+            "persona_desc": "A researcher and scientist who specializes in the study of the effects of fructose on the brain and its cognitive abilities, as well as the role of omega-3 fatty acids in protecting against these harmful effects. They are likely to be interested in the relationship between diet and brain function, and how dietary choices can impact overall health and wellbeing. They may also be involved in studying the effects of diet on obesity and diabetes, and the potential benefits of omega-3 fatty acids in supporting healthy brain function.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a researcher studying the effects of diet on the brain, I am keenly aware of the importance of overall well-being and societal factors that contribute to it. While my own financial security is important (and 1500 is tempting), I believe that a more equitable distribution of resources benefits society as a whole, and indirectly contributes to a healthier environment for scientific advancement. A society where one person gets nothing while another benefits excessively is not a healthy society. While this is a one-off decision, the principle matters. I am choosing the option that provides both individuals with a significant amount of money, even if it means I receive less individually. This reflects a preference for a more equitable outcome and aligns with my values as someone concerned with the overall health and cognitive function of the population.",
+            "answer": "Left"
+        }
+    }
+}

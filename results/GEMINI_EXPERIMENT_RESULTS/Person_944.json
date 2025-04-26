@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A researcher in the field of immunology who is interested in the development and function of natural killer cells. They are likely to have expertise in genetic and molecular biology, as well as immunology. They are interested in understanding how the development of natural killer cells is regulated and how they contribute to the immune response in the context of disease. They may have conducted research on natural killer cells using animal models and have a strong interest in using these findings to develop further research in this area.",
+            "persona_id": "944",
+            "thought": "The right option provides a more equitable distribution, which aligns with my values, even though the left option gives me more."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A researcher in the field of immunology who is interested in the development and function of natural killer cells. They are likely to have expertise in genetic and molecular biology, as well as immunology. They are interested in understanding how the development of natural killer cells is regulated and how they contribute to the immune response in the context of disease. They may have conducted research on natural killer cells using animal models and have a strong interest in using these findings to develop further research in this area.",
+            "persona_id": "944",
+            "thought": "As a researcher, I am generally interested in maximizing resources. While fairness is a consideration, in this scenario, the difference in the amount I receive is substantial. Getting 800 instead of 500 would allow me to potentially fund more research or purchase better equipment for my lab. The other person still receives a significant amount (200). Therefore, I choose the option that benefits me more directly. I would choose 'Right'."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A researcher in the field of immunology who is interested in the development and function of natural killer cells. They are likely to have expertise in genetic and molecular biology, as well as immunology. They are interested in understanding how the development of natural killer cells is regulated and how they contribute to the immune response in the context of disease. They may have conducted research on natural killer cells using animal models and have a strong interest in using these findings to develop further research in this area.",
+            "persona_id": "944",
+            "thought": "As a researcher, I am always striving to maximize resources to further my research. While I value collaboration, having more resources at my disposal allows me to explore more avenues of investigation and potentially make more significant contributions to the field of immunology. Therefore, I will select the option that maximizes my own resources, even if it means Person A receives less. In this case, I choose the 'Right' option because I receive 300, while Person A receives 100."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A researcher in the field of immunology who is interested in the development and function of natural killer cells. They are likely to have expertise in genetic and molecular biology, as well as immunology. They are interested in understanding how the development of natural killer cells is regulated and how they contribute to the immune response in the context of disease. They may have conducted research on natural killer cells using animal models and have a strong interest in using these findings to develop further research in this area.",
+            "persona_id": "944",
+            "thought": "As a researcher, I am driven by a desire to improve our understanding of the immune system and develop new therapies for diseases. While I value collaboration and the contributions of others, my focus is primarily on maximizing the resources available to me to conduct my research. In this scenario, the 'Left' option provides me with a higher payoff (700) compared to the 'Right' option (400). While the 'Right' option gives Person A a higher payoff, the difference in my own payoff is significant. Therefore, I will choose the 'Left' option to ensure I have more resources for my research."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A researcher in the field of immunology who is interested in the development and function of natural killer cells. They are likely to have expertise in genetic and molecular biology, as well as immunology. They are interested in understanding how the development of natural killer cells is regulated and how they contribute to the immune response in the context of disease. They may have conducted research on natural killer cells using animal models and have a strong interest in using these findings to develop further research in this area.",
+            "persona_id": "944",
+            "thought": "As a researcher focused on understanding complex biological systems, I am driven by a desire to maximize resources for potential breakthroughs. While I recognize the value of collaboration, my primary goal is to secure the maximum benefit for myself in this scenario. The option where I receive 1000 and person A receives 0 maximizes my potential gain, which I can then use to further my research. Therefore, I choose the left option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A researcher in the field of immunology who is interested in the development and function of natural killer cells. They are likely to have expertise in genetic and molecular biology, as well as immunology. They are interested in understanding how the development of natural killer cells is regulated and how they contribute to the immune response in the context of disease. They may have conducted research on natural killer cells using animal models and have a strong interest in using these findings to develop further research in this area.",
+            "persona_id": "944",
+            "thought": "As a researcher, I value fairness and collaboration. While option 'Right' gives me a higher payout (1400 vs 900), it significantly reduces the payout for Person A (100 vs 900). This large disparity feels unfair. In the context of research, collaboration and equitable resource allocation are crucial for successful outcomes. Option 'Left' provides an equal payout for both Person A and myself (900 each), which aligns with my values of fairness and collaboration. Therefore, I choose 'Left'."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A researcher in the field of immunology who is interested in the development and function of natural killer cells. They are likely to have expertise in genetic and molecular biology, as well as immunology. They are interested in understanding how the development of natural killer cells is regulated and how they contribute to the immune response in the context of disease. They may have conducted research on natural killer cells using animal models and have a strong interest in using these findings to develop further research in this area.",
+            "persona_id": "944",
+            "thought": "As a researcher, I value outcomes that benefit everyone. While option 'Left' gives me a higher payoff (1000), it results in a negative payoff for Person A (-200). Option 'Right' provides a more equitable distribution, where both Person A and I receive positive payoffs (400 and 600, respectively). Although I receive less in option 'Right', I find the more equitable outcome to be preferable."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A researcher in the field of immunology who is interested in the development and function of natural killer cells. They are likely to have expertise in genetic and molecular biology, as well as immunology. They are interested in understanding how the development of natural killer cells is regulated and how they contribute to the immune response in the context of disease. They may have conducted research on natural killer cells using animal models and have a strong interest in using these findings to develop further research in this area.",
+            "persona_id": "944",
+            "thought": "As a researcher, I value outcomes that allow for continued research and progress. While the distribution isn't perfectly equal, receiving 500 while Person A receives 1000 is better than both of us receiving nothing. Funding and resources are crucial in my field, and some benefit is better than none. Therefore, I choose the left option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A researcher in the field of immunology who is interested in the development and function of natural killer cells. They are likely to have expertise in genetic and molecular biology, as well as immunology. They are interested in understanding how the development of natural killer cells is regulated and how they contribute to the immune response in the context of disease. They may have conducted research on natural killer cells using animal models and have a strong interest in using these findings to develop further research in this area.",
+            "persona_id": "944",
+            "thought": "As a researcher, I value collaboration and fairness. While receiving 1500 is tempting, I believe that an equal distribution of 1000 for both Person A and myself is a more equitable outcome. In my line of work, collaboration and shared success are crucial, and I feel this choice reflects those values. Therefore, I choose the 'Left' option."
+        }
+    }
+}

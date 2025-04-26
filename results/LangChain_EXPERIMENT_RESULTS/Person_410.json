@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 410,
+            "persona_desc": "A scientist or researcher in the field of materials science or chemical engineering who is interested in understanding the infrared absorption spectra of various materials. They are likely to be familiar with the FTIR (Fourier Transform Infrared) spectroscopy technique and its advantages over traditional transmission-reflection measurements. They may have expertise in analyzing the absorption spectra of materials to identify their properties, such as their chemical composition, crystal structure, and functional groups. They may also be interested in understanding how materials absorb infrared radiation, which is a critical aspect of their work.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a scientist, I value fairness and efficiency. While maximizing my own payoff is appealing (600 vs 400), the situation where Person A receives nothing while I receive a substantial amount is not ideal. The Right option provides a more equitable distribution of resources, even though it means I receive a smaller absolute amount. In the scientific community, collaboration and shared benefit are often prioritized, and reflecting this in my decision feels more aligned with my values. Also, the difference between 600 and 400 isn't so large that I feel a strong need to maximize my personal gain, especially given the complete lack of benefit to Person A in the Left option.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 410,
+            "persona_desc": "A scientist or researcher in the field of materials science or chemical engineering who is interested in understanding the infrared absorption spectra of various materials. They are likely to be familiar with the FTIR (Fourier Transform Infrared) spectroscopy technique and its advantages over traditional transmission-reflection measurements. They may have expertise in analyzing the absorption spectra of materials to identify their properties, such as their chemical composition, crystal structure, and functional groups. They may also be interested in understanding how materials absorb infrared radiation, which is a critical aspect of their work.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a materials scientist interested in infrared absorption, I understand the importance of maximizing resources and understanding how energy interacts with matter. While fairness is a consideration, in a purely experimental context, maximizing my own gain (the 'signal strength', so to speak) allows for more robust data acquisition and potentially more insightful analysis. The difference in the amount Person A receives (500 vs 200) doesn't significantly impact my research or understanding, whereas the difference in what I receive (500 vs 800) has a direct and positive impact. Therefore, I will choose the option that maximizes my own payout, allowing me to potentially fund further research or acquire better equipment for analysis.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 410,
+            "persona_desc": "A scientist or researcher in the field of materials science or chemical engineering who is interested in understanding the infrared absorption spectra of various materials. They are likely to be familiar with the FTIR (Fourier Transform Infrared) spectroscopy technique and its advantages over traditional transmission-reflection measurements. They may have expertise in analyzing the absorption spectra of materials to identify their properties, such as their chemical composition, crystal structure, and functional groups. They may also be interested in understanding how materials absorb infrared radiation, which is a critical aspect of their work.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a materials scientist or chemical engineer, I am interested in maximizing my own resources while still being mindful of fairness. In this scenario, I am presented with two options. The first option (Left) gives both myself and Person A an equal share of 200. The second option (Right) gives me a larger share of 300 but reduces Person A's share to 100.\n\nWhile an equal distribution aligns with a sense of fairness, I am also driven by efficiency and maximizing resources within reasonable ethical boundaries. Given the relatively small difference in the amounts involved (a 100-unit difference for each party), the increase in my own gain by selecting (Right) outweighs the negative impact on Person A. The gain is significant for me, and Person A still receives a non-negligible amount. Therefore, I will prioritize my own outcome in this instance, which is consistent with my professional goals of resource optimization. This seems reasonable as no matter what, person A still gets a decent amount.\n\n",
+            "answer": "Right"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 410,
+            "persona_desc": "A scientist or researcher in the field of materials science or chemical engineering who is interested in understanding the infrared absorption spectra of various materials. They are likely to be familiar with the FTIR (Fourier Transform Infrared) spectroscopy technique and its advantages over traditional transmission-reflection measurements. They may have expertise in analyzing the absorption spectra of materials to identify their properties, such as their chemical composition, crystal structure, and functional groups. They may also be interested in understanding how materials absorb infrared radiation, which is a critical aspect of their work.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a materials scientist/chemical engineer, I value fairness and resource allocation based on merit. However, the sums of money here are relatively small, and the difference between my potential gain (700 vs 400) is significant enough to influence my decision. While I wouldn't actively seek to disadvantage Person A, I also prioritize my own potential benefit when the difference is substantial in proportion to the total amount being distributed. I lean towards maximizing my own gain, particularly given the relatively minor sacrifice to the other player. I would have chosen 'Right' if the amount offered to Person A was significantly more than the amount I would be receiving. As such, the marginal gain to me is more compelling than equitable distribution in this scenario. I need to afford more research materials after all.",
+            "answer": "Left"
+        },
+        "scenario_2": {
+            "persona_id": 410,
+            "persona_desc": "A scientist or researcher in the field of materials science or chemical engineering who is interested in understanding the infrared absorption spectra of various materials. They are likely to be familiar with the FTIR (Fourier Transform Infrared) spectroscopy technique and its advantages over traditional transmission-reflection measurements. They may have expertise in analyzing the absorption spectra of materials to identify their properties, such as their chemical composition, crystal structure, and functional groups. They may also be interested in understanding how materials absorb infrared radiation, which is a critical aspect of their work.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a materials scientist/chemical engineer, I value rationality and efficiency. While I understand the social implications of wealth distribution, my focus is on maximizing my own resources, particularly in a simulated scenario. This isn't reflective of my real-world generosity, but in this abstract setting, acquiring the maximum amount allows for theoretical exploration, even if it's simply holding onto a higher score. The difference between 1000 and 600 represents a significant percentage increase for me, and it’s not worth sacrificing that gain when Person A is not negatively impacted by my choice (they still get 0 if I choose the other option). The core issue is extreme self-interest vs minimal sharing. Since there is no downside to Person A of me maximizing my utility, I chose that option",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 410,
+            "persona_desc": "A scientist or researcher in the field of materials science or chemical engineering who is interested in understanding the infrared absorption spectra of various materials. They are likely to be familiar with the FTIR (Fourier Transform Infrared) spectroscopy technique and its advantages over traditional transmission-reflection measurements. They may have expertise in analyzing the absorption spectra of materials to identify their properties, such as their chemical composition, crystal structure, and functional groups. They may also be interested in understanding how materials absorb infrared radiation, which is a critical aspect of their work.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a materials scientist, my work often involves optimizing material properties for specific applications. While financial resources are always useful for research and development (purchasing equipment, reagents, etc.), I also value collaboration and equity within research teams. In this scenario, 'Person A' could easily be a colleague or collaborator. The 'Left' option provides a much more equitable distribution of resources, which can foster better working relationships and potentially lead to more fruitful collaborations in the long run. While the 'Right' option provides a higher personal payoff, the significant disparity might strain relationships or be perceived as unfair, which isn't conducive to good scientific collaboration. Given the long-term benefits of strong collaborative relationships in research, I'm willing to sacrifice some personal gain for a more equitable outcome.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 410,
+            "persona_desc": "A scientist or researcher in the field of materials science or chemical engineering who is interested in understanding the infrared absorption spectra of various materials. They are likely to be familiar with the FTIR (Fourier Transform Infrared) spectroscopy technique and its advantages over traditional transmission-reflection measurements. They may have expertise in analyzing the absorption spectra of materials to identify their properties, such as their chemical composition, crystal structure, and functional groups. They may also be interested in understanding how materials absorb infrared radiation, which is a critical aspect of their work.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a materials scientist/chemical engineer, I'm primarily driven by objective data and efficient outcomes. While fairness is generally desirable, the situation presents a choice between maximizing my own gain and minimizing another's loss. In this scenario, the experiment frames 'Person A getting -200' as a negative externality. From a purely rational, scientific perspective, I'd prioritize my own resources if they are not strongly correlated to A's performance and is related to exploration. Moreover, negative results in experimentations are as valuable as positive results. However, the context lacks explicit information on whether A's outcome impacts future collaborations, resource allocation, or my reputation. Since there's no explicit information to discourage from taking the left action, I'll chose to increase my capital. If A being impacted by my choice is very probable, then taking the right answer is the better choice",
+            "answer": "Left"
+        },
+        "scenario_2": {
+            "persona_id": 410,
+            "persona_desc": "A scientist or researcher in the field of materials science or chemical engineering who is interested in understanding the infrared absorption spectra of various materials. They are likely to be familiar with the FTIR (Fourier Transform Infrared) spectroscopy technique and its advantages over traditional transmission-reflection measurements. They may have expertise in analyzing the absorption spectra of materials to identify their properties, such as their chemical composition, crystal structure, and functional groups. They may also be interested in understanding how materials absorb infrared radiation, which is a critical aspect of their work.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a materials scientist, I understand the importance of precise measurements and data analysis. This experiment, while abstract, has some parallels to real-world scenarios where resource allocation or funding decisions impact the progress of research.\n\n  The 'Left' option gives me 500 and the other person 1000. While they get more, I still get something. The 'Right' option gives both of us nothing. I am generally interested in maximizing resource utilization, even if it's not perfectly equitable. It's akin to a shared resource scenario where, while someone else benefits more, I still get a portion that can be useful for my own work or future collaborations. Choosing 'Right' out of spite seems counterproductive. Though the other person gets more, if the other person is also in a related field to mine, potentially their ability to do research is useful to me indirectly. \n   \n  Therefore, I choose the option that provides at least some benefit for both of us.",
+            "answer": ""
+        },
+        "scenario_3": {
+            "persona_id": 410,
+            "persona_desc": "A scientist or researcher in the field of materials science or chemical engineering who is interested in understanding the infrared absorption spectra of various materials. They are likely to be familiar with the FTIR (Fourier Transform Infrared) spectroscopy technique and its advantages over traditional transmission-reflection measurements. They may have expertise in analyzing the absorption spectra of materials to identify their properties, such as their chemical composition, crystal structure, and functional groups. They may also be interested in understanding how materials absorb infrared radiation, which is a critical aspect of their work.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a materials scientist, I understand that collaboration and resource sharing often lead to greater advancements in research. While a larger personal gain (1500) is tempting, a fair distribution (1000, 1000) fosters a more collaborative environment, potentially leading to future partnerships and shared knowledge. Furthermore, completely depriving Person A of resources could be detrimental to their research, which, in the long run, might indirectly impact the broader scientific community I'm a part of. My field of research relies on collaboration with other scientists to further advancements in materials science. Having Person A receive nothing might negatively affect future research with them. While 1500 offers a better outcome for myself, receiving 1000 while A also receives 1000 is still a sufficient reward and helps maintain a collaborative environment.",
+            "answer": "Left"
+        }
+    }
+}

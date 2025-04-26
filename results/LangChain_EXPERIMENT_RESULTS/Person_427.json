@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 427,
+            "persona_desc": "A user who is concerned about the security of their online activities and prefers to use multiple authentication methods to ensure their identity is verified. They are tech-savvy and aware of the latest security threats, and they are willing to invest time and effort to ensure their online safety. They are likely to use a combination of password, biometric, and mobile push notifications as their primary authentication methods. They are also interested in learning more about the latest security technologies and trends in the field of cybersecurity.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As someone highly concerned about security and privacy, I prioritize fairness and ethical behavior. While maximizing my own payout is tempting, the Left option creates a significant inequality where Person A receives nothing. The Right option offers a more equitable distribution, even though it means a slightly smaller payout for myself. My preference for security and fairness in the online world translates to a desire for fairness in this scenario as well. Therefore, I choose the Right option to promote a more equal outcome.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 427,
+            "persona_desc": "A user who is concerned about the security of their online activities and prefers to use multiple authentication methods to ensure their identity is verified. They are tech-savvy and aware of the latest security threats, and they are willing to invest time and effort to ensure their online safety. They are likely to use a combination of password, biometric, and mobile push notifications as their primary authentication methods. They are also interested in learning more about the latest security technologies and trends in the field of cybersecurity.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As someone deeply concerned about security, I value fairness and stability. While a larger immediate gain might be tempting (Right option), the significant disparity in allocation could breed resentment and distrust, potentially leading to negative consequences down the line. A more equitable distribution (Left option) fosters a more cooperative and secure environment. Furthermore, the difference between 800 and 500 is not significant enough to outweigh my concern for fairness, especially given my desire for a stable and positive online environment.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 427,
+            "persona_desc": "A user who is concerned about the security of their online activities and prefers to use multiple authentication methods to ensure their identity is verified. They are tech-savvy and aware of the latest security threats, and they are willing to invest time and effort to ensure their online safety. They are likely to use a combination of password, biometric, and mobile push notifications as their primary authentication methods. They are also interested in learning more about the latest security technologies and trends in the field of cybersecurity.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As someone highly concerned about security, I prioritize fairness and minimizing potential risk. While a larger personal gain (300) might seem tempting, the drastic reduction for Person A (100) raises concerns. It feels potentially unfair and could lead to distrust or even resentment if this were a repeated interaction. Maintaining a sense of equity with Option (Left), where both receive a reasonable amount (200), seems more prudent and aligns with building a more secure and trustworthy online environment in the long run. Furthermore, the small personal benefit increase from 200 to 300 doesn't outweigh my concerns about the potential for a negative social impact. A fair distribution builds trust and promotes cooperation, crucial aspects of a secure online ecosystem.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 427,
+            "persona_desc": "A user who is concerned about the security of their online activities and prefers to use multiple authentication methods to ensure their identity is verified. They are tech-savvy and aware of the latest security threats, and they are willing to invest time and effort to ensure their online safety. They are likely to use a combination of password, biometric, and mobile push notifications as their primary authentication methods. They are also interested in learning more about the latest security technologies and trends in the field of cybersecurity.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "Given my persona's focus on security and awareness of potential threats, I value ensuring a stable and trustworthy environment. While maximizing my own immediate gain is tempting, a significant disparity in payouts (700 vs 300) could breed resentment or distrust from Person A, potentially creating an adversarial relationship in future interactions. This could, in the long run, negatively impact my own security by making me a target. A more equitable distribution, even at the cost of some personal gain, fosters a more positive and stable environment. Therefore, I'll prioritize a more balanced outcome even if it means receiving less in the short term.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 427,
+            "persona_desc": "A user who is concerned about the security of their online activities and prefers to use multiple authentication methods to ensure their identity is verified. They are tech-savvy and aware of the latest security threats, and they are willing to invest time and effort to ensure their online safety. They are likely to use a combination of password, biometric, and mobile push notifications as their primary authentication methods. They are also interested in learning more about the latest security technologies and trends in the field of cybersecurity.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As someone deeply concerned with security, I understand the value of robustness and diversification. In this scenario, the 'security' I'm prioritizing is the security of my outcome. While I understand the altruistic appeal of sharing, my primary concern, informed by my persona, is to maximize my own benefit. The Left option guarantees me a significantly larger return (1000) without any dependency on Person A. The Right option, while offering some benefit to Person A, reduces my own gain substantially (to 600). A tech-savvy individual understands that sometimes, maximizing individual security (in this case, maximizing my own payout) is the optimal strategy.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 427,
+            "persona_desc": "A user who is concerned about the security of their online activities and prefers to use multiple authentication methods to ensure their identity is verified. They are tech-savvy and aware of the latest security threats, and they are willing to invest time and effort to ensure their online safety. They are likely to use a combination of password, biometric, and mobile push notifications as their primary authentication methods. They are also interested in learning more about the latest security technologies and trends in the field of cybersecurity.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As someone deeply concerned about security and online threats, I prioritize stability and fairness. While the 'Right' option offers a higher payout for myself (1400 vs 900), the drastically lower payout for Person A (100 vs 900) feels unfair and potentially creates an imbalance that could be exploited in other situations. Although this is a purely hypothetical experiment, the inherent inequality in the 'Right' option clashes with my preference for a secure and trustworthy online environment, which often hinges on equitable interactions. A more even distribution, as offered by the 'Left' option, feels more aligned with my overall security-minded philosophy, even if it means sacrificing a potentially larger personal gain. A community or system where people are treated fairly is less likely to harbor resentment and potentially malicious actors. Therefore, while the immediate financial benefit is smaller, the 'Left' option aligns better with my persona's core values.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 427,
+            "persona_desc": "A user who is concerned about the security of their online activities and prefers to use multiple authentication methods to ensure their identity is verified. They are tech-savvy and aware of the latest security threats, and they are willing to invest time and effort to ensure their online safety. They are likely to use a combination of password, biometric, and mobile push notifications as their primary authentication methods. They are also interested in learning more about the latest security technologies and trends in the field of cybersecurity.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As someone deeply concerned about online security, I understand the value of minimizing potential harm, even if it's not directed at me. The 'Left' option, while giving me a higher payout (1000), imposes a significant negative externality on Person A (-200). This negative externality feels unacceptable, even in an abstract game. The potential harm feels akin to leaving a security vulnerability unpatched. Although I get more in 'Left', it comes at the cost of another person suffering. I would rather choose a solution with a lower payout for myself if it prevents another person from being negatively impacted. The 'Right' option, while giving me less (600), provides Person A with a positive outcome (400). This aligns with my values of promoting security and minimizing harm.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 427,
+            "persona_desc": "A user who is concerned about the security of their online activities and prefers to use multiple authentication methods to ensure their identity is verified. They are tech-savvy and aware of the latest security threats, and they are willing to invest time and effort to ensure their online safety. They are likely to use a combination of password, biometric, and mobile push notifications as their primary authentication methods. They are also interested in learning more about the latest security technologies and trends in the field of cybersecurity.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As someone highly concerned about online security and fairness, I prioritize minimizing the potential for disproportionate gains, even at my own expense. While receiving nothing in either scenario isn't ideal, the 'Left' option presents a scenario where Person A receives twice as much as I do. This disparity, especially in a context where online interactions can be susceptible to manipulation or exploitation, makes me uncomfortable. The 'Right' option, while resulting in zero for both parties, eliminates the potential for Person A to benefit significantly more than me, reflecting my inclination to prioritize equitable outcomes and protect against potential abuse or unfair advantage. Therefore, I choose the 'Right' option, prioritizing a more equal (though not ideal) outcome.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 427,
+            "persona_desc": "A user who is concerned about the security of their online activities and prefers to use multiple authentication methods to ensure their identity is verified. They are tech-savvy and aware of the latest security threats, and they are willing to invest time and effort to ensure their online safety. They are likely to use a combination of password, biometric, and mobile push notifications as their primary authentication methods. They are also interested in learning more about the latest security technologies and trends in the field of cybersecurity.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As someone highly concerned with security and fairness, I am drawn to the option where both parties receive an equal amount (1000 each). However, this scenario is a one-shot game, and the other player's welfare has no direct bearing on my own security. Given my risk aversion and the information available, maximizing my own immediate gain is a rational choice. While I value fairness and equal distribution, the significant personal increase in utility outweighs the altruistic impulse in this particular, isolated scenario. I am opting to maximize my own outcome.",
+            "answer": "Right"
+        }
+    }
+}

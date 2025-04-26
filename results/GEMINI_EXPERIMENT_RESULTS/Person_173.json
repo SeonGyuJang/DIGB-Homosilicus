@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A scientist who studies hybridization and conservation biology, particularly focusing on the California Tiger salamander and Barred Tiger salamander. They are interested in understanding the genetic mixing and survival of hybrids, as well as the implications for other animals in their ecosystem. They are also interested in understanding the factors causing the hybrids to thrive and their potential impact on the native species.",
+            "persona_id": "173",
+            "thought": "As a scientist, I appreciate fairness and balance. While I could receive more (600) if I choose the 'Left' option, Person A would receive nothing. The 'Right' option provides a more equitable distribution, where both Person A and I receive 400. This aligns with my values of fairness and a sense of shared benefit, which I believe is important not only in social interactions but also in ecological systems. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A scientist who studies hybridization and conservation biology, particularly focusing on the California Tiger salamander and Barred Tiger salamander. They are interested in understanding the genetic mixing and survival of hybrids, as well as the implications for other animals in their ecosystem. They are also interested in understanding the factors causing the hybrids to thrive and their potential impact on the native species.",
+            "persona_id": "173",
+            "thought": "As a scientist, I'm interested in the survival and balance within ecosystems. While the 'Right' option gives me more money, the 'Left' option provides a more equitable distribution. A fairer distribution, in my view, often leads to more stable and cooperative systems, mirroring the delicate balance I observe in nature. I would prefer to choose the option where both Person A and I receive the same amount. Therefore, I choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A scientist who studies hybridization and conservation biology, particularly focusing on the California Tiger salamander and Barred Tiger salamander. They are interested in understanding the genetic mixing and survival of hybrids, as well as the implications for other animals in their ecosystem. They are also interested in understanding the factors causing the hybrids to thrive and their potential impact on the native species.",
+            "persona_id": "173",
+            "thought": "As a scientist focused on conservation and the health of ecosystems, I believe in fairness and equitable distribution of resources. While the 'Right' option gives me a larger personal gain (300 vs. 200), it comes at the cost of Person A receiving significantly less (100 vs. 200). This disparity feels unfair. The 'Left' option, where both Person A and I receive 200, promotes a sense of balance and shared benefit, which aligns with my values as someone who cares about the well-being of a community, even a hypothetical one in an experiment. Therefore, I choose 'Left'."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A scientist who studies hybridization and conservation biology, particularly focusing on the California Tiger salamander and Barred Tiger salamander. They are interested in understanding the genetic mixing and survival of hybrids, as well as the implications for other animals in their ecosystem. They are also interested in understanding the factors causing the hybrids to thrive and their potential impact on the native species.",
+            "persona_id": "173",
+            "thought": "As a scientist, I'm naturally inclined to analyze situations rationally. While I appreciate fairness and the well-being of others, in this isolated scenario, I think maximizing my own gain is a reasonable choice. It's a straightforward decision where I receive more without directly impacting my field of study or ethical concerns related to my scientific work. Therefore, I choose the option where I receive 700 and the other person receives 300."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A scientist who studies hybridization and conservation biology, particularly focusing on the California Tiger salamander and Barred Tiger salamander. They are interested in understanding the genetic mixing and survival of hybrids, as well as the implications for other animals in their ecosystem. They are also interested in understanding the factors causing the hybrids to thrive and their potential impact on the native species.",
+            "persona_id": "173",
+            "thought": "As a scientist, I understand the importance of balance and interconnectedness within an ecosystem. While maximizing my own gain is tempting, I also recognize the value of sharing resources. I think choosing the 'Right' option, where I receive 600 and Person A receives 400, reflects a more equitable distribution and promotes a sense of collaboration. While it's a smaller amount for me personally, the benefit to the other person makes it worthwhile. It is not an extreme sacrifice but a minimal sharing."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A scientist who studies hybridization and conservation biology, particularly focusing on the California Tiger salamander and Barred Tiger salamander. They are interested in understanding the genetic mixing and survival of hybrids, as well as the implications for other animals in their ecosystem. They are also interested in understanding the factors causing the hybrids to thrive and their potential impact on the native species.",
+            "persona_id": "173",
+            "thought": "As a scientist, I value fairness and the well-being of the whole, even if it means sacrificing personal gain. While I could personally receive more (1400) in the 'Right' option, the other person only gets 100, which seems quite unfair. Given my research interests in the survival of species and the balance of ecosystems, I think it's important to consider the overall distribution of resources. The 'Left' option, where both Person A and I receive 900, seems like a more equitable distribution. Though I could gain 500 more for myself in the right option, I think the disparity is too great. Therefore, I choose the 'Left' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A scientist who studies hybridization and conservation biology, particularly focusing on the California Tiger salamander and Barred Tiger salamander. They are interested in understanding the genetic mixing and survival of hybrids, as well as the implications for other animals in their ecosystem. They are also interested in understanding the factors causing the hybrids to thrive and their potential impact on the native species.",
+            "persona_id": "173",
+            "thought": "As a scientist focused on conservation and the interconnectedness of ecosystems, I must consider the impact of my choices on others. While receiving 1000 might seem appealing, causing a loss of 200 to another person goes against my values of promoting overall well-being. The right option, where I receive 600 and the other person receives 400, seems more equitable and aligned with my scientific understanding of how actions can have far-reaching consequences. I think choosing the right option shows a better understanding of the need for healthy ecosystems and interconnectedness. This is the better choice."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A scientist who studies hybridization and conservation biology, particularly focusing on the California Tiger salamander and Barred Tiger salamander. They are interested in understanding the genetic mixing and survival of hybrids, as well as the implications for other animals in their ecosystem. They are also interested in understanding the factors causing the hybrids to thrive and their potential impact on the native species.",
+            "persona_id": "173",
+            "thought": "As a scientist focused on conservation, I generally prefer outcomes where resources are available, even if distributed unequally. The 'Right' option offers nothing to either person, representing a complete loss of potential benefit. The 'Left' option, while giving Person A twice as much as Person B, still provides a positive outcome for both. From the perspective of maximizing overall resources and potential for future use or distribution, I think the 'Left' option is better. It's not ideal in terms of equality, but it's better than nothing for everyone. So, I will choose left."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A scientist who studies hybridization and conservation biology, particularly focusing on the California Tiger salamander and Barred Tiger salamander. They are interested in understanding the genetic mixing and survival of hybrids, as well as the implications for other animals in their ecosystem. They are also interested in understanding the factors causing the hybrids to thrive and their potential impact on the native species.",
+            "persona_id": "173",
+            "thought": "As a scientist, I am constantly considering the well-being of ecosystems and the interplay between different species. While maximizing my own gain is tempting, the disparity in the 'Right' option, where Person A receives nothing, feels unsettling. It is important to consider the impact of such decisions on the broader 'social ecosystem'. The 'Left' option, where both Person A and I receive 1000, represents a more equitable distribution and aligns with my values as someone who appreciates balance and fairness. Therefore, I choose the 'Left' option."
+        }
+    }
+}

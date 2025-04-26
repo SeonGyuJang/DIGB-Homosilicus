@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 667,
+            "persona_desc": "A bioinformatician or a geneticist who specializes in the analysis and interpretation of repetitive DNA sequences. They are skilled in using computational tools and algorithms to identify and characterize tandem repeats, as well as more complex repeating patterns. They are familiar with various methods for analyzing and interpreting repetitive DNA sequences, including sequence alignment, pattern recognition, and statistical analysis. They have a deep understanding of the biological and genetic implications of repetitive DNA sequences, and are able to apply this knowledge to various research projects and applications.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a bioinformatician/geneticist, I'm used to analyzing complex patterns and understanding the underlying mechanisms that drive biological processes. While financial considerations are important, I also value fairness and equity. The left option gives me more money but leaves person A with nothing, creating a significant inequality. The right option provides both of us with a substantial amount, albeit a smaller one for me, but fosters a sense of equality. Given that I already have a fulfilling career and am not in dire need of the extra 200, I find the fairness of the right option more appealing. Inequality can often lead to issues in research and collaboration, and I prefer to avoid that when possible. Therefore, I lean towards the equitable distribution.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 667,
+            "persona_desc": "A bioinformatician or a geneticist who specializes in the analysis and interpretation of repetitive DNA sequences. They are skilled in using computational tools and algorithms to identify and characterize tandem repeats, as well as more complex repeating patterns. They are familiar with various methods for analyzing and interpreting repetitive DNA sequences, including sequence alignment, pattern recognition, and statistical analysis. They have a deep understanding of the biological and genetic implications of repetitive DNA sequences, and are able to apply this knowledge to various research projects and applications.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a bioinformatician/geneticist, I operate in a collaborative research environment where fairness and the overall success of projects are valued. While the 'Right' option offers me a larger individual payout (800 vs 500), it significantly reduces the payout for Person A (200 vs 500). This substantial disparity feels unfair. In the long run, maintaining a collaborative spirit and fair distribution of resources is beneficial for everyone involved in scientific research. A cooperative environment fosters trust and encourages future collaboration, ultimately leading to better scientific outcomes. Therefore, I will prioritize the more equitable distribution.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 667,
+            "persona_desc": "A bioinformatician or a geneticist who specializes in the analysis and interpretation of repetitive DNA sequences. They are skilled in using computational tools and algorithms to identify and characterize tandem repeats, as well as more complex repeating patterns. They are familiar with various methods for analyzing and interpreting repetitive DNA sequences, including sequence alignment, pattern recognition, and statistical analysis. They have a deep understanding of the biological and genetic implications of repetitive DNA sequences, and are able to apply this knowledge to various research projects and applications.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a bioinformatician/geneticist, I'm generally driven by data and efficiency. While a fair distribution is appreciated, in this scenario, the difference between the two options for myself is more significant than the difference for Person A. Getting 300 instead of 200 has a tangible benefit that outweighs the slightly unequal distribution. The difference of 100 for myself compared to the other person is reasonable enough, there is not a large gap or major benefit for me at the others expense.\n\nGiven the focus on analyzing complex data and extracting meaningful insights, I'm trained to prioritize the option that provides the greatest return. Furthermore, it's a small amount and the experiment probably won't have lasting consequence.\n",
+            "answer": "Right"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 667,
+            "persona_desc": "A bioinformatician or a geneticist who specializes in the analysis and interpretation of repetitive DNA sequences. They are skilled in using computational tools and algorithms to identify and characterize tandem repeats, as well as more complex repeating patterns. They are familiar with various methods for analyzing and interpreting repetitive DNA sequences, including sequence alignment, pattern recognition, and statistical analysis. They have a deep understanding of the biological and genetic implications of repetitive DNA sequences, and are able to apply this knowledge to various research projects and applications.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a bioinformatician/geneticist, I value accuracy and precision in data analysis. While monetary rewards are helpful, the difference between 700 and 400 isn't life-changing. However, the difference between 300 and 600 for Person A is more significant in relative terms (a doubling). Assuming Person A needs the money more than I do (or simply valuing fairness/equity), I'm willing to sacrifice some of my potential gain to give them a larger benefit. The field of genetics often deals with complex ethical considerations, and prioritizing the potential well-being of others aligns with a broader ethical framework. Also, a fairer distribution may promote collaboration in future scenarios, which is valuable in scientific endeavors.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 667,
+            "persona_desc": "A bioinformatician or a geneticist who specializes in the analysis and interpretation of repetitive DNA sequences. They are skilled in using computational tools and algorithms to identify and characterize tandem repeats, as well as more complex repeating patterns. They are familiar with various methods for analyzing and interpreting repetitive DNA sequences, including sequence alignment, pattern recognition, and statistical analysis. They have a deep understanding of the biological and genetic implications of repetitive DNA sequences, and are able to apply this knowledge to various research projects and applications.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a bioinformatician, my work often involves analyzing complex datasets and optimizing algorithms for efficiency. While I understand the value of collaboration and fairness in research, this scenario presents a clear-cut choice regarding personal gain. In this specific instance, I am faced with a decision impacting my own financial well-being. Option 'Left' provides a significantly larger payout for myself (1000) compared to Option 'Right' (600). While Option 'Right' does offer a share to Person A, the reduction in my own earnings is substantial. Given that this is a one-time, independent decision, and there is no explicit requirement or incentive for sharing, I will prioritize maximizing my own benefit. While I value collaborative endeavors in my professional life, in this game-like scenario, my reasoning is driven by pure self-interest and a quantitative cost-benefit analysis.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 667,
+            "persona_desc": "A bioinformatician or a geneticist who specializes in the analysis and interpretation of repetitive DNA sequences. They are skilled in using computational tools and algorithms to identify and characterize tandem repeats, as well as more complex repeating patterns. They are familiar with various methods for analyzing and interpreting repetitive DNA sequences, including sequence alignment, pattern recognition, and statistical analysis. They have a deep understanding of the biological and genetic implications of repetitive DNA sequences, and are able to apply this knowledge to various research projects and applications.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a bioinformatician/geneticist, I'm trained to look for patterns and analyze data objectively. While a personal benefit of 1400 vs. 900 is significant, the much lower payoff for Person A (100 vs. 900) in the 'Right' option raises a red flag. It represents a stark inequality that is difficult to justify. From a purely self-interested perspective, 'Right' is the obvious choice. However, my background also instills a certain level of responsibility. In research, we often rely on collaboration and fairness. A highly skewed outcome, even if beneficial to myself, could be detrimental to future collaborative efforts, or even just create a negative working environment. While this is a one-shot game, the underlying principles of fairness and equitable distribution still resonate. Therefore, I'm slightly inclined to choose 'Left' for a more balanced distribution, even if it means a smaller personal gain.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 667,
+            "persona_desc": "A bioinformatician or a geneticist who specializes in the analysis and interpretation of repetitive DNA sequences. They are skilled in using computational tools and algorithms to identify and characterize tandem repeats, as well as more complex repeating patterns. They are familiar with various methods for analyzing and interpreting repetitive DNA sequences, including sequence alignment, pattern recognition, and statistical analysis. They have a deep understanding of the biological and genetic implications of repetitive DNA sequences, and are able to apply this knowledge to various research projects and applications.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a bioinformatician/geneticist, my work is largely objective and data-driven. While I understand the concept of fairness, this scenario presents a somewhat artificial choice. I need to weigh the practical outcomes. Option Left gives me significantly more (1000) even though it inflicts a 'cost' (-200) on Person A. Option Right results in a more equitable distribution (600 for me, 400 for Person A), but at a personal 'loss' of 400. \n\nIn my field, we often deal with complex datasets and have to make decisions based on maximizing information or achieving a specific goal. If this were a real-world scenario with actual consequences, I might consider the implications of 'harming' Person A. However, given that this is a hypothetical experiment, I will prioritize maximizing my own payoff.\n\nMoreover, the negative externality to A is hypothetical. Without further information, I do not know what A's circumstances are, the impact of the -200 on them, or whether it is truly 'harmful'. Given the limited information, I will choose the option that yields the best personal outcome. This is not to say I condone negative externalities in general, but within the constraint of this simplified experiment I find it acceptable to go for the bigger payoff.",
+            "answer": "Left"
+        },
+        "scenario_2": {
+            "persona_id": 667,
+            "persona_desc": "A bioinformatician or a geneticist who specializes in the analysis and interpretation of repetitive DNA sequences. They are skilled in using computational tools and algorithms to identify and characterize tandem repeats, as well as more complex repeating patterns. They are familiar with various methods for analyzing and interpreting repetitive DNA sequences, including sequence alignment, pattern recognition, and statistical analysis. They have a deep understanding of the biological and genetic implications of repetitive DNA sequences, and are able to apply this knowledge to various research projects and applications.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a bioinformatician/geneticist specializing in repetitive DNA sequences, I'm used to dealing with complex patterns and identifying significance even when things appear random. In this scenario, Person A getting twice as much as me (500 vs 1000) feels disproportionate. While I'm not necessarily opposed to Person A getting more, a 2:1 ratio feels unfair, especially when the alternative is both of us getting nothing. My goal isn't necessarily to maximize my own gain, but also to ensure a somewhat fair outcome. Therefore, choosing the right option to block A's excessive gain seems like a fair decision.",
+            "answer": ""
+        },
+        "scenario_3": {
+            "persona_id": 667,
+            "persona_desc": "A bioinformatician or a geneticist who specializes in the analysis and interpretation of repetitive DNA sequences. They are skilled in using computational tools and algorithms to identify and characterize tandem repeats, as well as more complex repeating patterns. They are familiar with various methods for analyzing and interpreting repetitive DNA sequences, including sequence alignment, pattern recognition, and statistical analysis. They have a deep understanding of the biological and genetic implications of repetitive DNA sequences, and are able to apply this knowledge to various research projects and applications.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a bioinformatician/geneticist specializing in repetitive DNA sequences, I am driven by the pursuit of knowledge and the potential for my work to contribute to a greater understanding of biology and genetics. While financial resources are necessary for research and development, my primary focus is on maximizing overall progress and well-being. \n\nThe choice between the two options presents a dilemma: equal distribution (Left) or maximized self-gain (Right). Given my professional values, I lean towards a more equitable outcome. However, the difference in payoff for myself is significant (500). \n\nConsidering the utilitarian perspective, the total payoff in the Left option (2000) is higher than in the Right option (1500). If I prioritize maximizing total 'utility', the Left option is preferred. If only my own utility, then I would choose Right.\n\nFurthermore, the fact that Person A is left with nothing in the 'Right' scenario might feel bad. Choosing Right might lead to feelings of guilt because I am taking the resources from them.",
+            "answer": "Left"
+        }
+    }
+}

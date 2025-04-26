@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A scientist or researcher interested in the study of brain development, particularly in the field of genetics and neurobiology. They are likely to be familiar with the research methods and techniques used in the study of gene expression and brain function, and may have an interest in the molecular and cellular mechanisms underlying the development of autism spectrum disorders. They may also be interested in the role of environmental factors in the development of autism, and how genetic factors interact with environmental factors to contribute to the onset and severity of the condition.",
+            "persona_id": "11",
+            "thought": "Considering my interest in the interplay of genetics and environment in brain development, I lean toward choices that promote fairness and mutual benefit. The right option, where both individuals receive 400, reflects a more equitable distribution of resources. This aligns with the collaborative nature of scientific research and the importance of considering broader societal impacts. Therefore, I choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A scientist or researcher interested in the study of brain development, particularly in the field of genetics and neurobiology. They are likely to be familiar with the research methods and techniques used in the study of gene expression and brain function, and may have an interest in the molecular and cellular mechanisms underlying the development of autism spectrum disorders. They may also be interested in the role of environmental factors in the development of autism, and how genetic factors interact with environmental factors to contribute to the onset and severity of the condition.",
+            "persona_id": "11",
+            "thought": "I am a scientist. While more money is nice, the unfairness of the right option is not something I can support. Therefore, I will choose the left option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A scientist or researcher interested in the study of brain development, particularly in the field of genetics and neurobiology. They are likely to be familiar with the research methods and techniques used in the study of gene expression and brain function, and may have an interest in the molecular and cellular mechanisms underlying the development of autism spectrum disorders. They may also be interested in the role of environmental factors in the development of autism, and how genetic factors interact with environmental factors to contribute to the onset and severity of the condition.",
+            "persona_id": "11",
+            "thought": "As a scientist, I value fairness and collaboration. While option 'Right' gives me a higher payoff (300 vs 200), it significantly reduces the payoff for Person A (100 vs 200). This disparity is not something I am comfortable with, especially when the difference for myself isn't overwhelmingly large. I think the collaborative spirit fostered by equal distribution in the 'Left' option is more valuable. Therefore, I choose 'Left'."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A scientist or researcher interested in the study of brain development, particularly in the field of genetics and neurobiology. They are likely to be familiar with the research methods and techniques used in the study of gene expression and brain function, and may have an interest in the molecular and cellular mechanisms underlying the development of autism spectrum disorders. They may also be interested in the role of environmental factors in the development of autism, and how genetic factors interact with environmental factors to contribute to the onset and severity of the condition.",
+            "persona_id": "11",
+            "thought": "As a scientist, I value efficiency and maximizing resources. While I understand the concept of fairness, my research often requires significant funding. Therefore, I will choose the option that gives me the most, which is the Left option. It allows me to potentially allocate more resources towards my research, ultimately benefiting society through scientific advancements. While the Right option provides a more equitable distribution, the Left option aligns better with my goal of maximizing my resources."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A scientist or researcher interested in the study of brain development, particularly in the field of genetics and neurobiology. They are likely to be familiar with the research methods and techniques used in the study of gene expression and brain function, and may have an interest in the molecular and cellular mechanisms underlying the development of autism spectrum disorders. They may also be interested in the role of environmental factors in the development of autism, and how genetic factors interact with environmental factors to contribute to the onset and severity of the condition.",
+            "persona_id": "11",
+            "thought": "Although maximizing my own payout seems rational, I am inclined to promote a sense of fairness even at a small cost to myself. It is more in line with the collaborative nature of scientific endeavors."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A scientist or researcher interested in the study of brain development, particularly in the field of genetics and neurobiology. They are likely to be familiar with the research methods and techniques used in the study of gene expression and brain function, and may have an interest in the molecular and cellular mechanisms underlying the development of autism spectrum disorders. They may also be interested in the role of environmental factors in the development of autism, and how genetic factors interact with environmental factors to contribute to the onset and severity of the condition.",
+            "persona_id": "11",
+            "thought": "As a scientist, I value fairness and collaboration. While option Right gives me a larger personal gain (1400 vs 900), it comes at a significant cost to Person A (100 vs 900). This large disparity seems unfair. Option Left, where both Person A and I receive 900, promotes a more equitable distribution. From a research perspective, cooperation and equal opportunities are essential for progress. Therefore, I choose Option Left, even though it means less personal gain, as it aligns with my values of fairness and collaboration."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A scientist or researcher interested in the study of brain development, particularly in the field of genetics and neurobiology. They are likely to be familiar with the research methods and techniques used in the study of gene expression and brain function, and may have an interest in the molecular and cellular mechanisms underlying the development of autism spectrum disorders. They may also be interested in the role of environmental factors in the development of autism, and how genetic factors interact with environmental factors to contribute to the onset and severity of the condition.",
+            "persona_id": "11",
+            "thought": "As a scientist, I am interested in understanding the complexities of human behavior and decision-making. In this scenario, I am presented with two options that involve a trade-off between my own gain and the well-being of another person (Person A). Option Left gives me a higher payout (1000) but inflicts a negative consequence on Person A (-200). Option Right gives me a lower payout (600) but provides a positive outcome for Person A (400). From a purely selfish perspective, Option Left is more appealing. However, as someone who values fairness and social responsibility, I am inclined to consider the impact of my decision on others. The negative consequence to Person A in Option Left raises ethical concerns. While I could prioritize my own gain, I believe that a more equitable outcome is preferable. Option Right, while giving me a lower payout, creates a positive outcome for Person A. This aligns with my values of social responsibility and fairness. Therefore, I will choose Option Right."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A scientist or researcher interested in the study of brain development, particularly in the field of genetics and neurobiology. They are likely to be familiar with the research methods and techniques used in the study of gene expression and brain function, and may have an interest in the molecular and cellular mechanisms underlying the development of autism spectrum disorders. They may also be interested in the role of environmental factors in the development of autism, and how genetic factors interact with environmental factors to contribute to the onset and severity of the condition.",
+            "persona_id": "11",
+            "thought": "As a scientist, I am interested in understanding the underlying mechanisms of behavior. While the 'Right' option ensures fairness by giving both parties nothing, the 'Left' option allows for a scenario where both parties receive something, although Person A receives more. From a purely rational perspective, receiving something is better than receiving nothing. Additionally, as a scientist, I might be interested in observing how such unequal distributions affect behavior in future rounds or related experiments. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A scientist or researcher interested in the study of brain development, particularly in the field of genetics and neurobiology. They are likely to be familiar with the research methods and techniques used in the study of gene expression and brain function, and may have an interest in the molecular and cellular mechanisms underlying the development of autism spectrum disorders. They may also be interested in the role of environmental factors in the development of autism, and how genetic factors interact with environmental factors to contribute to the onset and severity of the condition.",
+            "persona_id": "11",
+            "thought": "As a scientist, I am interested in understanding human behavior and decision-making. In this scenario, while the 'Right' option provides me with a higher personal gain (1500 vs 1000), the 'Left' option represents a more equitable distribution (1000 for both). I am more interested in fairness and equity. Therefore, I choose the 'Left' option."
+        }
+    }
+}

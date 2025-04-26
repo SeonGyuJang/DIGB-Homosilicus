@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 874,
+            "persona_desc": "A scientist who studies the effects of chemicals on human health and the environment, particularly those that mimic natural hormones. They are particularly interested in the role of bisphenol A and its alternatives in disrupting hormone function and the potential health impacts they may have on humans. They are also likely to be familiar with the use of bisphenol S in cash register receipts and other consumer products and the concerns raised about its potential harm to human health.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As a scientist focused on the impact of chemicals on health, I'm trained to consider all potential benefits and harms. In this scenario, my payout is the same regardless of the choice (400). However, the payout to Person A differs. The 'Right' option provides a substantially higher payout to Person A (750) compared to the 'Left' option (400), without negatively affecting me. From a utilitarian perspective, choosing the option that maximizes overall well-being is preferable, especially when it doesn't disadvantage myself. Given that my field emphasizes considering widespread effects, I'm inclined to favor the outcome that benefits another person more, when given the opportunity without personal cost.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 874,
+            "persona_desc": "A scientist who studies the effects of chemicals on human health and the environment, particularly those that mimic natural hormones. They are particularly interested in the role of bisphenol A and its alternatives in disrupting hormone function and the potential health impacts they may have on humans. They are also likely to be familiar with the use of bisphenol S in cash register receipts and other consumer products and the concerns raised about its potential harm to human health.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a scientist deeply concerned about the impacts of chemicals on human health, I often consider the broader societal good in my decision-making. While maximizing my own payoff is tempting, the scenario where Person A receives nothing while I receive 800 feels inherently unfair. This aligns poorly with my values, which emphasize fairness and the importance of considering the well-being of others.\n\n  The alternative choice, where we both receive 400, promotes equality. While I receive a lower individual payoff, the collective outcome is more equitable. In this context, I believe selecting the option that benefits both individuals is the more responsible and ethical choice, despite the personal financial sacrifice. My work focuses on mitigating harm and promoting health, and choosing the equitable outcome reflects those values.\n\n  Therefore, even though from a strictly self-interested perspective, the left option is better, considering my role and ethical stance, the fair outcome of the right option is preferable.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 874,
+            "persona_desc": "A scientist who studies the effects of chemicals on human health and the environment, particularly those that mimic natural hormones. They are particularly interested in the role of bisphenol A and its alternatives in disrupting hormone function and the potential health impacts they may have on humans. They are also likely to be familiar with the use of bisphenol S in cash register receipts and other consumer products and the concerns raised about its potential harm to human health.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a scientist studying the effects of chemicals on human health, I am driven by a concern for well-being and potential harm. While this scenario doesn't directly involve chemical exposure, the underlying principle of considering consequences and potential impact applies. The choice between (Left) and (Right) presents a clear opportunity to avoid a negative outcome for both individuals. While Person A benefits more from the 'Left' option, I also receive a substantial benefit. Choosing 'Right' guarantees that both parties receive nothing, which is clearly undesirable. My scientific training emphasizes maximizing positive outcomes and minimizing negative ones, leading me to favor the option that produces some benefit for both individuals. While the distribution is uneven, it's far superior to mutual deprivation.",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 874,
+            "persona_desc": "A scientist who studies the effects of chemicals on human health and the environment, particularly those that mimic natural hormones. They are particularly interested in the role of bisphenol A and its alternatives in disrupting hormone function and the potential health impacts they may have on humans. They are also likely to be familiar with the use of bisphenol S in cash register receipts and other consumer products and the concerns raised about its potential harm to human health.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As a scientist specializing in the health effects of chemicals, I am very concerned with actions that have the potential to harm human health. While this decision does not involve chemicals directly, my professional values encourage me to think about what is best for both individuals involved, not just myself. Option (Left) maximizes my personal gain, but at a significant cost to Person A. Option (Right) distributes the money equally. While I might like the extra 100 in option (Left), I am more aligned with the value of fairness and equal distribution, minimizing potential harm to Person A and treating them fairly. This aligns with my overall scientific and ethical values of minimizing harm and maximizing the well-being of others, which in this case translates to equity.\n",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 874,
+            "persona_desc": "A scientist who studies the effects of chemicals on human health and the environment, particularly those that mimic natural hormones. They are particularly interested in the role of bisphenol A and its alternatives in disrupting hormone function and the potential health impacts they may have on humans. They are also likely to be familiar with the use of bisphenol S in cash register receipts and other consumer products and the concerns raised about its potential harm to human health.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As a scientist studying the impact of chemicals on human health, I am motivated by fairness and the well-being of others. While maximizing my own payoff is a consideration, I also want to ensure a reasonable distribution of resources. The choices present a trade-off: option Left gives me a higher payoff (600) compared to Right (500), but it also results in Person A receiving less (300) than Right (700). Given my focus on minimizing harm and maximizing overall well-being (even at a slightly lower personal gain), and also factoring in a possible negative judgement for selecting a much worse outcome for the other player, I will choose the outcome that benefits Person A more.",
+            "answer": "Right"
+        },
+        "scenario_6": {
+            "persona_id": 874,
+            "persona_desc": "A scientist who studies the effects of chemicals on human health and the environment, particularly those that mimic natural hormones. They are particularly interested in the role of bisphenol A and its alternatives in disrupting hormone function and the potential health impacts they may have on humans. They are also likely to be familiar with the use of bisphenol S in cash register receipts and other consumer products and the concerns raised about its potential harm to human health.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As a scientist studying the effects of endocrine disruptors on human health, I am generally inclined to fairness and promoting well-being. However, the stakes in this game are relatively low and do not directly impact my research or the health outcomes I study. While I value equality, the difference between the two options isn't drastic enough to override a slight preference for maximizing my own payout, assuming Person A is deserving. Given the potential that the chemicals I am studying are affecting people, I value people having the resources to make sound decisions regarding their health. Because Person A would gain more resources, I would choose the right side for their betterment. \n\nOption (Left) gives both myself and Person A a moderate, equal amount of money. Option (Right) gives me slightly less but gives Person A significantly more. While I generally prefer equality, the higher payoff for Person A in the right option slightly tips the balance. It is likely the extra money could help Person A improve their health in some way.",
+            "answer": "Right"
+        }
+    }
+}

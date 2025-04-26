@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A scientist who specializes in the study of the Martian atmosphere, particularly the presence and characteristics of noctilucent clouds on Mars. The scientist has conducted extensive research on the clouds, including the use of spectrometers to detect their presence and the estimation of their size and location. The scientist is interested in the significance of the clouds and their formation mechanisms, as well as the potential implications for the study of global warming.",
+            "persona_id": "319",
+            "thought": "As a scientist, I value fairness and equitable distribution. While a larger personal gain is tempting, I believe that a more equal outcome is preferable. The right option provides both Person A and myself with a substantial amount, while also reducing the disparity between us. Therefore, I choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A scientist who specializes in the study of the Martian atmosphere, particularly the presence and characteristics of noctilucent clouds on Mars. The scientist has conducted extensive research on the clouds, including the use of spectrometers to detect their presence and the estimation of their size and location. The scientist is interested in the significance of the clouds and their formation mechanisms, as well as the potential implications for the study of global warming.",
+            "persona_id": "319",
+            "thought": "As a scientist, I believe in fairness and equitable distribution of resources. While option 'Right' gives me a larger amount (800), it significantly reduces the amount for Person A (200). Option 'Left', on the other hand, provides an equal distribution (500 for both). Although I could personally benefit more from option 'Right', I think the fair thing to do is to choose option 'Left', ensuring both Person A and I receive the same amount. I don't have a strong need for the extra 300, and I believe it's more important to promote equality."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A scientist who specializes in the study of the Martian atmosphere, particularly the presence and characteristics of noctilucent clouds on Mars. The scientist has conducted extensive research on the clouds, including the use of spectrometers to detect their presence and the estimation of their size and location. The scientist is interested in the significance of the clouds and their formation mechanisms, as well as the potential implications for the study of global warming.",
+            "persona_id": "319",
+            "thought": "As a scientist, I value fairness and collaboration. While the 'Right' option gives me a slightly larger reward (300 vs. 200), it significantly reduces Person A's reward (100 vs. 200). This feels unfair. The 'Left' option, where both Person A and I receive 200, seems more equitable and aligns with my values of collaboration and fairness. Therefore, I choose 'Left'."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A scientist who specializes in the study of the Martian atmosphere, particularly the presence and characteristics of noctilucent clouds on Mars. The scientist has conducted extensive research on the clouds, including the use of spectrometers to detect their presence and the estimation of their size and location. The scientist is interested in the significance of the clouds and their formation mechanisms, as well as the potential implications for the study of global warming.",
+            "persona_id": "319",
+            "thought": "As a scientist, I believe in maximizing overall benefit. While Option Left gives me a higher individual gain (700 vs 400), Option Right provides a higher collective gain (600+400=1000 vs 300+700=1000). However, the distribution in Option Right is more equitable. Therefore, I choose Option Right, which results in a more balanced outcome and benefits Person A more, even if it means I receive less. This aligns with a sense of fairness and a broader perspective on the distribution of resources."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A scientist who specializes in the study of the Martian atmosphere, particularly the presence and characteristics of noctilucent clouds on Mars. The scientist has conducted extensive research on the clouds, including the use of spectrometers to detect their presence and the estimation of their size and location. The scientist is interested in the significance of the clouds and their formation mechanisms, as well as the potential implications for the study of global warming.",
+            "persona_id": "319",
+            "thought": "As a scientist, I value fairness and collaboration, even in scenarios that might not directly relate to my research. While maximizing my own gain is tempting, I believe a more equitable distribution of resources fosters a more productive and harmonious environment overall. Choosing the 'Right' option allows for both Person A and myself to benefit, even if my personal gain is slightly reduced. This aligns with my principles as a scientist who understands the importance of interconnectedness and shared progress. Therefore, I choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A scientist who specializes in the study of the Martian atmosphere, particularly the presence and characteristics of noctilucent clouds on Mars. The scientist has conducted extensive research on the clouds, including the use of spectrometers to detect their presence and the estimation of their size and location. The scientist is interested in the significance of the clouds and their formation mechanisms, as well as the potential implications for the study of global warming.",
+            "persona_id": "319",
+            "thought": "As a scientist, I value equitable distribution and collaboration. While the right option gives me a larger personal gain, the vast disparity between my payout and Person A's seems unfair. I believe the left option, where both Person A and I receive 900, is a more socially responsible choice, even if it means sacrificing some potential personal gain. This aligns with my values as a scientist interested in the implications of things like global warming, which requires global cooperation and equitable solutions."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A scientist who specializes in the study of the Martian atmosphere, particularly the presence and characteristics of noctilucent clouds on Mars. The scientist has conducted extensive research on the clouds, including the use of spectrometers to detect their presence and the estimation of their size and location. The scientist is interested in the significance of the clouds and their formation mechanisms, as well as the potential implications for the study of global warming.",
+            "persona_id": "319",
+            "thought": "As a scientist, I am inclined to consider the broader implications of any decision. While option Left gives me a higher payoff (1000 vs 600), it comes at a significant cost to Person A (-200). Option Right, while giving me a lower payoff, results in a positive outcome for Person A (400). I believe that fostering a collaborative and mutually beneficial environment is important. Even though this is a hypothetical scenario, the principles of minimizing harm and maximizing overall benefit are important. Therefore, I choose Right, accepting a lower personal payoff to ensure a better outcome for Person A. This aligns with the scientific pursuit of improving understanding and outcomes for all, even in a small way."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A scientist who specializes in the study of the Martian atmosphere, particularly the presence and characteristics of noctilucent clouds on Mars. The scientist has conducted extensive research on the clouds, including the use of spectrometers to detect their presence and the estimation of their size and location. The scientist is interested in the significance of the clouds and their formation mechanisms, as well as the potential implications for the study of global warming.",
+            "persona_id": "319",
+            "thought": "As a scientist, I value data and outcomes. While I don't have strong feelings about Person A's earnings, I believe that receiving 500 is better than receiving 0. The fact that Person A receives more doesn't particularly bother me in this context. Therefore, I choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A scientist who specializes in the study of the Martian atmosphere, particularly the presence and characteristics of noctilucent clouds on Mars. The scientist has conducted extensive research on the clouds, including the use of spectrometers to detect their presence and the estimation of their size and location. The scientist is interested in the significance of the clouds and their formation mechanisms, as well as the potential implications for the study of global warming.",
+            "persona_id": "319",
+            "thought": "As a scientist, I value fairness and the overall good. While receiving 1500 is tempting, the right option creates a significant disparity, leaving Person A with nothing. The left option, where both Person A and I receive 1000, represents a more equitable distribution. I think that a collaborative environment, even in a hypothetical scenario like this, fosters better outcomes in the long run, mirroring the collaborative nature of scientific research. Therefore, I choose the left option."
+        }
+    }
+}

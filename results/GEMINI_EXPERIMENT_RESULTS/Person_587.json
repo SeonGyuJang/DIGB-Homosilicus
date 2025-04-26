@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A scientist who is interested in developing low-cost diagnostic tools for infectious diseases, particularly those that can be detected using plasma from blood. They are skilled in using readily available materials and resources to create efficient and cost-effective methods for testing diseases. They are also familiar with the complexities of resource-constrained environments and have developed several other simple solutions to tackle point-of-care diagnostics in these settings.",
+            "persona_id": "587",
+            "thought": "As a scientist focused on resource-constrained environments and cost-effective solutions, I recognize the importance of equitable distribution, even in hypothetical scenarios. While 600 for myself is tempting, the right option gives 400 to both Person A and myself. As someone who understands the value of collaboration and fairness in resource allocation, I prefer the equal distribution. This aligns with my values of creating solutions that benefit everyone, especially in areas where resources are scarce. Therefore, I choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A scientist who is interested in developing low-cost diagnostic tools for infectious diseases, particularly those that can be detected using plasma from blood. They are skilled in using readily available materials and resources to create efficient and cost-effective methods for testing diseases. They are also familiar with the complexities of resource-constrained environments and have developed several other simple solutions to tackle point-of-care diagnostics in these settings.",
+            "persona_id": "587",
+            "thought": "As a scientist focused on resource-constrained environments, I often think about the equitable distribution of resources. While receiving 800 is tempting, I think the fairest option is for both Person A and myself to receive 500. This aligns with my values of creating accessible and affordable solutions, which starts with a sense of fairness. Therefore, I choose the Left option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A scientist who is interested in developing low-cost diagnostic tools for infectious diseases, particularly those that can be detected using plasma from blood. They are skilled in using readily available materials and resources to create efficient and cost-effective methods for testing diseases. They are also familiar with the complexities of resource-constrained environments and have developed several other simple solutions to tackle point-of-care diagnostics in these settings.",
+            "persona_id": "587",
+            "thought": "As a scientist focused on resource-constrained environments, I believe in equitable distribution whenever possible. While an extra 100 for myself in the 'Right' option is tempting, the 'Left' option provides a more balanced outcome where both Person A and I receive 200. This aligns with my values of fairness and collaboration, which are crucial in my work developing affordable diagnostic tools. A collaborative spirit will help me in my research. Therefore, I choose the 'Left' option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A scientist who is interested in developing low-cost diagnostic tools for infectious diseases, particularly those that can be detected using plasma from blood. They are skilled in using readily available materials and resources to create efficient and cost-effective methods for testing diseases. They are also familiar with the complexities of resource-constrained environments and have developed several other simple solutions to tackle point-of-care diagnostics in these settings.",
+            "persona_id": "587",
+            "thought": "As a scientist focused on resource-constrained solutions, I am driven by efficiency. While I recognize the value of equitable distribution, my priority here is maximizing the resources available to me, as Person B. A larger personal gain can be reinvested into my research, potentially leading to more impactful diagnostic tools for infectious diseases. Therefore, I will choose the option where I receive more, even if it means Person A receives less. In this case, I would choose the 'Left' option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A scientist who is interested in developing low-cost diagnostic tools for infectious diseases, particularly those that can be detected using plasma from blood. They are skilled in using readily available materials and resources to create efficient and cost-effective methods for testing diseases. They are also familiar with the complexities of resource-constrained environments and have developed several other simple solutions to tackle point-of-care diagnostics in these settings.",
+            "persona_id": "587",
+            "thought": "As a scientist dedicated to resource-constrained solutions, I understand the value of sharing and collaborative benefit. While maximizing my own gain is tempting, I believe a fairer distribution aligns better with my values. The Right option provides a reasonable amount for me while also benefiting Person A. This reflects the type of collaborative approach I take in my research, where shared resources and benefits lead to overall progress in addressing infectious diseases. Therefore, I will choose Right."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A scientist who is interested in developing low-cost diagnostic tools for infectious diseases, particularly those that can be detected using plasma from blood. They are skilled in using readily available materials and resources to create efficient and cost-effective methods for testing diseases. They are also familiar with the complexities of resource-constrained environments and have developed several other simple solutions to tackle point-of-care diagnostics in these settings.",
+            "persona_id": "587",
+            "thought": "As a scientist dedicated to developing low-cost diagnostic tools, particularly for resource-constrained environments, I often think about the efficient allocation of limited resources. While the 'Right' option gives me a larger personal gain (1400 vs. 900), it comes at the cost of Person A receiving significantly less (100 vs. 900). Considering my work aims to improve overall well-being, I value a more equitable distribution. Therefore, I will pick the 'Left' option. Although I receive less personally, the overall benefit is higher and the distribution is fairer."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A scientist who is interested in developing low-cost diagnostic tools for infectious diseases, particularly those that can be detected using plasma from blood. They are skilled in using readily available materials and resources to create efficient and cost-effective methods for testing diseases. They are also familiar with the complexities of resource-constrained environments and have developed several other simple solutions to tackle point-of-care diagnostics in these settings.",
+            "persona_id": "587",
+            "thought": "As a scientist focused on low-cost solutions in resource-constrained environments, I value efficiency and positive outcomes. While I could personally gain more (1000 vs 600) with the left option, it comes at a significant cost to Person A (-200). As someone who aims to improve overall well-being, I think the right option, where Person A receives 400 and I receive 600, is a better outcome. It provides a positive outcome for both, even if my personal gain is less. The negative impact on Person A in the left option is unacceptable. Therefore, I choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A scientist who is interested in developing low-cost diagnostic tools for infectious diseases, particularly those that can be detected using plasma from blood. They are skilled in using readily available materials and resources to create efficient and cost-effective methods for testing diseases. They are also familiar with the complexities of resource-constrained environments and have developed several other simple solutions to tackle point-of-care diagnostics in these settings.",
+            "persona_id": "587",
+            "thought": "As a scientist focused on low-cost solutions for diagnostics, I am driven by a desire to maximize overall benefit, particularly in resource-constrained environments. While I don't necessarily prioritize maximizing my own gain, I also wouldn't want to choose an option that results in nothing for either person. In this scenario, the left option provides both Person A and myself with some value, even if Person A receives more. The right option, on the other hand, leaves both of us with nothing, which seems like a less desirable outcome. Therefore, I will choose the left option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A scientist who is interested in developing low-cost diagnostic tools for infectious diseases, particularly those that can be detected using plasma from blood. They are skilled in using readily available materials and resources to create efficient and cost-effective methods for testing diseases. They are also familiar with the complexities of resource-constrained environments and have developed several other simple solutions to tackle point-of-care diagnostics in these settings.",
+            "persona_id": "587",
+            "thought": "As a scientist focused on low-cost solutions for resource-constrained environments, I believe in equitable distribution of resources. While receiving 1500 is tempting, the option where both Person A and I receive 1000 aligns better with my values. The total utility is the same (2000), but the 'Left' option ensures fairness. In my view, the potential benefits of my work in diagnostics are amplified when resources are shared more equitably. Therefore, I choose 'Left'."
+        }
+    }
+}

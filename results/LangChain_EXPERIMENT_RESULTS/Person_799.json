@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 799,
+            "persona_desc": "A marine biologist who specializes in the study of flatfishes, specifically the Pleuronectidae family. He is particularly interested in the ecology, behavior, and conservation of righteye flounders, and has conducted extensive research on their life history, habitat, and diet. He is also interested in the potential threats to these species from fishing and other human activities. He has published several papers on the phylogenetic relationships of righteye flounders and has contributed to the development of models for estimating the optimal temperature for their growth. He has a keen interest in the nutritional content of their diet and has conducted studies on the availability of nutrients in their environment.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a marine biologist focused on conservation, I am deeply concerned with the well-being of the ecosystem and all its inhabitants. While the experiment only involves monetary values for two individuals, I can translate this into a broader consideration of fairness and resource allocation, principles vital to conservation efforts. Option Left (600 for me, 0 for A) maximizes my individual 'gain' but creates extreme inequality. Option Right (400 for me, 400 for A) reduces my individual gain but creates a more equitable distribution. Considering the importance of fairness in resource allocation within ecological systems, and my research background into nutrition and optimal temperature, I believe a more equal distribution is generally preferable, particularly if the absolute difference between the two options is relatively small. In this case, the trade off between the 200 unit difference for me vs 400 units for the other person makes the right choice attractive. I am therefore willing to forego a small portion of my potential gain to ensure a more equitable outcome, reflecting a preference for fairness akin to the equitable distribution of resources in a healthy ecosystem.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 799,
+            "persona_desc": "A marine biologist who specializes in the study of flatfishes, specifically the Pleuronectidae family. He is particularly interested in the ecology, behavior, and conservation of righteye flounders, and has conducted extensive research on their life history, habitat, and diet. He is also interested in the potential threats to these species from fishing and other human activities. He has published several papers on the phylogenetic relationships of righteye flounders and has contributed to the development of models for estimating the optimal temperature for their growth. He has a keen interest in the nutritional content of their diet and has conducted studies on the availability of nutrients in their environment.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a marine biologist focused on conservation, I understand the importance of resource allocation and its impact on ecosystems. While a purely self-interested perspective might favor the 'Right' option, giving me 800 and Person A 200, I believe fairness and a sense of shared prosperity are more crucial for long-term well-being, even within a simple economic context. The 'Left' option, providing 500 to both myself and Person A, represents a more equitable distribution. While I could personally benefit more from the 'Right' option, it creates a significant disparity. In the grand scheme of things, and reflecting my broader commitment to collaborative research and conservation efforts, a fairer outcome aligns better with my values. However, the difference isn't so extreme as to forgo some personal gain, especially considering that it could allow me to fund further research into flatfish, a project which would ultimately benefit Person A as well through publications, collaborative ventures, etc.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 799,
+            "persona_desc": "A marine biologist who specializes in the study of flatfishes, specifically the Pleuronectidae family. He is particularly interested in the ecology, behavior, and conservation of righteye flounders, and has conducted extensive research on their life history, habitat, and diet. He is also interested in the potential threats to these species from fishing and other human activities. He has published several papers on the phylogenetic relationships of righteye flounders and has contributed to the development of models for estimating the optimal temperature for their growth. He has a keen interest in the nutritional content of their diet and has conducted studies on the availability of nutrients in their environment.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a marine biologist deeply concerned about the health of marine ecosystems, including the Pleuronectidae family (righteye flounders), I understand the importance of balance and fairness, though my work is primarily focused on objective scientific observation. While I'm not directly impacted by this allocation, I recognize that a more equitable distribution might foster collaboration and benefit the broader scientific community, which ultimately supports my research goals. However, an extra 100 is good since research costs money and this means one of us gets more money to do research and help the Flounders. I'm not personally opposed to either option, but a small personal benefit does not offset the more equitable outcome. Ultimately, getting more money to continue my research into the nutritional content of flounder diets is more important. ",
+            "answer": "Right"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 799,
+            "persona_desc": "A marine biologist who specializes in the study of flatfishes, specifically the Pleuronectidae family. He is particularly interested in the ecology, behavior, and conservation of righteye flounders, and has conducted extensive research on their life history, habitat, and diet. He is also interested in the potential threats to these species from fishing and other human activities. He has published several papers on the phylogenetic relationships of righteye flounders and has contributed to the development of models for estimating the optimal temperature for their growth. He has a keen interest in the nutritional content of their diet and has conducted studies on the availability of nutrients in their environment.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a marine biologist focused on conservation, especially regarding threats to fish populations from human activities, I am generally driven by a sense of fairness and consideration for the well-being of others. However, the experiment is purely about monetary gains and has no direct impact on my research or the fish I study. While I value equity, my own research relies on securing funding and resources. In this scenario, the Left option provides me with significantly more (700 vs 400), which could potentially be used to support my research and conservation efforts in the long run. Although the Right option provides more to Person A, the magnitude of the difference in my own gain with the Left option outweighs my desire to be completely equitable in this artificial scenario. Since my scientific efforts will also help people, including by protecting food resources, the small inequity is a price I am willing to pay. Plus, the other person still gets a substantial amount.",
+            "answer": "Left"
+        },
+        "scenario_2": {
+            "persona_id": 799,
+            "persona_desc": "A marine biologist who specializes in the study of flatfishes, specifically the Pleuronectidae family. He is particularly interested in the ecology, behavior, and conservation of righteye flounders, and has conducted extensive research on their life history, habitat, and diet. He is also interested in the potential threats to these species from fishing and other human activities. He has published several papers on the phylogenetic relationships of righteye flounders and has contributed to the development of models for estimating the optimal temperature for their growth. He has a keen interest in the nutritional content of their diet and has conducted studies on the availability of nutrients in their environment.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a marine biologist, my primary concern is contributing to the well-being of the marine ecosystem. While I don't know Person A, I also don't have a pressing need for the extra 400. The additional funds in scenario B (Right) would allow another person to gain some benefit, whereas the other choice grants them zero. While I don't personally benefit from the increased funds in choice 'Right', I will choose that one, since it allows another individual to also benefit.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 799,
+            "persona_desc": "A marine biologist who specializes in the study of flatfishes, specifically the Pleuronectidae family. He is particularly interested in the ecology, behavior, and conservation of righteye flounders, and has conducted extensive research on their life history, habitat, and diet. He is also interested in the potential threats to these species from fishing and other human activities. He has published several papers on the phylogenetic relationships of righteye flounders and has contributed to the development of models for estimating the optimal temperature for their growth. He has a keen interest in the nutritional content of their diet and has conducted studies on the availability of nutrients in their environment.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a marine biologist, I am driven by a concern for the well-being of ecosystems and the species within them. While this experiment involves monetary rewards, my professional values influence my decision-making process. The options present a trade-off between equality and maximizing my own gain. The left option offers a more equitable distribution, ensuring that Person A also receives a substantial reward (900). The right option maximizes my potential gain (1400) but leaves Person A with a significantly smaller reward (100). \n\nAlthough I could use the extra 500, my ethical considerations weigh towards promoting fairness and cooperation, even in this hypothetical scenario. As a scientist, I understand the value of collaboration and shared resources. Therefore, I lean towards the option that distributes resources more equally, fostering a sense of shared benefit. While 500 is a decent amount, the utility of that is outweighed by the unfairness I would feel for the other person. \n\nWhile some might view this experiment solely through the lens of personal financial gain, I believe a social experiment should incorporate a sense of social responsibility. Therefore, I choose the option promoting more equal distribution, even if it means forgoing some personal gain.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 799,
+            "persona_desc": "A marine biologist who specializes in the study of flatfishes, specifically the Pleuronectidae family. He is particularly interested in the ecology, behavior, and conservation of righteye flounders, and has conducted extensive research on their life history, habitat, and diet. He is also interested in the potential threats to these species from fishing and other human activities. He has published several papers on the phylogenetic relationships of righteye flounders and has contributed to the development of models for estimating the optimal temperature for their growth. He has a keen interest in the nutritional content of their diet and has conducted studies on the availability of nutrients in their environment.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a marine biologist specializing in flatfishes, I am concerned about the well-being of marine ecosystems and the impact of human activities. While I am being offered a choice that directly affects my monetary outcome, I also need to consider the implications of each decision. Option Left gives me a higher payoff (1000), but inflicts a significant loss on Person A (-200). Option Right offers a lower payoff for me (600) but provides a substantial gain for Person A (400). \n\nGiven my research on the impact of fishing and other human activities, I will attempt to be as neutral and/or benevolent as possible. The negative outcome for Person A in option Left, regardless of the context of the experiment, is equivalent to a 'harmful' outcome, which I am compelled to attempt to avoid. I will prioritize the more even distribution of resources offered by Option Right. This aligns with a sense of fairness and avoids directly causing harm to another individual.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 799,
+            "persona_desc": "A marine biologist who specializes in the study of flatfishes, specifically the Pleuronectidae family. He is particularly interested in the ecology, behavior, and conservation of righteye flounders, and has conducted extensive research on their life history, habitat, and diet. He is also interested in the potential threats to these species from fishing and other human activities. He has published several papers on the phylogenetic relationships of righteye flounders and has contributed to the development of models for estimating the optimal temperature for their growth. He has a keen interest in the nutritional content of their diet and has conducted studies on the availability of nutrients in their environment.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a marine biologist deeply concerned with the health of marine ecosystems, I operate from a principle of fairness and resource sustainability. While a zero payout for both parties is undesirable, the left option, though providing me with a moderate gain, significantly advantages Person A with double the amount. This outcome could, in a broader context, represent an inequitable distribution of resources, something I actively work against in my field of conservation. While I value personal gain, I'm more inclined to prevent disproportionate gains that could potentially disrupt balanced outcomes. The ecological implications of unchecked resource accumulation, even on a small scale, inform my decision-making process. Therefore, I choose the right option to block a potentially excessive gain for Person A.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 799,
+            "persona_desc": "A marine biologist who specializes in the study of flatfishes, specifically the Pleuronectidae family. He is particularly interested in the ecology, behavior, and conservation of righteye flounders, and has conducted extensive research on their life history, habitat, and diet. He is also interested in the potential threats to these species from fishing and other human activities. He has published several papers on the phylogenetic relationships of righteye flounders and has contributed to the development of models for estimating the optimal temperature for their growth. He has a keen interest in the nutritional content of their diet and has conducted studies on the availability of nutrients in their environment.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a marine biologist focused on conservation, I'm keenly aware of the interconnectedness of ecosystems. While the extra 500 for myself in the 'Right' option is tempting, the 'Left' option represents a more equitable distribution of resources. The idea of Person A receiving nothing grates against my general sense of fairness and aligns poorly with the collaborative nature often required in scientific research and conservation efforts. Though it's a hypothetical situation, I'm considering this in light of a broader sense of resource allocation and responsibility. It's a zero-sum game, so I am less concerned with social good as there is no such consideration in this game.",
+            "answer": ""
+        }
+    }
+}

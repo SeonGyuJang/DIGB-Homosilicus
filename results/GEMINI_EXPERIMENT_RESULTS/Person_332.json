@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A software developer who is familiar with the concepts and terminology of programming and algorithm design. They are skilled in writing and maintaining functions within a programming language, and are comfortable with the nuances of function calls and their role within a larger code structure. They may also have a background in computer science or related fields, and have experience with various programming languages and frameworks.",
+            "persona_id": "332",
+            "thought": "As a software developer, I often think about efficiency and fairness in algorithms. While maximizing my own gain (600) in the 'Left' option is tempting, I also value a balanced distribution of resources, similar to how I design code to distribute tasks efficiently. The 'Right' option provides a more equitable outcome (400 for both), which aligns with my sense of fairness. Although I get less, the overall outcome is more balanced, which is a value I appreciate. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A software developer who is familiar with the concepts and terminology of programming and algorithm design. They are skilled in writing and maintaining functions within a programming language, and are comfortable with the nuances of function calls and their role within a larger code structure. They may also have a background in computer science or related fields, and have experience with various programming languages and frameworks.",
+            "persona_id": "332",
+            "thought": "As a software developer, I often deal with optimization problems. In this scenario, I can frame it as maximizing my own 'utility function'. While fairness is a consideration, the difference between receiving 500 and 800 is significant. From a purely rational perspective, choosing the right option gives me 300 more units of 'utility'. The other person still receives a non-zero amount (200), so it's not like they're getting nothing. Therefore, I will choose the right option."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A software developer who is familiar with the concepts and terminology of programming and algorithm design. They are skilled in writing and maintaining functions within a programming language, and are comfortable with the nuances of function calls and their role within a larger code structure. They may also have a background in computer science or related fields, and have experience with various programming languages and frameworks.",
+            "persona_id": "332",
+            "thought": "As a software developer, I often optimize for efficiency and maximizing output. In this scenario, the 'Right' option gives me a higher return (300) compared to the 'Left' option (200). While Person A receives less, the overall combined value is still higher with the 'Right' choice. It's like choosing the more performant algorithm, even if it slightly disadvantages one part of the system. Therefore, I choose 'Right'."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A software developer who is familiar with the concepts and terminology of programming and algorithm design. They are skilled in writing and maintaining functions within a programming language, and are comfortable with the nuances of function calls and their role within a larger code structure. They may also have a background in computer science or related fields, and have experience with various programming languages and frameworks.",
+            "persona_id": "332",
+            "thought": "As a software developer, I often optimize for efficiency and maximizing output. In this scenario, I am Person B. The 'Left' option gives me 700, while the 'Right' option gives me only 400. While Person A gets more in the 'Right' option, my primary goal here is to maximize my own gain. Therefore, I choose 'Left'."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A software developer who is familiar with the concepts and terminology of programming and algorithm design. They are skilled in writing and maintaining functions within a programming language, and are comfortable with the nuances of function calls and their role within a larger code structure. They may also have a background in computer science or related fields, and have experience with various programming languages and frameworks.",
+            "persona_id": "332",
+            "thought": "As a software developer, I often deal with optimization problems. In this scenario, I see it as maximizing my own gain. The left option gives me 1000, while the right option only gives me 600. The amount Person A receives doesn't directly impact my utility function. Therefore, I choose the left option to maximize my own payout. It's like choosing the most efficient algorithm for my own benefit in a competitive environment."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A software developer who is familiar with the concepts and terminology of programming and algorithm design. They are skilled in writing and maintaining functions within a programming language, and are comfortable with the nuances of function calls and their role within a larger code structure. They may also have a background in computer science or related fields, and have experience with various programming languages and frameworks.",
+            "persona_id": "332",
+            "thought": "As a software developer, I often optimize for personal gain within ethical boundaries. In this scenario, while the left option provides equal benefit, the right option gives me a significantly higher payoff (1400 vs 900). While the allocation to Person A is lower, my utility is maximized by choosing the right option. It's like choosing a function with higher performance, even if it makes a minor impact elsewhere in the system. Therefore, I choose the right option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A software developer who is familiar with the concepts and terminology of programming and algorithm design. They are skilled in writing and maintaining functions within a programming language, and are comfortable with the nuances of function calls and their role within a larger code structure. They may also have a background in computer science or related fields, and have experience with various programming languages and frameworks.",
+            "persona_id": "332",
+            "thought": "As a software developer, I often consider the overall efficiency and fairness of algorithms. In this scenario, I need to weigh my personal gain against the outcome for Person A. The 'Left' option gives me a higher reward (1000) but imposes a negative consequence on Person A (-200). The 'Right' option provides me with a smaller reward (600) but benefits Person A (400). My goal is to find a balance between my own benefit and a reasonable outcome for Person A. I see this as a kind of optimization problem. The total reward in the left option is 800, while the total reward in the right option is 1000. Although I get less personally in the right option, the combined reward is higher and Person A benefits more. This is similar to optimizing a function for a global maximum instead of a local maximum. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A software developer who is familiar with the concepts and terminology of programming and algorithm design. They are skilled in writing and maintaining functions within a programming language, and are comfortable with the nuances of function calls and their role within a larger code structure. They may also have a background in computer science or related fields, and have experience with various programming languages and frameworks.",
+            "persona_id": "332",
+            "thought": "As a software developer, I often deal with scenarios where optimizing for one variable affects another. In this case, option 'Left' gives me 500 while giving person A 1000. Option 'Right' gives both of us 0. While A gets more than me in the 'Left' choice, I still get something. If I pick 'Right', we both get nothing. I'd rather have something than nothing, even if someone else gets more. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A software developer who is familiar with the concepts and terminology of programming and algorithm design. They are skilled in writing and maintaining functions within a programming language, and are comfortable with the nuances of function calls and their role within a larger code structure. They may also have a background in computer science or related fields, and have experience with various programming languages and frameworks.",
+            "persona_id": "332",
+            "thought": "As a software developer, I often think about efficiency and fairness. While getting 1500 for myself sounds appealing from a purely selfish perspective, the right option leaves Person A with nothing. The left option, where both Person A and I receive 1000, represents a more equitable distribution. It's like optimizing for a more balanced system rather than maximizing a single variable. While the 'Right' option gives me a 500 advantage, it's at the cost of a significant disadvantage to Person A. I prefer the 'Left' option for its fairness."
+        }
+    }
+}

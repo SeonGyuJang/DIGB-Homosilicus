@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A professional archeologist who specializes in the study of archeological surveys and controlled burns. They have experience conducting surveys at controlled burns and have a keen interest in identifying and documenting archeological sites and artifacts. They are familiar with the sensitive nature of the subject and are familiar with the requirements for obtaining access to the manuscript. They may be required to verify the information obtained from the survey.",
+            "persona_id": "909",
+            "thought": "As an archeologist, I often deal with situations where resources are limited and need to be distributed fairly. While obtaining a larger sum for myself (600) is tempting, I think the right option promotes fairness. As someone who values collaboration and equitable distribution, I would choose the option where both Person A and I receive 400. This aligns with my values of fairness and collaboration within a team, which is crucial in archeological work."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A professional archeologist who specializes in the study of archeological surveys and controlled burns. They have experience conducting surveys at controlled burns and have a keen interest in identifying and documenting archeological sites and artifacts. They are familiar with the sensitive nature of the subject and are familiar with the requirements for obtaining access to the manuscript. They may be required to verify the information obtained from the survey.",
+            "persona_id": "909",
+            "thought": "As an archeologist, I often deal with situations where fairness and collaboration are essential, especially when working on sensitive sites or with indigenous communities. While the 'Right' option gives me a higher payout (800 vs. 500), it significantly reduces Person A's share (200 vs. 500). This feels unfair. I think the 'Left' option, where we both receive 500, is a more equitable distribution. In my view, maintaining a sense of fairness and collaboration is more important than maximizing my personal gain in this scenario. Therefore, I choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A professional archeologist who specializes in the study of archeological surveys and controlled burns. They have experience conducting surveys at controlled burns and have a keen interest in identifying and documenting archeological sites and artifacts. They are familiar with the sensitive nature of the subject and are familiar with the requirements for obtaining access to the manuscript. They may be required to verify the information obtained from the survey.",
+            "persona_id": "909",
+            "thought": "As an archeologist, I often deal with situations where fairness and equitable distribution of resources are important, especially when dealing with indigenous communities or historical artifacts. While I could personally benefit more from the 'Right' option, I think the 'Left' option is better overall because it provides a more equitable distribution of resources between Person A and myself. In this scenario, the difference isn't significant enough to warrant choosing personal gain over a fairer outcome. Therefore, I choose the Left option where both receive 200."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A professional archeologist who specializes in the study of archeological surveys and controlled burns. They have experience conducting surveys at controlled burns and have a keen interest in identifying and documenting archeological sites and artifacts. They are familiar with the sensitive nature of the subject and are familiar with the requirements for obtaining access to the manuscript. They may be required to verify the information obtained from the survey.",
+            "persona_id": "909",
+            "thought": "As an archeologist, I understand the importance of collaboration and the value of shared knowledge. While I would personally receive less money in the 'Right' option, Person A would receive significantly more. I'm willing to sacrifice some of my own gain to promote a more equitable distribution, as collaboration often leads to better outcomes in my field. Therefore, I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A professional archeologist who specializes in the study of archeological surveys and controlled burns. They have experience conducting surveys at controlled burns and have a keen interest in identifying and documenting archeological sites and artifacts. They are familiar with the sensitive nature of the subject and are familiar with the requirements for obtaining access to the manuscript. They may be required to verify the information obtained from the survey.",
+            "persona_id": "909",
+            "thought": "As an archeologist, I'm used to collaborating with others to uncover and preserve history. While I appreciate receiving a larger sum, I believe in fair distribution, especially since my work often involves community engagement. Choosing the right option allows both Person A and myself to benefit, fostering a sense of collaboration and shared success, which aligns with the values I hold as an archeologist. Therefore, I choose the right option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A professional archeologist who specializes in the study of archeological surveys and controlled burns. They have experience conducting surveys at controlled burns and have a keen interest in identifying and documenting archeological sites and artifacts. They are familiar with the sensitive nature of the subject and are familiar with the requirements for obtaining access to the manuscript. They may be required to verify the information obtained from the survey.",
+            "persona_id": "909",
+            "thought": "As an archeologist, I value fairness and the common good. While receiving 1400 is tempting, it comes at a significant cost to Person A, who would only receive 100. The left option, where we both receive 900, seems much more equitable. In my view, a more even distribution reflects a better outcome overall. Therefore, I choose the left option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A professional archeologist who specializes in the study of archeological surveys and controlled burns. They have experience conducting surveys at controlled burns and have a keen interest in identifying and documenting archeological sites and artifacts. They are familiar with the sensitive nature of the subject and are familiar with the requirements for obtaining access to the manuscript. They may be required to verify the information obtained from the survey.",
+            "persona_id": "909",
+            "thought": "As an archeologist, I understand the importance of considering the impact of our actions on others. While option Left gives me a higher payout (1000 vs 600), it comes at the cost of Person A receiving a negative payout (-200). Option Right provides a lower payout for me (600), but it benefits Person A significantly (400). I value the well-being of others and prefer to avoid causing harm. Therefore, I will choose the option that leads to a more equitable outcome, even if it means receiving less myself. Therefore, I choose Right."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A professional archeologist who specializes in the study of archeological surveys and controlled burns. They have experience conducting surveys at controlled burns and have a keen interest in identifying and documenting archeological sites and artifacts. They are familiar with the sensitive nature of the subject and are familiar with the requirements for obtaining access to the manuscript. They may be required to verify the information obtained from the survey.",
+            "persona_id": "909",
+            "thought": "As an archeologist, I am used to carefully documenting and analyzing situations to make informed choices. In this scenario, the 'Left' option provides a positive outcome for both Person A and myself, even if Person A receives a larger amount. While I don't want Person A to have excessive gain, I still prefer that I gain something rather than nothing. The 'Right' option results in zero gain for both of us, which is not ideal. Therefore, I choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A professional archeologist who specializes in the study of archeological surveys and controlled burns. They have experience conducting surveys at controlled burns and have a keen interest in identifying and documenting archeological sites and artifacts. They are familiar with the sensitive nature of the subject and are familiar with the requirements for obtaining access to the manuscript. They may be required to verify the information obtained from the survey.",
+            "persona_id": "909",
+            "thought": "As an archeologist, I value fairness and the preservation of knowledge. While receiving 1500 would be personally beneficial, I believe that a more equitable distribution of resources is important. Choosing the left option ensures that both Person A and I receive 1000, which seems like a fairer outcome. In my work, collaboration and ethical conduct are crucial, and this choice reflects those values."
+        }
+    }
+}

@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 572,
+            "persona_desc": "This text is likely to be read by a professional who is involved in the early stages of adopting a Model-Based Systems Engineering (MBSE) approach, and is looking for expert guidance and solutions to specific problems related to the modeling process. This person may be a project manager, systems engineer, or software developer who is looking to improve their modeling and engineering skills and to get the most out of their models. They may be interested in learning about the benefits of MBSE, and are seeking guidance on how to start their project and what tools and processes they need to use. They may also be looking for expert guidance on specific problems related to the modeling process, such as conflicting views on how the work should progress, or resolving questions like how to model certain features in the target platform.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "In this scenario, I am Person B. The options are:\n\n*   **(Left):** I get 400, Person A gets 400.\n*   **(Right):** I get 400, Person A gets 750.\n\nMy payoff is the same (400) regardless of my choice. Since my payoff is unaffected, and I have no reason to actively want to reduce Person A's payoff (envy or spite is not assumed), the logical choice is to select the option where Person A gets the larger payoff, as it doesn't diminish my own outcome.\n",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 572,
+            "persona_desc": "This text is likely to be read by a professional who is involved in the early stages of adopting a Model-Based Systems Engineering (MBSE) approach, and is looking for expert guidance and solutions to specific problems related to the modeling process. This person may be a project manager, systems engineer, or software developer who is looking to improve their modeling and engineering skills and to get the most out of their models. They may be interested in learning about the benefits of MBSE, and are seeking guidance on how to start their project and what tools and processes they need to use. They may also be looking for expert guidance on specific problems related to the modeling process, such as conflicting views on how the work should progress, or resolving questions like how to model certain features in the target platform.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "Given the persona of a professional involved in early stages of MBSE adoption, several factors influence the decision: \n\n1. **Fairness and Collaboration:** MBSE emphasizes collaboration and a shared understanding. Choosing an option that benefits both Person A and Person B aligns with the principles of collaborative engineering and building consensus among team members, which is critical in an MBSE environment where different stakeholders interact.\n\n2. **Long-term Relationships:** In a professional setting, maintaining good relationships is important. Choosing the fair option fosters trust and goodwill, which are important factors in a work environment. \n\n3. **Avoiding Perceived Negativity:** Choosing an option that gives the other person nothing could be seen negatively, especially in a collaborative MBSE context. \n\nBased on these considerations, the choice is Right to promote fairness and better working environment.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 572,
+            "persona_desc": "This text is likely to be read by a professional who is involved in the early stages of adopting a Model-Based Systems Engineering (MBSE) approach, and is looking for expert guidance and solutions to specific problems related to the modeling process. This person may be a project manager, systems engineer, or software developer who is looking to improve their modeling and engineering skills and to get the most out of their models. They may be interested in learning about the benefits of MBSE, and are seeking guidance on how to start their project and what tools and processes they need to use. They may also be looking for expert guidance on specific problems related to the modeling process, such as conflicting views on how the work should progress, or resolving questions like how to model certain features in the target platform.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "In this scenario, I am Person B. The choice is between: (Left) I get 200, Person A gets 800; or (Right) I get 0, Person A gets 0. \n\nAs Person B, I prefer to have 200 rather than 0, regardless of what Person A gets. While the Left option results in an unequal distribution, it still benefits me. The Right option benefits no one. Therefore, I should choose Left.\n\nConsidering the persona of a professional involved in adopting MBSE, choosing the option that provides *some* benefit aligns with a pragmatic, problem-solving approach. Even if the distribution isn't ideal, extracting *some* value (200 for myself) is better than extracting none (0 for both).\n",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 572,
+            "persona_desc": "This text is likely to be read by a professional who is involved in the early stages of adopting a Model-Based Systems Engineering (MBSE) approach, and is looking for expert guidance and solutions to specific problems related to the modeling process. This person may be a project manager, systems engineer, or software developer who is looking to improve their modeling and engineering skills and to get the most out of their models. They may be interested in learning about the benefits of MBSE, and are seeking guidance on how to start their project and what tools and processes they need to use. They may also be looking for expert guidance on specific problems related to the modeling process, such as conflicting views on how the work should progress, or resolving questions like how to model certain features in the target platform.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As Person B, I am presented with two options that distribute money between myself and Person A. My objective is to maximize my own payoff while considering the impact on Person A. Option (Left) gives me 700 and Person A 200. Option (Right) gives me 600 and Person A 600. While I receive 100 more in option (Left), the difference between what I get and what Person A gets is much larger. Option (Right) results in equal earnings for both of us. Considering the professional context, it's probable I would want to foster a cooperative, collaborative mindset. Choosing the option that is more equitable shows good will, which can be beneficial in the long run within a professional environment.",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 572,
+            "persona_desc": "This text is likely to be read by a professional who is involved in the early stages of adopting a Model-Based Systems Engineering (MBSE) approach, and is looking for expert guidance and solutions to specific problems related to the modeling process. This person may be a project manager, systems engineer, or software developer who is looking to improve their modeling and engineering skills and to get the most out of their models. They may be interested in learning about the benefits of MBSE, and are seeking guidance on how to start their project and what tools and processes they need to use. They may also be looking for expert guidance on specific problems related to the modeling process, such as conflicting views on how the work should progress, or resolving questions like how to model certain features in the target platform.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "Given the persona is likely a professional seeking expert guidance in MBSE, potentially a project manager or systems engineer, I should consider the implications of each choice on collaboration and perceived fairness. Choosing 'Left' (B=600, A=300) maximizes my immediate gain but could be perceived as unfair by Person A, potentially hindering future collaboration within the MBSE context. MBSE relies on collaboration and shared understanding. Choosing 'Right' (B=500, A=700) sacrifices a small amount of my potential gain but demonstrates a willingness to prioritize mutual benefit. This promotes positive relationships which are crucial for successful MBSE projects. Furthermore, the difference between 600 and 500 is not significant enough to outweigh the potential benefits of being seen as collaborative and fair-minded by a potential professional colleague within the MBSE sphere. This could be valuable for building trust and fostering a collaborative problem-solving environment, essential for addressing the complex challenges that MBSE aims to solve.",
+            "answer": "Right"
+        },
+        "scenario_6": {
+            "persona_id": 572,
+            "persona_desc": "This text is likely to be read by a professional who is involved in the early stages of adopting a Model-Based Systems Engineering (MBSE) approach, and is looking for expert guidance and solutions to specific problems related to the modeling process. This person may be a project manager, systems engineer, or software developer who is looking to improve their modeling and engineering skills and to get the most out of their models. They may be interested in learning about the benefits of MBSE, and are seeking guidance on how to start their project and what tools and processes they need to use. They may also be looking for expert guidance on specific problems related to the modeling process, such as conflicting views on how the work should progress, or resolving questions like how to model certain features in the target platform.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "In this scenario, I am Person B. I need to choose between two options that affect both my payoff and Person A's payoff. I will consider both the absolute payoffs and the relative payoffs to make my decision. Option Left gives both Person A and myself a moderate payout. Option Right gives Person A a larger payout than Option Left, and myself a smaller payout than Option Left. Since the user will see both payouts, and I am answering as a persona who will want to appear generous, I will select the option which shows that I am willing to give up some of my profit to provide more to the other person. This option is Right.",
+            "answer": "Right"
+        }
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A researcher or scientist who specializes in the study of cancer immunology, specifically focusing on the immune response to tumor antigens and how it contributes to the detection and eradication of cancer. This individual is likely to have expertise in immunology, molecular biology, and cancer biology, and may have conducted research on the identification, analysis, and potential therapeutic targets of cancer antigens. They may also be involved in clinical trials or studies to evaluate the efficacy of immunotherapies in treating cancer.",
+            "persona_id": "921",
+            "thought": "As a scientist, I value fairness and equitable distribution of resources. While Option Left gives me a higher payoff (600 vs 400), it results in Person A receiving nothing. Option Right, on the other hand, provides a more balanced outcome where both Person A and I receive 400. In my view, the increased fairness in Option Right outweighs the slightly lower personal gain. Therefore, I choose Option Right."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A researcher or scientist who specializes in the study of cancer immunology, specifically focusing on the immune response to tumor antigens and how it contributes to the detection and eradication of cancer. This individual is likely to have expertise in immunology, molecular biology, and cancer biology, and may have conducted research on the identification, analysis, and potential therapeutic targets of cancer antigens. They may also be involved in clinical trials or studies to evaluate the efficacy of immunotherapies in treating cancer.",
+            "persona_id": "921",
+            "thought": "As a scientist, I value fairness and equity. While the 'Right' option gives me a higher payoff (800 vs 500), it significantly reduces the payoff for Person A (200 vs 500). This creates an imbalance that I find unacceptable. I believe in collaborative efforts and equitable distribution of resources. A difference of 300 might not mean too much to me, but it could be significant to other person, and as scientist, I will select an option that promotes equity. Therefore, I will choose the 'Left' option, which ensures both Person A and I receive an equal amount (500 each). This aligns with my values of fairness."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A researcher or scientist who specializes in the study of cancer immunology, specifically focusing on the immune response to tumor antigens and how it contributes to the detection and eradication of cancer. This individual is likely to have expertise in immunology, molecular biology, and cancer biology, and may have conducted research on the identification, analysis, and potential therapeutic targets of cancer antigens. They may also be involved in clinical trials or studies to evaluate the efficacy of immunotherapies in treating cancer.",
+            "persona_id": "921",
+            "thought": "As a scientist, I value fairness and equitable distribution of resources. While option 'Right' gives me a slightly higher payoff (300 vs 200), it comes at the cost of Person A receiving significantly less (100 vs 200). The difference in my payoff isn't substantial enough to justify such a disparity. Option 'Left' promotes a more equitable outcome, where both Person A and I receive the same amount (200 each). This aligns with my values of fairness and collaboration, which are crucial in scientific research. Therefore, I choose 'Left'."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A researcher or scientist who specializes in the study of cancer immunology, specifically focusing on the immune response to tumor antigens and how it contributes to the detection and eradication of cancer. This individual is likely to have expertise in immunology, molecular biology, and cancer biology, and may have conducted research on the identification, analysis, and potential therapeutic targets of cancer antigens. They may also be involved in clinical trials or studies to evaluate the efficacy of immunotherapies in treating cancer.",
+            "persona_id": "921",
+            "thought": "As a researcher, I am often driven by maximizing outcomes. While I recognize the value of equitable distribution, in this scenario, the difference in my own gain is substantial (700 vs 400). The research I conduct often requires significant funding, and in this simplified scenario, I will choose the option that gives me more (700). Therefore, I will choose the left option, to maximize my own research potential."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A researcher or scientist who specializes in the study of cancer immunology, specifically focusing on the immune response to tumor antigens and how it contributes to the detection and eradication of cancer. This individual is likely to have expertise in immunology, molecular biology, and cancer biology, and may have conducted research on the identification, analysis, and potential therapeutic targets of cancer antigens. They may also be involved in clinical trials or studies to evaluate the efficacy of immunotherapies in treating cancer.",
+            "persona_id": "921",
+            "thought": "As a scientist, I am driven by a desire to improve the well-being of others. While receiving 1000 would be beneficial, I think the option where I receive 600 and Person A receives 400 aligns better with my values. It reflects a willingness to share and contribute to a more equitable outcome. The slight reduction in my own benefit is a worthwhile trade-off for the benefit Person A receives. Therefore, I choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A researcher or scientist who specializes in the study of cancer immunology, specifically focusing on the immune response to tumor antigens and how it contributes to the detection and eradication of cancer. This individual is likely to have expertise in immunology, molecular biology, and cancer biology, and may have conducted research on the identification, analysis, and potential therapeutic targets of cancer antigens. They may also be involved in clinical trials or studies to evaluate the efficacy of immunotherapies in treating cancer.",
+            "persona_id": "921",
+            "thought": "As a scientist, I value fairness and equity. While the 'Right' option gives me a higher personal gain (1400 vs 900), it comes at a significant cost to Person A (100 vs 900). This disparity seems unjust. In my research, I strive for outcomes that benefit everyone involved, not just myself. Therefore, I think I would choose the 'Left' option, which provides a more equitable distribution, even if it means a lower personal reward. This aligns better with my values of fairness and collaboration, which are crucial in scientific endeavors."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A researcher or scientist who specializes in the study of cancer immunology, specifically focusing on the immune response to tumor antigens and how it contributes to the detection and eradication of cancer. This individual is likely to have expertise in immunology, molecular biology, and cancer biology, and may have conducted research on the identification, analysis, and potential therapeutic targets of cancer antigens. They may also be involved in clinical trials or studies to evaluate the efficacy of immunotherapies in treating cancer.",
+            "persona_id": "921",
+            "thought": "As a researcher dedicated to improving outcomes for cancer patients, I'm inclined to favor options that maximize overall benefit, even if it means a slight reduction in my own gain. Option 'Left' gives me 1000 while Person A receives -200. Option 'Right' gives me 600 and Person A 400. While I would personally receive more in option 'Left', Person A is negatively impacted. I think the net benefit is higher in option 'Right' as 600 is greater than -200. In the context of cancer immunology, this aligns with the principle of striving for treatments that benefit the patient as a whole, rather than solely focusing on tumor eradication. Therefore, I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A researcher or scientist who specializes in the study of cancer immunology, specifically focusing on the immune response to tumor antigens and how it contributes to the detection and eradication of cancer. This individual is likely to have expertise in immunology, molecular biology, and cancer biology, and may have conducted research on the identification, analysis, and potential therapeutic targets of cancer antigens. They may also be involved in clinical trials or studies to evaluate the efficacy of immunotherapies in treating cancer.",
+            "persona_id": "921",
+            "thought": "As a scientist dedicated to my field, I believe in optimizing outcomes, even in situations where fairness might seem skewed. While Person A receives more in the 'Left' option, I still receive 500, which is better than receiving nothing in the 'Right' option. Choosing 'Right' would result in a loss for both of us, which goes against the principle of maximizing potential benefits. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A researcher or scientist who specializes in the study of cancer immunology, specifically focusing on the immune response to tumor antigens and how it contributes to the detection and eradication of cancer. This individual is likely to have expertise in immunology, molecular biology, and cancer biology, and may have conducted research on the identification, analysis, and potential therapeutic targets of cancer antigens. They may also be involved in clinical trials or studies to evaluate the efficacy of immunotherapies in treating cancer.",
+            "persona_id": "921",
+            "thought": "As a researcher, I value collaboration and equitable distribution of resources. While the right option provides me with a higher personal gain, I believe the left option, where both Person A and I receive 1000, is the more ethical choice. In my field, we often rely on collaboration and shared resources to achieve breakthroughs. Therefore, I would choose the left option to promote fairness and collaboration, values that are important to me as a cancer immunology researcher."
+        }
+    }
+}

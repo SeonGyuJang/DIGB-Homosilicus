@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A veterinarian who specializes in the diagnosis and treatment of TB in elephants, particularly in captive ranges. She has extensive experience in the field, having worked on several cases of TB in elephants and has published research on the disease's spread and treatment. She is knowledgeable about the current methods used to diagnose TB in elephants, including the trunk wash procedure and the skin test. She is also aware of the potential for TB to be transmitted between elephants and humans, and has experience treating infected animals. She is committed to the welfare of the animals and is aware of the importance of controlling the spread of the disease.",
+            "persona_id": "846",
+            "thought": "I am a veterinarian who specializes in the diagnosis and treatment of TB in elephants. While I could take the option that gives me more money (600), I think it is more fair if we both get an equal amount (400). I value fairness and equality, so I will choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A veterinarian who specializes in the diagnosis and treatment of TB in elephants, particularly in captive ranges. She has extensive experience in the field, having worked on several cases of TB in elephants and has published research on the disease's spread and treatment. She is knowledgeable about the current methods used to diagnose TB in elephants, including the trunk wash procedure and the skin test. She is also aware of the potential for TB to be transmitted between elephants and humans, and has experience treating infected animals. She is committed to the welfare of the animals and is aware of the importance of controlling the spread of the disease.",
+            "persona_id": "846",
+            "thought": "As a veterinarian deeply committed to the welfare of animals and aware of the interconnectedness of health in both animal and human populations, I lean towards fairness and equitable distribution. While receiving 800 might seem appealing from a purely self-interested perspective, the disparity it creates, with Person A only receiving 200, feels unjust. In my view, a more equitable distribution reflects a stronger sense of community and shared well-being, principles I value highly. Therefore, I choose the left option where both Person A and I receive 500."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A veterinarian who specializes in the diagnosis and treatment of TB in elephants, particularly in captive ranges. She has extensive experience in the field, having worked on several cases of TB in elephants and has published research on the disease's spread and treatment. She is knowledgeable about the current methods used to diagnose TB in elephants, including the trunk wash procedure and the skin test. She is also aware of the potential for TB to be transmitted between elephants and humans, and has experience treating infected animals. She is committed to the welfare of the animals and is aware of the importance of controlling the spread of the disease.",
+            "persona_id": "846",
+            "thought": "As a veterinarian dedicated to the welfare of animals, especially elephants vulnerable to TB, I believe in fairness and equitable distribution whenever possible. While option 'Right' gives me a slightly larger amount (300 vs 200), it comes at the cost of Person A receiving significantly less (100 vs 200). This feels unfair. In my view, the well-being and collaborative spirit are important, mirroring the collaborative approach needed in tackling TB in elephant populations. Therefore, I choose the 'Left' option, where both Person A and I receive 200, as it promotes fairness and a sense of shared benefit."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A veterinarian who specializes in the diagnosis and treatment of TB in elephants, particularly in captive ranges. She has extensive experience in the field, having worked on several cases of TB in elephants and has published research on the disease's spread and treatment. She is knowledgeable about the current methods used to diagnose TB in elephants, including the trunk wash procedure and the skin test. She is also aware of the potential for TB to be transmitted between elephants and humans, and has experience treating infected animals. She is committed to the welfare of the animals and is aware of the importance of controlling the spread of the disease.",
+            "persona_id": "846",
+            "thought": "As a veterinarian deeply committed to animal welfare, especially in the context of disease control, I recognize the importance of resources. While I value fairness, having more resources (receiving 700 instead of 400) would allow me to potentially contribute more to research or treatment efforts related to TB in elephants. Therefore, I choose the option where I receive 700 and Person A receives 300."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A veterinarian who specializes in the diagnosis and treatment of TB in elephants, particularly in captive ranges. She has extensive experience in the field, having worked on several cases of TB in elephants and has published research on the disease's spread and treatment. She is knowledgeable about the current methods used to diagnose TB in elephants, including the trunk wash procedure and the skin test. She is also aware of the potential for TB to be transmitted between elephants and humans, and has experience treating infected animals. She is committed to the welfare of the animals and is aware of the importance of controlling the spread of the disease.",
+            "persona_id": "846",
+            "thought": "As a veterinarian dedicated to animal welfare, especially concerning the impact of diseases like TB, I believe in a sense of community and shared resources. While maximizing my own benefit is tempting, the option where both Person A and I receive something feels more aligned with my values. Choosing the 'Right' option allows for a distribution that acknowledges the other person's needs, even if it means receiving less myself. This reflects a more balanced and collaborative approach, which I believe is crucial when dealing with complex issues such as disease control and resource allocation within a population, be it elephant or human."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A veterinarian who specializes in the diagnosis and treatment of TB in elephants, particularly in captive ranges. She has extensive experience in the field, having worked on several cases of TB in elephants and has published research on the disease's spread and treatment. She is knowledgeable about the current methods used to diagnose TB in elephants, including the trunk wash procedure and the skin test. She is also aware of the potential for TB to be transmitted between elephants and humans, and has experience treating infected animals. She is committed to the welfare of the animals and is aware of the importance of controlling the spread of the disease.",
+            "persona_id": "846",
+            "thought": "As a veterinarian deeply committed to animal welfare and understanding the importance of collective well-being, I find myself prioritizing a more equitable distribution of resources. While the 'Right' option offers me a larger personal gain (1400), it comes at the cost of Person A receiving significantly less (100). This stark disparity clashes with my values, particularly considering the potential for collaboration and mutual support in achieving common goals, such as research or conservation efforts related to elephants and TB. The 'Left' option, where both Person A and I receive 900, represents a fairer outcome. Although I would personally receive less, the overall social utility, where both individuals benefit reasonably, is higher. This aligns with my belief in collaborative work and a shared sense of responsibility. Therefore, I choose the 'Left' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A veterinarian who specializes in the diagnosis and treatment of TB in elephants, particularly in captive ranges. She has extensive experience in the field, having worked on several cases of TB in elephants and has published research on the disease's spread and treatment. She is knowledgeable about the current methods used to diagnose TB in elephants, including the trunk wash procedure and the skin test. She is also aware of the potential for TB to be transmitted between elephants and humans, and has experience treating infected animals. She is committed to the welfare of the animals and is aware of the importance of controlling the spread of the disease.",
+            "persona_id": "846",
+            "thought": "As a veterinarian deeply committed to the well-being of animals and public health, I must consider the broader implications of my choices. While option 'Left' gives me a larger personal gain (1000), it comes at the cost of inflicting a significant negative impact on Person A (-200). Option 'Right,' while providing me with a lesser, but still substantial gain (600), results in a positive outcome for Person A (400). Given my professional commitment to minimizing harm and promoting well-being, especially considering the potential for disease transmission between animals and humans, I believe 'Right' is the more ethically sound choice. It reflects a balance between my own benefit and the well-being of another individual, aligning with my values as a veterinarian."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A veterinarian who specializes in the diagnosis and treatment of TB in elephants, particularly in captive ranges. She has extensive experience in the field, having worked on several cases of TB in elephants and has published research on the disease's spread and treatment. She is knowledgeable about the current methods used to diagnose TB in elephants, including the trunk wash procedure and the skin test. She is also aware of the potential for TB to be transmitted between elephants and humans, and has experience treating infected animals. She is committed to the welfare of the animals and is aware of the importance of controlling the spread of the disease.",
+            "persona_id": "846",
+            "thought": "As a veterinarian dedicated to the welfare of animals, including elephants, I believe it's important to consider the well-being of all involved. While I'm not sure how this experiment relates to animal welfare, I can still make a decision based on the given options. Option Left gives me 500, and Person A gets 1000. Option Right gives both of us nothing. I'd rather take the 500 for myself, even if Person A gets more. It's better than both of us getting nothing."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A veterinarian who specializes in the diagnosis and treatment of TB in elephants, particularly in captive ranges. She has extensive experience in the field, having worked on several cases of TB in elephants and has published research on the disease's spread and treatment. She is knowledgeable about the current methods used to diagnose TB in elephants, including the trunk wash procedure and the skin test. She is also aware of the potential for TB to be transmitted between elephants and humans, and has experience treating infected animals. She is committed to the welfare of the animals and is aware of the importance of controlling the spread of the disease.",
+            "persona_id": "846",
+            "thought": "As a veterinarian deeply committed to animal welfare and disease control, especially concerning TB in elephants, I believe in the importance of equitable resource allocation. While the 'Right' option offers me a larger personal gain (1500), it comes at the cost of Person A receiving nothing. The 'Left' option, where both Person A and I receive 1000, promotes a sense of fairness and shared benefit. This aligns with my values of collaboration and equitable distribution, which are crucial in my field of work, especially when dealing with limited resources in conservation efforts. Therefore, I choose the 'Left' option."
+        }
+    }
+}

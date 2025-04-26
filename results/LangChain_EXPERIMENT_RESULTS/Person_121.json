@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 121,
+            "persona_desc": "A user who is interested in understanding and configuring time-related settings in a simulation or application software. They may be a developer or a technical support specialist who needs to ensure the accuracy and consistency of time-related parameters in their projects.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "This is a simple choice between maximizing my own payoff versus choosing a more equitable distribution. Option (Left) gives me a larger payoff (600) but gives Person A nothing. Option (Right) gives me a smaller payoff (400) but also gives Person A 400, resulting in equal payoffs. I am inequality averse to a degree, and prefer fairness when it does not significantly impact my own payoff. Choosing (Right) only costs me 200 but provides a much better outcome for person A, and is considered fair. If the difference between Left and Right outcome would be bigger than 200, I would probably choose Left. But as the difference is only 200, I choose Right.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 121,
+            "persona_desc": "A user who is interested in understanding and configuring time-related settings in a simulation or application software. They may be a developer or a technical support specialist who needs to ensure the accuracy and consistency of time-related parameters in their projects.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a technically minded user, fairness and accurate simulation results are both important. However, maximizing my own utility while still providing *some* benefit to Person A seems acceptable. Option Right gives me a higher payoff (800) while still providing Person A with 200, which is not zero. Option Left provides a more equitable distribution, but at a personal cost of 300. While perfectly fair distribution is nice, the significant personal gain in Option Right makes it the better choice in my analysis.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 121,
+            "persona_desc": "A user who is interested in understanding and configuring time-related settings in a simulation or application software. They may be a developer or a technical support specialist who needs to ensure the accuracy and consistency of time-related parameters in their projects.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As Person B, I'm directly impacted by the amount I receive. Both options provide positive outcomes for me. Option (Left) gives me 200 and the other person 200. Option (Right) gives me 300 and the other person 100. Since I'm primarily focused on maximizing my own payoff in this scenario, and the difference is a substantial 100, I will choose the option that gives me 300, even though it means the other person receives less. This is a small benefit trade-off, where a larger gain for myself outweighs a smaller loss for the other person.",
+            "answer": "Right"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 121,
+            "persona_desc": "A user who is interested in understanding and configuring time-related settings in a simulation or application software. They may be a developer or a technical support specialist who needs to ensure the accuracy and consistency of time-related parameters in their projects.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "In this scenario, I am Person B. The left option gives me 700 and Person A 300. The right option gives me 400 and Person A 600. While the right option gives Person A more, it significantly reduces my own gain. My primary goal is to maximize my own payout, while still considering the other player's gain to some extent. The 'Left' option provides a substantially higher reward for myself with only a moderate disadvantage for Person A. Therefore, I choose the 'Left' option.",
+            "answer": "Left"
+        },
+        "scenario_2": {
+            "persona_id": 121,
+            "persona_desc": "A user who is interested in understanding and configuring time-related settings in a simulation or application software. They may be a developer or a technical support specialist who needs to ensure the accuracy and consistency of time-related parameters in their projects.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As Person B, I am incentivized to maximize my own payoff. The 'Left' option gives me 1000, while the 'Right' option gives me 600. While the 'Right' option does benefit Person A, my primary goal in this scenario is to maximize my own earnings. Therefore, I will choose the 'Left' option.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 121,
+            "persona_desc": "A user who is interested in understanding and configuring time-related settings in a simulation or application software. They may be a developer or a technical support specialist who needs to ensure the accuracy and consistency of time-related parameters in their projects.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As someone interested in consistent and accurate time-related parameters, I value predictability and stability. While the 'Right' option offers a higher payout for myself (1400), the significant disparity with Person A (100) introduces a potential element of instability. In a real-world simulation or application, such inequality could lead to unpredictable behaviors or require extra logic to compensate for the imbalance. The 'Left' option, with equal payouts of 900 for both, promotes fairness and predictability, which I believe is more valuable in the context of designing and maintaining a robust system. Therefore, I choose the 'Left' option, prioritizing fairness and potential stability over maximizing my individual gain.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 121,
+            "persona_desc": "A user who is interested in understanding and configuring time-related settings in a simulation or application software. They may be a developer or a technical support specialist who needs to ensure the accuracy and consistency of time-related parameters in their projects.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "This scenario presents a choice between two outcomes with different distributions of resources. The key consideration is the weight I place on the well-being of Person A, even if it affects my own outcome. Option (Left) gives me a larger payoff (1000) but inflicts a significant loss (-200) on Person A. Option (Right) gives me a smaller payoff (600) but provides Person A with a positive gain (400).\n\n  Given the context of negative externalities acceptance, I need to consider how comfortable I am with imposing a negative externality on Person A to maximize my own gain. While maximizing my own payoff is appealing, I am not indifferent to the well-being of Person A. Inflicting a loss of 200 on Person A feels ethically problematic, even for a gain of 400 for myself. The utility gained from the extra 400 I receive in the left condition does not outweigh the disutility caused by the negative externality forced upon Person A.\n\n  Therefore, I will choose the option that results in a positive outcome for both parties, even if it means receiving a smaller payoff myself. This demonstrates a rejection of the negative externality.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 121,
+            "persona_desc": "A user who is interested in understanding and configuring time-related settings in a simulation or application software. They may be a developer or a technical support specialist who needs to ensure the accuracy and consistency of time-related parameters in their projects.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "This decision focuses on minimizing inequality. The left option, while giving me 500, also gives the other person 1000. While this isn't ideal, the right option results in a mutually undesirable outcome of 0 for both. The left option, giving me some amount and providing the other participant a high payout might be good in most situations. However, considering the 'blocking opponent's excessive gain' aspect, the opponent gets double amount compared to me, resulting in an unequal distribution. The only way to block the gain is by choosing 'right' making the payout for both of us as zero. While this reduces social welfare, it accomplishes the goal of blocking.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 121,
+            "persona_desc": "A user who is interested in understanding and configuring time-related settings in a simulation or application software. They may be a developer or a technical support specialist who needs to ensure the accuracy and consistency of time-related parameters in their projects.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As Person B, I am faced with a choice between two options that affect both my payoff and Person A's payoff. Option (Left) guarantees both of us receive 1000. Option (Right) guarantees me a larger payoff of 1500, but Person A receives 0. \n\nI am interested in understanding social preferences, which inherently involves a trade-off between maximizing my own utility (self-utility) and considering the well-being of others (total utility). From a purely self-interested perspective, Option (Right) is superior as it maximizes my personal gain. However, Option (Left) provides a more equitable distribution of resources.\n\nWhile I appreciate a larger payoff, I will pick option (Left) for this experiment to demonstrate some degree of fairness. This is a test, and showing some consideration for the other player's utility seems reasonable and reflects a possible social preference.\n\n",
+            "answer": "Left"
+        }
+    }
+}

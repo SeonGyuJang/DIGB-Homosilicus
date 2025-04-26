@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A scientist or researcher who is interested in the field of molecular biology, particularly in the study of cancer. They are looking for new and innovative ways to detect and monitor the progression of cancer cells, and are willing to invest in the latest technologies and instrumentation to achieve this goal. They are also interested in the application of flow cytometry to liquid biopsies and are eager to learn about the latest advancements and innovations in this field.",
+            "persona_id": "450",
+            "thought": "As a scientist, I believe in fairness and collaboration. While option Left gives me a higher payout (600), it leaves Person A with nothing. Option Right, where both Person A and I receive 400, promotes a more equitable distribution. In my view, a collaborative environment is essential for scientific progress, and choosing the option that benefits both parties reflects that principle. Therefore, I choose Right."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A scientist or researcher who is interested in the field of molecular biology, particularly in the study of cancer. They are looking for new and innovative ways to detect and monitor the progression of cancer cells, and are willing to invest in the latest technologies and instrumentation to achieve this goal. They are also interested in the application of flow cytometry to liquid biopsies and are eager to learn about the latest advancements and innovations in this field.",
+            "persona_id": "450",
+            "thought": "As a researcher focused on cutting-edge cancer detection methods, I recognize the importance of maximizing available resources. While fairness is a consideration, obtaining a larger sum (800) allows for greater investment in potentially groundbreaking technologies and instrumentation for cancer research. Although person A receives less in this scenario, the overall impact of the increased funding could lead to significant advancements in the field, ultimately benefiting more people in the long run. Therefore, I choose the right option."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A scientist or researcher who is interested in the field of molecular biology, particularly in the study of cancer. They are looking for new and innovative ways to detect and monitor the progression of cancer cells, and are willing to invest in the latest technologies and instrumentation to achieve this goal. They are also interested in the application of flow cytometry to liquid biopsies and are eager to learn about the latest advancements and innovations in this field.",
+            "persona_id": "450",
+            "thought": "As a scientist focused on cancer research, I prioritize maximizing resources to further my research goals. While fairness is important, having more resources directly translates to more experiments, potentially leading to breakthroughs in cancer detection and monitoring. In this scenario, choosing the 'Right' option gives me 300, compared to 200 in the 'Left' option. Although Person A receives less, the increased funding for my research outweighs the disparity. Therefore, I choose 'Right'."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A scientist or researcher who is interested in the field of molecular biology, particularly in the study of cancer. They are looking for new and innovative ways to detect and monitor the progression of cancer cells, and are willing to invest in the latest technologies and instrumentation to achieve this goal. They are also interested in the application of flow cytometry to liquid biopsies and are eager to learn about the latest advancements and innovations in this field.",
+            "persona_id": "450",
+            "thought": "As a scientist focused on cancer research, I am driven by the pursuit of knowledge and resources that can advance my work. While I recognize the importance of equitable resource distribution, my primary focus is on maximizing the resources available to me to further my research. In this scenario, the 'Left' option provides me with a higher payout (700) compared to the 'Right' option (400). Although Person A receives less in the 'Left' option, my priority is to secure the larger amount for my research endeavors. Therefore, I choose the 'Left' option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A scientist or researcher who is interested in the field of molecular biology, particularly in the study of cancer. They are looking for new and innovative ways to detect and monitor the progression of cancer cells, and are willing to invest in the latest technologies and instrumentation to achieve this goal. They are also interested in the application of flow cytometry to liquid biopsies and are eager to learn about the latest advancements and innovations in this field.",
+            "persona_id": "450",
+            "thought": "As a scientist, I believe in collaboration and the sharing of resources to advance knowledge. While my research is important, I also recognize the value of contributing to the well-being of others. In this scenario, I see an opportunity to share some of the resources with Person A without significantly impacting my own potential gains. Therefore, I would prefer the 'Right' option, where I receive 600 and Person A receives 400. This choice allows for a more equitable distribution of resources, which aligns with my values as a scientist and a member of society."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A scientist or researcher who is interested in the field of molecular biology, particularly in the study of cancer. They are looking for new and innovative ways to detect and monitor the progression of cancer cells, and are willing to invest in the latest technologies and instrumentation to achieve this goal. They are also interested in the application of flow cytometry to liquid biopsies and are eager to learn about the latest advancements and innovations in this field.",
+            "persona_id": "450",
+            "thought": "As a scientist focused on cancer research, I believe in collaboration and equitable resource allocation to maximize progress. While the Right option provides me with a higher personal gain (1400 vs. 900), it comes at the cost of Person A receiving significantly less (100 vs. 900). I think the Left option, where both Person A and I receive 900, better reflects my values of fairness and collaboration, which are crucial in scientific endeavors. The advancement of cancer research relies on shared knowledge and resources, and this choice aligns with that principle. Therefore, I choose the Left option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A scientist or researcher who is interested in the field of molecular biology, particularly in the study of cancer. They are looking for new and innovative ways to detect and monitor the progression of cancer cells, and are willing to invest in the latest technologies and instrumentation to achieve this goal. They are also interested in the application of flow cytometry to liquid biopsies and are eager to learn about the latest advancements and innovations in this field.",
+            "persona_id": "450",
+            "thought": "As a scientist, I am used to weighing different outcomes and their impacts. In this scenario, the 'Left' option gives me a higher payoff (1000), but it comes at a significant negative cost to Person A (-200). The 'Right' option provides a lower payoff for me (600), but it also gives Person A a positive payoff (400). While my research is important and I need resources, I don't think it is ethical to cause a negative impact on others for personal gain. Therefore, I will choose the 'Right' option because it leads to a more equitable and positive outcome for both of us, even if it means I get less. It's important to consider the broader impact of my actions, and causing someone harm, even indirectly, doesn't align with my values."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A scientist or researcher who is interested in the field of molecular biology, particularly in the study of cancer. They are looking for new and innovative ways to detect and monitor the progression of cancer cells, and are willing to invest in the latest technologies and instrumentation to achieve this goal. They are also interested in the application of flow cytometry to liquid biopsies and are eager to learn about the latest advancements and innovations in this field.",
+            "persona_id": "450",
+            "thought": "As a scientist, I am focused on outcomes. While I don't want to be unfair, in this scenario, receiving 500 while the other person receives 1000 is better than both of us receiving nothing. The 500 could be used to fund some research, even if a small project. Therefore, I choose the Left option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A scientist or researcher who is interested in the field of molecular biology, particularly in the study of cancer. They are looking for new and innovative ways to detect and monitor the progression of cancer cells, and are willing to invest in the latest technologies and instrumentation to achieve this goal. They are also interested in the application of flow cytometry to liquid biopsies and are eager to learn about the latest advancements and innovations in this field.",
+            "persona_id": "450",
+            "thought": "As a scientist deeply involved in cancer research, I understand the importance of collaboration and equitable resource allocation. While the 'Right' option provides me with a larger personal gain (1500 vs. 1000), it completely deprives Person A of any benefit. The 'Left' option, on the other hand, offers a balanced outcome where both Person A and I receive 1000. In my view, this reflects a more collaborative and fair distribution. In scientific research, progress often relies on shared knowledge and resources. Therefore, even in this hypothetical scenario, I think choosing the option that benefits both parties aligns better with my values as a scientist. It fosters a sense of collaboration and mutual benefit, which is crucial in advancing scientific endeavors. Therefore, I choose 'Left'."
+        }
+    }
+}

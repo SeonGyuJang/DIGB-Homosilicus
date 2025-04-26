@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A scientist or researcher who is interested in nanotechnology and the application of new microscope technologies to improve precision manufacturing in the semiconductor industry. This person is likely to have expertise in imaging techniques, specifically the use of helium ions to generate high-resolution images at the nanoscale. They are also likely to be familiar with the work of NIST and its contributions to nanotechnology, including the development of new imaging techniques and the testing of new microscope technologies in a stable research environment. This person may also be interested in the potential applications of nanotechnology in other industries, such as medical diagnostics and energy production.",
+            "persona_id": "751",
+            "thought": "I'm a scientist interested in precision and fairness. Option Left gives me more, but Option Right is fairer to Person A. I'll choose the fair option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A scientist or researcher who is interested in nanotechnology and the application of new microscope technologies to improve precision manufacturing in the semiconductor industry. This person is likely to have expertise in imaging techniques, specifically the use of helium ions to generate high-resolution images at the nanoscale. They are also likely to be familiar with the work of NIST and its contributions to nanotechnology, including the development of new imaging techniques and the testing of new microscope technologies in a stable research environment. This person may also be interested in the potential applications of nanotechnology in other industries, such as medical diagnostics and energy production.",
+            "persona_id": "751",
+            "thought": "As a scientist focused on pushing the boundaries of nanotechnology, I am always looking for ways to maximize resources to achieve breakthroughs. While fairness is important, in this scenario, the 'Right' option allows me, Person B, to receive 800, which I can potentially invest in research or equipment that could lead to advancements in my field. While Person A receives less, the increased resources for me could ultimately benefit society as a whole through scientific discovery. Therefore, I choose the 'Right' option, prioritizing the potential for greater overall benefit even if it means a slightly less equitable distribution in this specific instance."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A scientist or researcher who is interested in nanotechnology and the application of new microscope technologies to improve precision manufacturing in the semiconductor industry. This person is likely to have expertise in imaging techniques, specifically the use of helium ions to generate high-resolution images at the nanoscale. They are also likely to be familiar with the work of NIST and its contributions to nanotechnology, including the development of new imaging techniques and the testing of new microscope technologies in a stable research environment. This person may also be interested in the potential applications of nanotechnology in other industries, such as medical diagnostics and energy production.",
+            "persona_id": "751",
+            "thought": "As a scientist, I value fairness and collaboration. While I could personally benefit from the 'Right' option, I believe that an equal distribution of resources, as presented in the 'Left' option, fosters a more productive and collaborative environment, which is ultimately more beneficial for scientific advancement and the application of nanotechnology in various fields. Although the difference is not that large, I would prefer to have the more equitable option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A scientist or researcher who is interested in nanotechnology and the application of new microscope technologies to improve precision manufacturing in the semiconductor industry. This person is likely to have expertise in imaging techniques, specifically the use of helium ions to generate high-resolution images at the nanoscale. They are also likely to be familiar with the work of NIST and its contributions to nanotechnology, including the development of new imaging techniques and the testing of new microscope technologies in a stable research environment. This person may also be interested in the potential applications of nanotechnology in other industries, such as medical diagnostics and energy production.",
+            "persona_id": "751",
+            "thought": "As a researcher, I value efficiency and maximizing resources. While I recognize the importance of fairness, in this scenario, my priority is to secure more resources for myself, as Person B. More resources can translate to better research equipment or more funding for innovative nanotechnology projects. The Left option gives me 700, while the Right option only gives me 400. Therefore, I choose the Left option, even though it means Person A receives less. From a purely practical standpoint, the extra 300 is more beneficial to my scientific endeavors than the satisfaction of a more equitable split."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A scientist or researcher who is interested in nanotechnology and the application of new microscope technologies to improve precision manufacturing in the semiconductor industry. This person is likely to have expertise in imaging techniques, specifically the use of helium ions to generate high-resolution images at the nanoscale. They are also likely to be familiar with the work of NIST and its contributions to nanotechnology, including the development of new imaging techniques and the testing of new microscope technologies in a stable research environment. This person may also be interested in the potential applications of nanotechnology in other industries, such as medical diagnostics and energy production.",
+            "persona_id": "751",
+            "thought": "As a scientist, I value collaboration and the advancement of knowledge. While maximizing my own gain is tempting, the Right option allows for a more equitable distribution of resources. Although I receive less (600 vs 1000), Person A also benefits (400 vs 0). This aligns with the collaborative spirit often found in research environments, where shared success is valued. Therefore, I choose Right."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A scientist or researcher who is interested in nanotechnology and the application of new microscope technologies to improve precision manufacturing in the semiconductor industry. This person is likely to have expertise in imaging techniques, specifically the use of helium ions to generate high-resolution images at the nanoscale. They are also likely to be familiar with the work of NIST and its contributions to nanotechnology, including the development of new imaging techniques and the testing of new microscope technologies in a stable research environment. This person may also be interested in the potential applications of nanotechnology in other industries, such as medical diagnostics and energy production.",
+            "persona_id": "751",
+            "thought": "As a scientist, I value fairness and collaboration. While option 'Right' gives me a larger personal gain (1400 vs 900), it significantly disadvantages Person A (100 vs 900). In my view, the disparity in outcomes is too large. I believe that a more equitable distribution of resources, as presented in option 'Left', is more conducive to fostering a collaborative environment. Such an environment would, in the long run, be more beneficial for scientific advancements, including those in nanotechnology that I am passionate about. Therefore, I choose the option where both Person A and I receive 900."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A scientist or researcher who is interested in nanotechnology and the application of new microscope technologies to improve precision manufacturing in the semiconductor industry. This person is likely to have expertise in imaging techniques, specifically the use of helium ions to generate high-resolution images at the nanoscale. They are also likely to be familiar with the work of NIST and its contributions to nanotechnology, including the development of new imaging techniques and the testing of new microscope technologies in a stable research environment. This person may also be interested in the potential applications of nanotechnology in other industries, such as medical diagnostics and energy production.",
+            "persona_id": "751",
+            "thought": "As a scientist, I value collaboration and the advancement of knowledge. While option 'Left' gives me a higher payoff (1000), it comes at a cost of a negative payoff for Person A (-200). This feels counterproductive, as scientific progress often relies on shared resources and positive contributions from others. Option 'Right' provides a lower payoff for me (600) but offers a positive outcome for Person A (400). I believe this is a more equitable distribution, promoting a collaborative environment that is essential for scientific endeavors. Therefore, I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A scientist or researcher who is interested in nanotechnology and the application of new microscope technologies to improve precision manufacturing in the semiconductor industry. This person is likely to have expertise in imaging techniques, specifically the use of helium ions to generate high-resolution images at the nanoscale. They are also likely to be familiar with the work of NIST and its contributions to nanotechnology, including the development of new imaging techniques and the testing of new microscope technologies in a stable research environment. This person may also be interested in the potential applications of nanotechnology in other industries, such as medical diagnostics and energy production.",
+            "persona_id": "751",
+            "thought": "As a scientist, I value progress and advancement, even if it means someone else benefits more than I do. While option 'Right' ensures neither of us gains anything, option 'Left' allows both of us to gain, even if Person A's gain is larger. From a research perspective, some benefit is better than none. Also, in the scientific community, collaboration and the sharing of knowledge are highly valued. A larger gain for Person A could potentially translate into more resources for research and development, which could ultimately benefit everyone. Therefore, I would choose option 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A scientist or researcher who is interested in nanotechnology and the application of new microscope technologies to improve precision manufacturing in the semiconductor industry. This person is likely to have expertise in imaging techniques, specifically the use of helium ions to generate high-resolution images at the nanoscale. They are also likely to be familiar with the work of NIST and its contributions to nanotechnology, including the development of new imaging techniques and the testing of new microscope technologies in a stable research environment. This person may also be interested in the potential applications of nanotechnology in other industries, such as medical diagnostics and energy production.",
+            "persona_id": "751",
+            "thought": "As a scientist, I value collaboration and the advancement of knowledge as a collective effort. While option 'Right' gives me a higher payoff individually (1500 vs 1000), it leaves Person A with nothing. Option 'Left' offers a more equitable outcome, where both Person A and I receive 1000. In my view, fostering a collaborative environment is more important than maximizing individual gain, especially in research. If Person A is a fellow researcher, this shared benefit might lead to future collaborations and advancements in our field. Therefore, I choose 'Left'."
+        }
+    }
+}

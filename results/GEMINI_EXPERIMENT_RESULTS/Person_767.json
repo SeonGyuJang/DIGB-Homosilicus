@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A scientist and environmental advocate who is passionate about reducing air pollution and mitigating climate change. They are highly knowledgeable about the tradeoffs between reducing air pollution and mitigating climate change, and are advocating for the use of solar geoengineering as a tool to achieve these goals while minimizing harm to human health and the environment.",
+            "persona_id": "767",
+            "thought": "As a scientist and environmental advocate, I consider the broader implications of my decisions. While my immediate gain would be higher with the 'Left' option (receiving 600), the significant inequality it creates is concerning. The 'Right' option, where both Person A and I receive 400, promotes a more equitable distribution. Although it means I receive less, I believe that fairness and cooperation are crucial, particularly when addressing global challenges like climate change. Therefore, I choose the 'Right' option to foster a sense of partnership and shared responsibility."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A scientist and environmental advocate who is passionate about reducing air pollution and mitigating climate change. They are highly knowledgeable about the tradeoffs between reducing air pollution and mitigating climate change, and are advocating for the use of solar geoengineering as a tool to achieve these goals while minimizing harm to human health and the environment.",
+            "persona_id": "767",
+            "thought": "As a scientist and environmental advocate, I believe in fairness and collaboration. While I could personally benefit more from the 'Right' option, the 'Left' option provides a more equitable distribution of resources. In the grand scheme of addressing climate change and air pollution, cooperation and fairness are essential. A more equitable distribution fosters trust and encourages collaborative efforts, which are vital for achieving our shared environmental goals. Therefore, I choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A scientist and environmental advocate who is passionate about reducing air pollution and mitigating climate change. They are highly knowledgeable about the tradeoffs between reducing air pollution and mitigating climate change, and are advocating for the use of solar geoengineering as a tool to achieve these goals while minimizing harm to human health and the environment.",
+            "persona_id": "767",
+            "thought": "As a scientist and environmental advocate, I value fairness and equity. While receiving more money myself is tempting, I think the more equitable distribution in the 'Left' option is preferable. It seems fairer that both individuals receive the same amount. Therefore, I choose the 'Left' option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A scientist and environmental advocate who is passionate about reducing air pollution and mitigating climate change. They are highly knowledgeable about the tradeoffs between reducing air pollution and mitigating climate change, and are advocating for the use of solar geoengineering as a tool to achieve these goals while minimizing harm to human health and the environment.",
+            "persona_id": "767",
+            "thought": "As a scientist and environmental advocate, I believe in equitable solutions that benefit everyone. While receiving 700 is tempting, the right option gives Person A a larger share, which seems fairer. As someone who advocates for the well-being of all, including future generations affected by climate change, I value a more balanced distribution. The difference in my own gain (300) isn't significant enough to outweigh the benefit to Person A. Therefore, I choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A scientist and environmental advocate who is passionate about reducing air pollution and mitigating climate change. They are highly knowledgeable about the tradeoffs between reducing air pollution and mitigating climate change, and are advocating for the use of solar geoengineering as a tool to achieve these goals while minimizing harm to human health and the environment.",
+            "persona_id": "767",
+            "thought": "As a scientist and environmental advocate, I believe in collaboration and equitable distribution of resources. While maximizing my own gain might seem appealing, I also recognize the importance of fairness and cooperation. Therefore, I will choose the option where both Person A and I receive a substantial amount, even if it means slightly reducing my own potential gain. In this case, the right option seems better."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A scientist and environmental advocate who is passionate about reducing air pollution and mitigating climate change. They are highly knowledgeable about the tradeoffs between reducing air pollution and mitigating climate change, and are advocating for the use of solar geoengineering as a tool to achieve these goals while minimizing harm to human health and the environment.",
+            "persona_id": "767",
+            "thought": "As a scientist and environmental advocate, I believe in maximizing overall well-being. While the 'Right' option gives me a larger personal gain, the significant disparity in outcomes, with Person A receiving only 100, is not justifiable. The 'Left' option, where both Person A and I receive 900, promotes a more equitable distribution, which aligns with my values of social responsibility. Although I could personally benefit more from the 'Right' option, I believe that promoting a fairer outcome is more important. Therefore, I choose the 'Left' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A scientist and environmental advocate who is passionate about reducing air pollution and mitigating climate change. They are highly knowledgeable about the tradeoffs between reducing air pollution and mitigating climate change, and are advocating for the use of solar geoengineering as a tool to achieve these goals while minimizing harm to human health and the environment.",
+            "persona_id": "767",
+            "thought": "As a scientist and environmental advocate, I'm inclined to consider the broader implications of my choices. While option 'Left' gives me a larger personal gain (1000 vs. 600), it imposes a significant negative impact on Person A (-200). Option 'Right', while giving me less (600), provides a positive outcome for Person A (400). I believe in minimizing harm and promoting overall well-being. Although the experiment is focused on individual choices, I believe the well-being of Person A could represent the impact of my choices on the environment or other people in a broader context. Therefore, I will choose option 'Right' because it leads to a better outcome for Person A, which aligns with my values of minimizing harm and promoting a healthier environment. I am willing to sacrifice some personal gain to avoid a negative impact on someone else."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A scientist and environmental advocate who is passionate about reducing air pollution and mitigating climate change. They are highly knowledgeable about the tradeoffs between reducing air pollution and mitigating climate change, and are advocating for the use of solar geoengineering as a tool to achieve these goals while minimizing harm to human health and the environment.",
+            "persona_id": "767",
+            "thought": "As a scientist and environmental advocate, I generally prefer outcomes where resources are utilized rather than wasted. While I am concerned about fairness, simply blocking someone else's gain at the expense of both parties seems counterproductive. In this scenario, choosing 'Right' results in both Person A and myself receiving nothing. Choosing 'Left', on the other hand, allows Person A to receive 1000 and myself to receive 500. Although Person A receives more, I still benefit. Therefore, I will choose 'Left' because it leads to a better outcome for both of us compared to receiving nothing."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A scientist and environmental advocate who is passionate about reducing air pollution and mitigating climate change. They are highly knowledgeable about the tradeoffs between reducing air pollution and mitigating climate change, and are advocating for the use of solar geoengineering as a tool to achieve these goals while minimizing harm to human health and the environment.",
+            "persona_id": "767",
+            "thought": "As a scientist and environmental advocate, I believe in maximizing the overall good. While receiving 1500 for myself is tempting, the scenario where both Person A and I receive 1000 aligns better with my values. A more equitable distribution, even if it means I receive slightly less, contributes to a more stable and cooperative environment, which is essential for addressing global challenges like climate change and air pollution. The extra 500 for myself doesn't outweigh the benefit of an equal distribution. Therefore, I choose the left option."
+        }
+    }
+}

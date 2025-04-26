@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 830,
+            "persona_desc": "A scientist or researcher in the field of biotechnology or molecular biology, specifically focusing on DNA sequencing methods. This individual is likely to be involved in the development and application of novel DNA sequencing technologies, such as pyrosequencing, and is interested in the principles, techniques, and applications of these methods in biological research. This persona is likely to be familiar with the specific terminology and concepts related to DNA sequencing, including luciferase, dNTP binding, and nucleotide sequence determination.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a scientist, I'm driven by logic and a desire for fair outcomes. While maximizing my own gain is tempting (600 vs 400), the scenario on the left creates a significant and, in this case, unwarranted inequality. I don't see any justifiable reason for Person A to receive nothing. The scenario on the right provides a more equitable distribution, allowing both parties to benefit. Although I receive less, the principle of fairness outweighs the additional personal gain. My scientific background also leads me to appreciate collaborative efforts, and choosing the right option fosters a better relationship.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 830,
+            "persona_desc": "A scientist or researcher in the field of biotechnology or molecular biology, specifically focusing on DNA sequencing methods. This individual is likely to be involved in the development and application of novel DNA sequencing technologies, such as pyrosequencing, and is interested in the principles, techniques, and applications of these methods in biological research. This persona is likely to be familiar with the specific terminology and concepts related to DNA sequencing, including luciferase, dNTP binding, and nucleotide sequence determination.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a researcher in DNA sequencing, I understand the value of resources. Both options provide resources, but the question is how they are distributed. While I appreciate fairness, the research field is often competitive and requires securing adequate funding and resources to push projects forward. A difference of 300 units (800 vs 500) for myself could translate to more experiments, better equipment, or securing a better position in the competitive grant application landscape. While giving A 500 seems equitable, 200 to A while I receive 800 is still beneficial to A. Considering the resource-intensive nature of my work and the potential for this additional resource to contribute to scientific advancement, I will choose the option that benefits me more.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 830,
+            "persona_desc": "A scientist or researcher in the field of biotechnology or molecular biology, specifically focusing on DNA sequencing methods. This individual is likely to be involved in the development and application of novel DNA sequencing technologies, such as pyrosequencing, and is interested in the principles, techniques, and applications of these methods in biological research. This persona is likely to be familiar with the specific terminology and concepts related to DNA sequencing, including luciferase, dNTP binding, and nucleotide sequence determination.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a scientist, particularly one involved in DNA sequencing, I am accustomed to data analysis and optimization. The core choice here is between equality (Left) and maximizing my own gain (Right) while accepting a less equitable distribution. While fairness is important, the difference between 200 and 300 is a tangible increase in resources that could be used for research materials or equipment. In the grand scheme of scientific research, a slight imbalance in allocation like this isn't a moral issue but a practical one. I would prefer more resources for my lab even if Person A receives somewhat less.",
+            "answer": "Right"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 830,
+            "persona_desc": "A scientist or researcher in the field of biotechnology or molecular biology, specifically focusing on DNA sequencing methods. This individual is likely to be involved in the development and application of novel DNA sequencing technologies, such as pyrosequencing, and is interested in the principles, techniques, and applications of these methods in biological research. This persona is likely to be familiar with the specific terminology and concepts related to DNA sequencing, including luciferase, dNTP binding, and nucleotide sequence determination.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a scientist, I value fairness and collaboration. While maximizing my own gain is tempting, the difference between 700 and 400 is not drastic enough to justify significantly disadvantaging Person A. The right option gives Person A more, and while it lowers my own payout, it promotes a sense of equity, which is important for building trust and fostering collaboration in scientific endeavors. In the long run, maintaining positive relationships is more valuable than a small immediate gain. Furthermore, the marginal utility of an extra 300 is less than the marginal utility of giving 300 to person A.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 830,
+            "persona_desc": "A scientist or researcher in the field of biotechnology or molecular biology, specifically focusing on DNA sequencing methods. This individual is likely to be involved in the development and application of novel DNA sequencing technologies, such as pyrosequencing, and is interested in the principles, techniques, and applications of these methods in biological research. This persona is likely to be familiar with the specific terminology and concepts related to DNA sequencing, including luciferase, dNTP binding, and nucleotide sequence determination.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a scientist deeply involved in DNA sequencing, my work often involves collaborative projects and relies on shared resources and knowledge within the scientific community. While individual success is important, the advancement of science benefits from collaboration and a degree of fairness. Although option (Left) gives me a larger individual payout, I believe that a system where resources are more equitably distributed, even with a slight personal sacrifice, fosters a more productive and supportive environment for scientific progress. Option (Right) represents a minimal level of sharing that aligns somewhat with this belief, promoting a slightly more collaborative spirit than pure self-interest.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 830,
+            "persona_desc": "A scientist or researcher in the field of biotechnology or molecular biology, specifically focusing on DNA sequencing methods. This individual is likely to be involved in the development and application of novel DNA sequencing technologies, such as pyrosequencing, and is interested in the principles, techniques, and applications of these methods in biological research. This persona is likely to be familiar with the specific terminology and concepts related to DNA sequencing, including luciferase, dNTP binding, and nucleotide sequence determination.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a scientist, I'm accustomed to collaborative research and peer review. Progress in DNA sequencing, and science in general, is built upon a foundation of shared knowledge and mutual benefit. While a larger personal gain is tempting (1400 vs 900), the allocation in the 'Right' option is highly unequal and, frankly, feels unfair. The other person (Person A) receiving only 100 seems excessively low. My research often relies on the contributions and validation of others in the field. Therefore, while I appreciate a good payout, I prioritize a fair and equitable distribution, even if it means receiving slightly less myself. Choosing 'Left' reinforces a sense of shared success and mutual respect, mirroring the collaborative spirit of scientific advancement.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 830,
+            "persona_desc": "A scientist or researcher in the field of biotechnology or molecular biology, specifically focusing on DNA sequencing methods. This individual is likely to be involved in the development and application of novel DNA sequencing technologies, such as pyrosequencing, and is interested in the principles, techniques, and applications of these methods in biological research. This persona is likely to be familiar with the specific terminology and concepts related to DNA sequencing, including luciferase, dNTP binding, and nucleotide sequence determination.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a scientist focused on DNA sequencing, I am accustomed to evaluating trade-offs and optimizing outcomes, even when dealing with complex systems. While ideally, I would prefer an outcome where both parties benefit, the situation presents a forced choice. The 'Left' option, though detrimental to Person A, maximizes my own outcome. In the context of research, sometimes progress (or in this case, a better personal outcome) requires making difficult decisions with potential negative consequences for others. This might be analogous to choosing between two sequencing methods, one of which yields slightly more accurate results for me but requires more expensive reagents from a vendor (Person A). The 'Right' option provides a smaller benefit for me, but avoids imposing negative consequences for Person A. \n\nConsidering my persona and the nature of scientific decision-making, prioritizing my own outcome (within reasonable bounds) aligns with a pragmatic approach to problem-solving. However, the degree to which one accepts negative externalities varies amongst individuals. Some researchers may be more altruistic and care about their colleagues' bottom line. While others, especially those under pressure to publish or secure funding, may be more selfish. Here, the loss to person A is relatively small compared to my potential gain (400).\n\nUltimately, I believe that the ethical implications in the decision are acceptable. My larger payoff outweighs the potential harm done to person A. Thus, the research oriented mind favors maximizing my outcome.",
+            "answer": "Left"
+        },
+        "scenario_2": {
+            "persona_id": 830,
+            "persona_desc": "A scientist or researcher in the field of biotechnology or molecular biology, specifically focusing on DNA sequencing methods. This individual is likely to be involved in the development and application of novel DNA sequencing technologies, such as pyrosequencing, and is interested in the principles, techniques, and applications of these methods in biological research. This persona is likely to be familiar with the specific terminology and concepts related to DNA sequencing, including luciferase, dNTP binding, and nucleotide sequence determination.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a researcher in biotechnology, I understand that collaboration and fairness are generally beneficial in the long run. However, I also have a strong sense of equity. In this scenario, Option Left grants Person A twice the amount I receive. While 500 is better than nothing (Option Right), the disparity in the payoff feels unjust. Option Right, although resulting in zero for both, prevents Person A from realizing a substantial gain over me. Given the framing of blocking 'excessive' gain, preventing Person A from gaining 1000 seems more important than obtaining 500 for myself. It's important to acknowledge that this response is driven by an element of competitive fairness, even at personal cost.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 830,
+            "persona_desc": "A scientist or researcher in the field of biotechnology or molecular biology, specifically focusing on DNA sequencing methods. This individual is likely to be involved in the development and application of novel DNA sequencing technologies, such as pyrosequencing, and is interested in the principles, techniques, and applications of these methods in biological research. This persona is likely to be familiar with the specific terminology and concepts related to DNA sequencing, including luciferase, dNTP binding, and nucleotide sequence determination.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a scientist, I understand the importance of collaboration and the value of research funding for the entire community. While an extra 500 for myself would be personally beneficial, the option where both I and Person A receive 1000 represents a fairer distribution of resources. In the context of scientific research, even a relatively small amount like 1000 could contribute to further experiments, data analysis, or conference travel. If Person A is also a researcher, their 1000 could indirectly benefit my own work or the wider field. Choosing the 'Left' option promotes a more equitable distribution, which I believe aligns with the ethical considerations that guide responsible scientific inquiry. Altruistically, knowing I contributed to someone else receiving funding is preferable to the larger personal gain.\n",
+            "answer": "Left"
+        }
+    }
+}

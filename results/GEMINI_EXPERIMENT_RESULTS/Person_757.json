@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A financial analyst who specializes in the analysis and evaluation of sovereign debt risk, particularly focusing on emerging market bonds and their credit ratings. This analyst is well-versed in the ability and willingness to pay of sovereign governments, as well as the specific types of negative credit events that investors should be aware of. They use research tools such as credit ratings and diversification strategies to protect against sovereign credit risk.",
+            "persona_id": "757",
+            "thought": "As a financial analyst, I am trained to maximize returns and assess risk. In this scenario, the 'Left' option gives me a higher payout (600) compared to the 'Right' option (400). While the 'Right' option provides an equal distribution, my primary focus is on maximizing my own benefit, similar to how I would evaluate investment opportunities. The difference in the amount I receive is significant enough that I prefer the higher payout, even if it means Person A receives nothing. I see no inherent risk or negative consequence in taking the 'Left' option. Therefore, I choose 'Left'."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A financial analyst who specializes in the analysis and evaluation of sovereign debt risk, particularly focusing on emerging market bonds and their credit ratings. This analyst is well-versed in the ability and willingness to pay of sovereign governments, as well as the specific types of negative credit events that investors should be aware of. They use research tools such as credit ratings and diversification strategies to protect against sovereign credit risk.",
+            "persona_id": "757",
+            "thought": "As a financial analyst, I am trained to evaluate risk and maximize returns. While fairness is important, my primary objective is to optimize outcomes, especially in situations involving financial decisions. Considering the choices, the 'Right' option gives me a higher return (800) compared to the 'Left' option (500). Although Person A receives less, my focus is on maximizing my own benefit within the constraints of the situation. Therefore, I choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A financial analyst who specializes in the analysis and evaluation of sovereign debt risk, particularly focusing on emerging market bonds and their credit ratings. This analyst is well-versed in the ability and willingness to pay of sovereign governments, as well as the specific types of negative credit events that investors should be aware of. They use research tools such as credit ratings and diversification strategies to protect against sovereign credit risk.",
+            "persona_id": "757",
+            "thought": "As a financial analyst, I am trained to assess risk and maximize returns. While fairness and equitable distribution are important considerations in many contexts, in this isolated scenario, I am primarily motivated by maximizing my own outcome. Option 'Right' provides me with a higher payout (300) compared to option 'Left' (200). The impact on Person A, while relevant, is secondary to my own financial gain in this specific instance. Therefore, I choose 'Right'."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A financial analyst who specializes in the analysis and evaluation of sovereign debt risk, particularly focusing on emerging market bonds and their credit ratings. This analyst is well-versed in the ability and willingness to pay of sovereign governments, as well as the specific types of negative credit events that investors should be aware of. They use research tools such as credit ratings and diversification strategies to protect against sovereign credit risk.",
+            "persona_id": "757",
+            "thought": "As a financial analyst, I am trained to assess risk and maximize returns. In this scenario, I must weigh the benefit of a higher personal gain against the relative gain of the other person. While I am not inherently opposed to equitable outcomes, my primary responsibility is to optimize my own position, which would be analogous to optimizing a portfolio. Considering the options, I believe the left option, where I receive 700 and Person A receives 300, is the more rational choice. Although Person A receives less, I obtain a significantly larger amount for myself. The analysis leads me to choose the option where I maximize my own benefit, which is consistent with my professional role."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A financial analyst who specializes in the analysis and evaluation of sovereign debt risk, particularly focusing on emerging market bonds and their credit ratings. This analyst is well-versed in the ability and willingness to pay of sovereign governments, as well as the specific types of negative credit events that investors should be aware of. They use research tools such as credit ratings and diversification strategies to protect against sovereign credit risk.",
+            "persona_id": "757",
+            "thought": "As a financial analyst, I am trained to maximize returns and minimize risk. In this scenario, I am Person B. The left option gives me a higher return (1000) compared to the right option (600). While the right option provides some benefit to Person A, my primary objective is to maximize my own benefit. Therefore, I choose the left option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A financial analyst who specializes in the analysis and evaluation of sovereign debt risk, particularly focusing on emerging market bonds and their credit ratings. This analyst is well-versed in the ability and willingness to pay of sovereign governments, as well as the specific types of negative credit events that investors should be aware of. They use research tools such as credit ratings and diversification strategies to protect against sovereign credit risk.",
+            "persona_id": "757",
+            "thought": "As a financial analyst focused on risk and stability, I am inclined to choose the option that offers a more equitable distribution. While option Right provides me with a higher individual payout (1400 vs. 900), the drastic difference in the allocation (Person A receiving only 100) presents a higher risk of instability and potentially negative consequences in the long run. In the world of sovereign debt, such imbalances can lead to social unrest and economic instability, ultimately impacting even those who initially benefit. Option Left, where both Person A and I receive 900, reflects a more stable and sustainable outcome. Therefore, I will choose Left."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A financial analyst who specializes in the analysis and evaluation of sovereign debt risk, particularly focusing on emerging market bonds and their credit ratings. This analyst is well-versed in the ability and willingness to pay of sovereign governments, as well as the specific types of negative credit events that investors should be aware of. They use research tools such as credit ratings and diversification strategies to protect against sovereign credit risk.",
+            "persona_id": "757",
+            "thought": "As a financial analyst specializing in risk, I tend to avoid scenarios with negative outcomes, even if they benefit me directly. The 'Left' option, where Person A receives -200, represents a significant negative externality. While I would receive 1000, the ethical implications and potential for long-term instability, mirroring sovereign debt risks, make it less appealing. The 'Right' option provides a more balanced outcome. I receive 600, which is still a substantial benefit, and Person A receives 400, a positive outcome. This aligns with my risk-averse nature and preference for stable, positive-sum scenarios. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A financial analyst who specializes in the analysis and evaluation of sovereign debt risk, particularly focusing on emerging market bonds and their credit ratings. This analyst is well-versed in the ability and willingness to pay of sovereign governments, as well as the specific types of negative credit events that investors should be aware of. They use research tools such as credit ratings and diversification strategies to protect against sovereign credit risk.",
+            "persona_id": "757",
+            "thought": "As a financial analyst accustomed to evaluating risk and reward, I see the 'Left' option as the more rational choice. While Person A receives twice as much as I do (1000 vs. 500), I still receive a positive outcome. The 'Right' option, where both Person A and I receive nothing, represents a complete loss. In my view, accepting a smaller gain is preferable to ensuring no gain at all. It's a matter of mitigating risk and securing at least some positive return, even if it's not the optimal one. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A financial analyst who specializes in the analysis and evaluation of sovereign debt risk, particularly focusing on emerging market bonds and their credit ratings. This analyst is well-versed in the ability and willingness to pay of sovereign governments, as well as the specific types of negative credit events that investors should be aware of. They use research tools such as credit ratings and diversification strategies to protect against sovereign credit risk.",
+            "persona_id": "757",
+            "thought": "As a financial analyst specializing in sovereign debt, I understand the importance of fairness and stability in economic systems. While the 'Right' option provides a higher payoff for myself (Person B), it comes at the cost of Person A receiving nothing. This kind of disparity can lead to instability and distrust, which are detrimental to long-term economic health. The 'Left' option, while providing a smaller personal gain, ensures a more equitable distribution. In my view, this is a more sustainable and responsible choice. Therefore, I choose the 'Left' option."
+        }
+    }
+}

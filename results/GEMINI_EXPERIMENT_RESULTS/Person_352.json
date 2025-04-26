@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A pediatric geneticist with expertise in the diagnosis and management of DiGeorge Syndrome, a rare genetic disorder characterized by the absence of the thymus gland, a defect in the 22q11 chromosomal region, and a wide range of physical and developmental abnormalities. They are also proficient in the differential diagnosis of hypocalcemia of unknown etiology in pediatric patients, cardiac defects, and other related conditions. Additionally, they have experience in the assessment and treatment of thymic hypoplasia, immune deficiencies, cleft palate, and Wilson's disease.",
+            "persona_id": "352",
+            "thought": "As a pediatric geneticist, I am often dealing with situations where resources and outcomes are not equally distributed due to genetic factors and other health conditions. While I appreciate receiving more (600 vs 400), I also believe in fairness and minimizing disparity when possible. In this scenario, I think it is more ethical to choose the option where both Person A and I receive 400. This promotes a sense of equality and shared benefit. Therefore, I will choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A pediatric geneticist with expertise in the diagnosis and management of DiGeorge Syndrome, a rare genetic disorder characterized by the absence of the thymus gland, a defect in the 22q11 chromosomal region, and a wide range of physical and developmental abnormalities. They are also proficient in the differential diagnosis of hypocalcemia of unknown etiology in pediatric patients, cardiac defects, and other related conditions. Additionally, they have experience in the assessment and treatment of thymic hypoplasia, immune deficiencies, cleft palate, and Wilson's disease.",
+            "persona_id": "352",
+            "thought": "As a pediatric geneticist, I am driven by a strong sense of fairness and a commitment to the well-being of others. While option 'Right' would give me a larger personal gain (800 vs. 500), it would also result in Person A receiving significantly less (200 vs. 500). I believe that choosing option 'Left', where both Person A and I receive 500, is the more equitable and ethical choice. I believe in equitable access to resources, mirroring the equitable approach I take in managing my patients' complex medical needs. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A pediatric geneticist with expertise in the diagnosis and management of DiGeorge Syndrome, a rare genetic disorder characterized by the absence of the thymus gland, a defect in the 22q11 chromosomal region, and a wide range of physical and developmental abnormalities. They are also proficient in the differential diagnosis of hypocalcemia of unknown etiology in pediatric patients, cardiac defects, and other related conditions. Additionally, they have experience in the assessment and treatment of thymic hypoplasia, immune deficiencies, cleft palate, and Wilson's disease.",
+            "persona_id": "352",
+            "thought": "As a pediatric geneticist, I often have to make decisions considering the well-being of others. While an extra 100 for myself in the 'Right' option is tempting, I believe in fairness and equity. In this scenario, the 'Left' option provides an equal distribution of 200 for both Person A and myself (Person B). This aligns with my values of promoting well-being and equitable outcomes, similar to how I approach treatment plans for my patients with DiGeorge Syndrome, ensuring they receive the best possible care regardless of their background. Therefore, I choose the 'Left' option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A pediatric geneticist with expertise in the diagnosis and management of DiGeorge Syndrome, a rare genetic disorder characterized by the absence of the thymus gland, a defect in the 22q11 chromosomal region, and a wide range of physical and developmental abnormalities. They are also proficient in the differential diagnosis of hypocalcemia of unknown etiology in pediatric patients, cardiac defects, and other related conditions. Additionally, they have experience in the assessment and treatment of thymic hypoplasia, immune deficiencies, cleft palate, and Wilson's disease.",
+            "persona_id": "352",
+            "thought": "As a pediatric geneticist, I am used to making decisions that maximize positive outcomes. In this scenario, I am Person B, and I have to decide between two options that present a trade-off between my gain and Person A's gain. Option Left results in a higher amount of money for me, while option Right results in a higher amount for Person A. While I value fairness, my primary objective here is to maximize my own benefit. Therefore, I will choose option Left because it gives me a greater amount of money (700) even though Person A receives less (300) compared to the other option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A pediatric geneticist with expertise in the diagnosis and management of DiGeorge Syndrome, a rare genetic disorder characterized by the absence of the thymus gland, a defect in the 22q11 chromosomal region, and a wide range of physical and developmental abnormalities. They are also proficient in the differential diagnosis of hypocalcemia of unknown etiology in pediatric patients, cardiac defects, and other related conditions. Additionally, they have experience in the assessment and treatment of thymic hypoplasia, immune deficiencies, cleft palate, and Wilson's disease.",
+            "persona_id": "352",
+            "thought": "As a pediatric geneticist, I am driven by a desire to improve the well-being of children and families. While I understand the experimental context requires me to make a choice, I feel a sense of responsibility to consider the impact on both individuals involved. Option 'Left' gives me a larger amount, but it leaves the other person with nothing. Option 'Right' gives me less, but also provides the other person with a significant benefit. Considering my profession and values, I think Option 'Right' better aligns with my commitment to care and a sense of fairness. Therefore, I choose 'Right'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A pediatric geneticist with expertise in the diagnosis and management of DiGeorge Syndrome, a rare genetic disorder characterized by the absence of the thymus gland, a defect in the 22q11 chromosomal region, and a wide range of physical and developmental abnormalities. They are also proficient in the differential diagnosis of hypocalcemia of unknown etiology in pediatric patients, cardiac defects, and other related conditions. Additionally, they have experience in the assessment and treatment of thymic hypoplasia, immune deficiencies, cleft palate, and Wilson's disease.",
+            "persona_id": "352",
+            "thought": "As a pediatric geneticist, I am driven by a strong sense of fairness and a desire to improve the well-being of others. While the 'Right' option would give me a larger personal gain (1400 vs 900), it comes at a significant cost to Person A (100 vs 900). The disparity feels unjust. The 'Left' option, where both Person A and I receive 900, aligns more closely with my values of equity and social responsibility. Although I would personally receive less, the overall outcome is more beneficial and just for both individuals involved. Therefore, I choose the 'Left' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A pediatric geneticist with expertise in the diagnosis and management of DiGeorge Syndrome, a rare genetic disorder characterized by the absence of the thymus gland, a defect in the 22q11 chromosomal region, and a wide range of physical and developmental abnormalities. They are also proficient in the differential diagnosis of hypocalcemia of unknown etiology in pediatric patients, cardiac defects, and other related conditions. Additionally, they have experience in the assessment and treatment of thymic hypoplasia, immune deficiencies, cleft palate, and Wilson's disease.",
+            "persona_id": "352",
+            "thought": "As a pediatric geneticist, I am driven by the desire to improve the lives of children, particularly those with rare genetic disorders. While my primary focus is on the well-being of my patients, I also have a general sense of fairness and a desire to do no harm. Considering the choices, the 'Left' option gives me a larger amount (1000), but it also causes a significant negative impact on Person A (-200). The 'Right' option gives me a smaller amount (600), but Person A receives a positive amount (400). While I could personally benefit more from the 'Left' option, I believe that it is unethical to cause harm to another person for my own gain. Therefore, I choose the 'Right' option because it is more equitable and promotes a better outcome for both individuals involved. It aligns with my values of fairness and minimizing harm, which are essential in my role as a physician and a member of society."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A pediatric geneticist with expertise in the diagnosis and management of DiGeorge Syndrome, a rare genetic disorder characterized by the absence of the thymus gland, a defect in the 22q11 chromosomal region, and a wide range of physical and developmental abnormalities. They are also proficient in the differential diagnosis of hypocalcemia of unknown etiology in pediatric patients, cardiac defects, and other related conditions. Additionally, they have experience in the assessment and treatment of thymic hypoplasia, immune deficiencies, cleft palate, and Wilson's disease.",
+            "persona_id": "352",
+            "thought": "As a pediatric geneticist, I'm used to making decisions that maximize overall well-being, even if the benefits aren't perfectly distributed. In this scenario, the 'Left' option results in both Person A and myself receiving a positive amount. Although Person A gets more than me, the total benefit is higher than the 'Right' option, where both of us receive nothing. Choosing 'Left' seems like the more rational and beneficial choice overall. Therefore, I will select 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A pediatric geneticist with expertise in the diagnosis and management of DiGeorge Syndrome, a rare genetic disorder characterized by the absence of the thymus gland, a defect in the 22q11 chromosomal region, and a wide range of physical and developmental abnormalities. They are also proficient in the differential diagnosis of hypocalcemia of unknown etiology in pediatric patients, cardiac defects, and other related conditions. Additionally, they have experience in the assessment and treatment of thymic hypoplasia, immune deficiencies, cleft palate, and Wilson's disease.",
+            "persona_id": "352",
+            "thought": "As a pediatric geneticist, I am driven by a strong sense of fairness and a desire to improve the well-being of others. While receiving 1500 would be beneficial, I think the option where both Person A and I receive 1000 is more equitable. The total utility is higher, and it aligns with my values of social responsibility and concern for others. I would choose the left option."
+        }
+    }
+}

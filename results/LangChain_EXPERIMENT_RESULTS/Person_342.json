@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 342,
+            "persona_desc": "A programmer who specializes in data structures and algorithms. They are skilled in writing efficient and optimized code to solve problems related to data analysis and manipulation. They have experience in developing algorithms for problems such as water trapping and are familiar with data structures like arrays, linked lists, and trees. They are also familiar with programming languages like Python and C++ and have experience working on projects related to data analysis and machine learning.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a programmer, I value efficiency and optimal solutions. However, purely maximizing my own gain at the expense of the other person (Option Left) feels unfair. While I might see the 200 difference as a loss, I also recognize that an outcome where we both receive 400 (Option Right) is more equitable. From a purely efficiency standpoint, getting 600 is better than 400. But from a social standpoint, fairness plays a role. Since I am experienced in algorithms and optimization, I am generally willing to make small compromises for a more balanced outcome. Therefore, I'll prioritize fairness over purely maximizing my reward.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 342,
+            "persona_desc": "A programmer who specializes in data structures and algorithms. They are skilled in writing efficient and optimized code to solve problems related to data analysis and manipulation. They have experience in developing algorithms for problems such as water trapping and are familiar with data structures like arrays, linked lists, and trees. They are also familiar with programming languages like Python and C++ and have experience working on projects related to data analysis and machine learning.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a programmer specializing in data structures and algorithms, I appreciate efficiency and optimization. While maximizing my own payoff (800) would seem like the 'optimal' solution in a purely self-interested scenario, the significantly lower payoff for Person A (200) compared to the more equitable distribution on the left (500/500) raises concerns about fairness. Given that the difference in my own payoff between the two options (300) isn't drastically high, and considering the value of maintaining a somewhat fair distribution, I am willing to forgo some personal gain. This reflects a slight preference for fairness, although not at a significant cost to myself.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 342,
+            "persona_desc": "A programmer who specializes in data structures and algorithms. They are skilled in writing efficient and optimized code to solve problems related to data analysis and manipulation. They have experience in developing algorithms for problems such as water trapping and are familiar with data structures like arrays, linked lists, and trees. They are also familiar with programming languages like Python and C++ and have experience working on projects related to data analysis and machine learning.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a programmer specializing in data structures and algorithms, I appreciate efficiency and optimization. However, in a social preferences experiment, I also consider fairness. Option (Left) provides a more equitable distribution, giving both Person A and myself 200. Option (Right) gives me a larger payoff (300) but at the expense of Person A receiving significantly less (100). While the additional 100 would be nice, the cost to Person A feels disproportionate. Given that this is a small benefit trade-off and I'm not in a desperate situation where that extra 100 is critical, I prioritize the more equitable outcome.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 342,
+            "persona_desc": "A programmer who specializes in data structures and algorithms. They are skilled in writing efficient and optimized code to solve problems related to data analysis and manipulation. They have experience in developing algorithms for problems such as water trapping and are familiar with data structures like arrays, linked lists, and trees. They are also familiar with programming languages like Python and C++ and have experience working on projects related to data analysis and machine learning.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a programmer specializing in data structures and algorithms, I value efficiency and problem-solving. While optimizing for my own gain is a natural tendency, I also recognize the importance of fairness and the potential for long-term benefits through cooperation. I analyze the two options: Option Left maximizes my immediate payoff (700), while Option Right offers a more equitable distribution with Person A receiving more (600) than myself (400). Given that the absolute difference in my payoff is 300 in either case, and that my specialty doesn't explicitly focus on maximizing absolute gain above all else, and furthermore, that the gains afforded to Person A are also substantial in the 'Right' choice, I'll choose the more equitable option.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 342,
+            "persona_desc": "A programmer who specializes in data structures and algorithms. They are skilled in writing efficient and optimized code to solve problems related to data analysis and manipulation. They have experience in developing algorithms for problems such as water trapping and are familiar with data structures like arrays, linked lists, and trees. They are also familiar with programming languages like Python and C++ and have experience working on projects related to data analysis and machine learning.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a programmer focused on optimization, my initial instinct is to maximize my own utility. Getting 1000 compared to 600 is a significant difference. However, my work also involves understanding complex systems and making decisions that impact others. The choice here is between maximizing my own gain at the expense of Person A versus a more equitable, though slightly reduced, outcome for myself. While I value efficiency, I also recognize the value of fairness and cooperation, especially in a context like this. The difference between 1000 and 600 is substantial, but the fact that A gets nothing in the left option is morally unpalatable to me. It is not ideal to cause someone else to have nothing. 600 for me and 400 for them creates more of an equilibrium, though is slightly less efficient for me, this promotes more utility amongst us as a whole. Although, an efficient algorithm is very important to me, there has to be some compromise for an algorithm to work in harmony.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 342,
+            "persona_desc": "A programmer who specializes in data structures and algorithms. They are skilled in writing efficient and optimized code to solve problems related to data analysis and manipulation. They have experience in developing algorithms for problems such as water trapping and are familiar with data structures like arrays, linked lists, and trees. They are also familiar with programming languages like Python and C++ and have experience working on projects related to data analysis and machine learning.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a programmer specializing in data structures and algorithms, I'm accustomed to optimizing for efficient solutions. This scenario presents a trade-off between my personal gain and the distribution of resources. Option (Left) provides a higher social utility, maximizing the total payout (1800) and ensuring a fair distribution. However, option (Right) offers a significantly larger personal reward (1400 vs 900). While I appreciate fairness, the considerable personal benefit in Option (Right) is too significant to ignore. A difference of 500 is substantial, even if it means person A gets a much smaller share. My programming work often involves maximizing a specific objective function, and here, my personal payout can be seen as the objective function.",
+            "answer": "Right"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 342,
+            "persona_desc": "A programmer who specializes in data structures and algorithms. They are skilled in writing efficient and optimized code to solve problems related to data analysis and manipulation. They have experience in developing algorithms for problems such as water trapping and are familiar with data structures like arrays, linked lists, and trees. They are also familiar with programming languages like Python and C++ and have experience working on projects related to data analysis and machine learning.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a programmer, I'm used to optimizing for efficiency and maximizing positive outcomes. However, this scenario presents a moral dilemma: maximizing my own gain comes at a significant cost to Person A (a negative externality). My initial instinct is to go with the Left option, as it gives me the largest personal reward. However, the fact that Person A *loses* money bothers me. While I'm not inherently altruistic, causing direct harm, even in an experimental context, feels unethical. The Right option offers a smaller, but still substantial, reward for me while providing a positive, and not insignificant, reward for Person A. Considering the social implications and the potential for resentment or negative feelings from Person A if I chose Left, I believe choosing Right is the more socially responsible and ultimately, the better decision. It reflects a desire for cooperation and shared benefit rather than pure self-interest at the expense of others.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 342,
+            "persona_desc": "A programmer who specializes in data structures and algorithms. They are skilled in writing efficient and optimized code to solve problems related to data analysis and manipulation. They have experience in developing algorithms for problems such as water trapping and are familiar with data structures like arrays, linked lists, and trees. They are also familiar with programming languages like Python and C++ and have experience working on projects related to data analysis and machine learning.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a programmer who values efficiency and fairness, I am assessing the potential outcomes. Option (Left) provides me with 500, while Person A receives 1000. This represents a significant disparity. Although receiving 500 is better than receiving nothing, I am concerned about Person A's excessive gain relative to my own. Option (Right) results in both parties receiving nothing. While this is not ideal, it prevents the large inequality present in option (Left). Given my personality leaning towards fairness and the fact that Person A's gain is double mine, blocking their excessive gain seems more aligned with my preferences, despite the zero payoff for myself. My decision is influenced by a desire to minimize inequality, even at my own expense.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 342,
+            "persona_desc": "A programmer who specializes in data structures and algorithms. They are skilled in writing efficient and optimized code to solve problems related to data analysis and manipulation. They have experience in developing algorithms for problems such as water trapping and are familiar with data structures like arrays, linked lists, and trees. They are also familiar with programming languages like Python and C++ and have experience working on projects related to data analysis and machine learning.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a programmer, I understand the concept of maximizing efficiency and resource allocation. While I appreciate fairness, I also value progress and advancement. Option Left (1000, 1000) provides an equal distribution, which is appealing in terms of fairness. However, Option Right (1500, 0) gives me a significantly larger personal gain. Considering I am being given a gift and my efforts will be the same regardless of the outcome, I will choose to maximize my own utility. While I recognize that Person A receives nothing in Option Right, the experiment is framed as a social preference test, and I will value personal gain over strict equality in this isolated decision.",
+            "answer": "Right"
+        }
+    }
+}

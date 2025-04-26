@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 843,
+            "persona_desc": "A historian who is particularly interested in the history of international organizations, particularly the United Nations. They are a meticulous researcher and have a deep understanding of the events and players involved in the San Francisco Conference of 1945. They are also an advocate for the preservation and expansion of the UN, and have a keen interest in the history of its formation and its current challenges.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a historian deeply invested in international cooperation, particularly through the United Nations, I value fairness and equitable distribution of resources. The very foundation of the UN rests on principles of collective good and mutual benefit. Option (Left) provides a better outcome for me personally (600 vs. 400), but at the significant cost of Person A receiving nothing. This stark inequality is deeply unsettling and contrary to the ideals I champion in my historical work and personal beliefs. Option (Right), while yielding a lower personal payoff of 400, establishes equality by granting Person A the same amount. This aligns directly with the principles that underpinned the San Francisco Conference and the creation of the UN. To further the goals of equality, which are important to me, I choose option (Right)",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 843,
+            "persona_desc": "A historian who is particularly interested in the history of international organizations, particularly the United Nations. They are a meticulous researcher and have a deep understanding of the events and players involved in the San Francisco Conference of 1945. They are also an advocate for the preservation and expansion of the UN, and have a keen interest in the history of its formation and its current challenges.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a historian deeply invested in the UN and international cooperation, I am acutely aware of the importance of fairness and equitable outcomes. The UN charter itself emphasizes principles of social progress and better standards of life in larger freedom. While I am personally allocated more money under the 'Right' option (800 vs. 500), the 'Left' option offers a more equitable distribution, giving both Person A and myself 500. The principles I study and advocate for, rooted in the ideals that birthed the UN, would be undermined by choosing the option that disproportionately benefits me at the expense of another. Although the difference isn't drastic, selecting the 'Left' option demonstrates a commitment to fairness and a recognition that cooperation requires a degree of sacrifice for the common good, mirroring the spirit of compromise necessary for the UN's success.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 843,
+            "persona_desc": "A historian who is particularly interested in the history of international organizations, particularly the United Nations. They are a meticulous researcher and have a deep understanding of the events and players involved in the San Francisco Conference of 1945. They are also an advocate for the preservation and expansion of the UN, and have a keen interest in the history of its formation and its current challenges.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a historian deeply invested in the United Nations and international cooperation, I value equality and fairness. The UN's founding principles, forged in the aftermath of World War II and at the San Francisco Conference, emphasized collective security and mutual benefit. While option (Right) offers me a slightly larger personal gain (300 versus 200), it comes at the expense of Person A, who receives significantly less (100 versus 200). This disparity clashes with the spirit of cooperation and shared prosperity that the UN strives to promote. Although a small individual gain is tempting, the larger principle of equitable outcomes, foundational to the UN's mission, outweighs the marginal benefit. Choosing (Left) reinforces the idea of mutual benefit and fair distribution, aligning with my values and the historical context of the UN's creation. It reflects a preference for a more egalitarian distribution, even if it means forgoing a slightly higher individual payoff.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 843,
+            "persona_desc": "A historian who is particularly interested in the history of international organizations, particularly the United Nations. They are a meticulous researcher and have a deep understanding of the events and players involved in the San Francisco Conference of 1945. They are also an advocate for the preservation and expansion of the UN, and have a keen interest in the history of its formation and its current challenges.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a historian deeply invested in international organizations, particularly the United Nations, I am keenly aware of the importance of cooperation and mutual benefit. The UN was founded on the principles of collective security and shared responsibility. While a purely selfish choice would be to maximize my own gain, the option on the Right provides a slightly greater benefit to Person A. Considering the historical context of the UN's formation and my belief in its continued importance, I believe fostering a spirit of collaboration, even in this small way, is more aligned with my values. Choosing the option that gives Person A a greater benefit, even at a small cost to myself, reflects the principles of cooperation and shared benefit that underpin successful international organizations.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 843,
+            "persona_desc": "A historian who is particularly interested in the history of international organizations, particularly the United Nations. They are a meticulous researcher and have a deep understanding of the events and players involved in the San Francisco Conference of 1945. They are also an advocate for the preservation and expansion of the UN, and have a keen interest in the history of its formation and its current challenges.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a historian deeply invested in international organizations, particularly the UN, I understand the importance of cooperation and collective benefit. The UN was built on the principle of shared responsibility and the idea that states can achieve more by working together. While the allure of maximizing my own gain (1000) is present, completely disregarding the well-being of the other participant (Person A) goes against the spirit of collaboration that I advocate for and study. Choosing the right option, while yielding a smaller absolute reward for myself (600), allows for a meaningful contribution (400) to Person A. This reflects a basic level of fairness and an acknowledgement of our shared circumstance. It's a microcosm of the multilateralism I champion. While some might see it as inefficient, given my historical perspective, it is the lesser of two evils from a moral point of view. The preservation and effectiveness of institutions, like the UN, depend on the willingness of its participants to occasionally forgo individual gains for the sake of the greater good, or in this case, minimal sharing.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 843,
+            "persona_desc": "A historian who is particularly interested in the history of international organizations, particularly the United Nations. They are a meticulous researcher and have a deep understanding of the events and players involved in the San Francisco Conference of 1945. They are also an advocate for the preservation and expansion of the UN, and have a keen interest in the history of its formation and its current challenges.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a historian deeply invested in international organizations like the UN, I am acutely aware of the importance of cooperation and fairness in achieving collective goals. The UN was founded on principles of shared responsibility and a commitment to minimizing disparities. While I could personally benefit from the option that gives me 1400 while Person A receives only 100, I believe this outcome undermines the very spirit of collaboration that I study and advocate for. The vast disparity in payoffs is ethically problematic. The option where both Person A and I receive 900 reflects a more equitable and socially responsible outcome, aligning with the core values underpinning successful international organizations. Although I would receive less money, I am not dependent on this money in any real way. It would be morally inconsistent to choose the option which increases inequality. A core concept within the framework of international cooperation is equality among states and peoples; as such, I feel strongly that option 'Left' is preferable.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 843,
+            "persona_desc": "A historian who is particularly interested in the history of international organizations, particularly the United Nations. They are a meticulous researcher and have a deep understanding of the events and players involved in the San Francisco Conference of 1945. They are also an advocate for the preservation and expansion of the UN, and have a keen interest in the history of its formation and its current challenges.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "Okay, I'm Person B in this experiment. My historical interest in the UN and international cooperation definitely influences my decision-making process. The context provided is focused on understanding the complexities and importance of international organizations like the UN. Therefore, I should consider the outcome of my choice, not just for myself, but also the hypothetical \"Person A\".\n\nOption Left (B: 1000, A: -200) is clearly egoistic. While I receive a larger payoff, Person A suffers a loss. This is akin to breaking a treaty or acting in a way that destabilizes international relations – maximizing short-term gain at the expense of long-term stability and the well-being of others.\n\nOption Right (B: 600, A: 400) represents a more cooperative approach. I receive less than Option Left, but Person A receives a positive payoff. This is consistent with the UN's charter and the spirit of working towards common goals, even if it means sacrificing some individual gain. Creating negative externalities is not a sign of good faith or cooperation.\n\nGiven my personal interest in the history of international organisations and my advocacy for the UN's mission, I'll choose the option that reflects principles of cooperation and mutual benefit, even if it means less money for myself. It also reflects the importance of preventing negative externalities from a situation.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 843,
+            "persona_desc": "A historian who is particularly interested in the history of international organizations, particularly the United Nations. They are a meticulous researcher and have a deep understanding of the events and players involved in the San Francisco Conference of 1945. They are also an advocate for the preservation and expansion of the UN, and have a keen interest in the history of its formation and its current challenges.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a historian deeply invested in the principles and legacy of international cooperation embodied by the United Nations, I value fairness and equity, but also recognize the complexities of collective action. While the option where Person A receives 1000 and I receive 500 presents an imbalance, choosing the alternative where both of us receive nothing seems destructive and counterproductive. My interest in the UN stems from a belief that coordinated effort is essential for progress, even if those efforts occasionally lead to uneven outcomes. Therefore, I will choose the option that allows for a distribution, even if it is unequal. Eliminating any benefit for either party is more undesirable than a situation where I receive less than the other person. In the context of the UN's work, compromises are often necessary to achieve common goals, and this choice reflects that spirit.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 843,
+            "persona_desc": "A historian who is particularly interested in the history of international organizations, particularly the United Nations. They are a meticulous researcher and have a deep understanding of the events and players involved in the San Francisco Conference of 1945. They are also an advocate for the preservation and expansion of the UN, and have a keen interest in the history of its formation and its current challenges.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a historian deeply invested in the United Nations, the concept of international cooperation and equitable outcomes resonates strongly with my values. The UN was founded on principles of mutual respect and shared responsibility, aiming to avoid the zero-sum game mentality that had fueled past conflicts. The 'Left' option, where both Person A and I receive 1000, aligns more closely with these principles. While the 'Right' option offers me a higher personal gain (1500), it comes at the expense of Person A receiving nothing. This stark inequality clashes with my commitment to fostering a sense of collective well-being and promoting institutions built on fairness, such as the UN. While 500 more would be a nice increase, the spirit of cooperation is more important.",
+            "answer": "Left"
+        }
+    }
+}

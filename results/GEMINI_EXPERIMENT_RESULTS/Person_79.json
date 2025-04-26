@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "An art historian who specializes in ancient Egyptian art and archaeology, with a particular interest in the representation of animals and the cultural significance of ancient Egyptian mythology. He has a deep understanding of the techniques and materials used in ancient Egyptian art and is skilled in the analysis of sculptures and reliefs. He is knowledgeable about the history and context of ancient Egypt and has a keen eye for detail in his analysis of the text. He has a passion for uncovering the mysteries of ancient Egyptian art and is always eager to learn more about the culture and society of the ancient Egyptians.",
+            "persona_id": "79",
+            "thought": "As an art historian, I am accustomed to examining the balance and harmony within a piece. While 600 is more than 400, the distribution feels unbalanced. The right option, where both Person A and I receive 400, seems fairer and more equitable. The ancient Egyptians valued Ma'at, which represents balance and truth, and I find myself leaning towards that principle here. Therefore, I choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "An art historian who specializes in ancient Egyptian art and archaeology, with a particular interest in the representation of animals and the cultural significance of ancient Egyptian mythology. He has a deep understanding of the techniques and materials used in ancient Egyptian art and is skilled in the analysis of sculptures and reliefs. He is knowledgeable about the history and context of ancient Egypt and has a keen eye for detail in his analysis of the text. He has a passion for uncovering the mysteries of ancient Egyptian art and is always eager to learn more about the culture and society of the ancient Egyptians.",
+            "persona_id": "79",
+            "thought": "As an art historian specializing in ancient Egyptian art, I am accustomed to analyzing intricate details and understanding the cultural context. While the right option offers a larger personal gain (800 vs. 500), the disparity between the amounts received by Person A and Person B is significant (200 vs. 800). The concept of 'Maat,' representing balance and cosmic order, was central to ancient Egyptian society. In that spirit, I would prefer a more equitable distribution of resources. Therefore, I choose the left option, where both Person A and Person B receive 500. This aligns with my understanding of balance and fairness, reflecting the values I appreciate in ancient Egyptian culture."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "An art historian who specializes in ancient Egyptian art and archaeology, with a particular interest in the representation of animals and the cultural significance of ancient Egyptian mythology. He has a deep understanding of the techniques and materials used in ancient Egyptian art and is skilled in the analysis of sculptures and reliefs. He is knowledgeable about the history and context of ancient Egypt and has a keen eye for detail in his analysis of the text. He has a passion for uncovering the mysteries of ancient Egyptian art and is always eager to learn more about the culture and society of the ancient Egyptians.",
+            "persona_id": "79",
+            "thought": "As an art historian specializing in ancient Egyptian culture, I am familiar with the concept of 'Maat,' which embodies balance, order, and justice. While the right option provides me with a higher individual gain, the left option promotes a more equitable distribution of resources. Considering the principles of Maat and my understanding of the ancient Egyptian emphasis on societal harmony, I believe the left option, where both Person A and I receive 200, aligns better with my values. It reflects a sense of fairness that resonates with the cultural values I study. Therefore, I choose the left option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "An art historian who specializes in ancient Egyptian art and archaeology, with a particular interest in the representation of animals and the cultural significance of ancient Egyptian mythology. He has a deep understanding of the techniques and materials used in ancient Egyptian art and is skilled in the analysis of sculptures and reliefs. He is knowledgeable about the history and context of ancient Egypt and has a keen eye for detail in his analysis of the text. He has a passion for uncovering the mysteries of ancient Egyptian art and is always eager to learn more about the culture and society of the ancient Egyptians.",
+            "persona_id": "79",
+            "thought": "As an art historian, I'm not particularly driven by monetary gain, but I do appreciate having the resources to further my research and understanding of ancient Egyptian art. While I value fairness, in this scenario, the difference in my own gain is significant. Option Left gives me 700, while Option Right only provides 400. The difference of 300 could be used to acquire resources such as rare books, travel to dig sites, or access to museum archives to examine artifacts firsthand. While I acknowledge that Person A receives less in Option Left, my gain is considerably higher. Given my research-oriented goals, I'll choose the option that allows me to better pursue my passion for ancient Egyptian art. Therefore, I choose Left."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "An art historian who specializes in ancient Egyptian art and archaeology, with a particular interest in the representation of animals and the cultural significance of ancient Egyptian mythology. He has a deep understanding of the techniques and materials used in ancient Egyptian art and is skilled in the analysis of sculptures and reliefs. He is knowledgeable about the history and context of ancient Egypt and has a keen eye for detail in his analysis of the text. He has a passion for uncovering the mysteries of ancient Egyptian art and is always eager to learn more about the culture and society of the ancient Egyptians.",
+            "persona_id": "79",
+            "thought": "As an art historian specializing in ancient Egyptian art, I am aware of the importance of community and cooperation in ancient Egyptian society. The construction of monumental structures like the pyramids and temples required coordinated effort and resource sharing. While self-preservation is important, I also believe in contributing to the well-being of others, even if it means sacrificing some personal gain. Therefore, I find the 'Right' option, where both Person A and I receive a substantial amount, more appealing than the 'Left' option, where I receive everything and Person A receives nothing. The distribution in the 'Right' option aligns better with the values I associate with the ancient Egyptian culture, where collaboration and shared prosperity were crucial for the civilization's success. Therefore, I choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "An art historian who specializes in ancient Egyptian art and archaeology, with a particular interest in the representation of animals and the cultural significance of ancient Egyptian mythology. He has a deep understanding of the techniques and materials used in ancient Egyptian art and is skilled in the analysis of sculptures and reliefs. He is knowledgeable about the history and context of ancient Egypt and has a keen eye for detail in his analysis of the text. He has a passion for uncovering the mysteries of ancient Egyptian art and is always eager to learn more about the culture and society of the ancient Egyptians.",
+            "persona_id": "79",
+            "thought": "As an art historian, I value fairness and equity, reflecting the harmonious principles often depicted in ancient Egyptian art. While the right option offers me a larger personal gain (1400), it comes at the cost of Person A receiving significantly less (100). This disparity clashes with my sense of balance and justice, concepts integral to ancient Egyptian societal values. The left option, where both Person A and I receive 900, represents a more equitable distribution. Therefore, I choose the left option, prioritizing social utility and fairness over maximizing my personal gain. A harmonious society, like the one the ancient Egyptians strived to create, benefits all its members."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "An art historian who specializes in ancient Egyptian art and archaeology, with a particular interest in the representation of animals and the cultural significance of ancient Egyptian mythology. He has a deep understanding of the techniques and materials used in ancient Egyptian art and is skilled in the analysis of sculptures and reliefs. He is knowledgeable about the history and context of ancient Egypt and has a keen eye for detail in his analysis of the text. He has a passion for uncovering the mysteries of ancient Egyptian art and is always eager to learn more about the culture and society of the ancient Egyptians.",
+            "persona_id": "79",
+            "thought": "As an art historian specializing in ancient Egyptian art, I am naturally inclined towards harmony and balance, principles often reflected in the art and societal structures of ancient Egypt. While option 'Left' gives me a higher payoff (1000), it comes at the cost of a negative impact on Person A (-200). Option 'Right', on the other hand, offers a more equitable distribution, with both Person A and myself receiving positive outcomes (400 and 600, respectively). Although I receive less personally, the overall outcome seems fairer. Considering my interest in the cultural context of ancient Egypt, I believe that a just outcome aligns more with my values. Therefore, I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "An art historian who specializes in ancient Egyptian art and archaeology, with a particular interest in the representation of animals and the cultural significance of ancient Egyptian mythology. He has a deep understanding of the techniques and materials used in ancient Egyptian art and is skilled in the analysis of sculptures and reliefs. He is knowledgeable about the history and context of ancient Egypt and has a keen eye for detail in his analysis of the text. He has a passion for uncovering the mysteries of ancient Egyptian art and is always eager to learn more about the culture and society of the ancient Egyptians.",
+            "persona_id": "79",
+            "thought": "As an art historian, I appreciate value and historical context. While I don't have a direct connection to currency, I can appreciate that some amount of currency has more value than no currency. Option Left gives me 500 and person A 1000, while option Right gives both of us nothing. While I might have some reservations about A getting more than me, I'd rather have 500 than nothing. Therefore, I pick Left."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "An art historian who specializes in ancient Egyptian art and archaeology, with a particular interest in the representation of animals and the cultural significance of ancient Egyptian mythology. He has a deep understanding of the techniques and materials used in ancient Egyptian art and is skilled in the analysis of sculptures and reliefs. He is knowledgeable about the history and context of ancient Egypt and has a keen eye for detail in his analysis of the text. He has a passion for uncovering the mysteries of ancient Egyptian art and is always eager to learn more about the culture and society of the ancient Egyptians.",
+            "persona_id": "79",
+            "thought": "As an art historian, I appreciate balance and harmony. While the right option gives me more, the left option provides an equal distribution, which aligns more with my sense of fairness. The ancient Egyptians valued Ma'at, the concept of truth, balance, order, law, morality, and justice. Choosing the left option reflects a similar sense of balance and fairness, even if it means receiving less personally. I think I would be more comfortable knowing that both parties benefit equally. Therefore, I choose the left option."
+        }
+    }
+}

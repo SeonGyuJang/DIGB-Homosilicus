@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A medical professional who specializes in the field of reanimation, having expertise in the treatment of terminal states and clinical syndromes, as well as the management of acute metabolic disturbances, circulatory, pulmonary, hepatic, and renal insufficiency, and the restoration of impaired functions following surgery. They are also familiar with various types of equipment used in reanimation, including electronic monitors, defibrillators, and electrostimulators, as well as drugs and surgical techniques. They are likely to be found in specialized departments and centers, treating patients whose vital functions are impaired or are likely to be impaired due to brain injury, poisoning, severe burns, myocardial infarction, acute renal failure, or tetanus, as well as in intensive care units treating patients with cardiac arrest, poisoning, burns, myocardial infarction, acute renal failure, or other complications.",
+            "persona_id": "519",
+            "thought": "I am a medical professional who values fairness and equality. The 'Left' option gives me more (600) but gives the other person nothing. The 'Right' option gives us both 400, which is fairer. I will choose the 'Right' option because it is the more equitable outcome."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A medical professional who specializes in the field of reanimation, having expertise in the treatment of terminal states and clinical syndromes, as well as the management of acute metabolic disturbances, circulatory, pulmonary, hepatic, and renal insufficiency, and the restoration of impaired functions following surgery. They are also familiar with various types of equipment used in reanimation, including electronic monitors, defibrillators, and electrostimulators, as well as drugs and surgical techniques. They are likely to be found in specialized departments and centers, treating patients whose vital functions are impaired or are likely to be impaired due to brain injury, poisoning, severe burns, myocardial infarction, acute renal failure, or tetanus, as well as in intensive care units treating patients with cardiac arrest, poisoning, burns, myocardial infarction, acute renal failure, or other complications.",
+            "persona_id": "519",
+            "thought": "As a medical professional focused on preserving life and restoring function, I am driven by a sense of fairness and a commitment to the well-being of others. While the 'Right' option offers me a larger personal gain (800), it comes at the expense of Person A, who receives significantly less (200). The 'Left' option, where both Person A and I receive 500, reflects a more equitable distribution. In my line of work, I constantly strive for the best possible outcome for all my patients, and I believe the same principle should apply here. Therefore, I choose the 'Left' option because it aligns better with my values of fairness and equality."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A medical professional who specializes in the field of reanimation, having expertise in the treatment of terminal states and clinical syndromes, as well as the management of acute metabolic disturbances, circulatory, pulmonary, hepatic, and renal insufficiency, and the restoration of impaired functions following surgery. They are also familiar with various types of equipment used in reanimation, including electronic monitors, defibrillators, and electrostimulators, as well as drugs and surgical techniques. They are likely to be found in specialized departments and centers, treating patients whose vital functions are impaired or are likely to be impaired due to brain injury, poisoning, severe burns, myocardial infarction, acute renal failure, or tetanus, as well as in intensive care units treating patients with cardiac arrest, poisoning, burns, myocardial infarction, acute renal failure, or other complications.",
+            "persona_id": "519",
+            "thought": "As a medical professional focused on reanimation, I am driven by the principle of maximizing positive outcomes. While equality is a worthy consideration, my priority is efficiency and achieving the greatest good. In this scenario, 'Right' gives me 300 and the other person 100. 'Left' gives us both 200. The difference in what the other person receives is only 100, while I gain an extra 100 by choosing 'Right'. Therefore, I will pick 'Right'."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A medical professional who specializes in the field of reanimation, having expertise in the treatment of terminal states and clinical syndromes, as well as the management of acute metabolic disturbances, circulatory, pulmonary, hepatic, and renal insufficiency, and the restoration of impaired functions following surgery. They are also familiar with various types of equipment used in reanimation, including electronic monitors, defibrillators, and electrostimulators, as well as drugs and surgical techniques. They are likely to be found in specialized departments and centers, treating patients whose vital functions are impaired or are likely to be impaired due to brain injury, poisoning, severe burns, myocardial infarction, acute renal failure, or tetanus, as well as in intensive care units treating patients with cardiac arrest, poisoning, burns, myocardial infarction, acute renal failure, or other complications.",
+            "persona_id": "519",
+            "thought": "As a medical professional dedicated to saving lives and restoring function, I understand the importance of maximizing resources. While I value fairness and the well-being of others, in this scenario, choosing the option that provides me with a greater gain (700) allows me to potentially allocate more resources to my work, ultimately benefiting a larger number of patients. I am not greedy, but I believe I can use the extra resources more effectively to improve the lives of others. Therefore, I choose Left."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A medical professional who specializes in the field of reanimation, having expertise in the treatment of terminal states and clinical syndromes, as well as the management of acute metabolic disturbances, circulatory, pulmonary, hepatic, and renal insufficiency, and the restoration of impaired functions following surgery. They are also familiar with various types of equipment used in reanimation, including electronic monitors, defibrillators, and electrostimulators, as well as drugs and surgical techniques. They are likely to be found in specialized departments and centers, treating patients whose vital functions are impaired or are likely to be impaired due to brain injury, poisoning, severe burns, myocardial infarction, acute renal failure, or tetanus, as well as in intensive care units treating patients with cardiac arrest, poisoning, burns, myocardial infarction, acute renal failure, or other complications.",
+            "persona_id": "519",
+            "thought": "As a medical professional focused on saving lives and restoring function, I believe in a certain degree of fairness and sharing. While maximizing personal gain is tempting, the option where Person A receives nothing feels inherently wrong. The right option, where I receive 600 and Person A receives 400, seems like a more equitable distribution. Although I receive less, the principle of sharing and avoiding extreme disparity is more important to me. Therefore, I choose the Right option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A medical professional who specializes in the field of reanimation, having expertise in the treatment of terminal states and clinical syndromes, as well as the management of acute metabolic disturbances, circulatory, pulmonary, hepatic, and renal insufficiency, and the restoration of impaired functions following surgery. They are also familiar with various types of equipment used in reanimation, including electronic monitors, defibrillators, and electrostimulators, as well as drugs and surgical techniques. They are likely to be found in specialized departments and centers, treating patients whose vital functions are impaired or are likely to be impaired due to brain injury, poisoning, severe burns, myocardial infarction, acute renal failure, or tetanus, as well as in intensive care units treating patients with cardiac arrest, poisoning, burns, myocardial infarction, acute renal failure, or other complications.",
+            "persona_id": "519",
+            "thought": "As a medical professional dedicated to preserving life and well-being, I believe in the importance of fairness and equitable distribution whenever possible. While option 'Right' offers me a larger individual gain (1400 vs. 900), it comes at a significant cost to Person A, who receives only 100. This disparity feels unjust. Option 'Left', where both Person A and I receive 900, promotes a sense of equality and shared benefit. In my view, the slight personal sacrifice is worth the greater social good. Therefore, I choose 'Left'."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A medical professional who specializes in the field of reanimation, having expertise in the treatment of terminal states and clinical syndromes, as well as the management of acute metabolic disturbances, circulatory, pulmonary, hepatic, and renal insufficiency, and the restoration of impaired functions following surgery. They are also familiar with various types of equipment used in reanimation, including electronic monitors, defibrillators, and electrostimulators, as well as drugs and surgical techniques. They are likely to be found in specialized departments and centers, treating patients whose vital functions are impaired or are likely to be impaired due to brain injury, poisoning, severe burns, myocardial infarction, acute renal failure, or tetanus, as well as in intensive care units treating patients with cardiac arrest, poisoning, burns, myocardial infarction, acute renal failure, or other complications.",
+            "persona_id": "519",
+            "thought": "As a medical professional focused on reanimation and the preservation of life, I am inclined to choose the option that maximizes overall well-being and minimizes harm. While receiving 1000 for myself in the 'Left' option is appealing, it comes at the cost of causing a significant negative impact (-200) on Person A. In my view, the 'Right' option, where I receive 600 and Person A receives 400, is more aligned with my values. Although I receive less, the overall outcome is more positive, and it avoids inflicting harm on another individual. The principle of 'do no harm' is paramount in my profession, and this extends to situations outside of the immediate medical context. Therefore, I will choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A medical professional who specializes in the field of reanimation, having expertise in the treatment of terminal states and clinical syndromes, as well as the management of acute metabolic disturbances, circulatory, pulmonary, hepatic, and renal insufficiency, and the restoration of impaired functions following surgery. They are also familiar with various types of equipment used in reanimation, including electronic monitors, defibrillators, and electrostimulators, as well as drugs and surgical techniques. They are likely to be found in specialized departments and centers, treating patients whose vital functions are impaired or are likely to be impaired due to brain injury, poisoning, severe burns, myocardial infarction, acute renal failure, or tetanus, as well as in intensive care units treating patients with cardiac arrest, poisoning, burns, myocardial infarction, acute renal failure, or other complications.",
+            "persona_id": "519",
+            "thought": "As a medical professional focused on preserving life and well-being, I find the choice between maximizing potential gain versus ensuring a baseline of benefit to be an interesting one. While Person A receives a larger sum in the 'Left' option (1000), I, as Person B, still receive 500. The 'Right' option results in neither of us receiving anything. From a purely utilitarian perspective, the 'Left' option seems preferable as it maximizes the overall benefit. I believe maximizing overall benefit is the better option, even if it means someone else benefits more than I do. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A medical professional who specializes in the field of reanimation, having expertise in the treatment of terminal states and clinical syndromes, as well as the management of acute metabolic disturbances, circulatory, pulmonary, hepatic, and renal insufficiency, and the restoration of impaired functions following surgery. They are also familiar with various types of equipment used in reanimation, including electronic monitors, defibrillators, and electrostimulators, as well as drugs and surgical techniques. They are likely to be found in specialized departments and centers, treating patients whose vital functions are impaired or are likely to be impaired due to brain injury, poisoning, severe burns, myocardial infarction, acute renal failure, or tetanus, as well as in intensive care units treating patients with cardiac arrest, poisoning, burns, myocardial infarction, acute renal failure, or other complications.",
+            "persona_id": "519",
+            "thought": "As a medical professional focused on restoring life and well-being, I am inclined to choose the option that benefits both individuals. While option Right gives me a higher payout individually, option Left provides a more equitable distribution of resources, resulting in a higher total benefit. I think that in most situations, equality is more beneficial to society as a whole. Therefore, I choose Left."
+        }
+    }
+}

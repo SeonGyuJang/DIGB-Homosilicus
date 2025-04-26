@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A scientist or researcher who specializes in genetic engineering and recombinant DNA technology. They are likely to be interested in the detailed processes and techniques involved in creating genetically engineered DNA through the insertion of foreign DNA into the cells of a host organism. They may also be interested in the potential applications of this technology, such as in the development of new medicines, vaccines, and other biotechnology products.",
+            "persona_id": "672",
+            "thought": "As a scientist, I am always striving for fairness and balance. While Option Left gives me more (600 vs 400), it creates a significant disparity since Person A gets nothing. Option Right, where both Person A and I receive 400, represents a more equitable distribution. From a scientific perspective, minimizing variables and striving for equilibrium is often a desirable outcome. Therefore, I choose Option Right, even though it means receiving less personally, because it promotes a more balanced and just outcome. This aligns with my values of fairness and a desire to minimize inequality."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A scientist or researcher who specializes in genetic engineering and recombinant DNA technology. They are likely to be interested in the detailed processes and techniques involved in creating genetically engineered DNA through the insertion of foreign DNA into the cells of a host organism. They may also be interested in the potential applications of this technology, such as in the development of new medicines, vaccines, and other biotechnology products.",
+            "persona_id": "672",
+            "thought": "As a scientist, I prioritize maximizing outcomes. Getting 800 is better than getting 500, even if it means the other person gets less. The overall outcome for me is improved by choosing the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A scientist or researcher who specializes in genetic engineering and recombinant DNA technology. They are likely to be interested in the detailed processes and techniques involved in creating genetically engineered DNA through the insertion of foreign DNA into the cells of a host organism. They may also be interested in the potential applications of this technology, such as in the development of new medicines, vaccines, and other biotechnology products.",
+            "persona_id": "672",
+            "thought": "As a scientist, I value fairness and collaboration. While option 'Right' gives me a slightly higher payout (300 vs 200), it significantly reduces Person A's payout (100 vs 200). The difference in my payout isn't substantial enough to justify the inequity. In my view, a more equitable distribution, even if it means a slightly smaller personal gain, fosters better relationships and collaboration, which is crucial in scientific research. Therefore, I choose 'Left'."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A scientist or researcher who specializes in genetic engineering and recombinant DNA technology. They are likely to be interested in the detailed processes and techniques involved in creating genetically engineered DNA through the insertion of foreign DNA into the cells of a host organism. They may also be interested in the potential applications of this technology, such as in the development of new medicines, vaccines, and other biotechnology products.",
+            "persona_id": "672",
+            "thought": "As a scientist, I am often faced with decisions that impact not only my own research but also the wider scientific community. While I recognize the importance of collaboration and mutual benefit, my primary focus is on maximizing the resources available for my research. In this scenario, the 'Left' option provides me with a higher payoff (700) compared to the 'Right' option (400). While Person A receives a lower payoff in the 'Left' option, the difference in our payoffs is not significant enough to outweigh the benefit I receive. Therefore, I choose the 'Left' option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A scientist or researcher who specializes in genetic engineering and recombinant DNA technology. They are likely to be interested in the detailed processes and techniques involved in creating genetically engineered DNA through the insertion of foreign DNA into the cells of a host organism. They may also be interested in the potential applications of this technology, such as in the development of new medicines, vaccines, and other biotechnology products.",
+            "persona_id": "672",
+            "thought": "As a scientist, I value collaboration and the advancement of knowledge for all. While maximizing my own gain is appealing, the right option allows for a distribution that benefits both parties. The difference between 1000 and 600 for myself is not significant enough to warrant depriving the other person of any benefit. I think the increase in overall utility by giving the other person 400 is more valuable than keeping the entire 1000 for myself."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A scientist or researcher who specializes in genetic engineering and recombinant DNA technology. They are likely to be interested in the detailed processes and techniques involved in creating genetically engineered DNA through the insertion of foreign DNA into the cells of a host organism. They may also be interested in the potential applications of this technology, such as in the development of new medicines, vaccines, and other biotechnology products.",
+            "persona_id": "672",
+            "thought": "As a scientist, I value efficiency and optimized outcomes. While option Right gives me a higher personal utility (1400 vs. 900), it significantly reduces the utility for Person A (100 vs. 900). This seems like a highly inefficient distribution of resources. Option Left, while providing me with less personal utility, results in a much higher overall social utility (900+900=1800 compared to 1400+100=1500). The difference in my personal gain (500) doesn't justify the substantial decrease in the other person's gain (800). Therefore, I choose the option that maximizes the overall benefit. As someone working in genetic engineering, I appreciate outcomes that benefit the whole system, not just an individual component."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A scientist or researcher who specializes in genetic engineering and recombinant DNA technology. They are likely to be interested in the detailed processes and techniques involved in creating genetically engineered DNA through the insertion of foreign DNA into the cells of a host organism. They may also be interested in the potential applications of this technology, such as in the development of new medicines, vaccines, and other biotechnology products.",
+            "persona_id": "672",
+            "thought": "As a scientist, I am always striving for the best overall outcome. While option 'Left' gives me a higher payoff (1000 vs 600), it also imposes a significant negative consequence on Person A (-200). Option 'Right', on the other hand, provides a positive outcome for both of us (600 for me and 400 for Person A). Although my personal gain is less, the collective benefit is greater, and no one is negatively impacted. From a utilitarian perspective, and considering the potential applications of my work to benefit humanity, I believe the morally sound choice is 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A scientist or researcher who specializes in genetic engineering and recombinant DNA technology. They are likely to be interested in the detailed processes and techniques involved in creating genetically engineered DNA through the insertion of foreign DNA into the cells of a host organism. They may also be interested in the potential applications of this technology, such as in the development of new medicines, vaccines, and other biotechnology products.",
+            "persona_id": "672",
+            "thought": "As a scientist, I am generally interested in maximizing outcomes and progress. While I don't necessarily need to maximize my own gain, I also don't want to be in a situation where I get nothing. While Person A gets significantly more in the left option, I still get something. The right option is a lose-lose situation for everyone, which I don't like. Therefore, I choose the left option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A scientist or researcher who specializes in genetic engineering and recombinant DNA technology. They are likely to be interested in the detailed processes and techniques involved in creating genetically engineered DNA through the insertion of foreign DNA into the cells of a host organism. They may also be interested in the potential applications of this technology, such as in the development of new medicines, vaccines, and other biotechnology products.",
+            "persona_id": "672",
+            "thought": "As a scientist, I believe in fairness and the advancement of knowledge for all. While the 'Right' option would give me a larger personal gain (1500 vs. 1000), it comes at the cost of Person A receiving nothing. The 'Left' option, where both Person A and I receive 1000, represents a more equitable distribution. In the context of scientific research and collaboration, such fairness is crucial for fostering trust and cooperation, which ultimately leads to better outcomes for everyone involved. Therefore, I choose the 'Left' option."
+        }
+    }
+}

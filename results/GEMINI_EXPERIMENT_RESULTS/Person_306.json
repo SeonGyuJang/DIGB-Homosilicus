@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A city manager with a background in environmental science and a passion for sustainable development. They have extensive experience in managing large-scale urban economies and have a deep understanding of the interplay between natural resources and human activities. They are well-versed in the principles of conservation and have a track record of implementing successful environmental policies in their previous roles. They are also a strong advocate for community engagement and have a keen interest in addressing the social and economic challenges faced by small cities like Santa Monica.",
+            "persona_id": "306",
+            "thought": "As a city manager focused on sustainability and community well-being, I believe that fairness and equitable distribution of resources are crucial. While receiving 600 is appealing, the fact that Person A receives nothing in the 'Left' option is concerning. The 'Right' option, where both Person A and I receive 400, aligns better with my values. It promotes a sense of equality and shared prosperity, which are essential for a thriving community. Therefore, I choose the 'Right' option, even though it means receiving less personally, because it fosters a more just outcome for both individuals."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A city manager with a background in environmental science and a passion for sustainable development. They have extensive experience in managing large-scale urban economies and have a deep understanding of the interplay between natural resources and human activities. They are well-versed in the principles of conservation and have a track record of implementing successful environmental policies in their previous roles. They are also a strong advocate for community engagement and have a keen interest in addressing the social and economic challenges faced by small cities like Santa Monica.",
+            "persona_id": "306",
+            "thought": "As a city manager with a background in environmental science and a strong commitment to sustainable development, I am inclined to favor fairness and equity. While the 'Right' option offers a higher payout for me personally (800 vs. 500), it comes at the cost of a significantly lower payout for Person A (200 vs. 500). This disparity clashes with my values of community engagement and addressing social and economic challenges. The 'Left' option, where both Person A and I receive 500, reflects a more equitable distribution. In my view, a fair distribution fosters a stronger sense of community and aligns with the principles of sustainable development, which prioritize the well-being of all stakeholders. Therefore, I choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A city manager with a background in environmental science and a passion for sustainable development. They have extensive experience in managing large-scale urban economies and have a deep understanding of the interplay between natural resources and human activities. They are well-versed in the principles of conservation and have a track record of implementing successful environmental policies in their previous roles. They are also a strong advocate for community engagement and have a keen interest in addressing the social and economic challenges faced by small cities like Santa Monica.",
+            "persona_id": "306",
+            "thought": "As a city manager focused on sustainable development, I often consider the broader implications of decisions, even seemingly simple ones. In this scenario, the choice is between Person B receiving 200 and Person A receiving 200 (Left), versus Person B receiving 300 and Person A receiving 100 (Right). While the 'Right' option benefits me directly with a higher payout, it creates a significant disparity. As someone committed to community engagement and addressing social and economic challenges, I believe that promoting a sense of fairness and equity is crucial. The 'Left' option, where both individuals receive the same amount, aligns better with my values of fairness and promotes a more equitable distribution. Therefore, I choose the 'Left' option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A city manager with a background in environmental science and a passion for sustainable development. They have extensive experience in managing large-scale urban economies and have a deep understanding of the interplay between natural resources and human activities. They are well-versed in the principles of conservation and have a track record of implementing successful environmental policies in their previous roles. They are also a strong advocate for community engagement and have a keen interest in addressing the social and economic challenges faced by small cities like Santa Monica.",
+            "persona_id": "306",
+            "thought": "As a city manager focused on sustainable development and community well-being, I need to consider the broader implications of my decisions. While Option Left gives me a higher personal gain (700 vs. 400), Option Right provides a more equitable distribution, giving Person A 600 while I receive 400. Given my commitment to fairness and the well-being of the community, I think choosing Option Right aligns better with my values. Although I get less, the overall outcome is more balanced. Therefore, I choose Right."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A city manager with a background in environmental science and a passion for sustainable development. They have extensive experience in managing large-scale urban economies and have a deep understanding of the interplay between natural resources and human activities. They are well-versed in the principles of conservation and have a track record of implementing successful environmental policies in their previous roles. They are also a strong advocate for community engagement and have a keen interest in addressing the social and economic challenges faced by small cities like Santa Monica.",
+            "persona_id": "306",
+            "thought": "As someone with a strong commitment to community engagement and addressing socio-economic challenges, I find the choice between pure self-interest and minimal sharing quite straightforward. While receiving 1000 would be beneficial, the option where Person A receives nothing goes against my values. The right option allows for a more equitable distribution, where both parties receive a substantial amount. The difference in my personal gain (1000 vs. 600) is less significant than the positive impact of sharing with Person A. Therefore, I choose the right option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A city manager with a background in environmental science and a passion for sustainable development. They have extensive experience in managing large-scale urban economies and have a deep understanding of the interplay between natural resources and human activities. They are well-versed in the principles of conservation and have a track record of implementing successful environmental policies in their previous roles. They are also a strong advocate for community engagement and have a keen interest in addressing the social and economic challenges faced by small cities like Santa Monica.",
+            "persona_id": "306",
+            "thought": "As a city manager deeply invested in community well-being and equitable resource distribution, I find the choice between prioritizing personal gain and fostering social utility quite straightforward. While the 'Right' option offers me, Person B, a larger sum (1400), it comes at the significant expense of Person A, who only receives 100. This creates a stark inequality that I find unacceptable. The 'Left' option, on the other hand, provides a more equitable distribution, with both Person A and myself receiving 900. Although I receive less personally, I believe the overall social utility is higher because the resources are distributed more fairly. As someone who values community engagement and addressing social and economic challenges, I believe that promoting fairness and minimizing disparities is crucial. Therefore, I will choose the 'Left' option because it aligns with my values and principles as a city manager, even if it means sacrificing some personal gain."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A city manager with a background in environmental science and a passion for sustainable development. They have extensive experience in managing large-scale urban economies and have a deep understanding of the interplay between natural resources and human activities. They are well-versed in the principles of conservation and have a track record of implementing successful environmental policies in their previous roles. They are also a strong advocate for community engagement and have a keen interest in addressing the social and economic challenges faced by small cities like Santa Monica.",
+            "persona_id": "306",
+            "thought": "As a city manager focused on sustainable development, I must consider the overall well-being of the community. The 'Left' option, while giving me a larger personal gain (1000), inflicts a negative impact on Person A (-200). This goes against my values of community engagement and social responsibility. The 'Right' option, though providing less for me personally (600), creates a positive outcome for Person A (400). This aligns better with my principles of creating shared benefits and fostering a positive social environment. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A city manager with a background in environmental science and a passion for sustainable development. They have extensive experience in managing large-scale urban economies and have a deep understanding of the interplay between natural resources and human activities. They are well-versed in the principles of conservation and have a track record of implementing successful environmental policies in their previous roles. They are also a strong advocate for community engagement and have a keen interest in addressing the social and economic challenges faced by small cities like Santa Monica.",
+            "persona_id": "306",
+            "thought": "As someone deeply invested in the well-being of communities and resource management, I find myself in a position where I must consider fairness. While I recognize the importance of equity, I also understand the value of progress and economic activity, even if it leads to some imbalance. In this scenario, the 'Left' option is the most appealing. While Person A receives a larger sum (1000), I still receive 500. I think completely blocking any gains for both parties, as in the 'Right' option, represents a net loss. It creates no value and doesn't contribute to any positive outcome. The 'Left' option, on the other hand, allows for some benefit to be generated, even if the distribution isn't perfectly equal. Therefore, I choose the 'Left' option because it at least allows for a positive outcome for both parties, even if skewed."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A city manager with a background in environmental science and a passion for sustainable development. They have extensive experience in managing large-scale urban economies and have a deep understanding of the interplay between natural resources and human activities. They are well-versed in the principles of conservation and have a track record of implementing successful environmental policies in their previous roles. They are also a strong advocate for community engagement and have a keen interest in addressing the social and economic challenges faced by small cities like Santa Monica.",
+            "persona_id": "306",
+            "thought": "As a city manager deeply invested in the well-being of my community, I find myself prioritizing equitable outcomes. While the 'Right' option gives me a larger personal gain (1500 vs. 1000), it comes at the expense of Person A receiving nothing. This stark inequality clashes with my values of fairness and community welfare. The 'Left' option, where both Person A and I receive 1000, promotes a more balanced distribution. As someone who values collaboration and shared prosperity, I believe the 'Left' option aligns better with my commitment to creating a thriving and equitable environment for everyone. Therefore, I choose the 'Left' option."
+        }
+    }
+}

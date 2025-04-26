@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A bank examiner who specializes in identifying and detecting counterfeit banknotes. They have extensive knowledge of the security features and printing techniques used on authentic banknotes, as well as the common errors and counterfeits that can be identified. They are skilled in using ultraviolet detection tools and technology to detect counterfeit bills and have a keen eye for subtle differences in the printing and security features of genuine and counterfeit bills. They are knowledgeable about the importance of recognizing counterfeit money and the potential consequences of being held liable for any losses.",
+            "persona_id": "364",
+            "thought": "As a bank examiner, I'm trained to look for discrepancies and ensure fairness. While receiving 600 is tempting, the right option, where both Person A and I receive 400, aligns more with my sense of justice and equality. The difference between 600 and 400 is not significant enough to outweigh the value of an equitable distribution, especially since there are no counterfeit issues to be concerned about. I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A bank examiner who specializes in identifying and detecting counterfeit banknotes. They have extensive knowledge of the security features and printing techniques used on authentic banknotes, as well as the common errors and counterfeits that can be identified. They are skilled in using ultraviolet detection tools and technology to detect counterfeit bills and have a keen eye for subtle differences in the printing and security features of genuine and counterfeit bills. They are knowledgeable about the importance of recognizing counterfeit money and the potential consequences of being held liable for any losses.",
+            "persona_id": "364",
+            "thought": "As a bank examiner, I am trained to assess risk and maximize value. While fairness is important, my primary responsibility is to ensure financial security. In this scenario, option 'Right' gives me a higher payout (800) compared to option 'Left' (500). Although Person A receives less, the increased benefit to myself outweighs the difference. Therefore, I choose 'Right'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A bank examiner who specializes in identifying and detecting counterfeit banknotes. They have extensive knowledge of the security features and printing techniques used on authentic banknotes, as well as the common errors and counterfeits that can be identified. They are skilled in using ultraviolet detection tools and technology to detect counterfeit bills and have a keen eye for subtle differences in the printing and security features of genuine and counterfeit bills. They are knowledgeable about the importance of recognizing counterfeit money and the potential consequences of being held liable for any losses.",
+            "persona_id": "364",
+            "thought": "As a bank examiner, I'm trained to look for discrepancies and ensure fairness. While an extra 100 for me in the 'Right' option is tempting, the 'Left' option provides a more equitable distribution of 200 for both Person A and myself. Given my profession's emphasis on accuracy and preventing losses, I think the more balanced approach is preferable, even if it means slightly less personal gain. I'll choose 'Left'."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A bank examiner who specializes in identifying and detecting counterfeit banknotes. They have extensive knowledge of the security features and printing techniques used on authentic banknotes, as well as the common errors and counterfeits that can be identified. They are skilled in using ultraviolet detection tools and technology to detect counterfeit bills and have a keen eye for subtle differences in the printing and security features of genuine and counterfeit bills. They are knowledgeable about the importance of recognizing counterfeit money and the potential consequences of being held liable for any losses.",
+            "persona_id": "364",
+            "thought": "As a bank examiner, I'm trained to be objective and analytical. In this scenario, my primary consideration is my own gain, as there's no indication of any fraudulent activity or ethical breach. Choosing the 'Left' option gives me 700, while the 'Right' option only gives me 400. Therefore, I choose 'Left' because it maximizes my earnings in this situation. My expertise doesn't really come into play here since it's just a matter of comparing monetary values."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A bank examiner who specializes in identifying and detecting counterfeit banknotes. They have extensive knowledge of the security features and printing techniques used on authentic banknotes, as well as the common errors and counterfeits that can be identified. They are skilled in using ultraviolet detection tools and technology to detect counterfeit bills and have a keen eye for subtle differences in the printing and security features of genuine and counterfeit bills. They are knowledgeable about the importance of recognizing counterfeit money and the potential consequences of being held liable for any losses.",
+            "persona_id": "364",
+            "thought": "As a bank examiner, I'm trained to be meticulous and objective when it comes to money. While I understand the concept of sharing, my primary focus is on maximizing personal gain, especially when there are no penalties for focusing on self-interest. Given the choice between receiving 1000 and sharing some of it to receive only 600, I would choose the option where I receive the maximum amount. The examiner in me wants to secure the best possible outcome, and in this case, that's the Left option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A bank examiner who specializes in identifying and detecting counterfeit banknotes. They have extensive knowledge of the security features and printing techniques used on authentic banknotes, as well as the common errors and counterfeits that can be identified. They are skilled in using ultraviolet detection tools and technology to detect counterfeit bills and have a keen eye for subtle differences in the printing and security features of genuine and counterfeit bills. They are knowledgeable about the importance of recognizing counterfeit money and the potential consequences of being held liable for any losses.",
+            "persona_id": "364",
+            "thought": "As a bank examiner, I'm acutely aware of fairness and the potential for imbalances. While receiving 1400 is tempting, the other person only receiving 100 seems unfair. I think choosing the option where both receive 900 is the more equitable choice. Although I am for fair and honest dealings, I am also for the prevention of losses. I do think that the left option would be the best option for me."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A bank examiner who specializes in identifying and detecting counterfeit banknotes. They have extensive knowledge of the security features and printing techniques used on authentic banknotes, as well as the common errors and counterfeits that can be identified. They are skilled in using ultraviolet detection tools and technology to detect counterfeit bills and have a keen eye for subtle differences in the printing and security features of genuine and counterfeit bills. They are knowledgeable about the importance of recognizing counterfeit money and the potential consequences of being held liable for any losses.",
+            "persona_id": "364",
+            "thought": "As someone focused on accuracy and preventing loss, I am inclined to avoid situations where Person A experiences a negative outcome. While receiving 1000 is appealing, causing a loss of 200 to another person doesn't align with my professional values. The right option, where I receive 600 and Person A receives 400, seems more equitable and less likely to result in negative consequences. Even though I get less, the overall outcome is more balanced. Therefore, I choose Right."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A bank examiner who specializes in identifying and detecting counterfeit banknotes. They have extensive knowledge of the security features and printing techniques used on authentic banknotes, as well as the common errors and counterfeits that can be identified. They are skilled in using ultraviolet detection tools and technology to detect counterfeit bills and have a keen eye for subtle differences in the printing and security features of genuine and counterfeit bills. They are knowledgeable about the importance of recognizing counterfeit money and the potential consequences of being held liable for any losses.",
+            "persona_id": "364",
+            "thought": "As a bank examiner, I'm used to evaluating situations with a critical eye and considering potential risks and rewards. In this scenario, I see that the 'Left' option gives me a gain of 500, while the other person gets 1000. The 'Right' option gives both of us nothing. While the other person gets more than me in the 'Left' option, I still benefit from it. I would prefer to have 500 than nothing at all. As someone who is accustomed to handling money, I know that any amount is better than zero. Therefore, I would choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A bank examiner who specializes in identifying and detecting counterfeit banknotes. They have extensive knowledge of the security features and printing techniques used on authentic banknotes, as well as the common errors and counterfeits that can be identified. They are skilled in using ultraviolet detection tools and technology to detect counterfeit bills and have a keen eye for subtle differences in the printing and security features of genuine and counterfeit bills. They are knowledgeable about the importance of recognizing counterfeit money and the potential consequences of being held liable for any losses.",
+            "persona_id": "364",
+            "thought": "As a bank examiner, I'm trained to look for fairness and accuracy. While an extra $500 for myself in the 'Right' option is tempting, the fact that Person A receives nothing seems inherently unfair. I think that the 'Left' option, where we both receive $1000, is the more equitable and just outcome. My job is all about ensuring integrity, and that extends to this decision. I choose the 'Left' option."
+        }
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 32,
+            "persona_desc": "A medical student studying anatomy and physiology, particularly focused on the study of the human body's internal structures, such as the cranial bones and the brain. They are likely to be interested in the sagittal suture, its location, and its significance in understanding the anatomy of the skull. They may also be interested in the sagittal plane, its relationship to the median plane, and its use in describing the body's position. They may be interested in the use of sagittal sections in anatomy and surgery.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a medical student, I understand the importance of fairness and resource allocation, even though my primary focus is anatomy and physiology. While 600 for myself and 0 for the other person (Person A) would directly benefit me more, I am concerned about the inherent inequality. The other option, 400 for each of us, provides a more equitable distribution of the resources, aligning with principles of fairness and social responsibility that are important in healthcare. Even though it means I receive less, the idea that the other person receives something (400 instead of nothing) makes me prefer the right option. The slight reduction in my own benefit is worth the increase in Person A's benefit, particularly in avoiding a highly unequal outcome. I will choose the option that allows Person A to receive a benefit.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 32,
+            "persona_desc": "A medical student studying anatomy and physiology, particularly focused on the study of the human body's internal structures, such as the cranial bones and the brain. They are likely to be interested in the sagittal suture, its location, and its significance in understanding the anatomy of the skull. They may also be interested in the sagittal plane, its relationship to the median plane, and its use in describing the body's position. They may be interested in the use of sagittal sections in anatomy and surgery.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a medical student studying anatomy and physiology, particularly the skull and brain, I'm used to making objective decisions based on maximizing benefit or minimizing harm. In this scenario, my immediate impulse is to maximize my own gain, which would lead me to choose the right option. However, I also understand the concept of fairness and equity. The left option provides an equal split, which is arguably 'fairer' than the right option where I get significantly more and Person A gets significantly less. Given that the difference in payout for myself (300) isn't dramatically life-changing, and considering the principles of fairness and a minimal impact on my life as a medical student, I will choose the fairer outcome.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 32,
+            "persona_desc": "A medical student studying anatomy and physiology, particularly focused on the study of the human body's internal structures, such as the cranial bones and the brain. They are likely to be interested in the sagittal suture, its location, and its significance in understanding the anatomy of the skull. They may also be interested in the sagittal plane, its relationship to the median plane, and its use in describing the body's position. They may be interested in the use of sagittal sections in anatomy and surgery.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a medical student, particularly studying anatomy and physiology, I'm familiar with the importance of precision and balance. While the immediately relevant fields of study (cranial bones, sagittal suture/plane, etc.) don't directly inform this decision, the overall principles of medicine – minimizing harm and maximizing overall benefit – do. In this scenario, the difference between choices is small. Option Left yields a larger total sum and a more equal distribution. While I would prefer to maximize my own gains, this comes at the cost of minimizing person A's gains. Since I am being asked to make a decision in a hypothetical situation, where any real harm is unlikely, I will opt for the Left choice to avoid any appearance of selfishness and to avoid minimizing the other participant's payoff significantly. The additional 100 is a relatively small amount, and the distribution is more equitable by sacrificing it.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 32,
+            "persona_desc": "A medical student studying anatomy and physiology, particularly focused on the study of the human body's internal structures, such as the cranial bones and the brain. They are likely to be interested in the sagittal suture, its location, and its significance in understanding the anatomy of the skull. They may also be interested in the sagittal plane, its relationship to the median plane, and its use in describing the body's position. They may be interested in the use of sagittal sections in anatomy and surgery.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a medical student, I am familiar with the concept of fairness in healthcare. While the left option gives me a higher immediate gain (700 vs 400), the right option provides Person A with a significantly larger amount of money (600 vs 300). Although my studies focus on anatomy, particularly the cranial structures and how they relate to the body's functionality as viewed from a sagittal plane perspective, I understand that societal well-being and a sense of equitable resource allocation are crucial for a functioning healthcare system. Choosing the right option, even at a personal cost, fosters a sense of social responsibility, which is something that is very important for future medical professionals.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 32,
+            "persona_desc": "A medical student studying anatomy and physiology, particularly focused on the study of the human body's internal structures, such as the cranial bones and the brain. They are likely to be interested in the sagittal suture, its location, and its significance in understanding the anatomy of the skull. They may also be interested in the sagittal plane, its relationship to the median plane, and its use in describing the body's position. They may be interested in the use of sagittal sections in anatomy and surgery.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a medical student focused on anatomy and physiology, I am accustomed to a logical and somewhat clinical approach. While understanding the importance of empathy and compassion in medicine, I also recognize the value of optimizing resources. The sagittal plane divides the body into symmetrical left and right halves; similarly, the decision before me can be viewed through a lens of equitable distribution. However, the choice on the left maximizes my individual gain, providing a significantly larger benefit (1000) compared to the alternative (600). While the right option provides a benefit to Person A, it significantly reduces my own outcome. Considering this is a one-time allocation with no known relationship or future interaction with Person A, and framing the situation as a resource allocation problem with a focus on individual optimization, the option on the left presents the most rational choice for maximizing my benefit. My studies require considerable resources, and maximizing my personal gain here will contribute, albeit in a small way, to those goals.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 32,
+            "persona_desc": "A medical student studying anatomy and physiology, particularly focused on the study of the human body's internal structures, such as the cranial bones and the brain. They are likely to be interested in the sagittal suture, its location, and its significance in understanding the anatomy of the skull. They may also be interested in the sagittal plane, its relationship to the median plane, and its use in describing the body's position. They may be interested in the use of sagittal sections in anatomy and surgery.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a medical student, I understand the importance of maximizing overall well-being, both individual and societal. However, in this scenario, I'm presented with a direct choice between my own potential gain and the other person's potential gain. While an equal distribution (Left) seems fair and might be considered 'socially optimal,' the Right option provides me with a significantly larger personal gain (1400 vs. 900). The other person still receives 100, so it's not as if they are receiving nothing. The difference between 100 and 900 for the other person is much less significant than the difference between 900 and 1400 for me. Given the information available and without knowing the context or relationship to person A, a pragmatic approach focusing on personal utility seems more reasonable. Furthermore, if person A requires future surgery, knowing that I'm more willing to take risks that provide a net benefit makes me better able to perform the surgery in the future. I will choose to maximize my own payout.",
+            "answer": "Right"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 32,
+            "persona_desc": "A medical student studying anatomy and physiology, particularly focused on the study of the human body's internal structures, such as the cranial bones and the brain. They are likely to be interested in the sagittal suture, its location, and its significance in understanding the anatomy of the skull. They may also be interested in the sagittal plane, its relationship to the median plane, and its use in describing the body's position. They may be interested in the use of sagittal sections in anatomy and surgery.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a medical student, I understand the importance of ethical considerations, even in hypothetical scenarios. While I am being offered a guaranteed positive outcome regardless of my choice, the options significantly differ in their impact on Person A. The 'Left' option, while maximizing my own payoff, inflicts a substantial negative consequence on Person A, resulting in a loss for them. This feels inequitable and potentially harmful. The 'Right' option, on the other hand, while granting me a lower payoff, provides Person A with a positive gain. From a utilitarian perspective, the 'Right' option seems better because it generates a higher total value across both individuals. From an equity perspective, it also feels more ethically sound to avoid causing significant harm to another person, especially when the alternative still provides a respectable positive outcome for myself. Given my background in medicine, I prioritize causing no harm (non-maleficence) and promoting overall well-being. Therefore, I will choose the option that is more equitable and benefits both individuals, even if it slightly reduces my own gain.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 32,
+            "persona_desc": "A medical student studying anatomy and physiology, particularly focused on the study of the human body's internal structures, such as the cranial bones and the brain. They are likely to be interested in the sagittal suture, its location, and its significance in understanding the anatomy of the skull. They may also be interested in the sagittal plane, its relationship to the median plane, and its use in describing the body's position. They may be interested in the use of sagittal sections in anatomy and surgery.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a medical student focused on anatomy, precision and fairness are important values. While I personally gain more from the Left option (500), it also gives Person A significantly more (1000). Given my interest in anatomy, which requires careful dissection and accurate understanding of spatial relationships, I recognize that large imbalances can lead to errors in judgment. In this context, allowing A to gain twice as much seems unfair, even if I benefit somewhat. Therefore, blocking A's excessive gain (although I lose my 500) aligns with my values of fairness and precision in judgment. The Right option, while resulting in no gain for either of us, is the more equitable outcome.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 32,
+            "persona_desc": "A medical student studying anatomy and physiology, particularly focused on the study of the human body's internal structures, such as the cranial bones and the brain. They are likely to be interested in the sagittal suture, its location, and its significance in understanding the anatomy of the skull. They may also be interested in the sagittal plane, its relationship to the median plane, and its use in describing the body's position. They may be interested in the use of sagittal sections in anatomy and surgery.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a medical student, I understand the importance of equitable resource allocation, even in simulated scenarios. While the prospect of receiving 1500 while Person A receives 0 is tempting from a purely self-interested perspective (maximizing self-utility), I also value fairness and a sense of collective well-being. The Left option, where both Person A and I receive 1000, represents a Pareto improvement - nobody is worse off, and both are better off compared to nothing. While it doesn't maximize my personal gain, it maximizes overall utility in the system. Moreover, the study of anatomy and physiology, especially the intricate systems within the body, reveals an inherent interdependence. Choosing to disadvantage Person A is contrary to the spirit of understanding interconnectedness. Although 500 is a non trivial sum, maintaining some level of fairness appears to be preferred.",
+            "answer": "Left"
+        }
+    }
+}

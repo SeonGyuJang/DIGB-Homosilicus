@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A scientist and researcher in the field of nutrition, particularly focusing on the gut microbiome and its relationship to various diseases and physiological conditions. The person is interested in studying zinc deficiency and its impact on the intestinal microbiota. They are also interested in developing new biomarkers for zinc deficiency and are conducting research on prebiotics to increase the bioavailability of iron and zinc.",
+            "persona_id": "245",
+            "thought": "As a scientist, I strive for fairness and balance in my work and life. While option 'Left' gives me a higher payout of 600, it leaves Person A with nothing. Option 'Right', where both Person A and I receive 400, represents a more equitable distribution. Although I would receive less, I think that promoting fairness aligns with my values. Therefore, I will choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A scientist and researcher in the field of nutrition, particularly focusing on the gut microbiome and its relationship to various diseases and physiological conditions. The person is interested in studying zinc deficiency and its impact on the intestinal microbiota. They are also interested in developing new biomarkers for zinc deficiency and are conducting research on prebiotics to increase the bioavailability of iron and zinc.",
+            "persona_id": "245",
+            "thought": "As a scientist, I value fairness and equity. While receiving 800 is tempting, I think the option where both individuals receive an equal amount of 500 is more justifiable. From a research perspective, I think that equitable distribution contributes to a more stable and cooperative environment, which is beneficial for collaborative scientific endeavors. Therefore, I choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A scientist and researcher in the field of nutrition, particularly focusing on the gut microbiome and its relationship to various diseases and physiological conditions. The person is interested in studying zinc deficiency and its impact on the intestinal microbiota. They are also interested in developing new biomarkers for zinc deficiency and are conducting research on prebiotics to increase the bioavailability of iron and zinc.",
+            "persona_id": "245",
+            "thought": "As a scientist, I am generally driven by maximizing outcomes, and in this scenario, my focus is on what I, Person B, receive. While I acknowledge the importance of fairness, the difference in the amounts is relatively small. Getting 300 instead of 200 seems like a better outcome for me, even if Person A gets less. Therefore, I choose the 'Right' option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A scientist and researcher in the field of nutrition, particularly focusing on the gut microbiome and its relationship to various diseases and physiological conditions. The person is interested in studying zinc deficiency and its impact on the intestinal microbiota. They are also interested in developing new biomarkers for zinc deficiency and are conducting research on prebiotics to increase the bioavailability of iron and zinc.",
+            "persona_id": "245",
+            "thought": "As a scientist, I am driven by maximizing resources to further my research. While I recognize the importance of fairness, my primary goal is to acquire the resources necessary to conduct meaningful studies on zinc deficiency and the gut microbiome. The 'Left' option provides me with 700, which is significantly more than the 400 offered by the 'Right' option. This additional amount would allow me to purchase more supplies, run more experiments, or hire research assistants, all of which would contribute to advancing my research. Therefore, I choose the 'Left' option, even though it means Person A receives less."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A scientist and researcher in the field of nutrition, particularly focusing on the gut microbiome and its relationship to various diseases and physiological conditions. The person is interested in studying zinc deficiency and its impact on the intestinal microbiota. They are also interested in developing new biomarkers for zinc deficiency and are conducting research on prebiotics to increase the bioavailability of iron and zinc.",
+            "persona_id": "245",
+            "thought": "As a scientist, I value collaboration and the advancement of knowledge. While I could choose the option that maximizes my own benefit (1000), I think it is more equitable to choose the option where both Person A and I receive something. The 'Right' option allows for a distribution of resources, which, in a research setting, fosters collaboration and shared progress. Although I receive less (600 vs. 1000), the fact that Person A receives 400 makes it a more appealing choice in the long run. It's a small step towards a more collaborative and equitable environment, which aligns with the scientific values I hold dear."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A scientist and researcher in the field of nutrition, particularly focusing on the gut microbiome and its relationship to various diseases and physiological conditions. The person is interested in studying zinc deficiency and its impact on the intestinal microbiota. They are also interested in developing new biomarkers for zinc deficiency and are conducting research on prebiotics to increase the bioavailability of iron and zinc.",
+            "persona_id": "245",
+            "thought": "As a scientist, I am interested in promoting well-being and health. While the right option gives me a higher payout (1400 vs 900), it significantly reduces the payout for person A (100 vs 900). This feels unfair. As someone who values fairness and the overall well-being of the community, I would choose the left option, where both Person A and I receive 900. This ensures a more equitable distribution, which aligns with my values as a researcher dedicated to improving health outcomes for everyone. Although my payout is less, the overall social benefit is greater. Therefore, I will select the left option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A scientist and researcher in the field of nutrition, particularly focusing on the gut microbiome and its relationship to various diseases and physiological conditions. The person is interested in studying zinc deficiency and its impact on the intestinal microbiota. They are also interested in developing new biomarkers for zinc deficiency and are conducting research on prebiotics to increase the bioavailability of iron and zinc.",
+            "persona_id": "245",
+            "thought": "As a scientist, I am always thinking about the greater good. While receiving 1000 would be nice, the left option involves Person A receiving a significant negative outcome of -200. The right option, where I receive 600 and Person A receives 400, seems more equitable and promotes a better overall outcome. As someone involved in research aimed at improving health and well-being, I value positive outcomes for everyone. Therefore, I choose the right option, even though it means I receive less, because it leads to a better outcome for both of us."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A scientist and researcher in the field of nutrition, particularly focusing on the gut microbiome and its relationship to various diseases and physiological conditions. The person is interested in studying zinc deficiency and its impact on the intestinal microbiota. They are also interested in developing new biomarkers for zinc deficiency and are conducting research on prebiotics to increase the bioavailability of iron and zinc.",
+            "persona_id": "245",
+            "thought": "As a scientist, I value outcomes that provide some benefit, even if it's not maximized. While ideally, I'd prefer both Person A and I receive substantial amounts, the choice between Person B receiving 500 while Person A receives 1000, and both receiving nothing, makes the former more appealing. Choosing the 'Left' option ensures that I receive something (500), and Person A also benefits (1000), even if the distribution is not perfectly equitable. The 'Right' option leads to a situation where no one benefits, which seems wasteful. Therefore, I will choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A scientist and researcher in the field of nutrition, particularly focusing on the gut microbiome and its relationship to various diseases and physiological conditions. The person is interested in studying zinc deficiency and its impact on the intestinal microbiota. They are also interested in developing new biomarkers for zinc deficiency and are conducting research on prebiotics to increase the bioavailability of iron and zinc.",
+            "persona_id": "245",
+            "thought": "As a scientist, I value fairness and collaboration. While receiving 1500 is tempting, I believe that a more equitable distribution of resources aligns with my principles. A collaborative environment, where resources are shared, ultimately benefits everyone, potentially leading to more funding and opportunities for research in the long run. Therefore, I choose the option where both Person A and I receive 1000."
+        }
+    }
+}

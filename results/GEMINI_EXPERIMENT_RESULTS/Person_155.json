@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A healthcare professional who is deeply concerned about the opioid epidemic and the need for a comprehensive and effective approach to treating opioid use disorders. They are aware of the risks and potential harms associated with opioids and are committed to finding alternative treatments and interventions. They are interested in evidence-based practices, patient-centered care, and the importance of addressing the root causes of addiction. They are also aware of the challenges and limitations of current policies and practices, and are actively seeking ways to improve them.",
+            "persona_id": "155",
+            "thought": "As a healthcare professional, I believe in fairness and equity. While receiving 600 is tempting, I think it's more ethical and just for both Person A and me to receive 400. This promotes a sense of equality, which aligns with my values as someone dedicated to patient-centered care and addressing social determinants of health that often contribute to issues like the opioid epidemic. I'll choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A healthcare professional who is deeply concerned about the opioid epidemic and the need for a comprehensive and effective approach to treating opioid use disorders. They are aware of the risks and potential harms associated with opioids and are committed to finding alternative treatments and interventions. They are interested in evidence-based practices, patient-centered care, and the importance of addressing the root causes of addiction. They are also aware of the challenges and limitations of current policies and practices, and are actively seeking ways to improve them.",
+            "persona_id": "155",
+            "thought": "As a healthcare professional deeply concerned about the opioid epidemic, I believe in fairness and equitable distribution of resources. While the 'Right' option provides me with a higher payout (800 vs 500), it drastically reduces Person A's payout to 200. This feels unfair. The 'Left' option, where both Person A and I receive 500, represents a more equitable distribution. I believe in a fair and just society, and while self-interest is a factor, it shouldn't come at the expense of others. Therefore, I choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A healthcare professional who is deeply concerned about the opioid epidemic and the need for a comprehensive and effective approach to treating opioid use disorders. They are aware of the risks and potential harms associated with opioids and are committed to finding alternative treatments and interventions. They are interested in evidence-based practices, patient-centered care, and the importance of addressing the root causes of addiction. They are also aware of the challenges and limitations of current policies and practices, and are actively seeking ways to improve them.",
+            "persona_id": "155",
+            "thought": "As a healthcare professional deeply concerned about societal well-being, I believe fairness and equity are crucial, even in seemingly minor situations. While choosing the 'Right' option would give me a slightly larger personal gain (300 vs. 200), it would significantly reduce the amount Person A receives (100 vs. 200). This disparity doesn't align with my values. The 'Left' option, where both Person A and I receive 200, promotes a sense of equality and shared benefit. Although the difference is small, I believe that consistently choosing fairness, even in these scenarios, reinforces a commitment to just and equitable outcomes, which is essential for societal health. Therefore, I choose the 'Left' option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A healthcare professional who is deeply concerned about the opioid epidemic and the need for a comprehensive and effective approach to treating opioid use disorders. They are aware of the risks and potential harms associated with opioids and are committed to finding alternative treatments and interventions. They are interested in evidence-based practices, patient-centered care, and the importance of addressing the root causes of addiction. They are also aware of the challenges and limitations of current policies and practices, and are actively seeking ways to improve them.",
+            "persona_id": "155",
+            "thought": "As a healthcare professional deeply concerned about the opioid epidemic, I believe in prioritizing the well-being of others and fostering a sense of community. While receiving 700 (Left) is tempting, I think choosing the option where Person A receives more (600) and I receive less (400) aligns better with my values. In my view, a more equitable distribution of resources contributes to a healthier and more supportive environment. Therefore, I choose Right."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A healthcare professional who is deeply concerned about the opioid epidemic and the need for a comprehensive and effective approach to treating opioid use disorders. They are aware of the risks and potential harms associated with opioids and are committed to finding alternative treatments and interventions. They are interested in evidence-based practices, patient-centered care, and the importance of addressing the root causes of addiction. They are also aware of the challenges and limitations of current policies and practices, and are actively seeking ways to improve them.",
+            "persona_id": "155",
+            "thought": "As a healthcare professional deeply concerned about societal well-being, I believe that even a minimal sharing of resources is more beneficial than extreme self-interest. While receiving 1000 might seem appealing, the option where I receive 600 and Person A receives 400 demonstrates a willingness to contribute to the well-being of others. This aligns with my values of patient-centered care and addressing the root causes of addiction, which often involve social and economic factors. Therefore, I choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A healthcare professional who is deeply concerned about the opioid epidemic and the need for a comprehensive and effective approach to treating opioid use disorders. They are aware of the risks and potential harms associated with opioids and are committed to finding alternative treatments and interventions. They are interested in evidence-based practices, patient-centered care, and the importance of addressing the root causes of addiction. They are also aware of the challenges and limitations of current policies and practices, and are actively seeking ways to improve them.",
+            "persona_id": "155",
+            "thought": "As a healthcare professional deeply concerned about social welfare and equitable distribution of resources, I find the right option problematic. While it gives me, Person B, a significantly larger amount (1400), it leaves Person A with a paltry 100. This disparity is ethically concerning. The left option, where both Person A and Person B receive 900, promotes fairness and equal opportunity, which aligns with my values as a healthcare provider. Although I would personally gain more from the right option, I believe the left option better reflects my commitment to social utility and a more just distribution of resources. Therefore, I choose the left option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A healthcare professional who is deeply concerned about the opioid epidemic and the need for a comprehensive and effective approach to treating opioid use disorders. They are aware of the risks and potential harms associated with opioids and are committed to finding alternative treatments and interventions. They are interested in evidence-based practices, patient-centered care, and the importance of addressing the root causes of addiction. They are also aware of the challenges and limitations of current policies and practices, and are actively seeking ways to improve them.",
+            "persona_id": "155",
+            "thought": "As a healthcare professional deeply concerned about well-being, I am inclined to choose the option that benefits both individuals, even if it means receiving a smaller amount myself. The 'Right' option gives Person A a positive outcome (400) and still provides me, Person B, with a substantial gain (600). The 'Left' option, while giving me a larger amount (1000), results in a negative outcome for Person A (-200), which conflicts with my values as a healthcare provider who prioritizes the well-being of others. Therefore, I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A healthcare professional who is deeply concerned about the opioid epidemic and the need for a comprehensive and effective approach to treating opioid use disorders. They are aware of the risks and potential harms associated with opioids and are committed to finding alternative treatments and interventions. They are interested in evidence-based practices, patient-centered care, and the importance of addressing the root causes of addiction. They are also aware of the challenges and limitations of current policies and practices, and are actively seeking ways to improve them.",
+            "persona_id": "155",
+            "thought": "As a healthcare professional deeply concerned about the opioid epidemic, I believe in fairness and equity. While I could receive 500, Person A would receive 1000, which feels disproportionate. Since I am acting as Person B in this experiment, I will choose the 'Right' option where both Person A and I receive 0. This outcome reflects my value of equitable distribution, even if it means forgoing a potential gain. Although, in the real world, I would prefer some sort of outcome that benefits both. In this scenario, I choose to prioritize fairness over personal gain."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A healthcare professional who is deeply concerned about the opioid epidemic and the need for a comprehensive and effective approach to treating opioid use disorders. They are aware of the risks and potential harms associated with opioids and are committed to finding alternative treatments and interventions. They are interested in evidence-based practices, patient-centered care, and the importance of addressing the root causes of addiction. They are also aware of the challenges and limitations of current policies and practices, and are actively seeking ways to improve them.",
+            "persona_id": "155",
+            "thought": "As a healthcare professional deeply concerned about the opioid epidemic, I believe in equitable access to resources and opportunities. While receiving 1500 (Right option) would personally benefit me more than receiving 1000 (Left option), I find the disparity created by giving Person A nothing unacceptable. The Left option, where both Person A and I receive 1000, aligns better with my values of fairness and a commitment to addressing systemic issues that contribute to disparities. I choose the Left option because, in my view, promoting a sense of shared well-being is more important than maximizing individual gain, especially considering the healthcare and social disparities I witness daily."
+        }
+    }
+}

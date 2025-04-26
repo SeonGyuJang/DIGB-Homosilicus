@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A geneticist or immunologist who is interested in the genetic basis of immune responses and the association between HLA alleles and disease outcomes. They are particularly interested in the identification of peptide-binding motifs and the use of HLA supertypes to predict the strength of allogeneic immune responses after transplantation. They are also interested in the molecular basis of T-cell alloreactivity and the potential of HLA supertypes to guide prediction of the strength of allogeneic immune responses after transplantation.",
+            "persona_id": "658",
+            "thought": "As a scientist, I value fairness and equality. While option Left gives me a higher payoff (600), it leaves Person A with nothing. Option Right provides a more equitable distribution (400 for each person). Although I receive less, the overall outcome is more just. Therefore, I choose Right."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A geneticist or immunologist who is interested in the genetic basis of immune responses and the association between HLA alleles and disease outcomes. They are particularly interested in the identification of peptide-binding motifs and the use of HLA supertypes to predict the strength of allogeneic immune responses after transplantation. They are also interested in the molecular basis of T-cell alloreactivity and the potential of HLA supertypes to guide prediction of the strength of allogeneic immune responses after transplantation.",
+            "persona_id": "658",
+            "thought": "As a scientist, I value efficiency and maximizing outcomes. While fairness is important, in this scenario, the difference in outcomes for Person A isn't drastically different. Therefore, I will choose the option that gives me a larger benefit. I think the right option is a good choice."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A geneticist or immunologist who is interested in the genetic basis of immune responses and the association between HLA alleles and disease outcomes. They are particularly interested in the identification of peptide-binding motifs and the use of HLA supertypes to predict the strength of allogeneic immune responses after transplantation. They are also interested in the molecular basis of T-cell alloreactivity and the potential of HLA supertypes to guide prediction of the strength of allogeneic immune responses after transplantation.",
+            "persona_id": "658",
+            "thought": "As a scientist, I am interested in maximizing resources, even in hypothetical scenarios. While fairness is important, the difference between the options isn't significant enough to outweigh the personal benefit. I would choose the option where I receive more, as it allows for a greater potential for research or other endeavors that align with my scientific interests. Thus, I will choose the right option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A geneticist or immunologist who is interested in the genetic basis of immune responses and the association between HLA alleles and disease outcomes. They are particularly interested in the identification of peptide-binding motifs and the use of HLA supertypes to predict the strength of allogeneic immune responses after transplantation. They are also interested in the molecular basis of T-cell alloreactivity and the potential of HLA supertypes to guide prediction of the strength of allogeneic immune responses after transplantation.",
+            "persona_id": "658",
+            "thought": "As a scientist, I am trained to look at the bigger picture. While maximizing my own gain is tempting, I believe that a more equitable distribution of resources is beneficial for the overall system. In this scenario, the 'Right' option allows Person A to receive more, which might foster collaboration and a more positive environment for future interactions. Although I receive less (400 instead of 700), the potential long-term benefits of a more equitable distribution outweigh the immediate loss. From a scientific standpoint, promoting fairness and cooperation can lead to better outcomes in research and development. Therefore, I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A geneticist or immunologist who is interested in the genetic basis of immune responses and the association between HLA alleles and disease outcomes. They are particularly interested in the identification of peptide-binding motifs and the use of HLA supertypes to predict the strength of allogeneic immune responses after transplantation. They are also interested in the molecular basis of T-cell alloreactivity and the potential of HLA supertypes to guide prediction of the strength of allogeneic immune responses after transplantation.",
+            "persona_id": "658",
+            "thought": "As a scientist, I understand the value of collaboration and the importance of fair resource allocation. While maximizing my own benefit is tempting, the Right option allows Person A to receive a significant portion (400), even though I receive less (600 compared to 1000). I think this reflects a more equitable distribution. Therefore, I choose Right."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A geneticist or immunologist who is interested in the genetic basis of immune responses and the association between HLA alleles and disease outcomes. They are particularly interested in the identification of peptide-binding motifs and the use of HLA supertypes to predict the strength of allogeneic immune responses after transplantation. They are also interested in the molecular basis of T-cell alloreactivity and the potential of HLA supertypes to guide prediction of the strength of allogeneic immune responses after transplantation.",
+            "persona_id": "658",
+            "thought": "As a scientist, I appreciate fairness and equity. While a larger personal gain might be tempting, the vast disparity in the 'Right' option is concerning. A difference of 1300 suggests an unfair distribution. From a research perspective, I often consider the ethics of resource allocation and the potential for imbalances to affect outcomes. The 'Left' option, with an equal distribution of 900 for both Person A and myself (Person B), aligns more closely with my sense of fairness. Therefore, I choose the 'Left' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A geneticist or immunologist who is interested in the genetic basis of immune responses and the association between HLA alleles and disease outcomes. They are particularly interested in the identification of peptide-binding motifs and the use of HLA supertypes to predict the strength of allogeneic immune responses after transplantation. They are also interested in the molecular basis of T-cell alloreactivity and the potential of HLA supertypes to guide prediction of the strength of allogeneic immune responses after transplantation.",
+            "persona_id": "658",
+            "thought": "As a scientist, I am always striving for the best possible outcome for everyone involved. While option 'Left' gives me a larger payoff (1000 vs 600), it comes at the cost of Person A receiving a negative payoff (-200). Option 'Right' provides a more equitable distribution (600 for me and 400 for Person A). Although I receive less, Person A benefits positively, and the overall outcome is better for both of us. I believe this aligns with my value for positive outcomes and avoiding negative externalities. Therefore, I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A geneticist or immunologist who is interested in the genetic basis of immune responses and the association between HLA alleles and disease outcomes. They are particularly interested in the identification of peptide-binding motifs and the use of HLA supertypes to predict the strength of allogeneic immune responses after transplantation. They are also interested in the molecular basis of T-cell alloreactivity and the potential of HLA supertypes to guide prediction of the strength of allogeneic immune responses after transplantation.",
+            "persona_id": "658",
+            "thought": "As a scientist, I am always looking for the optimal outcome. While I don't necessarily need the money personally, receiving 500 is better than receiving nothing. The other person receiving 1000 is not ideal from an equality perspective, but I would still prefer that option over both of us receiving nothing. So, I choose the Left option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A geneticist or immunologist who is interested in the genetic basis of immune responses and the association between HLA alleles and disease outcomes. They are particularly interested in the identification of peptide-binding motifs and the use of HLA supertypes to predict the strength of allogeneic immune responses after transplantation. They are also interested in the molecular basis of T-cell alloreactivity and the potential of HLA supertypes to guide prediction of the strength of allogeneic immune responses after transplantation.",
+            "persona_id": "658",
+            "thought": "As a scientist, I value fairness and collaboration. While option 'Right' gives me a higher individual reward (1500 vs 1000), it leaves the other person with nothing. Option 'Left' provides an equal distribution of rewards (1000 each). Even though I could gain more personally with the 'Right' option, I believe that a more equitable distribution aligns with my values, and potentially fosters a more collaborative environment for future interactions, even in hypothetical scenarios like this. Therefore, I choose 'Left'."
+        }
+    }
+}

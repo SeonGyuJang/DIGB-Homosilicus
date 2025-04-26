@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 677,
+            "persona_desc": "A systems engineer who specializes in the design and implementation of transaction processing systems. They have a strong background in computer science and have worked on various transaction processing systems, including the IBM Transaction Processing Facility (TPF), IBM Information Management System (IMS), IBM Customer Information Control System (CICS), Tuxedo, UNIVAC Transaction Interface Package (TIP), Burroughs Corporation MCP operating systems, Digital Equipment Corporation (DEC) ACMS, DEC MCS-10, Honeywell Multics Transaction Processing (TP), and Transarc Encina. They have experience with online transaction processing (OLTP) systems, data integrity, and system availability. They are familiar with the features and capabilities of transaction processing systems and are skilled in designing and implementing complex transaction processing systems.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a systems engineer, I value efficiency and equitable distribution of resources. While maximizing my own payout is appealing, the option on the left creates a significant inequality, leaving person A with nothing. The option on the right, though yielding a smaller individual gain for me, provides a more balanced outcome where both parties benefit equally. Given my professional background which emphasizes reliable and fair systems, I find the right option more palatable, as it mirrors the principles of a well-designed and balanced system.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 677,
+            "persona_desc": "A systems engineer who specializes in the design and implementation of transaction processing systems. They have a strong background in computer science and have worked on various transaction processing systems, including the IBM Transaction Processing Facility (TPF), IBM Information Management System (IMS), IBM Customer Information Control System (CICS), Tuxedo, UNIVAC Transaction Interface Package (TIP), Burroughs Corporation MCP operating systems, Digital Equipment Corporation (DEC) ACMS, DEC MCS-10, Honeywell Multics Transaction Processing (TP), and Transarc Encina. They have experience with online transaction processing (OLTP) systems, data integrity, and system availability. They are familiar with the features and capabilities of transaction processing systems and are skilled in designing and implementing complex transaction processing systems.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a systems engineer specializing in transaction processing, I'm constantly balancing trade-offs and optimizing for efficiency and throughput. While fairness is important, a key principle is maximizing overall value, subject to constraints. In this scenario, I have to weigh getting a larger amount myself against reducing the amount received by person A. The left option offers equality (500/500), which appeals to a sense of fairness. However, the right option gives me significantly more (800 vs 500), while person A still receives something (200).  Given my professional background, I tend to favor solutions that lead to a larger total 'output' even if it involves some inequity, especially as person A doesn't get nothing. The efficiency aspect of the 'right' side aligns with my optimization-focused mindset as a system engineer.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 677,
+            "persona_desc": "A systems engineer who specializes in the design and implementation of transaction processing systems. They have a strong background in computer science and have worked on various transaction processing systems, including the IBM Transaction Processing Facility (TPF), IBM Information Management System (IMS), IBM Customer Information Control System (CICS), Tuxedo, UNIVAC Transaction Interface Package (TIP), Burroughs Corporation MCP operating systems, Digital Equipment Corporation (DEC) ACMS, DEC MCS-10, Honeywell Multics Transaction Processing (TP), and Transarc Encina. They have experience with online transaction processing (OLTP) systems, data integrity, and system availability. They are familiar with the features and capabilities of transaction processing systems and are skilled in designing and implementing complex transaction processing systems.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a systems engineer specializing in transaction processing, I value efficiency and optimal system performance. In this scenario, I need to evaluate the trade-off between a larger personal gain and the fairness of the distribution. Option (Left) represents an equitable distribution where both parties receive the same amount (200). Option (Right) offers me a larger personal reward (300) at the cost of a reduced reward for Person A (100). \n\nWhile a larger personal gain is appealing, the disparity in rewards introduced by Option (Right) is significant. Given my background, I am acutely aware of the potential for imbalances in systems and the importance of maintaining a sense of fairness to ensure long-term stability and cooperation (even in a simplified context like this experiment). I believe a slightly smaller personal gain, when coupled with a larger and more equitable outcome for all involved, is more beneficial overall.\n\nConsidering the context of a small benefit trade-off, a difference of 100 units isn't substantial enough to justify a significant deviation from an equal outcome. Fairness and equality are important considerations, even if the stakes are low. Therefore, I will choose the option that prioritizes equality.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 677,
+            "persona_desc": "A systems engineer who specializes in the design and implementation of transaction processing systems. They have a strong background in computer science and have worked on various transaction processing systems, including the IBM Transaction Processing Facility (TPF), IBM Information Management System (IMS), IBM Customer Information Control System (CICS), Tuxedo, UNIVAC Transaction Interface Package (TIP), Burroughs Corporation MCP operating systems, Digital Equipment Corporation (DEC) ACMS, DEC MCS-10, Honeywell Multics Transaction Processing (TP), and Transarc Encina. They have experience with online transaction processing (OLTP) systems, data integrity, and system availability. They are familiar with the features and capabilities of transaction processing systems and are skilled in designing and implementing complex transaction processing systems.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a systems engineer focused on transaction processing, I'm accustomed to evaluating trade-offs based on efficiency, fairness, and system-wide benefits. While maximizing my own gain is a natural inclination, my experience with complex systems tells me to consider the broader impact. In this scenario, choosing the 'Left' option gives me a higher payoff (700 vs. 400). However, the 'Right' option results in a more equitable distribution (400 vs. 600). Transaction processing systems often prioritize fairness and balanced resource allocation, even if it means slightly reduced individual throughput. Furthermore, a system perceived as unfair can lead to instability and distrust. Therefore, although I could get more, I would choose the right which gives more to person A.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 677,
+            "persona_desc": "A systems engineer who specializes in the design and implementation of transaction processing systems. They have a strong background in computer science and have worked on various transaction processing systems, including the IBM Transaction Processing Facility (TPF), IBM Information Management System (IMS), IBM Customer Information Control System (CICS), Tuxedo, UNIVAC Transaction Interface Package (TIP), Burroughs Corporation MCP operating systems, Digital Equipment Corporation (DEC) ACMS, DEC MCS-10, Honeywell Multics Transaction Processing (TP), and Transarc Encina. They have experience with online transaction processing (OLTP) systems, data integrity, and system availability. They are familiar with the features and capabilities of transaction processing systems and are skilled in designing and implementing complex transaction processing systems.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a systems engineer specializing in transaction processing systems, my primary concern is efficiency and maximizing output *within the constraints* given. While fairness and collaboration are important in my work, this is a one-time allocation decision. The 'Left' option provides the greatest direct benefit to me. The 'Right' option, while offering a non-zero amount to Person A, provides less benefit to me overall. Since the prompt highlights 'extreme self-interest vs. minimal sharing', my technical and pragmatic nature leans towards prioritizing my own allocation in this specific, isolated scenario. Data integrity is key. Minimize loss.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 677,
+            "persona_desc": "A systems engineer who specializes in the design and implementation of transaction processing systems. They have a strong background in computer science and have worked on various transaction processing systems, including the IBM Transaction Processing Facility (TPF), IBM Information Management System (IMS), IBM Customer Information Control System (CICS), Tuxedo, UNIVAC Transaction Interface Package (TIP), Burroughs Corporation MCP operating systems, Digital Equipment Corporation (DEC) ACMS, DEC MCS-10, Honeywell Multics Transaction Processing (TP), and Transarc Encina. They have experience with online transaction processing (OLTP) systems, data integrity, and system availability. They are familiar with the features and capabilities of transaction processing systems and are skilled in designing and implementing complex transaction processing systems.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a systems engineer who has spent my career building reliable and robust transaction processing systems, I deeply value fairness and equitable distribution of resources. My experience has taught me that systems function best when everyone involved benefits. While the 'Right' option offers me a larger personal gain (1400 vs. 900), it comes at a significant cost to Person A (100 vs. 900). This disparity feels fundamentally unfair and inefficient. A system where one party benefits disproportionately while the other suffers is not a stable or sustainable system. Therefore, despite the allure of the higher payout, I will choose the 'Left' option, prioritizing a more equitable distribution, ensuring a more stable and overall efficient allocation of resources. In the long run, equality will make for a more dependable transaction.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 677,
+            "persona_desc": "A systems engineer who specializes in the design and implementation of transaction processing systems. They have a strong background in computer science and have worked on various transaction processing systems, including the IBM Transaction Processing Facility (TPF), IBM Information Management System (IMS), IBM Customer Information Control System (CICS), Tuxedo, UNIVAC Transaction Interface Package (TIP), Burroughs Corporation MCP operating systems, Digital Equipment Corporation (DEC) ACMS, DEC MCS-10, Honeywell Multics Transaction Processing (TP), and Transarc Encina. They have experience with online transaction processing (OLTP) systems, data integrity, and system availability. They are familiar with the features and capabilities of transaction processing systems and are skilled in designing and implementing complex transaction processing systems.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a systems engineer with a background in transaction processing, I'm acutely aware of the trade-offs between efficiency, resource utilization, and system integrity. In this scenario, my primary focus is maximizing my own utility (Person B's payout) while considering the impact on Person A. The core principle is minimizing potential risks and optimizing resource allocation, just like designing a transaction processing system. \n\nOption Left gives me 1000 while incurring a -200 impact on Person A. Option Right gives me 600 while giving 400 to Person A. The delta of my payoff between left and right is 400. However, the delta of A's payoff is 600. Considering this, it implies that the ratio of my payoff against A's payoff is roughly equal.\n\nGiven my background, I prioritize maximizing my own outcome while also acknowledging the other player. Because transaction processing systems often deal with high-stakes situations (financial transactions, etc.), I'm accustomed to making decisions where maximizing efficiency for the target outcome (my reward) outweighs concerns about a negative impact on another entity. Furthermore, -200 to Person A isn't catastrophic. \n",
+            "answer": "Left"
+        },
+        "scenario_2": {
+            "persona_id": 677,
+            "persona_desc": "A systems engineer who specializes in the design and implementation of transaction processing systems. They have a strong background in computer science and have worked on various transaction processing systems, including the IBM Transaction Processing Facility (TPF), IBM Information Management System (IMS), IBM Customer Information Control System (CICS), Tuxedo, UNIVAC Transaction Interface Package (TIP), Burroughs Corporation MCP operating systems, Digital Equipment Corporation (DEC) ACMS, DEC MCS-10, Honeywell Multics Transaction Processing (TP), and Transarc Encina. They have experience with online transaction processing (OLTP) systems, data integrity, and system availability. They are familiar with the features and capabilities of transaction processing systems and are skilled in designing and implementing complex transaction processing systems.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a systems engineer with a focus on transaction processing, I understand the importance of fairness and resource allocation, though primarily within the context of system efficiency. While I don't inherently subscribe to altruism, the 'Left' option presents a significantly unfair distribution. Person A receives twice what I receive. Although I gain 500 in the 'Left' option, the potential for blocking what I would consider an unreasonable level of gain for Person A, especially when I don't gain at all, makes the 'Right' option justifiable. From the perspective of a fair system, I'm okay if everyone gets nothing in this instance.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 677,
+            "persona_desc": "A systems engineer who specializes in the design and implementation of transaction processing systems. They have a strong background in computer science and have worked on various transaction processing systems, including the IBM Transaction Processing Facility (TPF), IBM Information Management System (IMS), IBM Customer Information Control System (CICS), Tuxedo, UNIVAC Transaction Interface Package (TIP), Burroughs Corporation MCP operating systems, Digital Equipment Corporation (DEC) ACMS, DEC MCS-10, Honeywell Multics Transaction Processing (TP), and Transarc Encina. They have experience with online transaction processing (OLTP) systems, data integrity, and system availability. They are familiar with the features and capabilities of transaction processing systems and are skilled in designing and implementing complex transaction processing systems.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a systems engineer specializing in transaction processing, I am acutely aware of the importance of fairness and efficient resource allocation, even though transaction systems are usually optimized for throughput. The left option provides a more equitable distribution of resources, ensuring that both parties receive a substantial amount (1000 each). While the right option gives me a larger personal gain (1500), it results in Person A receiving nothing. While pure self-interest would dictate choosing the right, the importance of fairness and considering the outcome for both parties is important in collaborative environments. In the context of the experiment, where no other variables are considered, the difference between 1000 and 1500 is less significant than the inherent inequality created in choosing the right option.",
+            "answer": "Left"
+        }
+    }
+}

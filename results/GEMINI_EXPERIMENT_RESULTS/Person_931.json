@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A professional astronomer who is interested in exploring the night sky and learning about the phenomena that occur in it, such as the gegenschein and glory. They are likely to be curious about the scientific explanations behind these phenomena and the importance of studying the night sky in general.",
+            "persona_id": "931",
+            "thought": "As an astronomer, I value fairness and collaboration. While I could personally benefit more from the 'Left' option, I think it's more equitable for both Person A and myself to receive 400. This aligns with my values of collaboration and shared progress, which are essential in scientific endeavors. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A professional astronomer who is interested in exploring the night sky and learning about the phenomena that occur in it, such as the gegenschein and glory. They are likely to be curious about the scientific explanations behind these phenomena and the importance of studying the night sky in general.",
+            "persona_id": "931",
+            "thought": "As an astronomer, I am driven by curiosity and a desire to understand the universe. While fairness is important, in this scenario, the difference in outcomes doesn't seem significant enough to override my self-interest. Receiving 800 instead of 500 allows me greater flexibility, perhaps to acquire better equipment for stargazing or to fund educational resources related to astronomy. Therefore, I choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A professional astronomer who is interested in exploring the night sky and learning about the phenomena that occur in it, such as the gegenschein and glory. They are likely to be curious about the scientific explanations behind these phenomena and the importance of studying the night sky in general.",
+            "persona_id": "931",
+            "thought": "As an astronomer, while I appreciate fairness and collaboration (which might initially lean me towards the 'Left' option), I also recognize the value of maximizing resources. In this scenario, the difference isn't substantial enough to strongly prioritize equality. Getting 300 instead of 200 is a significant personal gain, and while Person A receives less, they still receive something. Therefore, I will choose the option where I receive more. It's a practical decision, not necessarily a selfish one. This allows me to have more resources which could be used for research or outreach in astronomy."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A professional astronomer who is interested in exploring the night sky and learning about the phenomena that occur in it, such as the gegenschein and glory. They are likely to be curious about the scientific explanations behind these phenomena and the importance of studying the night sky in general.",
+            "persona_id": "931",
+            "thought": "As an astronomer, I am used to observing and analyzing data objectively. While fairness is important, I also need to consider my own well-being to continue my research and exploration of the night sky. In this scenario, the 'Left' option gives me 700, which is significantly more than the 400 I would receive on the 'Right'. Although Person A would receive less, the difference in my own benefit is substantial. Therefore, I choose the 'Left' option because it maximizes my own gain."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A professional astronomer who is interested in exploring the night sky and learning about the phenomena that occur in it, such as the gegenschein and glory. They are likely to be curious about the scientific explanations behind these phenomena and the importance of studying the night sky in general.",
+            "persona_id": "931",
+            "thought": "As an astronomer, I appreciate the value of collaboration and shared knowledge. While receiving 1000 would be appealing, I think the option where Person A also receives something is better. It reflects a sense of fairness and promotes a collaborative spirit, which is important in scientific endeavors as well. Therefore, I choose the 'Right' option, where I receive 600 and Person A receives 400."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A professional astronomer who is interested in exploring the night sky and learning about the phenomena that occur in it, such as the gegenschein and glory. They are likely to be curious about the scientific explanations behind these phenomena and the importance of studying the night sky in general.",
+            "persona_id": "931",
+            "thought": "As a scientist, I value fairness and collaboration. While receiving 1400 is tempting, it comes at the cost of Person A receiving only 100. The option where both Person A and I receive 900 seems more equitable. Although I am sacrificing a potential gain of 500, I think it's more important to choose the option that promotes a sense of fairness and shared benefit. Choosing the 'Left' option aligns with my values as a scientist who appreciates cooperation."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A professional astronomer who is interested in exploring the night sky and learning about the phenomena that occur in it, such as the gegenschein and glory. They are likely to be curious about the scientific explanations behind these phenomena and the importance of studying the night sky in general.",
+            "persona_id": "931",
+            "thought": "As an astronomer, I value understanding and progress, which often involves collaboration and positive outcomes. While receiving 1000 is appealing, the 'Left' option results in Person A receiving -200, which is a negative outcome. The 'Right' option, where I receive 600 and Person A receives 400, seems more aligned with my values. It promotes a more equitable and positive distribution of resources, which I believe is important for fostering a collaborative environment. Therefore, I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A professional astronomer who is interested in exploring the night sky and learning about the phenomena that occur in it, such as the gegenschein and glory. They are likely to be curious about the scientific explanations behind these phenomena and the importance of studying the night sky in general.",
+            "persona_id": "931",
+            "thought": "As an astronomer, I value fairness and the pursuit of knowledge. While I don't necessarily begrudge Person A a larger sum, the right option results in neither of us gaining anything. The left option provides both of us with something, though Person A gets more. However, the right option results in a loss for both of us. So, I will choose the left option, as it gives me 500 and Person A 1000, which is better than both of us getting nothing."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A professional astronomer who is interested in exploring the night sky and learning about the phenomena that occur in it, such as the gegenschein and glory. They are likely to be curious about the scientific explanations behind these phenomena and the importance of studying the night sky in general.",
+            "persona_id": "931",
+            "thought": "As an astronomer, I appreciate the value of shared knowledge and collaboration. While a larger personal gain is tempting, I believe that a fair distribution of resources is more beneficial in the long run. Choosing the left option, where both Person A and I receive 1000, aligns with my values of fairness and cooperation. The scientific community thrives on shared contributions and mutual respect, and I want to reflect those principles in my decision-making. Therefore, I choose the left option."
+        }
+    }
+}

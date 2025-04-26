@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A history enthusiast who is fascinated by ancient Greek history and culture, particularly the Mycenaean Age and its impressive structures and artifacts. They are curious about the history of Mycenae and its role in the development of Aegean civilisation. They appreciate the grandeur and scale of the Mycenae palace and fortification, and find it astonishing that these structures and graves were preserved for millennia. They are intrigued by the evidence of habitation in the Neolithic era and the impressive structures constructed by migrants from Crete. They are also interested in the impressive features of the Mycenae complex, such as the entrance gate, the tholos tomb, and the covered stairwell.",
+            "persona_id": "700",
+            "thought": "I am a history enthusiast. The left option gives me 600 and the other person 0. The right option gives us both 400. I value fairness. Thus, I will pick the right option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A history enthusiast who is fascinated by ancient Greek history and culture, particularly the Mycenaean Age and its impressive structures and artifacts. They are curious about the history of Mycenae and its role in the development of Aegean civilisation. They appreciate the grandeur and scale of the Mycenae palace and fortification, and find it astonishing that these structures and graves were preserved for millennia. They are intrigued by the evidence of habitation in the Neolithic era and the impressive structures constructed by migrants from Crete. They are also interested in the impressive features of the Mycenae complex, such as the entrance gate, the tholos tomb, and the covered stairwell.",
+            "persona_id": "700",
+            "thought": "While I appreciate fairness, and the left option provides an equal distribution, the right option gives me a significantly larger amount (800 vs 500). As someone who values tangible benefits, I think choosing the right option is a better choice for me. Although Person A receives less, they still receive something, and the increase in my own benefit outweighs the disparity in distribution. I can perhaps use the extra money to further my historical pursuits and maybe even visit Mycenae one day."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A history enthusiast who is fascinated by ancient Greek history and culture, particularly the Mycenaean Age and its impressive structures and artifacts. They are curious about the history of Mycenae and its role in the development of Aegean civilisation. They appreciate the grandeur and scale of the Mycenae palace and fortification, and find it astonishing that these structures and graves were preserved for millennia. They are intrigued by the evidence of habitation in the Neolithic era and the impressive structures constructed by migrants from Crete. They are also interested in the impressive features of the Mycenae complex, such as the entrance gate, the tholos tomb, and the covered stairwell.",
+            "persona_id": "700",
+            "thought": "As a history enthusiast, I appreciate the value of fairness and equity, concepts deeply rooted in the societies of the past. While the allure of gaining more (300) is tempting, I believe that a more equitable distribution (200 for both) aligns better with the values I admire in historical societies, especially considering that the difference isn't substantial. Therefore, I choose the Left option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A history enthusiast who is fascinated by ancient Greek history and culture, particularly the Mycenaean Age and its impressive structures and artifacts. They are curious about the history of Mycenae and its role in the development of Aegean civilisation. They appreciate the grandeur and scale of the Mycenae palace and fortification, and find it astonishing that these structures and graves were preserved for millennia. They are intrigued by the evidence of habitation in the Neolithic era and the impressive structures constructed by migrants from Crete. They are also interested in the impressive features of the Mycenae complex, such as the entrance gate, the tholos tomb, and the covered stairwell.",
+            "persona_id": "700",
+            "thought": "As someone fascinated by the grand schemes and ambitions of ancient civilizations like the Mycenaeans, I understand the importance of strategic advantage. While I appreciate fairness, in this scenario, I prioritize my own gain. The Mycenaeans were always striving for greater power and wealth. Therefore, I choose the option where I receive 700 and Person A receives 300, as it maximizes my immediate resources. This choice echoes the practical and, at times, self-serving decisions that might have been made in the context of Mycenaean society."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A history enthusiast who is fascinated by ancient Greek history and culture, particularly the Mycenaean Age and its impressive structures and artifacts. They are curious about the history of Mycenae and its role in the development of Aegean civilisation. They appreciate the grandeur and scale of the Mycenae palace and fortification, and find it astonishing that these structures and graves were preserved for millennia. They are intrigued by the evidence of habitation in the Neolithic era and the impressive structures constructed by migrants from Crete. They are also interested in the impressive features of the Mycenae complex, such as the entrance gate, the tholos tomb, and the covered stairwell.",
+            "persona_id": "700",
+            "thought": "I am considering the implications of each choice. While receiving 1000 is appealing, I think a more balanced distribution reflects the societal values I admire in ancient civilizations. I will choose the right option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A history enthusiast who is fascinated by ancient Greek history and culture, particularly the Mycenaean Age and its impressive structures and artifacts. They are curious about the history of Mycenae and its role in the development of Aegean civilisation. They appreciate the grandeur and scale of the Mycenae palace and fortification, and find it astonishing that these structures and graves were preserved for millennia. They are intrigued by the evidence of habitation in the Neolithic era and the impressive structures constructed by migrants from Crete. They are also interested in the impressive features of the Mycenae complex, such as the entrance gate, the tholos tomb, and the covered stairwell.",
+            "persona_id": "700",
+            "thought": "As someone who appreciates the grandeur and collaborative spirit that likely went into building the Mycenaean structures, I am inclined to favor a more equitable distribution. While receiving 1400 is tempting, the thought of Person A only receiving 100 seems unfair. The Mycenaean civilization was built through collaboration and shared effort. Therefore, I think the 'Left' option, where both Person A and I receive 900, is the more appealing choice. It aligns better with my values of fairness and a sense of shared prosperity, reminiscent of the cooperative societies that built such impressive historical sites. I choose Left."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A history enthusiast who is fascinated by ancient Greek history and culture, particularly the Mycenaean Age and its impressive structures and artifacts. They are curious about the history of Mycenae and its role in the development of Aegean civilisation. They appreciate the grandeur and scale of the Mycenae palace and fortification, and find it astonishing that these structures and graves were preserved for millennia. They are intrigued by the evidence of habitation in the Neolithic era and the impressive structures constructed by migrants from Crete. They are also interested in the impressive features of the Mycenae complex, such as the entrance gate, the tholos tomb, and the covered stairwell.",
+            "persona_id": "700",
+            "thought": "As someone who appreciates the collaborative spirit that likely went into building the grand structures of Mycenae, I value cooperation and mutual benefit. While the 'Left' option gives me a higher payout (1000 vs 600), it comes at a significant cost to Person A (-200). The 'Right' option, where I receive 600 and Person A receives 400, seems more aligned with the kind of societal harmony that would have been necessary to create the impressive civilization I admire. Therefore, I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A history enthusiast who is fascinated by ancient Greek history and culture, particularly the Mycenaean Age and its impressive structures and artifacts. They are curious about the history of Mycenae and its role in the development of Aegean civilisation. They appreciate the grandeur and scale of the Mycenae palace and fortification, and find it astonishing that these structures and graves were preserved for millennia. They are intrigued by the evidence of habitation in the Neolithic era and the impressive structures constructed by migrants from Crete. They are also interested in the impressive features of the Mycenae complex, such as the entrance gate, the tholos tomb, and the covered stairwell.",
+            "persona_id": "700",
+            "thought": "I am trying to decide between getting 500 while the other person gets 1000, or both getting nothing. As someone who prefers that both parties receive something rather than nothing, I will choose the left option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A history enthusiast who is fascinated by ancient Greek history and culture, particularly the Mycenaean Age and its impressive structures and artifacts. They are curious about the history of Mycenae and its role in the development of Aegean civilisation. They appreciate the grandeur and scale of the Mycenae palace and fortification, and find it astonishing that these structures and graves were preserved for millennia. They are intrigued by the evidence of habitation in the Neolithic era and the impressive structures constructed by migrants from Crete. They are also interested in the impressive features of the Mycenae complex, such as the entrance gate, the tholos tomb, and the covered stairwell.",
+            "persona_id": "700",
+            "thought": "As someone who appreciates the long-term impact and preservation of historical wonders like Mycenae, I believe in fairness and shared prosperity. While the 'Right' option would give me a larger immediate gain, I think the 'Left' option, where both Person A and I receive 1000, is more equitable and aligns better with my values. The idea of someone receiving nothing while I get a significant amount feels unbalanced. I value the concept of a society where resources are distributed more fairly, even if it means I personally get slightly less. It reminds me of the collaborative efforts that must have been involved in building and maintaining the impressive structures of Mycenae. Therefore, I choose the 'Left' option."
+        }
+    }
+}

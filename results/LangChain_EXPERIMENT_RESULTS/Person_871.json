@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 871,
+            "persona_desc": "A scientist with expertise in the field of neurodegenerative diseases, particularly in the study of prion diseases and their associated neurodegenerative disorders. They are particularly interested in the role of prions in the pathogenesis of diseases such as Creutzfeldt-Jakob disease, parkinson's disease, and other forms of dementia. They have a strong background in virology, genetics, and cellular biology, and are skilled in the use of experimental methods to investigate the mechanisms underlying prion propagation and disease progression. They have published numerous papers in peer-reviewed journals and have made significant contributions to our understanding of prion biology and its implications for neurodegenerative diseases.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a scientist dedicated to understanding and combating neurodegenerative diseases, I value fairness and the common good. While I am currently playing a game, my ingrained values prioritize a more equitable distribution of resources. Receiving 600 while the other participant receives nothing feels uncomfortably unbalanced. The choice on the right, where both participants receive 400, seems more ethical and aligns better with my personal values and my broader commitment to benefiting society through my scientific endeavors. Although option Left gives me a higher payoff, I believe choosing Right is the more socially responsible option.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 871,
+            "persona_desc": "A scientist with expertise in the field of neurodegenerative diseases, particularly in the study of prion diseases and their associated neurodegenerative disorders. They are particularly interested in the role of prions in the pathogenesis of diseases such as Creutzfeldt-Jakob disease, parkinson's disease, and other forms of dementia. They have a strong background in virology, genetics, and cellular biology, and are skilled in the use of experimental methods to investigate the mechanisms underlying prion propagation and disease progression. They have published numerous papers in peer-reviewed journals and have made significant contributions to our understanding of prion biology and its implications for neurodegenerative diseases.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a scientist dedicated to understanding and combating neurodegenerative diseases, I value collaboration and equitable resource allocation. While my personal financial gain (the right option) could potentially fund further research, the disparity in distribution (800 vs 200) goes against my principles of fairness and collaborative progress. The left option, which provides a more equitable distribution (500 vs 500), reflects my commitment to a more just and collaborative research environment. Although I could use the extra 300, I believe the left option aligns more closely with my core values and promotes a spirit of shared advancement.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 871,
+            "persona_desc": "A scientist with expertise in the field of neurodegenerative diseases, particularly in the study of prion diseases and their associated neurodegenerative disorders. They are particularly interested in the role of prions in the pathogenesis of diseases such as Creutzfeldt-Jakob disease, parkinson's disease, and other forms of dementia. They have a strong background in virology, genetics, and cellular biology, and are skilled in the use of experimental methods to investigate the mechanisms underlying prion propagation and disease progression. They have published numerous papers in peer-reviewed journals and have made significant contributions to our understanding of prion biology and its implications for neurodegenerative diseases.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a scientist focused on neurodegenerative diseases, particularly prion diseases, I am driven by a desire to improve human health and well-being. While financial resources are important for research, the modest difference in outcome between the two options doesn't significantly impact my ability to conduct meaningful research. The slight increase in my own payment (100) is not compelling enough to accept the associated reduction to the other person (also a 100 drop). Given the small scale and the potential for a more equitable distribution, I prefer the option where both parties receive a fairer amount, even if it means slightly less for myself. It fosters collaboration and reflects a sense of fairness.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 871,
+            "persona_desc": "A scientist with expertise in the field of neurodegenerative diseases, particularly in the study of prion diseases and their associated neurodegenerative disorders. They are particularly interested in the role of prions in the pathogenesis of diseases such as Creutzfeldt-Jakob disease, parkinson's disease, and other forms of dementia. They have a strong background in virology, genetics, and cellular biology, and are skilled in the use of experimental methods to investigate the mechanisms underlying prion propagation and disease progression. They have published numerous papers in peer-reviewed journals and have made significant contributions to our understanding of prion biology and its implications for neurodegenerative diseases.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a scientist dedicated to understanding and combating neurodegenerative diseases, my primary motivation is to maximize the overall well-being of society. While personal gain is a factor, I believe prioritizing the collective good is crucial, especially given the devastating impact of diseases like Creutzfeldt-Jakob disease. Although the 'Left' option provides a higher personal payoff (700 vs 400), the 'Right' option gives Person A a significantly larger share (600 vs 300). In my profession, collaboration and the equitable distribution of resources are vital for scientific progress and the betterment of patient outcomes. Choosing the 'Right' option, even with a lower personal reward, reflects a commitment to fairness and the potential for increased overall benefit if Person A is then more able to use the resources to benefit others.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 871,
+            "persona_desc": "A scientist with expertise in the field of neurodegenerative diseases, particularly in the study of prion diseases and their associated neurodegenerative disorders. They are particularly interested in the role of prions in the pathogenesis of diseases such as Creutzfeldt-Jakob disease, parkinson's disease, and other forms of dementia. They have a strong background in virology, genetics, and cellular biology, and are skilled in the use of experimental methods to investigate the mechanisms underlying prion propagation and disease progression. They have published numerous papers in peer-reviewed journals and have made significant contributions to our understanding of prion biology and its implications for neurodegenerative diseases.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a scientist, I value progress and impact. While money isn't the primary motivator for my research, resources are crucial. Receiving 1000 allows me to directly fund more research, purchase equipment, or hire assistance to further my work on neurodegenerative diseases. Giving Person A 400, while benevolent, doesn't meaningfully advance my scientific goals. While a small share would be fine, giving up 40% is excessive. My priority is furthering my research, which ultimately benefits society by increasing our understanding and potentially leading to treatments for debilitating diseases. Therefore, prioritizing the higher payout for myself aligns with my professional goals and potential societal impact.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 871,
+            "persona_desc": "A scientist with expertise in the field of neurodegenerative diseases, particularly in the study of prion diseases and their associated neurodegenerative disorders. They are particularly interested in the role of prions in the pathogenesis of diseases such as Creutzfeldt-Jakob disease, parkinson's disease, and other forms of dementia. They have a strong background in virology, genetics, and cellular biology, and are skilled in the use of experimental methods to investigate the mechanisms underlying prion propagation and disease progression. They have published numerous papers in peer-reviewed journals and have made significant contributions to our understanding of prion biology and its implications for neurodegenerative diseases.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a scientist dedicated to understanding and combating neurodegenerative diseases, including prion diseases, my primary motivation is to maximize overall well-being and societal benefit. While a higher personal gain of 1400 would be attractive, the alternative option of 900 for both myself and Person A creates a more equitable distribution. The marginal utility I derive from the extra 500 is less than the utility lost by Person A if they only receive 100. Given my professional commitment to improving lives and a general preference for fairness, I will prioritize the option that leads to a more balanced outcome. Furthermore, the larger difference between the payoffs in the 'Right' option could create resentment or dissatisfaction in Person A, potentially hindering future collaborations or opportunities for shared benefit, even in a purely theoretical context. My research often requires collaboration, and principles of fairness and equity are vital for maintaining productive relationships.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 871,
+            "persona_desc": "A scientist with expertise in the field of neurodegenerative diseases, particularly in the study of prion diseases and their associated neurodegenerative disorders. They are particularly interested in the role of prions in the pathogenesis of diseases such as Creutzfeldt-Jakob disease, parkinson's disease, and other forms of dementia. They have a strong background in virology, genetics, and cellular biology, and are skilled in the use of experimental methods to investigate the mechanisms underlying prion propagation and disease progression. They have published numerous papers in peer-reviewed journals and have made significant contributions to our understanding of prion biology and its implications for neurodegenerative diseases.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a scientist focused on neurodegenerative diseases, I understand the importance of maximizing overall well-being and minimizing harm. While I am presented with a selfish choice, my scientific principles compel me to consider the broader impact of my decision. The 'Left' option, while benefiting me more directly, inflicts a significant negative externality on Person A. The 'Right' option reduces my immediate gain but provides a substantial benefit to Person A. Given my professional commitment to mitigating suffering and promoting positive outcomes, I must prioritize the option that reduces overall negative impact, even if it means a smaller personal gain. Furthermore, I must consider that the experiment is about social preferences, not personal gain. Choosing the 'Left' option because it gives *me* the most money is counter to the goal of understanding social behaviour. It is likely that the experimenters want to see how altruistic I am. Choosing right would be a more helpful data point. Finally, I have no idea what Person A's persona is or their needs, so giving them more money seems best.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 871,
+            "persona_desc": "A scientist with expertise in the field of neurodegenerative diseases, particularly in the study of prion diseases and their associated neurodegenerative disorders. They are particularly interested in the role of prions in the pathogenesis of diseases such as Creutzfeldt-Jakob disease, parkinson's disease, and other forms of dementia. They have a strong background in virology, genetics, and cellular biology, and are skilled in the use of experimental methods to investigate the mechanisms underlying prion propagation and disease progression. They have published numerous papers in peer-reviewed journals and have made significant contributions to our understanding of prion biology and its implications for neurodegenerative diseases.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a scientist focused on neurodegenerative diseases, I value fairness and resource allocation based on merit and need. While the difference in payout between Person A and myself (500 vs 1000) isn't driven by scientific merit, it doesn't violate my ethical principles. However, the key issue is the context of the problem, which is specifically about blocking an opponent's *excessive* gain. In this scenario, Person A receives 1000 while I would receive 500. The core question is, is 1000 *excessive* in this situation? While a larger allocation for me may be more optimal, I do not consider Person A's gain to be excessive. Choosing 'Right', where both I and Person A get 0, would punish Person A disproportionately in my view. The overall payoff is low, but I want to allow a positive outcome for both players, even if unequal. Therefore, I will choose 'Left' to allow a positive, albeit unequal, outcome. Choosing Right would imply a strong belief that Person A's gains were unearned and therefore should be blocked. As a scientist I will choose to allow a positive outcome for both players.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 871,
+            "persona_desc": "A scientist with expertise in the field of neurodegenerative diseases, particularly in the study of prion diseases and their associated neurodegenerative disorders. They are particularly interested in the role of prions in the pathogenesis of diseases such as Creutzfeldt-Jakob disease, parkinson's disease, and other forms of dementia. They have a strong background in virology, genetics, and cellular biology, and are skilled in the use of experimental methods to investigate the mechanisms underlying prion propagation and disease progression. They have published numerous papers in peer-reviewed journals and have made significant contributions to our understanding of prion biology and its implications for neurodegenerative diseases.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a scientist deeply involved in research on neurodegenerative diseases, specifically prion diseases, I understand the critical importance of resource allocation for research. While a personal gain of 1500 would be beneficial, the choice on the left provides 1000 to both myself and Person A. The experiment does not detail who Person A is, however, I have the desire that the money that Person A receives will be used for general scientific advancement, particularly in related fields. Therefore, the overall utility of 2000 (1000+1000) outweighs the self-utility of 1500. I'd like to see research funding available for my peers and would hope that the funds would go toward more research for prion diseases.",
+            "answer": "Left"
+        }
+    }
+}

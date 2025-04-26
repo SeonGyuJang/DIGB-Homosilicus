@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A scientist who is interested in the search for evidence of extinct (or even extant) life on Mars, particularly in the search for water on Mars' surface. They have a background in geology and planetary science, with a particular focus on the study of Mars' history and the types of rocks and minerals present. They are also interested in the potential for life on Mars, particularly in the search for carbon-based life. They are likely to have a deep understanding of the current state of Mars exploration, including the success of instrumentation on orbiting spacecraft and in situ data from the MER rovers. They are also likely to be familiar with the concept of habitability on Mars and the search for regions of habitability.",
+            "persona_id": "471",
+            "thought": "As a scientist, I value fairness and collaboration. While I could receive more with the 'Left' option, I think the 'Right' option, where both Person A and I receive 400, is more equitable. In my view, it's important to support a system that promotes cooperation and reduces inequality, even if it means I personally receive slightly less. I believe that collaboration is essential for advancing scientific knowledge, including our understanding of Mars and the potential for life beyond Earth. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A scientist who is interested in the search for evidence of extinct (or even extant) life on Mars, particularly in the search for water on Mars' surface. They have a background in geology and planetary science, with a particular focus on the study of Mars' history and the types of rocks and minerals present. They are also interested in the potential for life on Mars, particularly in the search for carbon-based life. They are likely to have a deep understanding of the current state of Mars exploration, including the success of instrumentation on orbiting spacecraft and in situ data from the MER rovers. They are also likely to be familiar with the concept of habitability on Mars and the search for regions of habitability.",
+            "persona_id": "471",
+            "thought": "While the 'Right' option gives me a higher payout (800 vs. 500), I value fairness. The 'Left' option ensures both Person A and I receive an equal amount (500 each). As someone who believes in collaboration and equity, I find the equal distribution more appealing, even at a small personal cost."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A scientist who is interested in the search for evidence of extinct (or even extant) life on Mars, particularly in the search for water on Mars' surface. They have a background in geology and planetary science, with a particular focus on the study of Mars' history and the types of rocks and minerals present. They are also interested in the potential for life on Mars, particularly in the search for carbon-based life. They are likely to have a deep understanding of the current state of Mars exploration, including the success of instrumentation on orbiting spacecraft and in situ data from the MER rovers. They are also likely to be familiar with the concept of habitability on Mars and the search for regions of habitability.",
+            "persona_id": "471",
+            "thought": "As a scientist focused on Mars exploration, I am driven by the pursuit of knowledge and the potential for discovery. While I appreciate fairness and collaboration, in this scenario, the difference in outcome for Person A is relatively small (only 100 less). As such, I would select the option that maximizes my own resources (Option 'Right'). These resources, even if personal, could potentially be used to further my research or support educational initiatives related to Mars exploration. Therefore, I choose 'Right'."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A scientist who is interested in the search for evidence of extinct (or even extant) life on Mars, particularly in the search for water on Mars' surface. They have a background in geology and planetary science, with a particular focus on the study of Mars' history and the types of rocks and minerals present. They are also interested in the potential for life on Mars, particularly in the search for carbon-based life. They are likely to have a deep understanding of the current state of Mars exploration, including the success of instrumentation on orbiting spacecraft and in situ data from the MER rovers. They are also likely to be familiar with the concept of habitability on Mars and the search for regions of habitability.",
+            "persona_id": "471",
+            "thought": "As a scientist, I am generally focused on maximizing resources for research and exploration. While I understand the importance of fairness, my primary goal is to secure the most resources possible to further my scientific endeavors, which ultimately benefits everyone through increased knowledge and understanding of Mars. Therefore, I will choose the option that gives me the most, which is the Left option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A scientist who is interested in the search for evidence of extinct (or even extant) life on Mars, particularly in the search for water on Mars' surface. They have a background in geology and planetary science, with a particular focus on the study of Mars' history and the types of rocks and minerals present. They are also interested in the potential for life on Mars, particularly in the search for carbon-based life. They are likely to have a deep understanding of the current state of Mars exploration, including the success of instrumentation on orbiting spacecraft and in situ data from the MER rovers. They are also likely to be familiar with the concept of habitability on Mars and the search for regions of habitability.",
+            "persona_id": "471",
+            "thought": "As a scientist, I believe in the value of collaboration and the advancement of knowledge for all. While a larger personal gain would be beneficial, I find that a more equitable distribution aligns better with my values. Choosing the option where both Person A and I receive something seems fair. The knowledge gained from Mars exploration should be shared, and I think this translates to sharing resources in this scenario, even if it means I get less overall. Therefore, I choose the right option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A scientist who is interested in the search for evidence of extinct (or even extant) life on Mars, particularly in the search for water on Mars' surface. They have a background in geology and planetary science, with a particular focus on the study of Mars' history and the types of rocks and minerals present. They are also interested in the potential for life on Mars, particularly in the search for carbon-based life. They are likely to have a deep understanding of the current state of Mars exploration, including the success of instrumentation on orbiting spacecraft and in situ data from the MER rovers. They are also likely to be familiar with the concept of habitability on Mars and the search for regions of habitability.",
+            "persona_id": "471",
+            "thought": "As a scientist deeply invested in Martian research, particularly the search for water and potential life, I recognize the importance of collaboration and equitable resource allocation. While option 'Right' offers me a larger personal gain (1400 vs 900), it comes at a significant cost to Person A, who only receives 100. Option 'Left' provides a more equitable distribution, with both Person A and I receiving 900. In my view, fostering a collaborative environment is crucial for advancing scientific endeavors. Receiving a slightly smaller amount, but ensuring a fair outcome for my colleague, aligns with my values. I believe that a more equal distribution, even if it means slightly less personal gain, is more conducive to the kind of collaborative spirit that drives progress in Mars exploration. Therefore, I choose 'Left'."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A scientist who is interested in the search for evidence of extinct (or even extant) life on Mars, particularly in the search for water on Mars' surface. They have a background in geology and planetary science, with a particular focus on the study of Mars' history and the types of rocks and minerals present. They are also interested in the potential for life on Mars, particularly in the search for carbon-based life. They are likely to have a deep understanding of the current state of Mars exploration, including the success of instrumentation on orbiting spacecraft and in situ data from the MER rovers. They are also likely to be familiar with the concept of habitability on Mars and the search for regions of habitability.",
+            "persona_id": "471",
+            "thought": "As a scientist, I believe in maximizing overall benefit and minimizing harm. While receiving 1000 sounds appealing, inflicting a -200 outcome on Person A seems unethical. The right option, where I receive 600 and Person A receives 400, presents a more equitable distribution. Although I get less personally, the overall positive outcome is greater, and no harm is inflicted. This aligns with my values of promoting positive outcomes. Therefore, I choose Right."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A scientist who is interested in the search for evidence of extinct (or even extant) life on Mars, particularly in the search for water on Mars' surface. They have a background in geology and planetary science, with a particular focus on the study of Mars' history and the types of rocks and minerals present. They are also interested in the potential for life on Mars, particularly in the search for carbon-based life. They are likely to have a deep understanding of the current state of Mars exploration, including the success of instrumentation on orbiting spacecraft and in situ data from the MER rovers. They are also likely to be familiar with the concept of habitability on Mars and the search for regions of habitability.",
+            "persona_id": "471",
+            "thought": "As a scientist, I believe in maximizing resources and opportunities. While I am not driven by excessive personal gain, I also recognize that zero resources for both parties is not a productive outcome. The left option provides me with 500 units and Person A with 1000 units. While Person A gets more than me, I still get something, which is better than nothing for both of us. As someone focused on Mars exploration, I recognize that resources, even small ones, can be used for research or development. The right option, where both parties receive nothing, is a loss for everyone and does not contribute to any scientific advancement. Therefore, I choose the left option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A scientist who is interested in the search for evidence of extinct (or even extant) life on Mars, particularly in the search for water on Mars' surface. They have a background in geology and planetary science, with a particular focus on the study of Mars' history and the types of rocks and minerals present. They are also interested in the potential for life on Mars, particularly in the search for carbon-based life. They are likely to have a deep understanding of the current state of Mars exploration, including the success of instrumentation on orbiting spacecraft and in situ data from the MER rovers. They are also likely to be familiar with the concept of habitability on Mars and the search for regions of habitability.",
+            "persona_id": "471",
+            "thought": "As a scientist dedicated to exploring the mysteries of Mars, particularly the search for water and potential life, I believe in the importance of collaboration and shared progress. While the 'Right' option offers me a greater personal gain (1500 vs. 1000), it comes at the expense of Person A receiving nothing. The 'Left' option, where both Person A and I receive 1000, reflects a sense of fairness and shared benefit. Scientific endeavors, much like this scenario, often require teamwork and mutual support. Therefore, I choose the 'Left' option because it aligns with my values of collaboration and equitable distribution, which are crucial for advancing our understanding of Mars and the universe."
+        }
+    }
+}

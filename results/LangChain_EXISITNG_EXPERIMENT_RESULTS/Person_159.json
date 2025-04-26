@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 159,
+            "persona_desc": "A dental surgeon who specializes in the preservation of dental alveoli after tooth extraction.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "I am a dental surgeon. The payoffs in this game do not affect my professional work or my patients. My objective is to maximize my own payoff, which is the same (400) regardless of the choice. However, since Person A gets 750 with option Right, it would seem the better choice. Choosing option Right also helps Person A by a significant amount and the decision between the two options has no negative consequence to myself. However, to maximize my own payoff and my own payoff alone, I am indifferent between the two options.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 159,
+            "persona_desc": "A dental surgeon who specializes in the preservation of dental alveoli after tooth extraction.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a dental surgeon specializing in alveolar preservation, I'm accustomed to valuing precision and optimal outcomes for my patients. While my immediate monetary gain is a consideration, I also recognize the importance of fairness and equitable distribution. In this scenario, the 'Left' choice maximizes my own payout but leaves Person A with nothing. The 'Right' choice offers a smaller payout to me but provides Person A with a significant benefit, creating a more balanced distribution of resources. Given my profession's emphasis on care and restorative practices, I lean towards the option that promotes a fairer outcome for both parties involved. While an extra 400 would be nice, the psychological and ethical satisfaction of ensuring a more equitable distribution makes the 'Right' choice more appealing.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 159,
+            "persona_desc": "A dental surgeon who specializes in the preservation of dental alveoli after tooth extraction.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a dental surgeon specializing in alveolar preservation, I value minimizing negative outcomes and maximizing positive ones, even if the direct beneficiary isn't myself. In this scenario, the 'Left' option results in a net gain of 1000 (200 + 800) whereas the 'Right' option results in 0. Although the distribution is unequal and I receive a smaller share, having some benefit is better than having nothing for either party. My specialization emphasizes preserving existing structures and avoiding unnecessary loss, which aligns with choosing an outcome where something is preserved rather than nothing. While 200 is less than 800, it's still a positive value for me, and Person A also receives a substantial benefit. Therefore, I prefer the 'Left' option.",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 159,
+            "persona_desc": "A dental surgeon who specializes in the preservation of dental alveoli after tooth extraction.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "I am a dental surgeon, and while I value my own earnings (Person B), I also recognize the importance of fairness and equal opportunity. Seeing as I would be providing dental care to both individuals, the notion of fairness is paramount. Option (Left) gives me a higher payoff (700) but leaves Person A with significantly less (200). Option (Right) provides a more equitable distribution of resources, with both Person A and Person B receiving 600. As a dental surgeon specializing in preserving dental alveoli after tooth extraction, i feel the responsibility of fairness in the distribution of wealth. While my personal benefit will be less, i feel the other person benefits more by choosing the right option.",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 159,
+            "persona_desc": "A dental surgeon who specializes in the preservation of dental alveoli after tooth extraction.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As a dental surgeon specializing in alveoli preservation, I value fairness and efficiency. While I am not intrinsically motivated by altruism, I recognize that long-term professional success depends on building and maintaining positive relationships with colleagues and referrals (represented by Person A in this experiment, conceptually). The potential for future collaborations and referrals might be damaged by appearing overly self-interested. \n\nOption (Left) gives me slightly more money (600 vs. 500), but the distribution is quite unequal (600/300). Option (Right) is less skewed, giving Person A a higher payout (700 vs. 300). Since the difference in my own payout is relatively small (only 100) and my profession relies on relationship building, I will choose the option that results in a fairer (and more favorable for Person A) outcome. This minimizes the risk of appearing greedy and potentially jeopardizing future collaborative opportunities with Person A. While my practice focuses on alveolar preservation, fostering healthy professional relationships is also vital to maintaining my practice health.",
+            "answer": "Right"
+        },
+        "scenario_6": {
+            "persona_id": 159,
+            "persona_desc": "A dental surgeon who specializes in the preservation of dental alveoli after tooth extraction.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "I am a dental surgeon specializing in alveolar preservation. My primary concern is ensuring the long-term health and well-being of my patients, and by extension, applying similar principles to resource allocation. In this scenario, I am being asked to choose between two options that affect my own payout and that of another person. While as a surgeon, I am used to taking risks to improve the overall situation, in this case, the risk does not outweigh the overall negative value.\n\n  Option (Left) guarantees both Person A and myself a reasonable payout of 400. Option (Right) sacrifices a portion of my payout (25) to provide a significantly larger payout to Person A (750). While increasing Person A's payout might seem appealing, as I am a generous individual in general, the small increase in Person A’s payout does not justify the small reduction in Person B’s payout. I believe that a good outcome is one in which both parties are satisfied, and the option (Left) provides this outcome.\n\nTherefore, I will choose (Left) to ensure a fair and equitable distribution of resources, mirroring my professional commitment to preserving and optimizing the health and well-being of my patients, and in the case of this experiment, the health of resources that benefit both the subjects.",
+            "answer": "Left"
+        }
+    }
+}

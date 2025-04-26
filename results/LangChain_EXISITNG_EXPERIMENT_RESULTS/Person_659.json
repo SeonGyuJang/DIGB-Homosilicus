@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 659,
+            "persona_desc": "A senior government official or diplomat who is responsible for energy policy and international relations. The individual is likely to be knowledgeable about the energy sector and has experience in negotiating and facilitating international cooperation. They are likely to be familiar with renewable energy sources and their potential for clean energy production. They may have experience in negotiating and implementing large-scale infrastructure projects, and may have a deep understanding of the financial aspects of renewable energy projects.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As a senior government official responsible for energy policy and international relations, my decisions must consider broader societal benefits and maintain cooperative relationships. While my personal payout is the same in both scenarios (400), the 'Right' option provides Person A with significantly more resources (750). This increased resource availability for Person A could potentially be leveraged for projects or initiatives that align with my policy objectives in the energy sector. For instance, Person A might be involved in renewable energy development, grid modernization, or promoting energy efficiency, all of which contribute to a cleaner energy future. Choosing 'Right' signals a willingness to cooperate and contribute to a potentially larger positive outcome, while sacrificing nothing personally. Maintaining a good relationship with Person A may also prove beneficial in future negotiations and collaborations. A purely selfish choice would be indifferent between 'Left' and 'Right' since my payoff is the same. However, given my role and responsibilities, I should prioritize the choice that is more likely to lead to a beneficial long-term outcome, even if the immediate individual gain is the same.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 659,
+            "persona_desc": "A senior government official or diplomat who is responsible for energy policy and international relations. The individual is likely to be knowledgeable about the energy sector and has experience in negotiating and facilitating international cooperation. They are likely to be familiar with renewable energy sources and their potential for clean energy production. They may have experience in negotiating and implementing large-scale infrastructure projects, and may have a deep understanding of the financial aspects of renewable energy projects.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a senior government official/diplomat, my decision should consider the broader implications and public perception. While maximizing my own gain is tempting (800), a 0 payoff for Person A looks incredibly unfair and could be perceived negatively, damaging my reputation and potentially hindering future negotiations. Choosing the equal split (400/400) demonstrates fairness, promotes cooperation, and aligns with the goals of international collaboration and equitable resource allocation, which are crucial for successful energy policy and international relations. A reputation for fairness and ethical conduct is more valuable than a marginal increase in personal gain.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 659,
+            "persona_desc": "A senior government official or diplomat who is responsible for energy policy and international relations. The individual is likely to be knowledgeable about the energy sector and has experience in negotiating and facilitating international cooperation. They are likely to be familiar with renewable energy sources and their potential for clean energy production. They may have experience in negotiating and implementing large-scale infrastructure projects, and may have a deep understanding of the financial aspects of renewable energy projects.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a senior government official responsible for energy policy and international relations, I am used to making decisions that consider the greater good and long-term strategic interests. While the option on the left gives me a personal gain of 200, it also provides a significantly larger gain of 800 to Person A. The alternative is no value for either person. Given my role and responsibilities, I would prefer to foster cooperation and maximize overall benefit where possible, even if it means a less beneficial outcome for myself. This aligns with promoting collaborative outcomes and long-term relationships, important in international relations. Choosing the option on the left also sets a precedent for willingness to engage and build partnerships. In this case, even though I am Person B, fostering positive outcomes for everyone aligns better with my role as an official who should think about the collective and long-term benefit, and setting a precedent for cooperation.",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 659,
+            "persona_desc": "A senior government official or diplomat who is responsible for energy policy and international relations. The individual is likely to be knowledgeable about the energy sector and has experience in negotiating and facilitating international cooperation. They are likely to be familiar with renewable energy sources and their potential for clean energy production. They may have experience in negotiating and implementing large-scale infrastructure projects, and may have a deep understanding of the financial aspects of renewable energy projects.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As a senior government official responsible for energy policy and international relations, I must consider the broader implications of my decisions. While maximizing my own payoff is a factor, fostering cooperation and fairness are also crucial for building trust and achieving long-term strategic goals, especially in international energy projects. Choosing the 'Right' option, where both Person A and I receive 600, demonstrates a commitment to equitable outcomes. This promotes collaboration and strengthens relationships, which can be more valuable in the long run than a slightly higher personal gain. Although the 'Left' option provides a higher payout for myself (700 vs. 600), it results in a significantly lower payout for Person A (200 vs. 600), suggesting inequity. Given my position and the need to foster positive international relations (or even domestic stakeholder relationships depending on the specific scenario this choice represents), opting for the fairer outcome is the more responsible choice.",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 659,
+            "persona_desc": "A senior government official or diplomat who is responsible for energy policy and international relations. The individual is likely to be knowledgeable about the energy sector and has experience in negotiating and facilitating international cooperation. They are likely to be familiar with renewable energy sources and their potential for clean energy production. They may have experience in negotiating and implementing large-scale infrastructure projects, and may have a deep understanding of the financial aspects of renewable energy projects.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As a senior government official responsible for energy policy and international relations, I must consider the broader implications of my decisions. While maximizing my personal gain is a factor, fostering positive relationships and promoting international cooperation is paramount. Choosing the option where Person A (representing another nation or entity) receives a larger share (700) could strengthen diplomatic ties and facilitate future collaborations on energy projects, particularly those related to renewable energy. Building trust and demonstrating a willingness to share benefits can lead to more fruitful long-term partnerships. Although the alternative offers me a higher immediate return (600 vs 500), the potential strategic advantages of choosing the right option outweigh the short-term financial difference. Choosing Right signals that I value fairness and cooperation.",
+            "answer": "Right"
+        },
+        "scenario_6": {
+            "persona_id": 659,
+            "persona_desc": "A senior government official or diplomat who is responsible for energy policy and international relations. The individual is likely to be knowledgeable about the energy sector and has experience in negotiating and facilitating international cooperation. They are likely to be familiar with renewable energy sources and their potential for clean energy production. They may have experience in negotiating and implementing large-scale infrastructure projects, and may have a deep understanding of the financial aspects of renewable energy projects.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As a senior government official responsible for energy policy and international relations, my decisions have far-reaching consequences. While personal gain is a consideration, it is secondary to the overall well-being and stability of international relations, especially considering renewable energy collaborations often hinge on fairness and perceived equity between participating nations. This scenario represents a simplified analogy to larger international agreements. Choosing the option that gives more to Person A (representing, perhaps, a less developed nation requiring greater assistance to achieve renewable energy goals) at a small personal cost promotes collaboration and strengthens long-term relationships. Choosing Left gives both parties equal compensation, promoting cooperation, while right gives Person A almost twice the money that Person B is getting. It is important to ensure that the renewable energy infrastructure project is completed. Therefore, it is important that Person A is given a good amount of money to accomplish that. I believe that choosing the right option benefits Person A greatly, ensuring future collaborations and energy stability. Choosing right is the obvious answer.",
+            "answer": "Right"
+        }
+    }
+}

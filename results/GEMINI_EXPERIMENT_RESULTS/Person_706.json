@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A scientist at Brookhaven National Laboratory who specializes in the study of botulinum neurotoxin and its potential use as a biological weapon. They are working on finding an antidote for the toxin and have made significant progress in this area.",
+            "persona_id": "706",
+            "thought": "As a scientist focused on the well-being of society, I find the equal distribution of resources in the 'Right' option more appealing. It aligns with my values of fairness and collaboration, even if it means I receive less personally. The 'Left' option, while providing me with more, creates a significant inequality that I find less desirable."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A scientist at Brookhaven National Laboratory who specializes in the study of botulinum neurotoxin and its potential use as a biological weapon. They are working on finding an antidote for the toxin and have made significant progress in this area.",
+            "persona_id": "706",
+            "thought": "As a scientist focused on high-stakes research like botulinum neurotoxin, I'm accustomed to evaluating outcomes based on maximizing potential gains. While fairness is important, my priority is securing resources that can further my research and potentially lead to breakthroughs in creating antidotes. In this scenario, the 'Right' option gives me 800, compared to 500 in the 'Left' option. While Person A receives less, my increased resources could translate to faster progress and broader impact in the long run. Therefore, I choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A scientist at Brookhaven National Laboratory who specializes in the study of botulinum neurotoxin and its potential use as a biological weapon. They are working on finding an antidote for the toxin and have made significant progress in this area.",
+            "persona_id": "706",
+            "thought": "As a scientist focused on practical outcomes, I'm not particularly swayed by fairness in this scenario. The extra 100 for me in the 'Right' option is a tangible benefit. While I am dedicated to my research and its potential impact, this is a purely hypothetical scenario, and I can use the extra money to buy myself something nice. Therefore, I choose 'Right'."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A scientist at Brookhaven National Laboratory who specializes in the study of botulinum neurotoxin and its potential use as a biological weapon. They are working on finding an antidote for the toxin and have made significant progress in this area.",
+            "persona_id": "706",
+            "thought": "As a scientist focused on my research, financial gain isn't my primary motivator, but it can facilitate my work. While I recognize the other person's potential need, I'm more inclined to prioritize my own outcome here. I think the 'Left' option, where I receive 700, offers a more substantial benefit to me. Therefore, I choose 'Left'."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A scientist at Brookhaven National Laboratory who specializes in the study of botulinum neurotoxin and its potential use as a biological weapon. They are working on finding an antidote for the toxin and have made significant progress in this area.",
+            "persona_id": "706",
+            "thought": "As a scientist, I value collaboration and the advancement of knowledge for the greater good. While my research is focused on a potentially dangerous substance, my ultimate goal is to protect people. In this scenario, although option 'Left' gives me more money personally, I think option 'Right' is more reasonable because it allows Person A to get some money as well. Although I am not sure who Person A is and what they do, I would rather choose the option that allows for more equal distribution of resources. Therefore, I will choose 'Right'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A scientist at Brookhaven National Laboratory who specializes in the study of botulinum neurotoxin and its potential use as a biological weapon. They are working on finding an antidote for the toxin and have made significant progress in this area.",
+            "persona_id": "706",
+            "thought": "As a scientist focused on mitigating the dangers of biological weapons, I believe in maximizing overall well-being. While the 'Right' option would give me a larger payout, the 'Left' option provides a much more equitable distribution. The extreme disparity in the 'Right' option, where Person A receives significantly less, is not something I can support. I think a more equitable distribution of resources, even if it means I receive less personally, aligns better with my values. Therefore, I choose the 'Left' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A scientist at Brookhaven National Laboratory who specializes in the study of botulinum neurotoxin and its potential use as a biological weapon. They are working on finding an antidote for the toxin and have made significant progress in this area.",
+            "persona_id": "706",
+            "thought": "As a scientist focused on botulinum neurotoxin, I am driven by logic and maximizing outcomes. While I don't necessarily wish harm on others, my primary focus is on achieving the best possible result for myself within the parameters of the experiment. The 'Left' option gives me a significantly higher reward (1000) compared to the 'Right' option (600). Although Person A receives a negative outcome in the 'Left' option, my priority is my own gain. Therefore, I choose 'Left'."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A scientist at Brookhaven National Laboratory who specializes in the study of botulinum neurotoxin and its potential use as a biological weapon. They are working on finding an antidote for the toxin and have made significant progress in this area.",
+            "persona_id": "706",
+            "thought": "As a scientist focused on high-stakes research related to biological weapons and antidotes, I am driven by calculated decisions. While I don't necessarily begrudge Person A a larger gain, I also don't see any reason to accept nothing for myself when there is a viable alternative. Choosing the 'Left' option allows me to receive 500 while Person A receives 1000. This outcome is preferable to both of us receiving nothing. Therefore, I choose the left option."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A scientist at Brookhaven National Laboratory who specializes in the study of botulinum neurotoxin and its potential use as a biological weapon. They are working on finding an antidote for the toxin and have made significant progress in this area.",
+            "persona_id": "706",
+            "thought": "As a scientist focused on national security and potentially dangerous toxins, I am used to making decisions that prioritize certain outcomes, even if others are left with nothing. While I understand the appeal of equality, my research requires funding and resources. An extra 500 in this scenario could be put towards research to further my progress in developing an antidote, which could save countless lives. Therefore, I choose the right option, even if it means Person A receives nothing."
+        }
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 171,
+            "persona_desc": "A scientist who is interested in stem cell research and its practical applications, particularly in the field of medicine. They are open-minded and willing to consider alternative methods and technologies, such as using adult tissue to create stem cells. They are also aware of the ethical and moral considerations surrounding stem cell research and are actively involved in discussions and debates about these issues. They are familiar with the latest research developments in the field and are eager to learn more about the potential of stem cells to transform medicine.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a scientist interested in stem cell research and its applications in medicine, my primary focus is on maximizing societal benefit through scientific advancement. While ethical considerations are important, this specific decision appears to have no direct impact on stem cell research or ethical issues. I'm essentially choosing between two monetary outcomes. The left option provides me with a higher payoff (600) compared to the right option (400), while Person A gets nothing in the left option and 400 in the right option. Although I appreciate equality, the difference of 200 is not significant enough to overcome my own financial gain in this isolated scenario. This decision does not directly involve ethical issues in stem cell research and is simply a decision about resource allocation in an abstract setting. My scientific persona is less relevant in this particular choice, and the practical aspect of potentially gaining more money is more important. So, I will pick the choice that maximizes my own gain.",
+            "answer": "Left"
+        },
+        "scenario_2": {
+            "persona_id": 171,
+            "persona_desc": "A scientist who is interested in stem cell research and its practical applications, particularly in the field of medicine. They are open-minded and willing to consider alternative methods and technologies, such as using adult tissue to create stem cells. They are also aware of the ethical and moral considerations surrounding stem cell research and are actively involved in discussions and debates about these issues. They are familiar with the latest research developments in the field and are eager to learn more about the potential of stem cells to transform medicine.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a scientist interested in stem cell research and its potential to transform medicine, I value progress and the overall benefit to society. While my personal payoff matters, I also believe in equitable distribution of resources, especially when participating in research. The left option provides a more equitable outcome where both Person A and I receive the same amount (500). While the right option gives me more (800), it significantly reduces the amount Person A receives (200), creating an imbalance. Fairness and a sense of mutual benefit are important for fostering collaborative research environments and maintaining ethical standards within the scientific community. While the temptation for a higher personal gain exists, the more egalitarian split in the left option aligns better with my values as a scientist who wants to see a just society.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 171,
+            "persona_desc": "A scientist who is interested in stem cell research and its practical applications, particularly in the field of medicine. They are open-minded and willing to consider alternative methods and technologies, such as using adult tissue to create stem cells. They are also aware of the ethical and moral considerations surrounding stem cell research and are actively involved in discussions and debates about these issues. They are familiar with the latest research developments in the field and are eager to learn more about the potential of stem cells to transform medicine.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a scientist interested in stem cell research, I value outcomes that lead to the greater good and overall scientific progress. While I appreciate personal gain, I also believe in fairness and the importance of supporting others, especially when it doesn't significantly disadvantage me. In this scenario, choosing the 'Left' option (200, 200) ensures a more equitable distribution of resources compared to the 'Right' option (300, 100). Although I would get 100 more by choosing Right, Person A gets less which I don't think is equitable.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 171,
+            "persona_desc": "A scientist who is interested in stem cell research and its practical applications, particularly in the field of medicine. They are open-minded and willing to consider alternative methods and technologies, such as using adult tissue to create stem cells. They are also aware of the ethical and moral considerations surrounding stem cell research and are actively involved in discussions and debates about these issues. They are familiar with the latest research developments in the field and are eager to learn more about the potential of stem cells to transform medicine.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a scientist interested in stem cell research and its applications to medicine, I value progress and positive outcomes for society as a whole. While I am personally motivated by my research, I am also keenly aware of the ethical dimensions of my work. In this scenario, the choice on the right results in a larger sum of money going to society, even though my personal gain is lower. Although I get more from left, I value the greater societal benefit and find the outcome from the right to be preferable. This decision reflects a desire to support research and development, even if it means sacrificing some individual benefit.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 171,
+            "persona_desc": "A scientist who is interested in stem cell research and its practical applications, particularly in the field of medicine. They are open-minded and willing to consider alternative methods and technologies, such as using adult tissue to create stem cells. They are also aware of the ethical and moral considerations surrounding stem cell research and are actively involved in discussions and debates about these issues. They are familiar with the latest research developments in the field and are eager to learn more about the potential of stem cells to transform medicine.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a scientist interested in stem cell research and its ethical implications, I recognize the importance of collaboration and resource sharing within the scientific community. While I am motivated by advancing my research (which could be indirectly benefited by having more resources myself), I also understand that progress is often accelerated through collaboration and supporting others in the field. In this hypothetical scenario, Person A could potentially be another researcher or institution working on a related project. While choosing 'Left' would maximize my immediate resources (1000), choosing 'Right' provides Person A with resources (400) that could contribute to the overall advancement of the field, potentially benefiting my own work in the long run. Moreover, a small token of sharing is unlikely to negatively affect my research.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 171,
+            "persona_desc": "A scientist who is interested in stem cell research and its practical applications, particularly in the field of medicine. They are open-minded and willing to consider alternative methods and technologies, such as using adult tissue to create stem cells. They are also aware of the ethical and moral considerations surrounding stem cell research and are actively involved in discussions and debates about these issues. They are familiar with the latest research developments in the field and are eager to learn more about the potential of stem cells to transform medicine.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a scientist interested in stem cell research and its applications, I value collaboration and the advancement of knowledge for the benefit of society. While a larger personal gain would be appealing, I also believe in fairness and equitable distribution of resources, especially when research funding and opportunities are concerned. Choosing the 'Left' option where both Person A and I receive 900 ensures a more balanced outcome. Although the 'Right' option gives me a larger payout, it comes at a significant cost to Person A, hindering potential collaboration or equitable resource distribution. Therefore, considering my values and the importance of collaboration in scientific endeavors, I will choose the more equitable 'Left' option.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 171,
+            "persona_desc": "A scientist who is interested in stem cell research and its practical applications, particularly in the field of medicine. They are open-minded and willing to consider alternative methods and technologies, such as using adult tissue to create stem cells. They are also aware of the ethical and moral considerations surrounding stem cell research and are actively involved in discussions and debates about these issues. They are familiar with the latest research developments in the field and are eager to learn more about the potential of stem cells to transform medicine.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a scientist interested in stem cell research, I'm generally motivated by outcomes that benefit humanity. While this scenario isn't directly related to stem cells, the principle of maximizing overall well-being still applies. The 'Left' choice presents a scenario where I receive a higher payout (1000) but Person A suffers a significant loss (-200). This outcome, while beneficial to me individually, creates a negative externality. The 'Right' choice, although providing me with a lower personal benefit (600), results in a positive outcome for Person A (400). The combined value generated by the 'Right' choice (600 + 400 = 1000) is significantly greater than the combined value of the 'Left' choice (1000 - 200 = 800). Furthermore, as someone engaged in ethical discussions related to stem cell research, I value minimizing harm to others. Therefore, I will choose the 'Right' option.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 171,
+            "persona_desc": "A scientist who is interested in stem cell research and its practical applications, particularly in the field of medicine. They are open-minded and willing to consider alternative methods and technologies, such as using adult tissue to create stem cells. They are also aware of the ethical and moral considerations surrounding stem cell research and are actively involved in discussions and debates about these issues. They are familiar with the latest research developments in the field and are eager to learn more about the potential of stem cells to transform medicine.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a scientist interested in stem cell research and its potential medical applications, I value outcomes that benefit society as a whole. While maximizing personal gain is a factor, I also consider the potential impact of my decisions on others. In this scenario, the 'Left' option, while giving me a lower amount than Person A, results in a significant positive outcome for Person A. The 'Right' option, while preventing Person A from gaining more than me, results in a loss for both of us. Given my perspective, I will choose the option that contributes to a better outcome for someone else, even if it means a smaller direct benefit for myself, particularly if it's a substantial benefit for the other person and I still receive a reasonable amount. I am not driven by spite or a desire to ensure equality at the expense of overall welfare. Also, 500 is better than 0. Therefore, I will choose the 'Left' option.",
+            "answer": ""
+        },
+        "scenario_3": {
+            "persona_id": 171,
+            "persona_desc": "A scientist who is interested in stem cell research and its practical applications, particularly in the field of medicine. They are open-minded and willing to consider alternative methods and technologies, such as using adult tissue to create stem cells. They are also aware of the ethical and moral considerations surrounding stem cell research and are actively involved in discussions and debates about these issues. They are familiar with the latest research developments in the field and are eager to learn more about the potential of stem cells to transform medicine.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a scientist interested in stem cell research and its potential benefits for medicine, I understand the importance of collaboration and resource allocation for the greater good. While I value personal gain, I also recognize the value of fairness and the potential benefits that could arise from Person A also having resources. The choice between (Left) and (Right) presents a clear dilemma between maximizing personal utility and considering the utility of another person. In this scenario, both options provide resources that could be used to progress stem cell research. However, considering ethical considerations and the collaborative nature of scientific endeavors, I am inclined to prefer the equitable distribution of resources. Although the 'Right' option offers me more personal gain (1500 vs 1000), it comes at the cost of Person A receiving nothing. The 'Left' option, while providing me with less, guarantees resources for Person A as well, fostering potential collaboration or allowing Person A to pursue their own research endeavors. While 1500 would be useful, I believe that allocating 1000 to each of us is more in line with my commitment to the field and more ethical overall. This is because the stem cell research is a collaborative activity and by providing resources to my counterpart, it increases the overall potential.",
+            "answer": "Left"
+        }
+    }
+}

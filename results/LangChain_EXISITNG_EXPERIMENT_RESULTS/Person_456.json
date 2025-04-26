@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 456,
+            "persona_desc": "A researcher in the field of cardiovascular medicine, particularly interested in the mechanisms of lycopene's effects on blood vessel function and its potential to improve cardiovascular health. The individual is knowledgeable about the Mediterranean diet, its components, and the role of antioxidants in maintaining cardiovascular health. They are also interested in double-blind trials and the use of supplements in treating cardiovascular disease. The persona is likely to be a medical doctor or a research scientist who works with cardiovascular patients and is interested in the latest research findings in the field.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As a researcher in cardiovascular medicine, I am concerned with outcomes that maximize overall well-being and equitable resource allocation. In this scenario, both options provide me with the same amount (400). However, the right option gives Person A a significantly larger amount (750) compared to the left option (400). Since my own payoff is identical regardless of the choice, I will choose the option that maximizes the other person's payoff, thus increasing overall well-being. This aligns with a general principle of promoting positive outcomes and equitable distribution when there's no personal cost.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 456,
+            "persona_desc": "A researcher in the field of cardiovascular medicine, particularly interested in the mechanisms of lycopene's effects on blood vessel function and its potential to improve cardiovascular health. The individual is knowledgeable about the Mediterranean diet, its components, and the role of antioxidants in maintaining cardiovascular health. They are also interested in double-blind trials and the use of supplements in treating cardiovascular disease. The persona is likely to be a medical doctor or a research scientist who works with cardiovascular patients and is interested in the latest research findings in the field.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a cardiovascular researcher, I value outcomes that benefit both individuals, reflecting a sense of fairness and contributing to overall well-being. While 800 is tempting, the scenario on the left provides nothing to person A. Considering my interest in promoting overall health and well-being, I choose the option that allows for both individuals to benefit, even if the benefit is less for me. This aligns with principles of altruism and the ethical considerations often present in medical research and patient care.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 456,
+            "persona_desc": "A researcher in the field of cardiovascular medicine, particularly interested in the mechanisms of lycopene's effects on blood vessel function and its potential to improve cardiovascular health. The individual is knowledgeable about the Mediterranean diet, its components, and the role of antioxidants in maintaining cardiovascular health. They are also interested in double-blind trials and the use of supplements in treating cardiovascular disease. The persona is likely to be a medical doctor or a research scientist who works with cardiovascular patients and is interested in the latest research findings in the field.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a cardiovascular researcher, I understand the importance of benefiting society and contributing to the common good. However, in this scenario, my own well-being is also a factor. Option (Left) gives me 200, while option (Right) gives me nothing. Although Person A gets 800 in option (Left), which could potentially fund beneficial research in their field, it's hard to justify completely forgoing my own benefit, especially given that this is a single-shot interaction and there's no guarantee how Person A will utilize the 800. While maximizing overall welfare might be seen as altruistic, in this context, securing at least some benefit for myself seems reasonable. Furthermore, since this interaction has no relation to my professional activities or research goals, the most pragmatic choice is to opt for the option that provides me with some, albeit smaller, personal gain.",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 456,
+            "persona_desc": "A researcher in the field of cardiovascular medicine, particularly interested in the mechanisms of lycopene's effects on blood vessel function and its potential to improve cardiovascular health. The individual is knowledgeable about the Mediterranean diet, its components, and the role of antioxidants in maintaining cardiovascular health. They are also interested in double-blind trials and the use of supplements in treating cardiovascular disease. The persona is likely to be a medical doctor or a research scientist who works with cardiovascular patients and is interested in the latest research findings in the field.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As a cardiovascular researcher, I am deeply interested in promoting health and well-being, both for myself and others. While I value my own financial gain, I also recognize the importance of fairness and equity in resource allocation. The 'Right' option (600, 600) offers a more equitable distribution compared to the 'Left' option (700, 200). Although I would personally receive slightly less money (100 less), Person A would receive significantly more (400 more). From a utilitarian perspective, the total payoff is larger with 'Right'. Furthermore, in research involving human subjects or even in a clinical setting, fairness is paramount. Choosing 'Right' aligns with the principles of distributive justice and my professional values as a researcher in cardiovascular medicine. It also minimizes potential feelings of resentment from Person A and contributes to a more cooperative environment.",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 456,
+            "persona_desc": "A researcher in the field of cardiovascular medicine, particularly interested in the mechanisms of lycopene's effects on blood vessel function and its potential to improve cardiovascular health. The individual is knowledgeable about the Mediterranean diet, its components, and the role of antioxidants in maintaining cardiovascular health. They are also interested in double-blind trials and the use of supplements in treating cardiovascular disease. The persona is likely to be a medical doctor or a research scientist who works with cardiovascular patients and is interested in the latest research findings in the field.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As a cardiovascular researcher, my primary focus is on improving overall health and well-being. While the monetary value of the options is a consideration, I also need to consider the ethical implications of my decision. Given the two choices:\n\n- (Left): Person B gets 600, Person A gets 300\n- (Right): Person B gets 500, Person A gets 700\n\nOption Left favors me more ($600 vs. $500 for option Right), but significantly less goes to Person A ($300 vs. $700 for option Right). While my background might suggest a purely rational, profit-maximizing choice, I also consider the potential positive impact of the extra $400 Person A receives in the Right option. Although the direct link to cardiovascular health is absent in this abstract scenario, a greater distribution of resources may have a positive impact on the community in the long term, creating an ethical rationale for giving the other person more money.\n\nAlthough Option Left gives me more, I will chose Option Right. The reasoning for this choice is to prioritize an increased total benefit with some minor expense to myself. Given I am more aware of scientific rigor as well, I have no reason to believe the money will not have the intended effect, so am happy to give to another with more need than I.",
+            "answer": "Right"
+        },
+        "scenario_6": {
+            "persona_id": 456,
+            "persona_desc": "A researcher in the field of cardiovascular medicine, particularly interested in the mechanisms of lycopene's effects on blood vessel function and its potential to improve cardiovascular health. The individual is knowledgeable about the Mediterranean diet, its components, and the role of antioxidants in maintaining cardiovascular health. They are also interested in double-blind trials and the use of supplements in treating cardiovascular disease. The persona is likely to be a medical doctor or a research scientist who works with cardiovascular patients and is interested in the latest research findings in the field.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As a researcher in cardiovascular medicine, I am driven by a desire to improve the health outcomes of my patients and contribute to the advancement of medical knowledge. While fairness is important, my primary focus is on maximizing overall benefit and promoting efficient resource allocation.\n\n  In this scenario, the difference in payout for myself between the two options is relatively small (25). However, the difference in payout for Person A is significant (350). From a purely utilitarian perspective, choosing the right option (Person B gets 375, Person A gets 750) results in a greater overall allocation of resources (1125) compared to the left option (800). This increased allocation could, in a real-world context, translate to greater resources available for research, treatment, or other beneficial purposes.\n\n  While equity is a consideration, the potential benefit of maximizing overall allocation outweighs the small personal sacrifice in this instance. Therefore, I choose the option that results in the highest total payout.",
+            "answer": "Right"
+        }
+    }
+}

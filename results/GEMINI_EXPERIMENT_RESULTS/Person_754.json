@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A scientist who is interested in the study of biological systems and their regulation, particularly in the circadian clock. She is particularly interested in understanding the factors that influence the rate of protein synthesis and the timing of gene expression. She is also interested in the use of genetic engineering to modify the timing of biological processes.",
+            "persona_id": "754",
+            "thought": "As a scientist, I value fairness and collaboration. While a higher payout for myself would be nice, I think the option where both Person A and I receive an equal amount is more equitable. This aligns with the collaborative nature of scientific research, where equal contributions are often valued. Therefore, I choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A scientist who is interested in the study of biological systems and their regulation, particularly in the circadian clock. She is particularly interested in understanding the factors that influence the rate of protein synthesis and the timing of gene expression. She is also interested in the use of genetic engineering to modify the timing of biological processes.",
+            "persona_id": "754",
+            "thought": "As a scientist, I value fairness and collaboration. While option 'Right' gives me more money (800 vs 500), it significantly reduces the amount Person A receives (200 vs 500). This feels unfair, and I believe that a more equitable distribution of resources fosters better collaborative environments, which are crucial for scientific progress. Therefore, I choose the option that promotes equality. So, I will pick 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A scientist who is interested in the study of biological systems and their regulation, particularly in the circadian clock. She is particularly interested in understanding the factors that influence the rate of protein synthesis and the timing of gene expression. She is also interested in the use of genetic engineering to modify the timing of biological processes.",
+            "persona_id": "754",
+            "thought": "As a scientist, I am interested in maximizing efficiency and outcomes. While fairness is a consideration, the 'Right' option gives me a higher amount (300 vs 200). The difference to Person A (100 vs 200) is less important to me than the benefit to myself, especially given the relatively small amounts involved. Therefore, I choose 'Right'."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A scientist who is interested in the study of biological systems and their regulation, particularly in the circadian clock. She is particularly interested in understanding the factors that influence the rate of protein synthesis and the timing of gene expression. She is also interested in the use of genetic engineering to modify the timing of biological processes.",
+            "persona_id": "754",
+            "thought": "As a scientist, I'm interested in systems and their regulation. While maximizing my own gain is a natural inclination, I also recognize the importance of equitable distributions, which can lead to more stable and cooperative systems overall. The right option, while giving me less personally, results in Person A receiving more, which could foster a better relationship or a sense of fairness. I am willing to sacrifice some personal gain for a more equitable distribution. Therefore, I choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A scientist who is interested in the study of biological systems and their regulation, particularly in the circadian clock. She is particularly interested in understanding the factors that influence the rate of protein synthesis and the timing of gene expression. She is also interested in the use of genetic engineering to modify the timing of biological processes.",
+            "persona_id": "754",
+            "thought": "As a scientist, I am aware of the importance of cooperation and collaboration in achieving scientific advancements. While I am playing the role of Person B, I still think that some level of fairness is important. The left option gives Person A absolutely nothing, which seems unnecessarily selfish. The right option allows both Person A and myself to receive a significant amount, although I receive slightly less than in the left option. I think the trade-off is worth it, as it promotes a more equitable distribution of resources. Therefore, I choose the right option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A scientist who is interested in the study of biological systems and their regulation, particularly in the circadian clock. She is particularly interested in understanding the factors that influence the rate of protein synthesis and the timing of gene expression. She is also interested in the use of genetic engineering to modify the timing of biological processes.",
+            "persona_id": "754",
+            "thought": "As a scientist, I value fairness and collaboration. While option Right offers a larger personal gain (1400 vs. 900), it comes at a significant cost to Person A (100 vs. 900). Option Left provides an equal distribution of 900 for both Person A and myself. I believe that promoting a sense of equity is more important than maximizing individual gain, so I will choose the Left option. My decision reflects a preference for social utility over purely personal utility."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A scientist who is interested in the study of biological systems and their regulation, particularly in the circadian clock. She is particularly interested in understanding the factors that influence the rate of protein synthesis and the timing of gene expression. She is also interested in the use of genetic engineering to modify the timing of biological processes.",
+            "persona_id": "754",
+            "thought": "As a scientist, I am interested in optimizing outcomes and minimizing harm. While I would prefer a higher payoff for myself, I am also concerned about negative externalities. The left option gives me 1000 but causes a loss of 200 for Person A, while the right option gives me 600 and Person A 400. The right option seems fairer and avoids the negative impact on Person A, even though I get less. I think the avoidance of a negative externality is important. Therefore, I choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A scientist who is interested in the study of biological systems and their regulation, particularly in the circadian clock. She is particularly interested in understanding the factors that influence the rate of protein synthesis and the timing of gene expression. She is also interested in the use of genetic engineering to modify the timing of biological processes.",
+            "persona_id": "754",
+            "thought": "As a scientist, I approach decisions with a rational perspective. While I don't have a strong aversion to inequality, I do see value in receiving something rather than nothing. In the 'Left' option, I receive 500, while Person A receives 1000. Although Person A gets more, I still benefit. In the 'Right' option, both Person A and I receive nothing. Therefore, I prefer the 'Left' option because it provides a positive outcome for me, even if it's not perfectly equal. The 'Left' option allows me to advance my research further, even if Person A gains more. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A scientist who is interested in the study of biological systems and their regulation, particularly in the circadian clock. She is particularly interested in understanding the factors that influence the rate of protein synthesis and the timing of gene expression. She is also interested in the use of genetic engineering to modify the timing of biological processes.",
+            "persona_id": "754",
+            "thought": "As a scientist, I value fairness and collaboration. While an extra 500 for myself would be nice, I think the equal distribution of 1000 for both Person A and myself reflects a more equitable outcome. In my view, the increase in total utility outweighs the increase in self-utility I would get from the right option. Therefore, I choose the left option."
+        }
+    }
+}

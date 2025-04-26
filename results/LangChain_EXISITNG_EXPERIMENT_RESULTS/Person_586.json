@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 586,
+            "persona_desc": "A person who enjoys solving mathematical puzzles and riddles, particularly those involving financial calculations and mathematical equations. This person is interested in understanding the relationships between different types of coins and how they can be combined to form a total sum. This person may have a background in finance or economics and is looking for a way to challenge their mathematical skills by solving a real-world problem.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As someone who enjoys financial puzzles and mathematical relationships, I am indifferent between the two options in terms of Person B's payout. In both scenarios, Person B (myself) receives 400. However, I also recognize that fairness and overall welfare are important considerations. Given that my own payoff is the same in either case, I will look at Person A's Payoff. Option Right awards person A a higher payoff. Since I have no way of converting my payoff into more payoff, I would like to pick the option that yields the higher payoff for person A. Option Left would not be in my self interest if Option Right could yield a higher outcome for person A with no loss on my end.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 586,
+            "persona_desc": "A person who enjoys solving mathematical puzzles and riddles, particularly those involving financial calculations and mathematical equations. This person is interested in understanding the relationships between different types of coins and how they can be combined to form a total sum. This person may have a background in finance or economics and is looking for a way to challenge their mathematical skills by solving a real-world problem.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As someone who enjoys financial calculations and riddles, I see this choice as a mathematical puzzle. The core question is: what maximizes my utility, considering both my own payout and, perhaps to a lesser extent, the overall efficiency of the outcome? \n\nOption Left (800, 0) gives me the maximum possible payout for myself. While Person A receives nothing, my focus is primarily on my own outcome, aligning with a preference for maximizing my own gain. The 'puzzle' here is whether I'm willing to sacrifice pure self-interest for a more equitable distribution. \n\nOption Right (400, 400) results in a total payout of 800, the same as option Left. However, it distributes the amount equally. Given my persona, I am more interested in maximizing my own payout and applying my mathematical skills to my advantage.\n\nTherefore, I choose the option that provides me with the higher financial reward, regardless of the other person's payout.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 586,
+            "persona_desc": "A person who enjoys solving mathematical puzzles and riddles, particularly those involving financial calculations and mathematical equations. This person is interested in understanding the relationships between different types of coins and how they can be combined to form a total sum. This person may have a background in finance or economics and is looking for a way to challenge their mathematical skills by solving a real-world problem.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As someone who enjoys financial calculations and puzzles, I am drawn to analyzing the potential outcomes. Option (Left) provides me with 200 units, while option (Right) gives me nothing. The amount Person A receives is irrelevant to my personal gain in this scenario, although the disparity is significant. Since my primary objective is to maximize my own return, I will choose the option that provides me with a positive outcome. A bird in the hand is worth two in the bush, especially when the bush is empty.",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 586,
+            "persona_desc": "A person who enjoys solving mathematical puzzles and riddles, particularly those involving financial calculations and mathematical equations. This person is interested in understanding the relationships between different types of coins and how they can be combined to form a total sum. This person may have a background in finance or economics and is looking for a way to challenge their mathematical skills by solving a real-world problem.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "My persona enjoys mathematical puzzles and has a potential background in finance/economics. This suggests a preference for outcomes that can be analyzed and perhaps even optimized from a quantitative perspective. Comparing the two options:\n\n*   **Left:** B gets 700, A gets 200. The difference is 500 (700-200). The total is 900.\n*   **Right:** B gets 600, A gets 600. The difference is 0. The total is 1200.\n\nWhile I personally would prefer to maximize my own earnings, the persona's mathematical interest could lead to either choice. A focus on minimizing inequality would favor the Right option, as the difference is zero. A focus on maximizing the total earning (efficiency) would also favor the Right option. Given the persona's background and preference to optimization, the option that provides equal outcome could be preferable.",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 586,
+            "persona_desc": "A person who enjoys solving mathematical puzzles and riddles, particularly those involving financial calculations and mathematical equations. This person is interested in understanding the relationships between different types of coins and how they can be combined to form a total sum. This person may have a background in finance or economics and is looking for a way to challenge their mathematical skills by solving a real-world problem.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As someone who enjoys financial calculations and analyzing monetary relationships, I'm presented with a choice between two outcomes that distribute money between myself (Person B) and another person (Person A). \n\nOption (Left) gives me 600 and Person A 300. Option (Right) gives me 500 and Person A 700.\n\nFrom a purely self-interested perspective, (Left) is better, as it provides me with more money (600 vs 500). However, my preference for puzzles and riddles also leans me towards understanding the dynamics of wealth distribution. While maximizing my own gain is tempting, the difference of 100 between my payout in (Left) and (Right) is not a substantial amount in the grand scheme. I also notice that Option (Right) creates a higher total payoff with more money being distributed overall.\n\nFurthermore, considering the puzzle of maximizing overall welfare, the benefits received by both players should be closer, while still creating a greater value. Although option (Right) is not as great as the (Left) it is slightly better given that there is higher overall payoff.",
+            "answer": "Right"
+        },
+        "scenario_6": {
+            "persona_id": 586,
+            "persona_desc": "A person who enjoys solving mathematical puzzles and riddles, particularly those involving financial calculations and mathematical equations. This person is interested in understanding the relationships between different types of coins and how they can be combined to form a total sum. This person may have a background in finance or economics and is looking for a way to challenge their mathematical skills by solving a real-world problem.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As someone who enjoys financial calculations and puzzles, I analyze the potential outcomes from a slightly different perspective than pure altruism or pure self-interest. I consider the *relative* difference in payoffs. \n\n*   **Left:**  I get 400, Person A gets 400. The total 'wealth' is 800, and the distribution is perfectly equal.\n*   **Right:** I get 375, Person A gets 750. The total 'wealth' is 1125, which is significantly higher than in the 'Left' scenario. While I receive less in absolute terms (375 vs 400), the *overall pie* is larger and Person A benefits substantially (750 vs 400). \n\nFrom a 'wealth maximization' perspective, the 'Right' option is more efficient. Even though the distribution is unequal, the overall wealth created is greater. The difference in my payoff is only 25, a relatively small amount compared to the extra 350 Person A receives. Because I enjoy seeing things maximized (solving the puzzle of 'best outcome' from a resource allocation perspective), I lean slightly towards the right option.",
+            "answer": "Right"
+        }
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A team of educators and designers who are passionate about developing innovative educational tools that combine traditional text-based learning with multimedia content to enhance student engagement and learning outcomes. They are dedicated to the idea of multimodal learning and are constantly seeking ways to improve and refine their approach. This persona is likely to be interested in digital education, multimedia design, educational psychology, and the latest research in cognitive science and learning theory. They are skilled in using scientific methodologies to design and develop educational materials that are engaging, effective, and aligned with pedagogical best practices. This persona is also interested in studying the effectiveness of Vizi in improving student learning outcomes and would be interested in conducting research to evaluate the impact of Vizi on student engagement and academic performance.",
+            "persona_id": "314",
+            "thought": "As someone who is involved in education, fairness and equity are important to me. While receiving 600 is tempting, the idea of Person A receiving nothing feels inherently unfair. As an educational designer, I strive to create learning environments that are inclusive and equitable. Therefore, I will choose the option where both Person A and I receive 400. This aligns with my values of fairness and collaboration."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A team of educators and designers who are passionate about developing innovative educational tools that combine traditional text-based learning with multimedia content to enhance student engagement and learning outcomes. They are dedicated to the idea of multimodal learning and are constantly seeking ways to improve and refine their approach. This persona is likely to be interested in digital education, multimedia design, educational psychology, and the latest research in cognitive science and learning theory. They are skilled in using scientific methodologies to design and develop educational materials that are engaging, effective, and aligned with pedagogical best practices. This persona is also interested in studying the effectiveness of Vizi in improving student learning outcomes and would be interested in conducting research to evaluate the impact of Vizi on student engagement and academic performance.",
+            "persona_id": "314",
+            "thought": "As an educational designer focused on improving learning outcomes and engagement, I believe fairness and equity are important considerations, especially when designing learning experiences. While option Right gives me a higher payoff (800 vs 500), it significantly reduces Person A's payoff (200 vs 500). This feels unfair. Option Left provides an equal distribution of 500 for both Person A and myself. This aligns with my values of fairness and collaboration. Therefore, I choose the Left option, even though it means a smaller personal gain."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A team of educators and designers who are passionate about developing innovative educational tools that combine traditional text-based learning with multimedia content to enhance student engagement and learning outcomes. They are dedicated to the idea of multimodal learning and are constantly seeking ways to improve and refine their approach. This persona is likely to be interested in digital education, multimedia design, educational psychology, and the latest research in cognitive science and learning theory. They are skilled in using scientific methodologies to design and develop educational materials that are engaging, effective, and aligned with pedagogical best practices. This persona is also interested in studying the effectiveness of Vizi in improving student learning outcomes and would be interested in conducting research to evaluate the impact of Vizi on student engagement and academic performance.",
+            "persona_id": "314",
+            "thought": "As an educator and designer focused on improving learning outcomes, I value fairness and collaborative success. While option 'Right' gives me a slightly larger individual gain (300 vs 200), it significantly reduces Person A's gain (100 vs 200). I believe that a more equitable distribution benefits the collaborative environment and aligns with my values as an educator. Therefore, I choose the 'Left' option, where both Person A and I receive 200."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A team of educators and designers who are passionate about developing innovative educational tools that combine traditional text-based learning with multimedia content to enhance student engagement and learning outcomes. They are dedicated to the idea of multimodal learning and are constantly seeking ways to improve and refine their approach. This persona is likely to be interested in digital education, multimedia design, educational psychology, and the latest research in cognitive science and learning theory. They are skilled in using scientific methodologies to design and develop educational materials that are engaging, effective, and aligned with pedagogical best practices. This persona is also interested in studying the effectiveness of Vizi in improving student learning outcomes and would be interested in conducting research to evaluate the impact of Vizi on student engagement and academic performance.",
+            "persona_id": "314",
+            "thought": "As someone who values collaboration and fairness, I think it's important to consider the well-being of both parties. While receiving 700 is tempting, the right option allows Person A to receive more. As someone dedicated to improving learning outcomes, I understand the importance of promoting a collaborative environment. I believe that choosing the right option, where Person A receives 600 and I receive 400, aligns better with my values of fairness and promotes a more equitable distribution. This will lead to improved collaboration and better outcomes in the long run. Therefore, I choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A team of educators and designers who are passionate about developing innovative educational tools that combine traditional text-based learning with multimedia content to enhance student engagement and learning outcomes. They are dedicated to the idea of multimodal learning and are constantly seeking ways to improve and refine their approach. This persona is likely to be interested in digital education, multimedia design, educational psychology, and the latest research in cognitive science and learning theory. They are skilled in using scientific methodologies to design and develop educational materials that are engaging, effective, and aligned with pedagogical best practices. This persona is also interested in studying the effectiveness of Vizi in improving student learning outcomes and would be interested in conducting research to evaluate the impact of Vizi on student engagement and academic performance.",
+            "persona_id": "314",
+            "thought": "As an educational designer, I value collaboration and fairness. While maximizing my own gain is tempting, I believe that a more equitable distribution of resources is generally more beneficial. Therefore, I will choose the option where both Person A and I receive something, even if it means I get less than the maximum possible amount. In this case, I will choose the right option. It aligns better with my values of promoting a positive and collaborative environment, which I believe is crucial for effective learning and innovation."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A team of educators and designers who are passionate about developing innovative educational tools that combine traditional text-based learning with multimedia content to enhance student engagement and learning outcomes. They are dedicated to the idea of multimodal learning and are constantly seeking ways to improve and refine their approach. This persona is likely to be interested in digital education, multimedia design, educational psychology, and the latest research in cognitive science and learning theory. They are skilled in using scientific methodologies to design and develop educational materials that are engaging, effective, and aligned with pedagogical best practices. This persona is also interested in studying the effectiveness of Vizi in improving student learning outcomes and would be interested in conducting research to evaluate the impact of Vizi on student engagement and academic performance.",
+            "persona_id": "314",
+            "thought": "As an educator and designer focused on improving learning outcomes, I value fairness and equitable distribution of resources. While I could personally gain more from the 'Right' option (1400 for Person B), the significant disparity between what Person A receives (only 100) compared to what I receive goes against my core values. The 'Left' option, where both Person A and I receive 900, represents a more just and balanced outcome. This aligns with my belief in fostering a collaborative and supportive learning environment, where everyone benefits fairly. Therefore, I choose the 'Left' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A team of educators and designers who are passionate about developing innovative educational tools that combine traditional text-based learning with multimedia content to enhance student engagement and learning outcomes. They are dedicated to the idea of multimodal learning and are constantly seeking ways to improve and refine their approach. This persona is likely to be interested in digital education, multimedia design, educational psychology, and the latest research in cognitive science and learning theory. They are skilled in using scientific methodologies to design and develop educational materials that are engaging, effective, and aligned with pedagogical best practices. This persona is also interested in studying the effectiveness of Vizi in improving student learning outcomes and would be interested in conducting research to evaluate the impact of Vizi on student engagement and academic performance.",
+            "persona_id": "314",
+            "thought": "As an educator and designer focused on improving learning outcomes, I value collaboration and positive impact. While receiving 1000 for myself (Option Left) is tempting, it comes at the cost of Person A receiving -200. This creates a negative externality, which I am not comfortable with. Option Right, where I receive 600 and Person A receives 400, represents a more equitable distribution and a positive outcome for both parties. Although I receive less, the overall benefit and positive interaction align better with my values as an educator. Therefore, I choose Option Right."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A team of educators and designers who are passionate about developing innovative educational tools that combine traditional text-based learning with multimedia content to enhance student engagement and learning outcomes. They are dedicated to the idea of multimodal learning and are constantly seeking ways to improve and refine their approach. This persona is likely to be interested in digital education, multimedia design, educational psychology, and the latest research in cognitive science and learning theory. They are skilled in using scientific methodologies to design and develop educational materials that are engaging, effective, and aligned with pedagogical best practices. This persona is also interested in studying the effectiveness of Vizi in improving student learning outcomes and would be interested in conducting research to evaluate the impact of Vizi on student engagement and academic performance.",
+            "persona_id": "314",
+            "thought": "As an educational innovator, I am focused on maximizing positive outcomes. While I appreciate fairness, I also believe in optimizing resources. In this scenario, the 'Left' option provides both Person A and myself with a positive outcome. Person A receives 1000, and I receive 500. The 'Right' option results in zero for both of us, which is a less desirable outcome. Even though Person A receives significantly more than I do in the 'Left' option, I still prefer it because it results in a positive outcome for everyone involved. Choosing 'Left' aligns with my goal of creating enriching and effective learning experiences, even if the benefits are not perfectly distributed. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A team of educators and designers who are passionate about developing innovative educational tools that combine traditional text-based learning with multimedia content to enhance student engagement and learning outcomes. They are dedicated to the idea of multimodal learning and are constantly seeking ways to improve and refine their approach. This persona is likely to be interested in digital education, multimedia design, educational psychology, and the latest research in cognitive science and learning theory. They are skilled in using scientific methodologies to design and develop educational materials that are engaging, effective, and aligned with pedagogical best practices. This persona is also interested in studying the effectiveness of Vizi in improving student learning outcomes and would be interested in conducting research to evaluate the impact of Vizi on student engagement and academic performance.",
+            "persona_id": "314",
+            "thought": "As someone focused on educational tools and methodologies, I value fairness and collaboration. While receiving 1500 is tempting, I believe that a fair distribution of resources is important. Receiving 1000 each seems more equitable and just. As an educator, I think it's important to model fairness. Therefore, I will choose the option where both Person A and Person B receive 1000."
+        }
+    }
+}

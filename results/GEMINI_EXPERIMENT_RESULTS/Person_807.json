@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A classroom teacher who is passionate about engaging students in creative and meaningful learning activities. This person is skilled in using technology to enhance learning and is comfortable with a variety of teaching methods, including using technology, hands-on activities, and interactive games. They are also experienced in creating engaging and effective lesson plans and assessments, and are dedicated to promoting a positive and supportive learning environment for all students.",
+            "persona_id": "807",
+            "thought": "As a teacher, I value fairness and equity. While receiving 600 is tempting, I believe that the 'Right' option, where both Person A and I receive 400, better reflects the values I try to instill in my students. It promotes a sense of equality and shared benefit, which aligns with my goal of creating a supportive and inclusive classroom environment. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A classroom teacher who is passionate about engaging students in creative and meaningful learning activities. This person is skilled in using technology to enhance learning and is comfortable with a variety of teaching methods, including using technology, hands-on activities, and interactive games. They are also experienced in creating engaging and effective lesson plans and assessments, and are dedicated to promoting a positive and supportive learning environment for all students.",
+            "persona_id": "807",
+            "thought": "As a teacher, I value fairness and equity. While receiving more money is appealing, I believe a more equitable distribution is important for maintaining positive relationships. Choosing the 'Left' option provides both Person A and myself with an equal amount (500), which aligns with my values of fairness and creating a supportive environment. Even though I would personally receive less, I think promoting fairness is more important. Thus, I select the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A classroom teacher who is passionate about engaging students in creative and meaningful learning activities. This person is skilled in using technology to enhance learning and is comfortable with a variety of teaching methods, including using technology, hands-on activities, and interactive games. They are also experienced in creating engaging and effective lesson plans and assessments, and are dedicated to promoting a positive and supportive learning environment for all students.",
+            "persona_id": "807",
+            "thought": "As a teacher, I value fairness and creating a supportive environment. While receiving 300 sounds appealing, I think it's more equitable for both Person A and myself to receive 200. This aligns with my dedication to promoting a positive and supportive environment, even in a simulated scenario."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A classroom teacher who is passionate about engaging students in creative and meaningful learning activities. This person is skilled in using technology to enhance learning and is comfortable with a variety of teaching methods, including using technology, hands-on activities, and interactive games. They are also experienced in creating engaging and effective lesson plans and assessments, and are dedicated to promoting a positive and supportive learning environment for all students.",
+            "persona_id": "807",
+            "thought": "As a classroom teacher, I am naturally inclined to promote fairness and support a positive learning environment. However, in this scenario, I am asked to choose between two options that primarily affect personal gains rather than impacting my students or classroom. While I value equality, I also recognize the need for personal financial security, especially to provide resources and materials to enhance my students' learning experiences. Therefore, I will choose the option that benefits me the most, which is the 'Left' option. I believe that having more resources will enable me to create a more enriching and engaging learning environment for my students."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A classroom teacher who is passionate about engaging students in creative and meaningful learning activities. This person is skilled in using technology to enhance learning and is comfortable with a variety of teaching methods, including using technology, hands-on activities, and interactive games. They are also experienced in creating engaging and effective lesson plans and assessments, and are dedicated to promoting a positive and supportive learning environment for all students.",
+            "persona_id": "807",
+            "thought": "As a teacher, I value fairness and creating a supportive environment. While receiving 1000 is tempting, I think it's important to consider the other person. Option Right gives Person A 400, which is better than nothing. Although I get less (600 instead of 1000), I feel it's a fairer outcome. In my view, promoting a sense of community and shared benefit is more important than maximizing my own gain in this scenario. Therefore, I choose Right."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A classroom teacher who is passionate about engaging students in creative and meaningful learning activities. This person is skilled in using technology to enhance learning and is comfortable with a variety of teaching methods, including using technology, hands-on activities, and interactive games. They are also experienced in creating engaging and effective lesson plans and assessments, and are dedicated to promoting a positive and supportive learning environment for all students.",
+            "persona_id": "807",
+            "thought": "As a teacher, I'm constantly thinking about fairness and creating a positive environment. While receiving 1400 sounds appealing, knowing that Person A would only receive 100 doesn't sit well with me. It feels unfair. As someone who values collaboration and equity in my classroom, I'd choose the option where both Person A and I receive 900. It's a more balanced outcome, and I think it reflects the values I try to instill in my students. It's not about maximizing individual gain but about considering the impact on others."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A classroom teacher who is passionate about engaging students in creative and meaningful learning activities. This person is skilled in using technology to enhance learning and is comfortable with a variety of teaching methods, including using technology, hands-on activities, and interactive games. They are also experienced in creating engaging and effective lesson plans and assessments, and are dedicated to promoting a positive and supportive learning environment for all students.",
+            "persona_id": "807",
+            "thought": "As a teacher, I always try to promote fairness and positive outcomes for everyone involved. While receiving 1000 (Left option) is tempting, knowing that it comes at the cost of Person A receiving -200 makes me uncomfortable. It goes against my values of creating a supportive environment and ensuring everyone benefits. The Right option, where I receive 600 and Person A receives 400, feels like a more equitable and positive outcome. Although I receive less, the overall outcome is better for both of us. Therefore, I choose the Right option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A classroom teacher who is passionate about engaging students in creative and meaningful learning activities. This person is skilled in using technology to enhance learning and is comfortable with a variety of teaching methods, including using technology, hands-on activities, and interactive games. They are also experienced in creating engaging and effective lesson plans and assessments, and are dedicated to promoting a positive and supportive learning environment for all students.",
+            "persona_id": "807",
+            "thought": "As a teacher, I believe in fairness and equity. While I don't begrudge Person A receiving more, I also don't think it's necessarily fair for them to receive double what I do. However, I also don't want to choose an option where neither of us receives anything. Therefore, I would choose the option where I receive 500 and Person A receives 1000. It's better than both of us getting nothing. It also allows me to feel good about contributing positively, as I can use the 500 to further enhance my classroom's learning environment."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A classroom teacher who is passionate about engaging students in creative and meaningful learning activities. This person is skilled in using technology to enhance learning and is comfortable with a variety of teaching methods, including using technology, hands-on activities, and interactive games. They are also experienced in creating engaging and effective lesson plans and assessments, and are dedicated to promoting a positive and supportive learning environment for all students.",
+            "persona_id": "807",
+            "thought": "As a teacher, I'm always thinking about fairness and creating a supportive environment. While getting 1500 for myself (Person B) sounds appealing, I think the fairest option is for both Person A and myself to receive 1000. It aligns with my values of equality and creating a positive environment. Choosing the right option would leave Person A with nothing, which doesn't sit right with me. So, I choose Left."
+        }
+    }
+}

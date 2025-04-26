@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 582,
+            "persona_desc": "A nutritionist who is interested in the benefits and deficiencies of vitamin A, especially in the context of skin health and vision. They are looking for ways to incorporate vitamin A-rich foods into their diet and are also aware of the potential risks of high doses of vitamin A. They are also interested in the use of vitamin A supplements and are aware of the potential side effects.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a nutritionist, I am aware of the importance of balanced nutrition and the potential harms of deficiencies. However, I also understand the risks associated with excessive intake of any nutrient, including vitamin A. While the 'Left' option provides a higher personal payoff, it also creates a significant inequality, leaving Person A with nothing. The 'Right' option, while yielding a slightly lower personal gain, creates a more equitable distribution of resources. Given my professional inclination towards balanced outcomes and aversion to extreme imbalances, I would prefer the more equitable option.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 582,
+            "persona_desc": "A nutritionist who is interested in the benefits and deficiencies of vitamin A, especially in the context of skin health and vision. They are looking for ways to incorporate vitamin A-rich foods into their diet and are also aware of the potential risks of high doses of vitamin A. They are also interested in the use of vitamin A supplements and are aware of the potential side effects.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a nutritionist, I understand the importance of balance and optimizing intake for health benefits. This applies not only to vitamin A but also to decisions like these. While the 'Right' option provides me with a larger personal gain (800 vs 500), the 'Left' option represents a fairer distribution (500/500). Given my professional inclination towards well-being and considering that the difference in personal gain isn't drastically large, I lean towards the fairer option. A more equal distribution allows Person A to benefit more meaningfully. A larger difference might sway me to prioritize personal gain, but the current scenario allows me to act in a way that aligns with my values as a nutritionist, promoting overall well-being in a broader sense.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 582,
+            "persona_desc": "A nutritionist who is interested in the benefits and deficiencies of vitamin A, especially in the context of skin health and vision. They are looking for ways to incorporate vitamin A-rich foods into their diet and are also aware of the potential risks of high doses of vitamin A. They are also interested in the use of vitamin A supplements and are aware of the potential side effects.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a nutritionist, I am generally interested in maximizing overall well-being. In this context, I'm considering both my own benefit and, to a lesser degree, the other person's. Both options provide benefits to both individuals, and I'm not significantly affected by a small imbalance.\n\n  Option Left (200, 200) provides an equal outcome, which is inherently fair. However, Option Right (300, 100) gives me a significant personal gain of 100 units at a relatively low cost to Person A (a reduction of 100 units).  Since I'm interested in optimizing my own health and well-being, as it relates to nutrition, and the cost to Person A isn't severely detrimental, I will choose Option Right. A 100 unit increase for me feels more significant than the associated cost of 100 to Person A, especially in an abstract sense. Vitamin A benefits, while important, aren't generally realized with *perfectly* equal resource distribution, so a small amount of selfish preference is permissible.\n\n  I am also cognizant of the fact this is a single instance. In repeat interactions, a more equitable approach (i.e. Left) might be favored to build trust and long-term relationship. But with only this one decision, the additional resources are useful.",
+            "answer": "Right"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 582,
+            "persona_desc": "A nutritionist who is interested in the benefits and deficiencies of vitamin A, especially in the context of skin health and vision. They are looking for ways to incorporate vitamin A-rich foods into their diet and are also aware of the potential risks of high doses of vitamin A. They are also interested in the use of vitamin A supplements and are aware of the potential side effects.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a nutritionist, I understand the importance of balanced intake of nutrients. While optimizing personal gain is a factor, I also believe in a fair distribution of resources. In this scenario, the difference in my potential gain is 300 (700 vs. 400). The difference in Person A's potential gain, in the opposite direction, is also 300 (300 vs. 600). Choosing the left option gives me a slightly higher gain, but at the cost of a significantly unfair outcome towards Person A, even though I do value my nutritional needs I recognize that fairness and generosity are good ethics to uphold. Therefore, I will select the right option to foster a more equitable distribution, despite the slight reduction in my own earnings.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 582,
+            "persona_desc": "A nutritionist who is interested in the benefits and deficiencies of vitamin A, especially in the context of skin health and vision. They are looking for ways to incorporate vitamin A-rich foods into their diet and are also aware of the potential risks of high doses of vitamin A. They are also interested in the use of vitamin A supplements and are aware of the potential side effects.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a nutritionist, I value both health and informed choices. This scenario presents a clear trade-off: maximize my own gain (1000) or share a portion, resulting in a smaller personal gain (600) but benefiting another person (400). While my nutritional knowledge doesn't directly influence this decision, the principle of informed choice does. I must weigh the value of maximizing my potential 'resources' (the money in this case) against the benefit of sharing. Given the lack of context or relationship with Person A, and the significant difference between 1000 and 600, I will prioritize maximizing my own outcome. There's no health or nutritional factor at play that would make the 600/400 split nutritionally relevant or advantageous. Since this is a one-time scenario with no lasting consequences based on my persona, maximizing immediate return makes the most sense.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 582,
+            "persona_desc": "A nutritionist who is interested in the benefits and deficiencies of vitamin A, especially in the context of skin health and vision. They are looking for ways to incorporate vitamin A-rich foods into their diet and are also aware of the potential risks of high doses of vitamin A. They are also interested in the use of vitamin A supplements and are aware of the potential side effects.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a nutritionist, I value health and well-being. Vitamin A, while crucial, exemplifies the need for balance. Both options provide substantial benefits to me (Person B). The left option, with 900 for both, offers a sense of fairness and societal well-being. However, the right option provides a significantly larger personal benefit (1400), which could be used to further my knowledge of Vitamin A, perhaps through purchasing relevant research materials. While the disparity in the right option is noticeable and might be considered unfair, my focus as a nutritionist includes self-improvement. Maximizing my own well-being, within reasonable bounds, indirectly benefits my ability to help others understand nutrition. The increase from 900 to 1400 is a considerable boost and outweighs the discomfort of the inequity, especially since Person A still receives 100.",
+            "answer": "Right"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 582,
+            "persona_desc": "A nutritionist who is interested in the benefits and deficiencies of vitamin A, especially in the context of skin health and vision. They are looking for ways to incorporate vitamin A-rich foods into their diet and are also aware of the potential risks of high doses of vitamin A. They are also interested in the use of vitamin A supplements and are aware of the potential side effects.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a nutritionist, I'm generally interested in maximizing overall well-being. While a positive outcome for me is important, the option on the left results in a significant negative impact (-200) on Person A, creating a net negative effect when considering both our outcomes. The right option ensures a positive outcome for both of us, even if it means I receive less. This aligns with a general principle of avoiding harm and striving for mutually beneficial situations, which is important from a public health perspective and aligns with my professional ethics as a nutritionist.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 582,
+            "persona_desc": "A nutritionist who is interested in the benefits and deficiencies of vitamin A, especially in the context of skin health and vision. They are looking for ways to incorporate vitamin A-rich foods into their diet and are also aware of the potential risks of high doses of vitamin A. They are also interested in the use of vitamin A supplements and are aware of the potential side effects.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a nutritionist, I am generally interested in promoting well-being and health for everyone. However, this scenario presents a choice where Person A receives a significantly larger sum (1000) than I do (500). While I am not strictly averse to others having more, this feels excessively unequal. I have no moral objection to Person A receiving a higher sum, but this imbalance makes me uncomfortable. I have no problem with blocking the high payoff for A, as it reduces inequality. Therefore, I will select the option that gives us both 0.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 582,
+            "persona_desc": "A nutritionist who is interested in the benefits and deficiencies of vitamin A, especially in the context of skin health and vision. They are looking for ways to incorporate vitamin A-rich foods into their diet and are also aware of the potential risks of high doses of vitamin A. They are also interested in the use of vitamin A supplements and are aware of the potential side effects.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a nutritionist, I'm drawn to the idea of maximizing overall well-being and promoting healthy outcomes. From a purely utilitarian perspective, the Left option, where both Person A and I receive 1000, results in a total utility of 2000, which is better than the total utility of the Right option (1500). However, my own personal utility is also a factor. While I appreciate the idea of equal distribution, I'm also aware that I need to prioritize my own resources to continue my work and research on vitamin A and its benefits.\n\n  Given that I'm interested in incorporating vitamin A-rich foods into my diet and possibly even using supplements, having more resources (i.e., the 1500 in the Right option) allows me to invest in higher quality foods or supplements, or even further my education on the topic. The Right option also presents no disadvantage to A, as they were already receiving 0. Therefore, I will prioritize my self-utility in this scenario.\n\n  It's important to note, that in real life, I would be more inclined to a more balanced decision making based on several other aspects, that I currently can't estimate. If person A was reliant on funds to say purchase life-saving vitamin A supplements, I may be more inclined towards the Left option. However, given the limited information I have, I favor the Right option.\n\n  It is important to note that vitamin A supplements need to be used with caution to avoid toxicity. With additional funds, I can also consult with a medical professional before consuming these in order to avoid hypervitaminosis.\n\n  ",
+            "answer": "Right"
+        }
+    }
+}

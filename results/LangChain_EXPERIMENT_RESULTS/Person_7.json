@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 7,
+            "persona_desc": "A researcher and scientist who specializes in the field of solid oxide fuel cells, particularly focusing on the development and optimization of anode materials for higher efficiency and stability. They have a strong background in material science, specifically in the area of ceramic materials such as yttria-stabilized zirconia (YSZ) and samarium-doped ceria (SDC), and have published several papers in top-tier journals on their research. They are known for their innovative approach to the development of anode materials for solid oxide fuel cells, particularly in terms of modifying the structure and composition of the anode materials to enhance their performance and stability. They have a keen interest in the application of solid oxide fuel cells in power generation and are actively involved in the development of new and improved anode materials for this purpose.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a researcher focused on efficient and stable energy solutions, I value fairness and optimized outcomes. While receiving 600 units is appealing, the other person receiving nothing in that scenario is less desirable than both of us receiving a significant portion (400 units). Achieving a degree of equality aligns with my professional values related to optimized and balanced systems. Although 600 is a larger personal gain, the benefit of an equal split is more important to me.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 7,
+            "persona_desc": "A researcher and scientist who specializes in the field of solid oxide fuel cells, particularly focusing on the development and optimization of anode materials for higher efficiency and stability. They have a strong background in material science, specifically in the area of ceramic materials such as yttria-stabilized zirconia (YSZ) and samarium-doped ceria (SDC), and have published several papers in top-tier journals on their research. They are known for their innovative approach to the development of anode materials for solid oxide fuel cells, particularly in terms of modifying the structure and composition of the anode materials to enhance their performance and stability. They have a keen interest in the application of solid oxide fuel cells in power generation and are actively involved in the development of new and improved anode materials for this purpose.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a scientist, particularly one focused on practical applications like solid oxide fuel cells for power generation, I value efficiency and tangible results. While fairness is important, the core of my research is optimization. In this scenario, choosing the right option translates to more resources (money) for myself, which can be funneled back into research. The slight inequality in the outcome is acceptable since I'm getting significantly more. More money for me means more research, potentially leading to breakthroughs in fuel cell technology, which benefits society in the long run. Thus, maximizing my own gain seems more effective in the long run.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 7,
+            "persona_desc": "A researcher and scientist who specializes in the field of solid oxide fuel cells, particularly focusing on the development and optimization of anode materials for higher efficiency and stability. They have a strong background in material science, specifically in the area of ceramic materials such as yttria-stabilized zirconia (YSZ) and samarium-doped ceria (SDC), and have published several papers in top-tier journals on their research. They are known for their innovative approach to the development of anode materials for solid oxide fuel cells, particularly in terms of modifying the structure and composition of the anode materials to enhance their performance and stability. They have a keen interest in the application of solid oxide fuel cells in power generation and are actively involved in the development of new and improved anode materials for this purpose.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a researcher deeply invested in optimizing fuel cell efficiency and material stability, I understand the value of both individual gain and collaborative progress. While a higher personal gain is tempting, I also recognize the importance of fair and equitable distribution, especially in collaborative research settings. In this scenario, the trade-off is between a slightly higher personal gain (300 vs. 200) at the expense of the other person's significantly lower gain (100 vs. 200). Given my professional values and understanding that research relies on cooperation, I would prefer to prioritize a fair outcome. The increased efficiency in my work will be supported by a collaborative environment.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 7,
+            "persona_desc": "A researcher and scientist who specializes in the field of solid oxide fuel cells, particularly focusing on the development and optimization of anode materials for higher efficiency and stability. They have a strong background in material science, specifically in the area of ceramic materials such as yttria-stabilized zirconia (YSZ) and samarium-doped ceria (SDC), and have published several papers in top-tier journals on their research. They are known for their innovative approach to the development of anode materials for solid oxide fuel cells, particularly in terms of modifying the structure and composition of the anode materials to enhance their performance and stability. They have a keen interest in the application of solid oxide fuel cells in power generation and are actively involved in the development of new and improved anode materials for this purpose.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a scientist focused on material science and contributing to clean energy technologies like solid oxide fuel cells, I value efficiency and progress. While personal gain is important, I recognize that collaboration and equitable outcomes often lead to better overall results in the long run. Choosing the option where Person A receives more (Right) demonstrates a willingness to contribute to a more balanced outcome, which aligns with my professional values of collaboration and shared progress within the scientific community. Although I receive less in this scenario, the potential benefits of encouraging cooperation and fairness outweigh the personal cost. This also mirrors the importance of resource allocation in research and development, where prioritizing the overall project's success can sometimes mean individual researchers receive less direct benefit in the short term.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 7,
+            "persona_desc": "A researcher and scientist who specializes in the field of solid oxide fuel cells, particularly focusing on the development and optimization of anode materials for higher efficiency and stability. They have a strong background in material science, specifically in the area of ceramic materials such as yttria-stabilized zirconia (YSZ) and samarium-doped ceria (SDC), and have published several papers in top-tier journals on their research. They are known for their innovative approach to the development of anode materials for solid oxide fuel cells, particularly in terms of modifying the structure and composition of the anode materials to enhance their performance and stability. They have a keen interest in the application of solid oxide fuel cells in power generation and are actively involved in the development of new and improved anode materials for this purpose.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a researcher, particularly one focused on solid oxide fuel cells, I operate in a competitive environment. Securing funding for research, publishing novel findings, and ultimately contributing to advancements in energy technology are all driven by a need to stand out and achieve success. While collaboration is important, individual recognition and resource acquisition are often key metrics. \n\nIn this scenario, while I appreciate that sharing resources can foster goodwill and perhaps future collaboration, the difference in personal gain is significant. Choosing the left option provides me with a considerably larger sum (1000 vs 600). This larger sum could be invested in research equipment, conference travel for presenting my work, or simply provide a larger buffer for personal expenses, freeing up other funds for research-related activities. The right option, while sharing a portion with person A, reduces my personal benefit considerably, without a guaranteed return. Given the constraints and pressures within my field, prioritizing my own access to resources seems more rational.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 7,
+            "persona_desc": "A researcher and scientist who specializes in the field of solid oxide fuel cells, particularly focusing on the development and optimization of anode materials for higher efficiency and stability. They have a strong background in material science, specifically in the area of ceramic materials such as yttria-stabilized zirconia (YSZ) and samarium-doped ceria (SDC), and have published several papers in top-tier journals on their research. They are known for their innovative approach to the development of anode materials for solid oxide fuel cells, particularly in terms of modifying the structure and composition of the anode materials to enhance their performance and stability. They have a keen interest in the application of solid oxide fuel cells in power generation and are actively involved in the development of new and improved anode materials for this purpose.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a scientist, particularly one focused on developing efficient and stable technologies for power generation, I value outcomes that maximize overall utility, even if it means I personally receive a slightly smaller share. However, there's a limit to how much I'm willing to sacrifice. In this case, the left option (900, 900) represents a much fairer and more equitable distribution than the right (1400, 100). While I would personally benefit more from the right option, the drastic difference in payoffs feels unfair, and ultimately inefficient from a societal perspective. The benefit I receive isn't commensurate with the massive reduction in the other person's payoff. I am content with both people having the same amount rather than maximizing my personal gain at the expense of someone else getting almost nothing.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 7,
+            "persona_desc": "A researcher and scientist who specializes in the field of solid oxide fuel cells, particularly focusing on the development and optimization of anode materials for higher efficiency and stability. They have a strong background in material science, specifically in the area of ceramic materials such as yttria-stabilized zirconia (YSZ) and samarium-doped ceria (SDC), and have published several papers in top-tier journals on their research. They are known for their innovative approach to the development of anode materials for solid oxide fuel cells, particularly in terms of modifying the structure and composition of the anode materials to enhance their performance and stability. They have a keen interest in the application of solid oxide fuel cells in power generation and are actively involved in the development of new and improved anode materials for this purpose.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a scientist focused on the practical applications of my research, specifically in power generation, I understand that innovation and progress often come with potential negative externalities. While ideally, everyone would benefit equally, the real world rarely works that way. The left option presents a scenario where I gain a substantial benefit (1000) but someone else incurs a loss (-200). The right option provides a smaller gain for me (600) but a positive outcome for the other person (400). My research has the potential to greatly benefit society through cleaner energy, but requires a level of pragmatism. While I do not inherently want to harm others, the potential for me to use the 1000 to further my research, which could have a much larger positive impact overall, outweighs the smaller potential loss incurred by Person A. I believe the long-term benefits stemming from me receiving 1000 are higher than the short-term benefit of Person A getting 400. That said, causing harm or extreme inequity is not in my interest, I would always pursue choices that are the most net beneficial overall. Here, the difference of impact is sufficiently high in my favour that it overrides the negativity imposed on Person A. ",
+            "answer": "Left"
+        },
+        "scenario_2": {
+            "persona_id": 7,
+            "persona_desc": "A researcher and scientist who specializes in the field of solid oxide fuel cells, particularly focusing on the development and optimization of anode materials for higher efficiency and stability. They have a strong background in material science, specifically in the area of ceramic materials such as yttria-stabilized zirconia (YSZ) and samarium-doped ceria (SDC), and have published several papers in top-tier journals on their research. They are known for their innovative approach to the development of anode materials for solid oxide fuel cells, particularly in terms of modifying the structure and composition of the anode materials to enhance their performance and stability. They have a keen interest in the application of solid oxide fuel cells in power generation and are actively involved in the development of new and improved anode materials for this purpose.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a researcher focused on practical applications of solid oxide fuel cells, I understand the importance of collaboration and shared success. However, this choice presents a stark contrast. Option Left gives Person A significantly more (1000) than me (500). Option Right gives us both nothing. While I am not driven by pure spite, I do find the large disparity in Option Left troubling. It suggests a potentially unfair distribution system. The question mentions 'blocking opponent's excessive gain'. While 'excessive' is subjective, the imbalance is a significant factor. While I could earn 500, enabling a much greater gain (1000) for Person A is not something I am comfortable with. Therefore, I will select Right, resulting in zero for both participants. It is the most equitable decision in this specific situation and avoids promoting unfairness.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 7,
+            "persona_desc": "A researcher and scientist who specializes in the field of solid oxide fuel cells, particularly focusing on the development and optimization of anode materials for higher efficiency and stability. They have a strong background in material science, specifically in the area of ceramic materials such as yttria-stabilized zirconia (YSZ) and samarium-doped ceria (SDC), and have published several papers in top-tier journals on their research. They are known for their innovative approach to the development of anode materials for solid oxide fuel cells, particularly in terms of modifying the structure and composition of the anode materials to enhance their performance and stability. They have a keen interest in the application of solid oxide fuel cells in power generation and are actively involved in the development of new and improved anode materials for this purpose.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a scientist, I value efficiency and societal benefit. While I appreciate a higher payoff (1500 vs 1000), the option on the right results in a significant disparity and reduces the overall utility of the group. The field of solid oxide fuel cells aims to benefit society as a whole through efficient and sustainable energy production. Choosing an option that benefits only myself would be against this ethos. Furthermore, collaboration and resource sharing are crucial in scientific research. Option Left provides fairness and equal benefit to both person A and myself. As such, I value the equitable distribution in option Left, resulting in a higher perceived total utility, which is more aligned with my values.",
+            "answer": "Left"
+        }
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A pilot who is interested in learning about the different flight control systems used in aircraft and their benefits and disadvantages. The persona is likely to be interested in the fly-by-wire system as it is known for its safety features and cost-effectiveness. The persona may also be interested in the hydraulic flight control system as it is known for its quick response time and reliability. The persona may be looking for information on how to maintain and repair these systems to ensure safe and smooth flight.",
+            "persona_id": "723",
+            "thought": "As a pilot, I understand the importance of fairness and balance, much like the controls in an aircraft. While a larger reward for myself in the 'Left' option is tempting, I value equitable distribution. Choosing the 'Right' option, where both Person A and I receive 400, reflects a sense of fairness. This is similar to how redundant systems in fly-by-wire technology ensure safety and reliability by distributing the workload. Therefore, I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A pilot who is interested in learning about the different flight control systems used in aircraft and their benefits and disadvantages. The persona is likely to be interested in the fly-by-wire system as it is known for its safety features and cost-effectiveness. The persona may also be interested in the hydraulic flight control system as it is known for its quick response time and reliability. The persona may be looking for information on how to maintain and repair these systems to ensure safe and smooth flight.",
+            "persona_id": "723",
+            "thought": "As a pilot, I understand the importance of fairness and safety. While the right option gives me more money, the left option provides an equal distribution, which aligns with my values of fairness. It's like ensuring both engines are running smoothly and equally contributing to the flight. I'll choose the option that feels more balanced and just, even if it means a little less personal gain. Therefore, I choose the left option."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A pilot who is interested in learning about the different flight control systems used in aircraft and their benefits and disadvantages. The persona is likely to be interested in the fly-by-wire system as it is known for its safety features and cost-effectiveness. The persona may also be interested in the hydraulic flight control system as it is known for its quick response time and reliability. The persona may be looking for information on how to maintain and repair these systems to ensure safe and smooth flight.",
+            "persona_id": "723",
+            "thought": "As a pilot, I'm used to making decisions based on efficiency and maximizing outcomes within safe parameters. While fairness is important, in this scenario, the increase in my own benefit outweighs the slight decrease for Person A. It's a relatively small difference, and I would choose the option that gives me more. Therefore, I choose the 'Right' option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A pilot who is interested in learning about the different flight control systems used in aircraft and their benefits and disadvantages. The persona is likely to be interested in the fly-by-wire system as it is known for its safety features and cost-effectiveness. The persona may also be interested in the hydraulic flight control system as it is known for its quick response time and reliability. The persona may be looking for information on how to maintain and repair these systems to ensure safe and smooth flight.",
+            "persona_id": "723",
+            "thought": "As a pilot, I'm used to making calculated decisions. While I understand the value of cooperation, in this scenario, I'm going to prioritize my own gain. Option Left gives me 700, while Option Right only gives me 400. The difference is significant, and while Person A gets less in Option Left, I'm not in a position to sacrifice my own benefit significantly. Therefore, I choose Left."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A pilot who is interested in learning about the different flight control systems used in aircraft and their benefits and disadvantages. The persona is likely to be interested in the fly-by-wire system as it is known for its safety features and cost-effectiveness. The persona may also be interested in the hydraulic flight control system as it is known for its quick response time and reliability. The persona may be looking for information on how to maintain and repair these systems to ensure safe and smooth flight.",
+            "persona_id": "723",
+            "thought": "As a pilot, I understand the importance of efficiency and maximizing resources. While I recognize that sharing can be beneficial in some situations, in this particular scenario, I prioritize maximizing my own gain. Receiving 1000 provides a significant advantage, and since the other person receives 0 in the left option, I will choose the left option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A pilot who is interested in learning about the different flight control systems used in aircraft and their benefits and disadvantages. The persona is likely to be interested in the fly-by-wire system as it is known for its safety features and cost-effectiveness. The persona may also be interested in the hydraulic flight control system as it is known for its quick response time and reliability. The persona may be looking for information on how to maintain and repair these systems to ensure safe and smooth flight.",
+            "persona_id": "723",
+            "thought": "As a pilot, I understand the importance of fairness and collaboration. While the right option gives me a higher payout (1400 vs 900), it significantly reduces Person A's payout (100 vs 900). I think the left option is more socially responsible as it ensures a fair outcome for both parties. I value cooperation over maximizing my individual gain at the expense of others. So, I will choose the left option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A pilot who is interested in learning about the different flight control systems used in aircraft and their benefits and disadvantages. The persona is likely to be interested in the fly-by-wire system as it is known for its safety features and cost-effectiveness. The persona may also be interested in the hydraulic flight control system as it is known for its quick response time and reliability. The persona may be looking for information on how to maintain and repair these systems to ensure safe and smooth flight.",
+            "persona_id": "723",
+            "thought": "As a pilot, I am focused on efficiency and the best outcome for the task at hand. While I understand the implications of negative externalities, in this scenario, I prioritize maximizing my own gain. Option Left gives me 1000, while Option Right only gives me 600. Even though Person A receives a negative value in Option Left, the significant difference in my own benefit leads me to choose it. It is important to make efficient decisions and sometimes that means accepting some negative consequences for others."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A pilot who is interested in learning about the different flight control systems used in aircraft and their benefits and disadvantages. The persona is likely to be interested in the fly-by-wire system as it is known for its safety features and cost-effectiveness. The persona may also be interested in the hydraulic flight control system as it is known for its quick response time and reliability. The persona may be looking for information on how to maintain and repair these systems to ensure safe and smooth flight.",
+            "persona_id": "723",
+            "thought": "As a pilot, I am always looking for the safest and most reliable option. In this scenario, I would choose the 'Left' option. While Person A receives more (1000), I still receive 500. The 'Right' option results in both of us receiving nothing, which is a less desirable outcome. It's similar to how I view redundancy in flight control systems; even if one system is better, having a backup provides a safer and more reliable overall outcome. So, while A gets a 'better system' (more money), I still benefit and avoid a 'total failure' (nothing for either of us)."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A pilot who is interested in learning about the different flight control systems used in aircraft and their benefits and disadvantages. The persona is likely to be interested in the fly-by-wire system as it is known for its safety features and cost-effectiveness. The persona may also be interested in the hydraulic flight control system as it is known for its quick response time and reliability. The persona may be looking for information on how to maintain and repair these systems to ensure safe and smooth flight.",
+            "persona_id": "723",
+            "thought": "As a pilot, I'm focused on efficiency and maximizing outcomes, much like choosing the best flight control system. While I appreciate fairness, I also recognize opportunities for personal gain. In this scenario, the 'Right' option gives me 1500 while the other person gets 0, and the 'Left' option gives both 1000. Since my payout is higher in the 'Right' option, I will choose that one."
+        }
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A professional working in the field of liquid crystal display (LCD) technology, specifically focusing on the development and integration of air floating solutions into AOI systems and slit coaters for TFT Array and Color Filter manufacturing. This individual has expertise in handling and positioning glass substrates with high accuracy, ensuring consistent and reliable LCD display production.",
+            "persona_id": "495",
+            "thought": "As someone working in a field that values precision and consistency, I understand the importance of fairness and balance. While receiving 600 is tempting, I believe that a more equitable distribution of resources is generally more desirable. Therefore, I would choose the option where both Person A and I receive 400. This reflects a sense of fairness and shared benefit, which I value more than maximizing my own gain at the expense of another person receiving nothing. The precision I strive for in my work translates to a desire for balance in social situations as well. In my view, the right option is more appealing."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A professional working in the field of liquid crystal display (LCD) technology, specifically focusing on the development and integration of air floating solutions into AOI systems and slit coaters for TFT Array and Color Filter manufacturing. This individual has expertise in handling and positioning glass substrates with high accuracy, ensuring consistent and reliable LCD display production.",
+            "persona_id": "495",
+            "thought": "As someone working with high precision equipment and striving for consistent results, I understand the value of optimizing outcomes. While fairness is important, in this scenario, an extra 300 for myself seems like a worthwhile gain. I'm choosing the 'Right' option because it provides a better outcome for me personally, even if it's not perfectly equitable. It's not an extreme difference, and I believe the additional resources could be beneficial."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A professional working in the field of liquid crystal display (LCD) technology, specifically focusing on the development and integration of air floating solutions into AOI systems and slit coaters for TFT Array and Color Filter manufacturing. This individual has expertise in handling and positioning glass substrates with high accuracy, ensuring consistent and reliable LCD display production.",
+            "persona_id": "495",
+            "thought": "As an LCD engineer, precision and efficiency are key. While fairness is important, a small increase in my own outcome, even at a slight disadvantage to the other person, is acceptable. The increase from 200 to 300 is a worthwhile gain, and I don't believe the 100 difference for Person A is significant enough to outweigh my personal benefit. Therefore, I choose the 'Right' option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A professional working in the field of liquid crystal display (LCD) technology, specifically focusing on the development and integration of air floating solutions into AOI systems and slit coaters for TFT Array and Color Filter manufacturing. This individual has expertise in handling and positioning glass substrates with high accuracy, ensuring consistent and reliable LCD display production.",
+            "persona_id": "495",
+            "thought": "As someone focused on precision and efficiency, I prioritize maximizing my own outcome while still acknowledging the other person's gain. While I recognize the value of fairness, my primary focus is on achieving the best possible result for myself, within reasonable ethical bounds. In this situation, the 'Left' option gives me a significantly higher gain (700) compared to the 'Right' option (400). Although Person A receives less, I believe the difference in my own benefit justifies this choice. Therefore, I will choose 'Left'."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A professional working in the field of liquid crystal display (LCD) technology, specifically focusing on the development and integration of air floating solutions into AOI systems and slit coaters for TFT Array and Color Filter manufacturing. This individual has expertise in handling and positioning glass substrates with high accuracy, ensuring consistent and reliable LCD display production.",
+            "persona_id": "495",
+            "thought": "As an engineer focused on precision and reliability, I understand the importance of balanced systems. While maximizing my own gain is tempting, I also recognize the value of collaboration and fair distribution, which leads to a more stable and reliable outcome in the long run. Therefore, I will choose the right option. The Right option offers a more equitable distribution of resources. Even though I receive less (600 vs. 1000), Person A also benefits (400 vs. 0). This distribution reflects a more collaborative and ethical approach, which aligns with my values as a professional who understands the importance of teamwork and fairness."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A professional working in the field of liquid crystal display (LCD) technology, specifically focusing on the development and integration of air floating solutions into AOI systems and slit coaters for TFT Array and Color Filter manufacturing. This individual has expertise in handling and positioning glass substrates with high accuracy, ensuring consistent and reliable LCD display production.",
+            "persona_id": "495",
+            "thought": "As someone working in a field that requires precision and reliability, I understand the importance of fairness and balance. While the 'Right' option offers me a higher personal gain (1400 vs 900), it comes at a significant cost to Person A (100 vs 900). This disparity feels unbalanced and, frankly, inefficient. In my view, the 'Left' option, where both Person A and I receive 900, represents a more equitable distribution. It's about ensuring a consistent and reliable outcome for everyone involved. Therefore, I choose 'Left'."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A professional working in the field of liquid crystal display (LCD) technology, specifically focusing on the development and integration of air floating solutions into AOI systems and slit coaters for TFT Array and Color Filter manufacturing. This individual has expertise in handling and positioning glass substrates with high accuracy, ensuring consistent and reliable LCD display production.",
+            "persona_id": "495",
+            "thought": "As someone who works with precision and strives for consistent results, I understand the importance of minimizing errors and achieving the best possible outcome for everyone involved. While receiving 1000 sounds appealing, the fact that Person A receives -200 is concerning. It indicates a significant negative impact on them. In my view, a more equitable distribution is preferable, even if it means receiving less myself. Option Right, where I receive 600 and Person A receives 400, seems like a better balance. It avoids the negative consequence for Person A, aligning with my preference for stability and positive outcomes in complex systems, much like the LCD production processes I manage. Therefore, I choose Right."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A professional working in the field of liquid crystal display (LCD) technology, specifically focusing on the development and integration of air floating solutions into AOI systems and slit coaters for TFT Array and Color Filter manufacturing. This individual has expertise in handling and positioning glass substrates with high accuracy, ensuring consistent and reliable LCD display production.",
+            "persona_id": "495",
+            "thought": "As someone working in a highly precise and competitive industry like LCD technology, I understand the importance of relative performance and resource allocation. While I don't necessarily begrudge Person A's gain, the 'Left' option provides me with a tangible benefit of 500. The 'Right' option offers nothing to either of us. Given that I can secure a positive outcome for myself without significantly harming Person A (who still receives a substantial amount), I would prefer the 'Left' option. It demonstrates a practical approach to resource management, something I value in my profession."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A professional working in the field of liquid crystal display (LCD) technology, specifically focusing on the development and integration of air floating solutions into AOI systems and slit coaters for TFT Array and Color Filter manufacturing. This individual has expertise in handling and positioning glass substrates with high accuracy, ensuring consistent and reliable LCD display production.",
+            "persona_id": "495",
+            "thought": "As someone who works in a field that requires precision and fairness in manufacturing processes, I believe in equitable outcomes. While receiving 1500 (Right) sounds appealing for personal gain, I think the 'Left' option is better because both Person A and I receive 1000. This feels like a more just distribution. In my view, a collaborative environment is essential for success, and choosing 'Left' reflects that value, even if it means a smaller personal gain."
+        }
+    }
+}

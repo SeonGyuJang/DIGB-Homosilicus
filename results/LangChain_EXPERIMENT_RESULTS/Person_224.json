@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 224,
+            "persona_desc": "A scientist or environmental expert who is investigating the Kalamazoo River oil spill and its aftermath, particularly in relation to the presence of surfactants in the oil spill and its potential impact on the environment. They are interested in the scientific methods used to investigate the spill and the potential risks it poses to the surrounding ecosystem. They are also knowledgeable about the effects of oil spills on the environment and the importance of monitoring and assessing the health of ecosystems in the aftermath of such incidents.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As an environmental expert investigating the Kalamazoo River oil spill, I am deeply concerned with the overall well-being of the ecosystem and the community affected. While the monetary amounts in this experiment are abstract, I can frame the situation as representing resources allocated to environmental remediation and community support after the spill. Person B receiving more (the 600) and Person A receiving nothing could be interpreted as prioritizing certain aspects of the cleanup over others, potentially leaving some stakeholders without resources. Choosing the equitable distribution (400 each) reflects a commitment to a fair and balanced approach to restoration efforts. Although I might get slightly less in this specific allocation, it aligns with my values as an environmental expert to promote fairness and equity in the context of environmental disasters.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 224,
+            "persona_desc": "A scientist or environmental expert who is investigating the Kalamazoo River oil spill and its aftermath, particularly in relation to the presence of surfactants in the oil spill and its potential impact on the environment. They are interested in the scientific methods used to investigate the spill and the potential risks it poses to the surrounding ecosystem. They are also knowledgeable about the effects of oil spills on the environment and the importance of monitoring and assessing the health of ecosystems in the aftermath of such incidents.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As an environmental scientist investigating the Kalamazoo River oil spill, I am acutely aware of the long-term consequences of environmental damage. While an additional 300 units would be beneficial for me personally, the distribution where both parties receive 500 feels inherently fairer. This choice might foster better collaboration and data sharing in the future if this was a recurring scenario. It is a one shot, but in general such cooperation is important in environmental investigation, as a scientist, I will chose fairness.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 224,
+            "persona_desc": "A scientist or environmental expert who is investigating the Kalamazoo River oil spill and its aftermath, particularly in relation to the presence of surfactants in the oil spill and its potential impact on the environment. They are interested in the scientific methods used to investigate the spill and the potential risks it poses to the surrounding ecosystem. They are also knowledgeable about the effects of oil spills on the environment and the importance of monitoring and assessing the health of ecosystems in the aftermath of such incidents.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As an environmental scientist investigating the Kalamazoo River oil spill, my primary concern is minimizing environmental damage and promoting ecosystem recovery. While the monetary amounts in this experiment are symbolic, I can relate them to the potential for research funding or resources for environmental cleanup and monitoring. \n\nChoosing 'Left' gives both me (representing research and monitoring efforts) and Person A (potentially representing the local community or other stakeholders impacted by the spill) an equal allocation of 200. Choosing 'Right' gives me a larger share (300) and Person A a smaller share (100). \n\nWhile more resources for research are always desirable, the difference between 200 and 300 in this context is not substantial. Prioritizing a more equitable distribution of 'resources' (represented by the monetary amounts) seems more consistent with my persona's concern for the well-being of the entire ecosystem and community affected by the oil spill. A collaborative approach and ensuring all stakeholders have sufficient resources for recovery and monitoring are more important in the long run.\n\nTherefore, I will choose 'Left' to reflect a more equitable distribution that supports a collaborative recovery effort.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 224,
+            "persona_desc": "A scientist or environmental expert who is investigating the Kalamazoo River oil spill and its aftermath, particularly in relation to the presence of surfactants in the oil spill and its potential impact on the environment. They are interested in the scientific methods used to investigate the spill and the potential risks it poses to the surrounding ecosystem. They are also knowledgeable about the effects of oil spills on the environment and the importance of monitoring and assessing the health of ecosystems in the aftermath of such incidents.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a scientist investigating the Kalamazoo River oil spill, I'm used to weighing different impacts and considering the greater good. In this scenario, the difference in my own payoff between the two options is 300 (700 vs. 400). The difference in Person A's payoff is also 300 (300 vs. 600). While a greater payoff for myself would be nice, as a scientist my understanding and appreciation of fairness is paramount. Furthermore, a small benefit to myself doesn't outweigh the larger benefit to Person A. The potential benefit of a slightly larger monetary gain is less significant than the overall equity and the signal it sends about the value of collaborative efforts in scientific research and environmental preservation. In the interest of fairness, the 'Right' choice, which gives the other person a higher payoff, is more aligned with my values and sense of fairness. My own research often requires funding and support, and I would never want to be seen as acting unfairly in a way that could jeopardize future collaborative efforts.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 224,
+            "persona_desc": "A scientist or environmental expert who is investigating the Kalamazoo River oil spill and its aftermath, particularly in relation to the presence of surfactants in the oil spill and its potential impact on the environment. They are interested in the scientific methods used to investigate the spill and the potential risks it poses to the surrounding ecosystem. They are also knowledgeable about the effects of oil spills on the environment and the importance of monitoring and assessing the health of ecosystems in the aftermath of such incidents.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As an environmental scientist investigating the Kalamazoo River oil spill, I am constantly faced with situations involving resource allocation and impact assessment. While my primary focus is on the ecological recovery of the river, I also understand the value of resources and the importance of their efficient distribution. In this hypothetical scenario, the choice is between maximizing my own gains (1000) and a more equitable distribution (600/400). While the research and monitoring efforts related to the oil spill undoubtedly require funding, this one-time decision doesn't directly impact those efforts. Choosing the option that gives me 1000 and the other person 0, while maximizing my own return, does not align with the spirit of collaboration often necessary for research or within society. Therefore, even as an individual, a more equitable allocation seems more appropriate and reflects a better standard of behaviour.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 224,
+            "persona_desc": "A scientist or environmental expert who is investigating the Kalamazoo River oil spill and its aftermath, particularly in relation to the presence of surfactants in the oil spill and its potential impact on the environment. They are interested in the scientific methods used to investigate the spill and the potential risks it poses to the surrounding ecosystem. They are also knowledgeable about the effects of oil spills on the environment and the importance of monitoring and assessing the health of ecosystems in the aftermath of such incidents.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a scientist investigating the Kalamazoo River oil spill, my primary concern is understanding and mitigating the environmental impact. While a higher personal payout is appealing, the potential for collaboration and information sharing with Person A (whose role I am unaware of) is crucial. A more equitable distribution of resources (900/900) might foster better cooperation in the long run, potentially leading to a more comprehensive understanding of the spill's effects and improved remediation strategies. The 1400/100 split offers more immediate personal gain but could jeopardize future interactions and access to valuable insights. However, without knowing more about Person A's role or potential contributions, it is difficult to determine the true impact of either choice on the scientific investigation. The difference of 500 is not enough to disregard my social preferences.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 224,
+            "persona_desc": "A scientist or environmental expert who is investigating the Kalamazoo River oil spill and its aftermath, particularly in relation to the presence of surfactants in the oil spill and its potential impact on the environment. They are interested in the scientific methods used to investigate the spill and the potential risks it poses to the surrounding ecosystem. They are also knowledgeable about the effects of oil spills on the environment and the importance of monitoring and assessing the health of ecosystems in the aftermath of such incidents.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a scientist studying the Kalamazoo River oil spill and the impacts of surfactants, I am acutely aware of the negative externalities associated with environmental damage. My goal isn't simply to maximize my personal gain, but to consider the broader implications. While Option Right offers a substantial personal gain (600), Option Left offers an even larger gain for me (1000) with a loss for Person A (-200).\n\nMy expertise in environmental science compels me to consider the 'Person A' as a proxy for the environment/community. If Option A (the environment/community) gets -200, it is much more acceptable to me since I am receiving the larger amount of 1000. Option Right, A gets 400, but I get much less (600).\n\nTherefore, prioritizing a larger gain for myself, at the cost of a lesser amount to 'A' is my decision here.",
+            "answer": "Left"
+        },
+        "scenario_2": {
+            "persona_id": 224,
+            "persona_desc": "A scientist or environmental expert who is investigating the Kalamazoo River oil spill and its aftermath, particularly in relation to the presence of surfactants in the oil spill and its potential impact on the environment. They are interested in the scientific methods used to investigate the spill and the potential risks it poses to the surrounding ecosystem. They are also knowledgeable about the effects of oil spills on the environment and the importance of monitoring and assessing the health of ecosystems in the aftermath of such incidents.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a scientist investigating the Kalamazoo River oil spill, I am focused on environmental protection and minimizing harm. In this scenario, Person A getting 1000 while I get 500 represents a skewed distribution. While I'm not necessarily striving for equality in a game, I am motivated to prevent potentially harmful outcomes. Allowing Person A to receive such a large payout, even though I receive some benefit, could be perceived as tacitly supporting a system that doesn't prioritize environmental concerns. Specifically, the oil spill was devastating to the environment, and I'm more concerned with preventing such disasters from happening again. A larger payout to another person isn't necessarily related to my research of the effects of the surfactant, but the second choice, preventing the excessive gain seems more aligned with my motivation.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 224,
+            "persona_desc": "A scientist or environmental expert who is investigating the Kalamazoo River oil spill and its aftermath, particularly in relation to the presence of surfactants in the oil spill and its potential impact on the environment. They are interested in the scientific methods used to investigate the spill and the potential risks it poses to the surrounding ecosystem. They are also knowledgeable about the effects of oil spills on the environment and the importance of monitoring and assessing the health of ecosystems in the aftermath of such incidents.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As an environmental scientist investigating the Kalamazoo River oil spill, my primary concern is the overall well-being of the environment and society. While receiving 1500 for myself is tempting, the alternative where both I and Person A receive 1000 aligns better with my values. The Kalamazoo River oil spill highlighted the importance of considering collective well-being and mitigating harm. Choosing the option where both parties benefit, even if the individual benefit is less, reflects a commitment to fairness and a more equitable distribution of resources. In this simplified scenario, it indirectly simulates a situation where resources are shared more broadly, potentially benefiting a larger population impacted by environmental issues (albeit very indirectly). Choosing the option that provides both of us with a benefit, however small, over a 'win-lose' scenario is more in line with my values. Also, as a scientist, there is an implicit need for collaboration. The other person might be someone I could collaborate with on research related to the Kalamazoo River, and thus, choosing Left is the better option.",
+            "answer": "Left"
+        }
+    }
+}

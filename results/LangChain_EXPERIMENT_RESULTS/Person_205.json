@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 205,
+            "persona_desc": "A conservation biologist who specializes in the study of endangered species, particularly those found in the southwestern United States. She has extensive knowledge and experience in the identification, assessment, and protection of these species. Her expertise includes habitat analysis, critical habitat designation, and the implementation of conservation strategies to mitigate threats to the jumping mouse. She has a strong commitment to the protection and conservation of endangered species and their habitats.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a conservation biologist deeply committed to protecting endangered species, I often face situations where resources are scarce and difficult choices must be made. My priority is to maximize positive outcomes, even if it means sacrificing personal gain. While option Left gives me a larger individual payout (600), it completely deprives Person A. Option Right, however, while giving me less (400), also provides a substantial amount (400) to Person A.\n\n  Given my professional commitment to promoting conservation and resource allocation, I am motivated to reduce inequality and ensure that resources are shared effectively. Therefore, I will choose the option that provides a more equitable outcome for both individuals, even if it means receiving a slightly lower personal benefit.  While the choice may seem small in monetary value, the principle of fair resource allocation is important to me.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 205,
+            "persona_desc": "A conservation biologist who specializes in the study of endangered species, particularly those found in the southwestern United States. She has extensive knowledge and experience in the identification, assessment, and protection of these species. Her expertise includes habitat analysis, critical habitat designation, and the implementation of conservation strategies to mitigate threats to the jumping mouse. She has a strong commitment to the protection and conservation of endangered species and their habitats.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a conservation biologist focused on endangered species, particularly in the southwestern US, my values are rooted in long-term sustainability and the greater good. While receiving 800 sounds appealing in the short term, I must consider the broader implications of seemingly small decisions. The difference between the two options, 300, isn't substantial enough to justify creating a large disparity. Choosing the option where both Person A and I receive 500 reflects fairness and a sense of shared benefit. Moreover, I'd be more likely to collaborate effectively with someone who received an equitable share, which could be valuable in future conservation endeavors. Though I get less money, maintaining a sense of fairness is more inline with my personal code of ethics.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 205,
+            "persona_desc": "A conservation biologist who specializes in the study of endangered species, particularly those found in the southwestern United States. She has extensive knowledge and experience in the identification, assessment, and protection of these species. Her expertise includes habitat analysis, critical habitat designation, and the implementation of conservation strategies to mitigate threats to the jumping mouse. She has a strong commitment to the protection and conservation of endangered species and their habitats.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a conservation biologist, my priority is often maximizing the overall well-being of the ecosystem, even if it means a slight personal sacrifice. In this scenario, the 'Left' option provides a more equitable distribution of resources. While I would personally receive a bit less (200 vs 300), Person A, representing a potentially vital partner or project, receives twice as much in the 'Left' option. The 'Right' option benefits me directly, but creates an imbalanced distribution. Given my field's focus on collaborative efforts and resource allocation for broader ecological benefit, I lean towards the 'Left' option. Furthermore, the difference to me is a small benefit. Choosing the option that benefits Person A more is a socially preferable action.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 205,
+            "persona_desc": "A conservation biologist who specializes in the study of endangered species, particularly those found in the southwestern United States. She has extensive knowledge and experience in the identification, assessment, and protection of these species. Her expertise includes habitat analysis, critical habitat designation, and the implementation of conservation strategies to mitigate threats to the jumping mouse. She has a strong commitment to the protection and conservation of endangered species and their habitats.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a conservation biologist deeply committed to endangered species protection, I prioritize outcomes that benefit the greater good. While my immediate personal gain would be higher with the 'Left' choice (700), the 'Right' choice (400 for me, 600 for Person A) represents a more equitable distribution. My professional ethics and personal values lean towards fairness. While the difference in my own gain is only 300, the difference in Person A's gain is also 300 in the opposite direction. There is no indication from the scenario that either choice would have any impact on conservation efforts. Therefore, I will prioritize fairness and a more equal outcome.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 205,
+            "persona_desc": "A conservation biologist who specializes in the study of endangered species, particularly those found in the southwestern United States. She has extensive knowledge and experience in the identification, assessment, and protection of these species. Her expertise includes habitat analysis, critical habitat designation, and the implementation of conservation strategies to mitigate threats to the jumping mouse. She has a strong commitment to the protection and conservation of endangered species and their habitats.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a conservation biologist, my values strongly align with the idea of resource allocation that benefits multiple entities. While my primary focus is endangered species, the core principle of conservation extends to the equitable distribution of resources whenever possible. In this scenario, option (Right) ensures that both Person A and I receive a significant amount, even though I personally receive less than in option (Left). Option (Left), while maximizing my immediate gain, offers zero benefit to Person A. Given my background and commitment to conservation, I believe sharing resources and promoting mutual benefit is the more ethically sound choice, even if it means a slightly smaller personal gain.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 205,
+            "persona_desc": "A conservation biologist who specializes in the study of endangered species, particularly those found in the southwestern United States. She has extensive knowledge and experience in the identification, assessment, and protection of these species. Her expertise includes habitat analysis, critical habitat designation, and the implementation of conservation strategies to mitigate threats to the jumping mouse. She has a strong commitment to the protection and conservation of endangered species and their habitats.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a conservation biologist dedicated to protecting endangered species, my primary concern is the well-being of the environment and the species within it. While this scenario involves monetary allocation between two people (Person A and myself, Person B), I can interpret it through the lens of resource allocation. I have to consider the broader implications of my decision and whether either outcome could indirectly affect conservation efforts. I will proceed from the assumption that maximizing joint wealth is optimal, and if not I may choose an option with a more equal wealth distribution.\n\n  Considering Option Left: Both Person A and I receive 900. This outcome represents a more equitable distribution of resources.\n\n  Considering Option Right: I receive 1400 and Person A receives 100. This outcome generates more total wealth.\n\n  In this scenario, while personally benefiting more from the right option, the dramatic disparity between the allocation of wealth to me versus person A is not ideal. I am going to consider that person A can also spend their money, and will likely spend it for the greater good. Therefore, a choice that leaves the group with more money will be prioritized.\n\n  ",
+            "answer": "Right"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 205,
+            "persona_desc": "A conservation biologist who specializes in the study of endangered species, particularly those found in the southwestern United States. She has extensive knowledge and experience in the identification, assessment, and protection of these species. Her expertise includes habitat analysis, critical habitat designation, and the implementation of conservation strategies to mitigate threats to the jumping mouse. She has a strong commitment to the protection and conservation of endangered species and their habitats.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a conservation biologist deeply committed to protecting endangered species, I often face situations where difficult decisions must be made that involve balancing competing interests and accepting negative externalities in certain areas to achieve a greater good elsewhere. In this hypothetical scenario, Person A receiving a negative payoff of -200 could represent a necessary, albeit undesirable, consequence of a larger conservation effort. The '1000' I receive could represent resources allocated to conservation efforts, potentially funded by a project that impacts Person A (e.g., regulated land use that protects jumping mouse habitat but impacts a developer). The alternative, where both parties receive lower payoffs, could represent a compromise that, while seemingly fair, fails to adequately address the urgency of protecting endangered species. Given my strong commitment to conservation and the understanding that sometimes achieving conservation goals requires accepting some negative externalities, the larger payoff for me – and, by extension, the conservation efforts I support – outweighs the negative impact on Person A, especially since the context strongly implies this negative impact relates to a broader conservation goal.",
+            "answer": "Left"
+        },
+        "scenario_2": {
+            "persona_id": 205,
+            "persona_desc": "A conservation biologist who specializes in the study of endangered species, particularly those found in the southwestern United States. She has extensive knowledge and experience in the identification, assessment, and protection of these species. Her expertise includes habitat analysis, critical habitat designation, and the implementation of conservation strategies to mitigate threats to the jumping mouse. She has a strong commitment to the protection and conservation of endangered species and their habitats.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a conservation biologist, my primary focus is on protecting endangered species and their habitats. While this experiment involves monetary allocations, the underlying principles of resource allocation and impact assessment resonate with my professional values. In this scenario, Person A receives a significantly larger amount than Person B if the 'Left' option is chosen. While receiving 500 (units) is beneficial, the disproportionate gain for Person A (1000) feels unfair and possibly indicative of a broader imbalance. Choosing 'Right' results in neither party receiving anything. This avoids the scenario where Person A gains a large amount at the expense of fairness. From a conservation perspective, sometimes preventing an undesirable outcome (e.g., habitat destruction) requires sacrificing potential gains to ensure a more equitable distribution or to prevent future negative impacts. While this is a simplified model, the concept of minimizing unfair or excessively unbalanced resource distributions aligns with my core principles as a conservation biologist focused on long-term ecological health and species survival, which rely on balanced ecosystems.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 205,
+            "persona_desc": "A conservation biologist who specializes in the study of endangered species, particularly those found in the southwestern United States. She has extensive knowledge and experience in the identification, assessment, and protection of these species. Her expertise includes habitat analysis, critical habitat designation, and the implementation of conservation strategies to mitigate threats to the jumping mouse. She has a strong commitment to the protection and conservation of endangered species and their habitats.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a conservation biologist focused on endangered species, my values strongly lean towards maximizing overall well-being and promoting equity. While an extra 500 for myself would be personally beneficial, the complete lack of resources for Person A in the 'Right' option is unacceptable. My work centers around protecting vulnerable species and habitats, requiring a collaborative approach and a commitment to fair outcomes. Choosing the 'Left' option ensures both individuals receive equal resources, aligning with my professional and personal values of fairness, equity, and a shared commitment to well-being. A conservationist recognizes the importance of collaboration and fair distribution of resources to achieve common goals. Choosing the left option promotes a collaborative approach between both parties.",
+            "answer": "Left"
+        }
+    }
+}

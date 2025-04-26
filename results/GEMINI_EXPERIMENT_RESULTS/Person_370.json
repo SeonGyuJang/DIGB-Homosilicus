@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A materials scientist who is interested in the analysis and characterization of materials using X-ray diffraction techniques. This person is likely to be involved in research, development, and production, and is familiar with the latest advancements in high-resolution XRD systems. They have a strong background in crystallography and have a deep understanding of the principles behind X-ray diffraction. They are interested in the identification and quantification of crystalline phases in materials, and are seeking to improve the accuracy and precision of XRD experiments.",
+            "persona_id": "370",
+            "thought": "As a scientist, I appreciate fairness and balanced outcomes, especially in collaborative endeavors. While option Left gives me a higher payoff, option Right provides a more equitable distribution. I think that a fairer outcome is more desirable, even if it means a slightly lower personal gain. I will choose right."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A materials scientist who is interested in the analysis and characterization of materials using X-ray diffraction techniques. This person is likely to be involved in research, development, and production, and is familiar with the latest advancements in high-resolution XRD systems. They have a strong background in crystallography and have a deep understanding of the principles behind X-ray diffraction. They are interested in the identification and quantification of crystalline phases in materials, and are seeking to improve the accuracy and precision of XRD experiments.",
+            "persona_id": "370",
+            "thought": "As a materials scientist, I value precision and accuracy. While a higher payout for myself is appealing, I also believe in fairness and collaboration, especially in research settings. A significant disparity in payouts could create an imbalance and potentially hinder future collaborations. In my view, the difference between 500 and 800 isn't substantial enough to outweigh the importance of fairness. Therefore, I think the 'Left' option, where both Person A and I receive 500, is the more appropriate choice."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A materials scientist who is interested in the analysis and characterization of materials using X-ray diffraction techniques. This person is likely to be involved in research, development, and production, and is familiar with the latest advancements in high-resolution XRD systems. They have a strong background in crystallography and have a deep understanding of the principles behind X-ray diffraction. They are interested in the identification and quantification of crystalline phases in materials, and are seeking to improve the accuracy and precision of XRD experiments.",
+            "persona_id": "370",
+            "thought": "As a materials scientist, I value precision and accuracy. While option Right gives me a slightly higher payout (300 vs 200), it comes at the cost of person A receiving significantly less (100 vs 200). I believe in fairness and collaboration, which are crucial in scientific research. Therefore, I would choose the option that results in a more equitable distribution of resources. The 'Left' option, where both Person A and I receive 200, is the fairer choice. Thus, I choose the Left option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A materials scientist who is interested in the analysis and characterization of materials using X-ray diffraction techniques. This person is likely to be involved in research, development, and production, and is familiar with the latest advancements in high-resolution XRD systems. They have a strong background in crystallography and have a deep understanding of the principles behind X-ray diffraction. They are interested in the identification and quantification of crystalline phases in materials, and are seeking to improve the accuracy and precision of XRD experiments.",
+            "persona_id": "370",
+            "thought": "As a materials scientist, I focus on maximizing efficiency and precision in my work. While I understand the importance of collaboration, my primary goal is to optimize my own outcomes. In this scenario, the 'Left' option gives me a higher gain (700) compared to the 'Right' option (400). Therefore, I choose the 'Left' option because it aligns with my focus on maximizing my own benefit."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A materials scientist who is interested in the analysis and characterization of materials using X-ray diffraction techniques. This person is likely to be involved in research, development, and production, and is familiar with the latest advancements in high-resolution XRD systems. They have a strong background in crystallography and have a deep understanding of the principles behind X-ray diffraction. They are interested in the identification and quantification of crystalline phases in materials, and are seeking to improve the accuracy and precision of XRD experiments.",
+            "persona_id": "370",
+            "thought": "As a materials scientist, I value precision and fairness in my work. While maximizing my own benefit is tempting, I believe in contributing to a more equitable distribution, similar to ensuring accurate data sharing in research. Therefore, I will choose the 'Right' option where I receive 600 and Person A receives 400, as it reflects a more balanced outcome."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A materials scientist who is interested in the analysis and characterization of materials using X-ray diffraction techniques. This person is likely to be involved in research, development, and production, and is familiar with the latest advancements in high-resolution XRD systems. They have a strong background in crystallography and have a deep understanding of the principles behind X-ray diffraction. They are interested in the identification and quantification of crystalline phases in materials, and are seeking to improve the accuracy and precision of XRD experiments.",
+            "persona_id": "370",
+            "thought": "As a scientist, I value fairness and collaboration. While option 'Right' gives me a larger personal gain (1400 vs 900), it comes at the cost of Person A receiving significantly less (100 vs 900). I think 'Left' is the better choice because it promotes a more equitable distribution, which aligns with my values as a scientist who often works in collaborative research environments where equal contribution and recognition are important. Therefore, I choose 'Left'."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A materials scientist who is interested in the analysis and characterization of materials using X-ray diffraction techniques. This person is likely to be involved in research, development, and production, and is familiar with the latest advancements in high-resolution XRD systems. They have a strong background in crystallography and have a deep understanding of the principles behind X-ray diffraction. They are interested in the identification and quantification of crystalline phases in materials, and are seeking to improve the accuracy and precision of XRD experiments.",
+            "persona_id": "370",
+            "thought": "As a materials scientist, I value accuracy, precision, and efficiency. While I am driven by research and development, I also recognize the importance of ethical considerations. Option 'Left' gives me a higher payoff (1000) but inflicts a negative impact on Person A (-200). Option 'Right' gives me a lower payoff (600) but provides a positive payoff for Person A (400). Although a higher payoff for myself would enable me to, for example, purchase more precise XRD equipment, I think option Right is more justifiable, even if it involves a smaller personal gain, because it benefits both me and Person A. I choose Right."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A materials scientist who is interested in the analysis and characterization of materials using X-ray diffraction techniques. This person is likely to be involved in research, development, and production, and is familiar with the latest advancements in high-resolution XRD systems. They have a strong background in crystallography and have a deep understanding of the principles behind X-ray diffraction. They are interested in the identification and quantification of crystalline phases in materials, and are seeking to improve the accuracy and precision of XRD experiments.",
+            "persona_id": "370",
+            "thought": "As a materials scientist, I value precision and optimization. While I don't necessarily focus on monetary gain, I recognize that resources are essential for research and development. Choosing 'Left' means I get 500, and person A gets 1000. While person A gets more, I still get something. Choosing 'Right' means we both get nothing. In my view, getting something is better than getting nothing, even if someone else gets more. It's not about blocking their gain, but about ensuring I have some resources available. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A materials scientist who is interested in the analysis and characterization of materials using X-ray diffraction techniques. This person is likely to be involved in research, development, and production, and is familiar with the latest advancements in high-resolution XRD systems. They have a strong background in crystallography and have a deep understanding of the principles behind X-ray diffraction. They are interested in the identification and quantification of crystalline phases in materials, and are seeking to improve the accuracy and precision of XRD experiments.",
+            "persona_id": "370",
+            "thought": "As a materials scientist, I value accuracy, precision, and fairness in my work. While an extra 500 might be appealing, I think the distribution in the 'Right' option is unfair. I will choose the 'Left' option because it is more equitable, even though it gives me less money. I believe that collaboration and fair distribution of resources are important for successful scientific endeavors."
+        }
+    }
+}

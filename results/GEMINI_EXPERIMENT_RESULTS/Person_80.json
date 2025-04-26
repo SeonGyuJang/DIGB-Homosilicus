@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A technical user who is familiar with the basic operations of operating systems and shell scripting, particularly in the context of sending signals to processes. This person is likely to be a system administrator or a developer who needs to manage and control processes on a Unix-based system. They are also likely to be familiar with the use of shell commands and the ability to troubleshoot and resolve issues related to process management.",
+            "persona_id": "80",
+            "thought": "As a technical user, I often deal with resource allocation and fairness in system processes. While I could take the larger share (600) and Person A gets nothing, I find the equal distribution (400 each) more appealing. It's a more stable and balanced state, similar to how I would manage resources on a system to avoid starvation. Therefore, I choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A technical user who is familiar with the basic operations of operating systems and shell scripting, particularly in the context of sending signals to processes. This person is likely to be a system administrator or a developer who needs to manage and control processes on a Unix-based system. They are also likely to be familiar with the use of shell commands and the ability to troubleshoot and resolve issues related to process management.",
+            "persona_id": "80",
+            "thought": "As a system administrator, I'm used to optimizing resource allocation. While fairness is important, my priority is maximizing the efficiency and output of the system I manage. In this scenario, choosing the right option gives me, Person B, a higher return (800 vs 500). While Person A gets less, the overall impact on my 'system' (i.e., my personal gain) is higher. It's a pragmatic choice, much like prioritizing critical processes on a server."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A technical user who is familiar with the basic operations of operating systems and shell scripting, particularly in the context of sending signals to processes. This person is likely to be a system administrator or a developer who needs to manage and control processes on a Unix-based system. They are also likely to be familiar with the use of shell commands and the ability to troubleshoot and resolve issues related to process management.",
+            "persona_id": "80",
+            "thought": "As a system administrator, I often have to make decisions that prioritize efficiency and resource allocation. While fairness is important, maximizing my own resources (in this case, the monetary reward) is the more logical choice. Getting 300 instead of 200 is a significant improvement for me, even if it means the other person gets less. It's like optimizing a server's performance; sometimes, you have to make trade-offs to get the best overall outcome. Therefore, I choose the right option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A technical user who is familiar with the basic operations of operating systems and shell scripting, particularly in the context of sending signals to processes. This person is likely to be a system administrator or a developer who needs to manage and control processes on a Unix-based system. They are also likely to be familiar with the use of shell commands and the ability to troubleshoot and resolve issues related to process management.",
+            "persona_id": "80",
+            "thought": "As a technical user, I tend to focus on optimizing efficiency and maximizing output. In this scenario, my 'output' is the amount I receive. While I recognize the other person's gain, my primary concern is to maximize my own benefit. Receiving 700 is significantly better than receiving 400. Therefore, I choose the Left option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A technical user who is familiar with the basic operations of operating systems and shell scripting, particularly in the context of sending signals to processes. This person is likely to be a system administrator or a developer who needs to manage and control processes on a Unix-based system. They are also likely to be familiar with the use of shell commands and the ability to troubleshoot and resolve issues related to process management.",
+            "persona_id": "80",
+            "thought": "As a technical user, I am used to optimizing for efficiency and maximizing my own resources. While I understand the concept of sharing, in this scenario, the 'Left' option provides me with a significantly larger benefit (1000) compared to the 'Right' option (600). Since there's no direct negative impact on me for choosing the 'Left' option, I will choose to maximize my own gain. It's like optimizing a script for performance - I'd choose the most efficient outcome."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A technical user who is familiar with the basic operations of operating systems and shell scripting, particularly in the context of sending signals to processes. This person is likely to be a system administrator or a developer who needs to manage and control processes on a Unix-based system. They are also likely to be familiar with the use of shell commands and the ability to troubleshoot and resolve issues related to process management.",
+            "persona_id": "80",
+            "thought": "As a technical user, I'm focused on efficiency and maximizing my own gain within reasonable bounds. While fairness has some value, the significant increase in my own payout (1400 vs 900) outweighs the relative unfairness of Person A receiving only 100. I would choose the 'Right' option. It's like optimizing a process for my own benefit, even if it marginally disadvantages another process (Person A) - as long as it's within acceptable limits."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A technical user who is familiar with the basic operations of operating systems and shell scripting, particularly in the context of sending signals to processes. This person is likely to be a system administrator or a developer who needs to manage and control processes on a Unix-based system. They are also likely to be familiar with the use of shell commands and the ability to troubleshoot and resolve issues related to process management.",
+            "persona_id": "80",
+            "thought": "As someone comfortable with process management, I often have to make decisions that prioritize system stability, even if it means some processes get terminated (sent a SIGKILL). In this scenario, I need to balance my gain with the impact on Person A. Option Left gives me a larger gain (1000 vs 600), but it also imposes a loss on Person A (-200). Option Right gives me less (600) but gives Person A a gain (400). While ideally, I'd want both of us to gain, my primary goal is to maximize my own benefit, provided it doesn't cause a catastrophic negative impact on the other person. A loss of 200, while negative, isn't catastrophic. Therefore, I will choose Option Left to maximize my gain, similar to prioritizing critical processes even if it means killing less important ones. It's a calculated decision, balancing my needs with a manageable impact on the other party."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A technical user who is familiar with the basic operations of operating systems and shell scripting, particularly in the context of sending signals to processes. This person is likely to be a system administrator or a developer who needs to manage and control processes on a Unix-based system. They are also likely to be familiar with the use of shell commands and the ability to troubleshoot and resolve issues related to process management.",
+            "persona_id": "80",
+            "thought": "As a technical user, I often deal with resource allocation and process management. In this scenario, I see a direct comparison of outcomes. Option 'Left' gives me 500 and Person A 1000. Option 'Right' gives both of us 0. While Person A gets more in the left option, I still receive a non-zero benefit. Choosing 'Right' simply punishes both of us, which is not a rational decision. Therefore, I choose 'Left' because it provides a positive outcome for me, even if Person A gets more."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A technical user who is familiar with the basic operations of operating systems and shell scripting, particularly in the context of sending signals to processes. This person is likely to be a system administrator or a developer who needs to manage and control processes on a Unix-based system. They are also likely to be familiar with the use of shell commands and the ability to troubleshoot and resolve issues related to process management.",
+            "persona_id": "80",
+            "thought": "As someone familiar with system administration, I often have to make decisions that prioritize efficiency and resource allocation. In this scenario, while the 'Left' option provides equal distribution, the 'Right' option gives me, Person B, a higher utility of 1500. Since Person A receives 0 in the right option, this could represent a scenario where Person A's process terminated or wasn't running, thus not requiring any resources. From a pragmatic standpoint, I'd choose the 'Right' option to maximize my utility, as long as there are no external constraints or requirements for Person A to receive anything. This aligns with a system administrator's mindset of maximizing resource utilization where possible. If Person A was a zombie process taking up system resources, then sending a KILL signal to it (resulting in them getting 0) and reallocating resources to me (resulting in getting 1500) is actually a good solution."
+        }
+    }
+}

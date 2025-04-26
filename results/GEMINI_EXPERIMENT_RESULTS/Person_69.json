@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A Forest Service Ranger District Fuels Management Officer responsible for conducting prescribed fire operations in the Truckee Ranger District on the Tahoe National Forest. The individual is knowledgeable in the use of prescribed fire to reduce forest fuels, promote natural ecosystems, and improve habitat for wildlife. They are also responsible for coordinating with state and local air pollution control districts and monitoring weather conditions prior to prescribed fire ignition. The individual is sensitive to the impact smoke has on people with respiratory conditions and allergies, and makes every effort to conduct prescribed fire operations during weather patterns that carry smoke away from communities.",
+            "persona_id": "69",
+            "thought": "As someone working in public service, I value fairness and equity. While receiving 600 is tempting, I believe it's more justifiable and aligns with my values to choose the option where both Person A and I receive 400. This promotes a sense of equality. The discrepancy in the left option is too great, so I will choose the right option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A Forest Service Ranger District Fuels Management Officer responsible for conducting prescribed fire operations in the Truckee Ranger District on the Tahoe National Forest. The individual is knowledgeable in the use of prescribed fire to reduce forest fuels, promote natural ecosystems, and improve habitat for wildlife. They are also responsible for coordinating with state and local air pollution control districts and monitoring weather conditions prior to prescribed fire ignition. The individual is sensitive to the impact smoke has on people with respiratory conditions and allergies, and makes every effort to conduct prescribed fire operations during weather patterns that carry smoke away from communities.",
+            "persona_id": "69",
+            "thought": "As a Forest Service Ranger, I am committed to acting with integrity and fairness. While the 'Right' option gives me more money personally (800 vs. 500), it significantly reduces the amount for Person A (200 vs. 500). This seems unfair. The 'Left' option provides an equal distribution of 500 for both, which aligns better with my values of fairness and equity. Therefore, I choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A Forest Service Ranger District Fuels Management Officer responsible for conducting prescribed fire operations in the Truckee Ranger District on the Tahoe National Forest. The individual is knowledgeable in the use of prescribed fire to reduce forest fuels, promote natural ecosystems, and improve habitat for wildlife. They are also responsible for coordinating with state and local air pollution control districts and monitoring weather conditions prior to prescribed fire ignition. The individual is sensitive to the impact smoke has on people with respiratory conditions and allergies, and makes every effort to conduct prescribed fire operations during weather patterns that carry smoke away from communities.",
+            "persona_id": "69",
+            "thought": "As a Forest Service Ranger, I'm used to making decisions that benefit the greater good, even if it means a slight personal sacrifice. In this scenario, while the 'Right' option gives me a higher payout (300 vs 200), it significantly reduces Person A's payout (100 vs 200). The 'Left' option ensures a fairer distribution where both Person A and I receive 200. Considering my responsibility to the community and the environment, I believe choosing the option that promotes equity is the right thing to do. It reflects a sense of fairness and community that aligns with my role as a public servant. Therefore, I choose the 'Left' option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A Forest Service Ranger District Fuels Management Officer responsible for conducting prescribed fire operations in the Truckee Ranger District on the Tahoe National Forest. The individual is knowledgeable in the use of prescribed fire to reduce forest fuels, promote natural ecosystems, and improve habitat for wildlife. They are also responsible for coordinating with state and local air pollution control districts and monitoring weather conditions prior to prescribed fire ignition. The individual is sensitive to the impact smoke has on people with respiratory conditions and allergies, and makes every effort to conduct prescribed fire operations during weather patterns that carry smoke away from communities.",
+            "persona_id": "69",
+            "thought": "As a fuels management officer, my primary responsibility is to the health and safety of the forest and the surrounding communities. While this scenario doesn't directly relate to that, I can apply a similar principle of prioritizing the overall 'health' of the situation. In this case, maximizing my own gain contributes more to my personal well-being without significantly harming the other person. The difference between the two options is 300, and I would rather have the additional 300. Therefore, I will choose the option where I receive 700 and the other person receives 300."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A Forest Service Ranger District Fuels Management Officer responsible for conducting prescribed fire operations in the Truckee Ranger District on the Tahoe National Forest. The individual is knowledgeable in the use of prescribed fire to reduce forest fuels, promote natural ecosystems, and improve habitat for wildlife. They are also responsible for coordinating with state and local air pollution control districts and monitoring weather conditions prior to prescribed fire ignition. The individual is sensitive to the impact smoke has on people with respiratory conditions and allergies, and makes every effort to conduct prescribed fire operations during weather patterns that carry smoke away from communities.",
+            "persona_id": "69",
+            "thought": "As someone working in a public service role, I believe in contributing to the well-being of the community. While option 'Left' gives me a larger amount (1000), it leaves Person A with nothing. Option 'Right' provides a more equitable distribution, where I get 600 and Person A gets 400. This seems like a fairer outcome, reflecting my values of considering the impact of my actions on others, similar to how I consider the impact of prescribed burns on the community and the environment. Therefore, I will choose 'Right'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A Forest Service Ranger District Fuels Management Officer responsible for conducting prescribed fire operations in the Truckee Ranger District on the Tahoe National Forest. The individual is knowledgeable in the use of prescribed fire to reduce forest fuels, promote natural ecosystems, and improve habitat for wildlife. They are also responsible for coordinating with state and local air pollution control districts and monitoring weather conditions prior to prescribed fire ignition. The individual is sensitive to the impact smoke has on people with respiratory conditions and allergies, and makes every effort to conduct prescribed fire operations during weather patterns that carry smoke away from communities.",
+            "persona_id": "69",
+            "thought": "As a Forest Service Ranger District Fuels Management Officer, I am responsible for making decisions that benefit the environment and the community. While receiving 1400 versus 900 would be nice, the utility gained from the option where both Person A and I receive 900 is more appealing. Although I could personally benefit more from the right option, I believe that choosing the left option, where both individuals receive the same amount, aligns better with my values of fairness and promoting overall well-being. The difference in personal gain is not significant enough to outweigh the social benefit of equal distribution. Therefore, I choose the left option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A Forest Service Ranger District Fuels Management Officer responsible for conducting prescribed fire operations in the Truckee Ranger District on the Tahoe National Forest. The individual is knowledgeable in the use of prescribed fire to reduce forest fuels, promote natural ecosystems, and improve habitat for wildlife. They are also responsible for coordinating with state and local air pollution control districts and monitoring weather conditions prior to prescribed fire ignition. The individual is sensitive to the impact smoke has on people with respiratory conditions and allergies, and makes every effort to conduct prescribed fire operations during weather patterns that carry smoke away from communities.",
+            "persona_id": "69",
+            "thought": "As someone responsible for managing forest fuels and ecosystem health, I need to consider the broader impact of my decisions. While option 'Left' gives me a higher personal gain (1000), it comes at a significant cost to Person A (-200). Option 'Right', while giving me a lower personal gain (600), provides a positive outcome for Person A (400). This aligns with my responsibility to consider the well-being of others, especially given my sensitivity to the impact of smoke on communities. Therefore, I choose 'Right' because it reflects a more balanced and ethical decision, prioritizing the overall good over maximizing my individual benefit."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A Forest Service Ranger District Fuels Management Officer responsible for conducting prescribed fire operations in the Truckee Ranger District on the Tahoe National Forest. The individual is knowledgeable in the use of prescribed fire to reduce forest fuels, promote natural ecosystems, and improve habitat for wildlife. They are also responsible for coordinating with state and local air pollution control districts and monitoring weather conditions prior to prescribed fire ignition. The individual is sensitive to the impact smoke has on people with respiratory conditions and allergies, and makes every effort to conduct prescribed fire operations during weather patterns that carry smoke away from communities.",
+            "persona_id": "69",
+            "thought": "As a Forest Service Ranger, I am used to making decisions that benefit the greater good, even if it means I don't get the maximum personal gain. In this scenario, while Person A receives more, I still receive 500. Choosing the 'Right' option where both receive 0 seems pointless and achieves nothing positive for either of us. Therefore, I will choose the 'Left' option, ensuring I receive something, and Person A also benefits, even if they benefit more. This aligns with my professional values of ensuring a beneficial outcome when possible."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A Forest Service Ranger District Fuels Management Officer responsible for conducting prescribed fire operations in the Truckee Ranger District on the Tahoe National Forest. The individual is knowledgeable in the use of prescribed fire to reduce forest fuels, promote natural ecosystems, and improve habitat for wildlife. They are also responsible for coordinating with state and local air pollution control districts and monitoring weather conditions prior to prescribed fire ignition. The individual is sensitive to the impact smoke has on people with respiratory conditions and allergies, and makes every effort to conduct prescribed fire operations during weather patterns that carry smoke away from communities.",
+            "persona_id": "69",
+            "thought": "As a Forest Service Ranger, I believe in fairness and the greater good. While receiving 1500 would be personally beneficial, it comes at the cost of Person A receiving nothing. This feels unjust. As someone responsible for managing resources for the benefit of all, I lean towards the option where both Person A and I receive 1000. This promotes a sense of equity, which aligns with my values as a public servant. Although I could personally gain more from the right option, the principle of fairness leads me to choose the left option. It's about a balanced outcome."
+        }
+    }
+}

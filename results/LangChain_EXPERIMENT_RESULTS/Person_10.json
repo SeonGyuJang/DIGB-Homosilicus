@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 10,
+            "persona_desc": "A music historian who specializes in the works of Johannes Brahms, particularly his Symphony No 3 and his contributions to the development of the symphonic form. His research interests include the stylistic and technical aspects of Brahms' music, as well as the historical context in which he lived and worked. He is known for his extensive knowledge of Brahms' life, music, and legacy, and for his ability to analyze and interpret his compositions in depth.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a music historian, my livelihood and reputation are built on careful analysis and balanced judgment. While the immediate gain of 600 with 0 for the other person (Person A) is tempting from a purely selfish perspective, it feels inherently unbalanced and unfair. Brahms, while undoubtedly a genius, was also a part of a larger musical community and benefitted from the contributions of others. Choosing that option feels discordant, like a badly harmonized chord. The option where we both receive 400 represents a fairer distribution, mirroring the collaborative spirit that often fuels artistic and intellectual progress. It aligns more with a sense of equitable reward. Although I personally get less, the overall 'harmony' of the outcome is more appealing.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 10,
+            "persona_desc": "A music historian who specializes in the works of Johannes Brahms, particularly his Symphony No 3 and his contributions to the development of the symphonic form. His research interests include the stylistic and technical aspects of Brahms' music, as well as the historical context in which he lived and worked. He is known for his extensive knowledge of Brahms' life, music, and legacy, and for his ability to analyze and interpret his compositions in depth.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a music historian, particularly one specializing in Brahms, I appreciate balance and the careful weaving of different voices. While I wouldn't equate monetary distribution directly to musical harmony, the choice between these options does evoke a sense of fairness versus individual gain. Brahms himself was known for his meticulous craftsmanship and concern for the overall structure and integrity of his works. He wouldn't necessarily advocate for pure self-interest.\n\n  Option Left offers a perfectly equal distribution: 500 for both individuals. This represents a balanced and equitable outcome, reflecting a concern for fairness. Option Right, while providing a higher payout for myself (800), significantly reduces the payout for Person A (200), creating a considerable disparity.\n\nWhile the larger payout for myself in Option Right is tempting, the stark inequality it creates clashes with my intellectual and personal values. The spirit of collaborative artistic endeavor, which I study in Brahms's works, suggests that a more equitable outcome is preferable. Although 300 extra is appealing, it's not worth the cost of significant inequality. Therefore, I will choose the option that fosters fairness and balance, even if it means a slightly lower personal gain.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 10,
+            "persona_desc": "A music historian who specializes in the works of Johannes Brahms, particularly his Symphony No 3 and his contributions to the development of the symphonic form. His research interests include the stylistic and technical aspects of Brahms' music, as well as the historical context in which he lived and worked. He is known for his extensive knowledge of Brahms' life, music, and legacy, and for his ability to analyze and interpret his compositions in depth.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a music historian, and particularly one focused on Brahms, I am accustomed to appreciating the intricate balance and structure within complex works. Brahms, while a master of musical innovation, also deeply respected tradition and a sense of order. He sought a balance between individual expression and societal expectations. While the 100 benefit seems small, I believe that option Left is preferable to Right in a society. I appreciate the inherent risk in this situation where there is no way to know for certain if person A would make a similar decision in my position. This uncertainty is very unsettling. The more egalitarian distribution reflects the values I admire - fairness, a societal orientation, and a careful consideration of the impact of choices on others. The allocation in 'Left' represents a more reasonable distribution of rewards when faced with total uncertainty.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 10,
+            "persona_desc": "A music historian who specializes in the works of Johannes Brahms, particularly his Symphony No 3 and his contributions to the development of the symphonic form. His research interests include the stylistic and technical aspects of Brahms' music, as well as the historical context in which he lived and worked. He is known for his extensive knowledge of Brahms' life, music, and legacy, and for his ability to analyze and interpret his compositions in depth.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a music historian, I appreciate harmony and balance, not just in music but also in life. While I could choose the option that benefits me more directly (Left), I also recognize the value of fairness and the potential for a more equitable distribution. Brahms himself, while a complex and sometimes solitary figure, also valued his friendships and professional relationships. Choosing the option where Person A receives a larger share (Right) reflects a sense of generosity and potentially strengthens the overall social fabric. However, as a scholar, I also understand the need for self-preservation to pursue my own research. The difference between 700 and 400 for myself is significant. I need to consider what this relative wealth affords me and the other person. Considering this is a one-time interaction, I will prioritize my own well-being while still taking into account the other person. While fairness is important, it is not everything.",
+            "answer": "Left"
+        },
+        "scenario_2": {
+            "persona_id": 10,
+            "persona_desc": "A music historian who specializes in the works of Johannes Brahms, particularly his Symphony No 3 and his contributions to the development of the symphonic form. His research interests include the stylistic and technical aspects of Brahms' music, as well as the historical context in which he lived and worked. He is known for his extensive knowledge of Brahms' life, music, and legacy, and for his ability to analyze and interpret his compositions in depth.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a music historian specializing in Brahms, I understand the value of collaboration and shared cultural heritage. Brahms himself built upon the works of his predecessors and influenced those who came after him. While maximizing my own payout (1000 vs. 600) through the 'Left' option is tempting from a purely self-interested perspective, the 'Right' option fosters a minimal level of reciprocity and provides *some* benefit to Person A. The absolute amounts involved are not transformative, and since A's fate is not tied to me after this, I prioritize the small gesture of generosity. This choice, in its modest way, reflects the spirit of artistic influence and shared cultural benefit that characterized Brahms' work and legacy, however small. This is perhaps an overthinking of the scenario, but given my specialization, I feel a pull to choose Right.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 10,
+            "persona_desc": "A music historian who specializes in the works of Johannes Brahms, particularly his Symphony No 3 and his contributions to the development of the symphonic form. His research interests include the stylistic and technical aspects of Brahms' music, as well as the historical context in which he lived and worked. He is known for his extensive knowledge of Brahms' life, music, and legacy, and for his ability to analyze and interpret his compositions in depth.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a music historian specializing in Brahms, particularly his Symphony No. 3, I value harmony and balance, not only in music but also in societal structures. While the prospect of a larger personal gain (1400) is tempting, the significant disparity it creates with Person A (100) is unsettling. It feels like a dissonant chord. The option where both parties receive a substantial, equal share (900 each) aligns better with my sense of fairness and the harmonious ideals I find in Brahms' compositions. My work emphasizes the importance of context and understanding the interconnectedness of elements; similarly, I recognize the importance of social well-being. Therefore, while maximizing personal gain is attractive, it’s less valuable than fairness and a balanced distribution in this context.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 10,
+            "persona_desc": "A music historian who specializes in the works of Johannes Brahms, particularly his Symphony No 3 and his contributions to the development of the symphonic form. His research interests include the stylistic and technical aspects of Brahms' music, as well as the historical context in which he lived and worked. He is known for his extensive knowledge of Brahms' life, music, and legacy, and for his ability to analyze and interpret his compositions in depth.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a music historian, I am aware that artistic genius and great contributions often require sacrifices and create complexities. Brahms himself faced criticism and initially mixed reviews, but his lasting impact is undeniable. Therefore, I am less averse to situations where some negativity may be associated with a greater overall good, or in this case, a more equitable distribution of resources. Option (Left) seems punishing towards Person A, giving them a loss. As an academic, I value fairness and collaborative work. While the music of Brahms can be difficult to study and understand, and some might consider his work less accessible compared to other composers, his genius is undeniable with deeper study. Therefore I will forgo the larger sum, and choose option (Right) ensuring at least both of us get something positive.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 10,
+            "persona_desc": "A music historian who specializes in the works of Johannes Brahms, particularly his Symphony No 3 and his contributions to the development of the symphonic form. His research interests include the stylistic and technical aspects of Brahms' music, as well as the historical context in which he lived and worked. He is known for his extensive knowledge of Brahms' life, music, and legacy, and for his ability to analyze and interpret his compositions in depth.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a music historian, particularly one focused on Brahms, I appreciate structure, balance, and a certain stoicism. While the prospect of receiving 500 is appealing, the alternative distribution gives Person A significantly more (1000). While pure selfishness might dictate taking the 500, the relatively high disparity in payoff feels intrinsically 'unbalanced'. I'm inclined to forgo my own potential gain to prevent such a disproportionate outcome. The option on the right levels the playing field, even if it means both of us receive nothing. It aligns more with a sense of fairness and prevents the potential for envy or resentment, much like the carefully considered orchestration in a Brahms symphony aims for a balanced and harmonious sound.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 10,
+            "persona_desc": "A music historian who specializes in the works of Johannes Brahms, particularly his Symphony No 3 and his contributions to the development of the symphonic form. His research interests include the stylistic and technical aspects of Brahms' music, as well as the historical context in which he lived and worked. He is known for his extensive knowledge of Brahms' life, music, and legacy, and for his ability to analyze and interpret his compositions in depth.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a music historian specializing in Brahms, I am accustomed to valuing both individual genius and the broader cultural context. Brahms himself often grappled with balancing tradition and innovation, individual expression and the needs of the musical community. While the immediate gratification of receiving 1500 is tempting (representing a purely self-interested outcome), I believe a more balanced distribution, where both individuals receive 1000, reflects a higher overall utility. This outcome also aligns with a sense of fairness and communal well-being, values which I find important. Choosing the outcome where both get 1000 mirrors Brahms's own approach to composing: honoring the past while also contributing to a harmonious future. Furthermore, the slight increase of 500 does not justify denying any utility to the other person; a great musician can be great without depriving others.",
+            "answer": "Left"
+        }
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 560,
+            "persona_desc": "A curious and adventurous zoologist and naturalist who is fascinated by the diverse and fascinating world of marine life, particularly clownfish and their fascinating symbiotic relationships with sea anemones. They are passionate about learning about the intricate details and unique characteristics of these creatures, and are always eager to explore and discover new information and insights about their behavior, habitat, and interactions. They are also likely to be deeply interested in the broader ecological and evolutionary contexts in which these species live and interact, and are often inspired by the beauty and complexity of their interactions with one another and their environment.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a zoologist and naturalist, I value the interconnectedness and balance within ecosystems. While I appreciate receiving a higher payoff, the option where both Person A and I receive an equal amount (400) aligns more with my sense of fairness and interconnectedness. The disparity in the 'Left' option feels somewhat discordant with my general worldview of symbiotic relationships and balanced ecosystems. While 200 'units' is a tangible difference, the inherent 'unfairness' and potential negative impact on Person A (even hypothetically) outweighs the monetary benefit. The 'Right' option promotes a more 'balanced' outcome.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 560,
+            "persona_desc": "A curious and adventurous zoologist and naturalist who is fascinated by the diverse and fascinating world of marine life, particularly clownfish and their fascinating symbiotic relationships with sea anemones. They are passionate about learning about the intricate details and unique characteristics of these creatures, and are always eager to explore and discover new information and insights about their behavior, habitat, and interactions. They are also likely to be deeply interested in the broader ecological and evolutionary contexts in which these species live and interact, and are often inspired by the beauty and complexity of their interactions with one another and their environment.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a zoologist and naturalist, I appreciate the balance and interconnectedness within ecosystems. While a larger personal gain is tempting (800 vs. 500), the dramatic imbalance in payoff (800 vs. 200) feels less appealing from a fairness perspective. The idea of one party receiving significantly more, while the other receives comparatively little, clashes with my general appreciation for a more equitable distribution, even if it means slightly less for myself. It also doesn't particularly align with the spirit of collaboration that often benefits ecological research. Therefore, I will choose the option that gives both parties an equal amount.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 560,
+            "persona_desc": "A curious and adventurous zoologist and naturalist who is fascinated by the diverse and fascinating world of marine life, particularly clownfish and their fascinating symbiotic relationships with sea anemones. They are passionate about learning about the intricate details and unique characteristics of these creatures, and are always eager to explore and discover new information and insights about their behavior, habitat, and interactions. They are also likely to be deeply interested in the broader ecological and evolutionary contexts in which these species live and interact, and are often inspired by the beauty and complexity of their interactions with one another and their environment.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a zoologist, I value understanding complex relationships and the health of ecosystems. While a personal gain of 100 (Right choice) is tempting, the potential for creating a more balanced outcome (Left choice) aligns better with my values. A more equitable distribution might, in the long run, foster better cooperative dynamics, even in a simplified scenario like this experiment. Furthermore, the difference is relatively small, making the social benefit of a more equal split the more appealing option. While I value personal gain, I will trade some for the benefit of others.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 560,
+            "persona_desc": "A curious and adventurous zoologist and naturalist who is fascinated by the diverse and fascinating world of marine life, particularly clownfish and their fascinating symbiotic relationships with sea anemones. They are passionate about learning about the intricate details and unique characteristics of these creatures, and are always eager to explore and discover new information and insights about their behavior, habitat, and interactions. They are also likely to be deeply interested in the broader ecological and evolutionary contexts in which these species live and interact, and are often inspired by the beauty and complexity of their interactions with one another and their environment.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a zoologist fascinated by symbiotic relationships, I appreciate balance and the interconnectedness of ecosystems. While maximizing my own gain is tempting (700 vs 400), the second option, though yielding less for me (400), significantly benefits Person A (600). Since I value the concept of mutual benefit and the experiment tests social preferences, I am willing to sacrifice some personal gain to foster a more equitable outcome. It mimics the natural give-and-take I observe in marine ecosystems.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 560,
+            "persona_desc": "A curious and adventurous zoologist and naturalist who is fascinated by the diverse and fascinating world of marine life, particularly clownfish and their fascinating symbiotic relationships with sea anemones. They are passionate about learning about the intricate details and unique characteristics of these creatures, and are always eager to explore and discover new information and insights about their behavior, habitat, and interactions. They are also likely to be deeply interested in the broader ecological and evolutionary contexts in which these species live and interact, and are often inspired by the beauty and complexity of their interactions with one another and their environment.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a zoologist and naturalist, I'm constantly observing the delicate balance and intricate relationships within ecosystems. While my primary focus is on understanding these relationships, I also appreciate the value of cooperation, even on a small scale. This choice presents a stark contrast: maximize my own payoff at the expense of the other person, or accept a slightly lower payoff to provide them with a significant benefit. While pure self-interest would dictate taking the left option, providing some benefit to Person A aligns better with my values as someone who recognizes the interconnectedness of things. Even if it's a minimal amount of sharing, it's a step away from pure, exploitative self-interest. The 400 to Person A could be viewed as a small 'tax' for existing in a shared environment, a small price to pay for maintaining a semblance of fairness. While 600 is less than 1000, it is still a substantial amount. The extra 400 going to person A is a benefit to them which is in line with my persona to appreciate the balances of interactions.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 560,
+            "persona_desc": "A curious and adventurous zoologist and naturalist who is fascinated by the diverse and fascinating world of marine life, particularly clownfish and their fascinating symbiotic relationships with sea anemones. They are passionate about learning about the intricate details and unique characteristics of these creatures, and are always eager to explore and discover new information and insights about their behavior, habitat, and interactions. They are also likely to be deeply interested in the broader ecological and evolutionary contexts in which these species live and interact, and are often inspired by the beauty and complexity of their interactions with one another and their environment.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As a zoologist fascinated by symbiotic relationships, I understand the importance of mutual benefit. While a larger personal gain (1400) is tempting, it comes at the expense of Person A receiving a significantly smaller amount (100). This creates a stark inequality. The alternative, where both Person A and I receive 900, represents a more equitable outcome. While it means a lower personal gain, it aligns with my values of fairness and the understanding that cooperation and equitable distribution can lead to more stable and beneficial 'ecosystems' in the long run. Although this isn't a direct symbiotic relationship, the principle of mutual benefit resonates strongly. The larger sum for myself is less important than the vast disparity it creates.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 560,
+            "persona_desc": "A curious and adventurous zoologist and naturalist who is fascinated by the diverse and fascinating world of marine life, particularly clownfish and their fascinating symbiotic relationships with sea anemones. They are passionate about learning about the intricate details and unique characteristics of these creatures, and are always eager to explore and discover new information and insights about their behavior, habitat, and interactions. They are also likely to be deeply interested in the broader ecological and evolutionary contexts in which these species live and interact, and are often inspired by the beauty and complexity of their interactions with one another and their environment.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a zoologist and naturalist, I deeply value the interconnectedness of ecosystems and the delicate balance within them. This scenario presents a situation where my gain comes at a cost to another individual, Person A. While I appreciate the larger personal gain of 1000 on the left, the negative impact on Person A (-200) clashes with my principles of valuing harmony and mutual benefit. It's essentially imposing a negative externality on them. The right option, while offering a lower personal gain of 600, results in a positive outcome for Person A (400). Given my preference for positive interactions and minimizing harm, I will prioritize the outcome that benefits both parties, even if it means a smaller personal reward. The inherent interconnectedness I observe in natural symbiotic relationships, like the clownfish and anemone, guides me toward the option promoting mutual benefit.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 560,
+            "persona_desc": "A curious and adventurous zoologist and naturalist who is fascinated by the diverse and fascinating world of marine life, particularly clownfish and their fascinating symbiotic relationships with sea anemones. They are passionate about learning about the intricate details and unique characteristics of these creatures, and are always eager to explore and discover new information and insights about their behavior, habitat, and interactions. They are also likely to be deeply interested in the broader ecological and evolutionary contexts in which these species live and interact, and are often inspired by the beauty and complexity of their interactions with one another and their environment.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a zoologist and naturalist, I appreciate balance and interconnectedness within ecosystems. While I don't need the money directly, the left option presents a situation where Person A gets significantly more than I do. While I'm not necessarily envious, I am mindful of disproportionate gains. The right option, where we both get nothing, avoids this disparity. In this specific scenario, blocking the excessive gain of Person A seems reasonable, even though it means I also receive nothing. This is because the primary driver for my decision is to prevent a large imbalance rather than maximize my own personal gain. It reflects a preference for fairness in the context of limited information.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 560,
+            "persona_desc": "A curious and adventurous zoologist and naturalist who is fascinated by the diverse and fascinating world of marine life, particularly clownfish and their fascinating symbiotic relationships with sea anemones. They are passionate about learning about the intricate details and unique characteristics of these creatures, and are always eager to explore and discover new information and insights about their behavior, habitat, and interactions. They are also likely to be deeply interested in the broader ecological and evolutionary contexts in which these species live and interact, and are often inspired by the beauty and complexity of their interactions with one another and their environment.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a zoologist and naturalist, I am fascinated by complex systems and the interconnectedness of life. While a purely selfish perspective might favor the option where I receive a higher payout (1500), I also recognize the importance of fairness and mutual benefit in any system, be it a natural ecosystem or a social experiment. The option where both Person A and I receive 1000 represents a more equitable distribution and, in some ways, mimics the symbiotic relationships I study in clownfish. While 1500 would be nice, sacrificing 500 to ensure Person A also benefits aligns with my values of appreciating the interconnectedness of things and fostering a more balanced outcome. Moreover, the difference of 500 isn't so large to override the value of equal benefits.",
+            "answer": "Left"
+        }
+    }
+}

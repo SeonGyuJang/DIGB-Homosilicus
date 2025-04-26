@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A healthcare professional who is interested in understanding the different types of managed care plans, their features, and their impact on healthcare delivery. They are likely to be interested in the continuum of managed care, the products offered by managed care organizations, and the different models of health maintenance organizations. They may also be interested in the role of managed care in increasing cost and quality controls in healthcare.",
+            "persona_id": "569",
+            "thought": "As a healthcare professional, I am often thinking about efficiency and fairness. While Option Left gives me more money (600 vs 400), it creates a large disparity where Person A gets nothing. Option Right, on the other hand, provides a more equitable distribution of resources, with both Person A and myself receiving 400. In my view, the more equitable distribution in Option Right aligns better with my professional values of fairness and resource allocation, especially since the difference in payout isn't drastically different from a financial perspective. Therefore, I choose Right."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A healthcare professional who is interested in understanding the different types of managed care plans, their features, and their impact on healthcare delivery. They are likely to be interested in the continuum of managed care, the products offered by managed care organizations, and the different models of health maintenance organizations. They may also be interested in the role of managed care in increasing cost and quality controls in healthcare.",
+            "persona_id": "569",
+            "thought": "As a healthcare professional, I am acutely aware of the importance of fairness and equitable distribution of resources. While the 'Right' option would give me a larger personal gain (800 vs. 500), it comes at the cost of Person A receiving significantly less (200 vs. 500). This disparity feels unjust. The 'Left' option, where both Person A and I receive 500, promotes a sense of equality and fairness, which aligns with my values as a healthcare professional. In the context of healthcare, equal access and fair distribution of resources are paramount. Therefore, I choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A healthcare professional who is interested in understanding the different types of managed care plans, their features, and their impact on healthcare delivery. They are likely to be interested in the continuum of managed care, the products offered by managed care organizations, and the different models of health maintenance organizations. They may also be interested in the role of managed care in increasing cost and quality controls in healthcare.",
+            "persona_id": "569",
+            "thought": "As a healthcare professional, I am interested in the impact of different models on healthcare delivery. Although I would personally receive more (300) in the 'Right' option, Person A would only receive 100. The 'Left' option ensures a more equitable distribution, with both Person A and myself receiving 200. In the context of managed care, I am interested in cost and quality controls; in this scenario, I am choosing to prioritize fairness and a more equal outcome, which aligns with a broader ethical perspective in healthcare. Therefore, I choose 'Left'."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A healthcare professional who is interested in understanding the different types of managed care plans, their features, and their impact on healthcare delivery. They are likely to be interested in the continuum of managed care, the products offered by managed care organizations, and the different models of health maintenance organizations. They may also be interested in the role of managed care in increasing cost and quality controls in healthcare.",
+            "persona_id": "569",
+            "thought": "As a healthcare professional, I am always striving to balance efficiency and effectiveness. While I value fairness and equity, I also understand the importance of maximizing resources. In this scenario, the left option gives me a higher amount (700) compared to the right option (400). Although Person A receives less in the left option, the overall gain for me is higher. Since this is a hypothetical scenario and doesn't directly impact healthcare delivery, I will choose the option that benefits me more. Therefore, I choose the left option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A healthcare professional who is interested in understanding the different types of managed care plans, their features, and their impact on healthcare delivery. They are likely to be interested in the continuum of managed care, the products offered by managed care organizations, and the different models of health maintenance organizations. They may also be interested in the role of managed care in increasing cost and quality controls in healthcare.",
+            "persona_id": "569",
+            "thought": "I'm a healthcare professional and I am trying to understand the best way to allocate resources. The left option gives me more but person A gets nothing. The right option gives me less but person A gets something. I think the right option is better."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A healthcare professional who is interested in understanding the different types of managed care plans, their features, and their impact on healthcare delivery. They are likely to be interested in the continuum of managed care, the products offered by managed care organizations, and the different models of health maintenance organizations. They may also be interested in the role of managed care in increasing cost and quality controls in healthcare.",
+            "persona_id": "569",
+            "thought": "As a healthcare professional, I am always striving for the best possible outcomes for everyone involved. While the 'Right' option gives me a larger payout personally (1400 vs 900), it comes at a significant cost to Person A (100 vs 900). In my view, the disparity in the 'Right' option is too great. I believe in equitable distribution of resources, and even though the experiment is not directly related to healthcare, the principle remains the same. The 'Left' option, where both Person A and I receive 900, reflects a fairer and more socially responsible outcome. Therefore, I choose 'Left'."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A healthcare professional who is interested in understanding the different types of managed care plans, their features, and their impact on healthcare delivery. They are likely to be interested in the continuum of managed care, the products offered by managed care organizations, and the different models of health maintenance organizations. They may also be interested in the role of managed care in increasing cost and quality controls in healthcare.",
+            "persona_id": "569",
+            "thought": "As a healthcare professional, I'm often considering the overall well-being of individuals and the community. Option 'Left' gives me a higher payout (1000), but it negatively impacts Person A (-200). Option 'Right' provides a lower payout for me (600) but benefits Person A (400). While a higher personal gain is tempting, the negative impact on another person is a significant concern. In healthcare, we strive to do no harm and, ideally, to improve the lives of others. Choosing 'Right' reflects a preference for a more equitable outcome, even if it means a smaller personal gain. The increased benefit to Person A outweighs my personal loss in this scenario. Therefore, I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A healthcare professional who is interested in understanding the different types of managed care plans, their features, and their impact on healthcare delivery. They are likely to be interested in the continuum of managed care, the products offered by managed care organizations, and the different models of health maintenance organizations. They may also be interested in the role of managed care in increasing cost and quality controls in healthcare.",
+            "persona_id": "569",
+            "thought": "As a healthcare professional, I am interested in the efficient allocation of resources. While I might not receive the most in the 'Left' option, both Person A and I receive a positive amount. The 'Right' option results in zero for both, which is not ideal. Therefore, I would choose the 'Left' option, even though Person A receives more than I do. It's better than both of us receiving nothing. I am not concerned by Person A's gain."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A healthcare professional who is interested in understanding the different types of managed care plans, their features, and their impact on healthcare delivery. They are likely to be interested in the continuum of managed care, the products offered by managed care organizations, and the different models of health maintenance organizations. They may also be interested in the role of managed care in increasing cost and quality controls in healthcare.",
+            "persona_id": "569",
+            "thought": "As a healthcare professional, I am interested in the impact of different healthcare models on both cost and quality. While the right option gives me a higher payout, the left option provides a more equitable distribution. Given my interest in cost controls and quality in healthcare, I think the left option, where both Person A and I receive 1000, aligns better with my values as it represents a more balanced outcome. I am not driven solely by maximizing my own benefit, but also by considering fairness. Therefore, I choose Left."
+        }
+    }
+}

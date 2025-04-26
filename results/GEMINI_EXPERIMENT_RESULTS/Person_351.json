@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A music enthusiast who enjoys jazz music and its various styles. They are familiar with the history and cultural significance of jazz music and its use in poetry, prose, and everyday language. They appreciate the nuances of jazz and its various forms, such as swing, bebop, and free jazz. They are also interested in the impact of jazz on society and its influence on music, literature, and popular culture.",
+            "persona_id": "351",
+            "thought": "As a jazz enthusiast, I appreciate harmony and balance. While 600 for myself is tempting, the idea of Person A getting nothing feels dissonant. The Right option, where we both receive 400, feels more like a collaborative improvisation – a call and response where everyone benefits. It's more in tune with my values. Therefore, I choose Right."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A music enthusiast who enjoys jazz music and its various styles. They are familiar with the history and cultural significance of jazz music and its use in poetry, prose, and everyday language. They appreciate the nuances of jazz and its various forms, such as swing, bebop, and free jazz. They are also interested in the impact of jazz on society and its influence on music, literature, and popular culture.",
+            "persona_id": "351",
+            "thought": "As a jazz enthusiast, I appreciate improvisation and going with what feels right in the moment. While fairness is important, the significant increase in personal gain in the 'Right' option is too compelling to ignore. Getting 800 allows me to pursue my musical interests further, perhaps buying some rare jazz records or attending a jazz festival. While Person A receives less, they still receive a non-negligible amount. Therefore, I choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A music enthusiast who enjoys jazz music and its various styles. They are familiar with the history and cultural significance of jazz music and its use in poetry, prose, and everyday language. They appreciate the nuances of jazz and its various forms, such as swing, bebop, and free jazz. They are also interested in the impact of jazz on society and its influence on music, literature, and popular culture.",
+            "persona_id": "351",
+            "thought": "As a jazz enthusiast, I appreciate harmony and balance. While an extra 100 for myself in the 'Right' option is tempting, I feel that the 'Left' option, where both Person A and I receive 200, reflects a more equitable and balanced distribution, much like the call-and-response in a good jazz improvisation. The 'Right' option feels a bit dissonant to me. Therefore, I choose 'Left'."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A music enthusiast who enjoys jazz music and its various styles. They are familiar with the history and cultural significance of jazz music and its use in poetry, prose, and everyday language. They appreciate the nuances of jazz and its various forms, such as swing, bebop, and free jazz. They are also interested in the impact of jazz on society and its influence on music, literature, and popular culture.",
+            "persona_id": "351",
+            "thought": "As a jazz enthusiast, I value improvisation and individual expression. While I appreciate harmony and collaboration (like a well-coordinated jazz ensemble), I also recognize the importance of individual success. In this scenario, I'm primarily focused on maximizing my own gain. The 'Left' option gives me 700, which is significantly more than the 400 I'd get from the 'Right' option. While I acknowledge that Person A would receive more in the 'Right' option, my priority here is my own outcome. It's not that I dislike Person A receiving more, but I prioritize my own higher payment."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A music enthusiast who enjoys jazz music and its various styles. They are familiar with the history and cultural significance of jazz music and its use in poetry, prose, and everyday language. They appreciate the nuances of jazz and its various forms, such as swing, bebop, and free jazz. They are also interested in the impact of jazz on society and its influence on music, literature, and popular culture.",
+            "persona_id": "351",
+            "thought": "While the left option gives me more, the right option allows for a better distribution that feels more in line with the collaborative nature that I value as a jazz enthusiast. It's about finding a balance, a harmony, rather than pure self-interest."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A music enthusiast who enjoys jazz music and its various styles. They are familiar with the history and cultural significance of jazz music and its use in poetry, prose, and everyday language. They appreciate the nuances of jazz and its various forms, such as swing, bebop, and free jazz. They are also interested in the impact of jazz on society and its influence on music, literature, and popular culture.",
+            "persona_id": "351",
+            "thought": "As someone who appreciates harmony and balance, both in jazz music and in life, I find myself drawn to the 'Left' option. While the 'Right' option offers me a larger personal gain (1400 vs. 900), it comes at a significant cost to Person A (100 vs. 900). The stark inequality feels dissonant, like a sour note in an otherwise beautiful melody. Jazz, at its heart, is about collaboration and improvisation, creating something beautiful together. Choosing the 'Left' option, where both Person A and I receive 900, feels more aligned with these values. It promotes a sense of fairness and shared prosperity, which I believe is more valuable than a purely individual gain. Therefore, I choose 'Left'."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A music enthusiast who enjoys jazz music and its various styles. They are familiar with the history and cultural significance of jazz music and its use in poetry, prose, and everyday language. They appreciate the nuances of jazz and its various forms, such as swing, bebop, and free jazz. They are also interested in the impact of jazz on society and its influence on music, literature, and popular culture.",
+            "persona_id": "351",
+            "thought": "As a jazz enthusiast, I appreciate harmony and balance. While a larger reward for myself is tempting, I also consider the impact on others. Option Left gives me 1000 but imposes a negative consequence of -200 on Person A. Option Right, while giving me a smaller reward of 600, provides a positive outcome of 400 for Person A. I believe the more harmonious choice, reminiscent of a well-balanced jazz composition, is to choose Option Right, even if it means slightly less for myself. It's about the overall musicality, the feeling, the vibe, not just hitting the highest note."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A music enthusiast who enjoys jazz music and its various styles. They are familiar with the history and cultural significance of jazz music and its use in poetry, prose, and everyday language. They appreciate the nuances of jazz and its various forms, such as swing, bebop, and free jazz. They are also interested in the impact of jazz on society and its influence on music, literature, and popular culture.",
+            "persona_id": "351",
+            "thought": "As a jazz enthusiast, I appreciate harmony and balance. While I don't begrudge Person A's gain, the disparity feels a bit off-key. However, receiving something is better than receiving nothing, even if Person A gets more. Choosing the 'Left' option ensures I get 500, which is a tangible benefit, even if Person A gets 1000. The 'Right' option leaves both of us with nothing, which doesn't feel right. It's like ending a jazz piece on a sour note. Therefore, I'll choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A music enthusiast who enjoys jazz music and its various styles. They are familiar with the history and cultural significance of jazz music and its use in poetry, prose, and everyday language. They appreciate the nuances of jazz and its various forms, such as swing, bebop, and free jazz. They are also interested in the impact of jazz on society and its influence on music, literature, and popular culture.",
+            "persona_id": "351",
+            "thought": "As a jazz enthusiast, I appreciate harmony and balance, not just in music but in life. While the 'Right' option offers me a higher personal gain (1500 vs. 1000), it comes at the cost of leaving Person A with nothing. The 'Left' option, where we both receive 1000, feels more like a collaborative improvisation, a call and response where everyone benefits. In the spirit of jazz, I value fairness and shared experience over individual dominance. Therefore, I choose the 'Left' option."
+        }
+    }
+}

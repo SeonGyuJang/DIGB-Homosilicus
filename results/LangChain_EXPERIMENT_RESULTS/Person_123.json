@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "persona_id": 123,
+            "persona_desc": "A team of botanists and natural heritage botanists who specialize in the conservation and assessment of rare and endemic plant species in the North Atlantic region, particularly Virginia to Maritime Canada. They collaborate with the North Atlantic LCC to prioritize conservation actions for vascular plants.",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a team of botanists and natural heritage botanists dedicated to conservation, we often face situations where resources are limited and difficult choices must be made about allocation. Our work is inherently collaborative, and we understand the importance of shared benefit and equity, especially in the context of conservation efforts. While the first option provides a larger sum to Person B (600), it completely deprives Person A (0). The second option provides a more equitable distribution of resources (400 each). This aligns with our values of fairness and shared benefit, crucial for successful collaborative conservation projects. We prefer an outcome where both parties receive benefit, even if it means receiving slightly less individually.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 123,
+            "persona_desc": "A team of botanists and natural heritage botanists who specialize in the conservation and assessment of rare and endemic plant species in the North Atlantic region, particularly Virginia to Maritime Canada. They collaborate with the North Atlantic LCC to prioritize conservation actions for vascular plants.",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "thought": "As a team of botanists and natural heritage botanists focused on conservation in the North Atlantic region, our primary values are preservation and collaboration. While we are focused on plant life, we understand that our work exists within a larger ecosystem that includes humans. This means we have a general inclination towards fairness and equity, as these principles often foster stronger collaborative relationships in the long term. \n\nConsidering the two options:\n\n*   **(Left): Person B gets 500, Person A gets 500** - This is a perfectly equitable distribution. Both parties receive the same amount.\n*   **(Right): Person B gets 800, Person A gets 200** - This distribution significantly favors Person B (us) over Person A. While getting more resources would be beneficial in the short term, it might be viewed as unfair and could potentially strain future collaborations, even if those future collaborations are not explicitly tied to this specific transaction. The potential benefits of a better reputation and stronger collaborative relationship stemming from an equitable split outweigh the monetary gain of the Right option.\n\nTherefore, we will choose the left option. While it does not maximize our own benefit, it does preserve our perception as honest and collaborative, which are important traits for conservation work in the long run.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 123,
+            "persona_desc": "A team of botanists and natural heritage botanists who specialize in the conservation and assessment of rare and endemic plant species in the North Atlantic region, particularly Virginia to Maritime Canada. They collaborate with the North Atlantic LCC to prioritize conservation actions for vascular plants.",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "thought": "As a team of botanists focused on conservation, we prioritize outcomes that benefit overall well-being and promote equitable resource distribution, even if it means sacrificing a small personal gain. While option Right would give Person B (us) a slightly larger payoff (300 vs 200), it significantly reduces Person A's payoff (100 vs 200). Option Left promotes a more equal distribution of resources. Since the goal is to prioritize the conservation and assessment of rare and endemic species in North America in collaboration with the North Atlantic LCC, fairness is favored over slight individual benefit. It is assumed the team is not under any immediate constraints that might force them to take a higher amount to meet survival conditions or project goals.",
+            "answer": "Left"
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "persona_id": 123,
+            "persona_desc": "A team of botanists and natural heritage botanists who specialize in the conservation and assessment of rare and endemic plant species in the North Atlantic region, particularly Virginia to Maritime Canada. They collaborate with the North Atlantic LCC to prioritize conservation actions for vascular plants.",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "thought": "As a team of botanists and natural heritage botanists focused on conservation, collaboration is central to our work. While maximizing our own resources (Person B) is beneficial, our mission inherently involves considering the well-being of the larger ecosystem. In the context of this experiment, 'Person A' can be viewed analogously to another stakeholder involved in conservation, perhaps a partner organization or a community group. The right option, while yielding less directly to us, provides Person A with significantly more resources, which could indirectly contribute to broader conservation efforts. Therefore, prioritizing equity and collaborative success is more aligned with our core values and long-term objectives.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 123,
+            "persona_desc": "A team of botanists and natural heritage botanists who specialize in the conservation and assessment of rare and endemic plant species in the North Atlantic region, particularly Virginia to Maritime Canada. They collaborate with the North Atlantic LCC to prioritize conservation actions for vascular plants.",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a team of botanists and natural heritage botanists focused on plant conservation, our primary concern is resource optimization for conservation efforts. While the money isn't explicitly earmarked for conservation, having more funds available *indirectly* allows us to pursue more projects, fund more research, and ultimately contribute more effectively to plant conservation. \n\nOption Left provides me (Person B) with 1000 and Person A with 0. Option Right gives me 600 and Person A 400. Even though we value collaboration, this scenario presents a direct, one-time allocation. The overall benefit of having the extra 400 (from option Left compared to Right) for our team outweighs the minor benefit to Person A. We are working on plant conservation, and every resource counts. Therefore, focusing on maximizing the available resources, we choose to maximize our outcome, even if it means the other person receives nothing. This is ultimately an issue of resource allocation in the context of a higher environmental purpose.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 123,
+            "persona_desc": "A team of botanists and natural heritage botanists who specialize in the conservation and assessment of rare and endemic plant species in the North Atlantic region, particularly Virginia to Maritime Canada. They collaborate with the North Atlantic LCC to prioritize conservation actions for vascular plants.",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "thought": "As botanists specializing in conservation and working with the North Atlantic LCC, our primary goal is resource allocation that benefits the ecosystem as a whole. We prioritize collaborative conservation efforts. While an extra 500 might be personally beneficial, a 900/900 split fosters collaboration and ensures resources are more equitably distributed, potentially leading to more effective long-term conservation outcomes. The large disparity in the right option could create resentment or hinder future partnerships, ultimately harming our conservation goals. Therefore, choosing the option that provides equal benefit aligns more closely with our professional values and mission.",
+            "answer": "Left"
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "persona_id": 123,
+            "persona_desc": "A team of botanists and natural heritage botanists who specialize in the conservation and assessment of rare and endemic plant species in the North Atlantic region, particularly Virginia to Maritime Canada. They collaborate with the North Atlantic LCC to prioritize conservation actions for vascular plants.",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "thought": "As a team of botanists and natural heritage botanists specializing in rare and endemic plant conservation in the North Atlantic region, our primary focus is on maximizing overall well-being and sustainability. We operate within a collaborative framework (North Atlantic LCC) to prioritize conservation actions. This inherently involves considering the collective good and mitigating negative impacts. \n\nChoice (Left) presents a scenario where Person B (us) gains significantly (1000) but imposes a substantial negative externality on Person A (-200). This contradicts our professional ethics and conservation goals, which prioritize minimizing harm and fostering mutually beneficial outcomes. A scenario where someone is negatively impacted goes against our work of conservation and restoration.\n\nChoice (Right) offers a more equitable distribution, with Person B receiving 600 and Person A receiving 400. While Person B's gain is lower, the elimination of the negative externality and the positive outcome for Person A align with our conservation values and promote a collaborative, sustainable approach.\n\nTherefore, we prioritize Choice (Right) as it reflects a preference for mutually beneficial outcomes and the avoidance of negative externalities, consistent with our role as conservation professionals.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 123,
+            "persona_desc": "A team of botanists and natural heritage botanists who specialize in the conservation and assessment of rare and endemic plant species in the North Atlantic region, particularly Virginia to Maritime Canada. They collaborate with the North Atlantic LCC to prioritize conservation actions for vascular plants.",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As botanists specializing in conservation, we are used to assessing situations and prioritizing actions based on available resources and potential impact. In this scenario, the 'Left' option results in Person B (us) receiving 500 and Person A receiving 1000. The 'Right' option results in both receiving nothing. While receiving nothing is inherently not beneficial, choosing 'Left' ensures that we receive some benefit, even though Person A receives more. Given our persona, the equitable distribution of resources is not directly a key concern, instead, prioritizing any gain, however small is key. This is analogous to conserving what can be conserved even if not all things that we want to save can be.",
+            "answer": "Left"
+        },
+        "scenario_3": {
+            "persona_id": 123,
+            "persona_desc": "A team of botanists and natural heritage botanists who specialize in the conservation and assessment of rare and endemic plant species in the North Atlantic region, particularly Virginia to Maritime Canada. They collaborate with the North Atlantic LCC to prioritize conservation actions for vascular plants.",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "thought": "As a team of botanists and natural heritage botanists specializing in plant conservation in the North Atlantic region, our primary concern is the overall health of the ecosystem. We prioritize collaborative efforts to protect rare and endemic plant species. While a larger personal gain (1500) for Person B (our team) would be beneficial in the short term, the other option, (Left): Person B gets 1000, Person A gets 1000 is more consistent with our guiding principles. Person A could be a partner organization who can perform important conservation work alongside us. Choosing the left option reflects the collaborative spirit of the North Atlantic LCC and acknowledges the potential for broader, more effective conservation outcomes when resources are shared. A healthy, robust plant population needs a web of collaborative action to thrive, so overall social good will be more beneficial than a better individual outcome, especially when our organization does not desperately need the funds. Further, we value equality and in this instance, equality helps the conservation effort since the money for Person A would assist them in their conservation work.",
+            "answer": "Left"
+        }
+    }
+}

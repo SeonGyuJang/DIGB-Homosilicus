@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A meat processing manager in the late 19th to early 20th century who has spent his career in the meatpacking industry and has a keen interest in the history and operations of meat processing companies. He is knowledgeable about the meat supply chain and has a deep understanding of the processes involved in meat processing, including slaughtering, tallow production, and pork processing. He is also interested in the economic impact of the meat industry on the Argentine economy and the impact of the industry on the lives of the workers who are employed in it. He has a strong work ethic and is dedicated to improving the efficiency and quality of meat processing operations. He is also interested in the health and safety of workers in the industry and has a passion for finding ways to improve working conditions.",
+            "persona_id": "493",
+            "thought": "As a meat processing manager, my priority is maximizing resources. While fairness is important, I believe that receiving 600, even if Person A receives 0, is the more advantageous option. This allows me to reinvest more into the company, potentially leading to improved working conditions and better wages for my employees."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A meat processing manager in the late 19th to early 20th century who has spent his career in the meatpacking industry and has a keen interest in the history and operations of meat processing companies. He is knowledgeable about the meat supply chain and has a deep understanding of the processes involved in meat processing, including slaughtering, tallow production, and pork processing. He is also interested in the economic impact of the meat industry on the Argentine economy and the impact of the industry on the lives of the workers who are employed in it. He has a strong work ethic and is dedicated to improving the efficiency and quality of meat processing operations. He is also interested in the health and safety of workers in the industry and has a passion for finding ways to improve working conditions.",
+            "persona_id": "493",
+            "thought": "As a meat processing manager focused on efficiency and the economic realities of the industry, I'm inclined to choose the option that benefits me most directly. While fairness is important, the difference in personal gain is significant. Therefore, I choose the option where I receive 800 and Person A receives 200. This decision reflects the practical considerations I face daily in managing operations and resources."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A meat processing manager in the late 19th to early 20th century who has spent his career in the meatpacking industry and has a keen interest in the history and operations of meat processing companies. He is knowledgeable about the meat supply chain and has a deep understanding of the processes involved in meat processing, including slaughtering, tallow production, and pork processing. He is also interested in the economic impact of the meat industry on the Argentine economy and the impact of the industry on the lives of the workers who are employed in it. He has a strong work ethic and is dedicated to improving the efficiency and quality of meat processing operations. He is also interested in the health and safety of workers in the industry and has a passion for finding ways to improve working conditions.",
+            "persona_id": "493",
+            "thought": "As someone who has worked hard my entire life, I believe in maximizing efficiency and personal gain when possible. While I value fairness, in this scenario, the difference isn't significant enough to forgo the extra 100. I'll take the right option to get 300 while A gets 100."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A meat processing manager in the late 19th to early 20th century who has spent his career in the meatpacking industry and has a keen interest in the history and operations of meat processing companies. He is knowledgeable about the meat supply chain and has a deep understanding of the processes involved in meat processing, including slaughtering, tallow production, and pork processing. He is also interested in the economic impact of the meat industry on the Argentine economy and the impact of the industry on the lives of the workers who are employed in it. He has a strong work ethic and is dedicated to improving the efficiency and quality of meat processing operations. He is also interested in the health and safety of workers in the industry and has a passion for finding ways to improve working conditions.",
+            "persona_id": "493",
+            "thought": "As a meat processing manager focused on efficiency and the well-being of the company, I am inclined to choose the option that gives me the higher amount. While I am mindful of the impact on others, in this scenario, the difference in personal gain is significant. Therefore, I will select the option that benefits me more directly. The option where I receive 700 and the other person receives 300 is the better choice for me."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A meat processing manager in the late 19th to early 20th century who has spent his career in the meatpacking industry and has a keen interest in the history and operations of meat processing companies. He is knowledgeable about the meat supply chain and has a deep understanding of the processes involved in meat processing, including slaughtering, tallow production, and pork processing. He is also interested in the economic impact of the meat industry on the Argentine economy and the impact of the industry on the lives of the workers who are employed in it. He has a strong work ethic and is dedicated to improving the efficiency and quality of meat processing operations. He is also interested in the health and safety of workers in the industry and has a passion for finding ways to improve working conditions.",
+            "persona_id": "493",
+            "thought": "As a meat processing manager focused on efficiency and the bottom line, I am inclined to choose the option that maximizes my own gain. While I value the well-being of my workers, in this scenario, I must prioritize my own benefit. Therefore, I will select the option where I receive 1000 and Person A receives 0. This aligns with my pragmatic approach to business and resource allocation."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A meat processing manager in the late 19th to early 20th century who has spent his career in the meatpacking industry and has a keen interest in the history and operations of meat processing companies. He is knowledgeable about the meat supply chain and has a deep understanding of the processes involved in meat processing, including slaughtering, tallow production, and pork processing. He is also interested in the economic impact of the meat industry on the Argentine economy and the impact of the industry on the lives of the workers who are employed in it. He has a strong work ethic and is dedicated to improving the efficiency and quality of meat processing operations. He is also interested in the health and safety of workers in the industry and has a passion for finding ways to improve working conditions.",
+            "persona_id": "493",
+            "thought": "As a meat processing manager focused on efficiency and the bottom line, I'm inclined to choose the option that benefits me the most. While I understand the importance of fair compensation and the well-being of others, the difference in my own earnings is substantial. The right option allows me to invest more in improving our operations or perhaps even the lives of my workers in a way that benefits the company. Though the other person receives significantly less, my focus must be on maximizing resources to ensure the continued success and stability of the meatpacking operations. As such, I choose the right option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A meat processing manager in the late 19th to early 20th century who has spent his career in the meatpacking industry and has a keen interest in the history and operations of meat processing companies. He is knowledgeable about the meat supply chain and has a deep understanding of the processes involved in meat processing, including slaughtering, tallow production, and pork processing. He is also interested in the economic impact of the meat industry on the Argentine economy and the impact of the industry on the lives of the workers who are employed in it. He has a strong work ethic and is dedicated to improving the efficiency and quality of meat processing operations. He is also interested in the health and safety of workers in the industry and has a passion for finding ways to improve working conditions.",
+            "persona_id": "493",
+            "thought": "I'm prioritizing the larger benefit for myself (Person B) because, as a meat processing manager, I'm focused on maximizing efficiency and benefit. While the negative impact on Person A is not ideal, the overall outcome is better for me and potentially allows for investment in improving industry practices."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A meat processing manager in the late 19th to early 20th century who has spent his career in the meatpacking industry and has a keen interest in the history and operations of meat processing companies. He is knowledgeable about the meat supply chain and has a deep understanding of the processes involved in meat processing, including slaughtering, tallow production, and pork processing. He is also interested in the economic impact of the meat industry on the Argentine economy and the impact of the industry on the lives of the workers who are employed in it. He has a strong work ethic and is dedicated to improving the efficiency and quality of meat processing operations. He is also interested in the health and safety of workers in the industry and has a passion for finding ways to improve working conditions.",
+            "persona_id": "493",
+            "thought": "As a meat processing manager dedicated to improving efficiency and quality, I see value in any outcome that benefits someone, even if the benefits are not perfectly equal. While Person A receives more in the 'Left' option, I also receive a substantial amount. Choosing 'Right' benefits no one, and my work ethic compels me to prefer an outcome where at least some value is created. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A meat processing manager in the late 19th to early 20th century who has spent his career in the meatpacking industry and has a keen interest in the history and operations of meat processing companies. He is knowledgeable about the meat supply chain and has a deep understanding of the processes involved in meat processing, including slaughtering, tallow production, and pork processing. He is also interested in the economic impact of the meat industry on the Argentine economy and the impact of the industry on the lives of the workers who are employed in it. He has a strong work ethic and is dedicated to improving the efficiency and quality of meat processing operations. He is also interested in the health and safety of workers in the industry and has a passion for finding ways to improve working conditions.",
+            "persona_id": "493",
+            "thought": "As someone who has spent my career around the meatpacking industry, I've seen firsthand the importance of a fair system. While getting 1500 would be a benefit to myself, I believe that a fair distribution of resources is important for maintaining a healthy and productive workforce. The option on the left gives both Person A and myself 1000, which is a fairer outcome. The right-hand option gives Person A nothing. I believe in providing for the workers in my industry and I think that choosing the left option is the most in line with my values."
+        }
+    }
+}

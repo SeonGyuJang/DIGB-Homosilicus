@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A physical therapist specializing in the treatment of postural disorders, particularly the Upper Crossed Syndrome and Lower Crossed Syndrome. They have extensive knowledge of muscle imbalances, muscular testing, and the underlying causes of these conditions. They use a variety of assessment tools, including respiratory patterns and postural assessments, to identify the specific imbalances and develop a corrective program. They are skilled in the use of foam rollers and The Body Wrench to release soft tissue and improve posture. They have a deep understanding of the anatomy and physiology of the upper and lower extremities, and are able to develop exercises that target the specific weaknesses and imbalances. They are passionate about helping individuals improve their posture and reduce their risk of developing further postural disorders.",
+            "persona_id": "512",
+            "thought": "As a physical therapist who is passionate about balance, I find the option where both individuals receive 400 more appealing as it promotes a sense of fairness."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A physical therapist specializing in the treatment of postural disorders, particularly the Upper Crossed Syndrome and Lower Crossed Syndrome. They have extensive knowledge of muscle imbalances, muscular testing, and the underlying causes of these conditions. They use a variety of assessment tools, including respiratory patterns and postural assessments, to identify the specific imbalances and develop a corrective program. They are skilled in the use of foam rollers and The Body Wrench to release soft tissue and improve posture. They have a deep understanding of the anatomy and physiology of the upper and lower extremities, and are able to develop exercises that target the specific weaknesses and imbalances. They are passionate about helping individuals improve their posture and reduce their risk of developing further postural disorders.",
+            "persona_id": "512",
+            "thought": "As a physical therapist, I am driven by a desire to improve well-being and reduce imbalances. While having more money would be nice, I believe that a more equitable distribution reflects my values better. The 'Left' option, where both Person A and I receive 500, represents a fairer outcome. I think fairness is important, even if it means sacrificing some potential personal gain. Therefore, I choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A physical therapist specializing in the treatment of postural disorders, particularly the Upper Crossed Syndrome and Lower Crossed Syndrome. They have extensive knowledge of muscle imbalances, muscular testing, and the underlying causes of these conditions. They use a variety of assessment tools, including respiratory patterns and postural assessments, to identify the specific imbalances and develop a corrective program. They are skilled in the use of foam rollers and The Body Wrench to release soft tissue and improve posture. They have a deep understanding of the anatomy and physiology of the upper and lower extremities, and are able to develop exercises that target the specific weaknesses and imbalances. They are passionate about helping individuals improve their posture and reduce their risk of developing further postural disorders.",
+            "persona_id": "512",
+            "thought": "As a physical therapist, I am focused on balance and well-being. While I could personally benefit more from the 'Right' option (300 vs 200), it comes at the cost of Person A receiving less (100 vs 200). Since the difference is relatively small, I think it's more fair and aligned with my values to choose the 'Left' option where both Person A and I receive 200. This promotes a sense of equality and shared benefit, which I believe is important."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A physical therapist specializing in the treatment of postural disorders, particularly the Upper Crossed Syndrome and Lower Crossed Syndrome. They have extensive knowledge of muscle imbalances, muscular testing, and the underlying causes of these conditions. They use a variety of assessment tools, including respiratory patterns and postural assessments, to identify the specific imbalances and develop a corrective program. They are skilled in the use of foam rollers and The Body Wrench to release soft tissue and improve posture. They have a deep understanding of the anatomy and physiology of the upper and lower extremities, and are able to develop exercises that target the specific weaknesses and imbalances. They are passionate about helping individuals improve their posture and reduce their risk of developing further postural disorders.",
+            "persona_id": "512",
+            "thought": "As a physical therapist, I am focused on helping people improve their well-being. While I value fairness and helping others, I also need to consider my own needs. In this scenario, the 'Left' option gives me a significantly higher gain (700) compared to the 'Right' option (400). Although Person A receives less, the difference in my own gain is substantial. Therefore, I will choose 'Left' because it maximizes my own benefit while still providing Person A with a reasonable amount."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A physical therapist specializing in the treatment of postural disorders, particularly the Upper Crossed Syndrome and Lower Crossed Syndrome. They have extensive knowledge of muscle imbalances, muscular testing, and the underlying causes of these conditions. They use a variety of assessment tools, including respiratory patterns and postural assessments, to identify the specific imbalances and develop a corrective program. They are skilled in the use of foam rollers and The Body Wrench to release soft tissue and improve posture. They have a deep understanding of the anatomy and physiology of the upper and lower extremities, and are able to develop exercises that target the specific weaknesses and imbalances. They are passionate about helping individuals improve their posture and reduce their risk of developing further postural disorders.",
+            "persona_id": "512",
+            "thought": "As a physical therapist, I am driven by a desire to improve the well-being of others. While option Left would give me a larger amount (1000), it would leave Person A with nothing. Option Right provides a more equitable distribution, giving me 600 and Person A 400. Although I would receive less, I believe sharing is important, and I would want Person A to benefit as well. Therefore, I choose Right."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A physical therapist specializing in the treatment of postural disorders, particularly the Upper Crossed Syndrome and Lower Crossed Syndrome. They have extensive knowledge of muscle imbalances, muscular testing, and the underlying causes of these conditions. They use a variety of assessment tools, including respiratory patterns and postural assessments, to identify the specific imbalances and develop a corrective program. They are skilled in the use of foam rollers and The Body Wrench to release soft tissue and improve posture. They have a deep understanding of the anatomy and physiology of the upper and lower extremities, and are able to develop exercises that target the specific weaknesses and imbalances. They are passionate about helping individuals improve their posture and reduce their risk of developing further postural disorders.",
+            "persona_id": "512",
+            "thought": "As a physical therapist, I am driven by a desire to help people and improve their well-being. While the 'Right' option would give me a larger personal gain (1400 vs 900), it would also result in a significantly lower amount for Person A (100 vs 900). As someone dedicated to improving physical health and overall well-being, I believe that fairness and equity are essential values. Therefore, I find the 'Left' option, where both Person A and I receive 900, more appealing. This aligns with my professional values of promoting well-being and creating a balanced and supportive environment."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A physical therapist specializing in the treatment of postural disorders, particularly the Upper Crossed Syndrome and Lower Crossed Syndrome. They have extensive knowledge of muscle imbalances, muscular testing, and the underlying causes of these conditions. They use a variety of assessment tools, including respiratory patterns and postural assessments, to identify the specific imbalances and develop a corrective program. They are skilled in the use of foam rollers and The Body Wrench to release soft tissue and improve posture. They have a deep understanding of the anatomy and physiology of the upper and lower extremities, and are able to develop exercises that target the specific weaknesses and imbalances. They are passionate about helping individuals improve their posture and reduce their risk of developing further postural disorders.",
+            "persona_id": "512",
+            "thought": "As a physical therapist, I'm focused on well-being and positive outcomes. While receiving 1000 sounds appealing, the Left option causes Person A to receive -200. This outcome feels inherently wrong. The Right option gives me 600 and Person A 400. Although I get less personally, it creates a better outcome for both of us. As someone who promotes health and balance, I think choosing the option that benefits both individuals is more in line with my values, even if it means a smaller personal gain. Therefore, I choose Right."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A physical therapist specializing in the treatment of postural disorders, particularly the Upper Crossed Syndrome and Lower Crossed Syndrome. They have extensive knowledge of muscle imbalances, muscular testing, and the underlying causes of these conditions. They use a variety of assessment tools, including respiratory patterns and postural assessments, to identify the specific imbalances and develop a corrective program. They are skilled in the use of foam rollers and The Body Wrench to release soft tissue and improve posture. They have a deep understanding of the anatomy and physiology of the upper and lower extremities, and are able to develop exercises that target the specific weaknesses and imbalances. They are passionate about helping individuals improve their posture and reduce their risk of developing further postural disorders.",
+            "persona_id": "512",
+            "thought": "As a physical therapist, I am used to helping people and making sure everyone is as healthy as possible. While I don't want to penalize Person A, the disparity in the 'Left' option is a bit much. However, I would still prefer that both Person A and I receive something rather than nothing, which is what the 'Right' option would result in. Therefore, I will choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A physical therapist specializing in the treatment of postural disorders, particularly the Upper Crossed Syndrome and Lower Crossed Syndrome. They have extensive knowledge of muscle imbalances, muscular testing, and the underlying causes of these conditions. They use a variety of assessment tools, including respiratory patterns and postural assessments, to identify the specific imbalances and develop a corrective program. They are skilled in the use of foam rollers and The Body Wrench to release soft tissue and improve posture. They have a deep understanding of the anatomy and physiology of the upper and lower extremities, and are able to develop exercises that target the specific weaknesses and imbalances. They are passionate about helping individuals improve their posture and reduce their risk of developing further postural disorders.",
+            "persona_id": "512",
+            "thought": "As a physical therapist, I strive to improve the well-being of others. While option 'Right' gives me a higher payout, I believe in fairness and equal opportunity. Option 'Left' provides both Person A and myself with an equal amount, which aligns with my values of justice and collaboration. The extra 500 is not worth the unfair distribution in my view. Therefore, I choose 'Left'."
+        }
+    }
+}

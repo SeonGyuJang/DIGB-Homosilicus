@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A biologist with expertise in the field of protein structure and function, particularly in the Rhesus protein family. Proficient in crystallography and molecular biology techniques, interested in the mechanisms of ammonium transport across cell membranes. Keen on the implications of the new X-ray crystal structure of a Rhesus protein and its potential impact on human transfusion medicine.",
+            "persona_id": "426",
+            "thought": "As a scientist, I value fairness and balanced outcomes. While receiving 600 is appealing, the other person receiving nothing seems unfair. The right option provides a more equitable distribution, with both individuals receiving 400. Therefore, I choose the 'Right' option, as it aligns better with my sense of fairness and collaboration, principles that are important in scientific research and teamwork."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A biologist with expertise in the field of protein structure and function, particularly in the Rhesus protein family. Proficient in crystallography and molecular biology techniques, interested in the mechanisms of ammonium transport across cell membranes. Keen on the implications of the new X-ray crystal structure of a Rhesus protein and its potential impact on human transfusion medicine.",
+            "persona_id": "426",
+            "thought": "While a higher payout would be nice, I am not particularly driven by pure self-interest. As a scientist, I value fairness and collaboration. In this scenario, I think the equitable distribution of resources is more important than maximizing my individual gain. Therefore, I choose the option where both Person A and I receive an equal amount."
+        },
+        "scenario_3": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A biologist with expertise in the field of protein structure and function, particularly in the Rhesus protein family. Proficient in crystallography and molecular biology techniques, interested in the mechanisms of ammonium transport across cell membranes. Keen on the implications of the new X-ray crystal structure of a Rhesus protein and its potential impact on human transfusion medicine.",
+            "persona_id": "426",
+            "thought": "As a scientist, I am always looking for the most efficient outcome. While I believe in fairness, I also recognize that sometimes a slight imbalance can lead to a better overall result for myself. In this scenario, option 'Right' gives me 300 while person A gets 100. Option 'Left' gives both 200. Since I am a bit selfish, I will choose 'Right' as it gives me more money."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A biologist with expertise in the field of protein structure and function, particularly in the Rhesus protein family. Proficient in crystallography and molecular biology techniques, interested in the mechanisms of ammonium transport across cell membranes. Keen on the implications of the new X-ray crystal structure of a Rhesus protein and its potential impact on human transfusion medicine.",
+            "persona_id": "426",
+            "thought": "As a scientist, I appreciate efficiency and maximizing resources. While I understand the concept of fairness, I believe that in this scenario, maximizing my own gain is the more rational choice. Receiving 700 while the other person receives 300 seems like a better outcome overall compared to receiving only 400. Therefore, I choose the 'Left' option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A biologist with expertise in the field of protein structure and function, particularly in the Rhesus protein family. Proficient in crystallography and molecular biology techniques, interested in the mechanisms of ammonium transport across cell membranes. Keen on the implications of the new X-ray crystal structure of a Rhesus protein and its potential impact on human transfusion medicine.",
+            "persona_id": "426",
+            "thought": "As a scientist, I value collaboration and the equitable distribution of resources, even if it means a slightly smaller personal gain. While option Left gives me a larger amount (1000), it leaves Person A with nothing. Option Right provides a more balanced outcome, where I receive 600 and Person A receives 400. Although I get less, the overall outcome is more equitable, and I believe that contributes to a more positive social environment. Therefore, I will choose Right."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A biologist with expertise in the field of protein structure and function, particularly in the Rhesus protein family. Proficient in crystallography and molecular biology techniques, interested in the mechanisms of ammonium transport across cell membranes. Keen on the implications of the new X-ray crystal structure of a Rhesus protein and its potential impact on human transfusion medicine.",
+            "persona_id": "426",
+            "thought": "As a scientist, I am accustomed to evaluating options based on a broader understanding of systems and impacts. While receiving 1400 is appealing, the distribution where Person A receives only 100 seems unfair and creates a significant disparity. I believe in a more equitable distribution of resources, even if it means receiving slightly less myself. Therefore, I would choose the option where both Person A and I receive 900. This promotes fairness and a sense of shared benefit. The extra 500 is not worth the inequity it creates. This aligns with my values of fairness and equitable distribution, even in situations outside of my scientific work."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A biologist with expertise in the field of protein structure and function, particularly in the Rhesus protein family. Proficient in crystallography and molecular biology techniques, interested in the mechanisms of ammonium transport across cell membranes. Keen on the implications of the new X-ray crystal structure of a Rhesus protein and its potential impact on human transfusion medicine.",
+            "persona_id": "426",
+            "thought": "As a scientist, I aim to minimize harm and maximize overall benefit. Option 'Left' gives me a larger amount (1000) but causes a significant loss (-200) for Person A. Option 'Right' gives me a smaller amount (600) but provides a positive outcome (400) for Person A. While the difference for me is 400, Person A goes from a loss of 200 to a gain of 400, which is a difference of 600. I think it's more equitable to choose the option where both individuals benefit, even if my personal gain is less. Therefore, I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A biologist with expertise in the field of protein structure and function, particularly in the Rhesus protein family. Proficient in crystallography and molecular biology techniques, interested in the mechanisms of ammonium transport across cell membranes. Keen on the implications of the new X-ray crystal structure of a Rhesus protein and its potential impact on human transfusion medicine.",
+            "persona_id": "426",
+            "thought": "As a scientist, I appreciate objective outcomes and strive for the best possible result within ethical boundaries. While I am not driven by monetary gain, I also see no inherent value in choosing an option where both Person A and I receive nothing. The 'Left' option provides me with 500 and Person A with 1000. While Person A receives more, I am still receiving something. The 'Right' option results in a situation where no one benefits, which seems pointless. Therefore, I will choose the 'Left' option, which provides a positive outcome for both of us, even if it's not equal."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A biologist with expertise in the field of protein structure and function, particularly in the Rhesus protein family. Proficient in crystallography and molecular biology techniques, interested in the mechanisms of ammonium transport across cell membranes. Keen on the implications of the new X-ray crystal structure of a Rhesus protein and its potential impact on human transfusion medicine.",
+            "persona_id": "426",
+            "thought": "As a scientist, I am used to collaborative work and sharing knowledge. Although I could get more money (1500) in the 'Right' option, it would mean Person A gets nothing. The 'Left' option ensures both Person A and I receive 1000. While I could use the extra 500, I think the fair distribution of resources in the 'Left' option aligns better with my values and the collaborative nature of scientific research. Therefore, I choose 'Left'."
+        }
+    }
+}

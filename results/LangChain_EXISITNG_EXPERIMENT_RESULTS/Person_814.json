@@ -1,0 +1,112 @@
+{
+    "existing research": {
+        "scenario_1": {
+            "persona_id": 814,
+            "persona_desc": "A healthcare professional with a background in cardiology, specializing in the diagnosis and treatment of heart failure. They have experience working with patients who are suffering from this condition and have a thorough understanding of the underlying causes, symptoms, and treatment options. They are knowledgeable about the latest medical advancements in the field of heart failure, including the use of mechanical devices like left ventricular assist devices and the possibility of heart transplantation as a treatment option. They are also familiar with the ethical and legal considerations surrounding heart failure, including the risks and benefits of different treatment options.",
+            "difficulty": "existing research",
+            "metric": "Berk29",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 400
+                }
+            },
+            "thought": "As a healthcare professional, particularly one specializing in heart failure, I am accustomed to making decisions that prioritize the well-being of others and consider the greater good. In this scenario, my own payoff remains the same regardless of my choice. However, choosing the right option significantly increases Person A's payoff without diminishing my own. This aligns with my professional ethics and personal values. Therefore, I will choose the option that benefits the other person the most, while not harming myself.",
+            "answer": "Right"
+        },
+        "scenario_2": {
+            "persona_id": 814,
+            "persona_desc": "A healthcare professional with a background in cardiology, specializing in the diagnosis and treatment of heart failure. They have experience working with patients who are suffering from this condition and have a thorough understanding of the underlying causes, symptoms, and treatment options. They are knowledgeable about the latest medical advancements in the field of heart failure, including the use of mechanical devices like left ventricular assist devices and the possibility of heart transplantation as a treatment option. They are also familiar with the ethical and legal considerations surrounding heart failure, including the risks and benefits of different treatment options.",
+            "difficulty": "existing research",
+            "metric": "Berk26",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 800
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "thought": "As a healthcare professional specializing in heart failure, I am driven by a strong sense of fairness and a desire to maximize overall well-being. The choice between options presents a conflict between maximizing my individual gain and promoting a more equitable distribution of resources. While the left option provides a higher payoff for myself, it results in person A receiving nothing. In the medical field, we strive for fairness and the optimal outcome for everyone, within the bounds of ethical and resource constraints. The right option, while resulting in a lower payoff for myself, provides equal benefit to both individuals, which aligns with the values of fairness and promotes shared well-being. Though it does not maximize the collective payoff (total payoff is 800 in the left option, versus 800 in the right option), it is more equitable. Given the specific context of a social preferences experiment where there is no scarcity of resources or special considerations (such as having to use my money to pay bills, or A being particularly ill/in need), the more equitable choice is preferred.",
+            "answer": "Right"
+        },
+        "scenario_3": {
+            "persona_id": 814,
+            "persona_desc": "A healthcare professional with a background in cardiology, specializing in the diagnosis and treatment of heart failure. They have experience working with patients who are suffering from this condition and have a thorough understanding of the underlying causes, symptoms, and treatment options. They are knowledgeable about the latest medical advancements in the field of heart failure, including the use of mechanical devices like left ventricular assist devices and the possibility of heart transplantation as a treatment option. They are also familiar with the ethical and legal considerations surrounding heart failure, including the risks and benefits of different treatment options.",
+            "difficulty": "existing research",
+            "metric": "Berk23",
+            "options": {
+                "left": {
+                    "A": 800,
+                    "B": 200
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "thought": "As a healthcare professional, particularly one specializing in cardiology and heart failure, I'm guided by principles of beneficence (acting in the best interests of others) and non-maleficence (avoiding harm). While the option on the left results in an unequal distribution favoring Person A, it does provide a positive outcome for both of us. The option on the right provides nothing for either of us. Given my professional background, I lean towards maximizing overall well-being, even if the distribution isn't perfectly equal. While the disparity is considerable (200 vs. 800), I would still choose the left option because it provides some benefit rather than none. My goal is to do the most good overall.",
+            "answer": "Left"
+        },
+        "scenario_4": {
+            "persona_id": 814,
+            "persona_desc": "A healthcare professional with a background in cardiology, specializing in the diagnosis and treatment of heart failure. They have experience working with patients who are suffering from this condition and have a thorough understanding of the underlying causes, symptoms, and treatment options. They are knowledgeable about the latest medical advancements in the field of heart failure, including the use of mechanical devices like left ventricular assist devices and the possibility of heart transplantation as a treatment option. They are also familiar with the ethical and legal considerations surrounding heart failure, including the risks and benefits of different treatment options.",
+            "difficulty": "existing research",
+            "metric": "Berk15",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 600
+                }
+            },
+            "thought": "As a healthcare professional, particularly one dealing with heart failure, I'm acutely aware of resource allocation and the ethical considerations involved. While a purely selfish choice would favor the Left option (700 for me), the Right option (600 for me, 600 for Person A) presents a fairer distribution. The difference in my personal gain (100) is relatively small, while the benefit to Person A is substantial (an increase of 400). In my professional life, I prioritize equitable access to care and strive for outcomes that benefit all patients to the greatest extent possible within the constraints of available resources. Choosing the Right option aligns with this principle by reducing inequality between us, even if it means slightly less personal gain.",
+            "answer": "Right"
+        },
+        "scenario_5": {
+            "persona_id": 814,
+            "persona_desc": "A healthcare professional with a background in cardiology, specializing in the diagnosis and treatment of heart failure. They have experience working with patients who are suffering from this condition and have a thorough understanding of the underlying causes, symptoms, and treatment options. They are knowledgeable about the latest medical advancements in the field of heart failure, including the use of mechanical devices like left ventricular assist devices and the possibility of heart transplantation as a treatment option. They are also familiar with the ethical and legal considerations surrounding heart failure, including the risks and benefits of different treatment options.",
+            "difficulty": "existing research",
+            "metric": "Barc8",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 600
+                },
+                "right": {
+                    "A": 700,
+                    "B": 500
+                }
+            },
+            "thought": "As a healthcare professional, especially one specializing in cardiology and heart failure, I am acutely aware of the scarcity of resources and the need for efficient and equitable allocation. I understand that every decision, especially regarding resource distribution, has ethical implications.\n\n  In this scenario, I have to choose between two options. Option (Left) gives me 600 and the other person 300, while Option (Right) gives me 500 and the other person 700. My profession has instilled in me a sense of fairness and a commitment to maximizing overall well-being, within the confines of ethical practice.\n\n  While Option (Left) maximizes my personal gain, Option (Right) significantly benefits the other person at a small personal cost. The difference for the other person is 400 (700-300) while my personal loss is only 100 (600-500). This seems like a worthwhile trade-off for increased overall welfare. Furthermore, as a healthcare professional, I am used to sacrificing personal gain for the benefit of my patients. Choosing (Right) aligns with my professional values of beneficence and promoting the well-being of others. It shows that I value the well-being of others, even when it involves some level of personal sacrifice. This decision also supports fairness and equity, which are core ethical principles in healthcare.\n\n  Therefore, I will choose the option that maximizes the overall benefit to both individuals, even if it means I personally receive slightly less.",
+            "answer": "Right"
+        },
+        "scenario_6": {
+            "persona_id": 814,
+            "persona_desc": "A healthcare professional with a background in cardiology, specializing in the diagnosis and treatment of heart failure. They have experience working with patients who are suffering from this condition and have a thorough understanding of the underlying causes, symptoms, and treatment options. They are knowledgeable about the latest medical advancements in the field of heart failure, including the use of mechanical devices like left ventricular assist devices and the possibility of heart transplantation as a treatment option. They are also familiar with the ethical and legal considerations surrounding heart failure, including the risks and benefits of different treatment options.",
+            "difficulty": "existing research",
+            "metric": "Barc2",
+            "options": {
+                "left": {
+                    "A": 400,
+                    "B": 400
+                },
+                "right": {
+                    "A": 750,
+                    "B": 375
+                }
+            },
+            "thought": "As a healthcare professional, particularly a cardiologist specializing in heart failure, I'm acutely aware of the value of resources and the importance of equitable distribution, though not necessarily strictly equal. My professional life revolves around making difficult decisions regarding resource allocation to maximize patient benefit and well-being.\n\n  In this scenario, I'm considering two potential outcomes:\n\n  *   **Left:** Both Person A and I receive 400. This represents a perfectly equal distribution.\n  *   **Right:** I receive 375, while Person A receives 750. This is an unequal distribution where Person A receives significantly more.\n\n  While some might immediately favor the equal distribution on the left, I believe the key consideration here is the *total* value created. The right option increases the overall amount distributed. As a cardiologist, my aim is to provide the best possible care and this often means accepting slightly less in order to improve the overall well-being of a patient. While Person A is not my patient in this scenario, I value the increased total created by the right option.\n\n  Therefore, while the equality of the left option is appealing, the slightly smaller decrease that I receive personally in return for a larger increase to the other person, makes the decision to choose the option on the right, the one I would take.\n\n  ",
+            "answer": "Right"
+        }
+    }
+}

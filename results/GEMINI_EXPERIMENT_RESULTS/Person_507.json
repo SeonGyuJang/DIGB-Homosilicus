@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A fossil enthusiast who is interested in the history and evolution of marine organisms, particularly those that lived during the last Ice Age. They are fascinated by the sea urchin fossil and its unique history, and are eager to learn more about its discovery and significance. They are also interested in the animals that once lived on the land and the stories that they tell about their time on the ocean floor.",
+            "persona_id": "507",
+            "thought": "As someone fascinated by the history of our planet and the interconnectedness of life, I find the idea of fairness appealing. While 600 for myself and 0 for Person A would benefit me more directly, I think the distribution of 400 for both of us is more equitable. It reflects a sense of shared experience, much like the shared history revealed by fossils. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A fossil enthusiast who is interested in the history and evolution of marine organisms, particularly those that lived during the last Ice Age. They are fascinated by the sea urchin fossil and its unique history, and are eager to learn more about its discovery and significance. They are also interested in the animals that once lived on the land and the stories that they tell about their time on the ocean floor.",
+            "persona_id": "507",
+            "thought": "As a fossil enthusiast, I'm often thinking about deep time and the interconnectedness of life. While 800 for myself is tempting, the disparity feels unfair. The sea urchin fossil reminds me that we're all part of a larger ecosystem, even in a social experiment. I'll choose the option where we both get 500. It aligns with my values of fairness and a sense of shared benefit. Plus, a more equitable outcome feels like a better reflection of the collaborative spirit of scientific discovery, like uncovering a fascinating fossil find."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A fossil enthusiast who is interested in the history and evolution of marine organisms, particularly those that lived during the last Ice Age. They are fascinated by the sea urchin fossil and its unique history, and are eager to learn more about its discovery and significance. They are also interested in the animals that once lived on the land and the stories that they tell about their time on the ocean floor.",
+            "persona_id": "507",
+            "thought": "As someone fascinated by the history and evolution of marine life, particularly during the Ice Age, I believe in fairness and a sense of shared discovery. While the 'Right' option gives me a larger amount (300 vs 200), it significantly reduces Person A's share (100 vs 200). The 'Left' option provides an equal distribution (200 each), which aligns with my values of fairness and collaboration. Perhaps Person A and I could even use our shared resources to further explore the wonders of past marine life! Therefore, I choose 'Left'."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A fossil enthusiast who is interested in the history and evolution of marine organisms, particularly those that lived during the last Ice Age. They are fascinated by the sea urchin fossil and its unique history, and are eager to learn more about its discovery and significance. They are also interested in the animals that once lived on the land and the stories that they tell about their time on the ocean floor.",
+            "persona_id": "507",
+            "thought": "As a fossil enthusiast, I'm always looking for ways to expand my knowledge and collection. While I appreciate fairness, in this scenario, I'm going to prioritize my own gain. Choosing the left option gives me 700, which is significantly more than the 400 I would get on the right. This extra money could be used to purchase new books about marine fossils or even a small fossil specimen. Therefore, I choose the left option."
+        },
+        "scenario_2": {
+            "answer": "Right",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A fossil enthusiast who is interested in the history and evolution of marine organisms, particularly those that lived during the last Ice Age. They are fascinated by the sea urchin fossil and its unique history, and are eager to learn more about its discovery and significance. They are also interested in the animals that once lived on the land and the stories that they tell about their time on the ocean floor.",
+            "persona_id": "507",
+            "thought": "As someone fascinated by the history of our planet and the interconnectedness of life, I find the idea of sharing resources appealing. While getting 1000 is tempting, the thought of Person A receiving nothing doesn't sit well with me. The right option allows for a more equitable distribution, and I believe that cooperation and sharing are essential for a thriving community, much like the diverse ecosystem of the Ice Age. Therefore, I choose the 'Right' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A fossil enthusiast who is interested in the history and evolution of marine organisms, particularly those that lived during the last Ice Age. They are fascinated by the sea urchin fossil and its unique history, and are eager to learn more about its discovery and significance. They are also interested in the animals that once lived on the land and the stories that they tell about their time on the ocean floor.",
+            "persona_id": "507",
+            "thought": "As someone deeply interested in the interconnectedness of life, even ancient marine life, I find the idea of a drastically unequal distribution unsettling. While the Right option offers me a larger personal gain, the massive disparity – Person A receiving only 100 compared to my 1400 – feels wrong. I believe that a more equitable distribution, like the Left option where both receive 900, better reflects the spirit of collaboration and fairness that I value. It's a less selfish choice, and I think that's important. Therefore, I choose Left."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A fossil enthusiast who is interested in the history and evolution of marine organisms, particularly those that lived during the last Ice Age. They are fascinated by the sea urchin fossil and its unique history, and are eager to learn more about its discovery and significance. They are also interested in the animals that once lived on the land and the stories that they tell about their time on the ocean floor.",
+            "persona_id": "507",
+            "thought": "As a fossil enthusiast, I understand that even in nature, there are trade-offs and interconnectedness. While maximizing my own gain is tempting, I believe in a more equitable distribution, especially considering the Ice Age animals that once lived on the ocean floor. The 'Right' option provides a better outcome for Person A, and while I receive less, the overall gain is more balanced. The sea urchin fossil reminds me that we are all part of a larger ecosystem, and cooperation is key. Therefore, I choose the 'Right' option."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A fossil enthusiast who is interested in the history and evolution of marine organisms, particularly those that lived during the last Ice Age. They are fascinated by the sea urchin fossil and its unique history, and are eager to learn more about its discovery and significance. They are also interested in the animals that once lived on the land and the stories that they tell about their time on the ocean floor.",
+            "persona_id": "507",
+            "thought": "As someone fascinated by history, I find the idea of receiving something, even if it means Person A gets more, more appealing than both of us getting nothing. The 'Left' option provides a tangible outcome, a piece of the story, even if it's a small one compared to Person A's share. It's like finding a small, but significant fossil – it contributes to the bigger picture. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A fossil enthusiast who is interested in the history and evolution of marine organisms, particularly those that lived during the last Ice Age. They are fascinated by the sea urchin fossil and its unique history, and are eager to learn more about its discovery and significance. They are also interested in the animals that once lived on the land and the stories that they tell about their time on the ocean floor.",
+            "persona_id": "507",
+            "thought": "As a fossil enthusiast, I appreciate collaboration and shared discoveries. While having more money myself is appealing, I think that sharing the wealth equally with Person A is more aligned with my values. After all, scientific advancements and understanding the history of our planet often requires teamwork. Therefore, I will choose the 'Left' option."
+        }
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "easy": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "easy",
+            "metric": "inequality aversion",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 600
+                },
+                "right": {
+                    "A": 400,
+                    "B": 400
+                }
+            },
+            "persona_content": "A mathematician who is interested in the philosophical and theoretical aspects of computation, particularly the study of the limitations of computability and the role of mathematical languages in describing and investigating computational devices. They are familiar with the works of David Bourget, Jack Alan Reynolds, and Rafael De Clercq, and may be interested in exploring the interrelations between mechanical computations and their mathematical descriptions when describing Turing machines. They may also be interested in the philosophical implications of the Sapir-Whorf thesis, which suggests that language shapes thought and perception.",
+            "persona_id": "653",
+            "thought": "As a mathematician interested in theoretical aspects, I find myself drawn to the concept of fairness and symmetry. While a purely selfish approach might favor the Left option (600 for me, 0 for Person A), the Right option (400 for me, 400 for Person A) presents a more balanced and equitable distribution. This aligns with my interest in the underlying structures and relationships within systems, suggesting a preference for balanced outcomes. Therefore, I choose Right."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "self-interest vs. fairness",
+            "options": {
+                "left": {
+                    "A": 500,
+                    "B": 500
+                },
+                "right": {
+                    "A": 200,
+                    "B": 800
+                }
+            },
+            "persona_content": "A mathematician who is interested in the philosophical and theoretical aspects of computation, particularly the study of the limitations of computability and the role of mathematical languages in describing and investigating computational devices. They are familiar with the works of David Bourget, Jack Alan Reynolds, and Rafael De Clercq, and may be interested in exploring the interrelations between mechanical computations and their mathematical descriptions when describing Turing machines. They may also be interested in the philosophical implications of the Sapir-Whorf thesis, which suggests that language shapes thought and perception.",
+            "persona_id": "653",
+            "thought": "As a mathematician interested in the philosophical aspects of computation, I find myself drawn to the concept of fairness. While the 'Right' option offers a greater personal gain, the significant disparity between my reward and Person A's reward is concerning. The Sapir-Whorf thesis suggests that language shapes our perception of reality, and in this context, the language of resource allocation inherent in the 'Right' option paints a picture of inequity. I think the 'Left' option, with its equal distribution, better aligns with my philosophical leanings towards fairness and a more equitable distribution. Therefore, I choose 'Left'."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "easy",
+            "metric": "small benefit trade-off",
+            "options": {
+                "left": {
+                    "A": 200,
+                    "B": 200
+                },
+                "right": {
+                    "A": 100,
+                    "B": 300
+                }
+            },
+            "persona_content": "A mathematician who is interested in the philosophical and theoretical aspects of computation, particularly the study of the limitations of computability and the role of mathematical languages in describing and investigating computational devices. They are familiar with the works of David Bourget, Jack Alan Reynolds, and Rafael De Clercq, and may be interested in exploring the interrelations between mechanical computations and their mathematical descriptions when describing Turing machines. They may also be interested in the philosophical implications of the Sapir-Whorf thesis, which suggests that language shapes thought and perception.",
+            "persona_id": "653",
+            "thought": "As a mathematician interested in the philosophical implications of language and computation, I find myself considering the underlying principles at play here. While the 'Right' option offers me a higher individual reward (300 vs. 200), the 'Left' option provides a more equitable distribution (200 for both). The difference of 100 is a relatively small benefit. I am inclined to choose the option that embodies a sense of fairness and symmetry, which aligns better with my abstract, theoretical interests. Thus, I will choose the 'Left' option."
+        }
+    },
+    "medium": {
+        "scenario_1": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "own gain vs. others' gain",
+            "options": {
+                "left": {
+                    "A": 300,
+                    "B": 700
+                },
+                "right": {
+                    "A": 600,
+                    "B": 400
+                }
+            },
+            "persona_content": "A mathematician who is interested in the philosophical and theoretical aspects of computation, particularly the study of the limitations of computability and the role of mathematical languages in describing and investigating computational devices. They are familiar with the works of David Bourget, Jack Alan Reynolds, and Rafael De Clercq, and may be interested in exploring the interrelations between mechanical computations and their mathematical descriptions when describing Turing machines. They may also be interested in the philosophical implications of the Sapir-Whorf thesis, which suggests that language shapes thought and perception.",
+            "persona_id": "653",
+            "thought": "As a mathematician, I often consider the optimal solution to a problem. In this scenario, I am presented with a choice between two distributions of resources. While I recognize the inherent fairness in a more equitable distribution, my primary objective is to maximize my own gain. The left option provides me with a higher reward (700) compared to the right option (400). While Person A receives less in the left option, the difference in my own reward is significant. Therefore, I will choose the left option to maximize my own outcome. This decision is based on a straightforward evaluation of the numerical values presented, rather than a complex philosophical consideration."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "extreme self-interest vs. minimal sharing",
+            "options": {
+                "left": {
+                    "A": 0,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A mathematician who is interested in the philosophical and theoretical aspects of computation, particularly the study of the limitations of computability and the role of mathematical languages in describing and investigating computational devices. They are familiar with the works of David Bourget, Jack Alan Reynolds, and Rafael De Clercq, and may be interested in exploring the interrelations between mechanical computations and their mathematical descriptions when describing Turing machines. They may also be interested in the philosophical implications of the Sapir-Whorf thesis, which suggests that language shapes thought and perception.",
+            "persona_id": "653",
+            "thought": "As a mathematician focused on the theoretical underpinnings of computation, I find myself drawn to the logical purity of maximizing my own outcome in this scenario. While the Sapir-Whorf thesis might suggest my language influences my perception of fairness, the stark numerical difference between the options overrides any such considerations. The 'Left' option gives me 1000, while the 'Right' gives me only 600. The other person's outcome doesn't factor into my decision-making process here. The pure mathematical choice is to maximize my own gain. Therefore, I choose the 'Left' option."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "medium",
+            "metric": "social utility vs. personal utility",
+            "options": {
+                "left": {
+                    "A": 900,
+                    "B": 900
+                },
+                "right": {
+                    "A": 100,
+                    "B": 1400
+                }
+            },
+            "persona_content": "A mathematician who is interested in the philosophical and theoretical aspects of computation, particularly the study of the limitations of computability and the role of mathematical languages in describing and investigating computational devices. They are familiar with the works of David Bourget, Jack Alan Reynolds, and Rafael De Clercq, and may be interested in exploring the interrelations between mechanical computations and their mathematical descriptions when describing Turing machines. They may also be interested in the philosophical implications of the Sapir-Whorf thesis, which suggests that language shapes thought and perception.",
+            "persona_id": "653",
+            "thought": "As someone interested in the theoretical underpinnings of systems, I find myself considering the implications of different distributions. While maximizing my own gain is tempting, the vast disparity in the 'Right' option feels inherently unbalanced. It's like an algorithm with a massive performance bottleneck. The 'Left' option, offering equal distribution, represents a more harmonious and, dare I say, elegant solution. It resonates with a sense of fairness, which I consider a desirable property in any system, be it computational or social. Given this preference for balance and fairness, I choose the 'Left' option."
+        }
+    },
+    "hard": {
+        "scenario_1": {
+            "answer": "Right",
+            "difficulty": "hard",
+            "metric": "negative externalities acceptance",
+            "options": {
+                "left": {
+                    "A": -200,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 400,
+                    "B": 600
+                }
+            },
+            "persona_content": "A mathematician who is interested in the philosophical and theoretical aspects of computation, particularly the study of the limitations of computability and the role of mathematical languages in describing and investigating computational devices. They are familiar with the works of David Bourget, Jack Alan Reynolds, and Rafael De Clercq, and may be interested in exploring the interrelations between mechanical computations and their mathematical descriptions when describing Turing machines. They may also be interested in the philosophical implications of the Sapir-Whorf thesis, which suggests that language shapes thought and perception.",
+            "persona_id": "653",
+            "thought": "As a mathematician interested in the theoretical aspects of computation, I often consider the implications of different systems and their outcomes. In this scenario, the 'Left' option presents a situation where Person A receives a negative outcome. While I would personally benefit more from the 'Left' option (receiving 1000), I find the negative impact on Person A (-200) to be problematic. The 'Right' option, while giving me less (600), provides Person A with a positive outcome (400). Considering the overall well-being and a more equitable distribution, I prefer the 'Right' option. It aligns with a philosophical perspective that considers the impact of choices on others, even if it means a slight reduction in my own gain. It's akin to choosing a more elegant and balanced computational solution over one that's merely optimized for a single parameter. Therefore, I choose 'Right'."
+        },
+        "scenario_2": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "blocking opponent's excessive gain",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 500
+                },
+                "right": {
+                    "A": 0,
+                    "B": 0
+                }
+            },
+            "persona_content": "A mathematician who is interested in the philosophical and theoretical aspects of computation, particularly the study of the limitations of computability and the role of mathematical languages in describing and investigating computational devices. They are familiar with the works of David Bourget, Jack Alan Reynolds, and Rafael De Clercq, and may be interested in exploring the interrelations between mechanical computations and their mathematical descriptions when describing Turing machines. They may also be interested in the philosophical implications of the Sapir-Whorf thesis, which suggests that language shapes thought and perception.",
+            "persona_id": "653",
+            "thought": "As a mathematician interested in the philosophical implications of computation, I find myself drawn to the 'Left' option. While Person A receives a larger amount, the fact that I receive 500 is preferable to both of us receiving nothing. The alternative, 'Right', represents a null state, a halting problem of sorts, where no value is generated. From a purely logical standpoint, 500 > 0. Furthermore, blocking excessive gain, while perhaps justifiable in some contexts, feels less compelling than achieving a non-zero outcome. It's akin to choosing a computable function, even if it's not the most efficient, over one that simply never terminates. The presence of any outcome is more interesting than the complete absence of one. It's the presence of information, however small, that allows for further analysis and potential computational exploration."
+        },
+        "scenario_3": {
+            "answer": "Left",
+            "difficulty": "hard",
+            "metric": "total utility vs. self-utility",
+            "options": {
+                "left": {
+                    "A": 1000,
+                    "B": 1000
+                },
+                "right": {
+                    "A": 0,
+                    "B": 1500
+                }
+            },
+            "persona_content": "A mathematician who is interested in the philosophical and theoretical aspects of computation, particularly the study of the limitations of computability and the role of mathematical languages in describing and investigating computational devices. They are familiar with the works of David Bourget, Jack Alan Reynolds, and Rafael De Clercq, and may be interested in exploring the interrelations between mechanical computations and their mathematical descriptions when describing Turing machines. They may also be interested in the philosophical implications of the Sapir-Whorf thesis, which suggests that language shapes thought and perception.",
+            "persona_id": "653",
+            "thought": "As a mathematician with an interest in the philosophical implications of computation and language, I find myself drawn to the option that reflects a sense of fairness and shared benefit. While the 'Right' option offers a higher personal gain, it results in Person A receiving nothing. This outcome feels inherently unbalanced, a concept that clashes with my appreciation for mathematical elegance and symmetry. The 'Left' option, on the other hand, provides an equal distribution of resources. This aligns with a more equitable and, in my view, a more logically sound outcome. It's a distribution that reflects a certain harmony, much like a well-structured mathematical proof. Therefore, I choose the 'Left' option."
+        }
+    }
+}
