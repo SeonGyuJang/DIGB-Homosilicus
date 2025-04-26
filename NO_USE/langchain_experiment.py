@@ -1,7 +1,7 @@
 '''
 (1) 페르소나를 적용시키지 않은 실험을 하고 싶을 때 : python langchain_experiment.py --nopersona
 (2) 전체 페르소나에 대해 실험을 하고 싶을 때 : python langchain_experiment.py --all
-(3) 특정 페르소나 idx만 실험하고 싶을 때 : python langchain_experiment.py --ids 1,2,3,4....
+(3) 특정 페르소나 idx만 실험하고 싶을 때(오류난 부분만..) : python langchain_experiment.py --ids 1,2,3,4....
 '''
 
 import argparse
