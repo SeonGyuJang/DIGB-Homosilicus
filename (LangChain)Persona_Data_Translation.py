@@ -2,6 +2,7 @@ import json
 import os
 from pathlib import Path
 from typing import Dict, List
+from collections import defaultdict
 
 from tqdm import tqdm
 from langchain_google_genai import ChatGoogleGenerativeAI
@@ -15,8 +16,8 @@ GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")  # NOTE : .env 파일 필요
 MODEL_NAME = "gemini-2.0-flash"
 
 # ========== 2. 경로 설정 ==========
-INPUT_PATH = Path(r"/Users/jangseongyu/Documents/GitHub/DIGB-Homosilicus/data/Persona_Data_Top_n_domains_Random_Extraction/(EN)Persona_Part_1_to_3.jsonl")
-OUTPUT_PATH = Path(r"/Users/jangseongyu/Documents/GitHub/DIGB-Homosilicus/data/Persona_Data_Top_n_domains_Random_Extraction/(KR)Persona_Part_1_to_3.jsonl")
+INPUT_PATH = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\data\Persona_Data_Top_n_domains_Random_Extraction\Persona_Part_1_to_3.json")
+OUTPUT_PATH = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\data\Persona_Data_Top_n_domains_Random_Extraction\(KR)Persona_Part_1_to_3.json")
 
 # ========== 3. 모델 설정 ==========
 llm = ChatGoogleGenerativeAI(
@@ -51,16 +52,35 @@ chain = prompt_template | llm | parser
 
 # ========== 5. 데이터 로딩 ==========
 def load_data(path: Path) -> List[Dict]:
-    """JSONL 파일을 한 줄씩 읽어 리스트로 반환"""
+    """도메인별 JSON 파일을 읽어 리스트로 반환"""
     with path.open("r", encoding="utf-8") as f:
-        return [json.loads(line) for line in f]
+        data = json.load(f)
+
+    records = []
+    for domain, personas in data.items():
+        for persona_info in personas:
+            records.append({
+                "persona": persona_info["persona"],
+                "domain": domain,
+                "idx": persona_info["idx"]
+            })
+    return records
 
 # ========== 6. 데이터 저장 ==========
 def save_data(path: Path, data: List[Dict]) -> None:
-    """리스트를 JSONL 형식으로 저장"""
+    """리스트를 다시 도메인별로 묶어 JSON 형태로 저장"""
+    domain_to_personas = defaultdict(list)
+
+    for item in data:
+        domain = item["general domain (top 1 percent)"]  # 번역된 도메인 이름
+        domain_to_personas[domain].append({
+            "persona": item["persona"],
+            "general domain (top 1 percent)": item["general domain (top 1 percent)"],
+            "idx": item["idx"]
+        })
+
     with path.open("w", encoding="utf-8") as f:
-        for item in data:
-            f.write(json.dumps(item, ensure_ascii=False) + "\n")
+        json.dump(domain_to_personas, f, ensure_ascii=False, indent=2)
 
 # ========== 7. 페르소나 번역 (batch 처리 + 실패 재시도) ==========
 def translate_personas(records: List[Dict], batch_size: int = 20, max_retry: int = 3) -> List[Dict]:
@@ -73,7 +93,7 @@ def translate_personas(records: List[Dict], batch_size: int = 20, max_retry: int
         batch_inputs = [
             {
                 "persona": record["persona"],
-                "domain": record["general domain (top 1 percent)"],
+                "domain": record["domain"],
             }
             for record in batch_records
         ]
@@ -83,8 +103,11 @@ def translate_personas(records: List[Dict], batch_size: int = 20, max_retry: int
             try:
                 batch_outputs = chain.batch(
                     batch_inputs,
-                    config={"max_concurrency": 20}  # 병렬 요청 최대 5개
+                    config={"max_concurrency": 100}  # 병렬 요청 최대 100개
                 )
+                # 번역 결과에 원본 idx 추가
+                for output, original in zip(batch_outputs, batch_records):
+                    output["idx"] = original["idx"]
                 translated.extend(batch_outputs)
                 break  # 성공했으면 반복 종료
             except Exception as e:
@@ -101,6 +124,7 @@ def main():
     print("데이터 로딩 중...")
     records = load_data(INPUT_PATH)
 
+    print(f"총 {len(records)}개 페르소나 로드 완료.")
     print("번역 시작...")
     translated_records = translate_personas(records)
 

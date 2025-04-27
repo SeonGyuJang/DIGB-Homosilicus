@@ -3,19 +3,25 @@ import random
 from collections import defaultdict
 
 # 입력 파일
-input_path = '/Users/jangseongyu/Desktop/elite_personas.part4.jsonl'
+input_path = r'C:\Users\dsng3\Desktop\elite_personas.part16.jsonl'
 # 최종 출력 파일
-output_path = '/Users/jangseongyu/Documents/GitHub/DIGB-Homosilicus/data/Persona_Data_Top_n_domains_Random_Extraction/Persona_Part_4_to_6.jsonl'
+output_path = r'C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\data\Persona_Data_Top_n_domains_Random_Extraction/Persona_Part_16_to_19.json'
 
 # 상위 몇 개 도메인
 top_n_domains = 20
 # 도메인별 랜덤 추출할 수
 sample_size_per_domain = 10000
 
-# 1단계: None 제거하면서 도메인별 데이터 수 세기
+# 1단계: None 제거하면서 도메인별 데이터 수 세기 (여기서 idx 수동 부여)
 domain_counter = {}
 
 print("1단계: 파일 읽으며 None 제거 + 도메인별 개수 세는 중...")
+
+# idx 수동 부여용
+current_idx = 0
+
+# 원본 데이터를 읽어서 메모리에 잠깐 저장
+all_data = []
 
 with open(input_path, 'r', encoding='utf-8') as infile:
     for line in infile:
@@ -28,6 +34,12 @@ with open(input_path, 'r', encoding='utf-8') as infile:
             if general_domain and str(general_domain).lower() != "none":
                 domain = str(general_domain).lower()
                 domain_counter[domain] = domain_counter.get(domain, 0) + 1
+
+                # idx를 수동 부여
+                data['idx'] = current_idx
+                current_idx += 1
+
+                all_data.append(data)
         except json.JSONDecodeError:
             continue
 
@@ -44,24 +56,16 @@ domain_to_records = defaultdict(list)
 
 print("\n3단계: 상위 도메인 데이터 수집 중...")
 
-# 파일을 다시 읽으면서, 상위 도메인 데이터만 모으기
-with open(input_path, 'r', encoding='utf-8') as infile:
-    for line in infile:
-        try:
-            data = json.loads(line)
-            persona = data.get('persona')
-            general_domain = data.get('general domain (top 1 percent)')
-            
-            if general_domain and str(general_domain).lower() != "none":
-                domain = str(general_domain).lower()
-                if domain in top_domain_names:
-                    record = {
-                        'persona': persona,
-                        'general domain (top 1 percent)': general_domain
-                    }
-                    domain_to_records[domain].append(record)
-        except json.JSONDecodeError:
-            continue
+for data in all_data:
+    general_domain = data.get('general domain (top 1 percent)')
+    domain = str(general_domain).lower()
+    if domain in top_domain_names:
+        record = {
+            'persona': data['persona'],
+            'general domain (top 1 percent)': general_domain,
+            'idx': data['idx']
+        }
+        domain_to_records[domain].append(record)
 
 # 4단계: 도메인별로 10,000개씩 랜덤 샘플링
 print("\n4단계: 도메인별로 10,000개씩 랜덤 샘플링 중...")
@@ -79,12 +83,18 @@ for domain in top_domain_names:
 
 print(f"\n총 추출된 데이터 수: {len(final_samples)}개")
 
-# 5단계: 최종 결과 저장
+# 5단계: 최종 결과를 도메인별로 묶어서 저장
 print(f"\n5단계: {output_path} 파일로 저장하는 중...")
 
+domain_to_output = defaultdict(list)
+
+for item in final_samples:
+    domain = item['general domain (top 1 percent)']
+    domain_to_output[domain].append(item)
+
+# 저장
 with open(output_path, 'w', encoding='utf-8') as outfile:
-    for item in final_samples:
-        outfile.write(json.dumps(item, ensure_ascii=False) + '\n')
+    json.dump(domain_to_output, outfile, ensure_ascii=False, indent=2)
 
 print("\n=== 완료 ===")
 print(f"최종 결과 파일 경로: {output_path}")

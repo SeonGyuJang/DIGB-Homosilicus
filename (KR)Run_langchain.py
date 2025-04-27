@@ -15,7 +15,7 @@ GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")  # NOTE : .env 파일이 있어야 
 MODEL_NAME = "gemini-2.0-flash"
 MAX_PERSONAS = 1000
 
-OUTPUT_DIR = Path(r"/Users/jangseongyu/Documents/GitHub/DIGB-Homosilicus/test")  # 실험결과(JSON파일)을 저장할 경로
+OUTPUT_DIR = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\results\(KR)LangChain_EXPERIMENT_RESULTS")  # 실험결과(JSON파일)을 저장할 경로
 DATA_PATH = Path(r"/Users/jangseongyu/Documents/GitHub/DIGB-Homosilicus/data/grouped_persona_data.json")  # 도메인별로 그룹화된 페르소나 데이터
 SCENARIOS_PATH = Path(r"/Users/jangseongyu/Documents/GitHub/DIGB-Homosilicus/data/(KR)experiment_scenarios.json")  # 시나리오 JSON 파일
 
