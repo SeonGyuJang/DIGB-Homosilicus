@@ -16,8 +16,8 @@ GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")  # NOTE : .env 파일 필요
 MODEL_NAME = "gemini-2.0-flash"
 
 # ========== 2. 경로 설정 ==========
-INPUT_PATH = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\data\Persona_Data_Top_n_domains_Random_Extraction\Persona_Part_1_to_3.json")
-OUTPUT_PATH = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\data\Persona_Data_Top_n_domains_Random_Extraction\(KR)Persona_Part_1_to_3.json")
+INPUT_PATH = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\data\Persona_Data_Top_n_domains_Random_Extraction\(EN)Persona_Part_4_to_6.json")
+OUTPUT_PATH = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\data\Persona_Data_Top_n_domains_Random_Extraction\(KR)Persona_Part_4_to_6.json")
 
 # ========== 3. 모델 설정 ==========
 llm = ChatGoogleGenerativeAI(
@@ -103,7 +103,7 @@ def translate_personas(records: List[Dict], batch_size: int = 20, max_retry: int
             try:
                 batch_outputs = chain.batch(
                     batch_inputs,
-                    config={"max_concurrency": 100}  # 병렬 요청 최대 100개
+                    config={"max_concurrency": 20}  # 병렬 요청 최대 100개
                 )
                 # 번역 결과에 원본 idx 추가
                 for output, original in zip(batch_outputs, batch_records):
