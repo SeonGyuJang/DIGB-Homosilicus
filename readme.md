@@ -7,14 +7,33 @@
 # 📂 데이터 설명
 
 | 파일명 | 설명 | 데이터수 |
-|:---|:---| :--- |
-| (EN)experiment_scenarios.json | 고전 행동경제학 실험용 영어 시나리오 |  |
-| (KR)experiment_scenarios.json | 고전 행동경제학 실험용 한국어 시나리오 |  |
-| (PRE)experiment_scenarios.json | Charness and Rabin (2002) 논문 기반 고전 행동경제학 실험 시나리오 |  |
-| (EN)PERSONA_DATA.jsonl | 특정 도메인의 페르소나 정보 (영어) | 100,000개
-| (KR)PERSONA_DATA.jsonl | 특정 도메인의 페르소나 정보 (한국어) | 100,000개
-| (EN)PERSONA_DATA_10000.jsonl | 특정 도메인의 페르소나 정보 (한국어) | 10,000개 |
+|:---:|:---:|:---:|
+| (EN)experiment_scenarios.json | 고전 행동경제학 실험용 영어 시나리오 | - |
+| (KR)experiment_scenarios.json | 고전 행동경제학 실험용 한국어 시나리오 | - |
+| (PRE)experiment_scenarios.json | Charness and Rabin (2002) 논문 기반 고전 행동경제학 실험 시나리오 | - |
+| (EN)PERSONA_DATA.jsonl | 특정 도메인의 페르소나 정보 (영어) | 100,000개 |
+| (KR)PERSONA_DATA.jsonl | 특정 도메인의 페르소나 정보 (한국어) | 100,000개 |
+| (EN)PERSONA_DATA_10000.jsonl | 특정 도메인의 페르소나 정보 (영어) | 10,000개 |
 | (KR)PERSONA_DATA_10000.jsonl | 특정 도메인의 페르소나 정보 (한국어) | 10,000개 |
+
+---
+
+# 🎯 추출한 특정 도메인 목록
+
+이번 프로젝트에서는 다음 10개의 도메인을 선정하여 데이터 추출을 진행했습니다.
+
+| 구분 | 도메인명 (EN) | 도메인명 (KR) |
+|:---:|:---:|:---:|
+| 인문계 | History | 역사 |
+| 인문계 | Law | 법학 |
+| 인문계 | Philosophy | 철학 |
+| 인문계 | Economics | 경제학 |
+| 인문계 | Sociology | 사회학 |
+| 이공계 | Finance | 금융학 |
+| 이공계 | Computer Science | 컴퓨터과학 |
+| 이공계 | Mathematics | 수학 |
+| 이공계 | Environmental Science | 환경과학 |
+| 이공계 | Engineering | 공학 |
 
 ---
 
