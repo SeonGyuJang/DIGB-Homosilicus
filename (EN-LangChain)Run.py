@@ -1,3 +1,11 @@
+'''
+1) python (EN-LangChain)Run.py --all → 모든 페르소나에 대해 실험
+2) python (EN-LangChain)Run.py --ids 1,2,3... → 특정 idx만 실험
+3) python (EN-LangChain)Run.py --rerun-missing → 결과가 없는(아직 생성되지 않은) idx만 재실험
+4) python (EN-LangChain)Run.py --rerun-problems → thought/answer에 문제가 있는 idx만 
+5) python (EN-LangChain)Run.py --nopersona → 페르소나 없이 실험 진행
+'''
+
 import argparse
 import json
 import os
@@ -20,7 +28,7 @@ OUTPUT_DIR = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\results\(EN
 DATA_PATH = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\data\(EN)PERSONA_DATA_10000.jsonl")
 SCENARIOS_PATH = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\data\(EN)experiment_scenarios.json")
 
-MAX_PERSONAS = 100000  # 최대 지원 수
+MAX_PERSONAS = 100000
 
 # ========== 3. LLM 체인 세팅 ==========
 llm = ChatGoogleGenerativeAI(model=MODEL_NAME, temperature=1)
@@ -46,7 +54,7 @@ Please provide JSON output with reasoning and a final choice (Left or Right).
 parser = JsonOutputParser()
 chain = prompt_template | llm | parser
 
-# ========== 4. 데이터 로드 ==========
+# ========== 4. 데이터 로드 함수 ==========
 def load_personas() -> List[Dict[str, Any]]:
     personas = []
     with DATA_PATH.open(encoding="utf-8") as fp:
@@ -55,21 +63,48 @@ def load_personas() -> List[Dict[str, Any]]:
                 continue
             try:
                 item = json.loads(line)
-                personas.append({
-                    "persona": item["persona"],
-                    "idx": int(item["idx"])  # ✅ 파일에 저장된 idx 그대로 사용
-                })
+                personas.append({"persona": item["persona"], "idx": int(item["idx"])})
                 if len(personas) >= MAX_PERSONAS:
                     break
             except (json.JSONDecodeError, KeyError):
                 continue
     return personas
 
+
 def load_scenarios() -> List[Dict[str, Any]]:
     with SCENARIOS_PATH.open(encoding="utf-8") as fp:
         return json.load(fp)["experiments"]
 
-# ========== 5. 배치용 Payload 생성 ==========
+
+def list_existing_indices() -> set:
+    existing = set()
+    for file in OUTPUT_DIR.glob("Person_*.json"):
+        try:
+            idx = int(file.stem.split("_")[1])
+            existing.add(idx)
+        except (IndexError, ValueError):
+            continue
+    return existing
+
+
+def validate_results() -> List[int]:
+    problem_indices = []
+    for file in OUTPUT_DIR.glob("Person_*.json"):
+        try:
+            idx = int(file.stem.split("_")[1])
+            data = json.loads(file.read_text(encoding="utf-8"))
+            for difficulty in data.values():
+                for scenario in difficulty.values():
+                    thought = scenario.get("thought", "").strip()
+                    answer = scenario.get("answer", "").strip()
+                    if not thought or not answer or len(answer) < 2 or len(thought) < 5:
+                        problem_indices.append(idx)
+                        break
+        except Exception:
+            problem_indices.append(idx)
+    return sorted(set(problem_indices))
+
+# ========== 5. 실험 실행 함수 ==========
 def build_payloads(persona_desc: str, scenarios: List[Dict[str, Any]]) -> Tuple[List[Dict], List[Dict]]:
     payloads = []
     metadata = []
@@ -103,7 +138,7 @@ def build_payloads(persona_desc: str, scenarios: List[Dict[str, Any]]) -> Tuple[
             })
     return payloads, metadata
 
-# ========== 6. 메인 실험 함수 ==========
+
 def run(persona_filter: List[int] | None = None) -> None:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -160,7 +195,7 @@ def run(persona_filter: List[int] | None = None) -> None:
         out_path = OUTPUT_DIR / f"Person_{persona_id}.json"
         out_path.write_text(json.dumps(results, ensure_ascii=False, indent=4), encoding="utf-8")
 
-# ========== 7. 페르소나 없이 실험 ==========
+
 def run_without_persona() -> None:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -201,16 +236,19 @@ def run_without_persona() -> None:
     out_path = OUTPUT_DIR / "Person_NONE.json"
     out_path.write_text(json.dumps(results, ensure_ascii=False, indent=4), encoding="utf-8")
 
-# ========== 8. CLI Argument 파싱 ==========
+# ========== 6. CLI Argument 파싱 ==========
 def parse_args() -> argparse.Namespace:
     ap = argparse.ArgumentParser(description="Run Gemini Social-Preference Experiments")
     g = ap.add_mutually_exclusive_group(required=True)
     g.add_argument("--all", action="store_true", help="모든 페르소나 실행")
     g.add_argument("--ids", nargs="+", help="특정 idx만 실행 (공백/쉼표로 구분)")
     g.add_argument("--nopersona", action="store_true", help="페르소나 없이 실행")
+    g.add_argument("--rerun-missing", action="store_true", help="누락된 idx만 재실행")
+    g.add_argument("--rerun-problems", action="store_true", help="불량 결과(idx)만 재실행")
     return ap.parse_args()
 
-# ========== 9. Main ==========
+
+# ========== 7. Main ==========
 def main() -> None:
     args = parse_args()
 
@@ -218,6 +256,17 @@ def main() -> None:
         run()
     elif args.nopersona:
         run_without_persona()
+    elif args.rerun_missing:
+        personas = load_personas()
+        all_idx = {p["idx"] for p in personas}
+        existing_idx = list_existing_indices()
+        missing_idx = sorted(all_idx - existing_idx)
+        print(f"Missing idx: {missing_idx}")
+        run(missing_idx)
+    elif args.rerun_problems:
+        problems = validate_results()
+        print(f"Problematic idx: {problems}")
+        run(problems)
     else:
         raw = []
         for token in args.ids:
