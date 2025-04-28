@@ -1,4 +1,4 @@
-# DATA Repository
+# 💾 DATA Repository
 
 [Google Drive 링크](https://drive.google.com/drive/folders/1ryxXR_OhH1orSBd33uVKIaQ87L4mVp_s?usp=sharing)
 
@@ -11,10 +11,10 @@
 | (EN)experiment_scenarios.json | 고전 행동경제학 실험용 영어 시나리오 | - |
 | (KR)experiment_scenarios.json | 고전 행동경제학 실험용 한국어 시나리오 | - |
 | (PRE)experiment_scenarios.json | Charness and Rabin (2002) 논문 기반 고전 행동경제학 실험 시나리오 | - |
-| (EN)PERSONA_DATA.jsonl | 특정 도메인의 페르소나 정보 (영어) | 100,000개 |
-| (KR)PERSONA_DATA.jsonl | 특정 도메인의 페르소나 정보 (한국어) | 100,000개 |
-| (EN)PERSONA_DATA_10000.jsonl | 특정 도메인의 페르소나 정보 (영어) | 10,000개 |
-| (KR)PERSONA_DATA_10000.jsonl | 특정 도메인의 페르소나 정보 (한국어) | 10,000개 |
+| (EN)PERSONA_DATA.jsonl | 특정 도메인의 페르소나 정보 (영어) | 100,000 |
+| (KR)PERSONA_DATA.jsonl | 특정 도메인의 페르소나 정보 (한국어) | 100,000 |
+| (EN)PERSONA_DATA_10000.jsonl | 특정 도메인의 페르소나 정보 (영어) | 10,000 |
+| (KR)PERSONA_DATA_10000.jsonl | 특정 도메인의 페르소나 정보 (한국어) | 10,000 |
 
 ---
 
