@@ -2,7 +2,6 @@ import json
 import os
 from pathlib import Path
 from typing import Dict, List
-from collections import defaultdict
 
 from tqdm import tqdm
 from langchain_google_genai import ChatGoogleGenerativeAI
@@ -16,8 +15,8 @@ GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")  # NOTE : .env 파일 필요
 MODEL_NAME = "gemini-2.0-flash"
 
 # ========== 2. 경로 설정 ==========
-INPUT_PATH = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\data\Persona_Data_Top_n_domains_Random_Extraction\(EN)Persona_Part_4_to_6.json")
-OUTPUT_PATH = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\data\Persona_Data_Top_n_domains_Random_Extraction\(KR)Persona_Part_4_to_6.json")
+INPUT_PATH = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\data\(EN)PERSONA_DATA.jsonl")
+OUTPUT_PATH = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\data\(KR)PERSONA_DATA.jsonl")
 
 # ========== 3. 모델 설정 ==========
 llm = ChatGoogleGenerativeAI(
@@ -28,8 +27,7 @@ llm = ChatGoogleGenerativeAI(
 # ========== 4. 프롬프트 & 체인 설정 ==========
 prompt_template = PromptTemplate(
     input_variables=["persona", "domain"],
-    template="""
-다음은 영어로 작성된 페르소나와 연구 도메인 설명입니다.
+    template="""다음은 영어로 작성된 페르소나와 연구 도메인 설명입니다.
 
 [페르소나]
 {persona}
@@ -52,37 +50,23 @@ chain = prompt_template | llm | parser
 
 # ========== 5. 데이터 로딩 ==========
 def load_data(path: Path) -> List[Dict]:
-    """도메인별 JSON 파일을 읽어 리스트로 반환"""
-    with path.open("r", encoding="utf-8") as f:
-        data = json.load(f)
-
+    """JSONL 파일을 줄 단위로 읽어 리스트 반환"""
     records = []
-    for domain, personas in data.items():
-        for persona_info in personas:
-            records.append({
-                "persona": persona_info["persona"],
-                "domain": domain,
-                "idx": persona_info["idx"]
-            })
+    with path.open("r", encoding="utf-8") as f:
+        for line in f:
+            if line.strip():  # 빈 줄 무시
+                record = json.loads(line)
+                records.append(record)
     return records
 
 # ========== 6. 데이터 저장 ==========
 def save_data(path: Path, data: List[Dict]) -> None:
-    """리스트를 다시 도메인별로 묶어 JSON 형태로 저장"""
-    domain_to_personas = defaultdict(list)
-
-    for item in data:
-        domain = item["general domain (top 1 percent)"]  # 번역된 도메인 이름
-        domain_to_personas[domain].append({
-            "persona": item["persona"],
-            "general domain (top 1 percent)": item["general domain (top 1 percent)"],
-            "idx": item["idx"]
-        })
-
+    """리스트를 JSONL 형태로 저장"""
     with path.open("w", encoding="utf-8") as f:
-        json.dump(domain_to_personas, f, ensure_ascii=False, indent=2)
+        for item in data:
+            f.write(json.dumps(item, ensure_ascii=False) + "\n")
 
-# ========== 7. 페르소나 번역 (batch 처리 + 실패 재시도) ==========
+# ========== 7. 페르소나 번역 ==========
 def translate_personas(records: List[Dict], batch_size: int = 20, max_retry: int = 3) -> List[Dict]:
     """레코드를 batch 단위로 번역 (빠른 처리 + 실패 재시도)"""
     translated = []
@@ -93,7 +77,7 @@ def translate_personas(records: List[Dict], batch_size: int = 20, max_retry: int
         batch_inputs = [
             {
                 "persona": record["persona"],
-                "domain": record["domain"],
+                "domain": record["general domain (top 1 percent)"],
             }
             for record in batch_records
         ]
@@ -103,12 +87,14 @@ def translate_personas(records: List[Dict], batch_size: int = 20, max_retry: int
             try:
                 batch_outputs = chain.batch(
                     batch_inputs,
-                    config={"max_concurrency": 20}  # 병렬 요청 최대 100개
+                    config={"max_concurrency": 20}  # 병렬 요청 최대 20개
                 )
-                # 번역 결과에 원본 idx 추가
-                for output, original in zip(batch_outputs, batch_records):
-                    output["idx"] = original["idx"]
-                translated.extend(batch_outputs)
+                # 번역 결과를 원래 포맷에 맞게 복원
+                for output in batch_outputs:
+                    translated.append({
+                        "persona": output["persona"],
+                        "general domain (top 1 percent)": output["general domain (top 1 percent)"]
+                    })
                 break  # 성공했으면 반복 종료
             except Exception as e:
                 print(f"[{attempt}/{max_retry}] 번역 실패, 재시도 중... 오류: {e}")
