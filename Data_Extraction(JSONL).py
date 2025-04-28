@@ -14,9 +14,8 @@ INPUT_PATH = Path(r"C:\Users\dsng3\Desktop\Original_Persona_Data.jsonl")
 OUTPUT_PATH = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\data\(EN)PERSONA_DATA.jsonl")
 TOP_N_DOMAINS = 30              # 상위 도메인 개수
 SAMPLE_SIZE_PER_DOMAIN = 10_000 # 도메인별 추출 수
-RANDOM_SEED = 42 # 랜덤 추출 시드
+RANDOM_SEED = 42
 random.seed(RANDOM_SEED)
-
 
 def count_domains(path: Path) -> Counter:
     counter = Counter()
@@ -31,13 +30,11 @@ def count_domains(path: Path) -> Counter:
                 continue
     return counter
 
-
 def show_top_domains(counter: Counter, top_n: int) -> None:
     print(f"\n★ 상위 {top_n}개 도메인")
     for i, (dom, cnt) in enumerate(counter.most_common(top_n), 1):
         print(f"{i:>2}. {dom:<25} {cnt:>7,}")
     print("\n(원하는 도메인을 쉼표로 묶어 --domains에 넣어주세요!)\n")
-
 
 def collect_selected(path: Path, choose: set[str]) -> dict[str, List[dict]]:
     buckets = defaultdict(list)
@@ -55,7 +52,6 @@ def collect_selected(path: Path, choose: set[str]) -> dict[str, List[dict]]:
                 continue
     return buckets
 
-
 def sample_and_save(buckets: dict, k: int, out_path: Path) -> None:
     out_path.parent.mkdir(parents=True, exist_ok=True)
     total = 0
@@ -68,8 +64,26 @@ def sample_and_save(buckets: dict, k: int, out_path: Path) -> None:
             for item in picks:
                 f.write(json.dumps(item, ensure_ascii=False) + "\n")
             total += need
-    print(f"\n완료!  총 {total:,}개 저장 → {out_path}\n")
+    print(f"\n샘플링 완료!  총 {total:,}개 저장 → {out_path}\n")
 
+def add_idx_to_jsonl(path: Path) -> None:
+    """샘플링 완료 후, JSONL 파일에 idx를 1부터 끝까지 부여"""
+    tmp_path = path.with_suffix(".tmp.jsonl")
+
+    with path.open("r", encoding="utf-8") as infile, tmp_path.open("w", encoding="utf-8") as outfile:
+        for idx, line in enumerate(infile, start=1):
+            if not line.strip():
+                continue
+            try:
+                obj = json.loads(line)
+                obj["idx"] = idx
+                outfile.write(json.dumps(obj, ensure_ascii=False) + "\n")
+            except json.JSONDecodeError:
+                continue
+
+    path.unlink()         # 기존 파일 삭제
+    tmp_path.rename(path)  # 임시 파일을 원래 이름으로 변경
+    print(f"idx 부여 완료! → {path}")
 
 def main():
     parser = argparse.ArgumentParser(description="Persona JSONL 샘플러")
@@ -97,7 +111,7 @@ def main():
         return
 
     sample_and_save(buckets, SAMPLE_SIZE_PER_DOMAIN, OUTPUT_PATH)
-
+    add_idx_to_jsonl(OUTPUT_PATH)  # ✅ 샘플링 끝나고 idx 추가!
 
 if __name__ == "__main__":
     main()

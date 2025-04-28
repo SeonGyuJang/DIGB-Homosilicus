@@ -10,26 +10,23 @@ from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import JsonOutputParser
 from dotenv import load_dotenv
 
+# ========== 1. 환경 변수 로드 ==========
 load_dotenv()
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")  # NOTE : .env 파일이 있어야 함.
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 MODEL_NAME = "gemini-2.0-flash"
-MAX_PERSONAS = 1000
 
-OUTPUT_DIR = Path(r"C:\Users\dsng3\iCloudDrive\DIGB_Project\langchain-NOPERSONA")  # 실험결과(JSON파일)을 저장할 경로
-DATA_PATH = Path(r"C:\Users\dsng3\iCloudDrive\DIGB_Project\data\grouped_persona_data.json")  # 도메인별로 그룹화된 페르소나 데이터
-SCENARIOS_PATH = Path(r"C:\Users\dsng3\iCloudDrive\DIGB_Project\data\existing_research_scenarios.json")  # 시나리오 JSON 파일
+# ========== 2. 경로 설정 ==========
+OUTPUT_DIR = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\results\(EN)LangChain_EXPERIMENT_RESULTS")
+DATA_PATH = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\data\(EN)PERSONA_DATA.jsonl")
+SCENARIOS_PATH = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\data\(EN)experiment_scenarios.json")
 
+MAX_PERSONAS = 100000  # 최대 지원 수
+
+# ========== 3. LLM 체인 세팅 ==========
 llm = ChatGoogleGenerativeAI(model=MODEL_NAME, temperature=1)
 
 prompt_template = PromptTemplate(
-    input_variables=[
-        "persona_desc",
-        "A_left",
-        "B_left",
-        "A_right",
-        "B_right",
-        "metric",
-    ],
+    input_variables=["persona_desc", "A_left", "B_left", "A_right", "B_right", "metric"],
     template="""
 You are Person B in a Social Preferences Experiment.
 
@@ -45,35 +42,37 @@ This is a question about {metric}.
 Please provide JSON output with reasoning and a final choice (Left or Right).
 """,
 )
+
 parser = JsonOutputParser()
 chain = prompt_template | llm | parser
 
-
-def load_personas() -> List[Dict]:
+# ========== 4. 데이터 로드 ==========
+def load_personas() -> List[Dict[str, Any]]:
+    personas = []
     with DATA_PATH.open(encoding="utf-8") as fp:
-        data = json.load(fp)
-
-    personas: List[Dict] = []
-    for plist in data.values():
-        for p in plist:
-            personas.append({"persona": p["persona"], "idx": int(p["idx"])})
-            if len(personas) >= MAX_PERSONAS:
-                return personas
+        for line in fp:
+            if not line.strip():
+                continue
+            try:
+                item = json.loads(line)
+                personas.append({
+                    "persona": item["persona"],
+                    "idx": int(item["idx"])  # ✅ 파일에 저장된 idx 그대로 사용
+                })
+                if len(personas) >= MAX_PERSONAS:
+                    break
+            except (json.JSONDecodeError, KeyError):
+                continue
     return personas
 
-
-def load_scenarios() -> List[Dict]:
+def load_scenarios() -> List[Dict[str, Any]]:
     with SCENARIOS_PATH.open(encoding="utf-8") as fp:
         return json.load(fp)["experiments"]
 
-
-def build_payloads(
-    persona_desc: str, scenarios: List[Dict]
-) -> Tuple[List[Dict], List[Dict]]:
-    """Batch 호출용 payload와 메타데이터를 동시에 만든다."""
-    payloads: List[Dict[str, Any]] = []
-    metadata: List[Dict[str, Any]] = []
-
+# ========== 5. 배치용 Payload 생성 ==========
+def build_payloads(persona_desc: str, scenarios: List[Dict[str, Any]]) -> Tuple[List[Dict], List[Dict]]:
+    payloads = []
+    metadata = []
     for exp in scenarios:
         difficulty = exp["difficulty"]
         options = exp["options"]
@@ -84,31 +83,27 @@ def build_payloads(
             A_right, B_right = opt["right"]
             metric = metrics[i]
 
-            payloads.append(
-                {
-                    "persona_desc": persona_desc,
-                    "A_left": A_left,
-                    "B_left": B_left,
-                    "A_right": A_right,
-                    "B_right": B_right,
-                    "metric": metric,
-                }
-            )
+            payloads.append({
+                "persona_desc": persona_desc,
+                "A_left": A_left,
+                "B_left": B_left,
+                "A_right": A_right,
+                "B_right": B_right,
+                "metric": metric,
+            })
 
-            metadata.append(
-                {
-                    "difficulty": difficulty,
-                    "scenario_idx": i,
-                    "metric": metric,
-                    "A_left": A_left,
-                    "B_left": B_left,
-                    "A_right": A_right,
-                    "B_right": B_right,
-                }
-            )
+            metadata.append({
+                "difficulty": difficulty,
+                "scenario_idx": i,
+                "metric": metric,
+                "A_left": A_left,
+                "B_left": B_left,
+                "A_right": A_right,
+                "B_right": B_right,
+            })
     return payloads, metadata
 
-
+# ========== 6. 메인 실험 함수 ==========
 def run(persona_filter: List[int] | None = None) -> None:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -117,12 +112,13 @@ def run(persona_filter: List[int] | None = None) -> None:
         personas = [p for p in personas if p["idx"] in persona_filter]
         missing = set(persona_filter) - {p["idx"] for p in personas}
         if missing:
-            print(f"Warning: idx not found in dataset → {sorted(missing)}")
+            print(f"Warning: Missing idx → {sorted(missing)}")
 
-    scenarios = load_scenarios()
     if not personas:
         print("선택된 페르소나가 없습니다. 종료합니다.")
         return
+
+    scenarios = load_scenarios()
 
     for persona in tqdm(personas, desc="Running Experiments"):
         persona_desc = persona["persona"]
@@ -136,7 +132,7 @@ def run(persona_filter: List[int] | None = None) -> None:
             print(f"[persona {persona_id}] batch 호출 실패 → {e}")
             continue
 
-        results: Dict[str, Dict] = {}
+        results = {}
         for meta, resp in zip(metadata, responses):
             difficulty = meta["difficulty"]
             i = meta["scenario_idx"]
@@ -162,11 +158,9 @@ def run(persona_filter: List[int] | None = None) -> None:
             }
 
         out_path = OUTPUT_DIR / f"Person_{persona_id}.json"
-        out_path.write_text(
-            json.dumps(results, ensure_ascii=False, indent=4), encoding="utf-8"
-        )
+        out_path.write_text(json.dumps(results, ensure_ascii=False, indent=4), encoding="utf-8")
 
-
+# ========== 7. 페르소나 없이 실험 ==========
 def run_without_persona() -> None:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -174,12 +168,12 @@ def run_without_persona() -> None:
     payloads, metadata = build_payloads("", scenarios)
 
     try:
-        responses = chain.batch(payloads, config={"max_concurrency": 20})
+        responses = chain.batch(payloads, config={"max_concurrency": 135})
     except Exception as e:
-        print(f"batch 호출 실패 → {e}")
+        print(f"[No Persona] batch 호출 실패 → {e}")
         return
 
-    results: Dict[str, Dict] = {}
+    results = {}
     for meta, resp in zip(metadata, responses):
         difficulty = meta["difficulty"]
         i = meta["scenario_idx"]
@@ -205,20 +199,18 @@ def run_without_persona() -> None:
         }
 
     out_path = OUTPUT_DIR / "Person_NONE.json"
-    out_path.write_text(
-        json.dumps(results, ensure_ascii=False, indent=4), encoding="utf-8"
-    )
+    out_path.write_text(json.dumps(results, ensure_ascii=False, indent=4), encoding="utf-8")
 
-
+# ========== 8. CLI Argument 파싱 ==========
 def parse_args() -> argparse.Namespace:
-    ap = argparse.ArgumentParser(description="Run Gemini social‑preference experiments")
+    ap = argparse.ArgumentParser(description="Run Gemini Social-Preference Experiments")
     g = ap.add_mutually_exclusive_group(required=True)
-    g.add_argument("--all", action="store_true", help="1000개 전부 실행")
-    g.add_argument("--ids", nargs="+", help="실행할 persona idx 목록 (공백 또는 쉼표 구분)")
+    g.add_argument("--all", action="store_true", help="모든 페르소나 실행")
+    g.add_argument("--ids", nargs="+", help="특정 idx만 실행 (공백/쉼표로 구분)")
     g.add_argument("--nopersona", action="store_true", help="페르소나 없이 실행")
     return ap.parse_args()
 
-
+# ========== 9. Main ==========
 def main() -> None:
     args = parse_args()
 
@@ -227,16 +219,14 @@ def main() -> None:
     elif args.nopersona:
         run_without_persona()
     else:
-        raw: List[str] = []
+        raw = []
         for token in args.ids:
             raw.extend(token.split(","))
         try:
             id_list = [int(x) for x in raw if x.strip()]
         except ValueError as e:
             raise SystemExit(f"idx 값은 정수여야 합니다 → {e}")
-
         run(id_list)
-
 
 if __name__ == "__main__":
     main()
