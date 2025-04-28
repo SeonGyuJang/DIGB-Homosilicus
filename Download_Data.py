@@ -32,7 +32,9 @@ def download_folder_from_google_drive(share_url: str, output_dir: Path):
 
 if __name__ == "__main__":
     script_dir = Path(__file__).resolve().parent
-    output_dir = script_dir.parent / "Download_Data"
+    project_root = script_dir.parent
+    output_dir = project_root / "Download_Data"
+
 
     # 다운로드할 구글 드라이브 공유 링크
     share_url = "https://drive.google.com/drive/folders/1ryxXR_OhH1orSBd33uVKIaQ87L4mVp_s?usp=sharing" 
