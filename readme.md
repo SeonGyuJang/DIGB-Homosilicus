@@ -39,7 +39,7 @@
 
 # 🧩 코드 설명
 
-## 1) Data_Extraction(JSONL).py
+## ① Data_Extraction(JSONL).py
 - **Input** : Original_Persona_Data.jsonl  
 - **Output** : (EN)PERSONA_DATA.jsonl  
 
@@ -49,7 +49,7 @@
 
 ---
 
-## 2) (LangChain)Persona_Data_Translation.py
+## ② (LangChain)Persona_Data_Translation.py
 - **Input** : (EN)PERSONA_DATA.jsonl  
 - **Output** : (KR)PERSONA_DATA.jsonl  
 
@@ -57,7 +57,7 @@
 
 ---
 
-## 3) (EN-LangChain)Run.py
+## ③ (EN-LangChain)Run.py
 - **Input** : (EN)experiment_scenarios.json, (EN)PERSONA_DATA.jsonl  
 - **Output** : (EN)LangChain_EXPERIMENT_RESULTS/Person_{idx}.json  
 
@@ -66,7 +66,7 @@ Language: **English**
 
 ---
 
-## 4) (KR-LangChain)Run.py
+## ④ (KR-LangChain)Run.py
 - **Input** : (KR)experiment_scenarios.json, (KR)PERSONA_DATA.jsonl  
 - **Output** : (KR)LangChain_EXPERIMENT_RESULTS/Person_{idx}.json  
 
