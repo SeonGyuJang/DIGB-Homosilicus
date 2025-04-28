@@ -1,6 +1,6 @@
 """
 (1) 상위 N개 도메인 목록 보기 :  python persona_sampler.py --list
-(2) 선택한 도메인만 추출      :  python "Data_Extraction(JSONL).py" --domains history,law,philosophy,economics,sociology,finance,"computer science",mathematics ...
+(2) 선택한 도메인만 추출      :  python "Data_Extraction(JSONL).py" --domains history,law,philosophy,economics,sociology,finance,"computer science",mathematics,"environmental science",engineering
 """
 
 import argparse
@@ -11,9 +11,9 @@ from pathlib import Path
 from typing import List
 
 INPUT_PATH = Path(r"C:\Users\dsng3\Desktop\Original_Persona_Data.jsonl")
-OUTPUT_PATH = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\data\(EN)PERSONA_DATA.jsonl")
+OUTPUT_PATH = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\data\(EN)PERSONA_DATA_10000.jsonl")
 TOP_N_DOMAINS = 30              # 상위 도메인 개수
-SAMPLE_SIZE_PER_DOMAIN = 10_000 # 도메인별 추출 수
+SAMPLE_SIZE_PER_DOMAIN = 1000  # 도메인별 추출 
 RANDOM_SEED = 42
 random.seed(RANDOM_SEED)
 

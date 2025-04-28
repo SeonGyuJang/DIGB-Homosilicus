@@ -1,3 +1,4 @@
+import argparse
 import json
 import os
 from pathlib import Path
@@ -9,14 +10,14 @@ from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import JsonOutputParser
 from dotenv import load_dotenv
 
-# ========== 1. 환경변수 로드 ==========
+# ========== 1. 환경 변수 로드 ==========
 load_dotenv()
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")  # NOTE : .env 파일 필요
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")  # NOTE: .env 파일 필요
 MODEL_NAME = "gemini-2.0-flash"
 
 # ========== 2. 경로 설정 ==========
-INPUT_PATH = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\data\(EN)PERSONA_DATA.jsonl")
-OUTPUT_PATH = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\data\(KR)PERSONA_DATA.jsonl")
+INPUT_PATH = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\data\(EN)PERSONA_DATA_10000.jsonl")
+OUTPUT_PATH = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\data\(KR)PERSONA_DATA_10000.jsonl")
 
 # ========== 3. 모델 설정 ==========
 llm = ChatGoogleGenerativeAI(
@@ -48,29 +49,25 @@ prompt_template = PromptTemplate(
 parser = JsonOutputParser()
 chain = prompt_template | llm | parser
 
-# ========== 5. 데이터 로딩 ==========
-def load_data(path: Path) -> List[Dict]:
-    """JSONL 파일을 줄 단위로 읽어 리스트 반환"""
+# ========== 5. 데이터 로딩/저장 함수 ==========
+def load_jsonl(path: Path) -> List[Dict]:
     records = []
+    if not path.exists():
+        return records
     with path.open("r", encoding="utf-8") as f:
         for line in f:
-            if line.strip():  # 빈 줄 무시
-                record = json.loads(line)
-                records.append(record)
+            if line.strip():
+                records.append(json.loads(line))
     return records
 
-# ========== 6. 데이터 저장 ==========
-def save_data(path: Path, data: List[Dict]) -> None:
-    """리스트를 JSONL 형태로 저장"""
+def save_jsonl(path: Path, data: List[Dict]) -> None:
     with path.open("w", encoding="utf-8") as f:
         for item in data:
             f.write(json.dumps(item, ensure_ascii=False) + "\n")
 
-# ========== 7. 페르소나 번역 ==========
-def translate_personas(records: List[Dict], batch_size: int = 20, max_retry: int = 3) -> List[Dict]:
-    """레코드를 batch 단위로 번역 (빠른 처리 + 실패 재시도)"""
+# ========== 6-1. batch 방식 페르소나 번역 ==========
+def translate_personas_batch(records: List[Dict], batch_size: int = 20, max_retry: int = 3) -> List[Dict]:
     translated = []
-
     for i in tqdm(range(0, len(records), batch_size), desc="Translating Personas (Batch)"):
         batch_records = records[i:i + batch_size]
 
@@ -82,43 +79,110 @@ def translate_personas(records: List[Dict], batch_size: int = 20, max_retry: int
             for record in batch_records
         ]
 
-        # 재시도 로직
+        idx_list = [record.get("idx") for record in batch_records]
+
         for attempt in range(1, max_retry + 1):
             try:
                 batch_outputs = chain.batch(
                     batch_inputs,
-                    config={"max_concurrency": 20}  # 병렬 요청 최대 20개
+                    config={"max_concurrency": 20}
                 )
-                # 번역 결과를 원래 포맷에 맞게 복원
-                for output in batch_outputs:
+                for output, idx in zip(batch_outputs, idx_list):
                     translated.append({
                         "persona": output["persona"],
-                        "general domain (top 1 percent)": output["general domain (top 1 percent)"]
+                        "general domain (top 1 percent)": output["general domain (top 1 percent)"],
+                        "idx": idx
                     })
-                break  # 성공했으면 반복 종료
+                break
             except Exception as e:
-                print(f"[{attempt}/{max_retry}] 번역 실패, 재시도 중... 오류: {e}")
+                print(f"[{attempt}/{max_retry}] 번역 실패 (idx 목록: {idx_list}), 재시도 중... 오류: {e}")
                 if attempt == max_retry:
-                    print(f"최종 재시도 실패: 해당 batch 건너뜀")
+                    print(f"최종 재시도 실패 (idx 목록: {idx_list}): 해당 batch 건너뜀")
                 else:
                     continue
-
     return translated
 
+
+# ========== 6-2. invoke 방식 페르소나 번역 ==========
+def translate_personas_invoke(records: List[Dict], max_retry: int = 3) -> List[Dict]:
+    translated = []
+    for record in tqdm(records, desc="Translating Personas (Single Invoke)"):
+        input_data = {
+            "persona": record["persona"],
+            "domain": record["general domain (top 1 percent)"],
+        }
+        idx = record.get("idx")
+
+        for attempt in range(1, max_retry + 1):
+            try:
+                output = chain.invoke(input_data)
+                translated.append({
+                    "persona": output["persona"],
+                    "general domain (top 1 percent)": output["general domain (top 1 percent)"],
+                    "idx": idx
+                })
+                break
+            except Exception as e:
+                print(f"[{attempt}/{max_retry}] idx={idx} 번역 실패, 재시도 중... 오류: {e}")
+                if attempt == max_retry:
+                    print(f"최종 재시도 실패: idx={idx} 건너뜀")
+                else:
+                    continue
+    return translated
+
+# ========== 7. 누락된 IDX 찾기 ==========
+def find_missing_idx(all_records: List[Dict], translated_records: List[Dict]) -> List[int]:
+    original_idx_set = {record.get("idx") for record in all_records}
+    translated_idx_set = {record.get("idx") for record in translated_records}
+    missing_idx = sorted(list(original_idx_set - translated_idx_set))
+    return missing_idx
+
 # ========== 8. 메인 함수 ==========
-def main():
+def main(mode: str):
     print("데이터 로딩 중...")
-    records = load_data(INPUT_PATH)
+    all_records = load_jsonl(INPUT_PATH)
+    print(f"총 {len(all_records)}개 페르소나 로드 완료.")
 
-    print(f"총 {len(records)}개 페르소나 로드 완료.")
-    print("번역 시작...")
-    translated_records = translate_personas(records)
+    if mode == "full":
+        print("전체 번역 모드 실행 중...")
+        translated_records = translate_personas_batch(all_records)
 
-    print("번역 완료, 저장 중...")
-    save_data(OUTPUT_PATH, translated_records)
+    elif mode == "retry_missing":
+        print("누락된 idx만 재번역 모드 실행 중...")
+        existing_translated = load_jsonl(OUTPUT_PATH)
+        missing_idx = find_missing_idx(all_records, existing_translated)
 
+        if not missing_idx:
+            print("누락된 idx가 없습니다. 작업 종료합니다.")
+            return
+
+        print(f"누락된 {len(missing_idx)}개 idx 발견:")
+        print(missing_idx)
+
+        missing_records = [record for record in all_records if record.get("idx") in missing_idx]
+        new_translated = translate_personas_invoke(missing_records)
+
+        # 기존 번역 + 신규 번역 합치기
+        merged_records = existing_translated + new_translated
+        merged_records.sort(key=lambda x: x.get("idx"))  # idx 기준 정렬
+        translated_records = merged_records
+
+    else:
+        raise ValueError(f"잘못된 mode: {mode}")
+
+    print("저장 중...")
+    save_jsonl(OUTPUT_PATH, translated_records)
     print("모든 작업 완료!")
 
 # ========== 9. 엔트리포인트 ==========
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--mode",
+        type=str,
+        choices=["full", "retry_missing"],
+        default="full",
+        help="full: 전체 번역 / retry_missing: 누락된 idx만 재번역"
+    )
+    args = parser.parse_args()
+    main(args.mode)
