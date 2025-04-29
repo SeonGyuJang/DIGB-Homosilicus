@@ -84,22 +84,31 @@ def list_existing_indices() -> set:
             continue
     return existing
 
-def validate_results() -> List[int]:
+def validate_results() -> Tuple[List[int], Dict[int, List[str]]]:
     problem_indices = []
+    problem_details = {}
+
     for file in OUTPUT_DIR.glob("Person_*.json"):
         try:
             idx = int(file.stem.split("_")[1])
             data = json.loads(file.read_text(encoding="utf-8"))
-            for difficulty in data.values():
-                for scenario in difficulty.values():
+            for difficulty_key, scenarios in data.items():
+                for scenario_key, scenario in scenarios.items():
                     thought = scenario.get("thought", "").strip()
                     answer = scenario.get("answer", "").strip()
                     if not thought or not answer or len(answer) < 2 or len(thought) < 5:
                         problem_indices.append(idx)
-                        break
-        except Exception:
-            problem_indices.append(idx)
-    return sorted(set(problem_indices))
+                        if idx not in problem_details:
+                            problem_details[idx] = []
+                        problem_details[idx].append(f"[{difficulty_key}] {scenario_key} 문제 (thought/answer 부족)")
+        except Exception as e:
+            idx = file.stem.split("_")[1]
+            problem_indices.append(int(idx))
+            if int(idx) not in problem_details:
+                problem_details[int(idx)] = []
+            problem_details[int(idx)].append(f"[파일 파싱 에러] {str(e)}")
+
+    return sorted(set(problem_indices)), problem_details
 
 # ========== 5. 실험 실행 ==========
 def build_payloads(persona_desc: str, scenarios: List[Dict[str, Any]]) -> Tuple[List[Dict], List[Dict]]:
@@ -189,7 +198,6 @@ def run_batch(persona_filter: List[int] | None = None) -> None:
         except Exception as e:
             print(f"[persona {persona_id}] batch 호출 실패 → {e}")
 
-
 def run_invoke(persona_filter: List[int]) -> None:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -258,8 +266,13 @@ def main() -> None:
         print(f"Missing idx: {missing_idx}")
         run_invoke(missing_idx)
     elif args.rerun_problems:
-        problems = validate_results()
-        print(f"Problematic idx: {problems}")
+        problems, details = validate_results()
+        print(f"문제 있는 idx: {problems}\n")
+        print(f"총 {len(problems)}개 문제 발견. 상세 내용:")
+        for idx in problems:
+            print(f"\n>> idx {idx} 문제 요약:")
+            for issue in details.get(idx, []):
+                print(f"   - {issue}")
         run_invoke(problems)
     else:
         raw = []
