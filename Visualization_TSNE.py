@@ -3,10 +3,10 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.manifold import TSNE
-from collections import defaultdict
+from collections import defaultdict 
 
 # 1. 데이터 로드
-file_path = r'C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\data\Persona_embedding_DATA.jsonl'  # ← 여기에 jsonl 파일 경로 입력
+file_path = r'C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\NO_Tracking\Persona_embedding_DATA.jsonl' 
 data = []
 with open(file_path, 'r', encoding='utf-8') as f:
     for line in f:
