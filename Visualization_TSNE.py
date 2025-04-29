@@ -5,22 +5,22 @@ import matplotlib.pyplot as plt
 from sklearn.manifold import TSNE
 from collections import defaultdict 
 
-# 1. 데이터 로드
+print("[1/6] 파일 읽는 중...")
 file_path = r'C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\NO_Tracking\Persona_embedding_DATA.jsonl' 
 data = []
 with open(file_path, 'r', encoding='utf-8') as f:
     for line in f:
         data.append(json.loads(line))
 
-# 2. 도메인별로 묶기
+print("[2/6] 도메인별로 그룹핑하는 중...")
 domain_groups = defaultdict(list)
 for entry in data:
-    domain = entry['general domain (top 1 percent)'].lower()  # 소문자 통일
+    domain = entry['general domain (top 1 percent)'].lower()  
     idx = entry['idx']
     embedding = entry['embedding']
     domain_groups[domain].append((idx, embedding))
 
-# 3. 시각화를 위한 데이터 준비
+print("[3/6] 임베딩과 레이블 리스트로 변환 중...")
 all_embeddings = []
 all_labels = []
 all_idx = []
@@ -33,14 +33,13 @@ for domain, items in domain_groups.items():
 
 X = np.array(all_embeddings)
 
-# 4. TSNE 적용
+print("[4/6] t-SNE 변환(t-SNE fitting) 중...")
 tsne = TSNE(n_components=2, random_state=42, perplexity=30)
 X_embedded = tsne.fit_transform(X)
 
-# 5. 시각화
+print("[5/6] 시각화 준비 및 그리기 중...")
 plt.figure(figsize=(15, 10))
 
-# 도메인별로 다른 색
 unique_domains = sorted(list(set(all_labels)))
 colors = plt.cm.tab20(np.linspace(0, 1, len(unique_domains)))
 
@@ -57,4 +56,8 @@ plt.xlabel('Dimension 1')
 plt.ylabel('Dimension 2')
 plt.legend(fontsize=8, loc='best', bbox_to_anchor=(1.05, 1))
 plt.tight_layout()
+
+print("[6/6] 플롯 보여주는 중...")
 plt.show()
+
+print("✅ 모든 과정 완료!")
