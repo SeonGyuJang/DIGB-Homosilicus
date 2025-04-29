@@ -35,7 +35,8 @@ llm = ChatGoogleGenerativeAI(model=MODEL_NAME, temperature=1)
 
 prompt_template = PromptTemplate(
     input_variables=["persona_desc", "A_left", "B_left", "A_right", "B_right", "metric"],
-    template="""당신은 사회적 선호 실험에서 "B" 역할을 맡았습니다.
+    template="""
+당신은 사회적 선호 실험에서 \"B\" 역할을 맡았습니다.
 
 페르소나:
 {persona_desc}
@@ -58,7 +59,7 @@ prompt_template = PromptTemplate(
 parser = JsonOutputParser()
 chain = prompt_template | llm | parser
 
-# ========== 4. 데이터 로드 함수 ==========
+# ========== 4. 데이터 로드 ==========
 def load_personas() -> List[Dict[str, Any]]:
     personas = []
     with DATA_PATH.open(encoding="utf-8") as fp:
@@ -74,11 +75,9 @@ def load_personas() -> List[Dict[str, Any]]:
                 continue
     return personas
 
-
 def load_scenarios() -> List[Dict[str, Any]]:
     with SCENARIOS_PATH.open(encoding="utf-8") as fp:
         return json.load(fp)["experiments"]
-
 
 def list_existing_indices() -> set:
     existing = set()
@@ -89,7 +88,6 @@ def list_existing_indices() -> set:
         except (IndexError, ValueError):
             continue
     return existing
-
 
 def validate_results() -> List[int]:
     problem_indices = []
@@ -108,10 +106,9 @@ def validate_results() -> List[int]:
             problem_indices.append(idx)
     return sorted(set(problem_indices))
 
-# ========== 5. 실험 실행 함수 ==========
+# ========== 5. 실행 로직 ==========
 def build_payloads(persona_desc: str, scenarios: List[Dict[str, Any]]) -> Tuple[List[Dict], List[Dict]]:
-    payloads = []
-    metadata = []
+    payloads, metadata = [] , []
     for exp in scenarios:
         difficulty = exp["difficulty"]
         options = exp["options"]
@@ -142,76 +139,7 @@ def build_payloads(persona_desc: str, scenarios: List[Dict[str, Any]]) -> Tuple[
             })
     return payloads, metadata
 
-
-def run(persona_filter: List[int] | None = None) -> None:
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-
-    personas = load_personas()
-    if persona_filter is not None:
-        personas = [p for p in personas if p["idx"] in persona_filter]
-        missing = set(persona_filter) - {p["idx"] for p in personas}
-        if missing:
-            print(f"경고: 다음 idx가 데이터에 없습니다 → {sorted(missing)}")
-
-    if not personas:
-        print("선택된 페르소나가 없습니다. 종료합니다.")
-        return
-
-    scenarios = load_scenarios()
-
-    for persona in tqdm(personas, desc="실험 진행 중"):
-        persona_desc = persona["persona"]
-        persona_id = persona["idx"]
-
-        payloads, metadata = build_payloads(persona_desc, scenarios)
-
-        try:
-            responses = chain.batch(payloads, config={"max_concurrency": 20})
-        except Exception as e:
-            print(f"[페르소나 {persona_id}] batch 호출 실패 → {e}")
-            continue
-
-        results = {}
-        for meta, resp in zip(metadata, responses):
-            difficulty = meta["difficulty"]
-            i = meta["scenario_idx"]
-
-            if difficulty not in results:
-                results[difficulty] = {}
-
-            if isinstance(resp, Exception):
-                results[difficulty][f"scenario_{i+1}"] = {"error": str(resp)}
-                continue
-
-            results[difficulty][f"scenario_{i+1}"] = {
-                "persona_id": persona_id,
-                "persona_desc": persona_desc,
-                "difficulty": difficulty,
-                "metric": meta["metric"],
-                "options": {
-                    "left": {"A": meta["A_left"], "B": meta["B_left"]},
-                    "right": {"A": meta["A_right"], "B": meta["B_right"]},
-                },
-                "thought": resp.get("reasoning", ""),
-                "answer": resp.get("choice", ""),
-            }
-
-        out_path = OUTPUT_DIR / f"Person_{persona_id}.json"
-        out_path.write_text(json.dumps(results, ensure_ascii=False, indent=4), encoding="utf-8")
-
-
-def run_without_persona() -> None:
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-
-    scenarios = load_scenarios()
-    payloads, metadata = build_payloads("", scenarios)
-
-    try:
-        responses = chain.batch(payloads, config={"max_concurrency": 135})
-    except Exception as e:
-        print(f"[No Persona] batch 호출 실패 → {e}")
-        return
-
+def save_results(persona_id: Any, persona_desc: str, responses: List[Any], metadata: List[Dict[str, Any]]) -> None:
     results = {}
     for meta, resp in zip(metadata, responses):
         difficulty = meta["difficulty"]
@@ -225,8 +153,8 @@ def run_without_persona() -> None:
             continue
 
         results[difficulty][f"scenario_{i+1}"] = {
-            "persona_id": "none",
-            "persona_desc": "",
+            "persona_id": persona_id,
+            "persona_desc": persona_desc,
             "difficulty": difficulty,
             "metric": meta["metric"],
             "options": {
@@ -237,18 +165,75 @@ def run_without_persona() -> None:
             "answer": resp.get("choice", ""),
         }
 
-    out_path = OUTPUT_DIR / "Person_NONE.json"
+    out_path = OUTPUT_DIR / f"Person_{persona_id}.json"
     out_path.write_text(json.dumps(results, ensure_ascii=False, indent=4), encoding="utf-8")
 
-# ========== 6. CLI Argument 파싱 ==========
+def run_batch(persona_filter: List[int] | None = None) -> None:
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    personas = load_personas()
+    if persona_filter is not None:
+        personas = [p for p in personas if p["idx"] in persona_filter]
+    if not personas:
+        print("선택된 페르소나가 없습니다. 종료합니다.")
+        return
+    scenarios = load_scenarios()
+
+    for persona in tqdm(personas, desc="Running Experiments (Batch)"):
+        persona_desc = persona["persona"]
+        persona_id = persona["idx"]
+
+        payloads, metadata = build_payloads(persona_desc, scenarios)
+
+        try:
+            responses = chain.batch(payloads, config={"max_concurrency": 20})
+            save_results(persona_id, persona_desc, responses, metadata)
+        except Exception as e:
+            print(f"[persona {persona_id}] batch 호출 실패 → {e}")
+
+def run_invoke(persona_filter: List[int]) -> None:
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    personas = load_personas()
+    personas = [p for p in personas if p["idx"] in persona_filter]
+    if not personas:
+        print("선택된 페르소나가 없습니다. 종료합니다.")
+        return
+    scenarios = load_scenarios()
+
+    for persona in tqdm(personas, desc="Running Experiments (Invoke)"):
+        persona_desc = persona["persona"]
+        persona_id = persona["idx"]
+
+        payloads, metadata = build_payloads(persona_desc, scenarios)
+        responses = []
+        for payload in payloads:
+            try:
+                response = chain.invoke(payload)
+            except Exception as e:
+                response = e
+            responses.append(response)
+
+        save_results(persona_id, persona_desc, responses, metadata)
+
+def run_without_persona() -> None:
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    scenarios = load_scenarios()
+    payloads, metadata = build_payloads("", scenarios)
+
+    try:
+        responses = chain.batch(payloads, config={"max_concurrency": 135})
+        save_results("NONE", "", responses, metadata)
+    except Exception as e:
+        print(f"[No Persona] batch 호출 실패 → {e}")
+
+# ========== 6. CLI ==========
 def parse_args() -> argparse.Namespace:
     ap = argparse.ArgumentParser(description="Gemini 사회적 선호 실험 실행")
     g = ap.add_mutually_exclusive_group(required=True)
     g.add_argument("--all", action="store_true", help="모든 페르소나 실행")
-    g.add_argument("--ids", nargs="+", help="특정 idx만 실행 (공백/쉼표로 구분)")
+    g.add_argument("--ids", nargs="+", help="특정 idx만 실행")
     g.add_argument("--nopersona", action="store_true", help="페르소나 없이 실행")
     g.add_argument("--rerun-missing", action="store_true", help="누락된 idx만 재실행")
-    g.add_argument("--rerun-problems", action="store_true", help="불량 결과(idx)만 재실행")
+    g.add_argument("--rerun-problems", action="store_true", help="불량 결과만 재실행")
     return ap.parse_args()
 
 # ========== 7. Main ==========
@@ -256,7 +241,7 @@ def main() -> None:
     args = parse_args()
 
     if args.all:
-        run()
+        run_batch()
     elif args.nopersona:
         run_without_persona()
     elif args.rerun_missing:
@@ -265,11 +250,11 @@ def main() -> None:
         existing_idx = list_existing_indices()
         missing_idx = sorted(all_idx - existing_idx)
         print(f"Missing idx: {missing_idx}")
-        run(missing_idx)
+        run_invoke(missing_idx)
     elif args.rerun_problems:
         problems = validate_results()
         print(f"Problematic idx: {problems}")
-        run(problems)
+        run_invoke(problems)
     else:
         raw = []
         for token in args.ids:
@@ -278,7 +263,7 @@ def main() -> None:
             id_list = [int(x) for x in raw if x.strip()]
         except ValueError as e:
             raise SystemExit(f"idx 값은 정수여야 합니다 → {e}")
-        run(id_list)
+        run_invoke(id_list)
 
 if __name__ == "__main__":
     main()
