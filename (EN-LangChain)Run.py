@@ -11,18 +11,18 @@ from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import JsonOutputParser
 from dotenv import load_dotenv
 
-# 환경 변수 로드
+# Load environment variables
 load_dotenv()
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 MODEL_NAME = "gemini-2.0-flash"
 
-# 경로 설정
+# Path configuration
 OUTPUT_DIR = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\results\(EN)LangChain_EXPERIMENT_RESULTS_10000")
 DATA_PATH = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\data\(EN)PERSONA_DATA_10000.jsonl")
 SCENARIOS_PATH = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\data\(EN)experiment_scenarios.json")
 MAX_PERSONAS = 100000
 
-# LLM 및 프롬프트 체인 정의
+# Define LLM chain
 llm = ChatGoogleGenerativeAI(model=MODEL_NAME, temperature=1)
 prompt_template = PromptTemplate(
     input_variables=["persona_desc", "A_left", "B_left", "A_right", "B_right", "metric"],
@@ -89,13 +89,13 @@ def validate_results() -> Tuple[List[int], Dict[int, List[str]]]:
                         problem_indices.append(idx)
                         if idx not in problem_details:
                             problem_details[idx] = []
-                        problem_details[idx].append(f"[{difficulty_key}] {scenario_key} 문제 (thought/answer 부족)")
+                        problem_details[idx].append(f"[{difficulty_key}] {scenario_key} problem (insufficient thought/answer)")
         except Exception as e:
             idx = file.stem.split("_")[1]
             problem_indices.append(int(idx))
             if int(idx) not in problem_details:
                 problem_details[int(idx)] = []
-            problem_details[int(idx)].append(f"[파일 파싱 에러] {str(e)}")
+            problem_details[int(idx)].append(f"[Parse Error] {str(e)}")
 
     return sorted(set(problem_indices)), problem_details
 
@@ -152,7 +152,7 @@ def run_single_persona(persona: Dict[str, Any]) -> None:
         responses = chain.batch(payloads, config={"max_concurrency": 100})
         save_results(persona_id, persona_desc, responses, metadata)
     except Exception as e:
-        print(f"[persona {persona_id}] 오류: {e}")
+        print(f"[persona {persona_id}] Error: {e}")
 
 def run_batch(persona_filter: List[int] | None = None) -> None:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -163,29 +163,34 @@ def run_batch(persona_filter: List[int] | None = None) -> None:
     personas = [p for p in personas if p["idx"] not in existing_idx]
 
     if not personas:
-        print("실험 대상 페르소나가 없습니다. 종료합니다.")
+        print("No target personas to process. Exiting.")
         return
 
     with Pool(processes=12) as pool:
         list(tqdm(pool.imap_unordered(run_single_persona, personas), total=len(personas), desc="Running Experiments (Batch)"))
 
+def run_single_invoke(persona: Dict[str, Any]) -> None:
+    persona_desc = persona["persona"]
+    persona_id = persona["idx"]
+    scenarios = load_scenarios()
+    payloads, metadata = build_payloads(persona_desc, scenarios)
+    responses = []
+    for payload in payloads:
+        try:
+            responses.append(chain.invoke(payload))
+        except Exception as e:
+            responses.append(e)
+    save_results(persona_id, persona_desc, responses, metadata)
+
 def run_invoke(persona_filter: List[int]) -> None:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     personas = [p for p in load_personas() if p["idx"] in persona_filter]
-    scenarios = load_scenarios()
-
-    def _invoke_single(persona: Dict[str, Any]):
-        payloads, metadata = build_payloads(persona["persona"], scenarios)
-        responses = []
-        for payload in payloads:
-            try:
-                responses.append(chain.invoke(payload))
-            except Exception as e:
-                responses.append(e)
-        save_results(persona["idx"], persona["persona"], responses, metadata)
+    if not personas:
+        print("No personas selected. Exiting.")
+        return
 
     with Pool(processes=12) as pool:
-        list(tqdm(pool.imap_unordered(_invoke_single, personas), total=len(personas), desc="Running Experiments (Invoke)"))
+        list(tqdm(pool.imap_unordered(run_single_invoke, personas), total=len(personas), desc="Running Experiments (Invoke)"))
 
 def run_without_persona() -> None:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -194,7 +199,7 @@ def run_without_persona() -> None:
         responses = chain.batch(payloads, config={"max_concurrency": 100})
         save_results("NONE", "", responses, metadata)
     except Exception as e:
-        print(f"[No Persona] batch 호출 실패 → {e}")
+        print(f"[No Persona] batch call failed → {e}")
 
 def parse_args() -> argparse.Namespace:
     ap = argparse.ArgumentParser(description="Run Gemini Social-Preference Experiments")
@@ -219,9 +224,9 @@ def main() -> None:
         run_invoke(missing_idx)
     elif args.rerun_problems:
         problems, details = validate_results()
-        print(f"문제 있는 idx: {problems}\n")
+        print(f"Problematic idx: {problems}\n")
         for idx in problems:
-            print(f"\n>> idx {idx} 문제 요약:")
+            print(f"\n>> idx {idx} issue summary:")
             for issue in details.get(idx, []):
                 print(f"   - {issue}")
         run_invoke(problems)
@@ -232,7 +237,7 @@ def main() -> None:
         try:
             id_list = [int(x) for x in raw if x.strip()]
         except ValueError as e:
-            raise SystemExit(f"idx 값은 정수여야 합니다 → {e}")
+            raise SystemExit(f"idx must be integers → {e}")
         run_invoke(id_list)
 
 if __name__ == "__main__":
