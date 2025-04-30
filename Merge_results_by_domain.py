@@ -4,18 +4,15 @@ from pathlib import Path
 from collections import defaultdict
 from tqdm import tqdm
 
-# ========== Argument Parser ==========
 parser = argparse.ArgumentParser(description="도메인별 실험 결과 병합 및 정규화 스크립트")
 parser.add_argument('--count_domain', action='store_true', help='도메인별 페르소나 개수만 출력하고 종료')
 args = parser.parse_args()
 
-# ========== 경로 설정 ==========
 INPUT_JSONL = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\data\(KR)PERSONA_DATA_10000.jsonl")
 RESULTS_DIR = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\results\(KR)LangChain_EXPERIMENT_RESULTS_10000")
 OUTPUT_DIR = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\results_by_domain")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-# ========== 도메인 매핑 정의(번역 이슈로 인한...) ==========
 domain_mapping = {
     "경제학": "경제학",
     "공학": "공학",
@@ -40,7 +37,6 @@ domain_mapping = {
     "환경과학": "환경과학"
 }
 
-# ========== 1. 도메인별 idx 분류 ==========
 print("[1/4] 도메인별 idx 분류 중...")
 raw_domain_to_indices = defaultdict(list)
 
@@ -55,11 +51,9 @@ with open(INPUT_JSONL, "r", encoding="utf-8") as f:
         except json.JSONDecodeError as e:
             print(f"[!] JSON 디코딩 오류: {e}")
 
-# ========== 도메인 개수 출력 ==========
 if args.count_domain:
     print("\n매핑된 도메인 기준 페르소나 개수:")
 
-    # 매핑된 도메인 기준으로 재집계
     mapped_domain_count = defaultdict(int)
     for raw_domain, idx_list in raw_domain_to_indices.items():
         mapped = domain_mapping.get(raw_domain)
@@ -67,14 +61,12 @@ if args.count_domain:
             mapped = "매핑 안됨"
         mapped_domain_count[mapped] += len(idx_list)
 
-    # 출력 정렬
     sorted_mapped = sorted(mapped_domain_count.items(), key=lambda x: x[1], reverse=True)
     for mapped, count in sorted_mapped:
         print(f"- {mapped:10}: {count}명")
     exit(0)
 
 
-# ========== 2. 실험 결과 수집 ==========
 print("[2/4] 실험 결과 수집 중...")
 mapped_domain_to_results = defaultdict(list)
 
@@ -99,7 +91,6 @@ for raw_domain, indices in tqdm(raw_domain_to_indices.items(), desc="도메인�
         else:
             print(f"[!] 결과 파일 없음: {result_path}")
 
-# ========== 3. 병합 결과 저장 ==========
 print("[3/4] 병합된 도메인별 결과 저장 중...")
 for domain, entries in mapped_domain_to_results.items():
     output_path = OUTPUT_DIR / f"{domain}.json"

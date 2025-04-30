@@ -2,7 +2,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 import matplotlib.gridspec as gridspec
 
-# ==== 스타일 및 폰트 ====
 plt.rcParams.update({
     "axes.edgecolor": "black",
     "axes.linewidth": 1.2,
@@ -15,7 +14,6 @@ plt.rcParams.update({
 plt.rcParams['font.family'] = 'Malgun Gothic'
 plt.rcParams['axes.unicode_minus'] = False
 
-# ==== 사용자 정의 시나리오 제목 ====
 custom_titles = {
     "Low_scenario_1": "불평등 회피\nLeft: [0,600] / Right: [400,400]",
     "Low_scenario_2": "자기이익 vs 공정성\nLeft: [500,500] / Right: [200,800]",
@@ -34,7 +32,6 @@ scenario_key_map = {
     "상_scenario_1": "High_scenario_1", "상_scenario_2": "High_scenario_2", "상_scenario_3": "High_scenario_3"
 }
 
-# ==== 시나리오별 응답 데이터 ====
 data = {
     "하_scenario_1": {"경제학": (305, 695), "공학": (389, 611), "금융학": (455, 545), "법학": (204, 796), "사회학": (130, 870),
                    "수학": (286, 714), "역사학": (164, 836), "철학": (203, 797), "컴퓨터과학": (342, 658), "환경과학": (235, 765)},
@@ -56,7 +53,6 @@ data = {
                    "수학": (932, 68), "역사학": (991, 9), "철학": (943, 57), "컴퓨터과학": (932, 68), "환경과학": (983, 17)},
 }
 
-# ==== 시각화 ====
 fig = plt.figure(figsize=(20, 18))
 gs = gridspec.GridSpec(3, 3, figure=fig, wspace=0.6, hspace=0.7)
 
@@ -83,12 +79,9 @@ for idx, scenario in enumerate(scenarios):
     ax.set_ylim(0, 1100)
     ax.tick_params(axis='y', labelsize=10)
 
-    if idx == 0:
-        ax.legend(fontsize=10)
+    ax.legend(fontsize=9, loc='upper right') 
 
-# 전체 제목
 fig.suptitle("시나리오별 도메인 응답 분포 (Left vs Right)", fontsize=18, y=0.98)
 
-# ==== 저장 및 표시 ====
 plt.savefig("scenario_domain_comparison.png", dpi=300, bbox_inches='tight')
 plt.show()

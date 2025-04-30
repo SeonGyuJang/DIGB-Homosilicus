@@ -5,19 +5,16 @@ import matplotlib.pyplot as plt
 from sklearn.manifold import TSNE
 from collections import defaultdict
 
-# ===== 설정 =====
 file_path = r'C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\NO_Tracking\Persona_embedding_DATA.jsonl'
 samples_per_domain = 500  # <<< 여기만 수정하면 추출 개수 바꿀 수 있음
 random_seed = 42
 
-# ===== 1. 파일 읽기 =====
 print("[1/5] 파일 읽는 중...")
 data = []
 with open(file_path, 'r', encoding='utf-8') as f:
     for line in f:
         data.append(json.loads(line))
 
-# ===== 2. 도메인별로 그룹핑 =====
 print("[2/5] 도메인별로 그룹핑하는 중...")
 domain_groups = defaultdict(list)
 for entry in data:
@@ -26,7 +23,6 @@ for entry in data:
     embedding = entry['embedding']
     domain_groups[domain].append((idx, embedding))
 
-# ===== 3. 도메인별로 샘플링 =====
 print("[3/5] 도메인별로 샘플링하는 중...")
 random.seed(random_seed)
 
@@ -38,7 +34,7 @@ for domain, items in domain_groups.items():
     if len(items) > samples_per_domain:
         sampled_items = random.sample(items, samples_per_domain)
     else:
-        sampled_items = items  # 부족하면 전체 사용
+        sampled_items = items  
 
     for idx, emb in sampled_items:
         sampled_embeddings.append(emb)
@@ -47,26 +43,21 @@ for domain, items in domain_groups.items():
 
 X = np.array(sampled_embeddings)
 
-# ===== 4. t-SNE 변환 =====
 print("[4/5] t-SNE 변환(t-SNE fitting) 중...")
 tsne = TSNE(n_components=2, random_state=random_seed, perplexity=30)
 X_embedded = tsne.fit_transform(X)
 
-# ===== 5. 시각화 =====
 print("[5/5] 시각화 준비 및 그리기 중...")
 plt.figure(figsize=(15, 10))
 
-# 색깔 매핑
 unique_domains = sorted(list(set(sampled_labels)))
 colors = plt.cm.tab20(np.linspace(0, 1, len(unique_domains)))
 domain_to_color = {domain: colors[i] for i, domain in enumerate(unique_domains)}
 
-# 점 찍기
 for i, (x, y) in enumerate(X_embedded):
     domain = sampled_labels[i]
     plt.scatter(x, y, color=domain_to_color[domain], edgecolor='k', s=30)
 
-# 범례 추가
 for domain, color in domain_to_color.items():
     plt.scatter([], [], color=color, label=domain)
 
@@ -76,5 +67,5 @@ plt.ylabel('Dimension 2')
 plt.legend(fontsize=8, loc='best', bbox_to_anchor=(1.05, 1))
 plt.tight_layout()
 
-print("✅ 모든 과정 완료! 플롯 보여주는 중...")
+print("모든 과정 완료! 플롯 보여주는 중...")
 plt.show()

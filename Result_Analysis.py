@@ -3,18 +3,14 @@ import json
 from pathlib import Path
 from collections import defaultdict
 
-# 경로 설정
 INPUT_DIR = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\results_by_domain")
 OUTPUT_FILE = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\results\summary_by_domain.txt")
 
-# 시나리오 순서 보장
 scenario_keys = ["scenario_1", "scenario_2", "scenario_3"]
 difficulty_levels = ["하", "중", "상"]
 
-# 전체 결과 저장
 final_summary = []
 
-# 도메인별 처리
 for file in sorted(INPUT_DIR.glob("*.json"), key=lambda x: x.name):
     domain_name = file.stem
     scenario_counts = defaultdict(lambda: {"Left": 0, "Right": 0})
@@ -36,7 +32,6 @@ for file in sorted(INPUT_DIR.glob("*.json"), key=lambda x: x.name):
                     if answer in ["Left", "Right"]:
                         scenario_counts[(level, skey)][answer] += 1
 
-    # 출력 정리
     summary_lines = [f"[{domain_name}]"]
     for level in difficulty_levels:
         for skey in scenario_keys:
@@ -55,7 +50,6 @@ for file in sorted(INPUT_DIR.glob("*.json"), key=lambda x: x.name):
 
     final_summary.append("\n".join(summary_lines) + "\n")
 
-# 결과 저장
 with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
     f.write("\n".join(final_summary))
 
