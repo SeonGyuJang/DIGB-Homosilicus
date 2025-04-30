@@ -81,8 +81,8 @@ def add_idx_to_jsonl(path: Path) -> None:
             except json.JSONDecodeError:
                 continue
 
-    path.unlink()         # 기존 파일 삭제
-    tmp_path.rename(path)  # 임시 파일을 원래 이름으로 변경
+    path.unlink()        
+    tmp_path.rename(path)  
     print(f"idx 부여 완료! → {path}")
 
 def main():
@@ -111,7 +111,7 @@ def main():
         return
 
     sample_and_save(buckets, SAMPLE_SIZE_PER_DOMAIN, OUTPUT_PATH)
-    add_idx_to_jsonl(OUTPUT_PATH)  # ✅ 샘플링 끝나고 idx 추가!
+    add_idx_to_jsonl(OUTPUT_PATH)  # 샘플링 끝나고 idx 추가!
 
 if __name__ == "__main__":
     main()

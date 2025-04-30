@@ -10,22 +10,18 @@ from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import JsonOutputParser
 from dotenv import load_dotenv
 
-# ========== 1. 환경 변수 로드 ==========
 load_dotenv()
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")  # NOTE: .env 파일 필요
 MODEL_NAME = "gemini-2.0-flash"
 
-# ========== 2. 경로 설정 ==========
 INPUT_PATH = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\data\(EN)PERSONA_DATA_10000.jsonl")
 OUTPUT_PATH = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\data\(KR)PERSONA_DATA_10000.jsonl")
 
-# ========== 3. 모델 설정 ==========
 llm = ChatGoogleGenerativeAI(
     model=MODEL_NAME,
     temperature=1,
 )
 
-# ========== 4. 프롬프트 & 체인 설정 ==========
 prompt_template = PromptTemplate(
     input_variables=["persona", "domain"],
     template="""다음은 영어로 작성된 페르소나와 연구 도메인 설명입니다.
@@ -61,7 +57,6 @@ Engineering → 공학
 parser = JsonOutputParser()
 chain = prompt_template | llm | parser
 
-# ========== 5. 데이터 로딩/저장 함수 ==========
 def load_jsonl(path: Path) -> List[Dict]:
     records = []
     if not path.exists():
@@ -77,7 +72,6 @@ def save_jsonl(path: Path, data: List[Dict]) -> None:
         for item in data:
             f.write(json.dumps(item, ensure_ascii=False) + "\n")
 
-# ========== 6-1. batch 방식 페르소나 번역 ==========
 def translate_personas_batch(records: List[Dict], batch_size: int = 20, max_retry: int = 3) -> List[Dict]:
     translated = []
     for i in tqdm(range(0, len(records), batch_size), desc="Translating Personas (Batch)"):
@@ -115,7 +109,6 @@ def translate_personas_batch(records: List[Dict], batch_size: int = 20, max_retr
     return translated
 
 
-# ========== 6-2. invoke 방식 페르소나 번역 ==========
 def translate_personas_invoke(records: List[Dict], max_retry: int = 3) -> List[Dict]:
     translated = []
     for record in tqdm(records, desc="Translating Personas (Single Invoke)"):
@@ -142,14 +135,12 @@ def translate_personas_invoke(records: List[Dict], max_retry: int = 3) -> List[D
                     continue
     return translated
 
-# ========== 7. 누락된 IDX 찾기 ==========
 def find_missing_idx(all_records: List[Dict], translated_records: List[Dict]) -> List[int]:
     original_idx_set = {record.get("idx") for record in all_records}
     translated_idx_set = {record.get("idx") for record in translated_records}
     missing_idx = sorted(list(original_idx_set - translated_idx_set))
     return missing_idx
 
-# ========== 8. 메인 함수 ==========
 def main(mode: str):
     print("데이터 로딩 중...")
     all_records = load_jsonl(INPUT_PATH)
@@ -174,9 +165,8 @@ def main(mode: str):
         missing_records = [record for record in all_records if record.get("idx") in missing_idx]
         new_translated = translate_personas_invoke(missing_records)
 
-        # 기존 번역 + 신규 번역 합치기
         merged_records = existing_translated + new_translated
-        merged_records.sort(key=lambda x: x.get("idx"))  # idx 기준 정렬
+        merged_records.sort(key=lambda x: x.get("idx"))  
         translated_records = merged_records
 
     else:
@@ -186,7 +176,6 @@ def main(mode: str):
     save_jsonl(OUTPUT_PATH, translated_records)
     print("모든 작업 완료!")
 
-# ========== 9. 엔트리포인트 ==========
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument(

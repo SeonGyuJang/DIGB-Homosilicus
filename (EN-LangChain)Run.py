@@ -18,19 +18,16 @@ from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import JsonOutputParser
 from dotenv import load_dotenv
 
-# ========== 1. 환경 변수 로드 ==========
 load_dotenv()
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 MODEL_NAME = "gemini-2.0-flash"
 
-# ========== 2. 경로 설정 ==========
 OUTPUT_DIR = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\results\(EN)LangChain_EXPERIMENT_RESULTS_10000")
 DATA_PATH = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\data\(EN)PERSONA_DATA_10000.jsonl")
 SCENARIOS_PATH = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\data\(EN)experiment_scenarios.json")
 
 MAX_PERSONAS = 100000
 
-# ========== 3. LLM 체인 세팅 ==========
 llm = ChatGoogleGenerativeAI(model=MODEL_NAME, temperature=1)
 
 prompt_template = PromptTemplate(
@@ -54,7 +51,6 @@ Please provide JSON output with reasoning and a final choice (Left or Right).
 parser = JsonOutputParser()
 chain = prompt_template | llm | parser
 
-# ========== 4. 데이터 로드 ==========
 def load_personas() -> List[Dict[str, Any]]:
     personas = []
     with DATA_PATH.open(encoding="utf-8") as fp:
@@ -110,7 +106,6 @@ def validate_results() -> Tuple[List[int], Dict[int, List[str]]]:
 
     return sorted(set(problem_indices)), problem_details
 
-# ========== 5. 실험 실행 ==========
 def build_payloads(persona_desc: str, scenarios: List[Dict[str, Any]]) -> Tuple[List[Dict], List[Dict]]:
     payloads = []
     metadata = []
@@ -239,7 +234,6 @@ def run_without_persona() -> None:
 
     save_results("NONE", "", responses, metadata)
 
-# ========== 6. CLI Argument 파싱 ==========
 def parse_args() -> argparse.Namespace:
     ap = argparse.ArgumentParser(description="Run Gemini Social-Preference Experiments")
     g = ap.add_mutually_exclusive_group(required=True)
@@ -250,7 +244,6 @@ def parse_args() -> argparse.Namespace:
     g.add_argument("--rerun-problems", action="store_true", help="불량 결과(idx)만 재실행 (Invoke)")
     return ap.parse_args()
 
-# ========== 7. Main ==========
 def main() -> None:
     args = parse_args()
 

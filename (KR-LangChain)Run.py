@@ -18,19 +18,16 @@ from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import JsonOutputParser
 from dotenv import load_dotenv
 
-# ========== 1. 환경 변수 로드 ==========
 load_dotenv()
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 MODEL_NAME = "gemini-2.0-flash"
 
-# ========== 2. 경로 설정 ==========
 OUTPUT_DIR = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\results\(KR)LangChain_EXPERIMENT_RESULTS_10000")
 DATA_PATH = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\data\(KR)PERSONA_DATA_10000.jsonl")
 SCENARIOS_PATH = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\data\(KR)experiment_scenarios.json")
 
 MAX_PERSONAS = 100000
 
-# ========== 3. LLM 체인 세팅 ==========
 llm = ChatGoogleGenerativeAI(model=MODEL_NAME, temperature=1)
 
 prompt_template = PromptTemplate(
@@ -59,7 +56,6 @@ prompt_template = PromptTemplate(
 parser = JsonOutputParser()
 chain = prompt_template | llm | parser
 
-# ========== 4. 데이터 로드 ==========
 def load_personas() -> List[Dict[str, Any]]:
     personas = []
     with DATA_PATH.open(encoding="utf-8") as fp:
@@ -106,7 +102,6 @@ def validate_results() -> List[int]:
             problem_indices.append(idx)
     return sorted(set(problem_indices))
 
-# ========== 5. 실행 로직 ==========
 def build_payloads(persona_desc: str, scenarios: List[Dict[str, Any]]) -> Tuple[List[Dict], List[Dict]]:
     payloads, metadata = [] , []
     for exp in scenarios:
@@ -225,7 +220,6 @@ def run_without_persona() -> None:
     except Exception as e:
         print(f"[No Persona] batch 호출 실패 → {e}")
 
-# ========== 6. CLI ==========
 def parse_args() -> argparse.Namespace:
     ap = argparse.ArgumentParser(description="Gemini 사회적 선호 실험 실행")
     g = ap.add_mutually_exclusive_group(required=True)
@@ -236,7 +230,6 @@ def parse_args() -> argparse.Namespace:
     g.add_argument("--rerun-problems", action="store_true", help="불량 결과만 재실행")
     return ap.parse_args()
 
-# ========== 7. Main ==========
 def main() -> None:
     args = parse_args()
 
