@@ -99,6 +99,14 @@ Language: **Korean**
 - `--count_domain` 옵션을 통해 각 도메인에 존재하는 데이터의 개수를 확인할 수 있습니다.
 ---
 
+## ⑦ Result_Analysis.py
+- ⑥의 과정을 통해 생성된 도메인별 병합 파일을 이용하여, 각 난이도-시나리오별로 Left/Right의 선택 비율을 계산하고 `summary_by_domain.txt`로 저장하는 코드입니다.
+
+## ⑧ Visualization_Experiment.py
+- 실험의 결과를를 시각화하는 코드입니다.
+
+---
+
 # 📢 참고사항
 - 그 외 추가적인 코드 및 기능들은 정리 완료 후 업데이트 예정입니다.
 - results 폴더는 git의 편리한 사용을 위해 잠시 gitignore에 넣어두었습니다.
