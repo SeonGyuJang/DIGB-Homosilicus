@@ -1,8 +1,13 @@
 import json
-import os
+import argparse
 from pathlib import Path
 from collections import defaultdict
 from tqdm import tqdm
+
+# ========== Argument Parser ==========
+parser = argparse.ArgumentParser(description="도메인별 실험 결과 병합 및 정규화 스크립트")
+parser.add_argument('--count_domain', action='store_true', help='도메인별 페르소나 개수만 출력하고 종료')
+args = parser.parse_args()
 
 # ========== 경로 설정 ==========
 INPUT_JSONL = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\data\(KR)PERSONA_DATA_10000.jsonl")
@@ -10,9 +15,34 @@ RESULTS_DIR = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\results\(K
 OUTPUT_DIR = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\results_by_domain")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
+# ========== 도메인 매핑 정의(번역 이슈로 인한...) ==========
+domain_mapping = {
+    "경제학": "경제학",
+    "공학": "공학",
+    "엔지니어링": "공학",
+    "금융": "금융학",
+    "재무": "금융학",
+    "재무/금융": "금융학",
+    "재무_금융": "금융학",
+    "재정": "금융학",
+    "법": "법학",
+    "법률": "법학",
+    "법학": "법학",
+    "사회학": "사회학",
+    "연구 도메인: 사회학": "사회학",
+    "수학": "수학",
+    "역사": "역사학",
+    "역사학": "역사학",
+    "철학": "철학",
+    "컴퓨터 과학": "컴퓨터과학",
+    "컴퓨터과학": "컴퓨터과학",
+    "환경 과학": "환경과학",
+    "환경과학": "환경과학"
+}
+
 # ========== 1. 도메인별 idx 분류 ==========
-print("[1/3] 도메인별 idx 분류 중...")
-domain_to_indices = defaultdict(list)
+print("[1/4] 도메인별 idx 분류 중...")
+raw_domain_to_indices = defaultdict(list)
 
 with open(INPUT_JSONL, "r", encoding="utf-8") as f:
     for line in f:
@@ -21,22 +51,46 @@ with open(INPUT_JSONL, "r", encoding="utf-8") as f:
             domain = entry.get("general domain (top 1 percent)")
             idx = entry.get("idx")
             if domain and idx is not None:
-                domain_to_indices[domain].append(idx)
+                raw_domain_to_indices[domain].append(idx)
         except json.JSONDecodeError as e:
             print(f"[!] JSON 디코딩 오류: {e}")
 
-# ========== 2. 실험 결과 수집 ==========
-print("[2/3] 실험 결과 수집 중...")
-domain_to_results = defaultdict(list)
+# ========== 도메인 개수 출력 ==========
+if args.count_domain:
+    print("\n매핑된 도메인 기준 페르소나 개수:")
 
-for domain, indices in tqdm(domain_to_indices.items(), desc="도메인별 처리"):
+    # 매핑된 도메인 기준으로 재집계
+    mapped_domain_count = defaultdict(int)
+    for raw_domain, idx_list in raw_domain_to_indices.items():
+        mapped = domain_mapping.get(raw_domain)
+        if not mapped:
+            mapped = "매핑 안됨"
+        mapped_domain_count[mapped] += len(idx_list)
+
+    # 출력 정렬
+    sorted_mapped = sorted(mapped_domain_count.items(), key=lambda x: x[1], reverse=True)
+    for mapped, count in sorted_mapped:
+        print(f"- {mapped:10}: {count}명")
+    exit(0)
+
+
+# ========== 2. 실험 결과 수집 ==========
+print("[2/4] 실험 결과 수집 중...")
+mapped_domain_to_results = defaultdict(list)
+
+for raw_domain, indices in tqdm(raw_domain_to_indices.items(), desc="도메인별 처리"):
+    mapped_domain = domain_mapping.get(raw_domain)
+    if not mapped_domain:
+        print(f"[!] 매핑되지 않은 도메인: {raw_domain}")
+        continue
+
     for idx in indices:
         result_path = RESULTS_DIR / f"Person_{idx}.json"
         if result_path.exists():
             try:
                 with open(result_path, "r", encoding="utf-8") as f:
                     result_data = json.load(f)
-                    domain_to_results[domain].append({
+                    mapped_domain_to_results[mapped_domain].append({
                         "idx": idx,
                         "result": result_data
                     })
@@ -45,43 +99,11 @@ for domain, indices in tqdm(domain_to_indices.items(), desc="도메인별 처리
         else:
             print(f"[!] 결과 파일 없음: {result_path}")
 
-# ========== 3. 결과 파일 저장 ==========
-print("[3/3] 도메인별 JSON 저장 중...")
-for domain, results in domain_to_results.items():
-    domain_filename = f"{domain.replace('/', '_')}.json"
-    output_path = OUTPUT_DIR / domain_filename
+# ========== 3. 병합 결과 저장 ==========
+print("[3/4] 병합된 도메인별 결과 저장 중...")
+for domain, entries in mapped_domain_to_results.items():
+    output_path = OUTPUT_DIR / f"{domain}.json"
     with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(results, f, ensure_ascii=False, indent=2)
+        json.dump(entries, f, ensure_ascii=False, indent=2)
 
-print("✅ 도메인별 결과 병합 완료.")
-
-
-'''
-< 후처리 >
-번역 과정에서 도메인의 번역 결과가 달라서(Ex. 재무 or 재무 금융 or 재정 등)
-다른 도메인으로 인식하는 결과가 발생하였음. 
-이 부분은 수동으로 후처리하였음.
-
-domain_mapping = {
-    "경제학": "경제학",
-    "공학": "공학",
-    "엔지니어링": "공학",
-    "금융": "금융학",
-    "재무": "금융학",
-    "재무_금융": "금융학",
-    "재정": "금융학",
-    "법": "법학",
-    "법률": "법학",
-    "법학": "법학",
-    "사회학": "사회학",
-    "수학": "수학",
-    "역사": "역사학",
-    "역사학": "역사학",
-    "철학": "철학",
-    "컴퓨터과학": "컴퓨터과학",
-    "환경 과학": "환경과학",
-    "환경과학": "환경과학"
-}
-
-
-'''
+print("도메인 통합 완료 (저장 위치: results_by_domain_final)")
