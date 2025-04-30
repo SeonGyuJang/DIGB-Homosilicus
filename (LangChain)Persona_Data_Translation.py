@@ -39,6 +39,18 @@ prompt_template = PromptTemplate(
 각 항목을 자연스럽고 전문적으로 한국어로 번역해주세요.
 반드시 JSON 형식으로 답변하세요.
 
+도메인은 반드시 아래와 같이 번역하세요.
+History → 역사 
+Law → 법학 
+Philosophy → 철학 
+Economics → 경제학 
+Sociology → 사회학 
+Finance → 금융학 
+Computer Science → 컴퓨터과학 
+Mathematics → 수학 
+Environmental Science → 환경과학 
+Engineering → 공학 
+
 출력 형식:
 {{
     "persona": "번역된 페르소나",
