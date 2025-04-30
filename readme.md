@@ -103,7 +103,7 @@ Language: **Korean**
 - ⑥의 과정을 통해 생성된 도메인별 병합 파일을 이용하여, 각 난이도-시나리오별로 Left/Right의 선택 비율을 계산하고 `summary_by_domain.txt`로 저장하는 코드입니다.
 
 ## ⑧ Visualization_Experiment.py
-- 실험의 결과를를 시각화하는 코드입니다.
+- 실험의 결과를 시각화하는 코드입니다.
 
 ---
 
