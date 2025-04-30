@@ -15,6 +15,12 @@
 | (KR)PERSONA_DATA.jsonl | 특정 도메인의 페르소나 정보 (한국어) | 100,000 |
 | (EN)PERSONA_DATA_10000.jsonl | 특정 도메인의 페르소나 정보 (영어) | 10,000 |
 | (KR)PERSONA_DATA_10000.jsonl | 특정 도메인의 페르소나 정보 (한국어) | 10,000 |
+| (KR)LangChain_EXPERIMENT_RESULTS_10000.zip | 고전 행동경제학 실험 결과 (한국어) | 10,000 |
+| (KR)results_by_domain | 도메인별로 정리된 고전 행동경제학 실험 결과 (한국어) | 10,000 |
+| Persona_embedding_DATA.jsonl | 페르소나 데이터 임베딩 계산값이 담긴 데이터 - TSNE 시각화용 (영어) | 5,000 |
+| Original_Persona_Data.jsonl | 본 연구에서 사용한 페르소나의 원본 데이터셋 | 20,000,000 |
+
+
 
 ---
 
