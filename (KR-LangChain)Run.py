@@ -11,6 +11,7 @@ import json
 import os
 from pathlib import Path
 from typing import Dict, List, Tuple, Any
+from multiprocessing import Pool
 
 from tqdm import tqdm
 from langchain_google_genai import ChatGoogleGenerativeAI
@@ -64,7 +65,7 @@ def load_personas() -> List[Dict[str, Any]]:
                 continue
             try:
                 item = json.loads(line)
-                personas.append({"persona": item["persona"], "idx": int(item["idx"])})
+                personas.append({"persona": item["persona"], "idx": int(item["idx"])});
                 if len(personas) >= MAX_PERSONAS:
                     break
             except (json.JSONDecodeError, KeyError):
@@ -163,6 +164,22 @@ def save_results(persona_id: Any, persona_desc: str, responses: List[Any], metad
     out_path = OUTPUT_DIR / f"Person_{persona_id}.json"
     out_path.write_text(json.dumps(results, ensure_ascii=False, indent=4), encoding="utf-8")
 
+def run_single_invoke(persona: Dict[str, Any]) -> None:
+    scenarios = load_scenarios()
+    persona_desc = persona["persona"]
+    persona_id = persona["idx"]
+
+    payloads, metadata = build_payloads(persona_desc, scenarios)
+    responses = []
+    for payload in payloads:
+        try:
+            response = chain.invoke(payload)
+        except Exception as e:
+            response = e
+        responses.append(response)
+
+    save_results(persona_id, persona_desc, responses, metadata)
+
 def run_batch(persona_filter: List[int] | None = None) -> None:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     personas = load_personas()
@@ -176,7 +193,6 @@ def run_batch(persona_filter: List[int] | None = None) -> None:
     for persona in tqdm(personas, desc="Running Experiments (Batch)"):
         persona_desc = persona["persona"]
         persona_id = persona["idx"]
-
         payloads, metadata = build_payloads(persona_desc, scenarios)
 
         try:
@@ -192,22 +208,9 @@ def run_invoke(persona_filter: List[int]) -> None:
     if not personas:
         print("선택된 페르소나가 없습니다. 종료합니다.")
         return
-    scenarios = load_scenarios()
 
-    for persona in tqdm(personas, desc="Running Experiments (Invoke)"):
-        persona_desc = persona["persona"]
-        persona_id = persona["idx"]
-
-        payloads, metadata = build_payloads(persona_desc, scenarios)
-        responses = []
-        for payload in payloads:
-            try:
-                response = chain.invoke(payload)
-            except Exception as e:
-                response = e
-            responses.append(response)
-
-        save_results(persona_id, persona_desc, responses, metadata)
+    with Pool(processes=12) as pool:
+        list(tqdm(pool.imap_unordered(run_single_invoke, personas), total=len(personas), desc="Running Experiments (Invoke)"))
 
 def run_without_persona() -> None:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)

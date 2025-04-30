@@ -44,7 +44,6 @@ Please provide JSON output with reasoning and a final choice (Left or Right).
 parser = JsonOutputParser()
 chain = prompt_template | llm | parser
 
-# 데이터 로딩 함수들
 def load_personas() -> List[Dict[str, Any]]:
     personas = []
     with DATA_PATH.open(encoding="utf-8") as fp:
@@ -53,7 +52,7 @@ def load_personas() -> List[Dict[str, Any]]:
                 continue
             try:
                 item = json.loads(line)
-                personas.append({"persona": item["persona"], "idx": int(item["idx"])})
+                personas.append({"persona": item["persona"], "idx": int(item["idx"])});
                 if len(personas) >= MAX_PERSONAS:
                     break
             except (json.JSONDecodeError, KeyError):
@@ -100,7 +99,6 @@ def validate_results() -> Tuple[List[int], Dict[int, List[str]]]:
 
     return sorted(set(problem_indices)), problem_details
 
-# 입력 생성 및 저장 함수들
 def build_payloads(persona_desc: str, scenarios: List[Dict[str, Any]]) -> Tuple[List[Dict], List[Dict]]:
     payloads, metadata = [], []
     for exp in scenarios:
@@ -162,13 +160,13 @@ def run_batch(persona_filter: List[int] | None = None) -> None:
     personas = load_personas()
     if persona_filter is not None:
         personas = [p for p in personas if p["idx"] in persona_filter]
-    personas = [p for p in personas if p["idx"] not in existing_idx]  # 이미 존재하는 결과는 스킵
+    personas = [p for p in personas if p["idx"] not in existing_idx]
 
     if not personas:
         print("실험 대상 페르소나가 없습니다. 종료합니다.")
         return
 
-    with Pool(processes=4) as pool:  # 시스템에 맞게 조정 (예: 4~8)
+    with Pool(processes=12) as pool:
         list(tqdm(pool.imap_unordered(run_single_persona, personas), total=len(personas), desc="Running Experiments (Batch)"))
 
 def run_invoke(persona_filter: List[int]) -> None:
@@ -176,7 +174,7 @@ def run_invoke(persona_filter: List[int]) -> None:
     personas = [p for p in load_personas() if p["idx"] in persona_filter]
     scenarios = load_scenarios()
 
-    for persona in tqdm(personas, desc="Running Experiments (Invoke)"):
+    def _invoke_single(persona: Dict[str, Any]):
         payloads, metadata = build_payloads(persona["persona"], scenarios)
         responses = []
         for payload in payloads:
@@ -185,6 +183,9 @@ def run_invoke(persona_filter: List[int]) -> None:
             except Exception as e:
                 responses.append(e)
         save_results(persona["idx"], persona["persona"], responses, metadata)
+
+    with Pool(processes=12) as pool:
+        list(tqdm(pool.imap_unordered(_invoke_single, personas), total=len(personas), desc="Running Experiments (Invoke)"))
 
 def run_without_persona() -> None:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
