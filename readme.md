@@ -1,4 +1,4 @@
-# 💡DIGB‑Homosilicus : 페르소나 기반 행동경제학 실험 자동화
+# 💡DIGB‑Homosilicus:페르소나 기반 행동경제학 실험 자동화
 
 본 프로젝트는 대규모 페르소나 데이터와 **LangChain + Google Gemini API**를 활용하여  
 고전 행동경제학 실험을 완전 자동화(end‑to‑end)하고 결과를 시각화합니다.  
