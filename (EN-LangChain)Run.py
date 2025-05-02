@@ -11,18 +11,15 @@ from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import JsonOutputParser
 from dotenv import load_dotenv
 
-# Load environment variables
 load_dotenv()
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 MODEL_NAME = "gemini-2.0-flash"
 
-# Path configuration
 OUTPUT_DIR = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\results\(EN)LangChain_EXPERIMENT_RESULTS_10000")
 DATA_PATH = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\data\(EN)PERSONA_DATA_10000.jsonl")
 SCENARIOS_PATH = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\data\(EN)experiment_scenarios.json")
 MAX_PERSONAS = 100000
 
-# Define LLM chain
 llm = ChatGoogleGenerativeAI(model=MODEL_NAME, temperature=1)
 prompt_template = PromptTemplate(
     input_variables=["persona_desc", "A_left", "B_left", "A_right", "B_right", "metric"],
