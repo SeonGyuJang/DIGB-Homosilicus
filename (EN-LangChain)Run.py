@@ -39,6 +39,11 @@ Choices:
 This is a question about {metric}.
 
 Please provide JSON output with reasoning and a final choice (Left or Right).
+Example:
+{{
+  "reasoning": "Describes the reason for the selection.",
+  "choice": "Left" or "Right"
+}}
 """,
 )
 parser = JsonOutputParser()
@@ -166,7 +171,7 @@ def run_batch(persona_filter: List[int] | None = None) -> None:
         print("No target personas to process. Exiting.")
         return
 
-    with Pool(processes=10) as pool:
+    with Pool(processes=8) as pool:
         list(tqdm(pool.imap_unordered(run_single_persona, personas), total=len(personas), desc="Running Experiments (Batch)"))
 
 def run_single_invoke(persona: Dict[str, Any]) -> None:
@@ -189,7 +194,7 @@ def run_invoke(persona_filter: List[int]) -> None:
         print("No personas selected. Exiting.")
         return
 
-    with Pool(processes=10) as pool:
+    with Pool(processes=8) as pool:
         list(tqdm(pool.imap_unordered(run_single_invoke, personas), total=len(personas), desc="Running Experiments (Invoke)"))
 
 def run_without_persona() -> None:
