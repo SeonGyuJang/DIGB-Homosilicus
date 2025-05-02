@@ -105,8 +105,9 @@ Language: **Korean**
 
 ---
 
-## ⑧ Visualization_Experiment.py
+## ⑧ (EN/KR)Visualization_Experiment.py
 - 실험의 결과를 시각화하는 코드입니다.
+- EN과 KR을 분리하여 작성해놓았습니다.
 
 ---
 
