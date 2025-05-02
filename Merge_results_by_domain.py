@@ -8,12 +8,12 @@ parser = argparse.ArgumentParser(description="도메인별 실험 결과 병합 
 parser.add_argument('--count_domain', action='store_true', help='도메인별 페르소나 개수만 출력하고 종료')
 args = parser.parse_args()
 
-INPUT_JSONL = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\data\(KR)PERSONA_DATA_10000.jsonl")
-RESULTS_DIR = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\results\(KR)LangChain_EXPERIMENT_RESULTS_10000")
-OUTPUT_DIR = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\results_by_domain")
+INPUT_JSONL = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\data\(EN)PERSONA_DATA_10000.jsonl")
+RESULTS_DIR = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\results\(EN)LangChain_EXPERIMENT_RESULTS_10000")
+OUTPUT_DIR = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\results_by_domain(EN)")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-domain_mapping = {
+domain_mapping_KR = {
     "경제학": "경제학",
     "공학": "공학",
     "엔지니어링": "공학",
@@ -37,6 +37,30 @@ domain_mapping = {
     "환경과학": "환경과학"
 }
 
+domain_mapping_EN = {
+    "History": "history",
+    "history": "history",
+    "Law": "law",
+    "law": "law",
+    "Philosophy": "philosophy",
+    "philosophy": "philosophy",
+    "Economics": "economics",
+    "economics": "economics",
+    "Sociology": "sociology",
+    "sociology": "sociology",
+    "Finance": "finance",
+    "finance": "finance",
+    "Computer Science": "computer science",
+    "computer science": "computer science",
+    "Mathematics": "mathematics",
+    "mathematics": "mathematics",
+    "Environmental Science": "environmental science",
+    "environmental science": "environmental science",
+    "Environmental science": "environmental science",
+    "Engineering": "engineering",
+    "engineering": "engineering"
+}
+
 print("[1/4] 도메인별 idx 분류 중...")
 raw_domain_to_indices = defaultdict(list)
 
@@ -56,7 +80,7 @@ if args.count_domain:
 
     mapped_domain_count = defaultdict(int)
     for raw_domain, idx_list in raw_domain_to_indices.items():
-        mapped = domain_mapping.get(raw_domain)
+        mapped = domain_mapping_EN.get(raw_domain)
         if not mapped:
             mapped = "매핑 안됨"
         mapped_domain_count[mapped] += len(idx_list)
@@ -71,7 +95,7 @@ print("[2/4] 실험 결과 수집 중...")
 mapped_domain_to_results = defaultdict(list)
 
 for raw_domain, indices in tqdm(raw_domain_to_indices.items(), desc="도메인별 처리"):
-    mapped_domain = domain_mapping.get(raw_domain)
+    mapped_domain = domain_mapping_EN.get(raw_domain)
     if not mapped_domain:
         print(f"[!] 매핑되지 않은 도메인: {raw_domain}")
         continue

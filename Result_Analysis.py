@@ -3,11 +3,13 @@ import json
 from pathlib import Path
 from collections import defaultdict
 
-INPUT_DIR = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\results_by_domain")
-OUTPUT_FILE = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\results\summary_by_domain.txt")
+INPUT_DIR = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\results_by_domain(EN)")
+OUTPUT_FILE = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\results\(EN)summary_by_domain.txt")
 
 scenario_keys = ["scenario_1", "scenario_2", "scenario_3"]
-difficulty_levels = ["하", "중", "상"]
+difficulty_levels_KR = ["하", "중", "상"]
+difficulty_levels_EN = ["easy", "medium", "hard"]
+
 
 final_summary = []
 
@@ -24,7 +26,7 @@ for file in sorted(INPUT_DIR.glob("*.json"), key=lambda x: x.name):
 
     for entry in data:
         result = entry.get("result", {})
-        for level in difficulty_levels:
+        for level in difficulty_levels_EN:
             scenarios = result.get(level, {})
             for skey in scenario_keys:
                 if skey in scenarios:
@@ -33,7 +35,7 @@ for file in sorted(INPUT_DIR.glob("*.json"), key=lambda x: x.name):
                         scenario_counts[(level, skey)][answer] += 1
 
     summary_lines = [f"[{domain_name}]"]
-    for level in difficulty_levels:
+    for level in difficulty_levels_EN:
         for skey in scenario_keys:
             key = (level, skey)
             left = scenario_counts[key]["Left"]
