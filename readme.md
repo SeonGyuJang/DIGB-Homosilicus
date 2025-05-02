@@ -144,6 +144,6 @@ GOOGLE_API_KEY=your_google_api_key
 
 
 
-<p align="center">
-  <img src="\assets\Global_Symbol.jpg" alt="Korea University Logo" height="50" />
+<p align="right">
+  <img src="assets/Global_Symbol.jpg" alt="Korea University Logo" height="100" />
 </p>
