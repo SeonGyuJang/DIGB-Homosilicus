@@ -140,4 +140,4 @@ GOOGLE_API_KEY=your_google_api_key
 ~~~
 
 ## 📬 문의
-실험 자동화 관련 질문은 [GitHub Issues](https://github.com/SeonGyuJang/DIGB-Homosilicus/issues) 또는 이메일(<dsng3419@korea.ac.kr>)로 남겨주세요.
+실험과 관련한 이슈는 [GitHub Issues](https://github.com/SeonGyuJang/DIGB-Homosilicus/issues) 또는 이메일(<dsng3419@korea.ac.kr>)로 남겨주세요.
