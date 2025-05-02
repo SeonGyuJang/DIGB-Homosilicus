@@ -25,18 +25,15 @@ def download_folder_from_google_drive(share_url: str, output_dir: Path):
                     dest = output_dir / file.relative_to(item)
                     dest.parent.mkdir(parents=True, exist_ok=True)
                     shutil.move(str(file), str(dest))
-            shutil.rmtree(item) 
+            shutil.rmtree(item)
 
     print("\n데이터 다운로드가 완료되었습니다.")
     print(f"저장 경로: {output_dir.resolve()}")
 
 if __name__ == "__main__":
     script_dir = Path(__file__).resolve().parent
-    project_root = script_dir.parent
-    output_dir = project_root / "Download_Data"
-
-
-    # 다운로드할 구글 드라이브 공유 링크
-    share_url = "https://drive.google.com/drive/folders/1ryxXR_OhH1orSBd33uVKIaQ87L4mVp_s?usp=sharing" 
+    output_dir = script_dir / "DIGB_Homosilicus"
+    
+    share_url = "https://drive.google.com/drive/folders/1ryxXR_OhH1orSBd33uVKIaQ87L4mVp_s?usp=sharing"
 
     download_folder_from_google_drive(share_url, output_dir)
