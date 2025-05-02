@@ -1,128 +1,143 @@
-# 💾 DATA Repository
+# 💡DIGB‑Homosilicus : 페르소나 기반 행동경제학 실험 자동화
 
-[Google Drive 링크](https://drive.google.com/drive/folders/1ryxXR_OhH1orSBd33uVKIaQ87L4mVp_s?usp=sharing)
-
----
-
-# 📂 데이터 설명
-
-| 파일명 | 설명 | 개수 |
-|:---:|:---:|:---:|
-| (EN)experiment_scenarios.json | 고전 행동경제학 실험용 영어 시나리오 | - |
-| (KR)experiment_scenarios.json | 고전 행동경제학 실험용 한국어 시나리오 | - |
-| (PRE)experiment_scenarios.json | Charness and Rabin (2002) 논문 기반 <br>고전 행동경제학 실험 시나리오 | - |
-| (EN)PERSONA_DATA.jsonl | 특정 도메인의 페르소나 정보 (영어) | 100K |
-| (KR)PERSONA_DATA.jsonl | 특정 도메인의 페르소나 정보 (한국어) | 100K |
-| (EN)PERSONA_DATA_10000.jsonl | 특정 도메인의 페르소나 정보 (영어) | 10K |
-| (KR)PERSONA_DATA_10000.jsonl | 특정 도메인의 페르소나 정보 (한국어) | 10K |
-| (KR)LangChain_EXPERIMENT_RESULTS_10000.zip | 고전 행동경제학 실험 결과 (한국어) | 10K |
-| (KR)results_by_domain | 도메인별로 정리된 고전 행동경제학 실험 결과 (한국어) | 10K |
-| (EN)results_by_domain | 도메인별로 정리된 고전 행동경제학 실험 결과 (영어) | 10K |
-| Persona_embedding_DATA.jsonl | 페르소나 데이터 임베딩 계산값이 담긴 데이터 <br>- TSNE 시각화용 (영어) | 5K |
-| Original_Persona_Data.jsonl | 본 연구에서 사용한 페르소나의 원본 데이터셋 | 20M |
-
-
+본 프로젝트는 대규모 페르소나 데이터와 **LangChain + Google Gemini API**를 활용하여  
+고전 행동경제학 실험을 완전 자동화(end‑to‑end)하고 결과를 시각화합니다.  
+또한 다른 LLM API나 새로운 페르소나 데이터셋으로 손쉽게 확장할 수 있도록 설계되었습니다.
 
 ---
 
-# 🎯 추출한 특정 도메인 목록
 
-이번 프로젝트에서는 다음 10개의 도메인을 선정하여 데이터 추출을 진행했습니다.
-
-| 구분 | 도메인명 (EN) | 도메인명 (KR) |
-|:---:|:---:|:---:|
-| 인문계 | History | 역사 |
-| 인문계 | Law | 법학 |
-| 인문계 | Philosophy | 철학 |
-| 인문계 | Economics | 경제학 |
-| 인문계 | Sociology | 사회학 |
-| 이공계 | Finance | 금융학 |
-| 이공계 | Computer Science | 컴퓨터과학 |
-| 이공계 | Mathematics | 수학 |
-| 이공계 | Environmental Science | 환경과학 |
-| 이공계 | Engineering | 공학 |
+## 📂 프로젝트 구조
+~~~text
+DIGB-Homosilicus/
+├── *.py                      # 실험 수행·번역·분석 스크립트
+├── .env                      # API 키 등 환경 변수
+├── requirements.txt          # Python 의존성 목록
+└── README.md
+~~~
 
 ---
 
-# 🧩 코드 설명
+## 전체 실행 순서
 
-## ① Data_Extraction(JSONL).py
-- **Input** : Original_Persona_Data.jsonl  
-- **Output** : (EN)PERSONA_DATA.jsonl  
-
-특정 도메인에 해당하는 페르소나 데이터를 추출하는 코드입니다.  
-- `--list` 옵션을 통해 상위 N개의 도메인과 데이터 수를 확인할 수 있습니다.
-- `--domains` 옵션을 통해 특정 도메인의 데이터만 추출할 수 있습니다.
-
----
-
-## ② (LangChain)Persona_Data_Translation.py
-- **Input** : (EN)PERSONA_DATA.jsonl  
-- **Output** : (KR)PERSONA_DATA.jsonl  
-
-한국어 실험을 위해 페르소나 데이터를 영어 → 한국어로 번역하는 코드입니다.
-- `--full` 옵션을 통해 전체 데이터에 대해 번역을 수행할 수 있습니다.
-- `--retry_missing` 옵션을 통해 번역 과정에서 오류가 생긴 idx에 대해서만 번역을 다시 수행할 수 있습니다.
+| 단계 | 설명 | 실행 스크립트 |
+|----:|------|---------------|
+| 0️⃣ | Google Drive에서 전체 데이터 자동 다운로드 | `Download_Data.py` |
+| 1️⃣ | 상위 N개 도메인 추출 및 샘플링( idx 부여) | `Data_Extraction(JSONL).py` |
+| 2️⃣ | _(선택)_ 영어 → 한국어 페르소나 번역 | `Persona_Data_Translation.py` |
+| 3️⃣ | 페르소나 임베딩 벡터 계산 | `Persona_embeddings.py` |
+| 4️⃣ | t‑SNE를 활용한 도메인 분포 시각화 | `Visualization_TSNE.py` |
+| 5️⃣ | LangChain 기반 실험 수행 (EN/KR) | `(EN|KR)-LangChain)Run.py` |
+| 6️⃣ | 도메인별 실험 결과 병합 | `Merge_results_by_domain.py` |
+| 7️⃣ | Left/Right 선택 비율 분석 요약 | `Result_Analysis.py` |
+| 8️⃣ | 실험 결과 시나리오별 시각화 | `(EN|KR)Visualization_Experiment.py` |
 
 ---
 
-## ③ (EN-LangChain)Run.py
-- **Input** : (EN)experiment_scenarios.json, (EN)PERSONA_DATA.jsonl  
-- **Output** : (EN)LangChain_EXPERIMENT_RESULTS/Person_{idx}.json  
+## 주요 스크립트별 기능
 
-Language: **English**  
-미리 정의한 실험 시나리오에 따라, 영어로 행동경제학 실험을 수행하는 코드입니다.
-- `--all` 옵션을 통해 전체 데이터에 대해서 실험을 진행할 수 있습니다.
-- `--ids` 옵션을 통해 특정 idx 데이터에 대해서만 실험을 진행할 수 있습니다.
-- `--rerun-missing` 옵션을 통해 (전체 idx 중)아직 생성되지 않은 idx만 자동으로 식별하여 실험을 진행합니다.
-- `--rerun-problems` 옵션을 통해 thought나 answer에 문제가 있는 idx만 자동으로 식별하여 실험을 진행합니다.
-- `--nopersona` 옵션을 통해 페르소나가 없이 실험을 진행할 수 있습니다.
+### 0. Download_Data.py
+Google Drive 공유 링크(공유 폴더)에서 전체 데이터를 자동 다운로드합니다.
+~~~bash
+python Download_Data.py
+~~~
+
+### 1. Data_Extraction(JSONL).py
+도메인 기준으로 페르소나 데이터를 샘플링하고 `idx`를 부여합니다.
+~~~bash
+# 상위 도메인 목록 보기
+python Data_Extraction(JSONL).py --list
+
+# 특정 도메인 추출
+python Data_Extraction(JSONL).py --domains history,economics,law,...
+~~~
+
+### 2. Persona_Data_Translation.py
+영어 페르소나 데이터를 한국어로 번역합니다.
+~~~bash
+# 전체 번역
+python Persona_Data_Translation.py --mode full
+
+# 누락된 항목만 재번역
+python Persona_Data_Translation.py --mode retry_missing
+~~~
+
+### 3. Persona_embeddings.py
+Sentence‑BERT로 임베딩을 생성합니다.
+~~~bash
+python Persona_embeddings.py
+~~~
+
+### 4. Visualization_TSNE.py
+임베딩을 t‑SNE로 시각화합니다.
+~~~bash
+python Visualization_TSNE.py
+~~~
+
+### 5. (EN|KR)-LangChain)Run.py
+LLM(Gemini API)을 이용한 실험 자동화 수행.
+~~~bash
+# 전체 페르소나 실험
+python (EN-LangChain)Run.py --all
+
+# 특정 ID만 실험
+python (EN-LangChain)Run.py --ids 101 102 103 ...
+
+# 아직 결과가 없는 항목만 실험
+python (EN-LangChain)Run.py --rerun-missing
+
+# 결과에 문제 있는 항목만 재실험
+python (EN-LangChain)Run.py --rerun-problems
+
+# 페르소나 없이 실험
+python (EN-LangChain)Run.py --nopersona
+~~~
+
+### 6. Merge_results_by_domain.py
+개별 JSON 결과 파일을 도메인별로 병합합니다.
+~~~bash
+# 결과 병합
+python Merge_results_by_domain.py
+
+# 도메인별 페르소나 수 확인
+python Merge_results_by_domain.py --count_domain
+~~~
+
+### 7. Result_Analysis.py
+Left/Right 응답 비율을 요약합니다.
+~~~bash
+python Result_Analysis.py
+~~~
+생성 파일 → `results/(EN|KR)summary_by_domain.txt`
+
+### 8. (EN|KR)Visualization_Experiment.py
+시나리오별 도메인 응답 비율을 시각화합니다.
+~~~bash
+python (EN)Visualization_Experiment.py
+python (KR)Visualization_Experiment.py
+~~~
+출력 파일 → `(EN|KR)scenario_domain_comparison.png`
 
 ---
 
-## ④ (KR-LangChain)Run.py
-- **Input** : (KR)experiment_scenarios.json, (KR)PERSONA_DATA.jsonl  
-- **Output** : (KR)LangChain_EXPERIMENT_RESULTS/Person_{idx}.json  
-
-Language: **Korean**  
-미리 정의한 실험 시나리오에 따라, 한국어로 행동경제학 실험을 수행하는 코드입니다.
-
----
-
-## ⑤ Download_Data.py
-- 구글 드라이브 공유 링크를 통해 프로젝트에 필요한 모든 데이터를 자동으로 다운로드하고, 지정된 로컬 디렉토리 구조에 저장하는 코드입니다.
-- 모든 데이터는 `\DIGB_Homosilicus` 폴더에 저장됩니다.
+## 의존성 설치
+~~~bash
+pip install -r requirements.txt
+~~~
+주요 패키지
+- `langchain-google-genai`
+- `sentence-transformers`
+- `nltk`
+- `matplotlib`, `scikit-learn`, `tqdm`
+- `gdown`, `python-dotenv`
 
 ---
 
-## ⑥ Merge_results_by_domain.py
-- Run.py를 통해 생성된 실험 결과를 도메인별로 정리하여 병합하는 코드입니다.
-- `--count_domain` 옵션을 통해 각 도메인에 존재하는 데이터의 개수를 확인할 수 있습니다.
----
+## 환경 변수
+`.env` 파일에 Google API 키를 저장하세요.
+~~~env
+GOOGLE_API_KEY=your_google_api_key
+~~~
 
-## ⑦ Result_Analysis.py
-- ⑥의 과정을 통해 생성된 도메인별 병합 파일을 이용하여, 각 난이도-시나리오별로 Left/Right의 선택 비율을 계산하고 `summary_by_domain.txt`로 저장하는 코드입니다.
-
----
-
-## ⑧ (EN/KR)Visualization_Experiment.py
-- 실험의 결과를 시각화하는 코드입니다.
-- EN과 KR을 분리하여 작성해놓았습니다.
-
----
-
-## ⑨ Persona_embeddings.py
-- 페르소나 데이터의 임베딩값을 구하는 코드입니다.
-
----
-
-## ⑩ Visualization_TSNE.py
-- 임베딩값이 계산된 페르소나 데이터를 이용하여 TSNE 시각화를 하는 코드입니다.
-
-
----
-
-# 📢 참고사항
-- 그 외 추가적인 코드 및 기능들은 정리 완료 후 업데이트 예정입니다.
-- results 폴더는 git의 편리한 사용을 위해 잠시 gitignore에 넣어두었습니다.
-- 생성된 결과물은 구글 드라이브에 공유하도록 하겠습니다!
+## 📬 문의
+실험 자동화 관련 질문은 [GitHub Issues](https://github.com/SeonGyuJang/DIGB-Homosilicus/issues) 또는 이메일(<dsng3419@korea.ac.kr>)로 남겨주세요.
