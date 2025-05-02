@@ -27,10 +27,10 @@ DIGB-Homosilicus/
 | 2️⃣ | _(선택)_ 영어 → 한국어 페르소나 번역 | `Persona_Data_Translation.py` |
 | 3️⃣ | 페르소나 임베딩 벡터 계산 | `Persona_embeddings.py` |
 | 4️⃣ | t‑SNE를 활용한 도메인 분포 시각화 | `Visualization_TSNE.py` |
-| 5️⃣ | LangChain 기반 실험 수행 (EN/KR) | `(EN|KR)-LangChain)Run.py` |
+| 5️⃣ | LangChain 기반 실험 수행 (EN/KR) | `(EN/KR)-LangChain)Run.py` |
 | 6️⃣ | 도메인별 실험 결과 병합 | `Merge_results_by_domain.py` |
 | 7️⃣ | Left/Right 선택 비율 분석 요약 | `Result_Analysis.py` |
-| 8️⃣ | 실험 결과 시나리오별 시각화 | `(EN|KR)Visualization_Experiment.py` |
+| 8️⃣ | 실험 결과 시나리오별 시각화 | `(EN/KR)Visualization_Experiment.py` |
 
 ---
 
