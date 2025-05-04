@@ -20,7 +20,7 @@
 ### 실험 설계 이론 참고 문헌
 행동경제학 실험의 시뮬레이션 설계는 다음 논문을 기반으로 하였습니다.
 
-- 논문: [Large Language Models as Simulated Economic Agents: What Can We Learn from Homo Silicus?]([https://arxiv.org/abs/2305.10385](https://arxiv.org/abs/2301.07543))
+- 논문: [Large Language Models as Simulated Economic Agents: What Can We Learn from Homo Silicus?](https://arxiv.org/abs/2301.07543)
 
 ---
 
