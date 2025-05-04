@@ -1,4 +1,4 @@
-# DIGB‑Homosilicus:페르소나 기반 행동경제학 실험 자동화
+# DIGB‑Homosilicus : 페르소나 기반 행동경제학 실험 자동화
 
 본 프로젝트는 대규모 페르소나 데이터와 **LangChain + Google Gemini API**를 활용하여 
 고전 행동경제학 실험을 완전 자동화(end‑to‑end)하고 결과를 시각화합니다.  
@@ -56,7 +56,7 @@ DIGB-Homosilicus/
 | 단계 | 설명 | 실행 스크립트 |
 |:----:|:------:|:---------------:|
 | 0 | Google Drive에서 전체 데이터 자동 다운로드 | `Download_Data.py` |
-| 1 | 상위 N개 도메인 추출 및 샘플링( idx 부여) | `Data_Extraction.py` |
+| 1 | 상위 N개 도메인 추출 및 샘플링( idx 부여 ) | `Data_Extraction.py` |
 | 2 | _(선택)_ 영어 → 한국어 페르소나 번역 | `Persona_Data_Translation.py` |
 | 3 | 페르소나 임베딩 벡터 계산 | `Persona_embeddings.py` |
 | 4 | t‑SNE를 활용한 도메인 분포 시각화 | `Visualization_TSNE.py` |
