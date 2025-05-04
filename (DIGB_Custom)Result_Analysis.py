@@ -3,8 +3,8 @@ import json
 from pathlib import Path
 from collections import defaultdict
 
-INPUT_DIR = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\results_by_domain(EN)")
-OUTPUT_FILE = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\results\(EN)summary_by_domain.txt")
+INPUT_DIR = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\Data\Results\Experiments\CR2002\results_by_domain(EN)")
+OUTPUT_FILE = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\Data\Results\Experiments\CR2002\(EN)summary_by_domain.txt")
 
 scenario_keys = ["scenario_1", "scenario_2", "scenario_3"]
 difficulty_levels_KR = ["하", "중", "상"]

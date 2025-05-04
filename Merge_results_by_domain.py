@@ -8,9 +8,9 @@ parser = argparse.ArgumentParser(description="도메인별 실험 결과 병합 
 parser.add_argument('--count_domain', action='store_true', help='도메인별 페르소나 개수만 출력하고 종료')
 args = parser.parse_args()
 
-INPUT_JSONL = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\data\(EN)PERSONA_DATA_10000.jsonl")
-RESULTS_DIR = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\results\(EN)LangChain_EXPERIMENT_RESULTS_10000")
-OUTPUT_DIR = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\results_by_domain(EN)")
+INPUT_JSONL = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\Data\Common\(KR)PERSONA_DATA_10000.jsonl")
+RESULTS_DIR = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\Data\Results\Experiments\CR2002\(KR)CR2002_EXPERIMENT_RESULTS_10000")
+OUTPUT_DIR = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\Data\Results\Experiments\CR2002\results_by_domain(KR)")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 domain_mapping_KR = {
@@ -80,7 +80,7 @@ if args.count_domain:
 
     mapped_domain_count = defaultdict(int)
     for raw_domain, idx_list in raw_domain_to_indices.items():
-        mapped = domain_mapping_EN.get(raw_domain)
+        mapped = domain_mapping_KR.get(raw_domain)
         if not mapped:
             mapped = "매핑 안됨"
         mapped_domain_count[mapped] += len(idx_list)
@@ -95,7 +95,7 @@ print("[2/4] 실험 결과 수집 중...")
 mapped_domain_to_results = defaultdict(list)
 
 for raw_domain, indices in tqdm(raw_domain_to_indices.items(), desc="도메인별 처리"):
-    mapped_domain = domain_mapping_EN.get(raw_domain)
+    mapped_domain = domain_mapping_KR.get(raw_domain)
     if not mapped_domain:
         print(f"[!] 매핑되지 않은 도메인: {raw_domain}")
         continue

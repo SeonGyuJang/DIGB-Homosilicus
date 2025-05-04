@@ -111,7 +111,7 @@ def main():
         return
 
     sample_and_save(buckets, SAMPLE_SIZE_PER_DOMAIN, OUTPUT_PATH)
-    add_idx_to_jsonl(OUTPUT_PATH)  # 샘플링 끝나고 idx 추가!
+    add_idx_to_jsonl(OUTPUT_PATH) 
 
 if __name__ == "__main__":
     main()
