@@ -56,7 +56,7 @@ DIGB-Homosilicus/
 | 단계 | 설명 | 실행 스크립트 |
 |:----:|:------:|:---------------:|
 | 0 | Google Drive에서 전체 데이터 자동 다운로드 | `Download_Data.py` |
-| 1 | 상위 N개 도메인 추출 및 샘플링( idx 부여 ) | `Data_Extraction.py` |
+| 1 | 상위 N개 도메인 추출 및 샘플링(idx 부여) | `Data_Extraction.py` |
 | 2 | _(선택)_ 영어 → 한국어 페르소나 번역 | `Persona_Data_Translation.py` |
 | 3 | 페르소나 임베딩 벡터 계산 | `Persona_embeddings.py` |
 | 4 | t‑SNE를 활용한 도메인 분포 시각화 | `Visualization_TSNE.py` |
