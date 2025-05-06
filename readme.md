@@ -55,15 +55,15 @@ DIGB-Homosilicus/
 
 | 단계 | 설명 | 실행 스크립트 |
 |:----:|:------:|:---------------:|
-| 0 | Google Drive에서 전체 데이터 자동 다운로드 | `Download_Data.py` |
-| 1 | 상위 N개 도메인 추출 및 샘플링(idx 부여) | `Data_Extraction.py` |
-| 2 | _(선택)_ 영어 → 한국어 페르소나 번역 | `Persona_Data_Translation.py` |
-| 3 | 페르소나 임베딩 벡터 계산 | `Persona_embeddings.py` |
-| 4 | t‑SNE를 활용한 도메인 분포 시각화 | `Visualization_TSNE.py` |
-| 5 | LangChain 기반 실험 수행 (EN/KR) | `(EN/KR))Run.py` |
-| 6 | 도메인별 실험 결과 병합 | `Merge_results_by_domain.py` |
-| 7 | Left/Right 선택 비율 분석 요약 | `Result_Analysis.py` |
-| 8 | 실험 결과 시나리오별 시각화 | `(EN/KR)Visualization_Experiment.py` |
+| 0 | Google Drive에서 전체 데이터 자동 다운로드 | `download_data.py` |
+| 1 | 상위 N개 도메인 추출 및 샘플링(idx 부여) | `data_extraction.py` |
+| 2 | _(선택)_ 영어 → 한국어 페르소나 번역 | `persona_data_translation.py` |
+| 3 | 페르소나 임베딩 벡터 계산 | `persona_embeddings.py` |
+| 4 | t‑SNE를 활용한 도메인 분포 시각화 | `visualization_tsne.py` |
+| 5 | LangChain 기반 실험 수행 (EN/KR) | `run.py` |
+| 6 | 도메인별 실험 결과 병합 | `merge_results_by_domain.py` |
+| 7 | Left/Right 선택 비율 분석 요약 | `result_Analysis.py` |
+| 8 | 실험 결과 시나리오별 시각화 | `visualization_experiment.py` |
 
 ---
 
