@@ -69,85 +69,85 @@ DIGB-Homosilicus/
 
 ## 주요 스크립트별 기능
 
-### 0. Download_Data.py
+### 0. download_data.py
 Google Drive 공유 링크(공유 폴더)에서 전체 데이터를 자동 다운로드합니다.
 ~~~bash
-python Download_Data.py
+python download_data.py
 ~~~
 
-### 1. Data_Extraction.py
+### 1. data_extraction.py
 도메인 기준으로 페르소나 데이터를 샘플링하고 `idx`를 부여합니다.
 ~~~bash
 # 상위 도메인 목록 보기
-python Data_Extraction(JSONL).py --list
+python data_extraction(JSONL).py --list
 
 # 특정 도메인 추출
-python Data_Extraction(JSONL).py --domains history,economics,law,...
+python data_extraction(JSONL).py --domains history,economics,law,...
 ~~~
 
-### 2. Persona_Data_Translation.py
+### 2. persona_data_translation.py
 영어 페르소나 데이터를 한국어로 번역합니다.
 ~~~bash
 # 전체 번역
-python Persona_Data_Translation.py --mode full
+python persona_data_translation.py --mode full
 
 # 누락된 항목만 재번역
-python Persona_Data_Translation.py --mode retry_missing
+python persona_data_translation.py --mode retry_missing
 ~~~
 
-### 3. Persona_embeddings.py
+### 3. persona_embeddings.py
 Sentence‑BERT로 임베딩을 생성합니다.
 ~~~bash
-python Persona_embeddings.py
+python persona_embeddings.py
 ~~~
 
-### 4. Visualization_TSNE.py
+### 4. visualization_tsne.py
 임베딩을 t‑SNE로 시각화합니다.
 ~~~bash
-python Visualization_TSNE.py
+python visualization_tsne.py
 ~~~
 
-### 5. (EN|KR)Run.py
+### 5. (en|kr)_run.py
 LLM(Gemini API)을 이용한 실험 자동화 수행.
 ~~~bash
 # 전체 페르소나 실험
-python (EN|KR)Run.py --config pre|main --all
+python (en|kr)_run.py --config pre|main --all
 
 # 특정 ID만 실험
-python (EN|KR)Run.py --config pre|main --ids 1,2,3...
+python (en|kr)_run.py --config pre|main --ids 1,2,3...
 
 # 아직 결과가 없는 항목만 실험
-python (EN|KR)Run.py --config pre|main --rerun-missing
+python (en|kr)_run.py --config pre|main --rerun-missing
 
 # 결과에 문제 있는 항목만 재실험
-python (EN|KR)Run.py --config pre|main --rerun-problems
+python (en|kr)_run.py --config pre|main --rerun-problems
 
 # 페르소나 없이 실험
-python (EN|KR)Run.py --config pre|main --nopersona
+python (en|kr)_run.py --config pre|main --nopersona
 ~~~
 
-### 6. Merge_results_by_domain.py
+### 6. merge_results_by_domain.py
 개별 JSON 결과 파일을 도메인별로 병합합니다.
 ~~~bash
 # 결과 병합
-python Merge_results_by_domain.py
+python merge_results_by_domain.py
 
 # 도메인별 페르소나 수 확인
-python Merge_results_by_domain.py --count_domain
+python merge_results_by_domain.py --count_domain
 ~~~
 
-### 7. Result_Analysis.py
+### 7. result_analysis.py
 Left/Right 응답 비율을 요약합니다.
 ~~~bash
-python Result_Analysis.py
+python result_analysis.py
 ~~~
 생성 파일 → `(EN|KR)summary_by_domain.txt`
 
-### 8. (EN|KR)Visualization_Experiment.py
+### 8. (en|kr)_visualization_experiment.py
 시나리오별 도메인 응답 비율을 시각화합니다.
 ~~~bash
-python (EN)Visualization_Experiment.py
-python (KR)Visualization_Experiment.py
+python (en|kr)_visualization_experiment.py
+python (en|kr)_visualization_experiment.py
 ~~~
 출력 파일 → `(EN|KR)scenario_domain_comparison.png`
 
