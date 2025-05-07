@@ -14,8 +14,8 @@ load_dotenv()
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")  # NOTE: .env 파일 필요
 MODEL_NAME = "gemini-2.0-flash"
 
-INPUT_PATH = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\data\(EN)PERSONA_DATA_10000.jsonl")
-OUTPUT_PATH = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\data\(KR)PERSONA_DATA_10000.jsonl")
+INPUT_PATH = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\Data\Common\(EN)PERSONA_DATA_10000.jsonl")
+OUTPUT_PATH = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\Data\Common\(AR)PERSONA_DATA_10000.jsonl")
 
 llm = ChatGoogleGenerativeAI(
     model=MODEL_NAME,
@@ -24,35 +24,36 @@ llm = ChatGoogleGenerativeAI(
 
 prompt_template = PromptTemplate(
     input_variables=["persona", "domain"],
-    template="""다음은 영어로 작성된 페르소나와 연구 도메인 설명입니다.
+    template="""هنا شخصيات مكتوبة باللغة الإنجليزية وأوصاف مجال البحث.
 
-[페르소나]
+[بيرسونا]
 {persona}
 
-[연구 도메인]
+[مجال البحث]
 {domain}
 
-각 항목을 자연스럽고 전문적으로 한국어로 번역해주세요.
-반드시 JSON 형식으로 답변하세요.
+ترجمة كل عنصر إلى اللغة العربية بطريقة طبيعية ومهنية.
+تأكد من الرد على شكل JSON.
 
-도메인은 반드시 아래와 같이 번역하세요.
-History → 역사 
-Law → 법학 
-Philosophy → 철학 
-Economics → 경제학 
-Sociology → 사회학 
-Finance → 금융학 
-Computer Science → 컴퓨터과학 
-Mathematics → 수학 
-Environmental Science → 환경과학 
-Engineering → 공학 
+قم بترجمة Download إلى الأسفل.
+التاريخ → التاريخ 
+القانون → القانون 
+الفلسفة Philosophy → 
+Economics → الاقتصاد 
+Sociology → علم الاجتماع 
+المالية → المالية 
+Computer Science → علوم الحاسب 
+Mathematics → الرياضيات 
+العلوم البيئية → العلوم البيئية 
+الهندسة → الهندسة 
 
-출력 형식:
+نوع الخرج:
 {{
-    "persona": "번역된 페르소나",
-    "general domain (top 1 percent)": "번역된 도메인"
+    "persona": "الشخصيات المترجمة",
+    "general domain (top 1 percent)" : "المجال المترجم"
 }}
 """
+
 )
 parser = JsonOutputParser()
 chain = prompt_template | llm | parser
