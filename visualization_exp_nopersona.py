@@ -96,8 +96,8 @@ def plot_subplot(ax, dataset, title, order_keys, bar_w=0.5, gap=2.0):
     ax.legend(handles, ["Left", "Right"], frameon=False,
               loc="upper left", bbox_to_anchor=(1.02, 1))
 
-# ───────────── 6) 2×1 subplot & 저장 ───────────── #
-fig, axes = plt.subplots(1, 2, figsize=(22, 5), sharey=True)
+# ───────────── 6) 2×1 subplot (세로 배치) & 저장 ───────────── #
+fig, axes = plt.subplots(2, 1, figsize=(14, 10), sharex=False)
 
 # EN: 하 → 중 → 상 (easy → medium → hard)
 plot_subplot(axes[0], en_data, "Without~Persona: easy / medium / hard",
@@ -107,7 +107,7 @@ plot_subplot(axes[0], en_data, "Without~Persona: easy / medium / hard",
 plot_subplot(axes[1], kr_data, "Without~Persona: 하 / 중 / 상",
              order_keys=["하", "중", "상"])
 
-fig.suptitle("Comparison of Choice Distribution (Persona‑Free Experiments)", fontsize=16, y=1.05)
+fig.suptitle("Comparison of Choice Distribution (Persona‑Free Experiments)", fontsize=16, y=0.98)
 fig.tight_layout()
-plt.savefig("persona_free_comparison.png", dpi=300, bbox_inches="tight")
+plt.savefig("persona_free_comparison_vertical_subplots.png", dpi=300, bbox_inches="tight")
 plt.show()
