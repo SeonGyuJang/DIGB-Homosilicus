@@ -1,76 +1,99 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-# 데이터 정의
+# ---------------------------
+# 1) Data
+# ---------------------------
 scenarios = ["Berk29", "Berk26", "Berk23", "Berk15", "Barc8", "Barc2"]
 p_human_left = np.array([0.31, 0.78, 1.00, 0.27, 0.67, 0.52])
 p_llm_en_left = np.array([0.54, 0.99, 0.96, 0.36, 1.00, 0.96])
 p_llm_kr_left = np.array([0.18, 0.90, 1.00, 0.92, 0.78, 0.72])
 
-# HDI 계산
+# HDI (LLM - Human)
 hdi_en = p_llm_en_left - p_human_left
 hdi_kr = p_llm_kr_left - p_human_left
 
-x = np.arange(len(scenarios))
-bar_width = 0.35
-
-# 스타일 설정
+# ---------------------------
+# 2) Style
+# ---------------------------
 plt.rcParams.update({
     "font.family": "DejaVu Sans",
-    "font.size": 9,
-    "axes.labelsize": 9,
-    "axes.titlesize": 10,
-    "xtick.labelsize": 8,
-    "ytick.labelsize": 8,
-    "legend.fontsize": 8,
-    "pdf.fonttype": 42,  # for LaTeX compatibility
+    "font.size": 10,
+    "axes.labelsize": 11,
+    "axes.titlesize": 13,
+    "xtick.labelsize": 10,
+    "ytick.labelsize": 11,
+    "legend.fontsize": 10,
+    "pdf.fonttype": 42,
 })
 
-fig, ax = plt.subplots(figsize=(7, 5), dpi=300)
+# Colors
+COLOR_HUMAN = "#6e6e6e"
+COLOR_EN    = "#2f6cce"
+COLOR_KR    = "#d14a49"
+EDGE_COLOR  = "black"
 
-# 막대 그래프: human + HDI (EN/KR)
-ax.bar(x - bar_width/2, p_human_left, width=bar_width, label="Human (EN Base)", color="gray")
-ax.bar(x - bar_width/2, hdi_en, width=bar_width, bottom=p_human_left, label="HDI (EN)", color="cornflowerblue")
-ax.bar(x + bar_width/2, p_human_left, width=bar_width, label="Human (KR Base)", color="lightgray")
-ax.bar(x + bar_width/2, hdi_kr, width=bar_width, bottom=p_human_left, label="HDI (KR)", color="salmon")
+# ---------------------------
+# 3) Plot
+# ---------------------------
+n = len(scenarios)
+y = np.arange(n)
 
-# 텍스트 주석: 최종 확률 + HDI 변화량
-for i in range(len(x)):
-    en_total = p_llm_en_left[i]
-    kr_total = p_llm_kr_left[i]
+# Thicker bars & no inner-gap
+bar_height = 0.26
+offset_h =  bar_height   # Human (top)
+offset_e =  0.0          # EN (middle)
+offset_k = -bar_height   # KR (bottom)
+line_w   = 0.8
 
-    # 최종 EN, KR 확률 (검정)
-    ax.text(x[i] - bar_width/2, en_total + 0.015, f"{en_total:.2f}",
-            ha='center', va='bottom', fontsize=8, color='black')
-    ax.text(x[i] + bar_width/2, kr_total + 0.015, f"{kr_total:.2f}",
-            ha='center', va='bottom', fontsize=8, color='black')
+fig, ax = plt.subplots(figsize=(9, 6), dpi=600)
 
-    # HDI 변화량 (EN: 파랑, KR: 빨강)
-    en_hdi_y = p_human_left[i] + hdi_en[i]/2
-    kr_hdi_y = p_human_left[i] + hdi_kr[i]/2 + 0.01
+ax.barh(y + offset_h, p_human_left, height=bar_height, label="Human",
+        color=COLOR_HUMAN, edgecolor=EDGE_COLOR, linewidth=line_w)
+ax.barh(y + offset_e, p_llm_en_left, height=bar_height, label="LLM (EN)",
+        color=COLOR_EN, edgecolor=EDGE_COLOR, linewidth=line_w)
+ax.barh(y + offset_k, p_llm_kr_left, height=bar_height, label="LLM (KR)",
+        color=COLOR_KR, edgecolor=EDGE_COLOR, linewidth=line_w)
 
-    if scenarios[i] == "Berk23":
-        en_hdi_y += 0.05
-        kr_hdi_y -= 0.03
+# ---------------------------
+# 4) Annotations
+# ---------------------------
+for i in range(n):
+    h, e, k = p_human_left[i], p_llm_en_left[i], p_llm_kr_left[i]
+    # 값 + %p
+    ax.text(min(h + 0.01, 1.22), y[i] + offset_h, f"{h:.2f}",
+            va="center", ha="left", fontsize=9, color="black")
+    ax.text(min(e + 0.01, 1.22), y[i] + offset_e, f"{e:.2f} ({(e-h)*100:+.0f}%p)",
+            va="center", ha="left", fontsize=9, color=COLOR_EN, fontweight="bold")
+    ax.text(min(k + 0.01, 1.22), y[i] + offset_k, f"{k:.2f} ({(k-h)*100:+.0f}%p)",
+            va="center", ha="left", fontsize=9, color=COLOR_KR, fontweight="bold")
 
-    ax.text(x[i] - bar_width/2, en_hdi_y,
-            f"{hdi_en[i]:+0.2f}", ha='center', va='center', fontsize=8, color='#003f8e')
-    ax.text(x[i] + bar_width/2, kr_hdi_y,
-            f"{hdi_kr[i]:+0.2f}", ha='center', va='center', fontsize=8, color='#8b0000')
+# ---------------------------
+# 5) Axes, grid, legend
+# ---------------------------
+ax.set_yticks(y)
+ax.set_yticklabels(scenarios)
 
-# 축, 제목, 범례 설정
-ax.set_xticks(x)
-ax.set_xticklabels(scenarios)
-ax.set_ylim(0, 1.2)
-ax.set_ylabel("Proportion Choosing Left Option")
-ax.set_title("Human Deviation Index (HDI) Relative to Human Baseline Across Scenarios")
-ax.axhline(1.0, color='gray', linestyle='--', linewidth=0.5)
+# 1.00이 80% 위치에 오도록 확장
+ax.set_xlim(0, 1.25)
+# 눈금은 1.0까지만
+ax.set_xticks(np.linspace(0, 1.0, 6))
 
-# 범례 박스: 반투명 배경 추가
-legend = ax.legend(loc='lower right', frameon=True)
-legend.get_frame().set_facecolor('white')
-legend.get_frame().set_alpha(0.85)
-legend.get_frame().set_edgecolor('lightgray')
+ax.set_ylabel("Scenarios", fontsize=10)
+ax.set_title("HDI Across Scenarios — LLM (EN/KR) vs. Human", fontsize=10)
+
+ax.xaxis.grid(True, which="major", linewidth=0.4, alpha=0.3)
+ax.set_axisbelow(True)
+
+legend = ax.legend(loc="lower right", frameon=True)
+legend.get_frame().set_facecolor("white")
+legend.get_frame().set_alpha(0.9)
+legend.get_frame().set_edgecolor("#d0d0d0")
+
+# 1.0 기준선
+ax.axvline(1.0, color="#777777", linestyle="--", linewidth=0.6, alpha=0.7)
 
 plt.tight_layout()
+plt.savefig("hdi_horizontal_thick_nogap.png", dpi=600, bbox_inches="tight")
+plt.savefig("hdi_horizontal_thick_nogap.pdf", dpi=600, bbox_inches="tight")
 plt.show()

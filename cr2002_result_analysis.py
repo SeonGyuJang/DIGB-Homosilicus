@@ -2,8 +2,8 @@ import json
 from pathlib import Path
 from collections import defaultdict
 
-INPUT_DIR   = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\Data\Results\Experiments\CR2002\results_by_domain(KR)")
-OUTPUT_FILE = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\Data\Results\Experiments\CR2002\(KR)summary_by_domain.txt")
+INPUT_DIR   = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\pre_results\no_persona\(EN)CR2002_EXPERIMENT_RESULTS_NOPERSONA")
+OUTPUT_FILE = Path(r"C:\Users\dsng3\Documents\GitHub\DIGB-Homosilicus\pre_results\no_persona\(EN)nopersona_by_domain.tx")
 
 SCENARIO_KEYS = [f"scenario_{i}" for i in range(1, 7)]
 
