@@ -4,10 +4,11 @@ import numpy as np
 # ---------------------------
 # 1) Data
 # ---------------------------
-scenarios = ["Berk29", "Berk26", "Berk23", "Berk15", "Barc8", "Barc2"]
-p_human_left = np.array([0.31, 0.78, 1.00, 0.27, 0.67, 0.52])
-p_llm_en_left = np.array([0.54, 0.99, 0.96, 0.36, 1.00, 0.96])
-p_llm_kr_left = np.array([0.18, 0.90, 1.00, 0.92, 0.78, 0.72])
+# 순서를 뒤집어서 Berk29가 가장 위에 오도록 수정
+scenarios = ["Barc2", "Barc8", "Berk15", "Berk23", "Berk26", "Berk29"]
+p_human_left = np.array([0.52, 0.67, 0.27, 1.00, 0.78, 0.31])
+p_llm_en_left = np.array([0.96, 1.00, 0.36, 0.96, 0.99, 0.54])
+p_llm_kr_left = np.array([0.72, 0.78, 0.92, 1.00, 0.90, 0.18])
 
 # HDI (LLM - Human)
 hdi_en = p_llm_en_left - p_human_left
@@ -24,7 +25,6 @@ plt.rcParams.update({
     "xtick.labelsize": 10,
     "ytick.labelsize": 11,
     "legend.fontsize": 10,
-    "pdf.fonttype": 42,
 })
 
 # Colors
@@ -72,7 +72,20 @@ for i in range(n):
 # 5) Axes, grid, legend
 # ---------------------------
 ax.set_yticks(y)
-ax.set_yticklabels(scenarios)
+
+# 시나리오 정보 추가
+scenario_info = {
+    "Berk29": "(400,400) vs. (750,400)",
+    "Berk26": "(0,800) vs. (400,400)",
+    "Berk23": "(800,200) vs. (0,0)",
+    "Berk15": "(200,700) vs. (600,600)",
+    "Barc8": "(300,600) vs. (700,500)",
+    "Barc2": "(400,400) vs. (750,375)",
+}
+
+new_labels = [f"{s}\n{scenario_info[s]}" for s in scenarios]
+ax.set_yticklabels(new_labels)
+
 
 # 1.00이 80% 위치에 오도록 확장
 ax.set_xlim(0, 1.25)
@@ -85,7 +98,7 @@ ax.set_title("HDI Across Scenarios — LLM (EN/KR) vs. Human", fontsize=10)
 ax.xaxis.grid(True, which="major", linewidth=0.4, alpha=0.3)
 ax.set_axisbelow(True)
 
-legend = ax.legend(loc="lower right", frameon=True)
+legend = ax.legend(loc="upper right", frameon=True)
 legend.get_frame().set_facecolor("white")
 legend.get_frame().set_alpha(0.9)
 legend.get_frame().set_edgecolor("#d0d0d0")
@@ -95,5 +108,4 @@ ax.axvline(1.0, color="#777777", linestyle="--", linewidth=0.6, alpha=0.7)
 
 plt.tight_layout()
 plt.savefig("hdi_horizontal_thick_nogap.png", dpi=600, bbox_inches="tight")
-plt.savefig("hdi_horizontal_thick_nogap.pdf", dpi=600, bbox_inches="tight")
 plt.show()
